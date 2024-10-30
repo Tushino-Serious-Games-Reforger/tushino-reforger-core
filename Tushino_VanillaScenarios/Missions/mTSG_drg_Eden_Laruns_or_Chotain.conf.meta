@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8FB73F0871A4A388}Missions/mTSG_drg_Eden_Laruns_or_Chotain.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

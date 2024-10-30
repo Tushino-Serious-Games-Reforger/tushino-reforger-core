@@ -169,5 +169,13 @@ StringTable {
    Author "hasta"
    LastChanged "hasta"
   }
+  CustomStringTableItem "{62BD0E2254543E98}" {
+   Id "DRG_ChangeFlagAction"
+   Target_en_us "Change flag"
+   Target_ru_ru "Сменить флаг"
+   Modified 1656557867
+   Author "fomin"
+   LastChanged "fomin"
+  }
  }
 }

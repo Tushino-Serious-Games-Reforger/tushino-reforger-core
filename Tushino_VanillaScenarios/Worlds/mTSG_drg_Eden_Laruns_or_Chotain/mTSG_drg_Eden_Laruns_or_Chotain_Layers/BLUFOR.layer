@@ -30,15 +30,6 @@ $grp SCR_AIGroup : "{360C6407B466DFE8}Prefabs/Groups/BLUFOR/drg_Group_US_RifleSq
     m_iSquadCallsign 3
    }
   }
-  coords 7461.906 7.875 6685.282
-  angleY -109.949
- }
- US_0_0_4 {
-  components {
-   PS_GroupCallsignAssigner "{62BCC98F72FEE891}" {
-    m_iSquadCallsign 4
-   }
-  }
   coords 7455.698 7.875 6712.385
   angleY -102.71
   m_aUnitPrefabSlots {

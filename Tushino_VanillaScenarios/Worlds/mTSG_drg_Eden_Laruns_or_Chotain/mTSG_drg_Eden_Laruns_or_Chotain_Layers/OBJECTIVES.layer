@@ -1,0 +1,22 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ {
+  coords 7072.119 118.641 6023.772
+  m_sTitle "Захватить один из НП"
+  m_sFactionKey "USSR"
+ }
+ {
+  coords 7092.348 130.04 6016.341
+  m_sTitle "Не дать захватить НП"
+  m_sFactionKey "US"
+ }
+ {
+  coords 7092.348 130.04 6016.341
+  m_sTitle "Разгромить противника"
+  m_sFactionKey "US"
+ }
+ {
+  coords 7072.119 118.641 6023.772
+  m_sTitle "Разгромить противника"
+  m_sFactionKey "USSR"
+ }
+}
