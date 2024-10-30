@@ -5,7 +5,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sImageSetGlow ""
   m_sQuadName "Task_Attack"
   m_fWorldSize 35
-  m_sDescription "Занять Ларун"
+  m_sDescription "Ларун"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
@@ -16,7 +16,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sImageSetGlow ""
   m_sQuadName "Task_Attack"
   m_fWorldSize 35
-  m_sDescription "Занять Шотен"
+  m_sDescription "Шотен"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
