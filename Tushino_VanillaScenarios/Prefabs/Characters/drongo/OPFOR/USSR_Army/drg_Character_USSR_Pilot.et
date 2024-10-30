@@ -1,10 +1,10 @@
-SCR_ChimeraCharacter : "{6A651A06B845EA4B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Unarmed.et" {
+SCR_ChimeraCharacter : "{6A651A06B845EA4B}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_Unarmed.et" {
  ID "520EC961A090BE1E"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_HelicopterPilot"
-    Icon "{C8D22D6EC2B5DD0A}UI/Icons/sso_pilot.edds"
+    Icon "{AF39CE6938074CF8}UI/Icons/pilot.edds"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
@@ -37,7 +37,7 @@ SCR_ChimeraCharacter : "{6A651A06B845EA4B}Prefabs/Characters/Factions/OPFOR/USSR
     ItemsInitConfigurationItem "{61B543D75C205A4E}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_NAZ/Vest_NAZ.et"
      PrefabsToSpawn {
-      "{92B819C350698359}Prefabs/Items/Equipment/Radios/Radio_R148_rprv.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+      "{92B819C350698359}Prefabs/Items/drongo/Equipment/Radios/Radio_R148_rprv.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
      }
     }
    }

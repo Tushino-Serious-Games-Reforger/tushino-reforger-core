@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{903097F658A99BE3}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman.et" {
+SCR_ChimeraCharacter : "{903097F658A99BE3}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman.et" {
  ID "520EC961A090BBD5"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -15,7 +15,7 @@ SCR_ChimeraCharacter : "{903097F658A99BE3}Prefabs/Characters/Factions/BLUFOR/US_
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_SquadLeader"
-    Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+    Icon "{61B33057F7F0A4AE}UI/Icons/squad_leader.edds"
    }
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
@@ -32,7 +32,7 @@ SCR_ChimeraCharacter : "{903097F658A99BE3}Prefabs/Characters/Factions/BLUFOR/US_
    InitialInventoryItems {
     ItemsInitConfigurationItem "{61B87867EA32507F}" {
      PrefabsToSpawn {
-      "{DB03C02C4AB1E0F0}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_SL.et"
+      "{DB03C02C4AB1E0F0}Prefabs/Items/drongo/Equipment/Radios/Radio_ANPRC68_SL.et"
      }
     }
     ItemsInitConfigurationItem "{61B87867FBB32E7F}" {

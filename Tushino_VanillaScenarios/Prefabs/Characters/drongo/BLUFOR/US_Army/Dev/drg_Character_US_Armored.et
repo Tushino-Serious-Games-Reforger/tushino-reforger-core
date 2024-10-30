@@ -1,6 +1,11 @@
-SCR_ChimeraCharacter : "{749CC8EDA102C70E}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Unarmed.et" {
+SCR_ChimeraCharacter : "{749CC8EDA102C70E}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Unarmed.et" {
  ID "520EC961A090BBD5"
  components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{D7F5BF1ECF66FB8F}UI/Icons/unarmed.edds"
+   }
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {

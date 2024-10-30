@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{836E7E39AAC5888B}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Base.et" {
+SCR_ChimeraCharacter : "{836E7E39AAC5888B}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Base.et" {
  ID "520EC961A090BBD5"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -15,7 +15,7 @@ SCR_ChimeraCharacter : "{836E7E39AAC5888B}Prefabs/Characters/Factions/BLUFOR/US_
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_Unarmed"
-    Icon "{9164E45B9A237FE9}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Unarmed.edds"
+    Icon "{D7F5BF1ECF66FB8F}UI/Icons/unarmed.edds"
    }
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {

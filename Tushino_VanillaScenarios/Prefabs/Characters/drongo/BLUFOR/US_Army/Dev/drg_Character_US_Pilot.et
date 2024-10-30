@@ -1,10 +1,10 @@
-SCR_ChimeraCharacter : "{749CC8EDA102C70E}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Unarmed.et" {
+SCR_ChimeraCharacter : "{749CC8EDA102C70E}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Unarmed.et" {
  ID "520EC961A090BBD5"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_HelicopterPilot"
-    Icon "{C8D22D6EC2B5DD0A}UI/Icons/sso_pilot.edds"
+    Icon "{AF39CE6938074CF8}UI/Icons/pilot.edds"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
@@ -37,7 +37,7 @@ SCR_ChimeraCharacter : "{749CC8EDA102C70E}Prefabs/Characters/Factions/BLUFOR/US_
     ItemsInitConfigurationItem "{61B87867EA32507F}" {
      TargetStorage "Prefabs/Characters/Uniforms/Suit_Pilot_US_01/Suit_Pilot_US_01.et"
      PrefabsToSpawn + {
-      "{BA2D0EE170E44DC7}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_rprv.et"
+      "{BA2D0EE170E44DC7}Prefabs/Items/drongo/Equipment/Radios/Radio_ANPRC68_rprv.et"
      }
     }
     ItemsInitConfigurationItem "{61B87CD188742328}" {
