@@ -7,6 +7,67 @@ GameProject {
  }
  Configurations {
   GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{62BCC1023675B16C}" {
+      StringTableSource "{24DA3E78B1B86931}Lang/langString.st"
+      Languages {
+       LanguageDefinition "{62BCC102C8FFB302}" {
+        Code "cs_cz"
+        StringTableRuntime "{3193CD23A7F3E5B8}Lang/langString.cs_cz.conf"
+       }
+       LanguageDefinition "{62BCC102C8FFB2B7}" {
+        Code "de_de"
+        StringTableRuntime "{E4EDD710B450F498}Lang/langString.de_de.conf"
+       }
+       LanguageDefinition "{62BCC102C8FFB29A}" {
+        Code "en_us"
+        StringTableRuntime "{BA1D5D5BDEA3F199}Lang/langString.en_us.conf"
+       }
+       LanguageDefinition "{62BCC102C8FFB283}" {
+        Code "es_es"
+        StringTableRuntime "{7F5110D230A19A86}Lang/langString.es_es.conf"
+       }
+       LanguageDefinition "{62BCC102C8FFB272}" {
+        Code "fr_fr"
+        StringTableRuntime "{C4F9E5E5D6227984}Lang/langString.fr_fr.conf"
+       }
+       LanguageDefinition "{62BCC102C8FFB251}" {
+        Code "it_it"
+        StringTableRuntime "{44E56AD17B00FA7D}Lang/langString.it_it.conf"
+       }
+       LanguageDefinition "{62BCC102C8FFB23D}" {
+        Code "ja_jp"
+        StringTableRuntime "{54FED7434571CAD6}Lang/langString.ja_jp.conf"
+       }
+       LanguageDefinition "{62BCC102C8FFB226}" {
+        Code "ko_kr"
+        StringTableRuntime "{F440FFEFD65CC9E9}Lang/langString.ko_kr.conf"
+       }
+       LanguageDefinition "{62BCC102C8FFB209}" {
+        Code "pl_pl"
+        StringTableRuntime "{A831591568B35595}Lang/langString.pl_pl.conf"
+       }
+       LanguageDefinition "{62BCC102C8FFB1F3}" {
+        Code "pt_br"
+        StringTableRuntime "{7D46C3D9534D9F2F}Lang/langString.pt_br.conf"
+       }
+       LanguageDefinition "{62BCC102C8FFB1DA}" {
+        Code "ru_ru"
+        StringTableRuntime "{2807D771CE34FA59}Lang/langString.ru_ru.conf"
+       }
+       LanguageDefinition "{62BCC102C8FFB1C1}" {
+        Code "uk_ua"
+        StringTableRuntime "{A25F8287A21A440C}Lang/langString.uk_ua.conf"
+       }
+       LanguageDefinition "{62BCC102C8FFB1B5}" {
+        Code "zh_cn"
+        StringTableRuntime "{78EFECBA9BBA9411}Lang/langString.zh_cn.conf"
+       }
+      }
+     }
+    }
+   }
   }
   GameProjectConfig XBOX_ONE {
   }

@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.156 0.088 0.063 1
+ BCRMap "{7158ABF55DCB308B}Assets/Items/Equipment/Radios/Radio_R148/Data/Radio_R148_01_BCR.edds"
+ NMOMap "{4980106784BC6215}Assets/Items/Equipment/Radios/Radio_R148/Data/Radio_R148_01_NMO.edds"
+}

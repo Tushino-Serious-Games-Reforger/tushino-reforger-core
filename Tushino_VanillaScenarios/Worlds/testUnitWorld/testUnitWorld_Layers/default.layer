@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter : "{EE4A01B2B7693A99}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_AR.et" {
+ coords 140.845 1 161.772
+}
+SCR_ChimeraCharacter : "{EF5410A6E1379176}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_AAT.et" {
+ coords 142.19 1 163.055
+}
+SCR_ChimeraCharacter : "{F111BECBF28A7C11}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_Armored.et" {
+ coords 139.885 1 161.099
+}

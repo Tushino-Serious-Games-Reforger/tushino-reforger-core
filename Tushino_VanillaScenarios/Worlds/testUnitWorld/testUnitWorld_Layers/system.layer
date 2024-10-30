@@ -1,0 +1,56 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 111.676 1 127.135
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 113.126 1 124.397
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ m_iFreezeTime 20000
+ m_aFactionRespawnCount {
+  PS_FactionRespawnCount "{60ECC979A2129D60}" {
+   m_sFactionKey "USSR"
+   m_iCount 4
+   m_iTime 10000
+  }
+  PS_FactionRespawnCount "{60F6DD5059F29A15}" {
+   m_sFactionKey "FIA"
+   m_iCount 3
+   m_iTime 10000
+  }
+ }
+ {
+  SCR_FactionManager "5EE8949D46B62B0A" {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{56DEAC40D2DBC8B1}" {
+     m_bIsPlayable 1
+    }
+    SCR_Faction "{56DEAC40D3C2E623}" {
+     m_bIsPlayable 1
+    }
+    SCR_Faction "{56DEAC40D132400B}" {
+     m_bIsPlayable 1
+    }
+   }
+  }
+ }
+}
+SCR_ChimeraCharacter : "{ADDE38E4119816AB}Prefabs/InitialPlayer_Version2.et" {
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{74AA3854E16D9D56}Prefabs/MenuRadio.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_VoNComponent "{520EA1D2F659C856}" {
+   Enabled 0
+  }
+ }
+ coords 154.057 1 104.954
+}

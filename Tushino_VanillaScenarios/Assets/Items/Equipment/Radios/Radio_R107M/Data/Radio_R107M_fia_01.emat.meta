@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CBB78C92DD957EF3}Assets/Items/Equipment/Radios/Radio_R107M/Data/Radio_R107M_fia_01.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+ }
+}
