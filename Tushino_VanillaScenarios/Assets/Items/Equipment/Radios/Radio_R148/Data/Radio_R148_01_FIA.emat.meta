@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D1D02402E0FE63BC}Assets/Items/Equipment/Radios/Radio_R148/Data/Radio_R148_01_FIA.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+ }
+}

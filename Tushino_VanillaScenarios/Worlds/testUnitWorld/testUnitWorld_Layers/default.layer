@@ -1,0 +1,26 @@
+GenericEntity : "{0DBE058F13F0C7E8}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_US.et" {
+ coords 132.683 1 178.141
+}
+GenericEntity : "{14B2D417839BF8A3}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_USSR.et" {
+ coords 133.737 1 177.556
+}
+SCR_ChimeraCharacter : "{4438AEFF45A8CE9E}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Rifleman.et" {
+ coords 128.652 1 176.909
+}
+$grp GenericEntity : "{8364151EF33B3B33}Prefabs/Structures/Core/FlagPole_Base_temp.et" {
+ {
+  coords 132.596 1 176.98
+ }
+ {
+  coords 129.32 1 177.954
+ }
+ {
+  coords 133.135 1 176.216
+ }
+ {
+  coords 129.23 1 176.713
+ }
+}
+GenericEntity : "{8528347E5F47F2A4}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_FIA.et" {
+ coords 131.328 1 177.315
+}

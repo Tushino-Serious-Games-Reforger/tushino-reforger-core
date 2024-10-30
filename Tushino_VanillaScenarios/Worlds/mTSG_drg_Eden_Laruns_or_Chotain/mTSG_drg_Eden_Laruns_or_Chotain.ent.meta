@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{452E6834C55656D3}Worlds/mTSG_drg_Eden_Laruns_or_Chotain/mTSG_drg_Eden_Laruns_or_Chotain.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

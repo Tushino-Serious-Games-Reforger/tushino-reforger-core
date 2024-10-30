@@ -1,0 +1,94 @@
+$grp SCR_AIGroup : "{360C6407B466DFE8}Prefabs/Groups/BLUFOR/drg_Group_US_RifleSquad.et" {
+ US_0_0_2 {
+  components {
+   PS_GroupCallsignAssigner "{62BCC98F72FEE891}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 7458.978 7.875 6698.063
+  angleY -110.472
+ }
+ US_0_0_1 {
+  components {
+   PS_GroupCallsignAssigner "{62BCC98F72FEE891}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 7460.638 7.875 6690.815
+  angleY -114.314
+ }
+ US_0_0_0 {
+  coords 7457.209 7.875 6705.789
+  angleY -12.9
+  m_aUnitPrefabSlots {
+   "{9F809A16C8265C6C}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_PL.et" "{D129F2A4986026E5}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Sniper.et" "{ED7C02DBC8B7FECA}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Medic.et"
+  }
+ }
+ US_0_0_3 {
+  components {
+   PS_GroupCallsignAssigner "{62BCC98F72FEE891}" {
+    m_iSquadCallsign 3
+   }
+  }
+  coords 7455.698 7.875 6712.385
+  angleY -102.71
+  m_aUnitPrefabSlots {
+   "{069E238FD5C16DFC}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_SL.et" "{39010C8A890ADB0C}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_MG.et" "{19D560184F0A377F}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_MGAB.et" "{B4AF7D0D98A7AD6E}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_MGA.et" "{39010C8A890ADB0C}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_MG.et" "{19D560184F0A377F}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_MGAB.et" "{B4AF7D0D98A7AD6E}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_MGA.et"
+  }
+ }
+ US_2_0_0_T {
+  components {
+   PS_GroupCallsignAssigner "{62BCC98F72FEE891}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 7057.345 118.557 6019.815
+  angleY -114.314
+  m_sCustomNameSet "Гарнизон в Шотен"
+ }
+ US_3_0_0_T2 {
+  components {
+   PS_GroupCallsignAssigner "{62BCC98F72FEE891}" {
+    m_iCompanyCallsign 3
+   }
+  }
+  coords 7555.697 82.78 5524.42
+  angleY 144.89
+  m_sCustomNameSet "Гарнизон в Ларун"
+ }
+ US_4_0_0_T {
+  components {
+   PS_GroupCallsignAssigner "{62BCC98F72FEE891}" {
+    m_iCompanyCallsign 4
+   }
+  }
+  coords 7076.057 116.879 5413.955
+  angleY 144.89
+  m_aUnitPrefabSlots {
+   "{CBED715857D6D899}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Leader.et" "{782D3558D8572AB1}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_RTO.et" "{72B2FE631E2E9AA4}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Sapper.et" "{9E0647E647A7EFCE}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Medic.et"
+  }
+  m_sCustomNameSet "Развед.дозор"
+ }
+}
+Vehicle M151A2_transport1 : "{47D94E1193A88497}Prefabs/Vehicles/Wheeled/M151A2/M151A2_transport.et" {
+ coords 7078.651 117.102 5408.405
+ angleY -29.635
+}
+$grp Vehicle : "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et" {
+ M923A1_transport_covered1 {
+  coords 7415.239 9.766 6766.949
+  angleY 123.046
+ }
+ M923A1_transport_covered2 {
+  coords 7411.381 9.766 6761.02
+  angleY 123.046
+ }
+ M923A1_transport_covered3 {
+  coords 7408.247 9.766 6756.202
+  angleY 123.046
+ }
+ M923A1_transport_covered4 {
+  coords 7392.939 9.763 6736.312
+  angleY 124.361
+ }
+}

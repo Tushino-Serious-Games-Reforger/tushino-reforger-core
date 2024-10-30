@@ -1,0 +1,14 @@
+$grp GenericEntity : "{0DBE058F13F0C7E8}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_US.et" {
+ {
+  coords 7099.294 132.365 6029.422
+  angleX 15.499
+  angleY -29.876
+  angleZ -36.226
+ }
+ {
+  coords 7546.135 88.292 5512.713
+  angleX -11.424
+  angleY 162.695
+  angleZ -51.594
+ }
+}

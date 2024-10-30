@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.283 0.283 0.283 1
+ BCRMap "{0A99B23F3B9A78A2}Data/Assets/Weapon/NSP/NSP_OrangeTexture.edds"
+ NMOMap "{294BCF73B5EA9775}Assets/Weapons/Grenades/RDG2/Data/RDG2_NMO.edds"
+}
