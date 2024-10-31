@@ -1,0 +1,95 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 111.676 1 127.135
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 113.126 1 124.397
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_CampaignBuildingManagerComponent "{61B4DDBF56BF1B48}" {
+   m_OutlineManager SCR_CampaignBuildingCompositionOutlineManager "{5DF6FBB5913F3245}" {
+    m_aCompositionLayouts {
+     SCR_CampaignBuildingCompositionOutline "{5E88B055AECC1CA3}" {
+      m_iBuildingValue 50000
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B055AE8B0AAD}" {
+      m_iBuildingValue 50000
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B055AE171BE0}" {
+      m_iBuildingValue 50000
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B04A7701A2A8}" {
+      m_iBuildingValue 50000
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B04A77205ED6}" {
+      m_iBuildingValue 50000
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B04A5552879A}" {
+      m_iBuildingValue 50000
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B0489E3AA298}" {
+      m_iBuildingValue 50000
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B0489FDBAB79}" {
+      m_iBuildingValue 50000
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B046F1D6FD63}" {
+      m_iBuildingValue 50000
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B046F1F57EA3}" {
+      m_iBuildingValue 50000
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B046F18FA42C}" {
+      m_iBuildingValue 50000
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B07DCA32C81F}" {
+      m_iBuildingValue 50000
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B07DCBD32DB3}" {
+      m_iBuildingValue 50000
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E8A722E1480BD64}" {
+      m_iBuildingValue 50000
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E8A722E14A6F5FF}" {
+      m_iBuildingValue 50000
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E8A722E760349A1}" {
+      m_iBuildingValue 50000
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E8A722E77DFEFBE}" {
+      m_iBuildingValue 50000
+     }
+    }
+   }
+  }
+  SCR_InitWeatherComponent "{61B68227C35BFE9A}" {
+   m_sInitialStartingWeatherId "Clear"
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 6
+  }
+ }
+ m_bMarkersOnlyOnBriefing 1
+ m_bRemoveRedundantUnits 1
+ m_bRemoveSquadMarkers 1
+ m_iFreezeTime 300000
+ m_bDisableChat 1
+ m_bReserveSlots 1
+ {
+  SCR_FactionManager "5EE8949D46B62B0A" {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{56DEAC40D2DBC8B1}" {
+     m_bIsPlayable 1
+    }
+    SCR_Faction "{56DEAC40D3C2E623}" {
+     m_bIsPlayable 1
+    }
+    SCR_Faction "{56DEAC40D132400B}" {
+     m_bIsPlayable 1
+    }
+   }
+  }
+ }
+}
