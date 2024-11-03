@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{903097F658A99BE3}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman.et" {
+SCR_ChimeraCharacter : "{903097F658A99BE3}Prefabs/Characters/Drongo/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman.et" {
  ID "520EC961A090BBD5"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -32,7 +32,7 @@ SCR_ChimeraCharacter : "{903097F658A99BE3}Prefabs/Characters/drongo/BLUFOR/US_Ar
    InitialInventoryItems {
     ItemsInitConfigurationItem "{61B87867EA32507F}" {
      PrefabsToSpawn {
-      "{DB03C02C4AB1E0F0}Prefabs/Items/drongo/Equipment/Radios/Radio_ANPRC68_SL.et"
+      "{DB03C02C4AB1E0F0}Prefabs/Items/Drongo/Equipment/Radios/Radio_ANPRC68_SL.et"
      }
     }
     ItemsInitConfigurationItem "{61B87867FBB32E7F}" {

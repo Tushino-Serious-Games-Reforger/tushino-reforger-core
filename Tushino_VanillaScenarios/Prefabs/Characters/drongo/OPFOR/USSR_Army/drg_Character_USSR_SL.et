@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{48C93CF154FFB9EF}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_SR.et" {
+SCR_ChimeraCharacter : "{48C93CF154FFB9EF}Prefabs/Characters/Drongo/OPFOR/USSR_Army/drg_Character_USSR_SR.et" {
  ID "520EC961A090BE1E"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -22,12 +22,12 @@ SCR_ChimeraCharacter : "{48C93CF154FFB9EF}Prefabs/Characters/drongo/OPFOR/USSR_A
    InitialInventoryItems {
     ItemsInitConfigurationItem "{61B543E55260DECA}" {
      PrefabsToSpawn + {
-      "{E4D45E4C68E52CF0}Prefabs/Items/drongo/Weapons/Grenades/Smoke_NSP_Orange.et" "{E4D45E4C68E52CF0}Prefabs/Items/drongo/Weapons/Grenades/Smoke_NSP_Orange.et" "{E4D45E4C68E52CF0}Prefabs/Items/drongo/Weapons/Grenades/Smoke_NSP_Orange.et"
+      "{E4D45E4C68E52CF0}Prefabs/Items/Drongo/Weapons/Grenades/Smoke_NSP_Orange.et" "{E4D45E4C68E52CF0}Prefabs/Items/Drongo/Weapons/Grenades/Smoke_NSP_Orange.et" "{E4D45E4C68E52CF0}Prefabs/Items/Drongo/Weapons/Grenades/Smoke_NSP_Orange.et"
      }
     }
     ItemsInitConfigurationItem "{61B543EAEB9BD049}" {
      PrefabsToSpawn {
-      "{6492196F107687BC}Prefabs/Items/drongo/Equipment/Radios/Radio_R148_SL.et"
+      "{6492196F107687BC}Prefabs/Items/Drongo/Equipment/Radios/Radio_R148_SL.et"
      }
     }
    }

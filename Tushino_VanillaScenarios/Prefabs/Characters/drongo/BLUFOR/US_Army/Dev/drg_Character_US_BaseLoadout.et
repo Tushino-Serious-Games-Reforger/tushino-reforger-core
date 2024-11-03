@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{836E7E39AAC5888B}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Base.et" {
+SCR_ChimeraCharacter : "{836E7E39AAC5888B}Prefabs/Characters/Drongo/BLUFOR/US_Army/Dev/drg_Character_US_Base.et" {
  ID "520EC961A090BBD5"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {

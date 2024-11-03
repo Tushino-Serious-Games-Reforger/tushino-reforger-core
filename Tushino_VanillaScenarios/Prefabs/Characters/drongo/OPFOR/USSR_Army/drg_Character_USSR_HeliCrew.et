@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{8E1DE06D8C1B0EDC}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_Pilot.et" {
+SCR_ChimeraCharacter : "{8E1DE06D8C1B0EDC}Prefabs/Characters/Drongo/OPFOR/USSR_Army/drg_Character_USSR_Pilot.et" {
  ID "520EC961A090BE1E"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -30,7 +30,7 @@ SCR_ChimeraCharacter : "{8E1DE06D8C1B0EDC}Prefabs/Characters/drongo/OPFOR/USSR_A
     ItemsInitConfigurationItem "{61CD4BA52EB9EB38}" {
      TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Veshmeshok.et"
      PrefabsToSpawn {
-      "{E4D45E4C68E52CF0}Prefabs/Items/drongo/Weapons/Grenades/Smoke_NSP_Orange.et" "{E4D45E4C68E52CF0}Prefabs/Items/drongo/Weapons/Grenades/Smoke_NSP_Orange.et" "{E4D45E4C68E52CF0}Prefabs/Items/drongo/Weapons/Grenades/Smoke_NSP_Orange.et" "{E4D45E4C68E52CF0}Prefabs/Items/drongo/Weapons/Grenades/Smoke_NSP_Orange.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
+      "{E4D45E4C68E52CF0}Prefabs/Items/Drongo/Weapons/Grenades/Smoke_NSP_Orange.et" "{E4D45E4C68E52CF0}Prefabs/Items/Drongo/Weapons/Grenades/Smoke_NSP_Orange.et" "{E4D45E4C68E52CF0}Prefabs/Items/Drongo/Weapons/Grenades/Smoke_NSP_Orange.et" "{E4D45E4C68E52CF0}Prefabs/Items/Drongo/Weapons/Grenades/Smoke_NSP_Orange.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
      }
     }
    }

@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{0A094940386CC0EF}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_BaseLoadout.et" {
+SCR_ChimeraCharacter : "{0A094940386CC0EF}Prefabs/Characters/Drongo/OPFOR/USSR_Army/drg_Character_USSR_BaseLoadout.et" {
  ID "520EC961A090BE1E"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {

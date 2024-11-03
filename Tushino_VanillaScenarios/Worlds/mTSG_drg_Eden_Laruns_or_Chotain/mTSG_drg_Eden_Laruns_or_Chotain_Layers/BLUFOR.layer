@@ -21,7 +21,7 @@ $grp SCR_AIGroup : "{360C6407B466DFE8}Prefabs/Groups/BLUFOR/drg_Group_US_RifleSq
   coords 7457.209 7.875 6705.789
   angleY -12.9
   m_aUnitPrefabSlots {
-   "{9F809A16C8265C6C}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_PL.et" "{D129F2A4986026E5}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Sniper.et" "{ED7C02DBC8B7FECA}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Medic.et"
+   "{9F809A16C8265C6C}Prefabs/Characters/Drongo/BLUFOR/US_Army/Dev/drg_Character_US_PL.et" "{D129F2A4986026E5}Prefabs/Characters/Drongo/BLUFOR/US_Army/Dev/drg_Character_US_Sniper.et" "{ED7C02DBC8B7FECA}Prefabs/Characters/Drongo/BLUFOR/US_Army/Dev/drg_Character_US_Medic.et"
   }
  }
  US_0_0_3 {
@@ -33,7 +33,7 @@ $grp SCR_AIGroup : "{360C6407B466DFE8}Prefabs/Groups/BLUFOR/drg_Group_US_RifleSq
   coords 7455.698 7.875 6712.385
   angleY -102.71
   m_aUnitPrefabSlots {
-   "{069E238FD5C16DFC}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_SL.et" "{39010C8A890ADB0C}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_MG.et" "{19D560184F0A377F}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_MGAB.et" "{B4AF7D0D98A7AD6E}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_MGA.et" "{39010C8A890ADB0C}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_MG.et" "{19D560184F0A377F}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_MGAB.et" "{B4AF7D0D98A7AD6E}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_MGA.et"
+   "{069E238FD5C16DFC}Prefabs/Characters/Drongo/BLUFOR/US_Army/Dev/drg_Character_US_SL.et" "{39010C8A890ADB0C}Prefabs/Characters/Drongo/BLUFOR/US_Army/Dev/drg_Character_US_MG.et" "{19D560184F0A377F}Prefabs/Characters/Drongo/BLUFOR/US_Army/Dev/drg_Character_US_MGAB.et" "{B4AF7D0D98A7AD6E}Prefabs/Characters/Drongo/BLUFOR/US_Army/Dev/drg_Character_US_MGA.et" "{39010C8A890ADB0C}Prefabs/Characters/Drongo/BLUFOR/US_Army/Dev/drg_Character_US_MG.et" "{19D560184F0A377F}Prefabs/Characters/Drongo/BLUFOR/US_Army/Dev/drg_Character_US_MGAB.et" "{B4AF7D0D98A7AD6E}Prefabs/Characters/Drongo/BLUFOR/US_Army/Dev/drg_Character_US_MGA.et"
   }
  }
  US_2_0_0_T {
@@ -65,7 +65,7 @@ $grp SCR_AIGroup : "{360C6407B466DFE8}Prefabs/Groups/BLUFOR/drg_Group_US_RifleSq
   coords 7076.057 116.879 5413.955
   angleY 144.89
   m_aUnitPrefabSlots {
-   "{CBED715857D6D899}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Leader.et" "{782D3558D8572AB1}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_RTO.et" "{72B2FE631E2E9AA4}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Sapper.et" "{9E0647E647A7EFCE}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Medic.et"
+   "{CBED715857D6D899}Prefabs/Characters/Drongo/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Leader.et" "{782D3558D8572AB1}Prefabs/Characters/Drongo/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_RTO.et" "{72B2FE631E2E9AA4}Prefabs/Characters/Drongo/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Sapper.et" "{9E0647E647A7EFCE}Prefabs/Characters/Drongo/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Medic.et"
   }
   m_sCustomNameSet "Развед.дозор"
  }
