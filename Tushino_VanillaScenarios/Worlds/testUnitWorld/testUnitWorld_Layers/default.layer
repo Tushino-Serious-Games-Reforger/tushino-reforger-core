@@ -7,7 +7,7 @@ GenericEntity : "{14B2D417839BF8A3}PrefabsEditable/Auto/Structures/Military/Flag
 SCR_ChimeraCharacter : "{4438AEFF45A8CE9E}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Rifleman.et" {
  coords 128.652 1 176.909
 }
-$grp GenericEntity : "{8364151EF33B3B33}Prefabs/Structures/Core/FlagPole_Base_temp.et" {
+$grp GenericEntity : "{8364151EF33B3B33}Prefabs/Structures/Core/FlagPole_Base.et" {
  {
   coords 132.596 1 176.98
  }
