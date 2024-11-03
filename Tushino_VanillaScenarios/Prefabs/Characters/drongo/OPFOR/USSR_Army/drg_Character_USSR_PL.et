@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{83C2F0AD85ED988A}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_SL.et" {
+SCR_ChimeraCharacter : "{83C2F0AD85ED988A}Prefabs/Characters/Drongo/OPFOR/USSR_Army/drg_Character_USSR_SL.et" {
  ID "520EC961A090BE1E"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -27,7 +27,7 @@ SCR_ChimeraCharacter : "{83C2F0AD85ED988A}Prefabs/Characters/drongo/OPFOR/USSR_A
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Back {
-     Prefab "{B31D9C2465D00D93}Prefabs/Items/drongo/Equipment/Radios/Radio_R107M_PL.et"
+     Prefab "{B31D9C2465D00D93}Prefabs/Items/Drongo/Equipment/Radios/Radio_R107M_PL.et"
     }
    }
   }
@@ -41,7 +41,7 @@ SCR_ChimeraCharacter : "{83C2F0AD85ED988A}Prefabs/Characters/drongo/OPFOR/USSR_A
     }
     ItemsInitConfigurationItem "{61B543EAEB9BD049}" {
      PrefabsToSpawn {
-      "{92B819C350698359}Prefabs/Items/drongo/Equipment/Radios/Radio_R148_rprv.et"
+      "{92B819C350698359}Prefabs/Items/Drongo/Equipment/Radios/Radio_R148_rprv.et"
      }
     }
    }

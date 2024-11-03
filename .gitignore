@@ -396,3 +396,7 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 *.rdb
+
+# Local addons
+ReforgerLobby_5EAF2B0473DB5A99
+PSCore_5EE9238E61637E47
