@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{562B0286ACF64BD7}Worlds/mTSG_drg_Valkyrie_flight_Eden/mTSG_drg_Valkyrie_flight_Eden.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}
