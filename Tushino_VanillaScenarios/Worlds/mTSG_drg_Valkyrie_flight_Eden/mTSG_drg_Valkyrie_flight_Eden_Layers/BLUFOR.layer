@@ -4,12 +4,6 @@ Vehicle M923A1_tanker1 : "{2BE1F8B9299B67C1}Prefabs/Vehicles/Wheeled/M923A1/M923
  angleY -26.298
  angleZ -0.387
 }
-Vehicle M923A1_engineer1 : "{2D74C39A650A3030}Prefabs/Vehicles/Wheeled/M923A1/M923A1_engineer.et" {
- coords 11121.707 34.239 11550.322
- angleX 2.82
- angleY -22.876
- angleZ -0.219
-}
 $grp SCR_AIGroup : "{360C6407B466DFE8}Prefabs/Groups/BLUFOR/drg_Group_US_RifleSquad.et" {
  US_0_0_2 {
   components {

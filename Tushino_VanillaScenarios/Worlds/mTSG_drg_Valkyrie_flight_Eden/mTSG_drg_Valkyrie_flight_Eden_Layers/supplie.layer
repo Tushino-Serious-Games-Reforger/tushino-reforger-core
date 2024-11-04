@@ -1,0 +1,56 @@
+Vehicle M923A1_repair1 : "{A042ACE5C2B13206}Prefabs/Vehicles/Wheeled/M923A1/M923A1_repair.et" {
+ coords 11121.367 34.295 11551.436
+ angleX 2.822
+ angleY -22.378
+ angleZ -0.194
+}
+$grp GenericEntity : "{CC03E3F4B1E5E1B8}Prefabs/Items/drongo/Bulba_basic.et" {
+ {
+  coords 11122.822 34.587 11558.396
+  angleX 3.173
+  angleY -23.426
+  angleZ 0.574
+ }
+ {
+  coords 11122.566 34.621 11558.96
+  angleX 3.173
+  angleY -23.426
+  angleZ 0.574
+ }
+ {
+  coords 11122.286 34.657 11559.542
+  angleX 3.173
+  angleY -23.426
+  angleZ 0.574
+ }
+ {
+  coords 11122.037 34.693 11560.138
+  angleX 3.173
+  angleY -23.426
+  angleZ 0.574
+ }
+ {
+  coords 11123.237 34.611 11559.2
+  angleX 3.173
+  angleY -23.426
+  angleZ 0.574
+ }
+ {
+  coords 11122.957 34.647 11559.782
+  angleX 3.173
+  angleY -23.426
+  angleZ 0.574
+ }
+ {
+  coords 11122.708 34.683 11560.378
+  angleX 3.173
+  angleY -23.426
+  angleZ 0.574
+ }
+ {
+  coords 11123.493 34.577 11558.637
+  angleX 3.173
+  angleY -23.426
+  angleZ 0.574
+ }
+}
