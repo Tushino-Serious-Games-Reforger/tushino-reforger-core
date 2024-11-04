@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{7ADE36D180AF0F71}Prefabs/Characters/Factions/INDFOR/FIA/mTSG_Character_FIA_unarmed.et" {
+SCR_ChimeraCharacter : "{7ADE36D180AF0F71}Prefabs/Characters/Tynec/Factions/INDFOR/FIA/mTSG_Character_FIA_unarmed.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -15,7 +15,7 @@ SCR_ChimeraCharacter : "{7ADE36D180AF0F71}Prefabs/Characters/Factions/INDFOR/FIA
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Командир взвода"
-    Icon "{53355C3BCCCF61FD}UI/Textures/Editor/EditableEntities/Character/platoon.edds"
+    Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
    }
   }
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
@@ -42,10 +42,10 @@ SCR_ChimeraCharacter : "{7ADE36D180AF0F71}Prefabs/Characters/Factions/INDFOR/FIA
      Prefab "{27364244288DA83B}Prefabs/Characters/Uniforms/Pants_TAZ83/Pants_TAZ83_01.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{73EFD7591F4134D4}Prefabs/Items/Equipment/Radios/Radio_RF10/mTSG_Radio_RF10.et"
+     Prefab "{73EFD7591F4134D4}Prefabs/Items/Tynec/Equipment/Radios/Radio_RF10/mTSG_Radio_RF10.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{D8DDD4941197A92A}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_Commander_morespace.et"
+     Prefab "{D8DDD4941197A92A}Prefabs/Characters/Tynec/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_Commander_morespace.et"
     }
     LoadoutSlotInfo HandWear {
      Name "Handwear"
@@ -58,8 +58,7 @@ SCR_ChimeraCharacter : "{7ADE36D180AF0F71}Prefabs/Characters/Factions/INDFOR/FIA
    InitialInventoryItems {
     ItemsInitConfigurationItem "{62B165C144DF2E90}" {
      TargetStorage "Prefabs/Characters/Uniforms/Pants_TAZ83/Pants_TAZ83_01.et"
-     PrefabsToSpawn {
-      "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{EEA485367BDBB745}Prefabs/Items/Equipment/Radios/mTSG_Radio_ANPRC68_FIA.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{62B165C1445EB258}" {

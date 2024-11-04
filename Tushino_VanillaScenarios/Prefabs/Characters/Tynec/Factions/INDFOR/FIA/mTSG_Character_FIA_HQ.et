@@ -1,10 +1,10 @@
-SCR_ChimeraCharacter : "{7ADE36D180AF0F71}Prefabs/Characters/Factions/INDFOR/FIA/mTSG_Character_FIA_unarmed.et" {
+SCR_ChimeraCharacter : "{7ADE36D180AF0F71}Prefabs/Characters/Tynec/Factions/INDFOR/FIA/mTSG_Character_FIA_unarmed.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Полевой командир"
-    Icon "{FF7C632F7283E0FA}UI/Textures/Editor/EditableEntities/Character/officer.edds"
+    Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
    }
   }
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
@@ -25,10 +25,10 @@ SCR_ChimeraCharacter : "{7ADE36D180AF0F71}Prefabs/Characters/Factions/INDFOR/FIA
      Prefab "{CC2BAD4EACC9B2CA}Prefabs/Characters/Uniforms/Jacket_TAZ83/Jacket_TAZ83_01.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{73EFD7591F4134D4}Prefabs/Items/Equipment/Radios/Radio_RF10/mTSG_Radio_RF10.et"
+     Prefab "{73EFD7591F4134D4}Prefabs/Items/Tynec/Equipment/Radios/Radio_RF10/mTSG_Radio_RF10.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{D8DDD4941197A92A}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_Commander_morespace.et"
+     Prefab "{D8DDD4941197A92A}Prefabs/Characters/Tynec/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_Commander_morespace.et"
     }
    }
   }
