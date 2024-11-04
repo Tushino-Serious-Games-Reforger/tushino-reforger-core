@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{DC63AF2D9EBB94B6}Worlds/mTSG_drg_Figari_Eden/mTSG_drg_Figari_Eden.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}
