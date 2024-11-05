@@ -1,0 +1,52 @@
+GenericEntity : "{114DE81321786CD9}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01_PKM.et" {
+ coords 4807.392 27.665 11512.063
+ angleY -177.392
+}
+$grp StaticModelEntity : "{732A335C72D8ADE2}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_burlap_foundation.et" {
+ {
+  coords 4806.555 27.638 11557.482
+  angleY -87.551
+ }
+ {
+  coords 4806.455 27.582 11602.446
+  angleY -87.551
+ }
+ {
+  coords 4805.514 27.582 11649.915
+  angleY -87.551
+ }
+}
+$grp GenericEntity : "{CD67070EFAFC28C7}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_burlap.et" {
+ {
+  coords 4802.36 27.892 11513.438
+  angleY 93.937
+ }
+ {
+  coords 4824.574 27.469 11647.511
+  angleY 87.345
+ }
+ {
+  coords 4824.799 27.781 11642.696
+  angleY 87.345
+ }
+ {
+  coords 4824.69 27.469 11645.035
+  angleY 87.345
+ }
+ {
+  coords 4824.467 27.469 11649.848
+  angleY 87.345
+ }
+ {
+  coords 4828.738 27.469 11557.722
+  angleY 87.345
+ }
+ {
+  coords 4828.852 27.469 11555.246
+  angleY 87.345
+ }
+ {
+  coords 4813.755 27.677 11512.652
+  angleY 93.937
+ }
+}

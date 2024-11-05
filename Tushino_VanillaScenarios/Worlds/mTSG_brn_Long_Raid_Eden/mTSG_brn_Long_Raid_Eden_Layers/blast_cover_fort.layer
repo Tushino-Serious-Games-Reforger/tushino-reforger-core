@@ -1,0 +1,8 @@
+GenericEntity NSV2 : "{084825E68F0FAF86}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_Scoped_S_USSR_01.et" {
+ coords 4880.982 28.235 11951.783
+ angleY -178.055
+}
+StaticModelEntity : "{410BC3D746AB53AE}Prefabs/Structures/Military/Fortifications/BlastCover_E_01/BlastCover_E_01_13x18.et" {
+ coords 4880.491 28.271 11967.162
+ angleY -179.212
+}

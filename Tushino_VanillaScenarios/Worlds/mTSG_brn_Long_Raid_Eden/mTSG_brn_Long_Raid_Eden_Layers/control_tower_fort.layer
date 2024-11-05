@@ -1,0 +1,64 @@
+GenericEntity NSV1 : "{084825E68F0FAF86}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_Scoped_S_USSR_01.et" {
+ coords 4743.092 27.58 11790.032
+ angleY -178.798
+}
+SCR_DestructibleBuildingEntity : "{106D2014F5789362}Prefabs/Structures/Military/Houses/ControlTowerMilitary_E_01/ControlTowerMilitary_E_01_camo_v2.et" {
+ coords 4742.791 -0 11800.627
+ angleY 92.806
+}
+$grp GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et" {
+ {
+  coords 4749.045 27.712 11793.445
+  angleY -110.818
+ }
+ {
+  coords 4748.335 27.744 11790.729
+  angleY -50.203
+ }
+}
+$grp GenericEntity : "{CD67070EFAFC28C7}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_burlap.et" {
+ {
+  coords 4731.695 27.558 11809.315
+  angleY -56.933
+ }
+ {
+  coords 4733.375 27.63 11811.41
+  angleY -44.535
+ }
+ {
+  coords 4732.026 27.655 11795.025
+  angleY 44.264
+ }
+ {
+  coords 4733.866 27.627 11793.231
+  angleY 44.264
+ }
+ {
+  coords 4735.652 27.599 11791.488
+  angleY 44.264
+ }
+}
+$grp GenericEntity : "{F0EC223F2A1094C0}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_burlap.et" {
+ {
+  coords 4730.547 27.639 11802.147
+  angleY -98.565
+ }
+ {
+  coords 4729.927 27.627 11806.262
+  angleY -98.565
+ }
+ {
+  coords 4736.601 27.461 11814.147
+  angleZ -4.48
+ }
+ {
+  coords 4741.006 27.406 11814.147
+ }
+ {
+  coords 4745.77 27.403 11814.147
+ }
+ {
+  coords 4731.178 27.652 11797.954
+  angleY -98.565
+ }
+}

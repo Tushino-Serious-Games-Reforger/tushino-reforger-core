@@ -1,0 +1,66 @@
+$grp SCR_DestructibleBuildingEntity : "{C526728F8920399A}Prefabs/Structures/Military/Bunkers/AircraftShelter_E_01/AircraftShelter_E_01_camo_v2.et" {
+ shelter_1 {
+  coords 4804.22 0.232 11577.012
+  angleX 0.083
+  angleY -89.847
+  angleZ -0.261
+  {
+   GenericEntity {
+    ID "570880A30752F475"
+    coords -0.052 0 -0.001
+   }
+   GenericEntity {
+    ID "570880A30752F592"
+    coords -0.022 0 0
+   }
+  }
+ }
+ shelter_2 {
+  coords 4803.072 0.637 11531.781
+  angleX -0.109
+  angleY -88.779
+  angleZ -1.238
+  {
+   GenericEntity {
+    ID "570880A30752F475"
+    coords -0.052 0 -0.001
+   }
+   GenericEntity {
+    ID "570880A30752F592"
+    coords 0.017 0 0
+   }
+  }
+ }
+ shelter_3 {
+  coords 4803.907 0.233 11669.778
+  angleX -0.086
+  angleY -90.008
+  angleZ -0.018
+  {
+   GenericEntity {
+    ID "570880A30752F475"
+    coords -0.052 0 -0.001
+   }
+   GenericEntity {
+    ID "570880A30752F592"
+    coords -0.078 0 0
+   }
+  }
+ }
+ shelter_4 {
+  coords 4803.914 0.302 11621.711
+  angleX -0.086
+  angleY -90.008
+  angleZ -0.018
+  {
+   GenericEntity {
+    ID "570880A30752F475"
+    coords -0.052 0 -0.001
+   }
+   GenericEntity {
+    ID "570880A30752F592"
+    coords -0.006 0 0
+   }
+  }
+ }
+}
