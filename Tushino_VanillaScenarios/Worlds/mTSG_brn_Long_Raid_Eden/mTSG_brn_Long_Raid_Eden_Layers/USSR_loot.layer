@@ -1,0 +1,26 @@
+$grp GenericEntity : "{3A63559D1560D6F6}Prefabs/Props/Boryan/Military/AmmoBoxes/USSR/brn_AmmoBox_USSR_LongRaid.et" {
+ B14_loot {
+  coords 4875.205 28.594 11891.099
+ }
+ B15_loot {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62CC0454854082A1}" {
+      SlotTemplate InventoryStorageSlot pkm_mags {
+       Prefab "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 10
+     }
+    }
+   }
+  }
+  coords 4875.205 28.594 11876.465
+ }
+ B12_loot {
+  coords 4875.205 28.594 11925.6
+ }
+ B13_loot {
+  coords 4875.205 28.594 11904.989
+ }
+}
