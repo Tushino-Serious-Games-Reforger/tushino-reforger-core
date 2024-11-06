@@ -1,0 +1,15 @@
+SCR_AIGroup : "{DDF3799FA1387848}Prefabs/Groups/BLUFOR/Group_US_RifleSquad.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{62CB4A647DC36732}" {
+   m_iSquadCallsign 1
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{DBC177C261C93B9D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL_P.et" "{094747C4F8BE9F9F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL_P.et" "{E642961BAC65C4D8}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_AR_P.et" "{732F5D9A819F7141}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_MG_P.et" "{3C78EDCD10E72296}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_GL_P.et" "{C262DC827577226C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT_P.et" "{C262DC827577226C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT_P.et" "{3A509D0779BCF5F5}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_VehicleGunner.et" "{D7176F1914BB23EA}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_VehicleDriver.et"
+ }
+ m_sCustomNameSet "1-5"
+}

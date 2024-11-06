@@ -1,0 +1,17 @@
+$grp GenericEntity : "{EAF9A337DC7AE8EE}Prefabs/Props/Boryan/Military/AmmoBoxes/US/EquipmentBox_Long_Raid.et" {
+ A11_lootbox {
+  coords 4906.573 37.223 9077.924
+ }
+ A12_lootbox {
+  coords 4875.703 39.477 9039.512
+ }
+ A13_lootbox {
+  coords 4850.753 41.533 9003.472
+ }
+ A14_lootbox {
+  coords 4829.068 44.186 8966.221
+ }
+ A15_lootbox {
+  coords 4807.732 47.341 8930.988
+ }
+}

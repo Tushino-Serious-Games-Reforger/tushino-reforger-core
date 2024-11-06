@@ -1,6 +1,22 @@
 StringTable {
  ItemClassName "CustomStringTableItem"
  Items {
+  CustomStringTableItem "{62CB60AD6B9AFE1B}" {
+   Id "BRN-Role_VehicleDriver"
+   Target_en_us "Driver"
+   Target_ru_ru "Водитель"
+   Modified 1657496905
+   Author "tread"
+   LastChanged "tread"
+  }
+  CustomStringTableItem "{62CB60AD6F72C237}" {
+   Id "BRN-Role_VehicleGunner"
+   Target_en_us "Gunner"
+   Target_ru_ru "Стрелок"
+   Modified 1657496890
+   Author "tread"
+   LastChanged "tread"
+  }
   CustomStringTableItem "{61B543EF74F189EC}" {
    Id "DRG-Role_AntiTank"
    Target_en_us "Anti-Tank Specialist"

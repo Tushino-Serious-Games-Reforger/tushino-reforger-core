@@ -1,5 +1,5 @@
 $grp Vehicle : "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et" {
- UH1H1 {
+ heli1 {
   components {
    SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
     FuelNodes {
@@ -26,7 +26,7 @@ $grp Vehicle : "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et" {
   angleY 90.038
   angleZ 0.262
  }
- UH1H2 {
+ heli2 {
   components {
    SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
     FuelNodes {
@@ -53,13 +53,13 @@ $grp Vehicle : "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et" {
   angleY 91.107
   angleZ 1.237
  }
- UH1H3 {
+ heli3 {
   coords 4820.742 27.852 11670.146
   angleX 0.085
   angleY 89.878
   angleZ 0.018
  }
- UH1H4 {
+ heli4 {
   coords 4820.749 27.837 11622.078
   angleX 0.085
   angleY 89.878
