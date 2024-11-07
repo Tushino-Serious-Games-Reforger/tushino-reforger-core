@@ -96,6 +96,12 @@ GenericEntity : "{9C4642487946A666}Prefabs/Props/Military/AmmoBoxes/EquipmentBox
      }
      NumSlots 3
     }
+    MultiSlotConfiguration "{62CC048ACE7EC513}" {
+     SlotTemplate InventoryStorageSlot svd_mags {
+      Prefab "{761A03A9C5BA8D68}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Base.et"
+     }
+     NumSlots 20
+    }
    }
    m_fMaxWeight 200
   }
