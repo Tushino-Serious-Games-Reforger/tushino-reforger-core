@@ -1,0 +1,267 @@
+PolylineShapeEntity airfield_border {
+ components {
+  PS_PolyZone "{62CF5406ED96566F}" {
+   m_mPolygonTexture ""
+   m_cPolygonColor 1 1 1 0
+   m_mPolygonTextureBorder ""
+   m_cPolygonBorderColor 0.502 0 0 1
+   m_fPolygonBorderWidth 5
+   m_aVisibleForFactions {
+    "US" "USSR" ""
+   }
+  }
+ }
+ coords 4671.629 28.251 11084.461
+ Points {
+  ShapePoint "{62CF540455648662}" {
+   Position 11.747 -0.071 -4.277
+  }
+  ShapePoint "{62CF5406491E2729}" {
+   Position -3.135 -0.03 1.186
+  }
+  ShapePoint "{62CF540459AA15A8}" {
+   Position -48.66 -0 12.031
+  }
+  ShapePoint "{62CF54045C10DEE6}" {
+   Position -78.787 -5.73 19.476
+  }
+  ShapePoint "{62CF54045FCAB749}" {
+   Position -78.908 -4.45 43.242
+  }
+  ShapePoint "{62CF5404401D5A07}" {
+   Position -79.585 -2.647 81.31
+  }
+  ShapePoint "{62CF5404430D5A6D}" {
+   Position -81.714 -4.318 130.61
+  }
+  ShapePoint "{62CF5404457B3C24}" {
+   Position -81.109 -7.761 172.271
+  }
+  ShapePoint "{62CF54044D423FEC}" {
+   Position -80.868 -8.312 176.26
+  }
+  ShapePoint "{62CF54044F71F69B}" {
+   Position -53.386 -6.553 177.166
+  }
+  ShapePoint "{62CF540472D8A1DF}" {
+   Position -12.781 -4.205 178.423
+  }
+  ShapePoint "{62CF54047CC96D23}" {
+   Position 14.407 -2.607 182.021
+  }
+  ShapePoint "{62CF54047D6DB444}" {
+   Position 24.627 -2.337 183.379
+  }
+  ShapePoint "{62CF54046056314D}" {
+   Position 57.204 -1.728 226.702
+  }
+  ShapePoint "{62CF54046F603AA1}" {
+   Position 56.29 -3.292 292.279
+  }
+  ShapePoint "{62CF540498133248}" {
+   Position 56.034 -3.106 323.722
+  }
+  ShapePoint "{62CF54049BC47A67}" {
+   Position 55.486 -3.372 345.209
+  }
+  ShapePoint "{62CF54049D8302C6}" {
+   Position 54.309 -3.82 381.695
+  }
+  ShapePoint "{62CF54051D64D076}" {
+   Position 54.011 -3.87 416.598
+  }
+  ShapePoint "{62CF540501C8074E}" {
+   Position 53.41 -6.014 454.229
+  }
+  ShapePoint "{62CF540504F0B644}" {
+   Position 37.348 -8.309 495.653
+  }
+  ShapePoint "{62CF540509A87840}" {
+   Position 18.338 -6.499 546.643
+  }
+  ShapePoint "{62CF54050D36D939}" {
+   Position 20.178 -3.361 600.961
+  }
+  ShapePoint "{62CF54053276A961}" {
+   Position 22.38 -0.72 669.171
+  }
+  ShapePoint "{62CF5405360A4715}" {
+   Position 24.449 0.434 727.863
+  }
+  ShapePoint "{62CF54053BDB898C}" {
+   Position 24.988 0.511 775.429
+  }
+  ShapePoint "{62CF54053D8DE5AF}" {
+   Position 24.774 0.165 840.099
+  }
+  ShapePoint "{62CF54052091F457}" {
+   Position 25.014 -1.32 890.239
+  }
+  ShapePoint "{62CF5405236C03C5}" {
+   Position 24.772 -1.109 939.214
+  }
+  ShapePoint "{62CF5405289ED173}" {
+   Position 24.835 -1.911 978.497
+  }
+  ShapePoint "{62CF54052A392A1A}" {
+   Position 25.031 -0.939 1007.596
+  }
+  ShapePoint "{62CF540552624990}" {
+   Position 25.214 -1.7 1069.729
+  }
+  ShapePoint "{62CF540557C68DA6}" {
+   Position 24.825 -2.383 1096.597
+  }
+  ShapePoint "{62CF54055C95013C}" {
+   Position 64.32 -4.761 1103.166
+  }
+  ShapePoint "{62CF54054179950E}" {
+   Position 82.293 -6.277 1130.057
+  }
+  ShapePoint "{62CF540544403BA7}" {
+   Position 97.639 -6.543 1153.027
+  }
+  ShapePoint "{62CF540549C6E401}" {
+   Position 117.525 -6.273 1152.763
+  }
+  ShapePoint "{62CF54054D0CBC57}" {
+   Position 117.353 -6.443 1118.846
+  }
+  ShapePoint "{62CF540571CEC422}" {
+   Position 116.493 -7.178 1092.382
+  }
+  ShapePoint "{62CF540574742F31}" {
+   Position 142.389 -8.211 1092.967
+  }
+  ShapePoint "{62CF540579600A6E}" {
+   Position 190.132 -8.384 1092.021
+  }
+  ShapePoint "{62CF54057EBD737E}" {
+   Position 231.613 -6.628 1091.016
+  }
+  ShapePoint "{62CF54056393E600}" {
+   Position 272.286 -3.378 1055.391
+  }
+  ShapePoint "{62CF540568EBE956}" {
+   Position 296.532 -1.13 1017.772
+  }
+  ShapePoint "{62CF54056BD2499B}" {
+   Position 325.448 -1.442 972.442
+  }
+  ShapePoint "{62CF54056E21B370}" {
+   Position 325.562 -0.203 932.715
+  }
+  ShapePoint "{62CF5405949A863C}" {
+   Position 326.509 0.995 842.656
+  }
+  ShapePoint "{62CF54059A6D1AD0}" {
+   Position 308.46 0.253 761.452
+  }
+  ShapePoint "{62CF5405822CCB0E}" {
+   Position 306.759 0.343 660.987
+  }
+  ShapePoint "{62CF5405888ABE51}" {
+   Position 307.155 0.342 601.314
+  }
+  ShapePoint "{62CF5405B1333428}" {
+   Position 289.153 -0.064 601.996
+  }
+  ShapePoint "{62CF5405E38D328F}" {
+   Position 286.938 -0.283 562.009
+  }
+  ShapePoint "{62CF5405E56A44E4}" {
+   Position 262.944 -0.533 430.245
+  }
+  ShapePoint "{62CF5405E74C6313}" {
+   Position 259.714 -0.626 386.484
+  }
+  ShapePoint "{62CF5405E93738B7}" {
+   Position 261.72 -0.814 342.826
+  }
+  ShapePoint "{62CF5405EB5FD102}" {
+   Position 265.983 -0.752 289.573
+  }
+  ShapePoint "{62CF5405ED8AD9E1}" {
+   Position 274.366 1.534 240.979
+  }
+  ShapePoint "{62CF5405EF6BB19A}" {
+   Position 288.754 3.925 188.684
+  }
+  ShapePoint "{62CF54061170407C}" {
+   Position 308.197 5.343 135.332
+  }
+  ShapePoint "{62CF540613146374}" {
+   Position 323.081 6.227 88.923
+  }
+  ShapePoint "{62CF54061EED670C}" {
+   Position 330.062 6.552 56.16
+  }
+  ShapePoint "{62CF5406009B17EC}" {
+   Position 334.467 6.621 7.328
+  }
+  ShapePoint "{62CF540602E11244}" {
+   Position 335.689 6.41 -32.114
+  }
+  ShapePoint "{62CF54060A4219F9}" {
+   Position 334.047 5.948 -75.761
+  }
+  ShapePoint "{62CF54060C68C7AC}" {
+   Position 331.319 5.416 -105.73
+  }
+  ShapePoint "{62CF54060E5B1896}" {
+   Position 323.221 3.986 -154.297
+  }
+  ShapePoint "{62CF540630318E84}" {
+   Position 320.749 3.641 -163.896
+  }
+  ShapePoint "{62CF540633F6ADA0}" {
+   Position 318.463 3.354 -171.132
+  }
+  ShapePoint "{62CF540634F7A36E}" {
+   Position 304.873 3.405 -168.597
+  }
+  ShapePoint "{62CF540637F30708}" {
+   Position 259.711 2.544 -161.195
+  }
+  ShapePoint "{62CF540639F3692C}" {
+   Position 220.217 1.34 -146.517
+  }
+  ShapePoint "{62CF54063B0E71BB}" {
+   Position 211.909 1.176 -138.286
+  }
+  ShapePoint "{62CF54063C4926CF}" {
+   Position 209.147 1.099 -132.896
+  }
+  ShapePoint "{62CF540621B53059}" {
+   Position 178.867 0.03 -132.175
+  }
+  ShapePoint "{62CF540623C29AA0}" {
+   Position 142.23 -0.128 -135.107
+  }
+  ShapePoint "{62CF54065574F5A9}" {
+   Position 101.775 -0.979 -136.301
+  }
+  ShapePoint "{62CF540657C66A06}" {
+   Position 73.633 -0.736 -141.211
+  }
+  ShapePoint "{62CF54065928EB39}" {
+   Position 50.743 0.59 -157.008
+  }
+  ShapePoint "{62CF54065A4AF963}" {
+   Position 43.823 0.686 -159.718
+  }
+  ShapePoint "{62CF54065D0A8AE5}" {
+   Position 44.177 0.374 -109.488
+  }
+  ShapePoint "{62CF540641BD881E}" {
+   Position 41.723 -0.145 -35.239
+  }
+  ShapePoint "{62CF5406451AA9C9}" {
+   Position 39.798 -0.191 -17.156
+  }
+  ShapePoint "{62CF540673A12C6F}" {
+   Position 24.75 -0.064 -10.254
+  }
+ }
+ IsClosed 1
+}

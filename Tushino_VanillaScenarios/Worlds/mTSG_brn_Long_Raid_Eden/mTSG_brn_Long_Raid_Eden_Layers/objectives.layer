@@ -1,0 +1,17 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ destroy_helis_US {
+  coords 4825.419 27.859 11667.184
+  angleX 0.018
+  angleZ -0.086
+  m_sTitle "Уничтожить вертолет"
+  m_sFactionKey "US"
+ }
+ protect_helis_USSR {
+  coords 4822.688 29.236 11669.021
+  angleX 35.767
+  angleY 29.907
+  angleZ 28.473
+  m_sTitle "Защитить вертолет"
+  m_sFactionKey "USSR"
+ }
+}

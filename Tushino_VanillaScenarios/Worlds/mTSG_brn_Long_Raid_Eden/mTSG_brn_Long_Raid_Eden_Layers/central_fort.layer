@@ -1,6 +1,68 @@
 GenericEntity NSV2 : "{084825E68F0FAF86}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_Scoped_S_USSR_01.et" {
  coords 4880.982 28.235 11951.783
  angleY -178.055
+ {
+  GenericEntity {
+   ID "605ECD8CFCE822A1"
+   {
+    Turret {
+     ID "605ECD8C01B355D2"
+     components {
+      SCR_PreviewEntityComponent "{5ECC91C02782BF7F}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+       m_aEntries {
+        SCR_BasePreviewEntry "{5ECC91C032B149EB}" {
+         m_iParentID -1
+         m_Mesh "{13AFBB0D97F4666E}Assets/Weapons/Tripods/6T7/Tripod_6T7.xob"
+         m_Flags EDITABLE
+         m_Shape MESH
+         m_iPivotID ""
+         m_vPosition 0 0 0
+         m_vAngles 0 0 0
+        }
+        SCR_BasePreviewEntry "{5ECC91C03431B1D4}" {
+         m_iParentID 0
+         m_Mesh "{1C372CC3C2897372}Assets/Weapons/HeavyWeapons/NSV/NSV_body.xob"
+         m_Flags 0
+         m_Shape MESH
+         m_iPivotID "slot_gun"
+         m_vPosition 0 0 0
+         m_vAngles 0 0 0
+        }
+        SCR_BasePreviewEntry "{609E78442965F973}" {
+         m_iParentID 1
+         m_Mesh "{9D5EE41AF59F1FD9}Assets/Weapons/Attachments/Mounts/Dovetail_NSV/Dovetail_NSV.xob"
+         m_Flags 0
+         m_Shape MESH
+         m_iPivotID "hw_root"
+         m_vPosition -0.027 0.1 -0.046
+         m_vAngles 0 0 0
+        }
+        SCR_BasePreviewEntry "{609E784436720346}" {
+         m_iParentID 2
+         m_Mesh "{7516F3AE4D768FD1}Assets/Weapons/Attachments/Optics/SPP/Scope_SPP.xob"
+         m_Flags 0
+         m_Shape MESH
+         m_iPivotID "hw_root"
+         m_vPosition 0 0 0
+         m_vAngles 0 0 0
+        }
+       }
+      }
+      SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+       MultiSlots {
+        MultiSlotConfiguration "{62CF5403077EA21E}" {
+         SlotTemplate InventoryStorageSlot additional_mags {
+          Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+         }
+         NumSlots 4
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
 }
 StaticModelEntity : "{410BC3D746AB53AE}Prefabs/Structures/Military/Fortifications/BlastCover_E_01/BlastCover_E_01_13x18.et" {
  coords 4880.491 28.271 11967.162
@@ -43,6 +105,60 @@ GenericEntity NSV3 : "{6E9190BC2713551D}Prefabs/Compositions/Slotted/BuildableCo
    coords 0 0 2
    {
     Turret : "{3EA26CFD7A202636}Prefabs/Weapons/Tripods/6T7/Tripod_6T7_NSV_SPP.et" {
+     components {
+      SCR_PreviewEntityComponent "{5ECC91C02782BF7F}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+       m_aEntries {
+        SCR_BasePreviewEntry "{5ECC91C032B149EB}" {
+         m_iParentID -1
+         m_Mesh "{13AFBB0D97F4666E}Assets/Weapons/Tripods/6T7/Tripod_6T7.xob"
+         m_Flags EDITABLE
+         m_Shape MESH
+         m_iPivotID ""
+         m_vPosition 0 0 0
+         m_vAngles 0 0 0
+        }
+        SCR_BasePreviewEntry "{5ECC91C03431B1D4}" {
+         m_iParentID 0
+         m_Mesh "{1C372CC3C2897372}Assets/Weapons/HeavyWeapons/NSV/NSV_body.xob"
+         m_Flags 0
+         m_Shape MESH
+         m_iPivotID "slot_gun"
+         m_vPosition 0 0 0
+         m_vAngles 0 0 0
+        }
+        SCR_BasePreviewEntry "{609E78442965F973}" {
+         m_iParentID 1
+         m_Mesh "{9D5EE41AF59F1FD9}Assets/Weapons/Attachments/Mounts/Dovetail_NSV/Dovetail_NSV.xob"
+         m_Flags 0
+         m_Shape MESH
+         m_iPivotID "hw_root"
+         m_vPosition -0.027 0.1 -0.046
+         m_vAngles 0 0 0
+        }
+        SCR_BasePreviewEntry "{609E784436720346}" {
+         m_iParentID 2
+         m_Mesh "{7516F3AE4D768FD1}Assets/Weapons/Attachments/Optics/SPP/Scope_SPP.xob"
+         m_Flags 0
+         m_Shape MESH
+         m_iPivotID "hw_root"
+         m_vPosition 0 0 0
+         m_vAngles 0 0 0
+        }
+       }
+      }
+      SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+       MultiSlots {
+        MultiSlotConfiguration "{62CF54033C3278E6}" {
+         SlotTemplate InventoryStorageSlot additional_mags {
+          Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+         }
+         NumSlots 4
+        }
+       }
+       m_aSlotsToShow {
+       }
+      }
+     }
      coords 0.016 0.656 -0.677
     }
     $grp GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_01_round_burlap.et" {
