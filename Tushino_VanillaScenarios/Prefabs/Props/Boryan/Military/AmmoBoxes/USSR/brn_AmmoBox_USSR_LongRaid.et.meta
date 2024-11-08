@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3A63559D1560D6F6}Prefabs/Props/Military/AmmoBoxes/USSR/brn_AmmoBox_USSR_LongRaid.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

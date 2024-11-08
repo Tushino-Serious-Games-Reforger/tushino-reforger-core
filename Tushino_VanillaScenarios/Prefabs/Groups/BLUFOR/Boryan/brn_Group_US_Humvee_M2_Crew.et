@@ -1,0 +1,12 @@
+SCR_AIGroup : "{3BF36BDEEB33AEC9}Prefabs/Groups/BLUFOR/Group_US_SentryTeam.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{D7176F1914BB23EA}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_VehicleDriver.et" "{3A509D0779BCF5F5}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_VehicleGunner.et"
+ }
+ m_sCustomNameSet "4-3 Humvee M2 crew"
+}

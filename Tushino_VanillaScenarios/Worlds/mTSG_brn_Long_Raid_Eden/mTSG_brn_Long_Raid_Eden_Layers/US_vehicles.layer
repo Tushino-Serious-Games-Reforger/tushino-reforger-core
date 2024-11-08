@@ -1,0 +1,216 @@
+$grp Vehicle : "{04BDACC0BB83284E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered_MERDC.et" {
+ A12_truck {
+  coords 4883.639 39.385 9034.641
+  angleX -1.77
+  angleY 36.365
+ }
+ A13_truck {
+  coords 4855.351 41.915 8996.224
+  angleX -3.575
+  angleY 36.365
+ }
+ A14_truck {
+  coords 4832.567 44.617 8958.99
+  angleX -3.553
+  angleY 30.041
+  angleZ 0.394
+ }
+ A15_truck {
+  coords 4809.936 47.989 8923.508
+  angleX -4.173
+  angleY 33.643
+  angleZ 0.17
+ }
+}
+$grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
+ A22_humvee_m2 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 94.6
+     }
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECB549327C1}" {
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{5A7CC68685CE799D}" {
+      SlotTemplate InventoryStorageSlot Backpack {
+       Prefab "{0AF10C206CF1A283}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M661_Green.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{5A7CC686F738D96E}" {
+      SlotTemplate InventoryStorageSlot ATMine {
+       Prefab "{6D18CC33708EE712}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_Base.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{5B1070686F48F485}" {
+      NumSlots 10
+     }
+    }
+   }
+  }
+  coords 4990.132 25.765 9924.57
+  angleX -1.597
+  angleY 1.057
+  angleZ 1.395
+ }
+ A11_humvee_m2 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 94.6
+     }
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5B1070686F48F485}" {
+      NumSlots 10
+     }
+    }
+   }
+  }
+  coords 4912.423 37.173 9071.037
+  angleX -2.515
+  angleY 38.704
+  angleZ 0.277
+ }
+ A12_humvee_m2 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 94.6
+     }
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5B1070686F48F485}" {
+      NumSlots 10
+     }
+    }
+   }
+  }
+  coords 4889.916 38.785 9042.62
+  angleX -2.515
+  angleY 38.704
+  angleZ 0.277
+ }
+ A15_humvee_m2 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 94.6
+     }
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5B1070686F48F485}" {
+      NumSlots 10
+     }
+    }
+   }
+  }
+  coords 4815.978 46.86 8932.259
+  angleX -2.467
+  angleY 32.147
+  angleZ 0.562
+ }
+ A14_humvee_m2 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 94.6
+     }
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5B1070686F48F485}" {
+      NumSlots 10
+     }
+    }
+   }
+  }
+  coords 4837.836 43.769 8968.287
+  angleX -2.429
+  angleY 28.748
+  angleZ 0.707
+ }
+ A13_humvee_m2 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 94.6
+     }
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5B1070686F48F485}" {
+      NumSlots 10
+     }
+    }
+   }
+  }
+  coords 4862.746 41.005 9006.1
+  angleX -2.499
+  angleY 35.974
+  angleZ 0.396
+ }
+}
+Vehicle A21_UH1H_armed1 : "{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     m_fInitialFuelTankState 166
+    }
+    SCR_FuelNode "{5E9AE02488359898}" {
+     m_fInitialFuelTankState 166
+    }
+    SCR_FuelNode "{5E9AE0248D00D20B}" {
+     m_fInitialFuelTankState 166
+    }
+    SCR_FuelNode "{5E9AE0248101059B}" {
+     m_fInitialFuelTankState 166
+    }
+    SCR_FuelNode "{5E9AE02480691735}" {
+     m_fInitialFuelTankState 166
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5E1E994304F0E0D3}" {
+   MultiSlots {
+    MultiSlotConfiguration "{60F686523ED8885E}" {
+     NumSlots 6
+    }
+    MultiSlotConfiguration "{62CA0A869B7789CA}" {
+     SlotTemplate InventoryStorageSlot stanags {
+      Prefab "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Ball.et"
+     }
+     NumSlots 30
+    }
+    MultiSlotConfiguration "{62CA0A86BC0191E5}" {
+     SlotTemplate InventoryStorageSlot explosives {
+      Prefab "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
+     }
+     NumSlots 12
+    }
+   }
+  }
+ }
+ coords 5011.493 46.372 8950.345
+}

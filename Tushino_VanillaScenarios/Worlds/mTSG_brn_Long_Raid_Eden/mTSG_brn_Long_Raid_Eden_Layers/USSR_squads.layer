@@ -1,0 +1,68 @@
+$grp SCR_AIGroup : "{1F281EA2DECC4EE7}Prefabs/Groups/OPFOR/Boryan/brn_Group_USSR_RifleSquad_LongRaid.et" {
+ B12_rifle {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{62CC0452EE459318}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 4874.155 28.594 11919.589
+  m_aUnitPrefabSlots + {
+   "{96B44E4B03427129}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_CrewGunner.et" "{CF75C616AFC95FE8}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_CrewDriver.et"
+  }
+  m_sCustomNameSet "1-2 Отделение на БТР-70"
+ }
+ B13_rifle {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{62CC045118F85EB3}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 4874.528 28.594 11901.458
+  m_aUnitPrefabSlots + {
+   "{96B44E4B03427129}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_CrewGunner.et" "{CF75C616AFC95FE8}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_CrewDriver.et"
+  }
+  m_sCustomNameSet "1-3 Отделение на БТР-70"
+ }
+ B14_rifle {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{62CC04511F17791A}" {
+    m_iSquadCallsign 3
+   }
+  }
+  coords 4874.432 28.594 11887.635
+  m_sCustomNameSet "1-4 Отделение"
+ }
+}
+SCR_AIGroup B15_recon : "{288D5E5619568501}Prefabs/Groups/OPFOR/KLMK/Group_USSR_RifleSquad_KLMK_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{62CC045099B5D6B0}" {
+   m_iSquadCallsign 5
+  }
+ }
+ coords 4873.438 28.594 11872.516
+ m_aUnitPrefabSlots {
+  "{ACD038BB506F47A9}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_SL_KLMK_P.et" "{EB49AB08A32A8C1C}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_SR_KLMK_P.et" "{45F05ED408D2FF9A}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_MG_KLMK_P.et" "{4ACD46BEECC179AA}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_AT_KLMK_P.et" "{474B20F1FAE24A79}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_AAT_KLMK_P.et" "{C9DE704C68B1DB6F}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Sharpshooter_KLMK_P.et"
+ }
+ m_sCustomNameSet "1-5 Разведка"
+}
+SCR_AIGroup B11 : "{D1B420D921CC6CD4}Prefabs/Groups/OPFOR/Group_USSR_PlatoonHQ_P.et" {
+ components {
+  PS_GroupCallsignAssigner "{62CC0450C02644E7}" {
+  }
+ }
+ coords 4904.243 28.594 11941.843
+ angleY -145.667
+ m_aUnitPrefabSlots {
+  "{AF5187B30BA58205}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_PL_P.et" "{DD80FA65DDFF68B9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Medic_P.et"
+ }
+ m_sCustomNameSet "1-1 Штаб"
+}

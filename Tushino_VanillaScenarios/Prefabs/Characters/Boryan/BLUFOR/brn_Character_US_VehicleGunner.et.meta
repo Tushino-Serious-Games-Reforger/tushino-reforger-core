@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3A509D0779BCF5F5}Prefabs/Characters/Factions/BLUFOR/US_Army/brn_Character_US_VehicleGunner.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

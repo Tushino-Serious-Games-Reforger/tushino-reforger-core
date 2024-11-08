@@ -1,0 +1,82 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ heli1_marker {
+  coords 4821.046 27.92 11577.315
+  angleX -0.083
+  angleY 180.038
+  angleZ 0.262
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.812 0.737 0.506 1
+  m_sQuadName "Helicopter"
+  m_sDescription "#AR-Vehicle_UH1H_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   7
+  }
+  m_iZOrder 10
+ }
+ heli2_marker {
+  coords 4820.742 27.852 11670.146
+  angleX 0.085
+  angleY 179.878
+  angleZ 0.018
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.812 0.737 0.506 1
+  m_sQuadName "Helicopter"
+  m_sDescription "#AR-Vehicle_UH1H_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   7
+  }
+  m_iZOrder 10
+ }
+ heli3_marker {
+  coords 4820.749 27.837 11622.078
+  angleX 0.085
+  angleY 179.878
+  angleZ 0.018
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.812 0.737 0.506 1
+  m_sQuadName "Helicopter"
+  m_sDescription "#AR-Vehicle_UH1H_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   7
+  }
+  m_iZOrder 10
+ }
+ heli4_marker {
+  coords 4819.909 28.471 11531.782
+  angleX 0.112
+  angleY 181.107
+  angleZ 1.237
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.812 0.737 0.506 1
+  m_sQuadName "Helicopter"
+  m_sDescription "#AR-Vehicle_UH1H_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   7
+  }
+  m_iZOrder 10
+ }
+}

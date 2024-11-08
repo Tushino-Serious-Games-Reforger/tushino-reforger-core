@@ -1,0 +1,115 @@
+GenericEntity : "{9C4642487946A666}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxWooden_01_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{62A30D148D0D93B0}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Equipment_01.xob"
+   Materials {
+    MaterialAssignClass "{62CC0457DDE177AB}" {
+     SourceMaterial "Common/Materials/ColorPalette/ColorPalette"
+     AssignedMaterial "{900FD941337C7B0B}Common/Materials/ColorPalette/Color_palette_02_YELLOW_10_S2_R2.emat"
+    }
+    MaterialAssignClass "{62CC0457DDE17797}" {
+     SourceMaterial "EquipmentBoxWooden_Medical_01"
+     AssignedMaterial "{F040F802F02B0D96}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_Medical_01_USSR.emat"
+    }
+    MaterialAssignClass "{62CC0457DDE1778C}" {
+     SourceMaterial "EquipmentBoxWooden_decal"
+     AssignedMaterial "{D808F898C451401C}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/Data/EquipmentBoxWooden_decal1_USSR.emat"
+    }
+   }
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "SmallDestructible"
+  }
+  SCR_DestructionMultiPhaseComponent "{58F89684469E44B1}" {
+   Enabled 1
+  }
+  SCR_SoundDataComponent "{5C53391603B5CF41}" {
+   Enabled 1
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 1
+   MultiSlots {
+    MultiSlotConfiguration "{62CC04562C619945}" {
+     SlotTemplate InventoryStorageSlot magazines_ak74 {
+      Prefab "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
+     }
+     NumSlots 30
+    }
+    MultiSlotConfiguration "{62CC0456DD0187A9}" {
+     SlotTemplate InventoryStorageSlot rpk_mags {
+      Prefab "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{62CC045517F5C1F9}" {
+     SlotTemplate InventoryStorageSlot grenades {
+      Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{62CC04550E807B21}" {
+     SlotTemplate InventoryStorageSlot smoke {
+      Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{62CC04555066DD2F}" {
+     SlotTemplate InventoryStorageSlot rockets {
+      Prefab "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et"
+     }
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{62CC045570EDB918}" {
+     SlotTemplate InventoryStorageSlot gp {
+      Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{62CC04556E7EEE05}" {
+     SlotTemplate InventoryStorageSlot illum {
+      Prefab "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{62CC0455B1A916AE}" {
+     SlotTemplate InventoryStorageSlot clot {
+      Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{62CC0455AC23C2B3}" {
+     SlotTemplate InventoryStorageSlot tourniqet {
+      Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{62CC0455CDF95651}" {
+     SlotTemplate InventoryStorageSlot kolobok {
+      Prefab "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
+     }
+     NumSlots 3
+    }
+    MultiSlotConfiguration "{62CC04542CCA0024}" {
+     SlotTemplate InventoryStorageSlot saline {
+      Prefab "{527D7C5D2E476BDC}Prefabs/Items/Medicine/SalineBag_01/SalineBag_USSR_01.et"
+     }
+     NumSlots 3
+    }
+    MultiSlotConfiguration "{62CC048ACE7EC513}" {
+     SlotTemplate InventoryStorageSlot svd_mags {
+      Prefab "{761A03A9C5BA8D68}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Base.et"
+     }
+     NumSlots 20
+    }
+   }
+   m_fMaxWeight 200
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   Enabled 1
+  }
+  RplComponent "{5476B36C54387F41}" {
+   Enabled 1
+  }
+ }
+}
