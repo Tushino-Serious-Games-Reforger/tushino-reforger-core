@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{072F75BB5AA0200E}Prefabs/Characters/Drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_SeniorScout.et" {
+ ID "520EC961A090BE1E"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_name "#JUM-Role_ReconSeniorRecon"
+  }
+ }
+}

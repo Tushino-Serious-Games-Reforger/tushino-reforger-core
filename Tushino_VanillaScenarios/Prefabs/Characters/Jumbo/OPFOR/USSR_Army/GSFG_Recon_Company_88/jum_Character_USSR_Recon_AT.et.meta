@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{18D404DE0791BDAF}Prefabs/Characters/Drongo/OPFOR/USSR_Army/Recon/jum_Character_USSR_Recon_AT.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

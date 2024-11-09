@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{2F10A58E3BAE3C4D}Prefabs/Characters/Factions/OPFOR/USSR_Army/GSFG_Recon_Company_88/ReforgerLobby_USSR_GSFG_88_POLIT_P.et"
+ Name "{649D34A40B14E0E0}Prefabs/Characters/Jumbo/OPFOR/USSR_Army/GSFG_Recon_Company_88/jum_Character_USSR_Recon_PL.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

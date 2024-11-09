@@ -1,0 +1,13 @@
+SCR_ChimeraCharacter : "{713BC5C3DD8AE4B8}Prefabs/Characters/Jumbo/OPFOR/USSR_Army/GSFG_Recon_Company_88/jum_Character_USSR_Recon_Gunner.et" {
+ ID "520EC961A090BE1E"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_name "#JUM-Role_ReconDriver"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{916C4E2CE39A8915}UI/Icons/crew.edds"
+   }
+  }
+ }
+}
