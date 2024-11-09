@@ -9,7 +9,7 @@ SCR_ChimeraCharacter : "{ACD9575EDC2C034D}Prefabs/Characters/Drongo/OPFOR/USSR_A
     ItemsInitConfigurationItem "{62D2B1D19E19B284}" {
      TargetStorage "Prefabs/Characters/Uniforms/Suit_KLMK/Suit_KLMK.et"
      PrefabsToSpawn {
-      "{92B819C350698359}Prefabs/Items/Drongo/Equipment/Radios/Radio_R148_rprv.et"
+      "{6492196F107687BC}Prefabs/Items/Drongo/Equipment/Radios/Radio_R148_SL.et"
      }
     }
    }

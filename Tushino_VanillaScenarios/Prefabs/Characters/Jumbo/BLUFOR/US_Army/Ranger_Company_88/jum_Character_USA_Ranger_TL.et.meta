@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E492E6EAA90D9D68}Prefabs/Characters/Factions/BLUFOR/US_Army/jum_Character_USA_Ranger_TL.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
