@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{EDC0D71AE6756CFC}Prefabs/Groups/OPFOR/brn_Group_USSR_RifleSquad_P_Monday.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

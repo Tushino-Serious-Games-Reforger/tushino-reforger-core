@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D940FD3D53FFF202}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/brn_Character_USSR_Recon_GP.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

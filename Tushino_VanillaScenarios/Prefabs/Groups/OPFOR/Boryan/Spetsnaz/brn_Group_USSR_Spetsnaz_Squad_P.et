@@ -1,0 +1,12 @@
+SCR_AIGroup : "{D0372E0E86076022}Prefabs/Groups/OPFOR/Spetsnaz/Group_USSR_Spetsnaz_Squad_P.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{C6960782BEAA6B07}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_SL.et" "{072F75BB5AA0200E}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_SeniorScout.et" "{AB1EF69D8C2EC914}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_AR.et" "{73B69F5CF5A7D748}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_AT.et" "{43CED484D075F274}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_Rifleman.et" "{D940FD3D53FFF202}Prefabs/Characters/Boryan/OPFOR/USSR_Army/Recon/brn_Character_USSR_Recon_GP.et" "{D940FD3D53FFF202}Prefabs/Characters/Boryan/OPFOR/USSR_Army/Recon/brn_Character_USSR_Recon_GP.et" "{EC89944E401BB659}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_Sniper.et"
+ }
+ m_sCustomNameSet "2-1 Отделение СПН"
+}

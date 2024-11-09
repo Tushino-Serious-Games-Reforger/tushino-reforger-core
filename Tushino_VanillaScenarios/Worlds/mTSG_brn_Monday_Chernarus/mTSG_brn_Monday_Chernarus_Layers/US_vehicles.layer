@@ -1,0 +1,20 @@
+$grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
+ M1025_armed_M2HB_MERDC1 {
+  coords 3806.481 310.875 8815.434
+  angleY 25.325
+ }
+ M1025_armed_M2HB_MERDC2 {
+  coords 3810.445 310.906 8823.81
+  angleY 25.325
+ }
+ M1025_armed_M2HB_MERDC3 {
+  coords 3813.982 310.906 8831.284
+  angleY 25.325
+ }
+ M1025_armed_M2HB_MERDC4 {
+  coords 3818.688 310.988 8841.227
+  angleX 0.809
+  angleY 25.33
+  angleZ 0.383
+ }
+}
