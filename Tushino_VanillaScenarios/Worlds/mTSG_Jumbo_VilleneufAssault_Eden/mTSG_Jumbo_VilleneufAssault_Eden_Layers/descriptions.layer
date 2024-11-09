@@ -1,0 +1,48 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ ABOUT {
+  coords 5853.159 185.724 6199.037
+  m_sTitle "#PS-Description_HeaderAboutMission"
+  m_sTextData "Разведрота мотострелкового полка ВС СССР предпринимает попытку выбить ВС США из населенного пункта Вильнёв"
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ RULES {
+  coords 5819.832 190.632 6171.221
+  m_sTitle "Условности"
+  m_sDescriptionLayout "{0DF2089A5BA70D01}UI/MissionDescription/DescriptionEditable_drg.layout"
+  m_sTextData "ОБЩИЕ ПРАВИЛА "\
+  "— Всем запрещено надевать форму, головные уборы, разгрузки, бронежилеты противника (рюкзаки можно) "\
+  "— БМП-1 в ОШС СССР заменены на БТР-70"\
+  ""\
+  "СПОСОБЫ ПОБЕДЫ ДЛЯ СССР"\
+  "— 1. Захватить населенный пункт Вильнёв путём поднятия флага."\
+  "— 2. Разгромить противника (осталось 3 или меньше)"\
+  ""\
+  "СПОСОБЫ ПОБЕДЫ ДЛЯ США"\
+  "— 1. Удержать населенный пункт Вильнёв, не дав захватить флаг."\
+  "— 2. Разгромить противника (осталось 5 или меньше)"\
+  ""\
+  "ПАРАМЕТРЫ МИССИИ"\
+  "— 40 минут на миссию."\
+  "— Флаг захватывается путём взаимодействия через клавишу F (по умолчанию)."\
+  "— Флаг не перезахватываемый."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ USA {
+  coords 5911.306 167.386 6211.532
+  m_sTitle "#PS-Description_HeaderUS"
+  m_sTextData "Наша задача удержать населенный пункт Вильнёв, не дав противнику поднять флаг"
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+ USSR {
+  coords 5819.52 172.425 6215.08
+  m_sTitle "#PS-Description_HeaderUSSR"
+  m_sTextData "Наша задача взять населенный пункт Вильнев, подняв флаг на центральной площади"
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+}
