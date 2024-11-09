@@ -193,5 +193,109 @@ StringTable {
    Author "fomin"
    LastChanged "fomin"
   }
+  CustomStringTableItem "{62D2B1D5FC482723}" {
+   Id "JUM-Role_Recon"
+   Target_en_us "Recon"
+   Target_ru_ru "Разведчик"
+   Modified 1657977013
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{62D2CEB179A6597C}" {
+   Id "JUM-Role_ReconAR"
+   Target_en_us "Recon machine gunner"
+   Target_ru_ru "Разведчик-пулеметчик"
+   Modified 1657990891
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{62D2CEA9D73A1851}" {
+   Id "JUM-Role_ReconAT"
+   Target_en_us "Recon anti-tank"
+   Target_ru_ru "Разведчик-гранатометчик"
+   Modified 1657990869
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{62D2B1D7E01634AB}" {
+   Id "JUM-Role_ReconCompanyCommander"
+   Target_en_us "Company commander"
+   Target_ru_ru "Командир роты"
+   Modified 1657976122
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{62D2B1D4D274D0FC}" {
+   Id "JUM-Role_ReconCompanyForeman"
+   Target_en_us "Company Foreman"
+   Target_ru_ru "Старшина роты"
+   Modified 1657976643
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{62D2CEA8FF0D107C}" {
+   Id "JUM-Role_ReconDriver"
+   Target_en_us "Driver (BTR-70)"
+   Target_ru_ru "Водитель (БТР-70)"
+   Modified 1657987657
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{62D2CEA88B7AAEFC}" {
+   Id "JUM-Role_ReconGunner"
+   Target_en_us "Gunner (BTR-70)"
+   Target_ru_ru "Наводчик-оператор (БТР-70)"
+   Modified 1657987607
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{62D2B1D200EDCFB6}" {
+   Id "JUM-Role_ReconMedic"
+   Target_en_us "Medic"
+   Target_ru_ru "Санинструктор"
+   Modified 1657977224
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{62D2CEA1084F91FA}" {
+   Id "JUM-Role_ReconPlatoonLeader"
+   Target_en_us "Platoon leader"
+   Target_ru_ru "Командир взвода"
+   Modified 1657983000
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{62D2B1D4ABCB9623}" {
+   Id "JUM-Role_ReconPolitOfficer"
+   Target_en_us "Polit Officer"
+   Target_ru_ru "Зам. командира роты по политической части"
+   Modified 1657976452
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{62D2B1DF6C9C226E}" {
+   Id "JUM-Role_ReconRATELO"
+   Target_en_us "RATELO"
+   Target_ru_ru "Радиотелефонист"
+   Modified 1657979778
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{62D2B1DF0F1531CB}" {
+   Id "JUM-Role_ReconSeniorRecon"
+   Target_en_us "Senior recon"
+   Target_ru_ru "Старший разведчик"
+   Modified 1657979706
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{62D2B1DE6FCE6603}" {
+   Id "JUM-Role_ReconSquadLeader"
+   Target_en_us "Squad leader"
+   Target_ru_ru "Командир отделения"
+   Modified 1657979350
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
  }
 }

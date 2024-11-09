@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{537050F6F2CE418A}Prefabs/Characters/Jumbo/OPFOR/USSR_Army/GSFG_Recon_Company_88/jum_Character_USSR_Recon_CL.et" {
+ ID "520EC961A090BE1E"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_name "#JUM-Role_ReconPlatoonLeader"
+  }
+ }
+}

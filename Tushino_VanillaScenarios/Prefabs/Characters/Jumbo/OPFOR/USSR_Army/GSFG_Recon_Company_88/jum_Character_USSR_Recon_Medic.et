@@ -1,0 +1,18 @@
+SCR_ChimeraCharacter : "{ACD9575EDC2C034D}Prefabs/Characters/Drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_Medic.et" {
+ ID "520EC961A090BE1E"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_name "#JUM-Role_ReconMedic"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{62D2B1D19E19B284}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Suit_KLMK/Suit_KLMK.et"
+     PrefabsToSpawn {
+      "{6492196F107687BC}Prefabs/Items/Drongo/Equipment/Radios/Radio_R148_SL.et"
+     }
+    }
+   }
+  }
+ }
+}

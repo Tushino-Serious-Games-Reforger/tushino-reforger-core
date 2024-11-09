@@ -1,0 +1,61 @@
+$grp SCR_AIGroup : "{BC357974A560F678}Prefabs/Groups/BLUFOR/Group_US_RifleSquad_P.et" {
+ First_Squad {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{62D2CEBF2CDC1786}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2862.595 86.89 6340.741
+  angleY 78.919
+  m_aUnitPrefabSlots {
+   "{E3551CBBCF8B27AB}Prefabs/Characters/Factions/BLUFOR/US_Army/jum_Character_USA_Ranger_SL.et" "{E492E6EAA90D9D68}Prefabs/Characters/Factions/BLUFOR/US_Army/jum_Character_USA_Ranger_TL.et" "{8EDDEDA4FD0F85B8}Prefabs/Characters/Factions/BLUFOR/US_Army/jum_Character_USA_Ranger_AR.et" "{830893850AB8EC92}Prefabs/Characters/Factions/BLUFOR/US_Army/jum_Character_USA_Ranger_GL.et" "{A39FF67B1626FC5C}Prefabs/Characters/Factions/BLUFOR/US_Army/jum_Character_USA_Ranger_LAT.et" "{E492E6EAA90D9D68}Prefabs/Characters/Factions/BLUFOR/US_Army/jum_Character_USA_Ranger_TL.et" "{8EDDEDA4FD0F85B8}Prefabs/Characters/Factions/BLUFOR/US_Army/jum_Character_USA_Ranger_AR.et" "{830893850AB8EC92}Prefabs/Characters/Factions/BLUFOR/US_Army/jum_Character_USA_Ranger_GL.et" "{A39FF67B1626FC5C}Prefabs/Characters/Factions/BLUFOR/US_Army/jum_Character_USA_Ranger_LAT.et"
+  }
+ }
+ Second_Squad {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{62D2CEBCD6DB9A91}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2865.418 86.557 6350.443
+  angleY 78.919
+  m_aUnitPrefabSlots {
+   "{E3551CBBCF8B27AB}Prefabs/Characters/Factions/BLUFOR/US_Army/jum_Character_USA_Ranger_SL.et" "{E492E6EAA90D9D68}Prefabs/Characters/Factions/BLUFOR/US_Army/jum_Character_USA_Ranger_TL.et" "{8EDDEDA4FD0F85B8}Prefabs/Characters/Factions/BLUFOR/US_Army/jum_Character_USA_Ranger_AR.et" "{830893850AB8EC92}Prefabs/Characters/Factions/BLUFOR/US_Army/jum_Character_USA_Ranger_GL.et" "{A39FF67B1626FC5C}Prefabs/Characters/Factions/BLUFOR/US_Army/jum_Character_USA_Ranger_LAT.et" "{E492E6EAA90D9D68}Prefabs/Characters/Factions/BLUFOR/US_Army/jum_Character_USA_Ranger_TL.et" "{8EDDEDA4FD0F85B8}Prefabs/Characters/Factions/BLUFOR/US_Army/jum_Character_USA_Ranger_AR.et" "{830893850AB8EC92}Prefabs/Characters/Factions/BLUFOR/US_Army/jum_Character_USA_Ranger_GL.et" "{A39FF67B1626FC5C}Prefabs/Characters/Factions/BLUFOR/US_Army/jum_Character_USA_Ranger_LAT.et"
+  }
+ }
+ Third_Squad {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   PS_GroupCallsignAssigner "{62D2CEBCD6DB9A91}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2894.068 87.113 6360.557
+  angleY 83.262
+  m_aUnitPrefabSlots {
+   "{E3551CBBCF8B27AB}Prefabs/Characters/Factions/BLUFOR/US_Army/jum_Character_USA_Ranger_SL.et" "{E492E6EAA90D9D68}Prefabs/Characters/Factions/BLUFOR/US_Army/jum_Character_USA_Ranger_TL.et" "{8EDDEDA4FD0F85B8}Prefabs/Characters/Factions/BLUFOR/US_Army/jum_Character_USA_Ranger_AR.et" "{830893850AB8EC92}Prefabs/Characters/Factions/BLUFOR/US_Army/jum_Character_USA_Ranger_GL.et" "{A39FF67B1626FC5C}Prefabs/Characters/Factions/BLUFOR/US_Army/jum_Character_USA_Ranger_LAT.et" "{E492E6EAA90D9D68}Prefabs/Characters/Factions/BLUFOR/US_Army/jum_Character_USA_Ranger_TL.et" "{8EDDEDA4FD0F85B8}Prefabs/Characters/Factions/BLUFOR/US_Army/jum_Character_USA_Ranger_AR.et" "{830893850AB8EC92}Prefabs/Characters/Factions/BLUFOR/US_Army/jum_Character_USA_Ranger_GL.et" "{A39FF67B1626FC5C}Prefabs/Characters/Factions/BLUFOR/US_Army/jum_Character_USA_Ranger_LAT.et"
+  }
+ }
+}
+SCR_AIGroup Platoon_HQ : "{FCBE9E46702ED307}Prefabs/Groups/BLUFOR/Group_US_PlatoonHQ_P.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Column"
+  }
+  PS_GroupCallsignAssigner "{62D2CEB754B7EE36}" {
+  }
+ }
+ coords 2862.499 86.824 6334.897
+ angleY 79.998
+ m_aUnitPrefabSlots {
+  "{7A4BA522D26C163B}Prefabs/Characters/Jumbo/BLUFOR/US_Army/Ranger_Company_88/jum_Character_USA_Ranger_PL.et" "{1B1EF52373FF6C59}Prefabs/Characters/Jumbo/BLUFOR/US_Army/Ranger_Company_88/jum_Character_USA_Ranger_Sergeant.et" "{B25C7B5957CA74BE}Prefabs/Characters/Jumbo/BLUFOR/US_Army/Ranger_Company_88/jum_Character_USA_Ranger_RTO.et" "{656D4DEBB374007A}Prefabs/Characters/Jumbo/BLUFOR/US_Army/Ranger_Company_88/jum_Character_USA_Ranger_Medic.et"
+ }
+}

@@ -1,0 +1,18 @@
+SCR_ChimeraCharacter : "{43CED484D075F274}Prefabs/Characters/Drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_Rifleman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_name "#JUM-Role_ReconPolitOfficer"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{62D2B1D1EB0C1E45}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Suit_KLMK/Suit_KLMK.et"
+     PrefabsToSpawn {
+      "{92B819C350698359}Prefabs/Items/Drongo/Equipment/Radios/Radio_R148_rprv.et"
+     }
+    }
+   }
+  }
+ }
+}
