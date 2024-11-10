@@ -30,7 +30,7 @@ $grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/Restri
     m_bFollowTerrain 1
    }
   }
-  coords 7502.787 137.563 4745.183
+  coords 7497.938 137.563 4742.313
   m_fWarnRadius 51
   m_fZoneRadius 101.7
   m_fZoneTeleportedRadius 210
@@ -54,12 +54,9 @@ $grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/Restri
     m_bFollowTerrain 1
    }
   }
-  coords 6760.8 137.362 7037.725
-  angleX 7.987
-  angleY 0.377
-  angleZ 2.71
-  m_fWarnRadius 50.4
-  m_fZoneRadius 76
+  coords 6738.628 142.09 7089.207
+  m_fWarnRadius 90.1
+  m_fZoneRadius 155
   m_fZoneTeleportedRadius 210
   {
    GenericEntity {
@@ -68,7 +65,7 @@ $grp SCR_EditorRestrictionZoneEntity : "{EF72FA7CD87618D5}PrefabsEditable/Restri
      SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
       m_fHeight 3
       m_bFollowTerrain 1
-      m_fRadius 50.4
+      m_fRadius 90.1
      }
     }
    }
