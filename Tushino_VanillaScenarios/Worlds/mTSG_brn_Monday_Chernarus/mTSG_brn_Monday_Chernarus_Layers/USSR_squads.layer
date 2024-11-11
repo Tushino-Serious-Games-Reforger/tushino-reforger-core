@@ -1,15 +1,14 @@
-$grp SCR_AIGroup : "{1F281EA2DECC4EE7}Prefabs/Groups/OPFOR/Boryan/brn_Group_USSR_RifleSquad_LongRaid.et" {
+$grp SCR_AIGroup : "{58427F92BFAA7941}Prefabs/Groups/OPFOR/Boryan/brn_Group_USSR_RifleSquad_Monday.et" {
  B12_rifle {
   components {
-   PS_GroupCallsignAssigner "{62D17366B95BBC6C}" {
+   PS_GroupCallsignAssigner "{62D732861B0CD272}" {
     m_iSquadCallsign 1
    }
   }
-  coords 5614.555 209.958 12006.459
+  coords 5614.555 209.957 12006.459
   angleX -0.325
   angleY -111.903
   angleZ 3.984
-  m_sCustomNameSet "1-2 Отделение на БТР-70"
  }
  B13_rifle {
   components {
@@ -17,7 +16,7 @@ $grp SCR_AIGroup : "{1F281EA2DECC4EE7}Prefabs/Groups/OPFOR/Boryan/brn_Group_USSR
     m_iSquadCallsign 2
    }
   }
-  coords 5601.305 207.471 12039.109
+  coords 5601.305 207.472 12039.108
   angleX 0.189
   angleY -119.269
   angleZ 3.993
@@ -29,10 +28,11 @@ $grp SCR_AIGroup : "{1F281EA2DECC4EE7}Prefabs/Groups/OPFOR/Boryan/brn_Group_USSR
     m_iSquadCallsign 3
    }
   }
-  coords 5589.902 205.696 12062.303
+  coords 5589.902 205.697 12062.303
   angleX -0.681
   angleY -106.768
   angleZ 3.939
+  m_sCustomNameSet "1-4 Отделение на БТР-70"
  }
 }
 $grp SCR_AIGroup : "{CEE1BF54F0BE2909}Prefabs/Groups/OPFOR/Boryan/Spetsnaz/brn_Group_USSR_Spetsnaz_Squad_P.et" {
@@ -53,7 +53,7 @@ $grp SCR_AIGroup : "{CEE1BF54F0BE2909}Prefabs/Groups/OPFOR/Boryan/Spetsnaz/brn_G
     m_iSquadCallsign 5
    }
   }
-  coords 6020.498 267 10401.978
+  coords 6020.498 267 10401.979
   angleY -57.324
   m_sCustomNameSet "1-5 Отделение СПН"
  }
@@ -63,7 +63,7 @@ SCR_AIGroup B11_HQ : "{EDC0D71AE6756CFC}Prefabs/Groups/OPFOR/Boryan/brn_Group_US
   PS_GroupCallsignAssigner "{62D1736B6C093CC7}" {
   }
  }
- coords 5582.406 203.268 12089.885
+ coords 5582.406 203.267 12089.885
  angleX -0.178
  angleY -97.588
  angleZ 5.426

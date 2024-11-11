@@ -1,0 +1,107 @@
+$grp SCR_AIGroup : "{69671004B369576E}Prefabs/Groups/BLUFOR/Boryan/brn_Group_US_RifleSquad_P_Monday.et" {
+ A12 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{62D17307412D05BF}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 3818.73 311.094 8854.456
+  angleY 116.237
+  m_sCustomNameSet "A1-2 Rifle squad"
+ }
+ A13 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{62D17307412D05BF}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 3833.249 311.219 8848.663
+  angleX -0.004
+  angleY 25.935
+  angleZ 0.156
+  m_sCustomNameSet "A1-3 Rifle squad"
+ }
+ A14 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{62D17307412D05BF}" {
+    m_iSquadCallsign 3
+   }
+  }
+  coords 3812.633 311.033 8818.246
+  angleX 0.002
+  angleY -64.257
+  angleZ -0.156
+  m_sCustomNameSet "A1-4 Rifle squad"
+ }
+ A16 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{62D17307412D05BF}" {
+    m_iSquadCallsign 6
+   }
+  }
+  coords 3810.427 311.22 8877.929
+  angleX 0.001
+  angleY -63.385
+  angleZ -0.001
+  m_sCustomNameSet "A1-6 Rifle squad"
+ }
+ A15 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{62D17307412D05BF}" {
+    m_iSquadCallsign 5
+   }
+  }
+  coords 3818.443 311.238 8870.362
+  angleX 0.001
+  angleY 25.935
+  angleZ -0.001
+  m_sCustomNameSet "A1-5 Rifle squad"
+ }
+ A11 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{62D436C2D3EDD6A0}" {
+   }
+  }
+  coords 3801.452 311.032 8795.292
+  angleX -0.001
+  angleY -66.892
+  angleZ 0.001
+  m_aUnitPrefabSlots {
+   "{9F809A16C8265C6C}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_PL.et" "{ED7C02DBC8B7FECA}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Medic.et"
+  }
+  m_sCustomNameSet "A1-1 HQ"
+ }
+ A21 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+   PS_GroupCallsignAssigner "{62D17307412D05BF}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 3794.665 311.255 8881.729
+  angleX 0.697
+  angleY -152.214
+  angleZ 0.604
+  m_sCustomNameSet "A2-1 Rifle squad"
+ }
+}
