@@ -1,0 +1,36 @@
+$grp SCR_EditorRestrictionZoneEntity : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ freeze_USSR_B15 {
+  coords 6022.047 267 10408.513
+ }
+ freeze_USSR_B21 {
+  coords 3318.476 288.651 11259.726
+  angleX -4.381
+  angleY 0.617
+  angleZ -8.028
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ freeze_USSR {
+  coords 5592.144 206.481 12050.867
+  angleX -3.573
+  angleY 0.112
+  angleZ -1.793
+ }
+ freeze_US {
+  coords 3804.598 311.125 8863.513
+  m_fWarnRadius 400
+  m_fZoneRadius 500
+  m_fZoneTeleportedRadius 510
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_fRadius 400
+     }
+    }
+    coords 0 0 0
+   }
+  }
+ }
+}

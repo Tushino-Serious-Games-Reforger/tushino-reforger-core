@@ -1,20 +1,126 @@
+$grp Vehicle : "{751AFEEA19DDFB04}Prefabs/Vehicles/Wheeled/M998/M998_covered_long_MERDC.et" {
+ A12_humvee {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62D550F6BBAE1309}" {
+      SlotTemplate InventoryStorageSlot m72a3 {
+       Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+      }
+      NumSlots 2
+     }
+    }
+   }
+  }
+  coords 3819.559 310.993 8841.507
+  angleX 0.786
+  angleY 28.58
+  angleZ 0.428
+ }
+ A13_humvee {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62D550F6920C1C42}" {
+      SlotTemplate InventoryStorageSlot m72a3 {
+       Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+      }
+      NumSlots 2
+     }
+    }
+   }
+  }
+  coords 3835.584 311.094 8852.79
+  angleY 117.203
+ }
+ A15_humvee {
+  coords 3828.607 311.094 8860.352
+  angleY -64.595
+ }
+ A14_humvee {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62D550F6AC18D342}" {
+      SlotTemplate InventoryStorageSlot m72a3 {
+       Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+      }
+      NumSlots 2
+     }
+    }
+   }
+  }
+  coords 3809.884 310.906 8821.836
+  angleY 25.053
+ }
+ A16_humvee1 {
+  coords 3810.772 311.094 8887.653
+  angleY 25.463
+ }
+ A16_humvee2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62D550F68819692B}" {
+      SlotTemplate InventoryStorageSlot m72a3 {
+       Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+      }
+      NumSlots 2
+     }
+    }
+   }
+  }
+  coords 3807.471 311.094 8880.725
+  angleY 25.463
+ }
+ A21_humvee {
+  coords 3784.659 311.125 8881.724
+  angleY -62.846
+ }
+ A21_humvee2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62D550F65F79F8F1}" {
+      SlotTemplate InventoryStorageSlot m72a3 {
+       Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+      }
+      NumSlots 2
+     }
+    }
+   }
+  }
+  coords 3791.487 311.125 8878.219
+  angleY -62.846
+ }
+ A15_humvee2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62D550F67B77094C}" {
+      SlotTemplate InventoryStorageSlot m72a3 {
+       Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+      }
+      NumSlots 2
+     }
+    }
+   }
+  }
+  coords 3820.383 311.094 8864.258
+  angleY -64.595
+ }
+}
 $grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
- M1025_armed_M2HB_MERDC1 {
-  coords 3806.481 310.875 8815.434
-  angleY 25.325
+ A13_humvee_m2 {
+  coords 3844.677 311.094 8848.859
+  angleY 115.155
  }
- M1025_armed_M2HB_MERDC2 {
-  coords 3810.445 310.906 8823.81
-  angleY 25.325
- }
- M1025_armed_M2HB_MERDC3 {
+ A14_humvee_m2 {
   coords 3813.982 310.906 8831.284
   angleY 25.325
  }
- M1025_armed_M2HB_MERDC4 {
-  coords 3818.688 310.988 8841.227
-  angleX 0.809
+ A12_humvee_m2 {
+  coords 3823.633 311.094 8849.807
   angleY 25.33
-  angleZ 0.383
  }
 }

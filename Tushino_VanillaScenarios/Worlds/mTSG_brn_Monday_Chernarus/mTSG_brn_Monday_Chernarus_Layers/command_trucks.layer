@@ -1,11 +1,35 @@
 $grp Vehicle : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
  cmd1 {
+  components {
+   BaseRadioComponent "{51EAE036CCD0A08E}" {
+    Enabled 0
+   }
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     RegisteringComponentSlotInfo Arsenal {
+      Prefab ""
+     }
+    }
+   }
+  }
   coords 3797.378 310.949 8795.722
   angleX 0.693
   angleY 22.79
   angleZ -1.65
  }
  cmd2 {
+  components {
+   BaseRadioComponent "{51EAE036CCD0A08E}" {
+    Enabled 0
+   }
+   SlotManagerComponent "{55BCE45E438E4CFF}" {
+    Slots {
+     RegisteringComponentSlotInfo Arsenal {
+      Prefab ""
+     }
+    }
+   }
+  }
   coords 3801.426 310.875 8805.355
   angleY 22.79
  }
