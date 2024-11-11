@@ -128,7 +128,6 @@ GenericEntity {
      m_fResourceGain 0
      m_fResourceGainTickrate 1
      m_fResourceGainTimeout 0
-     m_bEnableResourceDecay 1
      m_fResourceDecay 34
      m_fResourceDecayTickrate 60
      m_fResourceDecayTimeout 1200

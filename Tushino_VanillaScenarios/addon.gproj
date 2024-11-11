@@ -3,7 +3,7 @@ GameProject {
  GUID "62A9174CAF11A24C"
  TITLE "TSG Vanilla Scenarios"
  Dependencies {
-  "5EAF2B0473DB5A99" "5EE9238E61637E47" "58D0FB3206B6F859"
+  "58D0FB3206B6F859"
  }
  Configurations {
   GameProjectConfig PC {
