@@ -1,0 +1,110 @@
+SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Column"
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#AR-Group_FireTeam"
+    m_Image "{8BEEADD4724296AD}UI/Textures/EditorPreviews/Groups/OPFOR/Group_USSR_FireGroup.edds"
+    m_aAuthoredLabels + {
+     25 34 27
+    }
+    m_aAutoLabels {
+     71
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{604482963251834C}" {
+      m_Value 300
+     }
+     SCR_EntityBudgetValue "{609AE1834A64CEC1}" {
+      m_Value 4
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{62B47CF147AD1F3B}" {
+      m_BudgetType AI
+      m_Value 4
+     }
+    }
+    m_bUseUIInfoName 1
+    m_MilitarySymbol SCR_MilitarySymbol "{62B47CF147AD1F07}" {
+     m_Identity OPFOR
+     m_Dimension LAND
+     m_Icons INFANTRY
+     m_Amplifier TEAM
+    }
+   }
+  }
+  SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+   m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+    m_Icons INFANTRY
+    m_Amplifier TEAM
+   }
+  }
+  SCR_PreviewEntityComponent "{56368A4E33E2629F}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{62B47CF147AD1F17}" {
+     m_iParentID -1
+     m_Mesh ""
+     m_Flags 3
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{62B47CF147AD1F1A}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{62B47CF147AD1FE1}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{62B47CF147AD1FE3}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition -3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{62B47CF147AD1FE5}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 6 0 -6
+     m_vAngles 0 0 0
+    }
+   }
+  }
+  PS_GroupCallsignAssigner "{62B47CFAEC9064D8}" {
+   m_iCompanyCallsign 2
+   m_iSquadCallsign 1
+  }
+ }
+ coords 0 0 0
+ m_aUnitPrefabSlots {
+  "{9EA6DD1D004F00A6}Prefabs/Characters/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_SL.et" "{5BDB58747563B2C0}Prefabs/Characters/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_GP.et" "{3D500A3A5B9E465C}Prefabs/Characters/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_lMG.et" "{F0C96CAE3929EBD5}Prefabs/Characters/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_MG.et" "{F0080947019F2087}Prefabs/Characters/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_aMG.et" "{5BDB58747563B2C0}Prefabs/Characters/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_GP.et" "{69CFCF282DA134D1}Prefabs/Characters/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_Rifleman.et" "{69CFCF282DA134D1}Prefabs/Characters/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_Rifleman.et"
+ }
+}

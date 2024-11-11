@@ -1,0 +1,73 @@
+GenericEntity : "{6D56FED1E55A8F84}Prefabs/Items/Misc/IntelligenceFolder_E_01/IntelligenceFolder_E_01.et" {
+ coords 6749.016 90.965 5678.096
+ angleY 73.113
+ {
+  PS_ManualMarker Admin_marker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+   coords 0 0 0
+   angleY 16.887
+   m_sImageSet "{C9D19DBFDE7AD72D}UI/Imagesets/Conflict/conflict-icons.imageset"
+   m_sImageSetGlow ""
+   m_MarkerColor 1 1 1 1
+   m_sQuadName "Task_Attack"
+   m_fWorldSize 40
+   m_sDescription "Документы"
+   m_bUseWorldScale 0
+   m_bVisibleForEmptyFaction 1
+   m_aHideOnGameModeStates {
+    0 0
+   }
+   m_iZOrder 10
+  }
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ Task_FIA {
+  coords 6748.165 90.06 5677.475
+  m_sImageSet "{C9D19DBFDE7AD72D}UI/Imagesets/Conflict/conflict-icons.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "GenericEvacuateTask"
+  m_fWorldSize 60
+  m_sDescription "Забрать документы"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ Task_USSR {
+  coords 6747.781 90.06 5677.98
+  m_sImageSet "{C9D19DBFDE7AD72D}UI/Imagesets/Conflict/conflict-icons.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "OpforDefendTask"
+  m_fWorldSize 60
+  m_sDescription "Не дать забрать документы"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 10
+ }
+ Task_FIA2 {
+  coords 6577.46 154.076 7128.21
+  m_sImageSet "{72E261DE1075F937}UI/Imagesets/TutorialHud/TutorialHUD_White.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "unload_128px_white"
+  m_fWorldSize 120
+  m_sDescription "Доставить документы сюда"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   0 0
+  }
+  m_iZOrder 10
+ }
+}

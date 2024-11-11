@@ -1,0 +1,104 @@
+SCR_AIGroup : "{242BC3C6BCE96EA5}Prefabs/Groups/INDFOR/Group_FIA_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Column"
+  }
+  PS_GroupCallsignAssigner "{62B47CF821C968FC}" {
+   m_iCompanyCallsign 1
+   m_iSquadCallsign 1
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#AR-Group_SupplyTeam"
+    m_Image "{8BC14B4BEEB943A8}UI/Textures/EditorPreviews/Groups/INDFOR/Group_FIA_AmmoTeam.edds"
+    m_aAuthoredLabels +{
+    }
+    m_aAutoLabels {
+     71
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{62B47CF821C9680D}" {
+      m_BudgetType CAMPAIGN
+      m_Value 1
+     }
+     SCR_EntityBudgetValue "{62B47CF821C96818}" {
+      m_BudgetType AI_SERVER
+      m_Value 0
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{62B47CF821C9681D}" {
+      m_BudgetType AI
+      m_Value 4
+     }
+    }
+    m_bUseUIInfoName 1
+    m_MilitarySymbol SCR_MilitarySymbol "{62B47CF821C968E0}" {
+     m_Identity INDFOR
+     m_Dimension LAND
+     m_Icons 0
+     m_Amplifier NONE
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{62B47CF821C968EA}" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{62B47CF821C968EE}" {
+     m_iParentID -1
+     m_Mesh ""
+     m_Flags 259
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 -5 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{62B47CF821C968F1}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{62B47CF821C968F5}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{62B47CF821C968F7}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition -3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{62B47CF821C968F8}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 6 0 -6
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{3E2F5CAA1C916DE5}Prefabs/Characters/Factions/INDFOR/FIA/mTSG_Character_FIA_SL.et" "{AAA247750C108201}Prefabs/Characters/Factions/INDFOR/FIA/mTSG_Character_FIA_GP.et" "{01B073AF405ADB14}Prefabs/Characters/Factions/INDFOR/FIA/mTSG_Character_FIA_MG.et" "{4D5F8700FD390CC7}Prefabs/Characters/Factions/INDFOR/FIA/mTSG_Character_FIA_aMG.et" "{D4C2EC9443DB650B}Prefabs/Characters/Factions/INDFOR/FIA/mTSG_Character_FIA_RPK.et" "{8B0FC474579CD1AB}Prefabs/Characters/Factions/INDFOR/FIA/mTSG_Character_FIA_AT.et" "{C7E030DBEAFF0678}Prefabs/Characters/Factions/INDFOR/FIA/mTSG_Character_FIA_aAT.et" "{8A99E3443BAC29A2}Prefabs/Characters/Factions/INDFOR/FIA/mTSG_Character_FIA_rifleman.et" "{8A99E3443BAC29A2}Prefabs/Characters/Factions/INDFOR/FIA/mTSG_Character_FIA_rifleman.et"
+ }
+}

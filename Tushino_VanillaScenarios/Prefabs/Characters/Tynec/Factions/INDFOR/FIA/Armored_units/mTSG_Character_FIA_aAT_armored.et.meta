@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E35926A461C60EA9}Prefabs/Characters/Factions/INDFOR/FIA/mTSG_Character_FIA_aAT_armored.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
