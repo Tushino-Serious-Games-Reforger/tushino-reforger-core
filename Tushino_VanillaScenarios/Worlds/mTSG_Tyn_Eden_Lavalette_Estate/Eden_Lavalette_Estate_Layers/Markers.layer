@@ -293,10 +293,10 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  {
-  coords 7487.064 137.898 4727.866
-  angleX -5.084
-  angleY 108.522
-  angleZ 1.12
+  coords 7470.135 138.257 4715.77
+  angleX 0.092
+  angleY 29.199
+  angleZ -1.999
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.855 0.031 0.028 1
@@ -442,7 +442,10 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  USSR_G_001_M {
-  coords 7483.071 137.772 4730.904
+  coords 7465.904 138.256 4713.583
+  angleX 0.001
+  angleY 18.772
+  angleZ 0.002
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1

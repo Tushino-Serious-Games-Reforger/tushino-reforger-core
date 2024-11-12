@@ -243,10 +243,10 @@ $grp Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
  }
 }
 Vehicle UAZ452_ambulance1 : "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et" {
- coords 7487.064 137.898 4727.866
- angleX -5.084
- angleY 18.522
- angleZ 1.12
+ coords 7470.135 138.257 4715.77
+ angleX -1.997
+ angleY -60.038
+ angleZ -0.119
 }
 $grp SCR_AIGroup : "{829DEE4C9A63A27A}Prefabs/Groups/Tynec/OPFOR/mTSG_Group_USSR_Platoon.et" {
  {
@@ -272,8 +272,10 @@ $grp SCR_AIGroup : "{829DEE4C9A63A27A}Prefabs/Groups/Tynec/OPFOR/mTSG_Group_USSR
  }
 }
 SCR_AIGroup : "{99646AD602B1FE89}Prefabs/Groups/Tynec/OPFOR/mTSG_Group_USSR_MedTeam.et" {
- coords 7483.071 137.772 4730.904
- angleY 10.397
+ coords 7465.904 138.256 4713.583
+ angleX 0.002
+ angleY -60.808
+ angleZ -0
 }
 $grp SCR_AIGroup : "{B88BAC049F576133}Prefabs/Groups/Tynec/OPFOR/mTSG_Group_USSR_RifleTeam.et" {
  {
@@ -410,10 +412,10 @@ $grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
     }
    }
   }
-  coords 7496.804 137.294 4745.516
-  angleX -0.859
+  coords 7496.803 137.231 4745.515
+  angleX -0.895
   angleY -88.841
-  angleZ -1.807
+  angleZ -0.018
  }
 }
 $grp SCR_AIGroup : "{E7E8153066A3DC44}Prefabs/Groups/Tynec/OPFOR/mTSG_Group_USSR_RifleSquad.et" {
