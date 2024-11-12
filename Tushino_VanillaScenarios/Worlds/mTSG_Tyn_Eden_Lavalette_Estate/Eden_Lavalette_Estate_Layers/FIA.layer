@@ -1,8 +1,8 @@
 SCR_AIGroup : "{087C09FBF41A86AF}Prefabs/Groups/Tynec/INDFOR/mTSG_Group_FIA_HQ.et" {
- coords 6774.185 138.628 7025.596
- angleX -3.776
- angleY 129.511
- angleZ 0.363
+ coords 6776.299 138.628 7027.248
+ angleX 0.795
+ angleY 32.918
+ angleZ 3.709
 }
 $grp Vehicle : "{16E32C3ABEAFC2C6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA_transport.et" {
  Ural4320_FIA_transport1 {
@@ -460,10 +460,10 @@ $grp SCR_AIGroup : "{C5D8F4AAE0D8989A}Prefabs/Groups/Tynec/INDFOR/mTSG_Group_FIA
     m_iCompanyCallsign 1
    }
   }
-  coords 6770.926 139.576 7040.24
-  angleX -3.221
-  angleY 123.655
-  angleZ 6.421
+  coords 6771.256 139.576 7039.209
+  angleX -6.374
+  angleY -145.331
+  angleZ -3.314
  }
  {
   components {
