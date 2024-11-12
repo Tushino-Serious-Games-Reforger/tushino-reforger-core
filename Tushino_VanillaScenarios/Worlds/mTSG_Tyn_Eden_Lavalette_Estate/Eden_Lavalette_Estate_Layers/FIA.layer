@@ -446,10 +446,64 @@ $grp SCR_AIGroup : "{3CCCF1BD3EDBCA86}Prefabs/Groups/Tynec/INDFOR/mTSG_Group_FIA
  }
 }
 Vehicle S105_rally1 : "{5555DCAFADB8CE2A}Prefabs/Vehicles/Wheeled/S105/S105_rally.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{607097C4DCC32AFC}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6072948F3F668390}" {
+     NumSlots 15
+    }
+    MultiSlotConfiguration "{62D8E012A5351D84}" {
+     SlotTemplate InventoryStorageSlot mines {
+      Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{62D8E012F78D62E7}" {
+     SlotTemplate InventoryStorageSlot Tourniquet {
+      Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{62D8E012F72C1E34}" {
+     SlotTemplate InventoryStorageSlot Moprhine {
+      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+     NumSlots 5
+    }
+   }
+  }
+ }
  coords 6128.97 83.781 5752.078
  angleY -58.35
 }
 Vehicle S105_darkblue1 : "{9C3269FB43F989A3}Prefabs/Vehicles/Wheeled/S105/S105_darkblue.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{607097C4DCC32AFC}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6072948F3F668390}" {
+     NumSlots 15
+    }
+    MultiSlotConfiguration "{62D8E01256E2F699}" {
+     SlotTemplate InventoryStorageSlot mines {
+      Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{62D8E012D31F121E}" {
+     SlotTemplate InventoryStorageSlot Tourniquet {
+      Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{62D8E012D35870CE}" {
+     SlotTemplate InventoryStorageSlot Moprhine {
+      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+     NumSlots 5
+    }
+   }
+  }
+ }
  coords 6130.782 83.706 5755.314
  angleY -64.634
 }
@@ -497,8 +551,10 @@ SCR_AIGroup : "{EA171C5CAE750B96}Prefabs/Groups/Tynec/INDFOR/mTSG_Group_FIA_CIV.
    m_iCompanyCallsign 3
   }
  }
- coords 6116.237 84.061 5762.831
- angleY 33.146
+ coords 6118.929 83.784 5766.955
+ angleX -0.978
+ angleY 33.12
+ angleZ 1.499
  m_aUnitPrefabSlots {
   "{8A3413397BF7499E}Prefabs/Characters/Tynec/Factions/INDFOR/FIA/Civilian_uniform/mTSG_Character_FIA_Rifleman_c_SL.et" "{AAC31C96DF3C1B47}Prefabs/Characters/Tynec/Factions/INDFOR/FIA/Civilian_uniform/mTSG_Character_FIA_Rifleman_c.et" "{6FA85FC07712DEF5}Prefabs/Characters/Tynec/Factions/INDFOR/FIA/Civilian_uniform/mTSG_Character_FIA_Rifleman_c_v2.et" "{AAC31C96DF3C1B47}Prefabs/Characters/Tynec/Factions/INDFOR/FIA/Civilian_uniform/mTSG_Character_FIA_Rifleman_c.et" "{6FA85FC07712DEF5}Prefabs/Characters/Tynec/Factions/INDFOR/FIA/Civilian_uniform/mTSG_Character_FIA_Rifleman_c_v2.et" "{8A3413397BF7499F}Prefabs/Characters/Tynec/Factions/INDFOR/FIA/Civilian_uniform/mTSG_Character_FIA_Rifleman_c_v3.et" "{B70036010E9BC0A9}Prefabs/Characters/Tynec/Factions/INDFOR/FIA/Civilian_uniform/mTSG_Character_FIA_Rifleman_c_v4.et" "{03D3192B9D68686A}Prefabs/Characters/Tynec/Factions/INDFOR/FIA/Civilian_uniform/mTSG_Character_FIA_Medic_c.et"
  }
