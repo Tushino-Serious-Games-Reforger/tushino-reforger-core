@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9F7AD83B2060D485}Worlds/mTSG_Tyn_Eden_Dirty_War/Eden_Dirty_War.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}
