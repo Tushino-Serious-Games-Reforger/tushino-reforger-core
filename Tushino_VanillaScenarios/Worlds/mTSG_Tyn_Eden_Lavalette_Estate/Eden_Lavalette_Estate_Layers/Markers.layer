@@ -130,7 +130,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Рацек-11"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "FIA"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -148,7 +148,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Бжиза-12"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "FIA"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -166,7 +166,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Бжиза-13"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "FIA"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -187,7 +187,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Сэдр-13"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "FIA"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -208,7 +208,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Сэдр-12"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "FIA"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -226,7 +226,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Бжиза-11"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "FIA"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -247,7 +247,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Сэдр-11"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "FIA"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -267,7 +267,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Датэл-11"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "FIA"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -340,7 +340,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Буран-13"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -398,7 +398,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Компас-11"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -416,7 +416,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Актив-11"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -452,7 +452,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Актив-12"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -470,7 +470,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Компас-12"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -488,7 +488,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Буран-11"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -506,7 +506,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Буран-12"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
@@ -527,7 +527,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Буран-14"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {

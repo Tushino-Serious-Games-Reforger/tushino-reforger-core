@@ -5,7 +5,7 @@ PolylineShapeEntity {
    m_mPolygonTextureBorder ""
    m_fPolygonBorderWidth 5.4
    m_aVisibleForFactions {
-    "FIA" "USSR"
+    "FIA" "USSR" ""
    }
    m_aHideOnGameModeStates {
    }
@@ -44,7 +44,6 @@ GenericEntity : "{6D56FED1E55A8F84}Prefabs/Items/Misc/IntelligenceFolder_E_01/In
    m_bUseWorldScale 0
    m_bVisibleForEmptyFaction 1
    m_aHideOnGameModeStates {
-    0 0
    }
    m_iZOrder 10
   }
@@ -92,7 +91,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Доставить документы сюда"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "FIA"
+   "FIA" "USSR"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
