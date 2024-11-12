@@ -1,3 +1,33 @@
+PolylineShapeEntity {
+ components {
+  PS_PolyZone "{62D8E01826FE2553}" {
+   m_mPolygonTexture "{0750C59EDB7D77E5}UI/layouts/Textures/Grid1.edds"
+   m_mPolygonTextureBorder ""
+   m_fPolygonBorderWidth 5.4
+   m_aVisibleForFactions {
+    "FIA" "USSR"
+   }
+   m_aHideOnGameModeStates {
+   }
+  }
+ }
+ coords 6568.122 153.164 7126.185
+ Points {
+  ShapePoint "{62D8E01BE05A9E77}" {
+   Position -0.597 0.017 -0.925
+  }
+  ShapePoint "{62D8E01BE064DBDD}" {
+   Position 19.445 -0.671 -3.104
+  }
+  ShapePoint "{62D8E018091284D6}" {
+   Position 20.463 -0.102 7.05
+  }
+  ShapePoint "{62D8E01801C9F94D}" {
+   Position 0.498 0.226 9.182
+  }
+ }
+ IsClosed 1
+}
 GenericEntity : "{6D56FED1E55A8F84}Prefabs/Items/Misc/IntelligenceFolder_E_01/IntelligenceFolder_E_01.et" {
  coords 6749.016 90.965 5678.096
  angleY 73.113
@@ -54,7 +84,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 10
  }
  Task_FIA2 {
-  coords 6577.46 154.076 7128.21
+  coords 6579.124 155 7129.722
   m_sImageSet "{72E261DE1075F937}UI/Imagesets/TutorialHud/TutorialHUD_White.imageset"
   m_sImageSetGlow ""
   m_sQuadName "unload_128px_white"
