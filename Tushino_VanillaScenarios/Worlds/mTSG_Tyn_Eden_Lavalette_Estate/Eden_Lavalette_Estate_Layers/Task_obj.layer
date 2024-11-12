@@ -39,7 +39,7 @@ GenericEntity : "{6D56FED1E55A8F84}Prefabs/Items/Misc/IntelligenceFolder_E_01/In
    m_sImageSetGlow ""
    m_MarkerColor 1 1 1 1
    m_sQuadName "Task_Attack"
-   m_fWorldSize 40
+   m_fWorldSize 30
    m_sDescription "Документы"
    m_bUseWorldScale 0
    m_bVisibleForEmptyFaction 1
@@ -95,7 +95,6 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
-   0 0
   }
   m_iZOrder 10
  }
