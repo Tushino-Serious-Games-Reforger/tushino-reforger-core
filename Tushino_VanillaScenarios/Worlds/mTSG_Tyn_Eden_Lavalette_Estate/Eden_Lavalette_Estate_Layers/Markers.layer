@@ -94,8 +94,9 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "#AR-Vehicle_Skoda105_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "FIA"
+   "FIA" "USSR"
   }
+  m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
    1
   }
@@ -112,8 +113,9 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "#AR-Vehicle_Skoda105_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "FIA"
+   "FIA" "USSR"
   }
+  m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
    1
   }
@@ -285,8 +287,9 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "#AR-Vehicle_Ural4320_Transport_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "FIA"
   }
+  m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
    1
   }
@@ -305,8 +308,9 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "#AR-Vehicle_UAZ452A_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "FIA"
   }
+  m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
    1
   }
@@ -322,8 +326,9 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "#AR-Vehicle_UAZ469_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "FIA"
   }
+  m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
    1
   }
@@ -360,8 +365,9 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "#AR-Vehicle_BTR70_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "FIA"
   }
+  m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
    1
   }
@@ -380,8 +386,9 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "#AR-Vehicle_UAZ469_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "FIA"
   }
+  m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
    1
   }
@@ -434,8 +441,9 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "#AR-Vehicle_Ural4320_Transport_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "FIA"
   }
+  m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
    1
   }
@@ -550,8 +558,9 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "#AR-Vehicle_BTR70_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "FIA"
   }
+  m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
    1
   }
