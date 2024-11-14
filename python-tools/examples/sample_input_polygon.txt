@@ -1,0 +1,11 @@
+  Points {
+   ShapePoint "{62D436407DEC6F33}" {
+    Position 0 -0.006 0
+   }
+   ShapePoint "{62D436407B6B5F2C}" {
+    Position 5 0.854 0
+   }
+   ShapePoint "{62D436407FF6E27E}" {
+    Position 165.364 36.452 -333.405
+   }
+  }
