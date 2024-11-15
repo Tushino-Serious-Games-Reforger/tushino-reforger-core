@@ -11,7 +11,6 @@ PolylineShapeEntity {
     "FIA" "USSR" ""
    }
    m_aHideOnGameModeStates {
-    0 0
    }
   }
  }
@@ -95,11 +94,11 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "#AR-Vehicle_Skoda105_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "FIA"
+   "FIA" "USSR"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
-   1 0
+   1
   }
   m_iZOrder 0
  }
@@ -114,163 +113,16 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "#AR-Vehicle_Skoda105_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "FIA"
+   "FIA" "USSR"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
-   1 0
-  }
-  m_iZOrder 0
- }
- {
-  coords 6777.745 138.692 7030.51
-  angleX -3.702
-  angleY 212.409
-  angleZ 0.826
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0 0.44 0.078 1
-  m_sQuadName "Car"
-  m_fWorldSize 2.043
-  m_sDescription "#AR-Vehicle_UAZ469_Name"
-  m_bUseWorldScale 1
-  m_aVisibleForFactions {
-   "FIA"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-   1 0
-  }
-  m_iZOrder 0
- }
- {
-  coords 6769.529 139.386 7036.416
-  angleX -3.946
-  angleY 215.801
-  angleZ -0.641
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0 0.44 0.078 1
-  m_sQuadName "Car"
-  m_fWorldSize 2.043
-  m_sDescription "#AR-Vehicle_UAZ469_UK59_Name"
-  m_bUseWorldScale 1
-  m_aVisibleForFactions {
-   "FIA"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-   1 0
-  }
-  m_iZOrder 0
- }
- {
-  coords 6733.874 142.794 7064.066
-  angleX -5.199
-  angleY 213.938
-  angleZ -0.27
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0 0.44 0.078 1
-  m_sQuadName "Car"
-  m_fWorldSize 2.043
-  m_sDescription "#AR-Vehicle_UAZ469_UK59_Name"
-  m_bUseWorldScale 1
-  m_aVisibleForFactions {
-   "FIA"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-   1 0
-  }
-  m_iZOrder 0
- }
- {
-  coords 6760.907 140.15 7042.797
-  angleX -3.741
-  angleY 215.543
-  angleZ 0.623
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0 0.44 0.078 1
-  m_sQuadName "Truck"
-  m_fWorldSize 3.722
-  m_sDescription "#AR-Vehicle_Ural4320_Transport_Name"
-  m_bUseWorldScale 1
-  m_aVisibleForFactions {
-   "FIA"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-   1 0
-  }
-  m_iZOrder 0
- }
- {
-  coords 6722.887 143.95 7070.424
-  angleX -5.204
-  angleY 212.366
-  angleZ -0.127
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0 0.44 0.078 1
-  m_sQuadName "Truck"
-  m_fWorldSize 3.722
-  m_sDescription "#AR-Vehicle_Ural4320_Transport_Name"
-  m_bUseWorldScale 1
-  m_aVisibleForFactions {
-   "FIA"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-   1 0
-  }
-  m_iZOrder 0
- }
- {
-  coords 6707.906 146.448 7087.395
-  angleX -4.8
-  angleY 233.796
-  angleZ -2.017
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0 0.44 0.078 1
-  m_sQuadName "Truck"
-  m_fWorldSize 3.722
-  m_sDescription "#AR-Vehicle_Ural4320_Transport_Name"
-  m_bUseWorldScale 1
-  m_aVisibleForFactions {
-   "FIA"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-   1 0
-  }
-  m_iZOrder 0
- }
- {
-  coords 6750.043 141.131 7050.848
-  angleX -4.462
-  angleY 219.645
-  angleZ -0.216
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0 0.44 0.078 1
-  m_sQuadName "Truck"
-  m_fWorldSize 3.722
-  m_sDescription "#AR-Vehicle_Ural4320_Transport_Name"
-  m_bUseWorldScale 1
-  m_aVisibleForFactions {
-   "FIA"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-   1 0
+   1
   }
   m_iZOrder 0
  }
  FIA_G_000_M {
-  coords 6774.185 138.628 7025.596
+  coords 6776.299 138.628 7027.249
   m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -279,11 +131,11 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Рацек-11"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "FIA"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
-   1 0
+   1
   }
   m_iZOrder 10
  }
@@ -297,11 +149,11 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Бжиза-12"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "FIA"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
-   1 0
+   1
   }
   m_iZOrder 10
  }
@@ -315,16 +167,19 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Бжиза-13"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "FIA"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
-   1 0
+   1
   }
   m_iZOrder 10
  }
  FIA_G_202_M {
-  coords 6713.273 146.616 7088.032
+  coords 6742.824 140.518 7040.81
+  angleX -0.89
+  angleY 89.93
+  angleZ 4.468
   m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -333,16 +188,19 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Сэдр-13"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "FIA"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
-   1 0
+   1
   }
   m_iZOrder 10
  }
  FIA_G_201_M {
-  coords 6724.076 144.59 7075.079
+  coords 6754.332 139.74 7032.344
+  angleX 0.001
+  angleY 89.986
+  angleZ 3.576
   m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -351,16 +209,16 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Сэдр-12"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "FIA"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
-   1 0
+   1
   }
   m_iZOrder 10
  }
  FIA_G_100_M {
-  coords 6770.926 139.576 7040.24
+  coords 6771.256 139.576 7039.209
   m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -369,17 +227,19 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Бжиза-11"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "FIA"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
-   1 0
+   1
   }
   m_iZOrder 10
  }
  FIA_G_200_M {
-  coords 6735.25 142.988 7068.43
-  angleY 90
+  coords 6762.788 139.214 7026.118
+  angleX -0.892
+  angleY 89.944
+  angleZ 3.577
   m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -388,16 +248,18 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Сэдр-11"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "FIA"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
-   1 0
+   1
   }
   m_iZOrder 10
  }
  FIA_G_300_M {
-  coords 6116.237 84.061 5762.831
+  coords 6118.929 83.784 5766.955
+  angleX -1.79
+  angleY 90
   m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -406,11 +268,11 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Датэл-11"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "FIA"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
-   1 0
+   1
   }
   m_iZOrder 10
  }
@@ -425,19 +287,19 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "#AR-Vehicle_Ural4320_Transport_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
-   1 0
+   1
   }
   m_iZOrder 0
  }
  {
-  coords 7487.064 137.898 4727.866
-  angleX -5.084
-  angleY 108.522
-  angleZ 1.12
+  coords 7470.135 138.257 4715.77
+  angleX 0.092
+  angleY 29.199
+  angleZ -1.999
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.855 0.031 0.028 1
@@ -446,11 +308,11 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "#AR-Vehicle_UAZ452A_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
-   1 0
+   1
   }
   m_iZOrder 0
  }
@@ -464,16 +326,16 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "#AR-Vehicle_UAZ469_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
-   1 0
+   1
   }
   m_iZOrder 0
  }
  USSR_G_102_M {
-  coords 7487.738 137.416 4750.205
+  coords 7495.207 137.416 4749.861
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -482,17 +344,19 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Буран-13"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
-   1 0
+   1
   }
   m_iZOrder 10
  }
  {
-  coords 7518.206 137.281 4744.817
-  angleY 1.132
+  coords 7458.5 137.731 4722.177
+  angleX 0.09
+  angleY 29.15
+  angleZ -1.999
   m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 0.855 0.031 0.028 1
@@ -501,11 +365,11 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "#AR-Vehicle_BTR70_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
-   1 0
+   1
   }
   m_iZOrder 0
  }
@@ -522,11 +386,11 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "#AR-Vehicle_UAZ469_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
-   1 0
+   1
   }
   m_iZOrder 0
  }
@@ -540,11 +404,11 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Компас-11"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
-   1 0
+   1
   }
   m_iZOrder 10
  }
@@ -558,11 +422,11 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Актив-11"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
-   1 0
+   1
   }
   m_iZOrder 10
  }
@@ -577,16 +441,19 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "#AR-Vehicle_Ural4320_Transport_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
-   1 0
+   1
   }
   m_iZOrder 0
  }
  USSR_G_001_M {
-  coords 7483.071 137.772 4730.904
+  coords 7465.904 138.256 4713.583
+  angleX 0.001
+  angleY 18.772
+  angleZ 0.002
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -595,11 +462,11 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Актив-12"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
-   1 0
+   1
   }
   m_iZOrder 10
  }
@@ -613,11 +480,11 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Компас-12"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
-   1 0
+   1
   }
   m_iZOrder 10
  }
@@ -631,11 +498,11 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Буран-11"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
-   1 0
+   1
   }
   m_iZOrder 10
  }
@@ -649,16 +516,19 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Буран-12"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
-   1 0
+   1
   }
   m_iZOrder 10
  }
  USSR_G_103_M {
-  coords 7512.569 137.453 4751.037
+  coords 7457.915 137.6 4729.356
+  angleX 1.789
+  angleY 89.972
+  angleZ -0.896
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -667,16 +537,16 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "Буран-14"
   m_bUseWorldScale 0
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "FIA"
   }
   m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
-   1 0
+   1
   }
   m_iZOrder 10
  }
  {
-  coords 7488.353 137.027 4745.683
+  coords 7496.805 137.294 4745.516
   angleX -0.859
   angleY 1.159
   angleZ -1.807
@@ -688,8 +558,156 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_sDescription "#AR-Vehicle_BTR70_Name"
   m_bUseWorldScale 1
   m_aVisibleForFactions {
-   "USSR"
+   "USSR" "FIA"
   }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 6764.7 139.297 7029.704
+  angleX -3.723
+  angleY 213.957
+  angleZ 0.726
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.043
+  m_sDescription "#AR-Vehicle_UAZ469_UK59_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 6769.529 139.386 7036.416
+  angleX -3.945
+  angleY 215.801
+  angleZ -0.641
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.043
+  m_sDescription "#AR-Vehicle_UAZ469_UK59_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 6777.745 138.692 7030.51
+  angleX -3.702
+  angleY 212.409
+  angleZ 0.826
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.043
+  m_sDescription "#AR-Vehicle_UAZ469_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 6756.114 139.922 7035.741
+  angleX -3.016
+  angleY 215.566
+  angleZ 1.142
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Truck"
+  m_fWorldSize 3.722
+  m_sDescription "#AR-Vehicle_Ural4320_Transport_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 6760.907 140.15 7042.797
+  angleX -3.741
+  angleY 215.543
+  angleZ 0.623
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Truck"
+  m_fWorldSize 3.722
+  m_sDescription "#AR-Vehicle_Ural4320_Transport_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 6745.017 140.666 7044.286
+  angleX -5.324
+  angleY 216.195
+  angleZ 2.735
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Truck"
+  m_fWorldSize 3.722
+  m_sDescription "#AR-Vehicle_Ural4320_Transport_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 6750.043 141.131 7050.846
+  angleX -4.466
+  angleY 215.535
+  angleZ 0.104
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Truck"
+  m_fWorldSize 3.722
+  m_sDescription "#AR-Vehicle_Ural4320_Transport_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR"
+  }
+  m_bVisibleForEmptyFaction 1
   m_aHideOnGameModeStates {
    1
   }
