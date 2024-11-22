@@ -1,6 +1,6 @@
 GameProject {
  ID "TSG_VanillaScenarios"
- GUID "62A9174CAF11A24C"
+ GUID "62A9174CAF98A98C"
  TITLE "TSG Vanilla Scenarios"
  Dependencies {
   "58D0FB3206B6F859"
