@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{7ADE36D180AF0F71}Prefabs/Characters/Factions/INDFOR/FIA/mTSG_Character_FIA_unarmed.et" {
+SCR_ChimeraCharacter : "{7ADE36D180AF0F71}Prefabs/Characters/Tynec/Factions/INDFOR/FIA/Tyn_Character_FIA_unarmed.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -45,7 +45,7 @@ SCR_ChimeraCharacter : "{7ADE36D180AF0F71}Prefabs/Characters/Factions/INDFOR/FIA
      Prefab "{FDA7B6630DB87991}Prefabs/Items/Equipment/Backpacks/Backpack_M70_Swiss.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{D8DDD4941197A92A}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_Commander_morespace.et"
+     Prefab "{D8DDD4941197A92A}Prefabs/Characters/Tynec/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_Commander_morespace.et"
     }
     LoadoutSlotInfo HandWear {
      Name "Handwear"
@@ -56,21 +56,9 @@ SCR_ChimeraCharacter : "{7ADE36D180AF0F71}Prefabs/Characters/Factions/INDFOR/FIA
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{62B165C144DF2E90}" {
+    ItemsInitConfigurationItem "{62F312D9DB991312}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_M70.et"
      PrefabsToSpawn +{
-     }
-    }
-    ItemsInitConfigurationItem "{62B165C1445EB258}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Jacket_M70.et"
-     PrefabsToSpawn {
-      "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et"
-     }
-    }
-    ItemsInitConfigurationItem "{62B165C147BF3A43}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Jacket_M70.et"
-     TargetPurpose 64
-     PrefabsToSpawn {
-      "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
      }
     }
     ItemsInitConfigurationItem "{62B30ED24D4607C4}" {
@@ -83,12 +71,6 @@ SCR_ChimeraCharacter : "{7ADE36D180AF0F71}Prefabs/Characters/Factions/INDFOR/FIA
      TargetStorage "Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_GrenadePouch.et"
      PrefabsToSpawn {
       "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
-     }
-    }
-    ItemsInitConfigurationItem "{62B47CECA8EABE85}" {
-     TargetStorage "Prefabs/Items/Equipment/Accessories/Pouch_Soviet_30rnd_AK74/Pouch_Soviet_30rnd_AK74.et"
-     PrefabsToSpawn {
-      "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
      }
     }
     ItemsInitConfigurationItem "{62B47CEB6A7A8466}" {

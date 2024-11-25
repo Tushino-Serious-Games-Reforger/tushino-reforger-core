@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{7ADE36D180AF0F71}Prefabs/Characters/Factions/INDFOR/FIA/mTSG_Character_FIA_unarmed.et" {
+SCR_ChimeraCharacter : "{7ADE36D180AF0F71}Prefabs/Characters/Tynec/Factions/INDFOR/FIA/Tyn_Character_FIA_unarmed.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -25,7 +25,7 @@ SCR_ChimeraCharacter : "{7ADE36D180AF0F71}Prefabs/Characters/Factions/INDFOR/FIA
      Prefab "{AC298BA8A7D27007}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{7B0DCD4DBF93FC11}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_medic_morespace.et"
+     Prefab "{7B0DCD4DBF93FC11}Prefabs/Characters/Tynec/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_medic_morespace.et"
     }
     LoadoutSlotInfo HandWear {
      Prefab "{8266820FFDE17477}Prefabs/Characters/Handwear/Gloves_Wool_01/Gloves_Wool_01.et"
@@ -34,10 +34,10 @@ SCR_ChimeraCharacter : "{7ADE36D180AF0F71}Prefabs/Characters/Factions/INDFOR/FIA
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{62B165C1445EB258}" {
+    ItemsInitConfigurationItem "{62F312DAB4D9A2B7}" {
      TargetStorage "Prefabs/Characters/Uniforms/Jacket_TAZ83/Jacket_TAZ83_01.et"
     }
-    ItemsInitConfigurationItem "{62B165C147BF3A43}" {
+    ItemsInitConfigurationItem "{62F312DAA939F9A6}" {
      TargetStorage "Prefabs/Characters/Uniforms/Jacket_TAZ83/Jacket_TAZ83_01.et"
     }
     ItemsInitConfigurationItem "{62B47CE6420A23BE}" {
