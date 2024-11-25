@@ -58,7 +58,8 @@ SCR_ChimeraCharacter : "{7ADE36D180AF0F71}Prefabs/Characters/Tynec/Factions/INDF
    InitialInventoryItems {
     ItemsInitConfigurationItem "{62F312D9DB991312}" {
      TargetStorage "Prefabs/Characters/Uniforms/Pants_M70.et"
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
+      "{272AFE7E14B20969}Prefabs/Items/Tynec/Equipment/Radios/Tyn_Radio_ANPRC68_FIA_SL.et"
      }
     }
     ItemsInitConfigurationItem "{62B30ED24D4607C4}" {
