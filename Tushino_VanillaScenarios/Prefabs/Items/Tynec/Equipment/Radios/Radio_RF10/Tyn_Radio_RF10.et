@@ -2,6 +2,7 @@ GenericEntity : "{B15E9D81210CFC1C}Prefabs/Items/Equipment/Radios/Radio_RF10/Rad
  ID "508AB2013EEE1E00"
  components {
   BaseRadioComponent "{5A30BAE7673C63CA}" {
+   "Encryption key" "candleSauce"
    Transceivers {
     RadioTransceiver "{5EA4A89F0D06E18F}" {
      ChannelFrequency 52000
