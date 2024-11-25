@@ -1,0 +1,43 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ common_info {
+  coords 6031.786 279.347 10205.108
+  m_sTitle "Общая информация"
+  m_sTextData "Попытка советской армии вернуть украденные КШМ (по мотивам мисии Monday для A3 автора miki)"
+  m_aVisibleForFactions {
+   "US" "USSR" ""
+  }
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ rules {
+  coords 6180.666 275.789 10442.033
+  m_sTitle "Условности"
+  m_sTextData "— Всем запрещено надевать форму, головные уборы, разгрузки, бронежилеты противника (рюкзаки можно)"\
+  "— Всем запрещено выходить за границу карты"\
+  "— США запрещено входить, пересекать зону черного триггера"\
+  "— США разрешено перемещать КШМ только внутри синего маркера"\
+  "— Время на миссию: 60 минут, победа обороны по истечению времени"\
+  ""
+  m_aVisibleForFactions {
+   "US" "USSR" ""
+  }
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+ tasks_ussr {
+  coords 3808.948 317.583 8805.342
+  m_sTitle "Задачи"
+  m_sTextData "Эти **ные американцы угнали у нас две КШМ! Нам надо выдвинуться в район Выбора и уничтожить их или пригнать обратно (в красный маркер)."
+  m_aVisibleForFactions {
+   "USSR"
+  }
+ }
+ tasks_us {
+  coords 3808.948 317.583 8805.342
+  m_sTitle "Задачи"
+  m_sTextData "Мы угнали у врага 2 КШМ, которые нам необходимо скрыть в городе. Через час к нам приедет подкрепление, нужно сохранить хотя-бы один экземпляр техники."
+  m_aVisibleForFactions {
+   "US"
+  }
+ }
+}

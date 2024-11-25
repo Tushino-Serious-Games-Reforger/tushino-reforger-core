@@ -1,0 +1,74 @@
+$grp SCR_AIGroup : "{58427F92BFAA7941}Prefabs/Groups/OPFOR/Boryan/brn_Group_USSR_RifleSquad_Monday.et" {
+ B12_rifle {
+  components {
+   PS_GroupCallsignAssigner "{62D732861B0CD272}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 5614.555 209.957 12006.459
+  angleX -0.325
+  angleY -111.903
+  angleZ 3.984
+ }
+ B13_rifle {
+  components {
+   PS_GroupCallsignAssigner "{62D17366B95BBC6C}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 5601.305 207.472 12039.108
+  angleX 0.189
+  angleY -119.269
+  angleZ 3.993
+  m_sCustomNameSet "1-3 Отделение на БТР-70"
+ }
+ B14_rifle {
+  components {
+   PS_GroupCallsignAssigner "{62D1736A5C964EB0}" {
+    m_iSquadCallsign 3
+   }
+  }
+  coords 5589.902 205.697 12062.303
+  angleX -0.681
+  angleY -106.768
+  angleZ 3.939
+  m_sCustomNameSet "1-4 Отделение на БТР-70"
+ }
+}
+$grp SCR_AIGroup : "{CEE1BF54F0BE2909}Prefabs/Groups/OPFOR/Boryan/Spetsnaz/brn_Group_USSR_Spetsnaz_Squad_P.et" {
+ B21_recon {
+  components {
+   PS_GroupCallsignAssigner "{62D1736D60FE5518}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 3323.015 289.256 11259.253
+  angleX -1.949
+  angleY -144.678
+  angleZ 7.352
+ }
+ B15_recon {
+  components {
+   PS_GroupCallsignAssigner "{62D1736D653D390F}" {
+    m_iSquadCallsign 5
+   }
+  }
+  coords 6020.498 267 10401.979
+  angleY -57.324
+  m_sCustomNameSet "1-5 Отделение СПН"
+ }
+}
+SCR_AIGroup B11_HQ : "{EDC0D71AE6756CFC}Prefabs/Groups/OPFOR/Boryan/brn_Group_USSR_RifleSquad_P_Monday.et" {
+ components {
+  PS_GroupCallsignAssigner "{62D1736B6C093CC7}" {
+  }
+ }
+ coords 5582.406 203.267 12089.885
+ angleX -0.178
+ angleY -97.588
+ angleZ 5.426
+ m_aUnitPrefabSlots {
+  "{1ADC4934980AA91A}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_PL.et" "{DBC2E2FDC3D25C0F}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_SR_Optic.et" "{C8917EA9B578E2CE}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_Medic.et"
+ }
+ m_sCustomNameSet "1-1 Штаб"
+}

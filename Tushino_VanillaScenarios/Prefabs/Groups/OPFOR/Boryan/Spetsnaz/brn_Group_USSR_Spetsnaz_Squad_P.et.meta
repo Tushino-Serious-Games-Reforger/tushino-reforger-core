@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CEE1BF54F0BE2909}Prefabs/Groups/OPFOR/Spetsnaz/brn_Group_USSR_Spetsnaz_Squad_P.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
