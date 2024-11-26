@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{D19D9067132B15A7}Prefabs/Characters/Tynec/Factions/INDFOR/mTSG_Character_FIA_base.et" {
+SCR_ChimeraCharacter : "{D19D9067132B15A7}Prefabs/Characters/Tynec/Factions/INDFOR/Tyn_Character_FIA_base.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -48,7 +48,13 @@ SCR_ChimeraCharacter : "{D19D9067132B15A7}Prefabs/Characters/Tynec/Factions/INDF
     ItemsInitConfigurationItem "{62D6C07E9C3EA417}" {
      TargetStorage "Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkBrown.et"
      PrefabsToSpawn {
-      "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{AEB5FAECB4A84403}Prefabs/Items/Tynec/Equipment/Radios/mTSG_Radio_R148_FIA.et"
+      "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et"
+     }
+    }
+    ItemsInitConfigurationItem "{62F4C5D71B006ABE}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkBrown.et"
+     PrefabsToSpawn {
+      "{EEA485367BDBB745}Prefabs/Items/Tynec/Equipment/Radios/Tyn_Radio_ANPRC68_FIA.et"
      }
     }
    }
