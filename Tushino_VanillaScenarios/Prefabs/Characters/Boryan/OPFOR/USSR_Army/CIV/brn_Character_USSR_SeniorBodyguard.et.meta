@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{930F93EE5A9072AD}Prefabs/Characters/Boryan/OPFOR/USSR_Army/CIV/brn_Character_USSR_SeniorBodyguard.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

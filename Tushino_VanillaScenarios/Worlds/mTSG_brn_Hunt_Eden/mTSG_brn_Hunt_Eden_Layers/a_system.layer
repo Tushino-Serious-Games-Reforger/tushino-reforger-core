@@ -1,0 +1,21 @@
+SCR_AIWorld {
+ coords 11743.255 27.673 2100.702
+}
+PerceptionManager PerceptionManager1 {
+ coords 11655.321 5.484 2124.916
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_bUsePredefineStartingTimeAndWeatehr 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{62F73ED6C530CF22}" {
+     m_sWeatherPresetName "Clear"
+     m_iStartingHour 7
+     m_iStartingMinutes 30
+    }
+   }
+  }
+ }
+ coords 11639.007 8.604 2107.417
+}

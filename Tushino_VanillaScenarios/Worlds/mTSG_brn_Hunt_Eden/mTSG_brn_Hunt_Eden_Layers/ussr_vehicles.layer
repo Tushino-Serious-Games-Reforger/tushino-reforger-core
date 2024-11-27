@@ -1,0 +1,88 @@
+$grp Vehicle : "{8000A0F649FB4B0D}Prefabs/Vehicles/Wheeled/S105/S105_darkred.et" {
+ S105_darkred1 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 11659.006 6.766 2180.046
+  angleX 0.895
+  angleY -0.014
+  angleZ -0.895
+ }
+ S105_darkred2 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 11663.121 6.919 2180.046
+  angleX 0.894
+  angleY -0.014
+  angleZ -5.355
+ }
+}
+$grp Vehicle : "{9DD4FD3527CB46C8}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_closed.et" {
+ Ural4320_transport_covered_closed1 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{5628CA84B129D4CE}" {
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 11652.215 6.667 2176.679
+  angleX 0.892
+  angleY 4.923
+  angleZ 0.077
+ }
+ Ural4320_transport_covered_closed2 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{5628CA84B129D4CE}" {
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 11646.8 6.725 2177.146
+  angleX -0.153
+  angleY 4.891
+  angleZ 1.783
+ }
+ Ural4320_transport_covered_closed3 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{5628CA84B129D4CE}" {
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 11641.293 6.981 2177.618
+  angleX -0.305
+  angleY 4.881
+  angleZ 3.563
+ }
+}

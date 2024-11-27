@@ -1,0 +1,11 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ kill_administrator {
+  coords 12013.001 0 2099.225
+  m_sTitle "Глава администрации убит"
+ }
+ protect_administrator {
+  coords 11970.237 0 2273.232
+  m_sTitle "Глава администрации выжил"
+  m_sFactionKey "USSR"
+ }
+}

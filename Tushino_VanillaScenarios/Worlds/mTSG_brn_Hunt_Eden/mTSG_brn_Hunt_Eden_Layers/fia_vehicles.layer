@@ -1,0 +1,14 @@
+$grp Vehicle : "{5168FEA3054D6D15}Prefabs/Vehicles/Wheeled/M151A2/M151A2_M2HB_MERDC.et" {
+ tachanka1 {
+  coords 10672.2 148.653 2345.869
+  angleX -3.786
+  angleY 48.384
+  angleZ -0.224
+ }
+ tachanka2 {
+  coords 10781.28 24.147 2889.211
+  angleX -2.527
+  angleY 98.143
+  angleZ -13.649
+ }
+}

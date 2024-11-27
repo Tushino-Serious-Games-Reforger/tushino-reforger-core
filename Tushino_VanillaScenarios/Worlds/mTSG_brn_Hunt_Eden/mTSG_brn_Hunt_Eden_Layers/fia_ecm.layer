@@ -1,0 +1,95 @@
+$grp GenericEntity : "{1821FE6144B0C251}Prefabs/Props/Military/Antennas/Antenna_FIA_02/Antenna_FIA_02.et" {
+ {
+  components {
+   SCR_AntennaServicePointComponent "{5CB8818C79A7B643}" {
+    Enabled 0
+   }
+   SCR_FactionAffiliationComponent "{5CB6D5B3749D59C3}" {
+    Enabled 0
+   }
+   SCR_HorizontalAlignComponent "{55B890D2B67E0C35}" {
+    Enabled 0
+   }
+   ScriptedRadioComponent "{5CB8818C71F12C73}" {
+    Enabled 0
+   }
+  }
+  coords 11889.315 5.512 1281.408
+  angleX -1.266
+  angleY -134.298
+  angleZ -0.015
+ }
+ {
+  components {
+   SCR_AntennaServicePointComponent "{5CB8818C79A7B643}" {
+    Enabled 0
+   }
+   SCR_FactionAffiliationComponent "{5CB6D5B3749D59C3}" {
+    Enabled 0
+   }
+   SCR_HorizontalAlignComponent "{55B890D2B67E0C35}" {
+    Enabled 0
+   }
+   ScriptedRadioComponent "{5CB8818C71F12C73}" {
+    Enabled 0
+   }
+  }
+  coords 10982.579 172.118 2238.457
+  angleY -2.443
+ }
+ {
+  components {
+   SCR_AntennaServicePointComponent "{5CB8818C79A7B643}" {
+    Enabled 0
+   }
+   SCR_FactionAffiliationComponent "{5CB6D5B3749D59C3}" {
+    Enabled 0
+   }
+   SCR_HorizontalAlignComponent "{55B890D2B67E0C35}" {
+    Enabled 0
+   }
+   ScriptedRadioComponent "{5CB8818C71F12C73}" {
+    Enabled 0
+   }
+  }
+  coords 11270.355 18.182 2736.708
+  angleX -5.08
+  angleY 71.537
+  angleZ 4.505
+ }
+}
+$grp GenericEntity : "{99A7C00DD45E4D60}PrefabsEditable/Auto/Props/Military/Generators/E_GeneratorPortable_US_01.et" {
+ {
+  components {
+   ActionsManagerComponent "{5298C80DC0D5555E}" {
+    Enabled 0
+   }
+  }
+  coords 11890.179 5.507 1283.576
+  angleX -0.688
+  angleY 39.82
+  angleZ -0.573
+ }
+ {
+  components {
+   ActionsManagerComponent "{5298C80DC0D5555E}" {
+    Enabled 0
+   }
+  }
+  coords 10983.332 172.814 2239.647
+  angleX 22.6
+  angleY 33.611
+  angleZ 8.615
+ }
+ {
+  components {
+   ActionsManagerComponent "{5298C80DC0D5555E}" {
+    Enabled 0
+   }
+  }
+  coords 11268.985 18.218 2735.456
+  angleX 0.295
+  angleY 28.445
+  angleZ 3.211
+ }
+}
