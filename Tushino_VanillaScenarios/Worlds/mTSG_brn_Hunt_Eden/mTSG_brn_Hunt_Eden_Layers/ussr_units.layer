@@ -2,7 +2,7 @@ SCR_AIGroup B11_HQ : "{121F4A7DB996AE83}Prefabs/Groups/Tynec/OPFOR/mTSG_Group_US
  coords 11673.802 8.656 2214.344
  angleY 104.05
  m_aUnitPrefabSlots {
-  "" "{575536F7FD6F628B}Prefabs/Characters/Boryan/OPFOR/USSR_Army/CIV/brn_Character_USSR_Administrator.et" "{930F93EE5A9072AD}Prefabs/Characters/Boryan/OPFOR/USSR_Army/CIV/brn_Character_USSR_SeniorBodyguard.et" "{4D78E271130A6C6F}Prefabs/Characters/Boryan/OPFOR/USSR_Army/CIV/brn_Character_USSR_Bodyguard.et" "{4D78E271130A6C6F}Prefabs/Characters/Boryan/OPFOR/USSR_Army/CIV/brn_Character_USSR_Bodyguard.et" "{4D78E271130A6C6F}Prefabs/Characters/Boryan/OPFOR/USSR_Army/CIV/brn_Character_USSR_Bodyguard.et"
+  "{575536F7FD6F628B}Prefabs/Characters/Boryan/OPFOR/USSR_Army/CIV/brn_Character_USSR_Administrator.et" "{930F93EE5A9072AD}Prefabs/Characters/Boryan/OPFOR/USSR_Army/CIV/brn_Character_USSR_SeniorBodyguard.et" "{4D78E271130A6C6F}Prefabs/Characters/Boryan/OPFOR/USSR_Army/CIV/brn_Character_USSR_Bodyguard.et" "{4D78E271130A6C6F}Prefabs/Characters/Boryan/OPFOR/USSR_Army/CIV/brn_Character_USSR_Bodyguard.et" "{4D78E271130A6C6F}Prefabs/Characters/Boryan/OPFOR/USSR_Army/CIV/brn_Character_USSR_Bodyguard.et"
  }
  m_sCustomNameSet "1-1 Охрана главы администрации"
 }

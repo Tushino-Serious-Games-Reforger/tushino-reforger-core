@@ -4,11 +4,20 @@ SCR_ChimeraCharacter : "{4D78E271130A6C6F}Prefabs/Characters/Boryan/OPFOR/USSR_A
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#BRN-Role_SecurityHead"
-    Icon "{61B33057F7F0A4AE}UI/Icons/squad_leader.edds"
+    Icon "{0C058E04C5ACCE05}UI/Icons/sniper.edds"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{9B4DF9A9F1BD2A1C}Prefabs/Weapons/Rifles/AKS74U/Rifle_AKS74UN_1P29.et"
+   WeaponTemplate "{6415B7923DE28C1B}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_PSO.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{62F55CDF2894D650}" {
+     PrefabsToSpawn {
+      "{761A03A9C5BA8D68}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Base.et" "{761A03A9C5BA8D68}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Base.et" "{761A03A9C5BA8D68}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Base.et" "{761A03A9C5BA8D68}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Base.et" "{761A03A9C5BA8D68}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Base.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{92B819C350698359}Prefabs/Items/drongo/Equipment/Radios/Radio_R148_rprv.et"
+     }
+    }
+   }
   }
  }
 }
