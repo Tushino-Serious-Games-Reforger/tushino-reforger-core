@@ -297,5 +297,13 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
+  CustomStringTableItem "{62F82603A96FAC8A}" {
+   Id "TYN-Role_RiflemanRPK"
+   Target_en_us "Rifleman RPK"
+   Target_ru_ru "Стрелок РПК"
+   Modified 1660430622
+   Author "������"
+   LastChanged "������"
+  }
  }
 }
