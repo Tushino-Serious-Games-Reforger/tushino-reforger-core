@@ -1,11 +1,39 @@
-$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
- kill_administrator {
-  coords 12013.001 0 2099.225
-  m_sTitle "Глава администрации убит"
+PolylineShapeEntity kill_administrator_objective : "{127D357736B0C350}Prefabs/PolyZone/PolyZone_Destroy.et" {
+ coords 12637.125 0 1777.01
+ Points {
+  ShapePoint "{62FA04D241E5016F}" {
+   Position -1722.466 -47.708 2202.31
+  }
+  ShapePoint "{62FA04D2496B3D02}" {
+   Position -3068.962 238.337 1019.493
+  }
+  ShapePoint "{62FA04D24C97A0CC}" {
+   Position -2399.105 -13.197 -503.634
+  }
+  ShapePoint "{62FA04D271F69B22}" {
+   Position -645.804 -85.382 -1015.804
+  }
  }
- protect_administrator {
-  coords 11970.237 0 2273.232
-  m_sTitle "Глава администрации выжил"
-  m_sFactionKey "USSR"
+ {
+  PS_Objective kill_administrator {
+   ID "60E9062E6BABF763"
+   m_sTitle "Глава администрации убит"
+  }
+  PS_PolyZoneObjectiveTriggerDestroy kill_administrator_trigger {
+   ID "60E9062E6BABF765"
+   "Polyline Height" 1000
+   ClassesFilter {
+   }
+   PrefabsFilter {
+    PrefabFilter "{62FA04D2911C4063}" {
+     Prefab "{575536F7FD6F628B}Prefabs/Characters/Boryan/OPFOR/USSR_Army/CIV/brn_Character_USSR_Administrator.et"
+    }
+   }
+  }
  }
+}
+PS_Objective protect_administrator : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ coords 11970.237 0 2273.232
+ m_sTitle "Глава администрации выжил"
+ m_sFactionKey "USSR"
 }
