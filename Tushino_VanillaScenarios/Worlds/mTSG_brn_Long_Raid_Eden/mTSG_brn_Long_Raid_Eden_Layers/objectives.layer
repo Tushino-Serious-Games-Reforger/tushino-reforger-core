@@ -1,17 +1,5 @@
-PS_Objective USSR_manual_objective {
- components {
-  RplComponent "{62F96A5C9A5320A0}" {
-  }
-  Hierarchy "{62F96A5C8433127C}" {
-  }
- }
- coords 4795.342 28.041 11620.714
- m_sTitle "Не дать уничтожить все вертолеты"
- m_iScore 100
- m_sFactionKey "USSR"
-}
 $grp PolylineShapeEntity : "{127D357736B0C350}Prefabs/PolyZone/PolyZone_Destroy.et" {
- heli_destroy1 {
+ heli_destroy {
   components {
    PS_PolyZone "{60E90266F25533F6}" {
     m_mPolygonTextureBorder ""
@@ -23,10 +11,10 @@ $grp PolylineShapeEntity : "{127D357736B0C350}Prefabs/PolyZone/PolyZone_Destroy.
     Position 0.606 0.038 10.14
    }
    ShapePoint "{62F956D8913D64FA}" {
-    Position -2.164 -0.01 -35.896
+    Position -0.317 -0.106 -176.646
    }
    ShapePoint "{62F956D893E3BBD6}" {
-    Position 58.939 0.104 -32.332
+    Position 57.24 -0.496 -177.364
    }
    ShapePoint "{62F956D894A65F7A}" {
     Position 57.242 0.544 13.723
@@ -36,145 +24,79 @@ $grp PolylineShapeEntity : "{127D357736B0C350}Prefabs/PolyZone/PolyZone_Destroy.
    }
   }
   {
-   PS_Objective objective_heli1 {
+   PS_Objective objective_heli {
     ID "60E9062E6BABF763"
-    m_sTitle "Уничтожить вертолет "
-    m_iScore 25
+    m_sTitle "Уничтожить вертолеты"
     m_sFactionKey "US"
+    m_bAdvanceWhenTriggered 1
    }
-   PS_PolyZoneObjectiveTriggerDestroy {
-    ID "60E9062E6BABF765"
-    ClassesFilter {
+   PS_PolyZoneObjectiveTriggerDestroy trigger_heli_destroy {
+    components {
+     Hierarchy "{630200E969D09D2B}" {
+     }
     }
+    coords 16.115 1.576 3.487
+    TriggerShapeType Polyline
+    "Polyline Height" 100
+    TriggerActivationType "All changes"
+    PeriodicQueries 1
+    UpdatePeriod 30
     PrefabsFilter {
-     PrefabFilter "{62F956D8B5599BA8}" {
+     PrefabFilter "{630200E99ABAC8A9}" {
       Prefab "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et"
      }
     }
-    m_sFactionKey "US"
    }
   }
  }
- heli_destroy2 {
+ heli_save {
   components {
    PS_PolyZone "{60E90266F25533F6}" {
     m_mPolygonTextureBorder ""
    }
   }
-  coords 4798.222 28.017 11633.693
+  coords 4798.222 28.017 11682.59
   Points {
    ShapePoint "{60E90266E922A02A}" {
     Position 0.606 0.038 10.14
    }
    ShapePoint "{62F956D8913D64FA}" {
-    Position -2.164 -0.01 -35.896
+    Position -0.317 -0.106 -176.646
    }
    ShapePoint "{62F956D893E3BBD6}" {
-    Position 58.313 0.075 -32.38
+    Position 57.24 -0.496 -177.364
    }
    ShapePoint "{62F956D894A65F7A}" {
     Position 57.242 0.544 13.723
    }
-  }
-  {
-   PS_Objective objective_heli2 {
-    ID "60E9062E6BABF763"
-    m_sTitle "Уничтожить вертолет "
-    m_iScore 25
-    m_sFactionKey "US"
-   }
-   PS_PolyZoneObjectiveTriggerDestroy {
-    ID "60E9062E6BABF765"
-    ClassesFilter {
-    }
-    PrefabsFilter {
-     PrefabFilter "{62F956D8B5599BA8}" {
-      Prefab "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et"
-     }
-    }
-    m_sFactionKey "US"
-   }
-  }
- }
- heli_destroy3 {
-  components {
-   PS_PolyZone "{60E90266F25533F6}" {
-    m_mPolygonTextureBorder ""
-   }
-  }
-  coords 4798.222 28.017 11592.241
-  Points {
-   ShapePoint "{60E90266E922A02A}" {
-    Position 0.606 0.038 10.14
-   }
-   ShapePoint "{62F956D8913D64FA}" {
-    Position -2.164 -0.01 -35.896
-   }
-   ShapePoint "{62F956D893E3BBD6}" {
-    Position 58.313 0.075 -32.38
-   }
-   ShapePoint "{62F956D894A65F7A}" {
-    Position 57.242 0.544 13.723
+   ShapePoint "{62F956DF6070474D}" {
+    Position 57.501 0.546 14.317
    }
   }
   {
-   PS_Objective objective_heli3 {
+   PS_Objective objective_save_heli {
     ID "60E9062E6BABF763"
-    m_sTitle "Уничтожить вертолет "
-    m_iScore 25
-    m_sFactionKey "US"
+    m_sTitle "Сохранить вертолеты"
+    m_sFactionKey "USSR"
    }
-   PS_PolyZoneObjectiveTriggerDestroy {
-    ID "60E9062E6BABF765"
-    ClassesFilter {
+   PS_PolyZoneObjectiveTriggerSave trigger_heli_save {
+    components {
+     Hierarchy "{630200E83DFA57F1}" {
+     }
     }
+    coords 28.482 -0.154 -8.824
+    angleX 0.018
+    angleZ -0.086
+    TriggerShapeType Polyline
+    "Polyline Height" 100
+    TriggerActivationType "All changes"
+    PeriodicQueries 1
+    UpdatePeriod 10
     PrefabsFilter {
-     PrefabFilter "{62F956D8B5599BA8}" {
+     PrefabFilter "{62FD73718AC616BA}" {
       Prefab "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et"
      }
     }
-    m_sFactionKey "US"
-   }
-  }
- }
- heli_destroy4 {
-  components {
-   PS_PolyZone "{60E90266F25533F6}" {
-    m_mPolygonTextureBorder ""
-   }
-  }
-  coords 4798.222 28.017 11544.714
-  Points {
-   ShapePoint "{60E90266E922A02A}" {
-    Position 0.606 0.038 10.14
-   }
-   ShapePoint "{62F956D8913D64FA}" {
-    Position -2.164 -0.01 -35.896
-   }
-   ShapePoint "{62F956D893E3BBD6}" {
-    Position 58.313 0.075 -32.38
-   }
-   ShapePoint "{62F956D894A65F7A}" {
-    Position 57.242 0.544 13.723
-   }
-  }
-  {
-   PS_Objective objective_heli4 {
-    ID "60E9062E6BABF763"
-    m_sTitle "Уничтожить вертолет "
-    m_iScore 25
-    m_sFactionKey "US"
-   }
-   PS_PolyZoneObjectiveTriggerDestroy {
-    ID "60E9062E6BABF765"
-    ClassesFilter {
-    }
-    PrefabsFilter {
-     PrefabFilter "{62F956D8B5599BA8}" {
-      Prefab "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et"
-     }
-    }
-    m_sFactionKey "US"
    }
   }
  }

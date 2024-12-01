@@ -1,511 +1,74 @@
-$grp PolylineShapeEntity : "{127D357736B0C350}Prefabs/PolyZone/PolyZone_Destroy.et" {
- kshm1_destroy {
-  coords 2896.674 222.357 12265.396
-  Points {
-   ShapePoint "{62F97234331FE278}" {
-    Position -110.678 72.032 -3976.128
-   }
-   ShapePoint "{62F97234396AB4A6}" {
-    Position 4000.774 101.191 -3941.168
-   }
-   ShapePoint "{62F972343E034686}" {
-    Position 4008.209 -36.137 83.356
-   }
+PolylineShapeEntity kshm_destroy : "{127D357736B0C350}Prefabs/PolyZone/PolyZone_Destroy.et" {
+ coords 2896.674 222.357 12265.396
+ Points {
+  ShapePoint "{62F97234331FE278}" {
+   Position -110.678 72.032 -3976.128
   }
-  {
-   PS_Objective objective_destroy_kshm1 {
-    ID "60E9062E6BABF763"
-    m_sTitle "Уничтожить КШМ"
-    m_iScore 50
-    m_sFactionKey "USSR"
-   }
-   PS_PolyZoneObjectiveTriggerDestroy kshm1_destroy_trigger {
-    ID "60E9062E6BABF765"
-    "Polyline Height" 1000
-    ClassesFilter {
-    }
-    PrefabsFilter {
-     PrefabFilter "{62F9723672DF0A77}" {
-      Prefab "{439D072AEC33B953}Prefabs/Vehicles/Wheeled/Boryan/Monday/Ural4320_command1.et"
-     }
-    }
-   }
+  ShapePoint "{62F97234396AB4A6}" {
+   Position 4000.774 101.191 -3941.168
+  }
+  ShapePoint "{62F972343E034686}" {
+   Position 4008.209 -36.137 83.356
   }
  }
- kshm2_destroy {
-  coords 2764.506 297.136 8265.921
-  Points {
-   ShapePoint "{62F97234A698AF3E}" {
-    Position 4149.462 24.353 41.126
-   }
-   ShapePoint "{62F97234AB9DF016}" {
-    Position 4157.968 -114.328 4092.99
-   }
-   ShapePoint "{62F97234D05974AE}" {
-    Position 88.912 -75.884 4018.97
-   }
+ {
+  PS_Objective objective_destroy_kshm {
+   ID "60E9062E6BABF763"
+   m_sTitle "Уничтожить обе КШМ"
+   m_sFactionKey "USSR"
+   m_bAdvanceWhenTriggered 1
   }
-  {
-   PS_Objective objective_destroy_kshm2 {
-    ID "60E9062E6BABF763"
-    m_sTitle "Уничтожить КШМ"
-    m_iScore 50
-    m_sFactionKey "USSR"
+  PS_PolyZoneObjectiveTriggerDestroy kshm1_destroy_trigger {
+   ID "60E9062E6BABF765"
+   "Polyline Height" 1000
+   UpdatePeriod 30
+   ClassesFilter {
    }
-   PS_PolyZoneObjectiveTriggerDestroy kshm2_destroy_trigger {
-    ID "60E9062E6BABF765"
-    "Polyline Height" 1000
-    ClassesFilter {
-    }
-    PrefabsFilter {
-     PrefabFilter "{62F972367EC48654}" {
-      Prefab "{2FC933CA50F7367D}Prefabs/Vehicles/Wheeled/Boryan/Monday/Ural4320_command2.et"
-     }
+   PrefabsFilter {
+    PrefabFilter "{62F9723672DF0A77}" {
+     Prefab "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et"
+     CheckPrefabHierarchy 1
     }
    }
   }
  }
 }
-PS_Objective US_manual_objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
- coords 5908.479 276.997 10526.191
- m_sTitle "Защитить хотябы одну КШМ"
- m_sFactionKey "US"
-}
-$grp PolylineShapeEntity : "{DCA90362FBC25FB4}Prefabs/PolyZone/PolyZone_Presence.et" {
- evac_kshm1 {
-  coords 5498.535 181.343 12249.754
-  Points {
-   ShapePoint A12DB636A812BCC4 {
-    Position 268.763 0 -166.702
-   }
-   ShapePoint "8E77B4BC5B9EAE49" {
-    Position 267.833 0 -148.125
-   }
-   ShapePoint "8E4A416AE9ACB4A1" {
-    Position 265.053 0 -129.734
-   }
-   ShapePoint "8EFE32DDBD248649" {
-    Position 260.452 0 -111.712
-   }
-   ShapePoint "853F5E85413F6A6A" {
-    Position 254.074 0 -94.239
-   }
-   ShapePoint A22A2B43241DB9E1 {
-    Position 245.983 0 -77.491
-   }
-   ShapePoint B28530C1C0266BDA {
-    Position 236.261 0 -61.633
-   }
-   ShapePoint "9B6147B2D344F39B" {
-    Position 225.004 0 -46.826
-   }
-   ShapePoint B1B809B422EC8D02 {
-    Position 212.326 0 -33.216
-   }
-   ShapePoint "938AEE7996C306C2" {
-    Position 198.352 0 -20.94
-   }
-   ShapePoint "8C61A7305E144FDA" {
-    Position 183.222 0 -10.121
-   }
-   ShapePoint B8346B100F45C6F2 {
-    Position 167.087 0 -0.866
-   }
-   ShapePoint B5911C7CF9753B81 {
-    Position 150.11 0 6.732
-   }
-   ShapePoint B85A8FE8A33F12A3 {
-    Position 132.458 0 12.597
-   }
-   ShapePoint B8C948E1909AD7A7 {
-    Position 114.31 0 16.671
-   }
-   ShapePoint BB3D1212F10A5D32 {
-    Position 95.845 0 18.912
-   }
-   ShapePoint "88A4B638786F11C7" {
-    Position 77.249 0 19.299
-   }
-   ShapePoint "9E1B29E8442FE8B3" {
-    Position 58.707 0 17.827
-   }
-   ShapePoint "81A0346A6F9FB200" {
-    Position 40.404 0 14.512
-   }
-   ShapePoint B8364A91D5D346C9 {
-    Position 22.524 0 9.386
-   }
-   ShapePoint AECF71C7821378C5 {
-    Position 5.245 0 2.5
-   }
-   ShapePoint "982B53770538E9E2" {
-    Position -11.26 0 -6.076
-   }
-   ShapePoint "9C80AFAB72B75431" {
-    Position -26.827 0 -16.257
-   }
-   ShapePoint AEACFDAC4A5B7B95 {
-    Position -41.299 0 -27.941
-   }
-   ShapePoint "9922484F3BF5F246" {
-    Position -54.533 0 -41.012
-   }
-   ShapePoint A8F3A32D5BCBB8A7 {
-    Position -66.395 0 -55.338
-   }
-   ShapePoint "9003B1B11488B0CB" {
-    Position -76.768 0 -70.778
-   }
-   ShapePoint "91C739570C0B0402" {
-    Position -85.548 0 -87.175
-   }
-   ShapePoint "8A4C43BE77178AF4" {
-    Position -92.647 0 -104.368
-   }
-   ShapePoint B12DD334B5E43A3D {
-    Position -97.995 0 -122.183
-   }
-   ShapePoint B3BE02EE3A8A0AC4 {
-    Position -101.537 0 -140.443
-   }
-   ShapePoint "8A2353E1024A42C2" {
-    Position -103.238 0 -158.965
-   }
-   ShapePoint "9206997BCAB19A8E" {
-    Position -103.081 0 -177.565
-   }
-   ShapePoint "9C90C05056575F23" {
-    Position -101.069 0 -196.056
-   }
-   ShapePoint A27AD59D10900BB5 {
-    Position -97.221 0 -214.254
-   }
-   ShapePoint "924135FA7FF540B5" {
-    Position -91.575 0 -231.977
-   }
-   ShapePoint A311DEC9E2065AC7 {
-    Position -84.187 0 -249.047
-   }
-   ShapePoint A24EBE41FC1EFC03 {
-    Position -75.133 0 -265.295
-   }
-   ShapePoint A481ADD2A9C83415 {
-    Position -64.502 0 -280.557
-   }
-   ShapePoint "9DA3EE606C7D0AFE" {
-    Position -52.4 0 -294.683
-   }
-   ShapePoint AF80B654B9823397 {
-    Position -38.948 0 -307.529
-   }
-   ShapePoint "8C7A2DE31D526B63" {
-    Position -24.282 0 -318.968
-   }
-   ShapePoint A3A402636663ACC3 {
-    Position -8.546 0 -328.886
-   }
-   ShapePoint "9EE63712400686D5" {
-    Position 8.101 0 -337.183
-   }
-   ShapePoint A351686EE7B72D90 {
-    Position 25.493 0 -343.777
-   }
-   ShapePoint A5236D5228506BBE {
-    Position 43.457 0 -348.602
-   }
-   ShapePoint A50A02F2F8BB3617 {
-    Position 61.813 0 -351.609
-   }
-   ShapePoint B424EE3F866719D8 {
-    Position 80.377 0 -352.769
-   }
-   ShapePoint BD35A808FC6BCBC1 {
-    Position 98.964 0 -352.07
-   }
-   ShapePoint A30A1CAA4C38D078 {
-    Position 117.388 0 -349.518
-   }
-   ShapePoint "8A00DA6556628958" {
-    Position 135.466 0 -345.14
-   }
-   ShapePoint "8F0CC4F9213A8C7B" {
-    Position 153.016 0 -338.979
-   }
-   ShapePoint AECE3D36B4CC7B7F {
-    Position 169.864 0 -331.096
-   }
-   ShapePoint B5CAB52B0F208047 {
-    Position 185.84 0 -321.571
-   }
-   ShapePoint "8E15902CAB3B5742" {
-    Position 200.786 0 -310.499
-   }
-   ShapePoint "8A695188D8E0CC56" {
-    Position 214.552 0 -297.99
-   }
-   ShapePoint "9B71B7731ABD888F" {
-    Position 227 0 -284.169
-   }
-   ShapePoint "92CBDD8F84FDFEB8" {
-    Position 238.006 0 -269.174
-   }
-   ShapePoint "838A83848787BAC9" {
-    Position 247.46 0 -253.156
-   }
-   ShapePoint B3209D11D4298B77 {
-    Position 255.268 0 -236.274
-   }
-   ShapePoint BEE38C00600AE678 {
-    Position 261.351 0 -218.696
-   }
-   ShapePoint "843B952FC619F46A" {
-    Position 265.649 0 -200.599
-   }
-   ShapePoint B996172A8F2A2B26 {
-    Position 268.119 0 -182.164
-   }
+PolylineShapeEntity kshm_save : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
+ coords 2764.506 297.136 8265.921
+ Points {
+  ShapePoint "{62F97234A698AF3E}" {
+   Position 4149.462 24.353 41.126
   }
-  {
-   PS_Objective evac_kshm1_objective {
-    ID "60E9062D2F15A7F1"
-    m_sTitle "Эвакуировать КШМ"
-    m_iScore 50
-    m_sFactionKey "USSR"
-   }
-   PS_PolyZoneObjectivePresence evac_kshm1_trigger {
-    components {
-     Hierarchy "{62FA04D67BFEF860}" {
-     }
-    }
-    coords -41.571 19.423 -124.224
-    TriggerShapeType Polyline
-    "Polyline Height" 1000
-    TriggerActivationType "All changes"
-    PeriodicQueries 1
-    PrefabsFilter {
-     PrefabFilter "{62FA04D690078903}" {
-      Prefab "{439D072AEC33B953}Prefabs/Vehicles/Wheeled/Boryan/Monday/Ural4320_command1.et"
-     }
-    }
-   }
+  ShapePoint "{62F97234AB9DF016}" {
+   Position 4157.968 -114.328 4092.99
+  }
+  ShapePoint "{62F97234D05974AE}" {
+   Position 88.912 -75.884 4018.97
   }
  }
- evac_kshm2 {
-  coords 5498.535 181.343 12249.754
-  Points {
-   ShapePoint A12DB636A812BCC4 {
-    Position 268.763 0 -166.702
+ {
+  PS_PolyZoneObjectiveTriggerSave kshm_trigger_save {
+   components {
+    Hierarchy "{63020D1F53746ACF}" {
+    }
    }
-   ShapePoint "8E77B4BC5B9EAE49" {
-    Position 267.833 0 -148.125
-   }
-   ShapePoint "8E4A416AE9ACB4A1" {
-    Position 265.053 0 -129.734
-   }
-   ShapePoint "8EFE32DDBD248649" {
-    Position 260.452 0 -111.712
-   }
-   ShapePoint "853F5E85413F6A6A" {
-    Position 254.074 0 -94.239
-   }
-   ShapePoint A22A2B43241DB9E1 {
-    Position 245.983 0 -77.491
-   }
-   ShapePoint B28530C1C0266BDA {
-    Position 236.261 0 -61.633
-   }
-   ShapePoint "9B6147B2D344F39B" {
-    Position 225.004 0 -46.826
-   }
-   ShapePoint B1B809B422EC8D02 {
-    Position 212.326 0 -33.216
-   }
-   ShapePoint "938AEE7996C306C2" {
-    Position 198.352 0 -20.94
-   }
-   ShapePoint "8C61A7305E144FDA" {
-    Position 183.222 0 -10.121
-   }
-   ShapePoint B8346B100F45C6F2 {
-    Position 167.087 0 -0.866
-   }
-   ShapePoint B5911C7CF9753B81 {
-    Position 150.11 0 6.732
-   }
-   ShapePoint B85A8FE8A33F12A3 {
-    Position 132.458 0 12.597
-   }
-   ShapePoint B8C948E1909AD7A7 {
-    Position 114.31 0 16.671
-   }
-   ShapePoint BB3D1212F10A5D32 {
-    Position 95.845 0 18.912
-   }
-   ShapePoint "88A4B638786F11C7" {
-    Position 77.249 0 19.299
-   }
-   ShapePoint "9E1B29E8442FE8B3" {
-    Position 58.707 0 17.827
-   }
-   ShapePoint "81A0346A6F9FB200" {
-    Position 40.404 0 14.512
-   }
-   ShapePoint B8364A91D5D346C9 {
-    Position 22.524 0 9.386
-   }
-   ShapePoint AECF71C7821378C5 {
-    Position 5.245 0 2.5
-   }
-   ShapePoint "982B53770538E9E2" {
-    Position -11.26 0 -6.076
-   }
-   ShapePoint "9C80AFAB72B75431" {
-    Position -26.827 0 -16.257
-   }
-   ShapePoint AEACFDAC4A5B7B95 {
-    Position -41.299 0 -27.941
-   }
-   ShapePoint "9922484F3BF5F246" {
-    Position -54.533 0 -41.012
-   }
-   ShapePoint A8F3A32D5BCBB8A7 {
-    Position -66.395 0 -55.338
-   }
-   ShapePoint "9003B1B11488B0CB" {
-    Position -76.768 0 -70.778
-   }
-   ShapePoint "91C739570C0B0402" {
-    Position -85.548 0 -87.175
-   }
-   ShapePoint "8A4C43BE77178AF4" {
-    Position -92.647 0 -104.368
-   }
-   ShapePoint B12DD334B5E43A3D {
-    Position -97.995 0 -122.183
-   }
-   ShapePoint B3BE02EE3A8A0AC4 {
-    Position -101.537 0 -140.443
-   }
-   ShapePoint "8A2353E1024A42C2" {
-    Position -103.238 0 -158.965
-   }
-   ShapePoint "9206997BCAB19A8E" {
-    Position -103.081 0 -177.565
-   }
-   ShapePoint "9C90C05056575F23" {
-    Position -101.069 0 -196.056
-   }
-   ShapePoint A27AD59D10900BB5 {
-    Position -97.221 0 -214.254
-   }
-   ShapePoint "924135FA7FF540B5" {
-    Position -91.575 0 -231.977
-   }
-   ShapePoint A311DEC9E2065AC7 {
-    Position -84.187 0 -249.047
-   }
-   ShapePoint A24EBE41FC1EFC03 {
-    Position -75.133 0 -265.295
-   }
-   ShapePoint A481ADD2A9C83415 {
-    Position -64.502 0 -280.557
-   }
-   ShapePoint "9DA3EE606C7D0AFE" {
-    Position -52.4 0 -294.683
-   }
-   ShapePoint AF80B654B9823397 {
-    Position -38.948 0 -307.529
-   }
-   ShapePoint "8C7A2DE31D526B63" {
-    Position -24.282 0 -318.968
-   }
-   ShapePoint A3A402636663ACC3 {
-    Position -8.546 0 -328.886
-   }
-   ShapePoint "9EE63712400686D5" {
-    Position 8.101 0 -337.183
-   }
-   ShapePoint A351686EE7B72D90 {
-    Position 25.493 0 -343.777
-   }
-   ShapePoint A5236D5228506BBE {
-    Position 43.457 0 -348.602
-   }
-   ShapePoint A50A02F2F8BB3617 {
-    Position 61.813 0 -351.609
-   }
-   ShapePoint B424EE3F866719D8 {
-    Position 80.377 0 -352.769
-   }
-   ShapePoint BD35A808FC6BCBC1 {
-    Position 98.964 0 -352.07
-   }
-   ShapePoint A30A1CAA4C38D078 {
-    Position 117.388 0 -349.518
-   }
-   ShapePoint "8A00DA6556628958" {
-    Position 135.466 0 -345.14
-   }
-   ShapePoint "8F0CC4F9213A8C7B" {
-    Position 153.016 0 -338.979
-   }
-   ShapePoint AECE3D36B4CC7B7F {
-    Position 169.864 0 -331.096
-   }
-   ShapePoint B5CAB52B0F208047 {
-    Position 185.84 0 -321.571
-   }
-   ShapePoint "8E15902CAB3B5742" {
-    Position 200.786 0 -310.499
-   }
-   ShapePoint "8A695188D8E0CC56" {
-    Position 214.552 0 -297.99
-   }
-   ShapePoint "9B71B7731ABD888F" {
-    Position 227 0 -284.169
-   }
-   ShapePoint "92CBDD8F84FDFEB8" {
-    Position 238.006 0 -269.174
-   }
-   ShapePoint "838A83848787BAC9" {
-    Position 247.46 0 -253.156
-   }
-   ShapePoint B3209D11D4298B77 {
-    Position 255.268 0 -236.274
-   }
-   ShapePoint BEE38C00600AE678 {
-    Position 261.351 0 -218.696
-   }
-   ShapePoint "843B952FC619F46A" {
-    Position 265.649 0 -200.599
-   }
-   ShapePoint B996172A8F2A2B26 {
-    Position 268.119 0 -182.164
+   coords 1027.873 13.683 531.104
+   angleZ -0.895
+   TriggerShapeType Polyline
+   "Polyline Height" 1000
+   TriggerActivationType "All changes"
+   PeriodicQueries 1
+   UpdatePeriod 15
+   PrefabsFilter {
+    PrefabFilter "{63020D1F5F4792B5}" {
+     Prefab "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et"
+    }
    }
   }
-  {
-   PS_Objective evac_kshm2_objective {
-    ID "60E9062D2F15A7F1"
-    m_sTitle "Эвакуировать КШМ"
-    m_iScore 50
-    m_sFactionKey "USSR"
-   }
-   PS_PolyZoneObjectivePresence evac_kshm2_trigger {
-    components {
-     Hierarchy "{62FA04D6A2472964}" {
-     }
-    }
-    coords -36.464 21.918 -139.649
-    TriggerShapeType Polyline
-    "Polyline Height" 1000
-    TriggerActivationType "All changes"
-    PeriodicQueries 1
-    PrefabsFilter {
-     PrefabFilter "{62FA04D6ADD0957A}" {
-      Prefab "{2FC933CA50F7367D}Prefabs/Vehicles/Wheeled/Boryan/Monday/Ural4320_command2.et"
-     }
-    }
-   }
+  PS_Objective objective_save_kshm : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+   coords 0 0 0
+   m_sTitle "Сохранить хотябы одну КШМ"
+   m_sFactionKey "US"
   }
  }
 }
