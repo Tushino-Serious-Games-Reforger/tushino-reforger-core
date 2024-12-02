@@ -1,3 +1,41 @@
+$grp PS_FactionLossesConstraint {
+ US_losses {
+  coords 4766.984 28.593 11615.006
+  m_sFactionKey "US"
+  m_iMinNumberOfAliveCharacters 7
+  {
+   PS_Objective USSR_victory {
+    components {
+     Hierarchy "{630467F60FD86A16}" {
+     }
+    }
+    coords 2.782 -0 2.949
+    m_sTitle "Победа по потерям"
+    m_iScore 100
+    m_sFactionKey "USSR"
+    m_bAdvanceWhenTriggered 1
+   }
+  }
+ }
+ USSR_Losses {
+  coords 4762.989 28.594 11613.18
+  m_sFactionKey "USSR"
+  m_iMinNumberOfAliveCharacters 4
+  {
+   PS_Objective US_victory {
+    components {
+     Hierarchy "{630467F60FD86A16}" {
+     }
+    }
+    coords 2.782 0 2.949
+    m_sTitle "Победа по потерям"
+    m_iScore 100
+    m_sFactionKey "US"
+    m_bAdvanceWhenTriggered 1
+   }
+  }
+ }
+}
 $grp PolylineShapeEntity : "{127D357736B0C350}Prefabs/PolyZone/PolyZone_Destroy.et" {
  heli_destroy {
   components {
