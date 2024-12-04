@@ -101,3 +101,7 @@ PS_GameModeCoop "62F956D81A25B236" : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
   }
  }
 }
+PS_MissionTime {
+ coords 4768.009 28.562 11592.864
+ m_iMissionTimeMinutes 60
+}
