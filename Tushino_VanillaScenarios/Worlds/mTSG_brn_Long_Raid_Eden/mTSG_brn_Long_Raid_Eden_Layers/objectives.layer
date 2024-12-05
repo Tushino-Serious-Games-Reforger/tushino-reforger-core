@@ -9,7 +9,7 @@ $grp PS_FactionLossesConstraint {
      Hierarchy "{630467F60FD86A16}" {
      }
     }
-    coords 2.782 -0 2.949
+    coords 2.782 0 2.949
     m_sTitle "Победа по потерям"
     m_iScore 100
     m_sFactionKey "USSR"
@@ -36,106 +36,104 @@ $grp PS_FactionLossesConstraint {
   }
  }
 }
-$grp PolylineShapeEntity : "{127D357736B0C350}Prefabs/PolyZone/PolyZone_Destroy.et" {
- heli_destroy {
-  components {
-   PS_PolyZone "{60E90266F25533F6}" {
-    m_mPolygonTextureBorder ""
-   }
+PolylineShapeEntity heli_destroy : "{127D357736B0C350}Prefabs/PolyZone/PolyZone_Destroy.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTextureBorder ""
   }
-  coords 4798.222 28.017 11682.59
-  Points {
-   ShapePoint "{60E90266E922A02A}" {
-    Position 0.606 0.038 10.14
-   }
-   ShapePoint "{62F956D8913D64FA}" {
-    Position -0.317 -0.106 -176.646
-   }
-   ShapePoint "{62F956D893E3BBD6}" {
-    Position 57.24 -0.496 -177.364
-   }
-   ShapePoint "{62F956D894A65F7A}" {
-    Position 57.242 0.544 13.723
-   }
-   ShapePoint "{62F956DF6070474D}" {
-    Position 57.501 0.546 14.317
-   }
+ }
+ coords 4798.222 28.017 11682.59
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position 0.606 0.038 10.14
   }
-  {
-   PS_Objective objective_heli {
-    ID "60E9062E6BABF763"
-    m_sTitle "Уничтожить вертолеты"
-    m_sFactionKey "US"
-    m_bAdvanceWhenTriggered 1
-   }
-   PS_PolyZoneObjectiveTriggerDestroy trigger_heli_destroy {
-    components {
-     Hierarchy "{630200E969D09D2B}" {
-     }
+  ShapePoint "{62F956D8913D64FA}" {
+   Position -0.317 -0.106 -176.646
+  }
+  ShapePoint "{62F956D893E3BBD6}" {
+   Position 57.24 -0.496 -177.364
+  }
+  ShapePoint "{62F956D894A65F7A}" {
+   Position 57.242 0.544 13.723
+  }
+  ShapePoint "{62F956DF6070474D}" {
+   Position 57.501 0.546 14.317
+  }
+ }
+ {
+  PS_Objective objective_heli {
+   ID "60E9062E6BABF763"
+   m_sTitle "Уничтожить вертолеты"
+   m_sFactionKey "US"
+   m_bAdvanceWhenTriggered 1
+  }
+  PS_PolyZoneObjectiveTriggerDestroy trigger_heli_destroy {
+   components {
+    Hierarchy "{630200E969D09D2B}" {
     }
-    coords 16.115 1.576 3.487
-    TriggerShapeType Polyline
-    "Polyline Height" 100
-    TriggerActivationType "All changes"
-    PeriodicQueries 1
-    UpdatePeriod 30
-    PrefabsFilter {
-     PrefabFilter "{630200E99ABAC8A9}" {
-      Prefab "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et"
-     }
+   }
+   coords 16.115 1.576 3.487
+   TriggerShapeType Polyline
+   "Polyline Height" 100
+   TriggerActivationType "All changes"
+   PeriodicQueries 1
+   UpdatePeriod 30
+   PrefabsFilter {
+    PrefabFilter "{630200E99ABAC8A9}" {
+     Prefab "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et"
     }
    }
   }
  }
- heli_save {
-  components {
-   PS_PolyZone "{60E90266F25533F6}" {
-    m_mPolygonTextureBorder ""
-   }
+}
+PolylineShapeEntity heli_save : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
+ components {
+  PS_PolyZone "{60E90266F25533F6}" {
+   m_mPolygonTextureBorder ""
   }
-  coords 4798.222 28.017 11682.59
-  Points {
-   ShapePoint "{60E90266E922A02A}" {
-    Position 0.606 0.038 10.14
-   }
-   ShapePoint "{62F956D8913D64FA}" {
-    Position -0.317 -0.106 -176.646
-   }
-   ShapePoint "{62F956D893E3BBD6}" {
-    Position 57.24 -0.496 -177.364
-   }
-   ShapePoint "{62F956D894A65F7A}" {
-    Position 57.242 0.544 13.723
-   }
-   ShapePoint "{62F956DF6070474D}" {
-    Position 57.501 0.546 14.317
-   }
+ }
+ coords 4798.222 28.017 11682.59
+ Points {
+  ShapePoint "{60E90266E922A02A}" {
+   Position 0.606 0.038 10.14
   }
-  {
-   PS_Objective objective_save_heli {
-    ID "60E9062E6BABF763"
-    m_sTitle "Сохранить вертолеты"
-    m_sFactionKey "USSR"
-   }
-   PS_PolyZoneObjectiveTriggerSave trigger_heli_save {
-    components {
-     Hierarchy "{630200E83DFA57F1}" {
-     }
-    }
-    coords 28.482 -0.154 -8.824
-    angleX 0.018
-    angleZ -0.086
-    TriggerShapeType Polyline
-    "Polyline Height" 100
-    TriggerActivationType "All changes"
-    PeriodicQueries 1
-    UpdatePeriod 10
-    PrefabsFilter {
-     PrefabFilter "{62FD73718AC616BA}" {
-      Prefab "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et"
-     }
+  ShapePoint "{62F956D8913D64FA}" {
+   Position -0.317 -0.106 -176.646
+  }
+  ShapePoint "{62F956D893E3BBD6}" {
+   Position 57.24 -0.496 -177.364
+  }
+  ShapePoint "{62F956D894A65F7A}" {
+   Position 57.242 0.544 13.723
+  }
+  ShapePoint "{62F956DF6070474D}" {
+   Position 57.501 0.546 14.317
+  }
+ }
+ {
+  PS_PolyZoneObjectiveTriggerSave trigger_heli_save {
+   components {
+    Hierarchy "{630200E83DFA57F1}" {
     }
    }
+   coords 28.482 -0.154 -8.824
+   angleX 0.018
+   angleZ -0.086
+   TriggerShapeType Polyline
+   "Polyline Height" 1000
+   TriggerActivationType "All changes"
+   PeriodicQueries 1
+   UpdatePeriod 10
+   PrefabsFilter {
+    PrefabFilter "{62FD73718AC616BA}" {
+     Prefab "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et"
+    }
+   }
+  }
+  PS_Objective objective_heli_save : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+   coords 0 0 0
+   m_sTitle "Сохранить вертолеты"
+   m_sFactionKey "USSR"
   }
  }
 }

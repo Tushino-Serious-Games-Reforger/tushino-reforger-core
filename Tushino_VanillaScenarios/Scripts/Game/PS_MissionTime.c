@@ -34,10 +34,13 @@ class PS_MissionTime: GenericEntity {
 				float elapsedTimeMillis = currentTimestamp.DiffMilliseconds(m_lastFreezeTimestamp);
 				if (elapsedTimeMillis > m_fMissionTimeMillis) {
 					m_game.AdvanceGameState(gameState);
+					GetGame().GetCallqueue().Remove(CheckTime);
 				}
 			} else {
 				m_lastFreezeTimestamp = GetWorld().GetTimestamp();
 			}
+		} else if (gameState == SCR_EGameModeState.DEBRIEFING) {
+			GetGame().GetCallqueue().Remove(CheckTime);
 		}
 	}
 }

@@ -32,6 +32,9 @@ class PS_FactionLossesConstraint: GenericEntity {
 			if (nAlive < m_iMinNumberOfAliveCharacters) {
 				CompleteObjectives(objectives);
 			}
+			GetGame().GetCallqueue().Remove(CheckLosses);
+		} else if (gameState == SCR_EGameModeState.DEBRIEFING) {
+			GetGame().GetCallqueue().Remove(CheckLosses);
 		}
 	}
 	
