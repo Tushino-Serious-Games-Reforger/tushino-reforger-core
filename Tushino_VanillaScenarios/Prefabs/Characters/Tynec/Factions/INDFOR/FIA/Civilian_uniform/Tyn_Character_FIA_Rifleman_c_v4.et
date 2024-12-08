@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{AAC31C96DF3C1B47}Prefabs/Characters/Factions/INDFOR/FIA/Civilian_uniform/mTSG_Character_FIA_Rifleman_c.et" {
+SCR_ChimeraCharacter : "{AAC31C96DF3C1B47}Prefabs/Characters/Tynec/Factions/INDFOR/FIA/Civilian_uniform/Tyn_Character_FIA_Rifleman_c.et" {
  ID "520EC961A090B1EE"
  components {
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
@@ -13,11 +13,14 @@ SCR_ChimeraCharacter : "{AAC31C96DF3C1B47}Prefabs/Characters/Factions/INDFOR/FIA
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{62B165C144DF2E90}" {
+    ItemsInitConfigurationItem "{62F312DAB4D9A2B7}" {
      TargetStorage "Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey_Dirty.et"
     }
-    ItemsInitConfigurationItem "{62B165C147BF3A43}" {
+    ItemsInitConfigurationItem "{62F312DAA939F9A6}" {
      TargetStorage "Prefabs/Characters/Uniforms/Jacket_Denim_01/Jacket_Denim_01_strippedShirt_dirty.et"
+    }
+    ItemsInitConfigurationItem "{62F312D9DB991312}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey_Dirty.et"
     }
    }
   }

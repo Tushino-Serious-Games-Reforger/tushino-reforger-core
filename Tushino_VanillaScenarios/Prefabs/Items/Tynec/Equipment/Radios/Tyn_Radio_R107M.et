@@ -2,10 +2,11 @@ GenericEntity : "{5879D8E9C56E358E}Prefabs/Items/Equipment/Radios/Radio_Deployab
  ID "508AB2013EEE1E00"
  components {
   BaseRadioComponent "{5A30BAE7673C63CA}" {
-   "Encryption key" "candleSauce"
-   "Turned on" 0
+   "Encryption key" "coldBorscht"
+   "Turned on" 1
    Transceivers {
     RadioTransceiver "{5EA4A89F0D06E18F}" {
+     ChannelFrequency 42000
      "Transmitting Range" 5000
      "Frequency resolution" 100
     }
@@ -18,6 +19,7 @@ GenericEntity : "{5879D8E9C56E358E}Prefabs/Items/Equipment/Radios/Radio_Deployab
    ModelGeometry 1
   }
   SCR_DeployableInventoryItemInventoryComponent "{5222EB4D0C73006B}" {
+   Enabled 1
    Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
     ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
      Name "#AR-Item_R107M_Name"
@@ -56,9 +58,10 @@ GenericEntity : "{5879D8E9C56E358E}Prefabs/Items/Equipment/Radios/Radio_Deployab
    Enabled 0
    m_sReplacementPrefab "{04F7BB1A1EA8BA23}Prefabs/Systems/DeployableRadios/DeployableItemRadioReplacementUSSR.et"
    m_FactionKey "USSR"
+   m_bQueryAllBases 1
   }
   BaseLoadoutClothComponent "{5EA4A89F0D06E1DE}" {
-   AreaType LoadoutBackpackArea "{62AEFA22C0649F68}" {
+   AreaType LoadoutBackpackArea "{62AEFA22B8BCBB4B}" {
    }
    WornModel "{518A95342557BC80}Assets/Items/Equipment/Radios/Radio_R107M/Radio_R107M_01.xob"
    ItemModel "{77C9FCF3FB1246E9}Assets/Items/Equipment/Radios/Radio_R107M/Radio_R107M_01_item.xob"
