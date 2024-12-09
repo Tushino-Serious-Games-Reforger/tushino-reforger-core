@@ -87,11 +87,19 @@ $grp SCR_AIGroup : "{3CCCF1BD3EDBCA86}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_
   }
  }
 }
-Vehicle M1025_armed_M2HB1 : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
- coords 4509.616 14.002 9477.45
- angleX -1.745
- angleY -88.565
- angleZ -1.833
+$grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
+ M1025_armed_M2HB1 {
+  coords 4509.616 14.002 9477.45
+  angleX -1.745
+  angleY -88.565
+  angleZ -1.833
+ }
+ M1025_armed_M2HB2 {
+  coords 4519.806 14.275 9477.177
+  angleX -1.789
+  angleY -88.565
+  angleZ -0.045
+ }
 }
 $grp SCR_AIGroup : "{C5D8F4AAE0D8989A}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_Platoon.et" {
  {
@@ -124,9 +132,17 @@ $grp SCR_AIGroup : "{C5D8F4AAE0D8989A}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_
   }
  }
 }
-Vehicle M1025_armed_M2HB_MERDC1 : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
- coords 4510.142 13.689 9459.475
- angleX -0.895
- angleY -88.943
- angleZ -0.016
+$grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
+ M1025_armed_M2HB_MERDC1 {
+  coords 4510.142 13.689 9459.475
+  angleX -0.895
+  angleY -88.943
+  angleZ -0.016
+ }
+ M1025_armed_M2HB_MERDC2 {
+  coords 4520.278 14.016 9459.244
+  angleX -1.799
+  angleY -90.302
+  angleZ -1.78
+ }
 }
