@@ -1,0 +1,727 @@
+SCR_AIGroup : "{121F4A7DB996AE83}Prefabs/Groups/Tynec/OPFOR/Tyn_Group_USSR_HQ.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "line"
+  }
+ }
+ coords 5309.803 18.644 9731.2
+ angleX 0.881
+ angleY 10.149
+ angleZ 0.158
+ m_aUnitPrefabSlots {
+  "{608A72127D48234B}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_HQ.et"
+ }
+}
+$grp Vehicle : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+ Ural4320_transport1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38EDB3709A9}" {
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C4CB6655ED2}" {
+      SlotTemplate InventoryStorageSlot morphine {
+       Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C4CA5BDEE9F}" {
+      SlotTemplate InventoryStorageSlot tourniquet {
+       Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C43207FC04F}" {
+      SlotTemplate InventoryStorageSlot magazineak {
+       Prefab "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C432326429A}" {
+      SlotTemplate InventoryStorageSlot magazineak_traccer {
+       Prefab "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C42FFBA5EBB}" {
+      SlotTemplate InventoryStorageSlot rgd5 {
+       Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{63150C42FFD12D60}" {
+      SlotTemplate InventoryStorageSlot rdg2 {
+       Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C4D2550E403}" {
+      SlotTemplate InventoryStorageSlot rpkmagazine {
+       Prefab "{BC74DAC891D48540}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Ball.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C4D56AF18DB}" {
+      SlotTemplate InventoryStorageSlot rpk_traccer {
+       Prefab "{5897D01F41DB5D2D}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C4C24B84506}" {
+      SlotTemplate InventoryStorageSlot pkm_magazine {
+       Prefab "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{63150C4C46DFAACD}" {
+      SlotTemplate InventoryStorageSlot pkm_magazine_traccer {
+       Prefab "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et"
+      }
+      NumSlots 5
+     }
+    }
+   }
+  }
+  coords 5319.324 19.621 9768.862
+  angleX 0.257
+  angleY -81.741
+  angleZ -1.771
+ }
+ Ural4320_transport2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38EDB3709A9}" {
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C4CB6655ED2}" {
+      SlotTemplate InventoryStorageSlot morphine {
+       Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C4CA5BDEE9F}" {
+      SlotTemplate InventoryStorageSlot tourniquet {
+       Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C43207FC04F}" {
+      SlotTemplate InventoryStorageSlot magazineak {
+       Prefab "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C432326429A}" {
+      SlotTemplate InventoryStorageSlot magazineak_traccer {
+       Prefab "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C42FFBA5EBB}" {
+      SlotTemplate InventoryStorageSlot rgd5 {
+       Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{63150C42FFD12D60}" {
+      SlotTemplate InventoryStorageSlot rdg2 {
+       Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C4D2550E403}" {
+      SlotTemplate InventoryStorageSlot rpkmagazine {
+       Prefab "{BC74DAC891D48540}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Ball.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C4D56AF18DB}" {
+      SlotTemplate InventoryStorageSlot rpk_traccer {
+       Prefab "{5897D01F41DB5D2D}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C4C24B84506}" {
+      SlotTemplate InventoryStorageSlot pkm_magazine {
+       Prefab "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{63150C4C46DFAACD}" {
+      SlotTemplate InventoryStorageSlot pkm_magazine_traccer {
+       Prefab "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et"
+      }
+      NumSlots 5
+     }
+    }
+   }
+  }
+  coords 5329.702 19.649 9767.533
+  angleX 0.129
+  angleY -81.726
+  angleZ -0.886
+ }
+ Ural4320_transport5 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38EDB3709A9}" {
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C4CB6655ED2}" {
+      SlotTemplate InventoryStorageSlot morphine {
+       Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C4CA5BDEE9F}" {
+      SlotTemplate InventoryStorageSlot tourniquet {
+       Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C43207FC04F}" {
+      SlotTemplate InventoryStorageSlot magazineak {
+       Prefab "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C432326429A}" {
+      SlotTemplate InventoryStorageSlot magazineak_traccer {
+       Prefab "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C42FFBA5EBB}" {
+      SlotTemplate InventoryStorageSlot rgd5 {
+       Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{63150C42FFD12D60}" {
+      SlotTemplate InventoryStorageSlot rdg2 {
+       Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C4D2550E403}" {
+      SlotTemplate InventoryStorageSlot rpkmagazine {
+       Prefab "{BC74DAC891D48540}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Ball.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C4D56AF18DB}" {
+      SlotTemplate InventoryStorageSlot rpk_traccer {
+       Prefab "{5897D01F41DB5D2D}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C4C24B84506}" {
+      SlotTemplate InventoryStorageSlot pkm_magazine {
+       Prefab "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{63150C4C46DFAACD}" {
+      SlotTemplate InventoryStorageSlot pkm_magazine_traccer {
+       Prefab "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et"
+      }
+      NumSlots 5
+     }
+    }
+   }
+  }
+  coords 5314.793 19.028 9746.492
+  angleX -0.628
+  angleY -81.714
+  angleZ -1.9
+ }
+ Ural4320_transport4 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38EDB3709A9}" {
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C4CB6655ED2}" {
+      SlotTemplate InventoryStorageSlot morphine {
+       Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C4CA5BDEE9F}" {
+      SlotTemplate InventoryStorageSlot tourniquet {
+       Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C43207FC04F}" {
+      SlotTemplate InventoryStorageSlot magazineak {
+       Prefab "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C432326429A}" {
+      SlotTemplate InventoryStorageSlot magazineak_traccer {
+       Prefab "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C42FFBA5EBB}" {
+      SlotTemplate InventoryStorageSlot rgd5 {
+       Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{63150C42FFD12D60}" {
+      SlotTemplate InventoryStorageSlot rdg2 {
+       Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C4D2550E403}" {
+      SlotTemplate InventoryStorageSlot rpkmagazine {
+       Prefab "{BC74DAC891D48540}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Ball.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C4D56AF18DB}" {
+      SlotTemplate InventoryStorageSlot rpk_traccer {
+       Prefab "{5897D01F41DB5D2D}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C4C24B84506}" {
+      SlotTemplate InventoryStorageSlot pkm_magazine {
+       Prefab "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{63150C4C46DFAACD}" {
+      SlotTemplate InventoryStorageSlot pkm_magazine_traccer {
+       Prefab "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et"
+      }
+      NumSlots 5
+     }
+    }
+   }
+  }
+  coords 5317.688 19.332 9757.796
+  angleX -0.628
+  angleY -81.714
+  angleZ -1.9
+ }
+ Ural4320_transport3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38EDB3709A9}" {
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C4CB6655ED2}" {
+      SlotTemplate InventoryStorageSlot morphine {
+       Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C4CA5BDEE9F}" {
+      SlotTemplate InventoryStorageSlot tourniquet {
+       Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C43207FC04F}" {
+      SlotTemplate InventoryStorageSlot magazineak {
+       Prefab "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C432326429A}" {
+      SlotTemplate InventoryStorageSlot magazineak_traccer {
+       Prefab "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C42FFBA5EBB}" {
+      SlotTemplate InventoryStorageSlot rgd5 {
+       Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{63150C42FFD12D60}" {
+      SlotTemplate InventoryStorageSlot rdg2 {
+       Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C4D2550E403}" {
+      SlotTemplate InventoryStorageSlot rpkmagazine {
+       Prefab "{BC74DAC891D48540}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Ball.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C4D56AF18DB}" {
+      SlotTemplate InventoryStorageSlot rpk_traccer {
+       Prefab "{5897D01F41DB5D2D}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63150C4C24B84506}" {
+      SlotTemplate InventoryStorageSlot pkm_magazine {
+       Prefab "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{63150C4C46DFAACD}" {
+      SlotTemplate InventoryStorageSlot pkm_magazine_traccer {
+       Prefab "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et"
+      }
+      NumSlots 5
+     }
+    }
+   }
+  }
+  coords 5328.742 19.378 9756.218
+  angleX 0.129
+  angleY -81.726
+  angleZ -0.886
+ }
+}
+Vehicle UAZ1 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ coords 5311.02 18.701 9734.843
+ angleX 0.103
+ angleY -83.414
+ angleZ -0.889
+}
+$grp SCR_AIGroup : "{829DEE4C9A63A27A}Prefabs/Groups/Tynec/OPFOR/Tyn_Group_USSR_Platoon.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{62B47CFC7F1D3447}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 5315.339 19.52 9764.647
+  angleX 1.764
+  angleY 9.802
+  angleZ 0.305
+  m_aUnitPrefabSlots {
+   "{5648FA3278056CB5}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_PL.et" "{B7AE839089E6ABE6}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Sniper.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{62B47CFC7F1D3447}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 5311.7 19.175 9753.226
+  angleX 0.885
+  angleY 8.669
+  angleZ 0.135
+  m_aUnitPrefabSlots {
+   "{5648FA3278056CB5}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_PL.et" "{B7AE839089E6ABE6}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Sniper.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{62B47CFC7F1D3447}" {
+    m_iCompanyCallsign 3
+   }
+  }
+  coords 5310.396 18.856 9740.811
+  angleX 0.888
+  angleY 7.386
+  angleZ 0.115
+  m_aUnitPrefabSlots {
+   "{5648FA3278056CB5}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_PL.et" "{B7AE839089E6ABE6}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Sniper.et"
+  }
+ }
+}
+$grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ BTR3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
+     }
+     MultiSlotConfiguration "{5A60D38E3C6A4E2F}" {
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{5A60D38E3C46CBE8}" {
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{5A60D38E3DAEB055}" {
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{5A60D38E3D89BD31}" {
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{5A60D38E3D91D053}" {
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{5A60D38E3DCB490D}" {
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{5A7CC6862AA09361}" {
+      SlotTemplate InventoryStorageSlot Backpack {
+       Prefab ""
+      }
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC6862BCACE88}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC6862B68506F}" {
+     }
+    }
+   }
+  }
+  coords 5340.989 19.715 9765.796
+  angleX 0.097
+  angleY -83.795
+  angleZ -0.89
+ }
+ BTR2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
+     }
+     MultiSlotConfiguration "{5A60D38E3C6A4E2F}" {
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{5A60D38E3C46CBE8}" {
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{5A60D38E3DAEB055}" {
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{5A60D38E3D89BD31}" {
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{5A60D38E3D91D053}" {
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{5A60D38E3DCB490D}" {
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{5A7CC6862AA09361}" {
+      SlotTemplate InventoryStorageSlot Backpack {
+       Prefab ""
+      }
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC6862BCACE88}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC6862B68506F}" {
+     }
+    }
+   }
+  }
+  coords 5339.069 19.44 9754.548
+  angleX -0.599
+  angleY -80.834
+  angleZ -1.91
+ }
+ BTR4 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
+     }
+     MultiSlotConfiguration "{5A60D38E3C6A4E2F}" {
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{5A60D38E3C46CBE8}" {
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{5A60D38E3DAEB055}" {
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{5A60D38E3D89BD31}" {
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{5A60D38E3D91D053}" {
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{5A60D38E3DCB490D}" {
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{5A7CC6862AA09361}" {
+      SlotTemplate InventoryStorageSlot Backpack {
+       Prefab ""
+      }
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC6862BCACE88}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC6862B68506F}" {
+     }
+    }
+   }
+  }
+  coords 5326.027 19.073 9744.663
+  angleX 0.134
+  angleY -81.372
+  angleZ -0.885
+ }
+}
+$grp SCR_AIGroup : "{E7E8153066A3DC44}Prefabs/Groups/Tynec/OPFOR/Tyn_Group_USSR_RifleSquad.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{62B47CFC02335379}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 5317.301 19.504 9764.249
+  angleX 0.884
+  angleY 9.153
+  angleZ 0.142
+  m_aUnitPrefabSlots {
+   "{9EA6DD1D004F00A6}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_SL.et" "{3D500A3A5B9E465C}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_lMG.et" "{F0C96CAE3929EBD5}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_MG.et" "{F0080947019F2087}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_aMG.et" "{19A6AF01C2EE73D9}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_ATpgo.et" "{7AB7BE9C16592A38}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_aAT.et" "{69CFCF282DA134D1}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Rifleman.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{62B47CFC02335379}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 5337.692 19.576 9761.197
+  angleX 0.959
+  angleY 4.241
+  angleZ -0.826
+  m_aUnitPrefabSlots {
+   "{9EA6DD1D004F00A6}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_SL.et" "{F0C96CAE3929EBD5}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_MG.et" "{F0080947019F2087}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_aMG.et" "{19A6AF01C2EE73D9}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_ATpgo.et" "{7AB7BE9C16592A38}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_aAT.et" "{5BDB58747563B2C0}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_GP.et" "{78EA5CC4F1C527F3}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Crew.et" "{93653A42750C27AD}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Crew2.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{62B47CFC02335379}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 5327.296 19.511 9762.695
+  angleX 0.884
+  angleY 9.149
+  angleZ 0.142
+  m_aUnitPrefabSlots {
+   "{9EA6DD1D004F00A6}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_SL.et" "{3D500A3A5B9E465C}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_lMG.et" "{F0C96CAE3929EBD5}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_MG.et" "{F0080947019F2087}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_aMG.et" "{19A6AF01C2EE73D9}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_ATpgo.et" "{7AB7BE9C16592A38}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_aAT.et" "{69CFCF282DA134D1}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Rifleman.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{62B47CFC02335379}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 2
+   }
+  }
+  coords 5323.649 19.225 9751.381
+  angleX 1.897
+  angleY 8.01
+  angleZ -0.637
+  m_aUnitPrefabSlots {
+   "{9EA6DD1D004F00A6}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_SL.et" "{3D500A3A5B9E465C}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_lMG.et" "{F0C96CAE3929EBD5}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_MG.et" "{F0080947019F2087}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_aMG.et" "{19A6AF01C2EE73D9}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_ATpgo.et" "{7AB7BE9C16592A38}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_aAT.et" "{69CFCF282DA134D1}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Rifleman.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{62B47CFC02335379}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 5313.667 19.178 9752.862
+  angleX 1.897
+  angleY 8.01
+  angleZ -0.637
+  m_aUnitPrefabSlots {
+   "{9EA6DD1D004F00A6}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_SL.et" "{3D500A3A5B9E465C}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_lMG.et" "{F0C96CAE3929EBD5}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_MG.et" "{F0080947019F2087}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_aMG.et" "{19A6AF01C2EE73D9}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_ATpgo.et" "{7AB7BE9C16592A38}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_aAT.et" "{69CFCF282DA134D1}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Rifleman.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{62B47CFC02335379}" {
+    m_iCompanyCallsign 2
+    m_iSquadCallsign 3
+   }
+  }
+  coords 5336.133 19.312 9749.962
+  angleX 0.894
+  angleY 3.108
+  angleZ 0.049
+  m_aUnitPrefabSlots {
+   "{9EA6DD1D004F00A6}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_SL.et" "{F0C96CAE3929EBD5}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_MG.et" "{F0080947019F2087}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_aMG.et" "{19A6AF01C2EE73D9}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_ATpgo.et" "{7AB7BE9C16592A38}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_aAT.et" "{5BDB58747563B2C0}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_GP.et" "{78EA5CC4F1C527F3}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Crew.et" "{93653A42750C27AD}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Crew2.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{62B47CFC02335379}" {
+    m_iCompanyCallsign 3
+    m_iSquadCallsign 2
+   }
+  }
+  coords 5321.741 18.91 9739.257
+  angleX 1.892
+  angleY 7.567
+  angleZ -0.651
+  m_aUnitPrefabSlots {
+   "{9EA6DD1D004F00A6}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_SL.et" "{F0C96CAE3929EBD5}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_MG.et" "{F0080947019F2087}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_aMG.et" "{19A6AF01C2EE73D9}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_ATpgo.et" "{7AB7BE9C16592A38}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_aAT.et" "{5BDB58747563B2C0}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_GP.et" "{78EA5CC4F1C527F3}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Crew.et" "{93653A42750C27AD}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Crew2.et"
+  }
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{62B47CFC02335379}" {
+    m_iCompanyCallsign 3
+    m_iSquadCallsign 1
+   }
+  }
+  coords 5312.373 18.865 9740.498
+  angleX 1.882
+  angleY 6.728
+  angleZ -0.679
+  m_aUnitPrefabSlots {
+   "{9EA6DD1D004F00A6}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_SL.et" "{3D500A3A5B9E465C}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_lMG.et" "{F0C96CAE3929EBD5}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_MG.et" "{F0080947019F2087}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_aMG.et" "{19A6AF01C2EE73D9}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_ATpgo.et" "{7AB7BE9C16592A38}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_aAT.et" "{5BDB58747563B2C0}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_GP.et" "{69CFCF282DA134D1}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Rifleman.et"
+  }
+ }
+}
