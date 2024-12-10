@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{B2340E49FB79F95F}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_Armored.et" {
+SCR_ChimeraCharacter : "{B2340E49FB79F95F}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Armored.et" {
  ID "520EC961A090BE1E"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -14,7 +14,7 @@ SCR_ChimeraCharacter : "{B2340E49FB79F95F}Prefabs/Characters/Tynec/Factions/OPFO
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Командир взвода"
+    Name "#JUM-Role_ReconPlatoonLeader"
     Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
    }
   }
@@ -36,7 +36,7 @@ SCR_ChimeraCharacter : "{B2340E49FB79F95F}Prefabs/Characters/Tynec/Factions/OPFO
      Prefab "{4CBDC206FEF9897C}Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{36BC0C2F5CDD733C}Prefabs/Items/Tynec/Equipment/Radios/mTSG_Radio_R107M.et"
+     Prefab "{36BC0C2F5CDD733C}Prefabs/Items/Tynec/Equipment/Radios/Tyn_Radio_R107M.et"
     }
    }
   }
