@@ -581,7 +581,7 @@ $grp SCR_AIGroup : "{E7E8153066A3DC44}Prefabs/Groups/Tynec/OPFOR/Tyn_Group_USSR_
     m_iSquadCallsign 1
    }
   }
-  coords 5317.301 19.504 9764.249
+  coords 5318.779 19.525 9764.139
   angleX 0.884
   angleY 9.153
   angleZ 0.142
@@ -599,7 +599,7 @@ $grp SCR_AIGroup : "{E7E8153066A3DC44}Prefabs/Groups/Tynec/OPFOR/Tyn_Group_USSR_
     m_iSquadCallsign 3
    }
   }
-  coords 5337.692 19.576 9761.197
+  coords 5339.17 19.597 9761.087
   angleX 0.959
   angleY 4.241
   angleZ -0.826
@@ -617,7 +617,7 @@ $grp SCR_AIGroup : "{E7E8153066A3DC44}Prefabs/Groups/Tynec/OPFOR/Tyn_Group_USSR_
     m_iSquadCallsign 2
    }
   }
-  coords 5327.296 19.511 9762.695
+  coords 5328.774 19.532 9762.585
   angleX 0.884
   angleY 9.149
   angleZ 0.142
@@ -635,7 +635,7 @@ $grp SCR_AIGroup : "{E7E8153066A3DC44}Prefabs/Groups/Tynec/OPFOR/Tyn_Group_USSR_
     m_iSquadCallsign 2
    }
   }
-  coords 5323.649 19.225 9751.381
+  coords 5325.127 19.246 9751.271
   angleX 1.897
   angleY 8.01
   angleZ -0.637
@@ -653,7 +653,7 @@ $grp SCR_AIGroup : "{E7E8153066A3DC44}Prefabs/Groups/Tynec/OPFOR/Tyn_Group_USSR_
     m_iSquadCallsign 1
    }
   }
-  coords 5313.667 19.178 9752.862
+  coords 5315.146 19.199 9752.752
   angleX 1.897
   angleY 8.01
   angleZ -0.637
@@ -671,7 +671,7 @@ $grp SCR_AIGroup : "{E7E8153066A3DC44}Prefabs/Groups/Tynec/OPFOR/Tyn_Group_USSR_
     m_iSquadCallsign 3
    }
   }
-  coords 5336.133 19.312 9749.962
+  coords 5337.611 19.333 9749.852
   angleX 0.894
   angleY 3.108
   angleZ 0.049
@@ -689,7 +689,7 @@ $grp SCR_AIGroup : "{E7E8153066A3DC44}Prefabs/Groups/Tynec/OPFOR/Tyn_Group_USSR_
     m_iSquadCallsign 2
    }
   }
-  coords 5321.741 18.91 9739.257
+  coords 5322.989 18.924 9739.091
   angleX 1.892
   angleY 7.567
   angleZ -0.651
@@ -707,7 +707,7 @@ $grp SCR_AIGroup : "{E7E8153066A3DC44}Prefabs/Groups/Tynec/OPFOR/Tyn_Group_USSR_
     m_iSquadCallsign 1
    }
   }
-  coords 5312.373 18.865 9740.498
+  coords 5313.621 18.879 9740.332
   angleX 1.882
   angleY 6.728
   angleZ -0.679
