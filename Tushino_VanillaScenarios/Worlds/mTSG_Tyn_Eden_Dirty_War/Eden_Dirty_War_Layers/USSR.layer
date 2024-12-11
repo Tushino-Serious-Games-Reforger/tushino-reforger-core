@@ -409,9 +409,6 @@ $grp SCR_AIGroup : "{829DEE4C9A63A27A}Prefabs/Groups/Tynec/OPFOR/Tyn_Group_USSR_
   angleX 1.764
   angleY 9.802
   angleZ 0.305
-  m_aUnitPrefabSlots {
-   "{5648FA3278056CB5}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_PL.et" "{B7AE839089E6ABE6}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Sniper.et"
-  }
  }
  {
   components {
@@ -426,9 +423,6 @@ $grp SCR_AIGroup : "{829DEE4C9A63A27A}Prefabs/Groups/Tynec/OPFOR/Tyn_Group_USSR_
   angleX 0.885
   angleY 8.669
   angleZ 0.135
-  m_aUnitPrefabSlots {
-   "{5648FA3278056CB5}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_PL.et" "{B7AE839089E6ABE6}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Sniper.et"
-  }
  }
  {
   components {
@@ -443,9 +437,6 @@ $grp SCR_AIGroup : "{829DEE4C9A63A27A}Prefabs/Groups/Tynec/OPFOR/Tyn_Group_USSR_
   angleX 0.888
   angleY 7.386
   angleZ 0.115
-  m_aUnitPrefabSlots {
-   "{5648FA3278056CB5}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_PL.et" "{B7AE839089E6ABE6}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Sniper.et"
-  }
  }
 }
 $grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {

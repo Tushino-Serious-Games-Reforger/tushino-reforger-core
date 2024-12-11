@@ -37,7 +37,7 @@ $grp SCR_AIGroup : "{3CCCF1BD3EDBCA86}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_
   angleY -0.07
   angleZ -0.896
   m_aUnitPrefabSlots {
-   "{DDBD954A31B83CE1}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_SL.et" "{5B320D2AC895D995}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_GP_US.et" "{C0398D8440BE7D52}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_MG_PKM.et" "{AD194D0BAEBB6F1D}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_aMG_PKM.et" "{619F38AF26296482}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_MG_RPK.et" "{689D0D947AB580AF}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_AT.et" "{72BDE4E08F0D07F1}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_aAT.et" "{99A08829678F548A}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_Rifleman.et" "{99A08829678F5489}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_Rifleman_US.et"
+   "{DDBD954A31B83CE1}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_SL.et" "{5B320D2AC895D995}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_GP_US.et" "{C0398D8440BE7D52}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_MG_PKM.et" "{AD194D0BAEBB6F1D}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_aMG_PKM.et" "{619F38AF26296482}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_MG_RPK.et" "{689D0D947AB580AF}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_AT.et" "{72BDE4E08F0D07F1}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_aAT.et" "{99A08829678F5489}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_Rifleman_US.et"
   }
  }
  {
@@ -67,7 +67,7 @@ $grp SCR_AIGroup : "{3CCCF1BD3EDBCA86}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_
   coords 4527.058 14.5 9472.089
   angleY 0.419
   m_aUnitPrefabSlots {
-   "{DDBD954A31B83CE1}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_SL.et" "{5B320D2AC895D995}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_GP_US.et" "{6B31FFC17E3EE60C}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_MG_M249.et" "{F3A18497E91DB861}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_aMG_M249.et" "{C0398D8440BE7D52}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_MG_PKM.et" "{AD194D0BAEBB6F1D}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_aMG_PKM.et" "{D2E6D748D35BB78F}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_Rifleman-USSR.et" "{EC87D6A0D1E3A391}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_Rifleman_US_v2.et"
+   "{DDBD954A31B83CE1}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_SL.et" "{5B320D2AC895D995}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_GP_US.et" "{6B31FFC17E3EE60C}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_MG_M249.et" "{F3A18497E91DB861}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_aMG_M249.et" "{C0398D8440BE7D52}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_MG_PKM.et" "{AD194D0BAEBB6F1D}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_aMG_PKM.et" "{D2E6D748D35BB78F}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_Rifleman-USSR.et"
   }
  }
  {
@@ -114,7 +114,7 @@ $grp SCR_AIGroup : "{3CCCF1BD3EDBCA86}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_
   coords 4510.842 13.724 9463.333
   angleY 178.89
   m_aUnitPrefabSlots {
-   "{DDBD954A31B83CE1}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_SL.et" "{49308E952139D305}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_GP.et" "{E27AB74231A9A816}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_MG_UK.et" "{8A938EBDDE9087F7}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_aMG_UK.et" "{619F38AF26296482}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_MG_RPK.et" "{99A08829678F548A}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_Rifleman.et" "{D2E6D748D35BB78F}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_Rifleman-USSR.et" "{EC87D6A0D1E3A391}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_Rifleman_US_v2.et"
+   "{DDBD954A31B83CE1}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_SL.et" "{49308E952139D305}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_GP.et" "{E27AB74231A9A816}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_MG_UK.et" "{8A938EBDDE9087F7}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_aMG_UK.et" "{619F38AF26296482}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_MG_RPK.et" "{D2E6D748D35BB78F}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_Rifleman-USSR.et" "{EC87D6A0D1E3A391}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_Rifleman_US_v2.et"
   }
  }
 }
