@@ -9,8 +9,8 @@ $grp SCR_AIGroup : "{1F281EA2DECC4EE7}Prefabs/Groups/OPFOR/Boryan/brn_Group_USSR
    }
   }
   coords 4874.155 28.594 11919.589
-  m_aUnitPrefabSlots + {
-   "{96B44E4B03427129}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_CrewGunner.et" "{CF75C616AFC95FE8}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_CrewDriver.et"
+  m_aUnitPrefabSlots {
+   "{FBFF6922C0194CA6}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_SL_GL.et" "{DBC2E2FDC3D25C0F}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_SR_Optic.et" "{EE4A01B2B7693A99}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_AR.et" "{36E26873CEE024C5}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_AT.et" "{EF5410A6E1379176}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_AAT.et" "{FBECF688D117F377}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_Sniper.et" "{96B44E4B03427129}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_CrewGunner.et" "{CF75C616AFC95FE8}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_CrewDriver.et"
   }
   m_sCustomNameSet "1-2 Отделение на БТР-70"
  }
@@ -24,8 +24,8 @@ $grp SCR_AIGroup : "{1F281EA2DECC4EE7}Prefabs/Groups/OPFOR/Boryan/brn_Group_USSR
    }
   }
   coords 4874.528 28.594 11901.458
-  m_aUnitPrefabSlots + {
-   "{96B44E4B03427129}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_CrewGunner.et" "{CF75C616AFC95FE8}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_CrewDriver.et"
+  m_aUnitPrefabSlots {
+   "{FBFF6922C0194CA6}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_SL_GL.et" "{DBC2E2FDC3D25C0F}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_SR_Optic.et" "{EE4A01B2B7693A99}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_AR.et" "{36E26873CEE024C5}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_AT.et" "{EF5410A6E1379176}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_AAT.et" "{FBECF688D117F377}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_Sniper.et" "{96B44E4B03427129}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_CrewGunner.et" "{CF75C616AFC95FE8}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_CrewDriver.et"
   }
   m_sCustomNameSet "1-3 Отделение на БТР-70"
  }
@@ -39,6 +39,8 @@ $grp SCR_AIGroup : "{1F281EA2DECC4EE7}Prefabs/Groups/OPFOR/Boryan/brn_Group_USSR
    }
   }
   coords 4874.432 28.594 11887.635
+  m_aUnitPrefabSlots +{
+  }
   m_sCustomNameSet "1-4 Отделение"
  }
 }
@@ -50,7 +52,7 @@ SCR_AIGroup B15_recon : "{288D5E5619568501}Prefabs/Groups/OPFOR/KLMK/Group_USSR_
  }
  coords 4873.438 28.594 11872.516
  m_aUnitPrefabSlots {
-  "{ACD038BB506F47A9}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_SL_KLMK_P.et" "{EB49AB08A32A8C1C}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_SR_KLMK_P.et" "{45F05ED408D2FF9A}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_MG_KLMK_P.et" "{4ACD46BEECC179AA}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_AT_KLMK_P.et" "{474B20F1FAE24A79}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_AAT_KLMK_P.et" "{C9DE704C68B1DB6F}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Sharpshooter_KLMK_P.et"
+  "{1C401188E0B204F6}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_SL_silenced.et" "{C1A6A17DC83FB24A}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_SeniorScout_silenced.et" "{BC5DDFA8D9262E7A}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_MG.et" "{DD417D26CDA67954}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_AT_silenced.et" "{5892619BDE38C520}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_Rifleman_silenced.et" "{EC89944E401BB659}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_Sniper.et"
  }
  m_sCustomNameSet "1-5 Разведка"
 }
@@ -62,7 +64,7 @@ SCR_AIGroup B11 : "{D1B420D921CC6CD4}Prefabs/Groups/OPFOR/Group_USSR_PlatoonHQ_P
  coords 4904.243 28.594 11941.843
  angleY -145.667
  m_aUnitPrefabSlots {
-  "{AF5187B30BA58205}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_PL_P.et" "{DD80FA65DDFF68B9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Medic_P.et"
+  "{1ADC4934980AA91A}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_PL.et" "{C8917EA9B578E2CE}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_Medic.et"
  }
  m_sCustomNameSet "1-1 Штаб"
 }

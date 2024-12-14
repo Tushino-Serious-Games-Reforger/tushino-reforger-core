@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{43CED484D075F274}Prefabs/Characters/Factions/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_Rifleman.et" {
+SCR_ChimeraCharacter : "{43CED484D075F274}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_Rifleman.et" {
  ID "520EC961A090BE1E"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -18,7 +18,7 @@ SCR_ChimeraCharacter : "{43CED484D075F274}Prefabs/Characters/Factions/OPFOR/USSR
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{BC6C9476FB3219A7}Prefabs/Weapons/Rifles/AK74/Rifle_AK74N_GP25.et"
+   WeaponTemplate "{63E8322E2ADD4AA7}Prefabs/Weapons/Rifles/AK74/Rifle_AK74_GP25.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -43,7 +43,7 @@ SCR_ChimeraCharacter : "{43CED484D075F274}Prefabs/Characters/Factions/OPFOR/USSR
     }
     ItemsInitConfigurationItem "{61B61323FB41EF31}" {
      PrefabsToSpawn + {
-      "{6492196F107687BC}Prefabs/Items/Equipment/Radios/Radio_R148_SL.et"
+      "{6492196F107687BC}Prefabs/Items/drongo/Equipment/Radios/Radio_R148_SL.et"
      }
     }
     ItemsInitConfigurationItem "{61B66D5BF00E0852}" {

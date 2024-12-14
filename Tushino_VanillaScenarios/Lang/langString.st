@@ -1,6 +1,30 @@
 StringTable {
  ItemClassName "CustomStringTableItem"
  Items {
+  CustomStringTableItem "{62F55CDC686001DE}" {
+   Id "BRN-Role_Administrator"
+   Target_en_us "Head of administration"
+   Target_ru_ru "Глава администрации"
+   Modified 1660248281
+   Author "tread"
+   LastChanged "tread"
+  }
+  CustomStringTableItem "{62F55CDC0C739139}" {
+   Id "BRN-Role_Bodyguard"
+   Target_en_us "Bodyguard"
+   Target_ru_ru "Телохранитель"
+   Modified 1660248218
+   Author "tread"
+   LastChanged "tread"
+  }
+  CustomStringTableItem "{62F5638186C96DFF}" {
+   Id "BRN-Role_SecurityHead"
+   Target_en_us "Senior bodyguard"
+   Target_ru_ru "Старший телохранитель"
+   Modified 1660249265
+   Author "tread"
+   LastChanged "tread"
+  }
   CustomStringTableItem "{62CB60AD6B9AFE1B}" {
    Id "BRN-Role_VehicleDriver"
    Target_en_us "Driver"

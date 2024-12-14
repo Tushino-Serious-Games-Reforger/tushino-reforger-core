@@ -1,0 +1,40 @@
+Vehicle Ural4320_FIA_transport1 : "{16E32C3ABEAFC2C6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA_transport.et" {
+ coords 10628.619 148.967 2323.935
+ angleX -1.58
+ angleY -151.939
+ angleZ -0.842
+}
+$grp Vehicle : "{5168FEA3054D6D15}Prefabs/Vehicles/Wheeled/M151A2/M151A2_M2HB_MERDC.et" {
+ tachanka1 {
+  coords 10672.2 148.653 2345.869
+  angleX -3.786
+  angleY 48.384
+  angleZ -0.224
+ }
+ tachanka2 {
+  coords 10781.28 24.147 2889.211
+  angleX -2.527
+  angleY 98.143
+  angleZ -13.649
+ }
+}
+$grp Vehicle : "{B70E6D12A8EC2410}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA_transport_covered.et" {
+ Ural4320_FIA_transport_covered1 {
+  coords 10662.578 149.053 2338.41
+  angleX -4.169
+  angleY -177.634
+  angleZ -7.282
+ }
+ Ural4320_FIA_transport_covered2 {
+  coords 10652.118 149.499 2336.73
+  angleX -4.594
+  angleY 171.465
+  angleZ -6.502
+ }
+ Ural4320_FIA_transport_covered3 {
+  coords 10641.077 149.331 2333.288
+  angleX -6.743
+  angleY 138.219
+  angleZ -3.522
+ }
+}

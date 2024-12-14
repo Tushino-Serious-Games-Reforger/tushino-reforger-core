@@ -1,6 +1,6 @@
 SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad_P.et" {
  ID "0000000000000001"
  m_aUnitPrefabSlots {
-  "{A5F4D7FEBDB57182}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SL_P.et" "{6A840CB36D1670C2}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SR_P.et" "{00716F7369F3C5E8}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR_P.et" "{BDA13DF416E8D9F6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AT_P.et" "{F9C5F4700B5D87FB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AAT_P.et" "{A8A47F001DA13B73}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sharpshooter_P.et"
+  "{FBFF6922C0194CA6}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_SL_GL.et" "{DBC2E2FDC3D25C0F}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_SR_Optic.et" "{DBC2E2FDC3D25C0F}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_SR_Optic.et" "{36E26873CEE024C5}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_AT.et" "{EF5410A6E1379176}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_AAT.et" "{FBECF688D117F377}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_Sniper.et"
  }
 }

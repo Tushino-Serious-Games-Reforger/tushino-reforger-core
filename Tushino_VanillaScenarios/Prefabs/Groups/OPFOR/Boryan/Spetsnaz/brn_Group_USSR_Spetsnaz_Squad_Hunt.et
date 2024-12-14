@@ -1,0 +1,12 @@
+SCR_AIGroup : "{CEE1BF54F0BE2909}Prefabs/Groups/OPFOR/Boryan/Spetsnaz/brn_Group_USSR_Spetsnaz_Squad_P.et" {
+ ID "0000000000000001"
+ components {
+  PS_GroupCallsignAssigner "{62F535BB99BB017F}" {
+   m_iSquadCallsign 1
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{1C401188E0B204F6}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_SL_silenced.et" "{C1A6A17DC83FB24A}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_SeniorScout_silenced.et" "{AB1EF69D8C2EC914}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_AR.et" "{5892619BDE38C520}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_Rifleman_silenced.et" "{6C056B5A98C0C39B}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_Sapper_silenced.et" "{EC89944E401BB659}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_Sniper.et"
+ }
+ m_sCustomNameSet "1-2 Охрана"
+}

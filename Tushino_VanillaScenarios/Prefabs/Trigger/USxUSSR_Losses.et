@@ -1,0 +1,19 @@
+PS_FactionLossesConstraint {
+ ID "630467F64249EEB0"
+ coords 4766.984 28.593 11615.006
+ m_sFactionKey "US"
+ {
+  PS_Objective USSR_victory {
+   ID "630467F6424A155C"
+   components {
+    Hierarchy "{630467F60FD86A16}" {
+    }
+   }
+   coords 2.782 -0 2.949
+   m_sTitle "Победа по потерям"
+   m_iScore 100
+   m_sFactionKey "USSR"
+   m_bAdvanceWhenTriggered 1
+  }
+ }
+}

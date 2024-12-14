@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{D940FD3D53FFF202}Prefabs/Characters/Boryan/OPFOR/USSR_Army/Recon/brn_Character_USSR_Recon_GP.et" {
+ ID "520EC961A090BE1E"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{4C1FF226DDA3017C}Prefabs/Weapons/Rifles/AK74/Variants/Rifle_AK74N_PBS4_GP25.et"
+  }
+ }
+}

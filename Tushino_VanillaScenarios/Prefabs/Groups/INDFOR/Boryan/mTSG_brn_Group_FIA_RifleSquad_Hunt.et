@@ -1,0 +1,6 @@
+SCR_AIGroup : "{3CCCF1BD3EDBCA86}Prefabs/Groups/Tynec/INDFOR/mTSG_Group_FIA_RifleSquad.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{3E2F5CAA1C916DE5}Prefabs/Characters/Tynec/Factions/INDFOR/FIA/mTSG_Character_FIA_SL.et" "{01B073AF405ADB14}Prefabs/Characters/Tynec/Factions/INDFOR/FIA/mTSG_Character_FIA_MG.et" "{4D5F8700FD390CC7}Prefabs/Characters/Tynec/Factions/INDFOR/FIA/mTSG_Character_FIA_aMG.et" "{8A99E3443BAC29A2}Prefabs/Characters/Tynec/Factions/INDFOR/FIA/mTSG_Character_FIA_rifleman.et" "{8A99E3443BAC29A2}Prefabs/Characters/Tynec/Factions/INDFOR/FIA/mTSG_Character_FIA_rifleman.et" "{C0037DC3B078809E}Prefabs/Characters/Tynec/Factions/INDFOR/FIA/mTSG_Character_FIA_Sniper.et"
+ }
+}
