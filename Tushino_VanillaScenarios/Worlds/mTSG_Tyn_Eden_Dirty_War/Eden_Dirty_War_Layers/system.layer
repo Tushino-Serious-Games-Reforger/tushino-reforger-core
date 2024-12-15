@@ -42,13 +42,11 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
 $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
  {
   coords 7231.358 125.976 4914.251
-  m_sTitle "Задача зелёных"
-  m_sTextData "Удержать свои позиции в городе \"Мо\""
+  m_sTitle "Удержать свои позиции в городе \"Мо\""
  }
  {
   coords 7284.442 145.713 4952.991
-  m_sTitle "Задача красных"
-  m_sTextData "Захватить город \"Мо\""
+  m_sTitle "Захватить город \"Мо\""
   m_sFactionKey "USSR"
  }
 }
