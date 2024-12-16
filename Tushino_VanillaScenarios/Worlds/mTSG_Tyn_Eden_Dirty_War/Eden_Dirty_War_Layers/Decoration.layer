@@ -1,0 +1,378 @@
+StaticModelEntity : "{07F043DD6AACCD0B}Prefabs/Structures/Infrastructure/Barriers/BarGate_01/BarGate_01.et" {
+ coords 4599.764 -0.006 9294.882
+ angleY 121.663
+}
+StaticModelEntity : "{18822FB3F0D2ED00}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Long.et" {
+ coords 4604.015 1.307 9296.572
+ angleY -150.107
+ scale 0.905
+}
+$grp GenericEntity : "{3001B0C35F835714}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Wall_BarbedWire_USSR_01.et" {
+ {
+  coords 4615.353 22.838 9630.651
+  angleY 76.411
+ }
+ {
+  coords 4535.947 8.01 9362.992
+  angleY -140.086
+ }
+}
+GenericEntity : "{31A455F7FD8DCE84}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_plastic.et" {
+ coords 4604.037 7.43 9296.491
+ angleX 1.214
+ angleY 118.622
+ angleZ -0.357
+}
+GenericEntity : "{36D873BC68DC0215}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_3_NoDecal.et" {
+ coords 4507.736 14.468 9499.259
+}
+GenericEntity : "{3BAF6AA8C20D924E}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Barricade_Logs_01.et" {
+ coords 4548.694 14.096 9448.405
+ angleX -0.681
+ angleY 83.327
+ angleZ 1.882
+}
+GenericEntity : "{3E413771E1834D2F}Prefabs/Weapons/Rifles/M16/Rifle_M16A2.et" {
+ components {
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   Enabled 0
+  }
+ }
+ coords 4505.301 19.186 9487.608
+ angleX 0.725
+ angleY -0.001
+ angleZ -90.084
+}
+SCR_DestructibleBuildingEntity : "{3F91DEEC9C78E473}Prefabs/Structures/Military/Houses/GuardHouse_01/GuardHouse_01.et" {
+ coords 4601.65 -0.141 9305.725
+ angleY -149.61
+}
+$grp StaticModelEntity : "{46904AF5D473FB75}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Long_noStake.et" {
+ {
+  coords 4513.069 0.129 9484.296
+  angleY 90.207
+ }
+ {
+  coords 4500.701 0.118 9484.291
+  angleY 90.207
+ }
+ {
+  coords 4503.13 0.268 9495.905
+  angleY -91.181
+ }
+ {
+  coords 4499.917 0.061 9495.886
+  angleY -91.181
+ }
+ {
+  coords 4498.341 0.158 9493.842
+  angleY 1.763
+ }
+ {
+  coords 4521.12 0.164 9486.13
+  angleY -0.941
+ }
+ {
+  coords 4521.074 0.171 9492.718
+  angleY -0.941
+ }
+ {
+  coords 4521.077 0.169 9489.402
+  angleY -0.941
+ }
+ {
+  coords 4519.1 0.124 9496.003
+  angleY 90.543
+ }
+ {
+  coords 4513.359 0.034 9500.282
+  angleY -90.565
+ }
+ {
+  coords 4509.994 0.06 9500.376
+  angleY -91.181
+ }
+ {
+  coords 4504.882 0.126 9497.775
+  angleY 179.06
+ }
+ {
+  coords 4506.688 0.021 9500.447
+  angleY -91.181
+ }
+ {
+  coords 4498.363 0.134 9490.442
+  angleY 179.012
+ }
+ {
+  coords 4516.361 0.386 9483.975
+  angleY 90.207
+ }
+ {
+  coords 4519.584 0.153 9484.145
+  angleY 90.207
+ }
+ {
+  coords 4504.229 0.125 9484.25
+  angleY 90.207
+ }
+}
+GenericEntity : "{5519B339E041781E}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Wall_BarbedWire_US_01.et" {
+ coords 4560.037 21.977 9723.646
+ angleY 11.434
+}
+StaticModelEntity : "{5FB3A1755261CA59}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Bunker_Camouflaged_US_01.et" {
+ coords 4543.979 21.282 9670.642
+ angleY 20.697
+}
+$grp StaticModelEntity : "{605A7848CB4D361A}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Bunker_Camouflaged_USSR_01.et" {
+ {
+  coords 4604.929 22.827 9613.011
+  angleY 40.176
+ }
+ {
+  coords 4475.329 10.176 9416.395
+  angleY -168.101
+ }
+ {
+  coords 4460.361 9.469 9415.406
+  angleY 178.901
+ }
+}
+GenericEntity : "{745097E446C05528}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Corner_Right_US_02.et" {
+ coords 4485.906 11.078 9421.157
+ angleX -5.062
+ angleY 160.899
+ angleZ 1.75
+}
+GenericEntity : "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_burlap.et" {
+ coords 4509.832 14.468 9493.591
+ angleY -179.544
+}
+$grp GenericEntity : "{937999008F178E82}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_burlap.et" {
+ {
+  coords 4501.437 16.529 9485.457
+ }
+ {
+  coords 4518.183 14.468 9485.45
+ }
+ {
+  coords 4519.949 16.532 9487.42
+  angleY 89.028
+ }
+ {
+  coords 4518.192 15.674 9485.521
+ }
+ {
+  coords 4519.944 15.371 9487.527
+  angleY -91.737
+ }
+ {
+  coords 4499.637 15.647 9493.146
+  angleY -92.361
+ }
+ {
+  coords 4519.98 16.481 9493.18
+  angleY -90.314
+ }
+ {
+  coords 4499.575 14.468 9493.034
+  angleY 90.531
+ }
+}
+StaticModelEntity : "{93E06E731212BD96}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Triple.et" {
+ coords 4497.601 0.116 9487.119
+ angleY -16.934
+}
+StaticModelEntity : "{9639C7B3CF572320}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_old_V2.et" {
+ coords 4604.799 -0.019 9295.224
+ angleX -0.72
+ angleY -23.715
+ angleZ -1.639
+}
+$grp GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et" {
+ {
+  coords 4506.729 14.468 9485.437
+ }
+ {
+  coords 4499.606 14.468 9486.896
+  angleY 89.96
+ }
+ {
+  coords 4513.055 14.468 9499.276
+ }
+ {
+  coords 4513.002 14.468 9485.446
+ }
+ {
+  coords 4519.971 14.468 9493.094
+  angleY 88.106
+ }
+ {
+  coords 4515.026 14.468 9485.46
+ }
+}
+GenericEntity : "{A89BC9D55FFB4CD8}Prefabs/Weapons/MachineGuns/PKM/MG_PKM.et" {
+ components {
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   Enabled 0
+  }
+ }
+ coords 4505.67 17.17 9499.481
+ angleX 12.698
+ angleY 91.878
+}
+GenericEntity : "{ABD3BE7EAE6C877D}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Light_US_01.et" {
+ coords 4569.118 12.823 9374.631
+ angleY -59.709
+}
+GenericEntity : "{B2658E47B2E284C7}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_3_decal_02.et" {
+ coords 4505.796 16.365 9499.206
+}
+GenericEntity : "{B26712B1722C8A09}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Barricade_Logs_03.et" {
+ coords 4560.247 21.964 9726.726
+ angleY 3.418
+}
+$grp GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et" {
+ {
+  coords 4505.543 16.421 9485.476
+ }
+ {
+  coords 4511.871 16.508 9499.321
+ }
+}
+StaticModelEntity : "{C16C62041E2AAAB2}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_V1.et" {
+ coords 4605.313 -0.027 9296.56
+ angleX 0.356
+ angleY 61.354
+ angleZ -1.215
+}
+$grp StaticModelEntity : "{CAE1588B6265A2AB}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Short_noStake.et" {
+ {
+  coords 4521.119 0.137 9495.299
+ }
+ {
+  coords 4516.423 0.175 9496.121
+  angleY -87.234
+ }
+ {
+  coords 4504.702 0.055 9500.119
+  angleY 40.646
+ }
+ {
+  coords 4506.956 0.125 9484.22
+  angleY 93.818
+ }
+}
+$grp GenericEntity : "{CD67070EFAFC28C7}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_burlap.et" {
+ {
+  coords 4504.13 14.468 9485.438
+  angleY -0.316
+ }
+ {
+  coords 4510.853 14.471 9499.286
+  angleY -1.065
+ }
+ {
+  coords 4501.428 14.468 9485.463
+  angleY 1.415
+ }
+}
+GenericEntity : "{CDE80E823669F91D}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Corner_Right_US_01.et" {
+ coords 4466.989 9.816 9414.354
+ angleY 174.085
+}
+$grp GenericEntity : "{CFFEB23FBEA00322}Prefabs/Props/Military/Sandbags/Sandbag_01_short_burlap.et" {
+ {
+  coords 4512.693 16.585 9485.454
+ }
+ {
+  coords 4515.309 16.606 9485.478
+ }
+ {
+  coords 4518.178 16.866 9485.6
+ }
+ {
+  coords 4499.633 16.774 9493.15
+  angleY 91.992
+ }
+}
+GenericEntity : "{D182DCDD72BF7E34}Prefabs/Weapons/MachineGuns/M60/MG_M60.et" {
+ components {
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   Enabled 0
+  }
+ }
+ coords 4503.737 19.215 9487.28
+ angleX -9.189
+ angleY 83.042
+}
+GenericEntity : "{DDF59362051B28BC}Prefabs/Props/Military/Fortification/BarbedTape_KnifeRest.et" {
+ coords 4605.463 7.477 9295.598
+ angleY 27.638
+}
+$grp GenericEntity : "{FA5C25BF66A53DCF}Prefabs/Weapons/Rifles/AK74/Rifle_AK74.et" {
+ {
+  components {
+   SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+    Enabled 0
+   }
+   ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+    Enabled 0
+   }
+  }
+  coords 4507.778 14.698 9498.593
+  angleX 48.116
+  angleY 1.896
+  angleZ -88.888
+ }
+ {
+  components {
+   SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+    Enabled 0
+   }
+   ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+    Enabled 0
+   }
+  }
+  coords 4508.107 14.702 9498.598
+  angleX 48.116
+  angleY 1.896
+  angleZ -88.888
+ }
+ {
+  components {
+   SCR_MeleeWeaponProperties "{55349E9229B55E31}" {
+    Enabled 0
+   }
+   WeaponComponent "{CFBAA4B706BA66E8}" {
+    Enabled 0
+    components {
+     WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+      Enabled 0
+     }
+    }
+   }
+   ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+    Enabled 0
+   }
+  }
+  coords 4508.688 14.987 9494.838
+  angleX 0.643
+  angleY -90.273
+  angleZ 95.428
+ }
+}
+GenericEntity : "{FB41F48964E04C5B}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Corner_BarbedWire_US_01.et" {
+ coords 4609.306 7.757 9287.423
+ angleY 126.24
+}

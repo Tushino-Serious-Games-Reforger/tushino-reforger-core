@@ -313,13 +313,20 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
-  CustomStringTableItem "{62D2B1DE6FCE6603}" {
+   CustomStringTableItem "{62D2B1DE6FCE6603}" {
    Id "JUM-Role_ReconSquadLeader"
    Target_en_us "Squad leader"
    Target_ru_ru "Командир отделения"
    Modified 1657979350
    Author "siwi1"
    LastChanged "siwi1"
+  }
+  CustomStringTableItem "{62F82603A96FAC8A}" {
+   Id "TYN-Role_RPK"
+   Target_en_us "Rifleman RPK"
+   Target_ru_ru "Стрелок РПК"
+   Modified 1662138473
+   LastChanged "������"
   }
  }
 }

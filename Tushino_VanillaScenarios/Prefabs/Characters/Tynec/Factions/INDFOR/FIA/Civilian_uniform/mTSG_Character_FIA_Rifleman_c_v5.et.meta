@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{2CB7B63388B20116}Prefabs/Characters/Tynec/Factions/INDFOR/FIA/mTSG_Character_FIA_Rifleman_c_v5.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

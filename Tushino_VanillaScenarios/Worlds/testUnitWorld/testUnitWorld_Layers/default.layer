@@ -1,10 +1,4 @@
-GenericEntity : "{0DBE058F13F0C7E8}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_US.et" {
- coords 132.683 1 178.141
-}
-GenericEntity : "{14B2D417839BF8A3}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_USSR.et" {
- coords 133.737 1 177.556
-}
-$grp GenericEntity : "{35FF364EFACBED1C}Prefabs/Items/drongo/SandBag.et" {
+$grp GenericEntity {
  {
   components {
    SCR_PlaceableItemComponent "{62C89029554E5CAA}" {
@@ -88,6 +82,12 @@ $grp GenericEntity : "{35FF364EFACBED1C}Prefabs/Items/drongo/SandBag.et" {
   }
   coords 135.466 1 172.923
  }
+}
+GenericEntity : "{0DBE058F13F0C7E8}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_US.et" {
+ coords 132.683 1 178.141
+}
+GenericEntity : "{14B2D417839BF8A3}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_USSR.et" {
+ coords 133.737 1 177.556
 }
 SCR_ChimeraCharacter : "{4438AEFF45A8CE9E}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Rifleman.et" {
  coords 128.652 1 176.909

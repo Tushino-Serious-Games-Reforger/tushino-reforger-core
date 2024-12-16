@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6B31FFC17E3EE60C}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_MG_MG49.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

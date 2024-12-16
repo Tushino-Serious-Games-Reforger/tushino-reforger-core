@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{2940AA84B1B66F05}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_Unarmed.et" {
+SCR_ChimeraCharacter : "{2940AA84B1B66F05}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Unarmed.et" {
  ID "520EC961A090BE1E"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -14,7 +14,7 @@ SCR_ChimeraCharacter : "{2940AA84B1B66F05}Prefabs/Characters/Tynec/Factions/OPFO
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Командир роты"
+    Name "#JUM-Role_ReconCompanyCommander"
     Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
    }
   }
@@ -36,7 +36,7 @@ SCR_ChimeraCharacter : "{2940AA84B1B66F05}Prefabs/Characters/Tynec/Factions/OPFO
      Prefab "{3523CB7D5961246B}Prefabs/Characters/HeadGear/Hat_PeakedCap_USSR_01/Hat_PeakedCap_USSR_01.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{36BC0C2F5CDD733C}Prefabs/Items/Tynec/Equipment/Radios/mTSG_Radio_R107M.et"
+     Prefab "{36BC0C2F5CDD733C}Prefabs/Items/Tynec/Equipment/Radios/Tyn_Radio_R107M.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{D8DDD4941197A92A}Prefabs/Characters/Tynec/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_Commander_morespace.et"
