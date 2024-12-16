@@ -108,7 +108,7 @@ $grp SCR_AIGroup : "{3CCCF1BD3EDBCA86}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_
    }
    PS_GroupCallsignAssigner "{62B47CF821C968FC}" {
     m_iCompanyCallsign 2
-    m_iSquadCallsign 2
+    m_iSquadCallsign 3
    }
   }
   coords 4510.842 13.724 9463.333
