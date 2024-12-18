@@ -79,6 +79,8 @@ PS_GameModeCoop "62D1737781F21CC7" : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
   }
  }
  m_bMarkersOnlyOnBriefing 1
+ m_bRemoveRedundantUnits 1
+ m_bRemoveSquadMarkers 1
  m_iFreezeTime 300000
  m_bDisableChat 1
  m_bReserveSlots 1

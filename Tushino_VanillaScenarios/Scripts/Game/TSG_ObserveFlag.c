@@ -17,62 +17,62 @@ class TSG_ObserveFlag: GenericEntity {
     PS_GameModeCoop m_game;
 
     override void EOnActivate(IEntity owner) {
-		if (Replication.IsServer()) {
+        if (Replication.IsServer()) {
             m_aObjectives = FindObjectives();
             m_flag = GetWorld().FindEntityByName(m_sFlagName);
             m_FlagComponent = SCR_FlagComponent.Cast(m_flag.FindComponent(SCR_FlagComponent));
             m_FactionManager = GetGame().GetFactionManager();
             m_game = PS_GameModeCoop.Cast(GetGame().GetGameMode());
-			int delay = m_iFlagPollingTimeoutSeconds * 1000;
-			GetGame().GetCallqueue().CallLater(fn: CheckFlag, delay: delay, repeat: true);
-		}
+            int delay = m_iFlagPollingTimeoutSeconds * 1000;
+            GetGame().GetCallqueue().CallLater(fn: CheckFlag, delay: delay, repeat: true);
+        }
     }
 
     void CheckFlag() {
         SCR_EGameModeState gameState = m_game.GetState();
-		if ((gameState == SCR_EGameModeState.GAME)) {
-			if (m_FlagComponent.m_sFactionKey == m_sFactionKey) {
+        if ((gameState == SCR_EGameModeState.GAME)) {
+            if (m_FlagComponent.m_sFactionKey == m_sFactionKey) {
                 CompleteObjectives(m_aObjectives);
             } else {
-				FailObjectives(m_aObjectives);
-			}
-		} else if (gameState == SCR_EGameModeState.DEBRIEFING) {
-			if (m_FlagComponent.m_sFactionKey == m_sFactionKey) {
+                FailObjectives(m_aObjectives);
+            }
+        } else if (gameState == SCR_EGameModeState.DEBRIEFING) {
+            if (m_FlagComponent.m_sFactionKey == m_sFactionKey) {
                 CompleteObjectives(m_aObjectives);
             } else {
-				FailObjectives(m_aObjectives);
-			}
-			GetGame().GetCallqueue().Remove(CheckFlag);
-		}
+                FailObjectives(m_aObjectives);
+            }
+            GetGame().GetCallqueue().Remove(CheckFlag);
+        }
     }
 
     void CompleteObjectives(array<PS_Objective> objectives) {
-		foreach (PS_Objective objective: objectives) {
-			objective.SetCompleted(true);
-		}
-	}
+        foreach (PS_Objective objective: objectives) {
+            objective.SetCompleted(true);
+        }
+    }
 
-	void FailObjectives(array<PS_Objective> objectives) {
-		foreach (PS_Objective objective: objectives) {
-			objective.SetCompleted(false);
-		}
-	}
+    void FailObjectives(array<PS_Objective> objectives) {
+        foreach (PS_Objective objective: objectives) {
+            objective.SetCompleted(false);
+        }
+    }
 
-	array<PS_Objective> FindObjectives() {
-		array<PS_Objective> objectives = new array<PS_Objective>();
-		foreach (string objectiveName : m_aNamesOfObjectives) {
-			IEntity entity = GetWorld().FindEntityByName(objectiveName);
-			PS_Objective objective = PS_Objective.Cast(entity);
-			objectives.Insert(objective);
-		}
-		IEntity maybeObjective = GetChildren();
-		while (maybeObjective) {
-			PS_Objective objective = PS_Objective.Cast(maybeObjective);
-			if (objective) {
-				objectives.Insert(objective);
-			}
-			maybeObjective = maybeObjective.GetSibling();
-		}
-		return objectives;
-	}
+    array<PS_Objective> FindObjectives() {
+        array<PS_Objective> objectives = new array<PS_Objective>();
+        foreach (string objectiveName : m_aNamesOfObjectives) {
+            IEntity entity = GetWorld().FindEntityByName(objectiveName);
+            PS_Objective objective = PS_Objective.Cast(entity);
+            objectives.Insert(objective);
+        }
+        IEntity maybeObjective = GetChildren();
+        while (maybeObjective) {
+            PS_Objective objective = PS_Objective.Cast(maybeObjective);
+            if (objective) {
+                objectives.Insert(objective);
+            }
+            maybeObjective = maybeObjective.GetSibling();
+        }
+        return objectives;
+    }
 }
