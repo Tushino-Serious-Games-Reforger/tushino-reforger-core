@@ -1,4 +1,8 @@
 PolylineShapeEntity kshm_destroy : "{127D357736B0C350}Prefabs/PolyZone/PolyZone_Destroy.et" {
+ components {
+  RplComponent "{632546F04A6093A5}" {
+  }
+ }
  coords 2896.674 222.357 12265.396
  Points {
   ShapePoint "{62F97234331FE278}" {
@@ -34,6 +38,10 @@ PolylineShapeEntity kshm_destroy : "{127D357736B0C350}Prefabs/PolyZone/PolyZone_
  }
 }
 PolylineShapeEntity kshm_save : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
+ components {
+  RplComponent "{632546F070765450}" {
+  }
+ }
  coords 2764.506 297.136 8265.921
  Points {
   ShapePoint "{62F97234A698AF3E}" {

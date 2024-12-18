@@ -1,4 +1,8 @@
 PolylineShapeEntity kill_administrator_objective : "{127D357736B0C350}Prefabs/PolyZone/PolyZone_Destroy.et" {
+ components {
+  RplComponent "{6325426194A09A99}" {
+  }
+ }
  coords 12637.125 0 1777.01
  Points {
   ShapePoint "{62FA04D241E5016F}" {
@@ -23,6 +27,10 @@ PolylineShapeEntity kill_administrator_objective : "{127D357736B0C350}Prefabs/Po
   }
   PS_PolyZoneObjectiveTriggerDestroy kill_administrator_trigger {
    ID "60E9062E6BABF765"
+   components {
+    RplComponent "{63254261B69D21A8}" {
+    }
+   }
    "Polyline Height" 1000
    UpdatePeriod 120
    ClassesFilter {
@@ -36,6 +44,10 @@ PolylineShapeEntity kill_administrator_objective : "{127D357736B0C350}Prefabs/Po
  }
 }
 PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
+ components {
+  RplComponent "{63254261989160AB}" {
+  }
+ }
  coords 12637.124 0 1777.01
  Points {
   ShapePoint "{62FA04D241E5016F}" {
@@ -54,6 +66,8 @@ PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
  {
   PS_PolyZoneObjectiveTriggerSave save_administrator_trigger {
    components {
+    RplComponent "{63254261B2A7C265}" {
+    }
     Hierarchy "{630200EBAEBC2034}" {
     }
    }

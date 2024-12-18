@@ -24,6 +24,8 @@ $grp PS_Objective {
 $grp TSG_ObserveFlag {
  observe_ussr_flag {
   components {
+   RplComponent "{63254261FFEE8360}" {
+   }
    Hierarchy "{6324090066889EF4}" {
    }
   }
@@ -52,6 +54,8 @@ $grp TSG_ObserveFlag {
  }
  observe_us_flag {
   components {
+   RplComponent "{63254261FAA32962}" {
+   }
    Hierarchy "{632409009AED39E2}" {
    }
   }
@@ -76,6 +80,8 @@ $grp TSG_ObserveFlag {
  }
  observe_fia_flag {
   components {
+   RplComponent "{63254261F472147E}" {
+   }
    Hierarchy "{632409008CB6ED8E}" {
    }
   }
