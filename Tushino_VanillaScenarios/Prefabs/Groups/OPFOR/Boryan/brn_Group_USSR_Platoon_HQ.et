@@ -1,0 +1,11 @@
+SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad_P.et" {
+ ID "0000000000000001"
+ components {
+  PS_GroupCallsignAssigner "{63227D012DE81AB8}" {
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{1ADC4934980AA91A}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_PL.et" "{C8917EA9B578E2CE}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_Medic.et"
+ }
+ m_sCustomNameSet "1-1 Штаб"
+}

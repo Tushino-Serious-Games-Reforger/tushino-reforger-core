@@ -1,0 +1,162 @@
+$grp Vehicle : "{57A441224AC02CF3}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_Randomized.et" {
+ uaz2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+    MultiSlots {
+     MultiSlotConfiguration "{63227D5EA6838BFB}" {
+      SlotTemplate InventoryStorageSlot rpg {
+       Prefab "{7A82FE978603F137}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7.et"
+      }
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{63227D5ECC4C75A5}" {
+      SlotTemplate InventoryStorageSlot pg7 {
+       Prefab "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et"
+      }
+      NumSlots 4
+     }
+    }
+   }
+  }
+  coords 6222.295 180.064 7495.649
+  angleX -1.232
+  angleY 31.778
+  angleZ 0.289
+ }
+ uaz3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+    MultiSlots {
+     MultiSlotConfiguration "{63227D5EA6838BFB}" {
+      SlotTemplate InventoryStorageSlot rpg {
+       Prefab "{7A82FE978603F137}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7.et"
+      }
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{63227D5ECC4C75A5}" {
+      SlotTemplate InventoryStorageSlot pg7 {
+       Prefab "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et"
+      }
+      NumSlots 4
+     }
+    }
+   }
+  }
+  coords 6216.814 180.053 7498.645
+  angleX -0.893
+  angleY 3.619
+  angleZ -0.056
+ }
+}
+$grp Vehicle : "{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.et" {
+ UH1H_armed1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5E1E994304F0E0D3}" {
+    MultiSlots {
+     MultiSlotConfiguration "{63227D5913435DC3}" {
+      SlotTemplate InventoryStorageSlot m72a1 {
+       Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+      }
+      NumSlots 4
+     }
+    }
+   }
+  }
+  coords 6205.733 182.769 7443.783
+  angleX -1.786
+  angleY -0.084
+  angleZ 2.685
+ }
+ UH1H_armed2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5E1E994304F0E0D3}" {
+    MultiSlots {
+     MultiSlotConfiguration "{63227D5928210682}" {
+      SlotTemplate InventoryStorageSlot m72a3 {
+       Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+      }
+      NumSlots 4
+     }
+    }
+   }
+  }
+  coords 6173.771 183.888 7439.349
+  angleX -1.869
+  angleY 45.383
+  angleZ -4.433
+ }
+}
+$grp Vehicle : "{F6B23D17D5067C11}Prefabs/Vehicles/Wheeled/M151A2/M151A2_M2HB.et" {
+ M151A2_M2HB1 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 65
+     }
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{5916C5825BF621D1}" {
+    MultiSlots {
+     MultiSlotConfiguration "{63227D594622B53C}" {
+      SlotTemplate InventoryStorageSlot m72a3 {
+       Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+      }
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{63227D59793AA284}" {
+      SlotTemplate InventoryStorageSlot c4 {
+       Prefab "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63227D5E18213AC3}" {
+      SlotTemplate InventoryStorageSlot hedp {
+       Prefab "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+      }
+      NumSlots 20
+     }
+    }
+   }
+  }
+  coords 6244.59 179.136 7478.484
+  angleX -3.513
+  angleY 34.919
+  angleZ 1.907
+ }
+ M151A2_M2HB2 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 65
+     }
+    }
+   }
+   SCR_UniversalInventoryStorageComponent "{5916C5825BF621D1}" {
+    MultiSlots {
+     MultiSlotConfiguration "{63227D594622B53C}" {
+      SlotTemplate InventoryStorageSlot m72a3 {
+       Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+      }
+      NumSlots 2
+     }
+     MultiSlotConfiguration "{63227D59793AA284}" {
+      SlotTemplate InventoryStorageSlot c4 {
+       Prefab "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{63227D5E382069D4}" {
+      SlotTemplate InventoryStorageSlot hedp {
+       Prefab "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+      }
+      NumSlots 20
+     }
+    }
+   }
+  }
+  coords 6224.91 180.811 7475.73
+  angleY 24.372
+ }
+}

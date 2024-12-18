@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5F5F2542EA194DC0}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Characterer_US_Grenadier_SEAL_Silenced.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,6 @@
+Vehicle fia_hq_uaz : "{E28501E93F8EFDC0}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_FIA_uncovered.et" {
+ coords 6248.946 178.908 7507.551
+ angleX -1.68
+ angleY 110.221
+ angleZ -0.619
+}

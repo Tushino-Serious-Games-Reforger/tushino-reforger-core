@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{24A7E156502823E3}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Character_US_SL_SEAL_Silenced.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,63 @@
+GenericEntity : "{F97A4AC994231900}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_carbine.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{5E4C832970357276}" {
+     SourceMaterial "M16A2_FrontSight_01"
+     AssignedMaterial "{C0957B41983B2D0C}Assets/Weapons/Rifles/M16A2/Data/M16A2_FrontSight_OliveGreen_Sand_Stripes.emat"
+    }
+    MaterialAssignClass "{5E4C83297035724B}" {
+     SourceMaterial "M16A2_Grip_01"
+     AssignedMaterial "{A15C93F5CD3202DC}Assets/Weapons/Rifles/M16A2/Data/M16A2_Grip_01_OliveGreen_Sand_Stripes.emat"
+    }
+    MaterialAssignClass "{5E4C832970357253}" {
+     SourceMaterial "M16A2_Receiver1_01"
+     AssignedMaterial "{917FE76FAFB530BB}Assets/Weapons/Rifles/M16A2/Data/M16A2_Receiver1_01_OliveGreen_Sand_Stripes.emat"
+    }
+    MaterialAssignClass "{5E4C83297035725A}" {
+     SourceMaterial "M16A2_Receiver2_01"
+     AssignedMaterial "{EAC84340502A1694}Assets/Weapons/Rifles/M16A2/Data/M16A2_Receiver2_01_OliveGreen_Sand_Stripes.emat"
+    }
+    MaterialAssignClass "{5E4C83297035725F}" {
+     SourceMaterial "M16A2_carbine_Barrel_01"
+     AssignedMaterial "{12AED408B8330E61}Assets/Weapons/Rifles/M16A2/Data/M16A2_carbine_Barrel_01_OliveGreen_Sand_Stripes.emat"
+    }
+    MaterialAssignClass "{5E4C832970357224}" {
+     SourceMaterial "M16A2_carbine_Stock_01"
+     AssignedMaterial "{E98C9C133FF23DE8}Assets/Weapons/Rifles/M16A2/Data/M16A2_carbine_Stock_01_OliveGreen_Sand_Stripes.emat"
+    }
+   }
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "#AR-Weapon_M16Carbine_Camo_Name"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5534745C44D1EF58}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Prefab "{44AAA61117B6CA8E}Prefabs/Weapons/Attachments/Optics/Optic_4x20/Optic_4x20_OliveGreen_Sand_Stripes.et"
+     }
+    }
+    AttachmentSlotComponent "{56DE9C900611C1AF}" {
+     AttachmentSlot InventoryStorageSlot Handguard {
+      Prefab "{084D8EDB23D39D93}Prefabs/Weapons/Attachments/Handguards/Handguard_M16_carbine/Handguard_M16_carbine_OliveGreen_Sand_Stripes.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{5D527627CCB8F756}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{ADDF08D09F1877A4}Prefabs/Weapons/Attachments/Muzzle/Suppressor_M16/Suppressor_M16_OliveGreen_Sand_Stripes.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

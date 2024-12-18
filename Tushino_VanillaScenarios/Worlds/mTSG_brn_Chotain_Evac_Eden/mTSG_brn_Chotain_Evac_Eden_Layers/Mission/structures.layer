@@ -1,0 +1,23 @@
+GenericEntity base_flag : "{14B2D417839BF8A3}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_USSR.et" {
+ components {
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_sFactionKey "USSR"
+  }
+  BaseActionsManagerComponent "{6202D4E6F133BF4A}" {
+   additionalActions {
+    PS_FlagChangeAction "{6202D4E6A53D4B3C}" {
+     ActionTitle "Поднять флаг"
+     Duration 60
+    }
+   }
+  }
+ }
+ coords 7672.524 13.604 8104.693
+ angleX 0.892
+ angleY 0.056
+ angleZ 3.577
+}
+GenericEntity : "{76EE6AC7AB210D1F}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_FloodlightGenerator_S_USSR_01.et" {
+ coords 7647.789 13.451 8055.748
+ angleY -85.89
+}

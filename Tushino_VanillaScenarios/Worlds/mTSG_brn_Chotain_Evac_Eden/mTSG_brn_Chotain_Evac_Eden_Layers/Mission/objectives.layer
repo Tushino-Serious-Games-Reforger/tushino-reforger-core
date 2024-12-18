@@ -1,0 +1,103 @@
+$grp PS_Objective {
+ evac_btr {
+  components {
+   RplComponent "{63227DE5614C3D20}" {
+   }
+  }
+  coords 3992.174 17.845 8445.24
+  m_sTitle "БТР был эвакуирован"
+  m_iScore 80
+  m_sFactionKey "USSR"
+  m_bAdvanceWhenTriggered 1
+ }
+ prevent_btr_evac {
+  components {
+   RplComponent "{63227DE56BEEC6E3}" {
+   }
+  }
+  coords 4002.293 19.923 8463.494
+  m_sTitle "БТРы не были эвакуированы"
+  m_iScore 100
+  m_sFactionKey "US"
+ }
+}
+$grp TSG_ObserveFlag {
+ observe_ussr_flag {
+  components {
+   Hierarchy "{6324090066889EF4}" {
+   }
+  }
+  coords 7668.338 13.598 8094.202
+  angleX -1.788
+  angleY 0.056
+  angleZ -1.791
+  m_sFlagName "base_flag"
+  m_sFactionKey "USSR"
+  {
+   PS_Objective ussr_control_facility {
+    components {
+     RplComponent "{63227DE5907AAE8B}" {
+     }
+     Hierarchy "{6324091F288D1C9F}" {
+     }
+    }
+    coords -3699.124 129.72 297.419
+    angleX 1.789
+    angleZ 1.79
+    m_sTitle "Советские войска защитили склад"
+    m_iScore 20
+    m_sFactionKey "USSR"
+   }
+  }
+ }
+ observe_us_flag {
+  components {
+   Hierarchy "{632409009AED39E2}" {
+   }
+  }
+  coords 7663.417 13.722 8088.565
+  m_sFlagName "base_flag"
+  m_sFactionKey "US"
+  {
+   PS_Objective us_captured_facility {
+    components {
+     RplComponent "{63227DE56D4D4CC7}" {
+     }
+     Hierarchy "{6324091F2DA269DB}" {
+     }
+    }
+    coords -3660.448 7.927 385.649
+    m_sTitle "Спецназ США захватил склад"
+    m_iScore -100
+    m_sFactionKey "US"
+    m_bAdvanceWhenTriggered 1
+   }
+  }
+ }
+ observe_fia_flag {
+  components {
+   Hierarchy "{632409008CB6ED8E}" {
+   }
+  }
+  coords 7659.617 13.546 8083.65
+  angleX 2.684
+  m_sFlagName "base_flag"
+  m_sFactionKey "FIA"
+  {
+   PS_Objective fia_captured_facility {
+    components {
+     RplComponent "{63227DE5673D8BF2}" {
+     }
+     Hierarchy "{6324091F51865E51}" {
+     }
+    }
+    coords -3661.003 -8.207 326.465
+    angleX -2.684
+    m_sTitle "FIA захватила склад"
+    m_iScore 100
+    m_sFactionKey "FIA"
+    m_bAdvanceWhenTriggered 1
+   }
+  }
+ }
+}

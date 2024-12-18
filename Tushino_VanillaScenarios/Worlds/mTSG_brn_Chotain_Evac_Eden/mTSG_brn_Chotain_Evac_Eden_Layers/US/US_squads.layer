@@ -1,0 +1,62 @@
+$grp SCR_AIGroup : "{BC357974A560F678}Prefabs/Groups/BLUFOR/Group_US_RifleSquad_P.et" {
+ seals1 {
+  components {
+   PS_GroupCallsignAssigner "{63227D65C3A4F1A4}" {
+   }
+  }
+  coords 6229.605 180.049 7488.149
+  angleX -2.673
+  angleY -0.167
+  angleZ 3.58
+  m_aUnitPrefabSlots {
+   "{24A7E156502823E3}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Character_US_SL_SEAL_Silenced.et" "{B6CBD8B27C7350EC}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Character_US_MG_SEAL.et" "{7D026CB0BD9BCB99}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Character_US_MGA_SEAL_Silenced.et" "{5F5F2542EA194DC0}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Characterer_US_Grenadier_SEAL_Silenced.et" "{7EFE818A0D111D19}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Characterer_US_TL_SEAL_Silenced.et" "{BA854D69FEDDD46D}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Character_US_AR_SEAL.et" "{A039070B466AE992}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Character_US_Rifleman_LAT_SEAL_Silenced.et" "{F30D8A18F94FC043}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Character_US_Sniper_SEAL.et"
+  }
+  m_sCustomNameSet "1-1 Navy SEALs Squad"
+ }
+ seals2 {
+  components {
+   PS_GroupCallsignAssigner "{63227D65C8B9EC10}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 6226.24 180.375 7484.441
+  angleX -2.676
+  angleY -0.167
+  angleZ 2.689
+  m_aUnitPrefabSlots {
+   "{24A7E156502823E3}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Character_US_SL_SEAL_Silenced.et" "{B6CBD8B27C7350EC}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Character_US_MG_SEAL.et" "{7D026CB0BD9BCB99}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Character_US_MGA_SEAL_Silenced.et" "{5F5F2542EA194DC0}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Characterer_US_Grenadier_SEAL_Silenced.et" "{7EFE818A0D111D19}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Characterer_US_TL_SEAL_Silenced.et" "{BA854D69FEDDD46D}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Character_US_AR_SEAL.et" "{A039070B466AE992}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Character_US_Rifleman_LAT_SEAL_Silenced.et" "{F30D8A18F94FC043}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Character_US_Sniper_SEAL.et"
+  }
+  m_sCustomNameSet "1-2 Navy SEALs Squad"
+ }
+ helicrew1 {
+  components {
+   PS_GroupCallsignAssigner "{63227D5B162A87FA}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 6175.773 183.267 7449.912
+  angleX -2.681
+  angleY 0.042
+  angleZ -4.464
+  m_aUnitPrefabSlots {
+   "{27BEF07908F77017}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Pilot_Radio.et" "{71B242C4EBBAF81C}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_HeliCrew.et"
+  }
+  m_sCustomNameSet "2-1 UH1H Crew"
+ }
+ helicrew2 {
+  components {
+   PS_GroupCallsignAssigner "{63227D5B162A87FA}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 6205.239 182.499 7452.772
+  angleX -1.793
+  angleY 0.083
+  angleZ 1.786
+  m_aUnitPrefabSlots {
+   "{27BEF07908F77017}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Pilot_Radio.et" "{71B242C4EBBAF81C}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_HeliCrew.et"
+  }
+  m_sCustomNameSet "2-2 UH1H Crew"
+ }
+}
