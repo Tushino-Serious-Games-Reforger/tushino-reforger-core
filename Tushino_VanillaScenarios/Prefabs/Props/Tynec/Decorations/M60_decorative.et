@@ -1,0 +1,14 @@
+GenericEntity : "{D182DCDD72BF7E34}Prefabs/Weapons/MachineGuns/M60/MG_M60.et" {
+ ID "44CAE740AE799642"
+ components {
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   Enabled 0
+  }
+ }
+ coords 4503.737 19.215 9487.28
+ angleX -9.189
+ angleY 83.042
+}

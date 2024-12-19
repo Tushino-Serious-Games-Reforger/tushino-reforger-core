@@ -32,20 +32,6 @@ GenericEntity : "{3BAF6AA8C20D924E}Prefabs/Compositions/Misc/SubCompositions/For
  angleY 83.327
  angleZ 1.882
 }
-GenericEntity : "{3E413771E1834D2F}Prefabs/Weapons/Rifles/M16/Rifle_M16A2.et" {
- components {
-  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
-   Enabled 0
-  }
-  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
-   Enabled 0
-  }
- }
- coords 4505.301 19.186 9487.608
- angleX 0.725
- angleY -0.001
- angleZ -90.084
-}
 SCR_DestructibleBuildingEntity : "{3F91DEEC9C78E473}Prefabs/Structures/Military/Houses/GuardHouse_01/GuardHouse_01.et" {
  coords 4601.65 -0.141 9305.725
  angleY -149.61
@@ -120,6 +106,11 @@ $grp StaticModelEntity : "{46904AF5D473FB75}Prefabs/Structures/Walls/BarbedWire/
   angleY 90.207
  }
 }
+GenericEntity : "{53C086FC8AD71FF8}Prefabs/Props/Tynec/Decorations/M60_decorative.et" {
+ coords 4503.737 19.215 9487.28
+ angleX -9.189
+ angleY 83.042
+}
 GenericEntity : "{5519B339E041781E}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Wall_BarbedWire_US_01.et" {
  coords 4560.037 21.977 9723.646
  angleY 11.434
@@ -151,6 +142,26 @@ GenericEntity : "{745097E446C05528}Prefabs/Compositions/Misc/SubCompositions/For
 GenericEntity : "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_burlap.et" {
  coords 4509.832 14.468 9493.591
  angleY -179.544
+}
+$grp GenericEntity : "{7CB0FAE06E3EC93D}Prefabs/Props/Tynec/Decorations/AK74_decorative.et" {
+ {
+  coords 4507.778 14.698 9498.593
+  angleX 48.116
+  angleY 1.896
+  angleZ -88.888
+ }
+ {
+  coords 4508.107 14.702 9498.598
+  angleX 48.116
+  angleY 1.896
+  angleZ -88.888
+ }
+ {
+  coords 4508.688 14.987 9494.838
+  angleX 0.643
+  angleY -90.273
+  angleZ 95.428
+ }
 }
 $grp GenericEntity : "{937999008F178E82}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_burlap.et" {
  {
@@ -215,18 +226,11 @@ $grp GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_
   coords 4515.026 14.468 9485.46
  }
 }
-GenericEntity : "{A89BC9D55FFB4CD8}Prefabs/Weapons/MachineGuns/PKM/MG_PKM.et" {
- components {
-  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
-   Enabled 0
-  }
-  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
-   Enabled 0
-  }
- }
- coords 4505.67 17.17 9499.481
- angleX 12.698
- angleY 91.878
+GenericEntity : "{A287CC273D31FDC3}Prefabs/Props/Tynec/Decorations/M16A2_decorative.et" {
+ coords 4505.301 19.186 9487.607
+ angleX 0.725
+ angleY -0.001
+ angleZ -90.084
 }
 GenericEntity : "{ABD3BE7EAE6C877D}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Light_US_01.et" {
  coords 4569.118 12.823 9374.631
@@ -303,74 +307,14 @@ $grp GenericEntity : "{CFFEB23FBEA00322}Prefabs/Props/Military/Sandbags/Sandbag_
   angleY 91.992
  }
 }
-GenericEntity : "{D182DCDD72BF7E34}Prefabs/Weapons/MachineGuns/M60/MG_M60.et" {
- components {
-  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
-   Enabled 0
-  }
-  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
-   Enabled 0
-  }
- }
- coords 4503.737 19.215 9487.28
- angleX -9.189
- angleY 83.042
-}
 GenericEntity : "{DDF59362051B28BC}Prefabs/Props/Military/Fortification/BarbedTape_KnifeRest.et" {
  coords 4605.463 7.477 9295.598
  angleY 27.638
 }
-$grp GenericEntity : "{FA5C25BF66A53DCF}Prefabs/Weapons/Rifles/AK74/Rifle_AK74.et" {
- {
-  components {
-   SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
-    Enabled 0
-   }
-   ActionsManagerComponent "{A29AE67FF4D82B0F}" {
-    Enabled 0
-   }
-  }
-  coords 4507.778 14.698 9498.593
-  angleX 48.116
-  angleY 1.896
-  angleZ -88.888
- }
- {
-  components {
-   SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
-    Enabled 0
-   }
-   ActionsManagerComponent "{A29AE67FF4D82B0F}" {
-    Enabled 0
-   }
-  }
-  coords 4508.107 14.702 9498.598
-  angleX 48.116
-  angleY 1.896
-  angleZ -88.888
- }
- {
-  components {
-   SCR_MeleeWeaponProperties "{55349E9229B55E31}" {
-    Enabled 0
-   }
-   WeaponComponent "{CFBAA4B706BA66E8}" {
-    Enabled 0
-    components {
-     WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
-      Enabled 0
-     }
-    }
-   }
-   ActionsManagerComponent "{A29AE67FF4D82B0F}" {
-    Enabled 0
-   }
-  }
-  coords 4508.688 14.987 9494.838
-  angleX 0.643
-  angleY -90.273
-  angleZ 95.428
- }
+GenericEntity : "{E1401BE855A72689}Prefabs/Props/Tynec/Decorations/PKM_decorative.et" {
+ coords 4505.67 17.17 9499.481
+ angleX 12.698
+ angleY 91.878
 }
 GenericEntity : "{FB41F48964E04C5B}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Corner_BarbedWire_US_01.et" {
  coords 4609.306 7.757 9287.423
