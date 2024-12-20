@@ -8,6 +8,8 @@ class PS_FactionLossesConstraint: GenericEntity
 {
 	[Attribute(defvalue: "", desc: "Faction key")]
 	string m_sFactionKey;
+	[Attribute(desc: "Additional faction keys")]
+	ref array<string> m_aAdditionalFactionKeys;
 	[Attribute(defvalue: "30.0", desc: "How often to check for losses")]
 	float m_fTriggerIntervalSeconds;
 	[Attribute(defvalue: "0", desc: "Minimum number of alive characters")]
@@ -54,7 +56,8 @@ class PS_FactionLossesConstraint: GenericEntity
 		{
 			FactionAffiliationComponent factionAffiliationComponent = playable.GetFactionAffiliationComponent();
 			SCR_Faction faction = SCR_Faction.Cast(factionAffiliationComponent.GetDefaultAffiliatedFaction());
-			if (faction.GetFactionKey() == m_sFactionKey)
+			string unitFaction = faction.GetFactionKey();
+			if ((unitFaction == m_sFactionKey) || m_aAdditionalFactionKeys.Contains(unitFaction))
 			{
 				SCR_CharacterDamageManagerComponent characterDamageManagerComponent = playable.GetCharacterDamageManagerComponent();
 				if (characterDamageManagerComponent.GetState() != EDamageState.DESTROYED)

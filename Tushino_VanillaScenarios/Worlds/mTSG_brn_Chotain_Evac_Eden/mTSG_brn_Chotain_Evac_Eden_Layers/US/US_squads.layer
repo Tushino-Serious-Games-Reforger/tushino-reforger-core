@@ -1,13 +1,16 @@
 $grp SCR_AIGroup : "{BC357974A560F678}Prefabs/Groups/BLUFOR/Group_US_RifleSquad_P.et" {
  seals1 {
   components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
    PS_GroupCallsignAssigner "{63227D65C3A4F1A4}" {
    }
   }
-  coords 6229.605 180.049 7488.149
-  angleX -2.673
-  angleY -0.167
-  angleZ 3.58
+  coords 6217.968 182.083 7452.385
+  angleX -2.519
+  angleY 39.534
+  angleZ 0.241
   m_aUnitPrefabSlots {
    "{24A7E156502823E3}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Character_US_SL_SEAL_Silenced.et" "{B6CBD8B27C7350EC}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Character_US_MG_SEAL.et" "{7D026CB0BD9BCB99}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Character_US_MGA_SEAL_Silenced.et" "{5F5F2542EA194DC0}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Characterer_US_Grenadier_SEAL_Silenced.et" "{7EFE818A0D111D19}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Characterer_US_TL_SEAL_Silenced.et" "{BA854D69FEDDD46D}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Character_US_AR_SEAL.et" "{A039070B466AE992}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Character_US_Rifleman_LAT_SEAL_Silenced.et" "{F30D8A18F94FC043}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Character_US_Sniper_SEAL.et"
   }
@@ -15,14 +18,17 @@ $grp SCR_AIGroup : "{BC357974A560F678}Prefabs/Groups/BLUFOR/Group_US_RifleSquad_
  }
  seals2 {
   components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
    PS_GroupCallsignAssigner "{63227D65C8B9EC10}" {
     m_iSquadCallsign 1
    }
   }
-  coords 6226.24 180.375 7484.441
-  angleX -2.676
-  angleY -0.167
-  angleZ 2.689
+  coords 6224.406 181.798 7454.569
+  angleX -3.734
+  angleY 34.871
+  angleZ 0.666
   m_aUnitPrefabSlots {
    "{24A7E156502823E3}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Character_US_SL_SEAL_Silenced.et" "{B6CBD8B27C7350EC}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Character_US_MG_SEAL.et" "{7D026CB0BD9BCB99}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Character_US_MGA_SEAL_Silenced.et" "{5F5F2542EA194DC0}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Characterer_US_Grenadier_SEAL_Silenced.et" "{7EFE818A0D111D19}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Characterer_US_TL_SEAL_Silenced.et" "{BA854D69FEDDD46D}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Character_US_AR_SEAL.et" "{A039070B466AE992}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Character_US_Rifleman_LAT_SEAL_Silenced.et" "{F30D8A18F94FC043}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Character_US_Sniper_SEAL.et"
   }
@@ -30,6 +36,9 @@ $grp SCR_AIGroup : "{BC357974A560F678}Prefabs/Groups/BLUFOR/Group_US_RifleSquad_
  }
  helicrew1 {
   components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
    PS_GroupCallsignAssigner "{63227D5B162A87FA}" {
     m_iPlatoonCallsign 1
    }
@@ -45,6 +54,9 @@ $grp SCR_AIGroup : "{BC357974A560F678}Prefabs/Groups/BLUFOR/Group_US_RifleSquad_
  }
  helicrew2 {
   components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
    PS_GroupCallsignAssigner "{63227D5B162A87FA}" {
     m_iPlatoonCallsign 1
     m_iSquadCallsign 1

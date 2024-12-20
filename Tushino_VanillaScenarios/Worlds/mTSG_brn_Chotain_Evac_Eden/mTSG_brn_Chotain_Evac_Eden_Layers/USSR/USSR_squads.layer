@@ -1,29 +1,36 @@
 $grp SCR_AIGroup : "{DACEBBB44E21E19D}Prefabs/Groups/OPFOR/Boryan/brn_Group_USSR_RifleSquad_BTR.et" {
  USSR_A12 {
   components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
    PS_GroupCallsignAssigner "{63227D3C35757108}" {
     m_iSquadCallsign 1
    }
   }
-  coords 7269.545 46.341 7681.238
+  coords 7260.612 46.899 7688.853
   angleX 2.317
   angleY -139.661
   angleZ -2.725
  }
  USSR_A13 {
   components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
    PS_GroupCallsignAssigner "{63227D3C021C8CDC}" {
     m_iSquadCallsign 2
    }
   }
-  coords 7527.762 5.752 6769.073
-  angleX 0.277
+  coords 7507.714 6.094 6737.849
   angleY 124.51
-  angleZ -1.982
   m_sCustomNameSet "1-3 Заправщики"
  }
  USSR_A14 {
   components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
    PS_GroupCallsignAssigner "{63227D3C35757108}" {
     m_iSquadCallsign 3
    }
@@ -36,6 +43,9 @@ $grp SCR_AIGroup : "{DACEBBB44E21E19D}Prefabs/Groups/OPFOR/Boryan/brn_Group_USSR
  }
  USSR_A15 {
   components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
    PS_GroupCallsignAssigner "{63227D3C35757108}" {
     m_iSquadCallsign 5
    }
@@ -48,6 +58,11 @@ $grp SCR_AIGroup : "{DACEBBB44E21E19D}Prefabs/Groups/OPFOR/Boryan/brn_Group_USSR
  }
 }
 SCR_AIGroup USSR_A11 : "{E6E613AF0A85285A}Prefabs/Groups/OPFOR/Boryan/brn_Group_USSR_Platoon_HQ.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+ }
  coords 7254.735 47.182 7697.164
  angleX -0.759
  angleY -138.857

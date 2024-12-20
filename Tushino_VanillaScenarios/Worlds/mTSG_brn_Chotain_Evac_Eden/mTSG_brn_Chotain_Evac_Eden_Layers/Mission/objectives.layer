@@ -1,3 +1,48 @@
+$grp PS_FactionLossesConstraint {
+ USSR_losses {
+  coords 6173.927 178.717 7515.472
+  angleX -4.305
+  angleY 1.04
+  angleZ -8.934
+  m_sFactionKey "USSR"
+  m_iMinNumberOfAliveCharacters 1
+  {
+   PS_Objective fia_victory_by_losses {
+    components {
+     RplComponent "{6328F5ABCBCE6BE4}" {
+     }
+     Hierarchy "{6328F5ABCDDCBE77}" {
+     }
+    }
+    coords -1.905 0.044 -0.905
+    angleX 4.414
+    angleY -0.36
+    angleZ 8.881
+    m_sTitle "Советские войска разгромлены"
+    m_iScore 100
+    m_sFactionKey "FIA"
+    m_bAdvanceWhenTriggered 1
+   }
+  }
+ }
+ US_FIA_losses {
+  coords 6175.888 178.699 7520.478
+  m_sFactionKey "US"
+  m_aAdditionalFactionKeys {
+   "FIA"
+  }
+  m_iMinNumberOfAliveCharacters 3
+  {
+   PS_Objective ussr_victory_by_losses {
+    coords -0.344 -0.618 7.21
+    m_sTitle "FIA и США разгромлены"
+    m_iScore 80
+    m_sFactionKey "USSR"
+    m_bAdvanceWhenTriggered 1
+   }
+  }
+ }
+}
 $grp PS_Objective {
  evac_btr {
   components {

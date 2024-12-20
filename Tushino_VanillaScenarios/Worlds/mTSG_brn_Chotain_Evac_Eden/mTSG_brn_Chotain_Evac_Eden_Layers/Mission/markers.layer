@@ -140,7 +140,10 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 10
  }
  US_G_000_M {
-  coords 6229.605 180.049 7488.149
+  coords 6217.968 182.083 7452.385
+  angleX -0.235
+  angleY 129.677
+  angleZ -2.52
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -157,7 +160,10 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 10
  }
  US_G_001_M {
-  coords 6226.24 180.375 7484.441
+  coords 6224.406 181.798 7454.569
+  angleX -0.653
+  angleY 125.093
+  angleZ -3.736
   m_sImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -315,7 +321,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 10
  }
  USSR_G_001_M {
-  coords 7269.545 46.341 7681.238
+  coords 7260.612 46.899 7688.853
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -332,7 +338,8 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 10
  }
  USSR_G_002_M {
-  coords 7527.762 5.752 6769.073
+  coords 7507.714 6.094 6737.849
+  angleY 90
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
