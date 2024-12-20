@@ -34,6 +34,12 @@ $grp PS_FactionLossesConstraint {
   m_iMinNumberOfAliveCharacters 3
   {
    PS_Objective ussr_victory_by_losses {
+    components {
+     RplComponent "{63290973B3C016A8}" {
+     }
+     Hierarchy "{63290973B030BA19}" {
+     }
+    }
     coords -0.344 -0.618 7.21
     m_sTitle "FIA и США разгромлены"
     m_iScore 80
