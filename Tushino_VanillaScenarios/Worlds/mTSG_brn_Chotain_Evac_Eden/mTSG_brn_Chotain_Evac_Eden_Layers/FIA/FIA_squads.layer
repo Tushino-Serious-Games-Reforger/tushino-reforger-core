@@ -60,17 +60,4 @@ $grp SCR_AIGroup : "{38FD62FA1A20040B}Prefabs/Groups/INDFOR/Boryan/Brn_Group_FIA
   angleZ 7.686
   m_sCustomNameSet "1-5 Отряд"
  }
- fia_squad5 {
-  components {
-   PS_GroupCallsignAssigner "{63227D06AE408CB4}" {
-    m_iCompanyCallsign 0
-    m_iSquadCallsign 6
-   }
-  }
-  coords 5803.707 12.699 8494.677
-  angleX -7.81
-  angleY -30.752
-  angleZ 7.682
-  m_sCustomNameSet "1-6 Отряд"
- }
 }
