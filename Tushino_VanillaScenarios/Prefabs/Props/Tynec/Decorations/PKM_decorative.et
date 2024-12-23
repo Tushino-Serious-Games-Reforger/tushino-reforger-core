@@ -1,0 +1,14 @@
+GenericEntity : "{A89BC9D55FFB4CD8}Prefabs/Weapons/MachineGuns/PKM/MG_PKM.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   Enabled 0
+  }
+ }
+ coords 4505.67 17.17 9499.481
+ angleX 12.698
+ angleY 91.878
+}

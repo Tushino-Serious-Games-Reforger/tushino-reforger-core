@@ -1,0 +1,15 @@
+GenericEntity : "{3E413771E1834D2F}Prefabs/Weapons/Rifles/M16/Rifle_M16A2.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   Enabled 0
+  }
+ }
+ coords 4505.301 19.186 9487.608
+ angleX 0.725
+ angleY -0.001
+ angleZ -90.084
+}
