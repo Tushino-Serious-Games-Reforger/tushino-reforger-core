@@ -1,10 +1,10 @@
-class PS_MissionTimeClass: GenericEntityClass
+class TSG_MissionTimeClass: GenericEntityClass
 {
 
 }
 
 
-class PS_MissionTime: GenericEntity
+class TSG_MissionTime: GenericEntity
 {
 	[Attribute(defvalue: "60", desc: "Mission time in minutes")]
 	int m_iMissionTimeMinutes;

@@ -7,7 +7,7 @@ GenericEntity base_flag : "{14B2D417839BF8A3}PrefabsEditable/Auto/Structures/Mil
    additionalActions {
     PS_FlagChangeAction "{6202D4E6A53D4B3C}" {
      ActionTitle "Поднять флаг"
-     Duration 60
+     Duration 30
     }
    }
   }

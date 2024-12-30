@@ -1,82 +1,40 @@
-PolylineShapeEntity kshm_destroy : "{127D357736B0C350}Prefabs/PolyZone/PolyZone_Destroy.et" {
- components {
-  RplComponent "{632546F04A6093A5}" {
-  }
- }
- coords 2896.674 222.357 12265.396
- Points {
-  ShapePoint "{62F97234331FE278}" {
-   Position -110.678 72.032 -3976.128
-  }
-  ShapePoint "{62F97234396AB4A6}" {
-   Position 4000.774 101.191 -3941.168
-  }
-  ShapePoint "{62F972343E034686}" {
-   Position 4008.209 -36.137 83.356
-  }
- }
- {
-  PS_Objective objective_destroy_kshm {
-   ID "60E9062E6BABF763"
-   m_sTitle "Уничтожить обе КШМ"
-   m_sFactionKey "USSR"
-   m_bAdvanceWhenTriggered 1
-  }
-  PS_PolyZoneObjectiveTriggerDestroy kshm1_destroy_trigger {
-   ID "60E9062E6BABF765"
-   "Polyline Height" 1000
-   UpdatePeriod 30
-   ClassesFilter {
+$grp TSG_EntityConstraint {
+ kshm_destroy {
+  components {
+   RplComponent "{633B6E4735BD04AC}" {
    }
-   PrefabsFilter {
-    PrefabFilter "{62F9723672DF0A77}" {
-     Prefab "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et"
-     CheckPrefabHierarchy 1
-    }
+  }
+  coords 3855.994 311.094 8841.559
+  m_aPrefabs {
+   "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et"
+  }
+  m_iExpectedNumberOfEntities 2
+  m_bDisableWhenTriggered 1
+  {
+   PS_Objective objective_destroy_kshm : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+    coords -956.613 -89.685 3441.215
+    m_sTitle "Уничтожить обе КШМ"
+    m_sFactionKey "USSR"
+    m_bAdvanceWhenTriggered 1
    }
   }
  }
-}
-PolylineShapeEntity kshm_save : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
- components {
-  RplComponent "{632546F070765450}" {
-  }
- }
- coords 2764.506 297.136 8265.921
- Points {
-  ShapePoint "{62F97234A698AF3E}" {
-   Position 4149.462 24.353 41.126
-  }
-  ShapePoint "{62F97234AB9DF016}" {
-   Position 4157.968 -114.328 4092.99
-  }
-  ShapePoint "{62F97234D05974AE}" {
-   Position 88.912 -75.884 4018.97
-  }
- }
- {
-  PS_PolyZoneObjectiveTriggerSave kshm_trigger_save {
-   components {
-    Hierarchy "{63020D1F53746ACF}" {
-    }
-   }
-   coords 1027.873 13.683 531.104
-   angleZ -0.895
-   TriggerShapeType Polyline
-   "Polyline Height" 1000
-   TriggerActivationType "All changes"
-   PeriodicQueries 1
-   UpdatePeriod 15
-   PrefabsFilter {
-    PrefabFilter "{63020D1F5F4792B5}" {
-     Prefab "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et"
-    }
+ kshm_save {
+  components {
+   RplComponent "{633B6E4759FDDC59}" {
    }
   }
-  PS_Objective objective_save_kshm : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
-   coords 0 0 0
-   m_sTitle "Сохранить хотябы одну КШМ"
-   m_sFactionKey "US"
+  coords 3857.088 311.223 8839.01
+  m_aPrefabs {
+   "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et"
+  }
+  m_bCheckAlive 1
+  {
+   PS_Objective objective_save_kshm : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+    coords -1092.581 -14.087 -573.089
+    m_sTitle "Сохранить хотябы одну КШМ"
+    m_sFactionKey "US"
+   }
   }
  }
 }

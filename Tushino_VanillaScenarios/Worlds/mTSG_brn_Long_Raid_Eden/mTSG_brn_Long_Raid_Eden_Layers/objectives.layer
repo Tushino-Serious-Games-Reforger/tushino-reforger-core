@@ -1,4 +1,4 @@
-$grp PS_FactionLossesConstraint {
+$grp TSG_FactionLossesConstraint {
  US_losses {
   components {
    RplComponent "{632542625EC4E27B}" {
