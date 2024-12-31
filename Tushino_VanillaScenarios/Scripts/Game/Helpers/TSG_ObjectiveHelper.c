@@ -26,6 +26,11 @@ class TSG_ObjectiveHelper
 
 	static array<PS_Objective> FindObjectives(IEntity owner, array<string> objectiveNames)
 	{
+		return FindObjectives(owner, objectiveNames, true);
+	}
+
+	static array<PS_Objective> FindObjectives(IEntity owner, array<string> objectiveNames, bool findChildren)
+	{
 		array<PS_Objective> objectives = new array<PS_Objective>();
 		foreach (string objectiveName : objectiveNames)
 		{
@@ -33,15 +38,18 @@ class TSG_ObjectiveHelper
 			PS_Objective objective = PS_Objective.Cast(entity);
 			objectives.Insert(objective);
 		}
-		IEntity maybeObjective = owner.GetChildren();
-		while (maybeObjective)
+		if (findChildren)
 		{
-			PS_Objective objective = PS_Objective.Cast(maybeObjective);
-			if (objective)
+			IEntity maybeObjective = owner.GetChildren();
+			while (maybeObjective)
 			{
-				objectives.Insert(objective);
+				PS_Objective objective = PS_Objective.Cast(maybeObjective);
+				if (objective)
+				{
+					objectives.Insert(objective);
+				}
+				maybeObjective = maybeObjective.GetSibling();
 			}
-			maybeObjective = maybeObjective.GetSibling();
 		}
 		return objectives;
 	}

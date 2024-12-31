@@ -1,8 +1,7 @@
 modded class Vehicle
 {
-	override void EOnActivate(IEntity owner)
+	void Vehicle(IEntitySource src, IEntity parent)
 	{
-		super.EOnActivate(owner);
 		if (Replication.IsServer())
 		{
 			GetGame().GetCallqueue().Call(RegisterVehicleInTsgMissionDataManager);
@@ -12,13 +11,5 @@ modded class Vehicle
 	void RegisterVehicleInTsgMissionDataManager()
 	{
 		TSG_MissionDataManager.GetInstance().RegisterEntity(this);
-	}
-
-	void Vehicle(IEntitySource src, IEntity parent)
-	{
-	}
-
-	void ~Vehicle()
-	{
 	}
 }

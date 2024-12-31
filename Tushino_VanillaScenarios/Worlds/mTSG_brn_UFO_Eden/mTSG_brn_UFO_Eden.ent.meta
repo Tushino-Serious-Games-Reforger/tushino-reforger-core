@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CD6101CF8FBCBA8B}Worlds/mTSG_brn_UFO_Eden/mTSG_brn_UFO_Eden.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

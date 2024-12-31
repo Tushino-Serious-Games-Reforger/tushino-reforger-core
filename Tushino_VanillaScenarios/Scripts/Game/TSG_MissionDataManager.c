@@ -5,7 +5,7 @@ class TSG_MissionDataManagerClass: ScriptComponentClass
 
 
 /**
-* Copies functionality of PS_PlayableManager and PS_MissionDataManager to not depend on them
+* Copies functionality PS_MissionDataManager to not depend on them, depends on PS_PlayableManager but this one looks tricky though
 */
 class TSG_MissionDataManager : ScriptComponent
 {
@@ -23,8 +23,15 @@ class TSG_MissionDataManager : ScriptComponent
 	void RegisterEntity(IEntity entity)
 	{
 		RplComponent component = RplComponent.Cast(entity.FindComponent(RplComponent));
+		if (m_mTrackedEntities.Contains(component.Id()))
+		{
+			Print("Double tracking " + entity + " prefab " + GetPrefabName(entity));
+		}
+		else
+		{
+			Print("Tracking " + entity + " prefab " + GetPrefabName(entity));
+		}
 		m_mTrackedEntities.Insert(component.Id(), entity);
-		Print("Tracking " + entity + " prefab " + GetPrefabName(entity));
 	}
 
 	array<IEntity> FindByPrefabs(array<ResourceName> prefabNames)
@@ -61,26 +68,21 @@ class TSG_MissionDataManager : ScriptComponent
 		return result;
 	}
 
-	array<PS_PlayableComponent> FindPlayables()
-	{
-		array<PS_PlayableComponent> result = {};
-		foreach (IEntity entity: AllEntities())
-		{
-			if (entity)
-			{
-				PS_PlayableComponent component = PS_PlayableComponent.Cast(entity.FindComponent(PS_PlayableComponent));
-				if (component)
-				{
-					result.Insert(component);
-				}
-			}
-		}
-		return result;
-	}
-
 	array<IEntity> AllEntities()
 	{
 		array<IEntity> result = {};
+
+		PS_PlayableManager manager = PS_PlayableManager.GetInstance();
+		foreach (PS_PlayableComponent playable : manager.GetPlayablesSorted())
+		{
+			IEntity owner = playable.GetOwner();
+			RplComponent component = RplComponent.Cast(owner.FindComponent(RplComponent));
+			if (!m_mTrackedEntities.Contains(component.Id()))
+			{
+				result.Insert(owner);
+			}
+		}
+
 		array<RplId> removedEntities = {};
 		foreach (RplId id, IEntity entity: m_mTrackedEntities)
 		{

@@ -1,0 +1,6 @@
+Vehicle Mi8MT_unarmed_transport1 : "{29DB7624FCF01D9C}Prefabs/Vehicles/Mi8MT_crashsite.et" {
+ coords 2612.183 48.825 6867.926
+ angleX 0.538
+ angleY -107.475
+ angleZ -77.557
+}

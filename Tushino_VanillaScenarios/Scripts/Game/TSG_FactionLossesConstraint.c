@@ -29,9 +29,10 @@ class TSG_FactionLossesConstraint: TSG_BasePeriodicCheck
 
 	int CalculateNumberOfAliveCharacters()
 	{
-		TSG_MissionDataManager manager = TSG_MissionDataManager.GetInstance();
+		PS_PlayableManager manager = PS_PlayableManager.GetInstance();
+		//TSG_MissionDataManager manager = TSG_MissionDataManager.GetInstance();
 		int nAlive = 0;
-		array<PS_PlayableComponent> playables = manager.FindPlayables();
+		array<PS_PlayableComponent> playables = manager.GetPlayablesSorted();
 		foreach(PS_PlayableComponent playable : playables)
 		{
 			FactionAffiliationComponent factionAffiliationComponent = playable.GetFactionAffiliationComponent();
