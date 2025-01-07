@@ -1,0 +1,15 @@
+SCR_AIGroup : "{BC357974A560F678}Prefabs/Groups/BLUFOR/Group_US_RifleSquad_P.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Tolpa"
+  }
+  SCR_AIGroupMovementComponent "{6126A0E02097C7FF}" {
+   DefaultFormation "Tolpa"
+  }
+ }
+ coords 10150.871 2.531 1508.349
+ m_aUnitPrefabSlots {
+  "{069E238FD5C16DFC}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_SL.et" "{6B0CF9A15E54C0BF}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_TL_M16A2_4x20.et" "{6B16D290E745CFEF}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_AR.et" "{AC046B05DDBE646B}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{C42B6C8C59509617}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman_LAT.et" "{DD25CE17CEFABD05}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_TL_M16A2.et" "{6B16D290E745CFEF}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_AR.et" "{AC046B05DDBE646B}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{C42B6C8C59509617}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman_LAT.et"
+ }
+}

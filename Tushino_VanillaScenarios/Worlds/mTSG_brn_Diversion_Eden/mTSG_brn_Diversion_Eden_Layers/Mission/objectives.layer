@@ -1,0 +1,118 @@
+$grp TSG_EntityConstraint {
+ protect_supplies {
+  components {
+   RplComponent "{644B48108EAF8C3A}" {
+   }
+  }
+  coords 10040.471 0 1404.421
+  m_aPrefabs {
+   "{3F7758A6255A89EC}Prefabs/Props/Boryan/Military/Crates/mTSG_brn_WeaponsCrateStack.et"
+  }
+  m_bCheckAlive 1
+  {
+   PS_Objective supplies_saved {
+    components {
+     RplComponent "{644B4810F53EA521}" {
+     }
+     Hierarchy "{644B4810F3304362}" {
+     }
+    }
+    coords -14.033 0 34.713
+    m_sTitle "Припасы сохранены"
+    m_iScore 100
+    m_sFactionKey "US"
+   }
+  }
+ }
+ destroy_supplies {
+  components {
+   RplComponent "{644B4810B1B24E33}" {
+   }
+  }
+  coords 10019.697 0 1445.666
+  m_aPrefabs {
+   "{3F7758A6255A89EC}Prefabs/Props/Boryan/Military/Crates/mTSG_brn_WeaponsCrateStack.et"
+  }
+  m_bCheckAlive 1
+  m_iExpectedNumberOfEntities 0
+  m_bIsUpperBound 1
+  m_bDisableWhenTriggered 1
+  {
+   PS_Objective supplies_destroyed {
+    components {
+     RplComponent "{644B4810F1F48A9E}" {
+     }
+     Hierarchy "{644B4810CFDB4BFA}" {
+     }
+    }
+    coords -0.656 0 -10.595
+    m_sTitle "Припасы уничтожены"
+    m_iScore 100
+    m_sFactionKey "USSR"
+    m_bAdvanceWhenTriggered 1
+   }
+  }
+ }
+}
+$grp TSG_FactionLossesConstraint {
+ us_losses {
+  components {
+   RplComponent "{644D0674BB4441C2}" {
+   }
+  }
+  coords 10034.795 0 1395.213
+  m_sFactionKey "US"
+  m_iMinNumberOfAliveCharacters 2
+  {
+   $grp PS_Objective {
+    us_destroyed {
+     components {
+      RplComponent "{644D0674E50094A9}" {
+      }
+      Hierarchy "{644D0674E388874C}" {
+      }
+     }
+     m_sTitle "Войска США разгромлены"
+     m_iScore 100
+     m_sFactionKey "USSR"
+     m_bAdvanceWhenTriggered 1
+    }
+    us_destroyed_us {
+     components {
+      RplComponent "{644D0674E50094A9}" {
+      }
+      Hierarchy "{644D0674E388874C}" {
+      }
+     }
+     coords 63.526 2.585 129.371
+     m_sTitle "Войска США разгромлены"
+     m_iScore -100
+     m_sFactionKey "US"
+    }
+   }
+  }
+ }
+ ussr_losses {
+  components {
+   RplComponent "{644D0674BFB45B99}" {
+   }
+  }
+  coords 10039.512 0 1414.127
+  m_sFactionKey "USSR"
+  m_iMinNumberOfAliveCharacters 4
+  {
+   PS_Objective ussr_destroyed {
+    components {
+     RplComponent "{644D0674EB09D61D}" {
+     }
+     Hierarchy "{644D0674E98A1303}" {
+     }
+    }
+    m_sTitle "Советские войска разгромлены"
+    m_iScore 100
+    m_sFactionKey "US"
+    m_bAdvanceWhenTriggered 1
+   }
+  }
+ }
+}

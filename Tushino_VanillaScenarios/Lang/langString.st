@@ -5,7 +5,7 @@ StringTable {
    Id "BRN-Role_Administrator"
    Target_en_us "Head of administration"
    Target_ru_ru "Глава администрации"
-   Modified 1660248281
+   Modified 1682906602
    Author "tread"
    LastChanged "tread"
   }
@@ -14,6 +14,69 @@ StringTable {
    Target_en_us "Bodyguard"
    Target_ru_ru "Телохранитель"
    Modified 1660248218
+   Author "tread"
+   LastChanged "tread"
+  }
+  CustomStringTableItem "{644D0641CCA3A475}" {
+   Id "BRN-Role_DeputyPlatoonLeader"
+   Target_en_us "Deputy Platoon Leader"
+   Modified 1682848264
+   Author "tread"
+   LastChanged "tread"
+  }
+  CustomStringTableItem "{644D064C86DFC158}" {
+   Id "BRN-Role_LightInfantryCompany1SG"
+   Target_en_us "Company First Sergeant"
+   Modified 1682848349
+   Author "tread"
+   LastChanged "tread"
+  }
+  CustomStringTableItem "{644D064D1CD5A848}" {
+   Id "BRN-Role_LightInfantryCompanyArmorer"
+   Target_en_us "Armorer"
+   Modified 1682848556
+   Author "tread"
+   LastChanged "tread"
+  }
+  CustomStringTableItem "{644D064C98C1ECE3}" {
+   Id "BRN-Role_LightInfantryCompanyCommander"
+   Target_en_us "Company Commander"
+   Modified 1682848322
+   Author "tread"
+   LastChanged "tread"
+  }
+  CustomStringTableItem "{644D0671905428AD}" {
+   Id "BRN-Role_LightInfantryCompanyCommoChief"
+   Target_en_us "Communications Chief"
+   Modified 1682850866
+   Author "tread"
+   LastChanged "tread"
+  }
+  CustomStringTableItem "{644D064CEF6038FB}" {
+   Id "BRN-Role_LightInfantryCompanySupplySergeant"
+   Target_en_us "Supply Sergeant"
+   Modified 1682848535
+   Author "tread"
+   LastChanged "tread"
+  }
+  CustomStringTableItem "{644D064CB353EFCA}" {
+   Id "BRN-Role_LightInfantryCompanyXO"
+   Target_en_us "Executive Officer"
+   Modified 1682848372
+   Author "tread"
+   LastChanged "tread"
+  }
+  CustomStringTableItem "{644D064320C1508E}" {
+   Id "BRN-Role_PlatoonSergeant"
+   Target_en_us "Platoon Sergeant"
+   Modified 1682848271
+   Author "tread"
+   LastChanged "tread"
+  }
+  CustomStringTableItem "{644D06432F266C30}" {
+   Id "BRN-Role_RTO"
+   Target_en_us "RTO"
+   Modified 1682848275
    Author "tread"
    LastChanged "tread"
   }
@@ -313,7 +376,7 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
-   CustomStringTableItem "{62D2B1DE6FCE6603}" {
+  CustomStringTableItem "{62D2B1DE6FCE6603}" {
    Id "JUM-Role_ReconSquadLeader"
    Target_en_us "Squad leader"
    Target_ru_ru "Командир отделения"

@@ -89,36 +89,6 @@ $grp Vehicle : "{6B24D5AFD884D64C}Prefabs/Vehicles/Wheeled/M998/M998_MERDC.et" {
   angleY 163.156
   angleZ 0.079
  }
- M998_MERDC4 {
-  components {
-   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
-    MultiSlots {
-     MultiSlotConfiguration "{633E887B553FC4BD}" {
-      SlotTemplate InventoryStorageSlot vog1 {
-       Prefab "{98DB57ECEDC81CC2}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M583A1_White.et"
-      }
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{633E887B57C13079}" {
-      SlotTemplate InventoryStorageSlot flare2 {
-       Prefab "{0AF10C206CF1A283}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M661_Green.et"
-      }
-      NumSlots 10
-     }
-     MultiSlotConfiguration "{633E887B5751B29C}" {
-      SlotTemplate InventoryStorageSlot flare3 {
-       Prefab "{2A63C909016C4C41}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M662_Red.et"
-      }
-      NumSlots 10
-     }
-    }
-   }
-  }
-  coords 1281.021 37.579 5944.114
-  angleX 0.54
-  angleY 142.857
-  angleZ 0.714
- }
  M998_MERDC5 {
   components {
    SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
@@ -144,17 +114,11 @@ $grp Vehicle : "{6B24D5AFD884D64C}Prefabs/Vehicles/Wheeled/M998/M998_MERDC.et" {
     }
    }
   }
-  coords 1266.078 36.565 5994.001
-  angleX 0.796
-  angleY 62.736
-  angleZ -0.41
+  coords 1272.622 36.83 6056.385
+  angleX 3.881
+  angleY 119.745
+  angleZ 2.215
  }
-}
-Vehicle M151A2_transport_MERDC1 : "{94DE32169691AC34}Prefabs/Vehicles/Wheeled/M151A2/M151A2_transport_MERDC.et" {
- coords 1276.951 37.123 6054.787
- angleX 3.004
- angleY 122.887
- angleZ 1.941
 }
 $grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
  M1025_armed_M2HB_MERDC1 {
@@ -175,20 +139,38 @@ $grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
   angleY 161.881
   angleZ 0.294
  }
- M1025_armed_M2HB_MERDC4 {
-  coords 1289.097 37.792 5931.584
-  angleX 1.751
-  angleY 145.513
-  angleZ 0.968
- }
  M1025_armed_M2HB_MERDC5 {
-  coords 1277.734 36.836 6001.123
-  angleX 1.608
-  angleY 63.917
-  angleZ -0.787
+  coords 1281.818 37.398 6050.207
+  angleX 2.089
+  angleY 128.914
+  angleZ 1.686
  }
 }
 Vehicle UH1H_armed1 : "{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5E1E994304F0E0D3}" {
+   MultiSlots {
+    MultiSlotConfiguration "{644F33895661939D}" {
+     SlotTemplate InventoryStorageSlot flare_white {
+      Prefab "{98DB57ECEDC81CC2}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M583A1_White.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{644F338972C89134}" {
+     SlotTemplate InventoryStorageSlot flare_red {
+      Prefab "{2A63C909016C4C41}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M662_Red.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{644F338968B2F7B6}" {
+     SlotTemplate InventoryStorageSlot flare_green {
+      Prefab "{0AF10C206CF1A283}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M661_Green.et"
+     }
+     NumSlots 10
+    }
+   }
+  }
+ }
  coords 1071.579 2.781 6042.476
  angleY 139.226
 }

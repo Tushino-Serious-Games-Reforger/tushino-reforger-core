@@ -1,96 +1,79 @@
-$grp SCR_AIGroup : "{8AA8F9165ED6B4CB}Prefabs/Groups/BLUFOR/Boryan/brn_Group_US_RifleSquad_Long_Raid.et" {
+$grp SCR_AIGroup : "{4C9F0302928D95E7}Prefabs/Groups/BLUFOR/Boryan/US_Army_Light_Infantry_Division_1989/Rifle_Company/Rifle_Platoon/brn_US_RifleSquad.et" {
  U12 {
+  components {
+   PS_GroupCallsignAssigner "{644F338DC1DB5A23}" {
+    m_iSquadCallsign 1
+   }
+  }
   coords 1228.865 30.504 6089.933
   angleX 0.001
   angleY 84.449
   angleZ -0.158
-  m_aUnitPrefabSlots {
-   "{069E238FD5C16DFC}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_SL.et" "{C2101FF9EC237FBA}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_TL.et" "{6B16D290E745CFEF}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_AR.et" "{AC046B05DDBE646B}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{AC046B05DDBE646B}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{C42B6C8C59509617}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman_LAT.et" "{3A509D0779BCF5F5}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_VehicleGunner.et" "{D7176F1914BB23EA}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_VehicleDriver.et"
-  }
-  m_sCustomNameSet "1-2"
+  m_sCustomNameSet "1-2 Rifle Squad"
  }
  U13 {
   components {
-   PS_GroupCallsignAssigner "{62CB4A647DC36732}" {
+   PS_GroupCallsignAssigner "{644F338DC61AE68D}" {
     m_iSquadCallsign 2
    }
   }
   coords 1229.835 32.517 6053.41
   angleY 90.585
-  m_aUnitPrefabSlots {
-   "{069E238FD5C16DFC}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_SL.et" "{C2101FF9EC237FBA}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_TL.et" "{6B16D290E745CFEF}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_AR.et" "{AC046B05DDBE646B}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{AC046B05DDBE646B}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{C42B6C8C59509617}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman_LAT.et" "{3A509D0779BCF5F5}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_VehicleGunner.et" "{D7176F1914BB23EA}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_VehicleDriver.et"
-  }
-  m_sCustomNameSet "1-3"
+  m_sCustomNameSet "1-3 Rifle Squad"
  }
  U14 {
   components {
-   PS_GroupCallsignAssigner "{62CB4A647DC36732}" {
+   PS_GroupCallsignAssigner "{644F338DCC145EE3}" {
     m_iSquadCallsign 3
    }
   }
   coords 1236.581 35.453 6008.531
   angleY 70.185
-  m_aUnitPrefabSlots {
-   "{069E238FD5C16DFC}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_SL.et" "{C2101FF9EC237FBA}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_TL.et" "{6B16D290E745CFEF}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_AR.et" "{AC046B05DDBE646B}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{AC046B05DDBE646B}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{C42B6C8C59509617}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman_LAT.et" "{3A509D0779BCF5F5}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_VehicleGunner.et" "{D7176F1914BB23EA}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_VehicleDriver.et"
-  }
-  m_sCustomNameSet "1-4"
+  m_sCustomNameSet "1-4 Rifle Squad"
  }
- U15 {
-  components {
-   PS_GroupCallsignAssigner "{62CB4A647DC36732}" {
-    m_iSquadCallsign 5
-   }
-  }
-  coords 1277.418 37.391 5932.198
-  angleX 1.971
-  angleY 53.499
-  angleZ -0.345
-  m_aUnitPrefabSlots {
-   "{069E238FD5C16DFC}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_SL.et" "{C2101FF9EC237FBA}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_TL.et" "{6B16D290E745CFEF}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_AR.et" "{AC046B05DDBE646B}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{AC046B05DDBE646B}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{C42B6C8C59509617}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman_LAT.et" "{3A509D0779BCF5F5}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_VehicleGunner.et" "{D7176F1914BB23EA}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_VehicleDriver.et"
-  }
- }
- U16 {
-  components {
-   PS_GroupCallsignAssigner "{62CB4A647DC36732}" {
-    m_iSquadCallsign 6
-   }
-  }
-  coords 1269.824 36.718 5989.231
-  angleY -31.543
-  m_aUnitPrefabSlots {
-   "{069E238FD5C16DFC}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_SL.et" "{C2101FF9EC237FBA}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_TL.et" "{6B16D290E745CFEF}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_AR.et" "{AC046B05DDBE646B}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{AC046B05DDBE646B}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{C42B6C8C59509617}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman_LAT.et" "{3A509D0779BCF5F5}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_VehicleGunner.et" "{D7176F1914BB23EA}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_VehicleDriver.et"
-  }
-  m_sCustomNameSet "1-6"
- }
-}
-$grp SCR_AIGroup : "{B7993FAC57F3FC91}Prefabs/Groups/BLUFOR/Boryan/brn_Group_US_Humvee_M2_Crew.et" {
  U22 {
   components {
-   PS_GroupCallsignAssigner "{633E886109BE5920}" {
+   PS_GroupCallsignAssigner "{644F338DF1D7108B}" {
     m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
    }
   }
-  coords 1074.938 2.765 6048.908
-  angleX 0.648
-  angleY 46.408
-  angleZ -0.617
+  coords 1055.249 2.822 6042.602
+  angleX 0.533
+  angleY 53.481
+  angleZ 0.719
   m_aUnitPrefabSlots {
-   "{27BEF07908F77017}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Pilot_Radio.et" "{71B242C4EBBAF81C}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_HeliCrew.et"
+   "{069E238FD5C16DFC}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_SL.et" "{6B0CF9A15E54C0BF}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_TL_M16A2_4x20.et" "{6B16D290E745CFEF}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_AR.et" "{AC046B05DDBE646B}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{C42B6C8C59509617}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman_LAT.et" "{DD25CE17CEFABD05}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_TL_M16A2.et" "{6B16D290E745CFEF}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_AR.et" "{AC046B05DDBE646B}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et"
   }
-  m_sCustomNameSet "2-1 Helicopter crew"
+  m_sCustomNameSet "2-2 Rifle Squad on UH1H"
  }
- U11 {
-  components {
-   PS_GroupCallsignAssigner "{633E886109BE5920}" {
-   }
+}
+SCR_AIGroup U21 : "{B7993FAC57F3FC91}Prefabs/Groups/BLUFOR/Boryan/brn_Group_US_Humvee_M2_Crew.et" {
+ components {
+  PS_GroupCallsignAssigner "{633E886109BE5920}" {
+   m_iPlatoonCallsign 1
   }
-  coords 1279.824 37.335 6059.474
-  angleX 1.943
-  angleY 46.366
-  angleZ -1.852
-  m_aUnitPrefabSlots {
-   "{9F809A16C8265C6C}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_PL.et" "{3D56107B6DFC8B43}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Officer.et"
-  }
-  m_sCustomNameSet "1-1 HQ"
  }
+ coords 1074.938 2.765 6048.908
+ angleX 0.648
+ angleY 46.408
+ angleZ -0.617
+ m_aUnitPrefabSlots {
+  "{27BEF07908F77017}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Pilot_Radio.et" "{903097F658A99BE3}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman.et"
+ }
+ m_sCustomNameSet "2-1 UH1H crew"
+}
+SCR_AIGroup U11 : "{DC3F0AB82CB9E29B}Prefabs/Groups/BLUFOR/Boryan/US_Army_Light_Infantry_Division_1989/Rifle_Company/Rifle_Platoon/brn_US_PlatoonHQ.et" {
+ components {
+  PS_GroupCallsignAssigner "{644F338F6D3665D8}" {
+  }
+ }
+ coords 1279.824 37.335 6059.474
+ angleX 1.943
+ angleY 46.366
+ angleZ -1.852
+ m_aUnitPrefabSlots {
+  "{B0DB1DF7BDF7E927}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_PL_XM177.et" "{BF416D4262A3EA1F}Prefabs/Characters/Boryan/BLUFOR/brn_Character_Platoon_Sergeant_GL.et" "{8246C3071AC7148D}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_RTO_XM177.et" "{39010C8A890ADB0C}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_MG.et" "{1391161476C0E762}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_MGA_XM177.et" "{39010C8A890ADB0C}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_MG.et" "{1391161476C0E762}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_MGA_XM177.et"
+ }
+ m_sCustomNameSet "1-1 Platoon HQ"
 }

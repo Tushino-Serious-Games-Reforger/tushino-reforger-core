@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E93A65024E5F45B3}Prefabs/Groups/OPFOR/Boryan/USSR_Rifle_Company_BTR_70/RiflePlatoon/brn_Group_USSR_PlatoonHQ_Stripped.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

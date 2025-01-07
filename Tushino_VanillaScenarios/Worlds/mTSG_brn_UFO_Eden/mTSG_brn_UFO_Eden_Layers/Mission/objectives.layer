@@ -31,17 +31,31 @@ $grp TSG_FactionLossesConstraint {
   m_sFactionKey "USSR"
   m_iMinNumberOfAliveCharacters 2
   {
-   PS_Objective ussr_destroyed {
-    components {
-     RplComponent "{633E883E0C3A2235}" {
+   $grp PS_Objective {
+    ussr_destroyed {
+     components {
+      RplComponent "{633E883E0C3A2235}" {
+      }
+      Hierarchy "{633E883E0A5E7884}" {
+      }
      }
-     Hierarchy "{633E883E0A5E7884}" {
-     }
+     m_sTitle "Советские войска разгромлены"
+     m_iScore 100
+     m_sFactionKey "US"
+     m_bAdvanceWhenTriggered 1
     }
-    m_sTitle "Советские войска разгромлены"
-    m_iScore 100
-    m_sFactionKey "US"
-    m_bAdvanceWhenTriggered 1
+    ussr_destroyed_ussr {
+     components {
+      RplComponent "{633E883E0C3A2235}" {
+      }
+      Hierarchy "{633E883E0A5E7884}" {
+      }
+     }
+     coords -403.466 4.771 -409.373
+     m_sTitle "Советские войска разгромлены"
+     m_iScore -100
+     m_sFactionKey "USSR"
+    }
    }
   }
  }

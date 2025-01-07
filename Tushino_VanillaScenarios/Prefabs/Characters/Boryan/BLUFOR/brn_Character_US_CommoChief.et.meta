@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6FA2C5A5B38E02DE}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_CommoChief.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

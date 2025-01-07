@@ -16,6 +16,8 @@ class TSG_EntityConstraint: TSG_BasePeriodicCheck
 	bool m_bCheckAlive;
 	[Attribute(desc: "How much entities in desired state to expect", defvalue: "1")]
 	int m_iExpectedNumberOfEntities;
+	[Attribute(desc: "If true, then expected number of entitities is upper bound, otherwise lower bound")]
+	bool m_bIsUpperBound;
 	[Attribute(desc: "What objectives to trigger")]
 	ref array<string> m_aNamesOfObjectives;
 	[Attribute(desc: "Disable polling when condition is satisfied for first time", defvalue: "false")]
@@ -73,10 +75,15 @@ class TSG_EntityConstraint: TSG_BasePeriodicCheck
 				}
 			}
 		}
-		TSG_ObjectiveHelper.SwitchObjectives(m_aObjectives, actualNumberOfEntities >= m_iExpectedNumberOfEntities);
+		bool condition = actualNumberOfEntities >= m_iExpectedNumberOfEntities;
+		if (m_bIsUpperBound)
+		{
+			condition = actualNumberOfEntities <= m_iExpectedNumberOfEntities;
+		}
+		TSG_ObjectiveHelper.SwitchObjectives(m_aObjectives, condition);
 		if (m_bDisableWhenTriggered)
 		{
-			return actualNumberOfEntities >= m_iExpectedNumberOfEntities;
+			return condition;
 		}
 		return false;
 	}

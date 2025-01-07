@@ -121,6 +121,21 @@ $grp TSG_FactionLossesConstraint {
      m_iScore 100
      m_sFactionKey "US"
     }
+    ussr_loss_by_losses {
+     components {
+      RplComponent "{6328F5ABCBCE6BE4}" {
+      }
+      Hierarchy "{6328F5ABCDDCBE77}" {
+      }
+     }
+     coords 1740.943 -440.165 196.082
+     angleX 13.141
+     angleY 1.003
+     angleZ 26.906
+     m_sTitle "Советские войска разгромлены"
+     m_iScore -100
+     m_sFactionKey "USSR"
+    }
    }
   }
  }
@@ -208,7 +223,6 @@ $grp TSG_ObserveFlag {
     m_sTitle "Спецназ США захватил склад"
     m_iScore 0
     m_sFactionKey "US"
-    m_bAdvanceWhenTriggered 1
    }
   }
  }
@@ -236,7 +250,6 @@ $grp TSG_ObserveFlag {
     m_sTitle "FIA захватила склад"
     m_iScore 100
     m_sFactionKey "FIA"
-    m_bAdvanceWhenTriggered 1
    }
   }
  }

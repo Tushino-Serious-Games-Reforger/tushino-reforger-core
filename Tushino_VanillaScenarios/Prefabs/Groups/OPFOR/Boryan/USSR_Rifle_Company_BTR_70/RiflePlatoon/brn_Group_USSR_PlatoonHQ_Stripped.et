@@ -1,0 +1,7 @@
+SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad_P.et" {
+ ID "0000000000000001"
+ coords 8706.671 110.311 2915.062
+ m_aUnitPrefabSlots {
+  "{1ADC4934980AA91A}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_PL.et" "{E43238C3B1A2E591}Prefabs/Characters/Boryan/OPFOR/USSR_Army/brn_Character_USSR_DeputyPlatoonLeader.et"
+ }
+}

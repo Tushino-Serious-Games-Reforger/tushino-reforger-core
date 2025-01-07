@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4C9F0302928D95E7}Prefabs/Groups/BLUFOR/Boryan/US_Army_Light_Infantry_Division_1989/Rifle_Company/Rifle_Platoon/brn_US_RifleSquad.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

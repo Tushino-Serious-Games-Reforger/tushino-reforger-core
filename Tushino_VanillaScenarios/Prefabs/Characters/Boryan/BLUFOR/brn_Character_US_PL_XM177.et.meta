@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B0DB1DF7BDF7E927}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/brn_Character_US_PL_XM177.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

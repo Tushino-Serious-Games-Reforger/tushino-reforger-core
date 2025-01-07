@@ -1,4 +1,12 @@
 Vehicle Mi8MT_unarmed_transport1 : "{29DB7624FCF01D9C}Prefabs/Vehicles/Mi8MT_crashsite.et" {
+ components {
+  SCR_BaseEffectManagerComponent "{633F5A3742C1AE32}" {
+   m_aEffectModules {
+    SCR_EffectModule "{633F5A3742C1AE25}" {
+    }
+   }
+  }
+ }
  coords 2612.183 48.825 6867.926
  angleX 0.538
  angleY -107.475

@@ -680,6 +680,7 @@ Vehicle {
    m_bCanBePiloted 0
   }
   SCR_BaseCompartmentManagerComponent "{633F5A3742C1AD81}" {
+   Enabled 0
    DoorInfoList {
     CompartmentDoorInfo "{633F5A3742C1B145}" {
      ContextName "door_l01"
@@ -723,16 +724,6 @@ Vehicle {
    }
    CompartmentSlots {
     PilotCompartmentSlot PilotCompartment {
-     CompartmentAction SCR_GetInUserAction "{633F5A3742C1B18B}" {
-      ParentContextList {
-       "door_l01_door"
-      }
-      UIInfo SCR_ActionUIInfo "{633F5A3742C1B1BF}" {
-       Name "#AR-UserAction_GetIn"
-       Icon "{75062509D78E720C}UI/Textures/UserActions/getindriveraction.edds"
-       m_sIconName "mountAsDriverCommand"
-      }
-     }
      GetOutAction SCR_GetOutAction "{633F5A3742C1B1E9}" {
       ParentContextList {
        "door_m01_cockpit" "window_l01_int"
@@ -748,17 +739,6 @@ Vehicle {
        m_sIconName "getOutCommand"
       }
       "Sort Priority" 1
-     }
-     SwitchSeatAction SCR_SwitchSeatAction "{633F5A3742C1B237}" {
-      ParentContextList {
-       "pilot"
-      }
-      UIInfo SCR_ActionUIInfo "{633F5A3742C1B1DC}" {
-       Name "#AR-UserAction_SwitchSeat"
-       m_sIconName "mountAsDriverCommand"
-      }
-      Duration 0.5
-      m_bPilotOnly 1
      }
      AdditionalActions {
       SCR_RemoveCasualtyUserAction "{633F5A3742C1B264}" {
@@ -815,17 +795,6 @@ Vehicle {
      }
     }
     PilotCompartmentSlot Passenger_m01Cargo {
-     CompartmentAction SCR_GetInUserAction "{633F5A3742C1B364}" {
-      ParentContextList {
-       "door_l01_door"
-      }
-      UIInfo SCR_ActionUIInfo "{633F5A3742C1B312}" {
-       Name "#AR-UserAction_GetIn"
-       Icon "{75062509D78E720C}UI/Textures/UserActions/getindriveraction.edds"
-       m_sIconName "mountAsDriverCommand"
-      }
-      "Sort Priority" 1
-     }
      GetOutAction SCR_GetOutAction "{633F5A3742C1B347}" {
       ParentContextList {
        "door_m01_cockpit" "window_r01_int"
@@ -841,17 +810,6 @@ Vehicle {
        m_sIconName "getOutCommand"
       }
       "Sort Priority" 1
-     }
-     SwitchSeatAction SCR_SwitchSeatAction "{633F5A3742C1B3B6}" {
-      ParentContextList {
-       "copilot"
-      }
-      UIInfo SCR_ActionUIInfo "{633F5A3742C1B35B}" {
-       Name "#AR-UserAction_SwitchSeat"
-       m_sIconName "mountAsDriverCommand"
-      }
-      Duration 0.5
-      m_bPilotOnly 1
      }
      AdditionalActions {
       SCR_RemoveCasualtyUserAction "{633F5A3742C1B39D}" {
@@ -880,17 +838,6 @@ Vehicle {
        "Sort Priority" 9
        m_bExteriorOnly 1
       }
-      SCR_SwitchSeatAction "{633F5A3742C1B3C9}" {
-       ParentContextList {
-        "door_m01_cargo"
-       }
-       UIInfo SCR_ActionUIInfo "{633F5A3742C1B3C8}" {
-        Name "#AR-UserAction_SwitchSeat"
-        m_sIconName "mountAsDriverCommand"
-       }
-       Duration 0.5
-       m_bCargoOnly 1
-      }
      }
      PassengerPositionInfo EntitySlotInfo "{A1CB25848A3D93A8}" {
       PivotID "pilotr_idle"
@@ -911,18 +858,6 @@ Vehicle {
      }
     }
     CargoCompartmentSlot Passenger_m01 {
-     CompartmentAction SCR_GetInUserAction "{633F5A3742C1ACB8}" {
-      ParentContextList {
-       "door_l01_door"
-      }
-      UIInfo SCR_ActionUIInfo "{633F5A3742C1ACAB}" {
-       Name "#AR-UserAction_GetIn"
-       Icon "{04EF6B438A9F69A1}UI/Textures/UserActions/getinaction.edds"
-       m_sIconName "mountAsPassengerCommand"
-      }
-      CanAggregate 1
-      "Sort Priority" 3
-     }
      GetOutAction SCR_GetOutAction "{633F5A3742C1AC98}" {
       ParentContextList {
        "door_m01_cockpit"
@@ -938,18 +873,6 @@ Vehicle {
        m_sIconName "getOutCommand"
       }
       "Sort Priority" 1
-     }
-     SwitchSeatAction SCR_SwitchSeatAction "{633F5A3742C1ACDD}" {
-      ParentContextList {
-       "navigator"
-      }
-      UIInfo SCR_ActionUIInfo "{633F5A3742C1ACC1}" {
-       Name "#AR-UserAction_SwitchSeat"
-       m_sIconName "mountAsPassengerCommand"
-      }
-      Duration 0.5
-      CanAggregate 1
-      m_bPilotOnly 1
      }
      AdditionalActions {
       SCR_RemoveCasualtyUserAction "{633F5A3742C1AD05}" {
@@ -974,18 +897,6 @@ Vehicle {
        CanAggregate 1
        "Sort Priority" 9
        m_bExteriorOnly 1
-      }
-      SCR_SwitchSeatAction "{633F5A3742C1AD60}" {
-       ParentContextList {
-        "door_m01_cargo"
-       }
-       UIInfo SCR_ActionUIInfo "{633F5A3742C1AD63}" {
-        Name "#AR-UserAction_SwitchSeat"
-        m_sIconName "mountAsPassengerCommand"
-       }
-       Duration 0.5
-       CanAggregate 1
-       m_bCargoOnly 1
       }
      }
      PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
@@ -2576,6 +2487,7 @@ Vehicle {
   SCR_VehicleInventoryStorageManagerComponent "{633F5A37433E25A2}" {
   }
   ActionsManagerComponent "{633F5A3743378FB4}" {
+   Enabled 0
    ActionContexts {
     UserActionContext "{633F5A37433E25FB}" {
      UIInfo SCR_ActionContextUIInfo "{633F5A37433E25C4}" {

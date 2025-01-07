@@ -1,0 +1,28 @@
+GenericEntity : "{2F2BBFDA3A2C73D4}Prefabs/Props/Civilian/RadioSmall_01_black.et" {
+ coords 1228.049 34.401 6038.484
+ angleY -10.055
+}
+StaticModelEntity : "{39C308BBB5945B85}Prefabs/Props/Military/Furniture/ChairMilitary_US_02.et" {
+ coords 1227.415 33.797 6039.684
+ angleY 103.254
+}
+StaticModelEntity : "{55973C5B0950D4AB}Prefabs/Props/Military/Furniture/ChairMilitary_US_01.et" {
+ coords 1228.071 33.901 6038.475
+ angleY -20.399
+}
+GenericEntity : "{C599195C442D7125}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_CigarButts_01.et" {
+ coords 1227.629 33.721 6040.553
+ angleX -6.242
+}
+GameEntity : "{EC645B2E2123131F}Prefabs/Props/Civilian/LampKerosene_01/LampKerosene_01_blue.et" {
+ components {
+  SCR_LampComponent "{5D2AB5C8865F22C4}" {
+   m_bGradualLightning 1
+   m_eInitialLightState LIT
+  }
+ }
+ coords 1229.028 33.982 6037.694
+ angleX -5.355
+ angleY 0.038
+ angleZ -0.895
+}

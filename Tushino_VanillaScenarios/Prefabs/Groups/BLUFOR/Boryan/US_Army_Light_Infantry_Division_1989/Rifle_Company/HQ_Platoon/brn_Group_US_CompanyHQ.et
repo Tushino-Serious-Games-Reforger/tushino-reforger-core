@@ -1,0 +1,13 @@
+SCR_AIGroup : "{BC357974A560F678}Prefabs/Groups/BLUFOR/Group_US_RifleSquad_P.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Tolpa"
+  }
+ }
+ coords 10151.32 2.781 1552
+ angleY 16.118
+ m_aUnitPrefabSlots {
+  "{61677FB40EE83451}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_CompanyCommander.et" "{70E47BC37937A7A3}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_CompanyXO.et" "{DD3671FEE82CF231}Prefabs/Characters/Boryan/BLUFOR/brn_Character_Company1SG.et" "{6FA2C5A5B38E02DE}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_CommoChief.et" "{017E8FA39616169B}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_SupplySergeant.et" "{E29877E53B1058A9}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_Armorer.et" "{8246C3071AC7148D}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_RTO_XM177.et" "{8246C3071AC7148D}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_RTO_XM177.et" "{8246C3071AC7148D}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_RTO_XM177.et"
+ }
+}

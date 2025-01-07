@@ -1,0 +1,29 @@
+SCR_ChimeraCharacter : "{3D56107B6DFC8B43}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Officer.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#BRN-Role_LightInfantryCompanyCommoChief"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{FE5C49069C2499D9}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_cover.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B75C981AA2A498}" {
+     PrefabsToSpawn + {
+      "{DB03C02C4AB1E0F0}Prefabs/Items/drongo/Equipment/Radios/Radio_ANPRC68_SL.et"
+     }
+    }
+   }
+  }
+ }
+}
