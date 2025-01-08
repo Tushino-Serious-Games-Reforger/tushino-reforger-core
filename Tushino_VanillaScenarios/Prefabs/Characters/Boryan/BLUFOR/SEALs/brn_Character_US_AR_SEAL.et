@@ -25,6 +25,11 @@ SCR_ChimeraCharacter : "{903097F658A99BE3}Prefabs/Characters/drongo/BLUFOR/US_Ar
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B75C981AA2A498}" {
+     PrefabsToSpawn + {
+      "{BA2D0EE170E44DC7}Prefabs/Items/drongo/Equipment/Radios/Radio_ANPRC68_rprv.et"
+     }
+    }
     ItemsInitConfigurationItem "{61B87867EA32507F}" {
      TargetStorage "Prefabs/Characters/Uniforms/Jacket_US_BDU.et"
      PrefabsToSpawn +{

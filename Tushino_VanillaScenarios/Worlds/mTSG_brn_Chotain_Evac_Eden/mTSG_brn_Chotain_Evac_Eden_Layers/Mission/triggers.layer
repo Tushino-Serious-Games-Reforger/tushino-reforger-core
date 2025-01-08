@@ -405,27 +405,6 @@ $grp PolylineShapeEntity {
    }
   }
   IsClosed 1
-  {
-   PS_PolyZoneTrigger ussr_trigger {
-    components {
-     Hierarchy "{633B2C74D1045E8E}" {
-     }
-    }
-    coords 3748.081 4565.553 -656.192
-    TriggerShapeType Polyline
-    "Polyline Height" 1000
-    TriggerActivationType "All changes"
-    PeriodicQueries 1
-    ClassesFilter {
-     "ChimeraCharacter"
-    }
-    m_polyZoneEffect PS_PolyZoneEffectScreenBlure "{633B2C74CB7F0CB0}" {
-    }
-    m_bReversed 1
-    m_bAliveOnly 1
-    m_sFactionKey "USSR"
-   }
-  }
  }
  US_border {
   components {
@@ -542,22 +521,22 @@ $grp PolylineShapeEntity {
     Position 1572.907 -25.79 560.115
    }
    ShapePoint "{63227D1185E8730E}" {
-    Position 1512 -35.04 772.479
+    Position 1337.068 -65.038 1893.243
    }
    ShapePoint "{63227D11B23A06A9}" {
-    Position 1691.484 -53.717 995.29
+    Position 3409.818 -64.808 1653.31
    }
    ShapePoint "{63227D11A70144EA}" {
-    Position 2902.033 -60.573 752.484
+    Position 3962.036 -68.742 549.743
    }
    ShapePoint "{63227D11AA43A4A8}" {
-    Position 3198.811 -48.1 -715.366
+    Position 4583.466 -99.461 -686.32
    }
    ShapePoint "{63227D11AE1F81D4}" {
-    Position 3057.25 -66.732 -2021.479
+    Position 5124.562 -155.214 -1867.856
    }
    ShapePoint "{63227D11D2D39187}" {
-    Position 3162.5 -52.156 -3052.294
+    Position 3316.282 -47.278 -3231.914
    }
    ShapePoint "{63227D11CAD12B1F}" {
     Position 2858.207 -33.635 -3232.057
@@ -804,50 +783,6 @@ $grp PolylineShapeEntity {
    }
   }
   IsClosed 1
-  {
-   $grp PS_PolyZoneTrigger {
-    us_trigger {
-     components {
-      Hierarchy "{633B2C7784AE0C55}" {
-      }
-     }
-     coords 2691.314 -11.801 -841.427
-     TriggerShapeType Polyline
-     "Polyline Height" 3000
-     TriggerActivationType "All changes"
-     PeriodicQueries 1
-     ClassesFilter {
-      "ChimeraCharacter"
-     }
-     m_polyZoneEffect PS_PolyZoneEffectRestricted "{633B2C777BE4942D}" {
-      m_fKillTime 180
-     }
-     m_bReversed 1
-     m_bAliveOnly 1
-     m_sFactionKey "US"
-    }
-    fia_trigger {
-     components {
-      Hierarchy "{633B2C7788B20A59}" {
-      }
-     }
-     coords 2930.262 -13.816 -899.274
-     TriggerShapeType Polyline
-     "Polyline Height" 3000
-     TriggerActivationType "All changes"
-     PeriodicQueries 1
-     ClassesFilter {
-      "ChimeraCharacter"
-     }
-     m_polyZoneEffect PS_PolyZoneEffectRestricted "{633B2C777BE4942D}" {
-      m_fKillTime 180
-     }
-     m_bReversed 1
-     m_bAliveOnly 1
-     m_sFactionKey "FIA"
-    }
-   }
-  }
  }
  military {
   components {

@@ -25,6 +25,11 @@ SCR_ChimeraCharacter : "{EFE86C20EBCD5157}Prefabs/Characters/drongo/BLUFOR/US_Ar
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B75C981AA2A498}" {
+     PrefabsToSpawn + {
+      "{BA2D0EE170E44DC7}Prefabs/Items/drongo/Equipment/Radios/Radio_ANPRC68_rprv.et"
+     }
+    }
     ItemsInitConfigurationItem "{632060491F2FA2B0}" {
      TargetStorage "Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et"
      PrefabsToSpawn {

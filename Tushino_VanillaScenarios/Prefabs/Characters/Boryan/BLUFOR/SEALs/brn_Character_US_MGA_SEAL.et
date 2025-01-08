@@ -19,6 +19,11 @@ SCR_ChimeraCharacter : "{903097F658A99BE3}Prefabs/Characters/drongo/BLUFOR/US_Ar
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B75C981AA2A498}" {
+     PrefabsToSpawn + {
+      "{BA2D0EE170E44DC7}Prefabs/Items/drongo/Equipment/Radios/Radio_ANPRC68_rprv.et"
+     }
+    }
     ItemsInitConfigurationItem "{61B87867FBB32E7F}" {
      PrefabsToSpawn {
       "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et" "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et" "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et" "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et" "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et"
