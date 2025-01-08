@@ -20,7 +20,8 @@ StringTable {
   CustomStringTableItem "{644D0641CCA3A475}" {
    Id "BRN-Role_DeputyPlatoonLeader"
    Target_en_us "Deputy Platoon Leader"
-   Modified 1682848264
+   Target_ru_ru "Зам. ком. взвода"
+   Modified 1683041174
    Author "tread"
    LastChanged "tread"
   }
