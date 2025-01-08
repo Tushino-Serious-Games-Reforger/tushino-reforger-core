@@ -71,13 +71,13 @@ class PS_FlagData{
 	static bool SnapCompare(SSnapSerializerBase lhs, SSnapSerializerBase rhs , ScriptCtx ctx)
 	{
 		return lhs.CompareSnapshots(rhs, 4)
-		    && lhs.CompareStringSnapshots(rhs); 
+			&& lhs.CompareStringSnapshots(rhs); 
 	}
 
 	static bool PropCompare(PS_FlagData instance, SSnapSerializerBase snapshot, ScriptCtx ctx)
 	{
 		return snapshot.CompareInt(instance.m_iCaptureCounter)
-		    && snapshot.CompareString(instance.m_sFactionKey);
+			&& snapshot.CompareString(instance.m_sFactionKey);
 	}
 }	
 

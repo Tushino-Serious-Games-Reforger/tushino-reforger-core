@@ -1,0 +1,16 @@
+SCR_AIGroup : "{BC357974A560F678}Prefabs/Groups/BLUFOR/Group_US_RifleSquad_P.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Tolpa"
+  }
+  SCR_AIGroupMovementComponent "{6126A0E02097C7FF}" {
+   DefaultFormation "Tolpa"
+  }
+ }
+ coords 10133.217 2.406 1495.848
+ angleY 13.656
+ m_aUnitPrefabSlots {
+  "{9F809A16C8265C6C}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_PL.et" "{D9C3914B397ED5C0}Prefabs/Characters/Boryan/BLUFOR/brn_Character_Platoon_Sergeant_XM177.et" "{8246C3071AC7148D}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_RTO_XM177.et" "{39010C8A890ADB0C}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_MG.et" "{1391161476C0E762}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_MGA_XM177.et" "{39010C8A890ADB0C}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_MG.et" "{1391161476C0E762}Prefabs/Characters/Boryan/BLUFOR/brn_Character_US_MGA_XM177.et"
+ }
+}

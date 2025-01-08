@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{F0534BE840748288}Prefabs/Characters/drongo/OPFOR/USSR_Army/drg_Character_USSR_Rifleman_GL.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#BRN-Role_DeputyPlatoonLeader"
+    Icon "{B0B3E06A17B8AC6D}UI/Icons/officer.edds"
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B543E55260DECA}" {
+     PrefabsToSpawn + {
+      "{6492196F107687BC}Prefabs/Items/drongo/Equipment/Radios/Radio_R148_SL.et"
+     }
+    }
+   }
+  }
+ }
+}

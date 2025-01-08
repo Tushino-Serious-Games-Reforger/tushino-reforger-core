@@ -1,0 +1,186 @@
+PolylineShapeEntity trigger_border {
+ components {
+  PS_PolyZone "{633E882F57011731}" {
+   m_mPolygonTexture ""
+   m_cPolygonColor 1 1 1 0
+   m_mPolygonTextureBorder ""
+   m_cPolygonBorderColor 0.502 0 0 1
+   m_fPolygonBorderWidth 5
+   m_aVisibleForFactions {
+    "US" "USSR" ""
+   }
+  }
+  RplComponent "{633F5D5C28F19E18}" {
+  }
+ }
+ coords 2704.076 43.737 6883.768
+ Points {
+  ShapePoint "{633E8850D55BBE6E}" {
+   Position 4.521 -0.378 -6.975
+  }
+  ShapePoint "{633E8850D48D6EAA}" {
+   Position 8.522 -0.035 -33.209
+  }
+  ShapePoint "{633E8850C0268FE9}" {
+   Position 11.079 1.029 -45.948
+  }
+  ShapePoint "{633E8850C3988BCE}" {
+   Position 21.842 3.134 -66.766
+  }
+  ShapePoint "{633E8850C6628D11}" {
+   Position 23.813 3.924 -74.143
+  }
+  ShapePoint "{633E8850C77B4993}" {
+   Position 22.087 4.717 -81.325
+  }
+  ShapePoint "{633E8850C920D524}" {
+   Position -11.022 6.81 -102.821
+  }
+  ShapePoint "{633E8850CB2F0782}" {
+   Position -22.793 7.434 -109.242
+  }
+  ShapePoint "{633E8850CD89D1BE}" {
+   Position -50.781 8.117 -122.751
+  }
+  ShapePoint "{633E8850F0F63E45}" {
+   Position -68.229 8.169 -128.398
+  }
+  ShapePoint "{633E8850F2780E7D}" {
+   Position -83.263 8.138 -130.579
+  }
+  ShapePoint "{633E8850F47642D4}" {
+   Position -102.117 8.138 -129.187
+  }
+  ShapePoint "{633E8850F6243D22}" {
+   Position -121.085 8.107 -125.014
+  }
+  ShapePoint "{633E8850F810B975}" {
+   Position -161.379 7.951 -112.193
+  }
+  ShapePoint "{633E8850FBD355A7}" {
+   Position -199.272 7.692 -99.199
+  }
+  ShapePoint "{633E8850FDE21751}" {
+   Position -228.932 7.406 -88.234
+  }
+  ShapePoint "{633E8850FFD9D02F}" {
+   Position -263.001 6.784 -74.984
+  }
+  ShapePoint "{633E8850E11055B0}" {
+   Position -293.245 5.333 -62.744
+  }
+  ShapePoint "{633E8850E4503824}" {
+   Position -318.331 3.807 -52.378
+  }
+  ShapePoint "{633E8850E6BA95EE}" {
+   Position -327.096 3.255 -48.294
+  }
+  ShapePoint "{633E8850EA733705}" {
+   Position -306.625 4.456 -35.07
+  }
+  ShapePoint "{633E8850EC93153A}" {
+   Position -299.387 5.017 -26.81
+  }
+  ShapePoint "{633E8850EE971F4F}" {
+   Position -296.941 5.313 -20.166
+  }
+  ShapePoint "{633E882F11FAACD4}" {
+   Position -293.986 6.5 1.256
+  }
+  ShapePoint "{633E882F12746955}" {
+   Position -292.096 11.835 50.744
+  }
+  ShapePoint "{633E882F14277107}" {
+   Position -292.174 13.178 68.337
+  }
+  ShapePoint "{633E882F16552D82}" {
+   Position -290.919 14.316 80.938
+  }
+  ShapePoint "{633E882F19DB8CDB}" {
+   Position -283.515 17.075 110.701
+  }
+  ShapePoint "{633E882F1B7BB5F0}" {
+   Position -276.705 18.013 131.722
+  }
+  ShapePoint "{633E882F1E6968F4}" {
+   Position -259.806 20.59 171.293
+  }
+  ShapePoint "{633E882F008688E8}" {
+   Position -256.272 20.817 178.779
+  }
+  ShapePoint "{633E882F03AFE9B1}" {
+   Position -210.953 17.401 150.325
+  }
+  ShapePoint "{633E882F0AA4209D}" {
+   Position -189.472 16.278 135.795
+  }
+  ShapePoint "{633E882F0C6B9913}" {
+   Position -183.055 16.03 129.613
+  }
+  ShapePoint "{633E882F0E14C358}" {
+   Position -181.263 15.481 122.75
+  }
+  ShapePoint "{633E882F308C2C3C}" {
+   Position -184.619 13.799 106.769
+  }
+  ShapePoint "{633E882F32001C45}" {
+   Position -183.677 12.642 97.584
+  }
+  ShapePoint "{633E882F34415C72}" {
+   Position -178.392 11.576 89.925
+  }
+  ShapePoint "{633E882F36651B02}" {
+   Position -172.72 10.842 85.184
+  }
+  ShapePoint "{633E882F38878A42}" {
+   Position -158.559 9.413 76.821
+  }
+  ShapePoint "{633E882F3A64BF24}" {
+   Position -115.077 6.095 56.497
+  }
+  ShapePoint "{633E882F3D217A36}" {
+   Position -92.725 5.515 47.676
+  }
+  ShapePoint "{633E882F20E0C80B}" {
+   Position -74.293 5.022 40.571
+  }
+  ShapePoint "{633E882F22AE2B3B}" {
+   Position -52.385 4.131 30.549
+  }
+  ShapePoint "{633E882F24C5F2C3}" {
+   Position -22.274 1.841 15.298
+  }
+  ShapePoint "{633E882F26DF9956}" {
+   Position -5.113 0.407 4.91
+  }
+  ShapePoint "{633E882F27773ECE}" {
+   Position 0.863 -0.082 -1.173
+  }
+ }
+ IsClosed 1
+ {
+  TSG_CaptureTrigger crashsite_trigger {
+   components {
+    RplComponent "{633E883122F9E21B}" {
+    }
+    Hierarchy "{633E8831245A17CF}" {
+    }
+   }
+   m_aDefenderFactions {
+    "USSR"
+   }
+   m_aAttackerFactions {
+    "US"
+   }
+   m_aAttackerObjectiveNames {
+    "trigger_captured"
+   }
+   m_aDefenderObjectiveNames {
+    "trigger_defended"
+   }
+   m_iNumberOfDefenders 2
+   m_iNumberOfAttackers 3
+   m_fHeight 200
+  }
+ }
+}

@@ -1,0 +1,52 @@
+$grp Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ UAZ1 {
+  coords 8732.005 108.766 2927.75
+  angleX -4.186
+  angleY 122.663
+  angleZ 1.561
+ }
+ UAZ2 {
+  coords 8714.342 110.986 2951.365
+  angleX -3.725
+  angleY 145.842
+  angleZ -0.713
+ }
+}
+$grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ BTR1 {
+  coords 8712.731 109.467 2915.708
+  angleX -4.985
+  angleY 143.308
+  angleZ -5.174
+ }
+ BTR2 {
+  coords 8697.024 112.077 2903.812
+  angleX -5.149
+  angleY 143.332
+  angleZ -8.34
+ }
+ BTR3 {
+  coords 8682.915 114.218 2892.995
+  angleX -4.444
+  angleY 143.276
+  angleZ -8.865
+ }
+ BTR4 {
+  coords 8691.607 112.518 2941.814
+  angleX -4.279
+  angleY 143.237
+  angleZ -5.703
+ }
+ BTR5 {
+  coords 8676.983 114.276 2930.718
+  angleX -4.647
+  angleY 143.229
+  angleZ 1.241
+ }
+ BTR6 {
+  coords 8661.936 116.103 2919.529
+  angleX -2.545
+  angleY 142.887
+  angleZ -9.21
+ }
+}

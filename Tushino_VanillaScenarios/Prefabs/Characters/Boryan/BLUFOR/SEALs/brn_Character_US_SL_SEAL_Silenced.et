@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{09EEFB48EEEA674F}Prefabs/Characters/Boryan/BLUFOR/SEALs/brn_Character_US_SL_SEAL.et" {
+ ID "520EC961A090BBD5"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{87DFF5240BA6176E}Prefabs/Weapons/Rifles/M16/Variants/Rifle_M16A2_carbine_suppressor_4x20_OliveGreen_Sand_Stripes.et"
+  }
+ }
+}

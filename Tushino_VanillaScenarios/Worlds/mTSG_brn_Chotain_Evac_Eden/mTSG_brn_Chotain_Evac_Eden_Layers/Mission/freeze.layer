@@ -1,0 +1,68 @@
+SCR_EditorRestrictionZoneEntity ussr_freeze2 : "{6144B0BE2EAC6897}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneMedium.et" {
+ components {
+  SCR_ZoneRestrictionAreaMeshComponent "{56D8A3C5A31496A1}" {
+   m_fHeight 100
+  }
+ }
+ coords 7250.462 48.84 7678.128
+ m_fWarnRadius 175
+ m_fZoneRadius 200
+ m_fZoneTeleportedRadius 210
+ {
+  GenericEntity {
+   ID "59D673B36B893D84"
+   components {
+    SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+     m_fHeight 100
+     m_fRadius 175
+    }
+   }
+  }
+ }
+}
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ us_freeze {
+  components {
+   SCR_ZoneRestrictionAreaMeshComponent "{56D8A3C5A31496A1}" {
+    m_fHeight 100
+   }
+  }
+  coords 6209.505 181.279 7470.2
+  angleX -11.261
+  angleY -1.605
+  angleZ 8.163
+  m_fZoneRadius 174
+  m_fZoneTeleportedRadius 184
+ }
+ fia_freeze {
+  coords 5819.565 15.461 8475.619
+  angleX -12.275
+  angleY -0.847
+  angleZ 4.545
+ }
+ ussr_freeze1 {
+  coords 7694.096 12.969 8094.281
+ }
+ ussr_freeze3 {
+  components {
+   SCR_ZoneRestrictionAreaMeshComponent "{56D8A3C5A31496A1}" {
+    m_fHeight 200
+   }
+  }
+  coords 7455.797 7.875 6726.955
+  m_fWarnRadius 475
+  m_fZoneRadius 500
+  m_fZoneTeleportedRadius 510
+  {
+   GenericEntity {
+    ID "59D673B36B893D84"
+    components {
+     SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+      m_fHeight 200
+      m_fRadius 475
+     }
+    }
+   }
+  }
+ }
+}

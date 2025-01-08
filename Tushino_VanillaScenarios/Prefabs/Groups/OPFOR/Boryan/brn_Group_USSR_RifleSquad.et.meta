@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{2F324E607FD93F85}Prefabs/Groups/OPFOR/Boryan/brn_Group_USSR_RifleSquad.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

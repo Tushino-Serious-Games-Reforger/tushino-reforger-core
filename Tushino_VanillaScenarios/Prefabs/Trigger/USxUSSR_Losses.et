@@ -1,4 +1,4 @@
-PS_FactionLossesConstraint {
+TSG_FactionLossesConstraint {
  ID "630467F64249EEB0"
  coords 4766.984 28.593 11615.006
  m_sFactionKey "US"

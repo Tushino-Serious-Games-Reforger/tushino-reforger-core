@@ -1,0 +1,18 @@
+$grp GenericEntity : "{3F7758A6255A89EC}Prefabs/Props/Boryan/Military/Crates/mTSG_brn_WeaponsCrateStack.et" {
+ crate1 {
+  coords 10078.773 2.585 1531.627
+  angleY 40.648
+ }
+ crate2 {
+  coords 10076.036 2.585 1530.048
+  angleY -26.205
+ }
+ crate3 {
+  coords 10098.322 2.585 1526.027
+  angleY 94.617
+ }
+ crate4 {
+  coords 10096.479 2.585 1523.525
+  angleY -98.247
+ }
+}

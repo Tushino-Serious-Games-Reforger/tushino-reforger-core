@@ -1,0 +1,20 @@
+$grp Vehicle : "{5168FEA3054D6D15}Prefabs/Vehicles/Wheeled/M151A2/M151A2_M2HB_MERDC.et" {
+ M151A2_M2HB_MERDC1 {
+  coords 5827.877 12.769 8484.305
+  angleX -1.058
+  angleY 115.378
+  angleZ -12.202
+ }
+ M151A2_M2HB_MERDC2 {
+  coords 5825 14.3 8478.215
+  angleX -1.448
+  angleY 115.522
+  angleZ -13.338
+ }
+}
+Vehicle fia_hq_uaz : "{E28501E93F8EFDC0}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_FIA_uncovered.et" {
+ coords 6248.946 178.908 7507.551
+ angleX -1.68
+ angleY 110.221
+ angleZ -0.619
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F65A5C3A47A8FCB2}Prefabs/Groups/OPFOR/Boryan/USSR_Rifle_Company_BTR_70/RiflePlatoon/brn_Group_USSR_RifleSquad.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -4,7 +4,7 @@ class PS_PolyZoneObjectiveTriggerSaveClass : PS_PolyZoneObjectiveTriggerDestroyC
 }
 
 /**
-    Use it to fail objective when all entities in trigger are destroyed and set it completed otherwise
+	Use it to fail objective when all entities in trigger are destroyed and set it completed otherwise
  */
 class PS_PolyZoneObjectiveTriggerSave : PS_PolyZoneObjectiveTriggerDestroy
 {

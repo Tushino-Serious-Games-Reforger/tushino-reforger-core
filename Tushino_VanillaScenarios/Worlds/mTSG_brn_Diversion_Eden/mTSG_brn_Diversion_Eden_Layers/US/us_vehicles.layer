@@ -1,0 +1,150 @@
+Vehicle M1025_MERDC1 : "{27E2E58E734A80EC}Prefabs/Vehicles/Wheeled/M998/M1025_MERDC.et" {
+ coords 10060.081 2.587 1553.357
+ angleY 14.697
+}
+$grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
+ M1025_armed_M2HB_MERDC5 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{644EDA03A0603644}" {
+      SlotTemplate InventoryStorageSlot binos {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+  }
+  coords 10047.821 2.587 1555.219
+  angleY 14.797
+ }
+ M1025_armed_M2HB_MERDC4 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{644EDA03A0603644}" {
+      SlotTemplate InventoryStorageSlot binos {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+  }
+  coords 10045.469 2.587 1548.332
+  angleY 15.137
+ }
+ M1025_armed_M2HB_MERDC3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{644EDA03A0603644}" {
+      SlotTemplate InventoryStorageSlot binos {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+  }
+  coords 10041.372 2.587 1556.434
+  angleY 17.24
+ }
+ M1025_armed_M2HB_MERDC6 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{644EDA03A0603644}" {
+      SlotTemplate InventoryStorageSlot binos {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+  }
+  coords 10052.102 2.587 1546.794
+  angleY 16.891
+ }
+ M1025_armed_M2HB_MERDC2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{644EDA03A0603644}" {
+      SlotTemplate InventoryStorageSlot binos {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+  }
+  coords 10039.373 2.587 1549.931
+  angleY 15.547
+ }
+ M1025_armed_M2HB_MERDC9 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{644EDA03A0603644}" {
+      SlotTemplate InventoryStorageSlot binos {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+  }
+  coords 10031.414 2.687 1593.659
+  angleY 108.856
+ }
+ M1025_armed_M2HB_MERDC8 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{644EDA03A0603644}" {
+      SlotTemplate InventoryStorageSlot binos {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+  }
+  coords 10029.776 2.687 1589.012
+  angleY 102.022
+ }
+ M1025_armed_M2HB_MERDC7 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{644EDA03A0603644}" {
+      SlotTemplate InventoryStorageSlot binos {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+  }
+  coords 10053.767 2.587 1553.364
+  angleY 16.643
+ }
+ M1025_armed_M2HB_MERDC10 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{644EDA03A0603644}" {
+      SlotTemplate InventoryStorageSlot binos {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+      NumSlots 1
+     }
+    }
+   }
+  }
+  coords 10032.648 2.687 1598.529
+  angleY 106.061
+ }
+}

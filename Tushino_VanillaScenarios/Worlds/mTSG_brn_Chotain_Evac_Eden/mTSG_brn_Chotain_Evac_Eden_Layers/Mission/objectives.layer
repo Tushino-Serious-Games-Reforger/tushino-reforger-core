@@ -1,0 +1,256 @@
+$grp TSG_EntityConstraint {
+ destroy_btrs {
+  components {
+   RplComponent "{633D299687D9C700}" {
+   }
+  }
+  coords 7492.504 0 7965.338
+  m_aPrefabs {
+   "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+  }
+  m_iExpectedNumberOfEntities 4
+  m_bDisableWhenTriggered 1
+  {
+   PS_Objective btrs_destroyed {
+    components {
+     RplComponent "{63227DE56BEEC6E3}" {
+     }
+     Hierarchy "{633D29968DE3461B}" {
+     }
+    }
+    m_sTitle "Все БТР были уничтожены"
+    m_iScore 100
+    m_sFactionKey "US"
+   }
+  }
+ }
+ save_btrs {
+  components {
+   RplComponent "{633D29910797BC96}" {
+   }
+  }
+  coords 7470.715 0 7941.587
+  m_aPrefabs {
+   "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+  }
+  m_bCheckAlive 1
+  m_sPolygonName "USSR_border"
+  {
+   PS_Objective btrs_saved {
+    components {
+     RplComponent "{63227DE5614C3D20}" {
+     }
+     Hierarchy "{633D29910E7B4369}" {
+     }
+    }
+    coords -3478.541 17.845 503.653
+    m_sTitle "Хотябы один БТР выжил"
+    m_iScore 80
+    m_sFactionKey "USSR"
+   }
+  }
+ }
+ btr_evac {
+  components {
+   RplComponent "{633D3C5D6BC335AD}" {
+   }
+  }
+  coords 8048.614 0 8333.372
+  m_aPrefabs {
+   "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+  }
+  m_bCheckAlive 1
+  m_bDisableWhenTriggered 1
+  m_sPolygonName "US_border"
+  m_bInversed 1
+  {
+   PS_Objective btr_evacuated {
+    components {
+     RplComponent "{63227DE56BEEC6E3}" {
+     }
+     Hierarchy "{633D29968DE3461B}" {
+     }
+    }
+    coords -116.075 0 -656.659
+    m_sTitle "БТР эвакуирован в безопасное место"
+    m_iScore 0
+    m_sFactionKey "USSR"
+    m_bAdvanceWhenTriggered 1
+   }
+  }
+ }
+}
+$grp TSG_FactionLossesConstraint {
+ USSR_losses {
+  coords 6173.927 178.717 7515.472
+  angleX -4.305
+  angleY 1.04
+  angleZ -8.934
+  m_sFactionKey "USSR"
+  m_iMinNumberOfAliveCharacters 1
+  {
+   $grp PS_Objective {
+    fia_victory_by_losses {
+     components {
+      RplComponent "{6328F5ABCBCE6BE4}" {
+      }
+      Hierarchy "{6328F5ABCDDCBE77}" {
+      }
+     }
+     coords -1.905 0.044 -0.905
+     angleX 4.414
+     angleY -0.36
+     angleZ 8.881
+     m_sTitle "Советские войска разгромлены"
+     m_iScore 100
+     m_sFactionKey "FIA"
+     m_bAdvanceWhenTriggered 1
+    }
+    us_victory_by_losses {
+     components {
+      RplComponent "{6328F5ABCBCE6BE4}" {
+      }
+      Hierarchy "{6328F5ABCDDCBE77}" {
+      }
+     }
+     coords 1215.256 -332.65 522.509
+     angleX 8.83
+     angleY -0.031
+     angleZ 17.814
+     m_sTitle "Советские войска разгромлены"
+     m_iScore 100
+     m_sFactionKey "US"
+    }
+    ussr_loss_by_losses {
+     components {
+      RplComponent "{6328F5ABCBCE6BE4}" {
+      }
+      Hierarchy "{6328F5ABCDDCBE77}" {
+      }
+     }
+     coords 1740.943 -440.165 196.082
+     angleX 13.141
+     angleY 1.003
+     angleZ 26.906
+     m_sTitle "Советские войска разгромлены"
+     m_iScore -100
+     m_sFactionKey "USSR"
+    }
+   }
+  }
+ }
+ US_FIA_losses {
+  coords 6175.888 178.699 7520.478
+  m_sFactionKey "US"
+  m_aAdditionalFactionKeys {
+   "FIA"
+  }
+  m_iMinNumberOfAliveCharacters 3
+  {
+   PS_Objective ussr_victory_by_losses {
+    components {
+     RplComponent "{63290973B3C016A8}" {
+     }
+     Hierarchy "{63290973B030BA19}" {
+     }
+    }
+    coords -0.344 -0.618 7.21
+    m_sTitle "FIA и США разгромлены"
+    m_iScore 20
+    m_sFactionKey "USSR"
+    m_bAdvanceWhenTriggered 1
+   }
+  }
+ }
+}
+TSG_GameAdvance advance_game {
+ coords 7467.318 0 7981.399
+ m_iNumberOfObjectivesToComplete 2
+ m_aNamesOfObjectives {
+  "btrs_destroyed" "fia_captured_facility" "us_captured_facility"
+ }
+}
+$grp TSG_ObserveFlag {
+ observe_ussr_flag {
+  components {
+   RplComponent "{63254261FFEE8360}" {
+   }
+   Hierarchy "{6324090066889EF4}" {
+   }
+  }
+  coords 7668.338 13.598 8094.202
+  angleX -1.788
+  angleY 0.056
+  angleZ -1.791
+  m_sFlagName "base_flag"
+  m_sFactionKey "USSR"
+  {
+   PS_Objective ussr_control_facility {
+    components {
+     RplComponent "{63227DE5907AAE8B}" {
+     }
+     Hierarchy "{6324091F288D1C9F}" {
+     }
+    }
+    coords -3699.124 129.72 297.419
+    angleX 1.789
+    angleZ 1.79
+    m_sTitle "Советские войска защитили склад"
+    m_iScore 20
+    m_sFactionKey "USSR"
+   }
+  }
+ }
+ observe_us_flag {
+  components {
+   RplComponent "{63254261FAA32962}" {
+   }
+   Hierarchy "{632409009AED39E2}" {
+   }
+  }
+  coords 7663.417 13.722 8088.565
+  m_sFlagName "base_flag"
+  m_sFactionKey "US"
+  {
+   PS_Objective us_captured_facility {
+    components {
+     RplComponent "{63227DE56D4D4CC7}" {
+     }
+     Hierarchy "{6324091F2DA269DB}" {
+     }
+    }
+    coords -3660.448 7.927 385.649
+    m_sTitle "Спецназ США захватил склад"
+    m_iScore 0
+    m_sFactionKey "US"
+   }
+  }
+ }
+ observe_fia_flag {
+  components {
+   RplComponent "{63254261F472147E}" {
+   }
+   Hierarchy "{632409008CB6ED8E}" {
+   }
+  }
+  coords 7659.617 13.546 8083.65
+  angleX 2.684
+  m_sFlagName "base_flag"
+  m_sFactionKey "FIA"
+  {
+   PS_Objective fia_captured_facility {
+    components {
+     RplComponent "{63227DE5673D8BF2}" {
+     }
+     Hierarchy "{6324091F51865E51}" {
+     }
+    }
+    coords -3661.003 -8.207 326.465
+    angleX -2.684
+    m_sTitle "FIA захватила склад"
+    m_iScore 100
+    m_sFactionKey "FIA"
+   }
+  }
+ }
+}

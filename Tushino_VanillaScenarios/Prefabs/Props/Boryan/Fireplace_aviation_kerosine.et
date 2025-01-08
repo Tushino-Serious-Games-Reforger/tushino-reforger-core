@@ -1,0 +1,12 @@
+GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+   m_eInitialLightState LIT
+  }
+ }
+ coords 2608.682 46.339 6883.027
+ angleX 2.741
+ angleY -1.881
+ angleZ 1.699
+}

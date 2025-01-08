@@ -1,79 +1,38 @@
-PolylineShapeEntity kill_administrator_objective : "{127D357736B0C350}Prefabs/PolyZone/PolyZone_Destroy.et" {
- coords 12637.125 0 1777.01
- Points {
-  ShapePoint "{62FA04D241E5016F}" {
-   Position -1722.466 -47.708 2202.31
-  }
-  ShapePoint "{62FA04D2496B3D02}" {
-   Position -3068.962 238.337 1019.493
-  }
-  ShapePoint "{62FA04D24C97A0CC}" {
-   Position -2399.105 -13.197 -503.634
-  }
-  ShapePoint "{62FA04D271F69B22}" {
-   Position -645.804 -85.382 -1015.804
-  }
- }
- {
-  PS_Objective kill_administrator {
-   ID "60E9062E6BABF763"
-   m_sTitle "Глава администрации убит"
-   m_sFactionKey "FIA"
-   m_bAdvanceWhenTriggered 1
-  }
-  PS_PolyZoneObjectiveTriggerDestroy kill_administrator_trigger {
-   ID "60E9062E6BABF765"
-   "Polyline Height" 1000
-   UpdatePeriod 120
-   ClassesFilter {
+$grp TSG_EntityConstraint {
+ kill_administrator {
+  components {
+   RplComponent "{633D225CFE11B31C}" {
    }
-   PrefabsFilter {
-    PrefabFilter "{62FA04D2911C4063}" {
-     Prefab "{575536F7FD6F628B}Prefabs/Characters/Boryan/OPFOR/USSR_Army/CIV/brn_Character_USSR_Administrator.et"
-    }
+  }
+  coords 12662.778 0 1785.969
+  m_aPrefabs {
+   "{575536F7FD6F628B}Prefabs/Characters/Boryan/OPFOR/USSR_Army/CIV/brn_Character_USSR_Administrator.et"
+  }
+  m_bDisableWhenTriggered 1
+  {
+   PS_Objective administrator_killed : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+    m_sTitle "Глава администрации убит"
+    m_sFactionKey "FIA"
+    m_bAdvanceWhenTriggered 1
    }
   }
  }
-}
-PolylineShapeEntity : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
- coords 12637.124 0 1777.01
- Points {
-  ShapePoint "{62FA04D241E5016F}" {
-   Position -1722.466 -47.708 2202.31
-  }
-  ShapePoint "{62FA04D2496B3D02}" {
-   Position -3068.962 238.337 1019.493
-  }
-  ShapePoint "{62FA04D24C97A0CC}" {
-   Position -2399.105 -13.197 -503.634
-  }
-  ShapePoint "{62FA04D271F69B22}" {
-   Position -645.804 -85.382 -1015.804
-  }
- }
- {
-  PS_PolyZoneObjectiveTriggerSave save_administrator_trigger {
-   components {
-    Hierarchy "{630200EBAEBC2034}" {
-    }
-   }
-   coords -515.332 0 -277.4
-   angleX -1.79
-   TriggerShapeType Polyline
-   "Polyline Height" 1000
-   TriggerActivationType "All changes"
-   PeriodicQueries 1
-   UpdatePeriod 30
-   PrefabsFilter {
-    PrefabFilter "{630200EBDDF5BA82}" {
-     Prefab "{575536F7FD6F628B}Prefabs/Characters/Boryan/OPFOR/USSR_Army/CIV/brn_Character_USSR_Administrator.et"
-    }
+ protect_administrator {
+  components {
+   RplComponent "{633D225D0DF16B3E}" {
    }
   }
-  PS_Objective protect_administrator : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
-   coords -666.888 0 496.222
-   m_sTitle "Глава администрации выжил"
-   m_sFactionKey "USSR"
+  coords 12628.836 0 1789.783
+  m_aPrefabs {
+   "{575536F7FD6F628B}Prefabs/Characters/Boryan/OPFOR/USSR_Army/CIV/brn_Character_USSR_Administrator.et"
+  }
+  m_bCheckAlive 1
+  {
+   PS_Objective administrator_protected : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+    coords -658.6 0 483.449
+    m_sTitle "Глава администрации выжил"
+    m_sFactionKey "USSR"
+   }
   }
  }
 }

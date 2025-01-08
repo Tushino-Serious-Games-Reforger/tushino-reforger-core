@@ -1,0 +1,176 @@
+$grp Vehicle : "{6B24D5AFD884D64C}Prefabs/Vehicles/Wheeled/M998/M998_MERDC.et" {
+ M998_MERDC1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{633E887B553FC4BD}" {
+      SlotTemplate InventoryStorageSlot vog1 {
+       Prefab "{98DB57ECEDC81CC2}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M583A1_White.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{633E887B57C13079}" {
+      SlotTemplate InventoryStorageSlot flare2 {
+       Prefab "{0AF10C206CF1A283}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M661_Green.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{633E887B5751B29C}" {
+      SlotTemplate InventoryStorageSlot flare3 {
+       Prefab "{2A63C909016C4C41}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M662_Red.et"
+      }
+      NumSlots 10
+     }
+    }
+   }
+  }
+  coords 1236.544 30.058 6093.791
+  angleX 3.126
+  angleY 167.971
+  angleZ -2.492
+ }
+ M998_MERDC2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{633E887B553FC4BD}" {
+      SlotTemplate InventoryStorageSlot vog1 {
+       Prefab "{98DB57ECEDC81CC2}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M583A1_White.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{633E887B57C13079}" {
+      SlotTemplate InventoryStorageSlot flare2 {
+       Prefab "{0AF10C206CF1A283}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M661_Green.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{633E887B5751B29C}" {
+      SlotTemplate InventoryStorageSlot flare3 {
+       Prefab "{2A63C909016C4C41}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M662_Red.et"
+      }
+      NumSlots 10
+     }
+    }
+   }
+  }
+  coords 1237.397 32.844 6054.271
+  angleX 4.465
+  angleY -179.843
+  angleZ 0.905
+ }
+ M998_MERDC3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{633E887B553FC4BD}" {
+      SlotTemplate InventoryStorageSlot vog1 {
+       Prefab "{98DB57ECEDC81CC2}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M583A1_White.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{633E887B57C13079}" {
+      SlotTemplate InventoryStorageSlot flare2 {
+       Prefab "{0AF10C206CF1A283}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M661_Green.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{633E887B5751B29C}" {
+      SlotTemplate InventoryStorageSlot flare3 {
+       Prefab "{2A63C909016C4C41}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M662_Red.et"
+      }
+      NumSlots 10
+     }
+    }
+   }
+  }
+  coords 1242.961 35.081 6016.595
+  angleX 2.828
+  angleY 163.156
+  angleZ 0.079
+ }
+ M998_MERDC5 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{633E887B553FC4BD}" {
+      SlotTemplate InventoryStorageSlot vog1 {
+       Prefab "{98DB57ECEDC81CC2}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M583A1_White.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{633E887B57C13079}" {
+      SlotTemplate InventoryStorageSlot flare2 {
+       Prefab "{0AF10C206CF1A283}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M661_Green.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{633E887B5751B29C}" {
+      SlotTemplate InventoryStorageSlot flare3 {
+       Prefab "{2A63C909016C4C41}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M662_Red.et"
+      }
+      NumSlots 10
+     }
+    }
+   }
+  }
+  coords 1272.622 36.83 6056.385
+  angleX 3.881
+  angleY 119.745
+  angleZ 2.215
+ }
+}
+$grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
+ M1025_armed_M2HB_MERDC1 {
+  coords 1236.61 30.887 6079.468
+  angleX 3.611
+  angleY 177.564
+  angleZ 0.741
+ }
+ M1025_armed_M2HB_MERDC2 {
+  coords 1238.446 34.136 6036.332
+  angleX 3.573
+  angleY 177.564
+  angleZ -0.152
+ }
+ M1025_armed_M2HB_MERDC3 {
+  coords 1246.046 35.629 6004.91
+  angleX 1.979
+  angleY 161.881
+  angleZ 0.294
+ }
+ M1025_armed_M2HB_MERDC5 {
+  coords 1281.818 37.398 6050.207
+  angleX 2.089
+  angleY 128.914
+  angleZ 1.686
+ }
+}
+Vehicle UH1H_armed1 : "{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5E1E994304F0E0D3}" {
+   MultiSlots {
+    MultiSlotConfiguration "{644F33895661939D}" {
+     SlotTemplate InventoryStorageSlot flare_white {
+      Prefab "{98DB57ECEDC81CC2}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M583A1_White.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{644F338972C89134}" {
+     SlotTemplate InventoryStorageSlot flare_red {
+      Prefab "{2A63C909016C4C41}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M662_Red.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{644F338968B2F7B6}" {
+     SlotTemplate InventoryStorageSlot flare_green {
+      Prefab "{0AF10C206CF1A283}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M661_Green.et"
+     }
+     NumSlots 10
+    }
+   }
+  }
+ }
+ coords 1071.579 2.781 6042.476
+ angleY 139.226
+}

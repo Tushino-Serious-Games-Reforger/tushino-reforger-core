@@ -1,0 +1,86 @@
+Vehicle UAZ469_PKM1 : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" {
+ coords 7507.749 6.491 6763.367
+ angleX -1.8
+ angleY 122.076
+ angleZ -2.183
+}
+$grp Vehicle : "{4C81D7ED8F8C0D87}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker.et" {
+ Zapravshik {
+  coords 7482.346 7.76 6780.305
+  angleX -1.636
+  angleY 126.251
+  angleZ -2.308
+ }
+ Zapravshik2 {
+  coords 7493.643 7.215 6772.692
+  angleX -2.697
+  angleY 126.016
+  angleZ -0.854
+ }
+}
+$grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ BTR1 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{5628CA8E08F1AAF4}" {
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 7684.156 12.969 8068.471
+  angleY -48.744
+ }
+ BTR2 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{5628CA8E08F1AAF4}" {
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 7719.749 12.969 8110.385
+  angleY -48.744
+ }
+ BTR3 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{5628CA8E08F1AAF4}" {
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 7709.582 12.969 8099.609
+  angleY -48.744
+ }
+ BTR4 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
+     }
+     SCR_FuelNode "{5628CA8E08F1AAF4}" {
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 7699.536 12.969 8087.298
+  angleY -48.744
+ }
+}

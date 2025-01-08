@@ -1,0 +1,85 @@
+$grp PS_Objective {
+ trigger_captured {
+  components {
+   RplComponent "{633F5D5C3876ACFC}" {
+   }
+  }
+  coords 3054.132 38.391 6861.22
+  m_sTitle "Место крушения вертолета зачищено"
+  m_iScore 100
+  m_sFactionKey "US"
+  m_bAdvanceWhenTriggered 1
+ }
+ trigger_defended {
+  components {
+   RplComponent "{633F5D5C3CF793E0}" {
+   }
+  }
+  coords 3060.644 46.084 6800.966
+  m_sTitle "Защитили место крушения вертолета"
+  m_iScore 100
+  m_sFactionKey "USSR"
+ }
+}
+$grp TSG_FactionLossesConstraint {
+ USSR_losses {
+  components {
+   RplComponent "{633E883FF447CD99}" {
+   }
+  }
+  coords 2971.689 48.175 6811.097
+  m_sFactionKey "USSR"
+  m_iMinNumberOfAliveCharacters 2
+  {
+   $grp PS_Objective {
+    ussr_destroyed {
+     components {
+      RplComponent "{633E883E0C3A2235}" {
+      }
+      Hierarchy "{633E883E0A5E7884}" {
+      }
+     }
+     m_sTitle "Советские войска разгромлены"
+     m_iScore 100
+     m_sFactionKey "US"
+     m_bAdvanceWhenTriggered 1
+    }
+    ussr_destroyed_ussr {
+     components {
+      RplComponent "{633E883E0C3A2235}" {
+      }
+      Hierarchy "{633E883E0A5E7884}" {
+      }
+     }
+     coords -403.466 4.771 -409.373
+     m_sTitle "Советские войска разгромлены"
+     m_iScore -100
+     m_sFactionKey "USSR"
+    }
+   }
+  }
+ }
+ US_losses {
+  components {
+   RplComponent "{633E883FF1134EA5}" {
+   }
+  }
+  coords 2977.66 54.492 6775.218
+  m_sFactionKey "US"
+  m_iMinNumberOfAliveCharacters 3
+  {
+   PS_Objective us_destroyed {
+    components {
+     RplComponent "{633E883E25DFA33E}" {
+     }
+     Hierarchy "{633E883E2606D9E4}" {
+     }
+    }
+    m_sTitle "Американцы разгромлены"
+    m_iScore 100
+    m_sFactionKey "USSR"
+    m_bAdvanceWhenTriggered 1
+   }
+  }
+ }
+}

@@ -1,4 +1,9 @@
-SCR_AIGroup B11_HQ : "{121F4A7DB996AE83}Prefabs/Groups/Tynec/OPFOR/mTSG_Group_USSR_HQ.et" {
+SCR_AIGroup B11_HQ : "{121F4A7DB996AE83}Prefabs/Groups/Tynec/OPFOR/Tyn_Group_USSR_HQ.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+ }
  coords 11673.802 8.656 2214.344
  angleY 104.05
  m_aUnitPrefabSlots {

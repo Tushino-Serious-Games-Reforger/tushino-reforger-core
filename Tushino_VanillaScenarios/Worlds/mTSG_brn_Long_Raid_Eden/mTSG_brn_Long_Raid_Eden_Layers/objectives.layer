@@ -1,11 +1,17 @@
-$grp PS_FactionLossesConstraint {
+$grp TSG_FactionLossesConstraint {
  US_losses {
+  components {
+   RplComponent "{632542625EC4E27B}" {
+   }
+  }
   coords 4766.984 28.593 11615.006
   m_sFactionKey "US"
   m_iMinNumberOfAliveCharacters 7
   {
    PS_Objective USSR_victory {
     components {
+     RplComponent "{632542625AD1C034}" {
+     }
      Hierarchy "{630467F60FD86A16}" {
      }
     }
@@ -18,12 +24,18 @@ $grp PS_FactionLossesConstraint {
   }
  }
  USSR_Losses {
+  components {
+   RplComponent "{6325426244A3D997}" {
+   }
+  }
   coords 4762.989 28.594 11613.18
   m_sFactionKey "USSR"
   m_iMinNumberOfAliveCharacters 4
   {
    PS_Objective US_victory {
     components {
+     RplComponent "{6325426247BFC50A}" {
+     }
      Hierarchy "{630467F60FD86A16}" {
      }
     }
@@ -40,6 +52,8 @@ PolylineShapeEntity heli_destroy : "{127D357736B0C350}Prefabs/PolyZone/PolyZone_
  components {
   PS_PolyZone "{60E90266F25533F6}" {
    m_mPolygonTextureBorder ""
+  }
+  RplComponent "{63254262267F2D3D}" {
   }
  }
  coords 4798.222 28.017 11682.59
@@ -90,6 +104,8 @@ PolylineShapeEntity heli_save : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et"
  components {
   PS_PolyZone "{60E90266F25533F6}" {
    m_mPolygonTextureBorder ""
+  }
+  RplComponent "{63254262516ED620}" {
   }
  }
  coords 4798.222 28.017 11682.59

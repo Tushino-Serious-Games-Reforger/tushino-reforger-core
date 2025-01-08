@@ -960,6 +960,10 @@ $grp PolylineShapeEntity {
     "Polyline Height" 1000
     TriggerActivationType "All changes"
     PeriodicQueries 1
+    UpdatePeriod 10
+    ClassesFilter {
+     "ChimeraCharacter"
+    }
     PrefabsFilter {
      PrefabFilter "{62F8DDE023E12753}" {
       Prefab "{575536F7FD6F628B}Prefabs/Characters/Boryan/OPFOR/USSR_Army/CIV/brn_Character_USSR_Administrator.et"
