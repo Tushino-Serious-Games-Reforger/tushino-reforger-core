@@ -1,6 +1,11 @@
 $grp TSG_EntityConstraint {
  kshm_destroy {
   components {
+   SCR_EditableEntityComponent "{6456CDD80C18B407}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{6456CDD830EE41B7}" {
+     Name "Триггер на уничтожение КШМ"
+    }
+   }
    RplComponent "{633B6E4735BD04AC}" {
    }
   }
@@ -21,6 +26,11 @@ $grp TSG_EntityConstraint {
  }
  kshm_save {
   components {
+   SCR_EditableEntityComponent "{6456CDD83709F6DF}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{6456CDD83A1C9899}" {
+     Name "Триггер на сохранение КШМ"
+    }
+   }
    RplComponent "{633B6E4759FDDC59}" {
    }
   }

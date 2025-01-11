@@ -635,6 +635,13 @@ $grp PolylineShapeEntity {
   {
    PS_PolyZoneTrigger ussr_trigger {
     components {
+     SCR_EditableEntityComponent "{6456CDDA4453AE64}" {
+      m_UIInfo SCR_EditableEntityUIInfo "{6456CDDA4A35DD9B}" {
+       Name "Триггер на запред на выход за красный маркер для СССР"
+      }
+     }
+     RplComponent "{6456CDDA41017A86}" {
+     }
      Hierarchy "{62F34D0E6039DDC2}" {
      }
     }
@@ -952,6 +959,13 @@ $grp PolylineShapeEntity {
   {
    PS_PolyZoneTrigger hq_trigger {
     components {
+     SCR_EditableEntityComponent "{6456CDDC5938C700}" {
+      m_UIInfo SCR_EditableEntityUIInfo "{6456CDDC404A60E3}" {
+       Name "Триггер на запрет на выход штабным СССР (синий)"
+      }
+     }
+     RplComponent "{6456CDDC560267B6}" {
+     }
      Hierarchy "{62F8DDE016F482A7}" {
      }
     }

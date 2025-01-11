@@ -18,4 +18,16 @@ PS_GameModeCoop TSG_GameModeLobby1 : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_Gam
   }
  }
  coords 6783.52 138.47 6382.625
+ {
+  TSG_MissionTime {
+   ID "633B6E4969D543B5"
+   components {
+    SCR_EditableEntityComponent "{6456CDD841314FA5}" {
+     m_UIInfo SCR_EditableEntityUIInfo "{6456CDD8441B0716}" {
+      Name "Завершение миссии по времени"
+     }
+    }
+   }
+  }
+ }
 }

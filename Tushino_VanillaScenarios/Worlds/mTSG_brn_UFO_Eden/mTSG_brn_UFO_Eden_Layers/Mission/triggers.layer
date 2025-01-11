@@ -161,6 +161,11 @@ PolylineShapeEntity trigger_border {
  {
   TSG_CaptureTrigger crashsite_trigger {
    components {
+    SCR_EditableEntityComponent "{6456CDD86BAECA33}" {
+     m_UIInfo SCR_EditableEntityUIInfo "{6456CDD86F7B2146}" {
+      Name "Триггер на захват плацдарма"
+     }
+    }
     RplComponent "{633E883122F9E21B}" {
     }
     Hierarchy "{633E8831245A17CF}" {

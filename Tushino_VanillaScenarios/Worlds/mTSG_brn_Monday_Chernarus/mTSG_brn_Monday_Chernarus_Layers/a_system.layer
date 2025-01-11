@@ -6,4 +6,16 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 }
 PS_GameModeCoop TSG_GameModeLobby1 : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_GameModeLobby.et" {
  coords 3844.328 310.755 8775.941
+ {
+  TSG_MissionTime {
+   ID "633B6E4969D543B5"
+   components {
+    SCR_EditableEntityComponent "{6456CDDBCB84994D}" {
+     m_UIInfo SCR_EditableEntityUIInfo "{6456CDDBCD169449}" {
+      Name "Завершение миссии по времени"
+     }
+    }
+   }
+  }
+ }
 }

@@ -28,6 +28,13 @@ $grp PolylineShapeEntity {
    $grp PS_PolyZoneTrigger {
     trigger_USSR {
      components {
+      SCR_EditableEntityComponent "{6456CDD81F7FF80E}" {
+       m_UIInfo SCR_EditableEntityUIInfo "{6456CDD80105B6CE}" {
+        Name "Триггер на выход за ТВД для США"
+       }
+      }
+      RplComponent "{6456CDD81C20FE32}" {
+      }
       Hierarchy "{614548BDF998E12B}" {
       }
      }
@@ -49,6 +56,13 @@ $grp PolylineShapeEntity {
     }
     trigger_US {
      components {
+      SCR_EditableEntityComponent "{6456CDD810531F48}" {
+       m_UIInfo SCR_EditableEntityUIInfo "{6456CDD81332A33F}" {
+        Name "Триггер на выход за ТВД для СССР"
+       }
+      }
+      RplComponent "{6456CDDBEEFB2B84}" {
+      }
       Hierarchy "{614548BDF998E12B}" {
       }
      }
@@ -114,6 +128,13 @@ $grp PolylineShapeEntity {
   {
    PS_PolyZoneTrigger frontline_trigger {
     components {
+     SCR_EditableEntityComponent "{6456CDDBFC4C6817}" {
+      m_UIInfo SCR_EditableEntityUIInfo "{6456CDDBE0153274}" {
+       Name "Триггер на нахождение в черном маркере (линия фронта)"
+      }
+     }
+     RplComponent "{6456CDDBF9C2CBFF}" {
+     }
      Hierarchy "{62D720E153F9D546}" {
      }
     }

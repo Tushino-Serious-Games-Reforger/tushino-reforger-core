@@ -101,5 +101,14 @@ PS_GameModeCoop "62F956D81A25B236" : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  }
 }
 TSG_MissionTime {
+ components {
+  SCR_EditableEntityComponent "{6456CDDB161AB9AB}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{6456CDDB197C9C52}" {
+    Name "Завершение миссии по времени"
+   }
+  }
+  RplComponent "{6456CDDB13433820}" {
+  }
+ }
  coords 4768.009 28.562 11592.864
 }

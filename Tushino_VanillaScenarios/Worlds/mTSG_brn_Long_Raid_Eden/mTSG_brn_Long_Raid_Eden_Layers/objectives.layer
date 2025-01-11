@@ -1,6 +1,11 @@
 $grp TSG_FactionLossesConstraint {
  US_losses {
   components {
+   SCR_EditableEntityComponent "{6456CDDB86690D6D}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{6456CDDB8A40B166}" {
+     Name "Проигрыш США по потерям"
+    }
+   }
    RplComponent "{632542625EC4E27B}" {
    }
   }
@@ -25,6 +30,11 @@ $grp TSG_FactionLossesConstraint {
  }
  USSR_Losses {
   components {
+   SCR_EditableEntityComponent "{6456CDDBB2876665}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{6456CDDBB54E9EC8}" {
+     Name "Проигрыш СССР по потерям"
+    }
+   }
    RplComponent "{6325426244A3D997}" {
    }
   }
@@ -81,19 +91,23 @@ PolylineShapeEntity heli_destroy : "{127D357736B0C350}Prefabs/PolyZone/PolyZone_
    m_sFactionKey "US"
    m_bAdvanceWhenTriggered 1
   }
-  PS_PolyZoneObjectiveTriggerDestroy trigger_heli_destroy {
+  PS_PolyZoneObjectiveTriggerDestroy {
+   ID "60E9062E6BABF765"
    components {
-    Hierarchy "{630200E969D09D2B}" {
+    SCR_EditableEntityComponent "{6456CDDB64C2EA59}" {
+     m_UIInfo SCR_EditableEntityUIInfo "{6456CDDB677D2C07}" {
+      Name "Триггер на уничтожение вертолетов"
+     }
+    }
+    RplComponent "{6456CDDB618A09B6}" {
     }
    }
-   coords 16.115 1.576 3.487
-   TriggerShapeType Polyline
    "Polyline Height" 100
-   TriggerActivationType "All changes"
-   PeriodicQueries 1
    UpdatePeriod 30
+   ClassesFilter {
+   }
    PrefabsFilter {
-    PrefabFilter "{630200E99ABAC8A9}" {
+    PrefabFilter "{6456CDDB464471EF}" {
      Prefab "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et"
     }
    }
@@ -129,6 +143,13 @@ PolylineShapeEntity heli_save : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et"
  {
   PS_PolyZoneObjectiveTriggerSave trigger_heli_save {
    components {
+    SCR_EditableEntityComponent "{6456CDDB9AF03B3E}" {
+     m_UIInfo SCR_EditableEntityUIInfo "{6456CDDB9C60C6BA}" {
+      Name "Триггер на сохранение вертолетов"
+     }
+    }
+    RplComponent "{6456CDDB95DA9F04}" {
+    }
     Hierarchy "{630200E83DFA57F1}" {
     }
    }
