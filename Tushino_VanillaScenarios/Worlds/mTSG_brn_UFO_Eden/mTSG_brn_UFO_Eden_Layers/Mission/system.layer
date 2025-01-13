@@ -11,8 +11,8 @@ PS_GameModeCoop TSG_GameModeLobby1 : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_Gam
    m_aStartingWeatherAndTime {
     SCR_TimeAndWeatherState "{633D7ED0BE91CAEB}" {
      m_sWeatherPresetName "Clear"
-     m_iStartingHour 1
-     m_iStartingMinutes 15
+     m_iStartingHour 4
+     m_iStartingMinutes 30
     }
    }
   }

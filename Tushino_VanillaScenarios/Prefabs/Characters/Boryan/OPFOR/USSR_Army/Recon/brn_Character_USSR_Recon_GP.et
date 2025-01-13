@@ -21,6 +21,11 @@ SCR_ChimeraCharacter : "{43CED484D075F274}Prefabs/Characters/drongo/OPFOR/USSR_A
     ItemsInitConfigurationItem "{61B60D5867CCF399}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_GL.et"
     }
+    ItemsInitConfigurationItem "{61B61323FB41EF31}" {
+     PrefabsToSpawn + {
+      "{92B819C350698359}Prefabs/Items/drongo/Equipment/Radios/Radio_R148_rprv.et"
+     }
+    }
     ItemsInitConfigurationItem "{62D1737FCE1C96D8}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_GL.et"
      PrefabsToSpawn {

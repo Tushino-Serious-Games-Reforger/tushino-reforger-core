@@ -24,67 +24,6 @@ $grp PolylineShapeEntity {
    }
   }
   IsClosed 1
-  {
-   $grp PS_PolyZoneTrigger {
-    trigger_USSR {
-     components {
-      SCR_EditableEntityComponent "{6456CDD81F7FF80E}" {
-       m_UIInfo SCR_EditableEntityUIInfo "{6456CDD80105B6CE}" {
-        Name "Триггер на выход за ТВД для США"
-       }
-      }
-      RplComponent "{6456CDD81C20FE32}" {
-      }
-      Hierarchy "{614548BDF998E12B}" {
-      }
-     }
-     angleX -3.573
-     angleY -0.112
-     angleZ 1.793
-     TriggerShapeType Polyline
-     "Polyline Height" 1000
-     TriggerActivationType "All changes"
-     PeriodicQueries 1
-     UpdatePeriod 1
-     ClassesFilter {
-      "SCR_ChimeraCharacter"
-     }
-     m_polyZoneEffect PS_PolyZoneEffectScreenBlure "{62D6F957901FC4F3}" {
-     }
-     m_bReversed 1
-     m_sFactionKey "USSR"
-    }
-    trigger_US {
-     components {
-      SCR_EditableEntityComponent "{6456CDD810531F48}" {
-       m_UIInfo SCR_EditableEntityUIInfo "{6456CDD81332A33F}" {
-        Name "Триггер на выход за ТВД для СССР"
-       }
-      }
-      RplComponent "{6456CDDBEEFB2B84}" {
-      }
-      Hierarchy "{614548BDF998E12B}" {
-      }
-     }
-     coords 0 -0.002 0
-     angleX -3.573
-     angleY -0.112
-     angleZ 1.793
-     TriggerShapeType Polyline
-     "Polyline Height" 1000
-     TriggerActivationType "All changes"
-     PeriodicQueries 1
-     UpdatePeriod 1
-     ClassesFilter {
-      "SCR_ChimeraCharacter"
-     }
-     m_polyZoneEffect PS_PolyZoneEffectScreenBlure "{62D6F9576A972993}" {
-     }
-     m_bReversed 1
-     m_sFactionKey "US"
-    }
-   }
-  }
  }
  frontline {
   components {
@@ -125,31 +64,6 @@ $grp PolylineShapeEntity {
    }
   }
   IsClosed 1
-  {
-   PS_PolyZoneTrigger frontline_trigger {
-    components {
-     SCR_EditableEntityComponent "{6456CDDBFC4C6817}" {
-      m_UIInfo SCR_EditableEntityUIInfo "{6456CDDBE0153274}" {
-       Name "Триггер на нахождение в черном маркере (линия фронта)"
-      }
-     }
-     RplComponent "{6456CDDBF9C2CBFF}" {
-     }
-     Hierarchy "{62D720E153F9D546}" {
-     }
-    }
-    TriggerShapeType Polyline
-    "Polyline Height" 1000
-    TriggerActivationType "All changes"
-    PeriodicQueries 1
-    ClassesFilter {
-     "SCR_ChimeraCharacter"
-    }
-    m_polyZoneEffect PS_PolyZoneEffectScreenBlure "{62D720E104D3F192}" {
-    }
-    m_sFactionKey "US"
-   }
-  }
  }
  vybor_border {
   components {
