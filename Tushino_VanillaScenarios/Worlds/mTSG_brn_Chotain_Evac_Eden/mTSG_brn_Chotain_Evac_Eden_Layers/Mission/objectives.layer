@@ -5,6 +5,7 @@ $grp TSG_EntityConstraint {
     m_UIInfo SCR_EditableEntityUIInfo "{6456CDDF055B741A}" {
      Name "Триггер на уничтожение всех БТР"
     }
+    m_bAutoRegister ALWAYS
    }
    RplComponent "{633D299687D9C700}" {
    }
@@ -35,6 +36,7 @@ $grp TSG_EntityConstraint {
     m_UIInfo SCR_EditableEntityUIInfo "{6456CDDF4B2971FB}" {
      Name "Триггер на сохранение живых БТР"
     }
+    m_bAutoRegister ALWAYS
    }
    RplComponent "{633D29910797BC96}" {
    }
@@ -66,6 +68,7 @@ $grp TSG_EntityConstraint {
     m_UIInfo SCR_EditableEntityUIInfo "{6456CDDF10051A32}" {
      Name "Триггер на эвакуацию БТР"
     }
+    m_bAutoRegister ALWAYS
    }
    RplComponent "{633D3C5D6BC335AD}" {
    }
@@ -102,6 +105,7 @@ $grp TSG_FactionLossesConstraint {
     m_UIInfo SCR_EditableEntityUIInfo "{6456CDDF80B4FFD9}" {
      Name "Проигрыш СССР по потерям"
     }
+    m_bAutoRegister ALWAYS
    }
    RplComponent "{6456CDDF7B0C0D07}" {
    }
@@ -169,6 +173,7 @@ $grp TSG_FactionLossesConstraint {
     m_UIInfo SCR_EditableEntityUIInfo "{6456CDDF6EFD925B}" {
      Name "Проигрыш FIA и США по потерям"
     }
+    m_bAutoRegister ALWAYS
    }
    RplComponent "{6456CDDF788B3E04}" {
    }
@@ -202,6 +207,7 @@ TSG_GameAdvance advance_game {
    m_UIInfo SCR_EditableEntityUIInfo "{6456CDDFBB3DB652}" {
     Name "Завершение игры если захвачен флаг и уничтожены БТР"
    }
+   m_bAutoRegister ALWAYS
   }
   RplComponent "{6456CDDFB43D46E6}" {
   }
@@ -219,6 +225,7 @@ $grp TSG_ObserveFlag {
     m_UIInfo SCR_EditableEntityUIInfo "{6456CDDF5C76A347}" {
      Name "Триггер на удержание флага СССР"
     }
+    m_bAutoRegister ALWAYS
    }
    RplComponent "{63254261FFEE8360}" {
    }
@@ -254,6 +261,7 @@ $grp TSG_ObserveFlag {
     m_UIInfo SCR_EditableEntityUIInfo "{6456CDDF2B376DDA}" {
      Name "Триггер на захват флага США"
     }
+    m_bAutoRegister ALWAYS
    }
    RplComponent "{63254261FAA32962}" {
    }
@@ -284,6 +292,7 @@ $grp TSG_ObserveFlag {
     m_UIInfo SCR_EditableEntityUIInfo "{6456CDDF3618207A}" {
      Name "Триггер на захват флага FIA"
     }
+    m_bAutoRegister ALWAYS
    }
    RplComponent "{63254261F472147E}" {
    }

@@ -6,6 +6,7 @@ $grp TSG_EntityConstraint {
      Name "Триггер на убийство главы администрации"
     }
     m_sIconBoneName "kill admin script"
+    m_bAutoRegister ALWAYS
    }
    RplComponent "{633D225CFE11B31C}" {
    }
@@ -30,6 +31,7 @@ $grp TSG_EntityConstraint {
      Name "Триггер на сохранение в живых главы администрации"
     }
     m_sIconBoneName "protect admin script"
+    m_bAutoRegister ALWAYS
    }
    RplComponent "{633D225D0DF16B3E}" {
    }

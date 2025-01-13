@@ -5,6 +5,7 @@ $grp TSG_FactionLossesConstraint {
     m_UIInfo SCR_EditableEntityUIInfo "{6456CDDB8A40B166}" {
      Name "Проигрыш США по потерям"
     }
+    m_bAutoRegister ALWAYS
    }
    RplComponent "{632542625EC4E27B}" {
    }
@@ -34,6 +35,7 @@ $grp TSG_FactionLossesConstraint {
     m_UIInfo SCR_EditableEntityUIInfo "{6456CDDBB54E9EC8}" {
      Name "Проигрыш СССР по потерям"
     }
+    m_bAutoRegister ALWAYS
    }
    RplComponent "{6325426244A3D997}" {
    }
@@ -98,6 +100,7 @@ PolylineShapeEntity heli_destroy : "{127D357736B0C350}Prefabs/PolyZone/PolyZone_
      m_UIInfo SCR_EditableEntityUIInfo "{6456CDDB677D2C07}" {
       Name "Триггер на уничтожение вертолетов"
      }
+     m_bAutoRegister ALWAYS
     }
     RplComponent "{6456CDDB618A09B6}" {
     }
@@ -147,6 +150,7 @@ PolylineShapeEntity heli_save : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et"
      m_UIInfo SCR_EditableEntityUIInfo "{6456CDDB9C60C6BA}" {
       Name "Триггер на сохранение вертолетов"
      }
+     m_bAutoRegister ALWAYS
     }
     RplComponent "{6456CDDB95DA9F04}" {
     }

@@ -5,6 +5,7 @@ $grp TSG_EntityConstraint {
     m_UIInfo SCR_EditableEntityUIInfo "{6456CDD830EE41B7}" {
      Name "Триггер на уничтожение КШМ"
     }
+    m_bAutoRegister ALWAYS
    }
    RplComponent "{633B6E4735BD04AC}" {
    }
@@ -30,6 +31,7 @@ $grp TSG_EntityConstraint {
     m_UIInfo SCR_EditableEntityUIInfo "{6456CDD83A1C9899}" {
      Name "Триггер на сохранение КШМ"
     }
+    m_bAutoRegister ALWAYS
    }
    RplComponent "{633B6E4759FDDC59}" {
    }

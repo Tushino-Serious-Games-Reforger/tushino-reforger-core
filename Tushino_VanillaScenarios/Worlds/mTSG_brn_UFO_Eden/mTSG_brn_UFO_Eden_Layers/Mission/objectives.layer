@@ -28,6 +28,7 @@ $grp TSG_FactionLossesConstraint {
     m_UIInfo SCR_EditableEntityUIInfo "{6456CDD87CD34863}" {
      Name "Проигрыш СССР по потерям"
     }
+    m_bAutoRegister ALWAYS
    }
    RplComponent "{633E883FF447CD99}" {
    }
@@ -70,6 +71,7 @@ $grp TSG_FactionLossesConstraint {
     m_UIInfo SCR_EditableEntityUIInfo "{6456CDD87131E89D}" {
      Name "Проигрыш США по потерям"
     }
+    m_bAutoRegister ALWAYS
    }
    RplComponent "{633E883FF1134EA5}" {
    }

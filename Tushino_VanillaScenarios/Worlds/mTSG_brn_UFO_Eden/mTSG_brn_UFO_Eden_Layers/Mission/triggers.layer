@@ -165,6 +165,7 @@ PolylineShapeEntity trigger_border {
      m_UIInfo SCR_EditableEntityUIInfo "{6456CDD86F7B2146}" {
       Name "Триггер на захват плацдарма"
      }
+     m_bAutoRegister ALWAYS
     }
     RplComponent "{633E883122F9E21B}" {
     }
