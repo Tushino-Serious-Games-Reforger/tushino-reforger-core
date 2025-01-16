@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{1F6B54222CAE39EC}models/TAF_logo/Data/TAF_logo.edds"
+ NMOMap "{094A97F266A10699}models/TAF_logo/Data/TAF_logo_NM.edds"
+}
