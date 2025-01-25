@@ -1,0 +1,70 @@
+Vehicle BTR1 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ components {
+  BaseVehicleNodeComponent "{20FB66C5B2237133}" {
+   components {
+    SCR_CarControllerComponent "{20FB66C5BC92275B}" {
+     EngineStartupChance 0
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5A60D38E3CF4827A}" {
+     NumSlots 15
+    }
+    MultiSlotConfiguration "{5A60D38E3C6A4E2F}" {
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{5A60D38E3C46CBE8}" {
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{5A60D38E3D91D053}" {
+     SlotTemplate InventoryStorageSlot AKammunition {
+      Prefab "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{5A60D38E3DCB490D}" {
+     SlotTemplate InventoryStorageSlot RPKammunition {
+      Prefab "{9FA7BF7227AF0CC2}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_last5tracer.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{5A7CC6862AA09361}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{5A7CC6862BCACE88}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{5A7CC6862B68506F}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{5B10706BD90AF64D}" {
+     NumSlots 3
+    }
+    MultiSlotConfiguration "{6472E1903A0B857A}" {
+     SlotTemplate EquipmentStorageSlot magazine_traccer {
+      Prefab "{7DD4759A10D449CE}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{6472E19005664CCD}" {
+     SlotTemplate EquipmentStorageSlot RPK_traccer {
+      Prefab "{CD21D42623717E8F}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_tracer.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{6472E19016E7B265}" {
+     SlotTemplate EquipmentStorageSlot TAF_patch {
+      Prefab "{F91554AC34AE97C0}Prefabs/Items/Equipment/Patches/TAF_logo.et"
+     }
+     NumSlots 9
+    }
+   }
+  }
+ }
+ coords 2909.825 34.653 3114.61
+ angleX 5.427
+ angleY -10.944
+ angleZ -0.14
+}

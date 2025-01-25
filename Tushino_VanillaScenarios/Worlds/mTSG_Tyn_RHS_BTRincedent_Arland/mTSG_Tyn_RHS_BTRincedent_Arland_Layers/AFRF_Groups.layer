@@ -1,0 +1,75 @@
+$grp SCR_AIGroup : "{121F4A7DB996AE83}Prefabs/Groups/Tynec/OPFOR/Tyn_Group_USSR_HQ.et" {
+ BTR_Group {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Rank"
+    "Projection distance" 1
+   }
+   PS_GroupCallsignAssigner "{62B47CFC0DC7FE5A}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2904.484 35.074 3118.38
+  angleX 0.395
+  angleY 73.727
+  angleZ 4.538
+  m_faction "RHS_AFRF"
+  m_aUnitPrefabSlots {
+   "{B523A1063700777C}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_SL.et" "{21AEBAD927819899}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_GP.et" "{8ABC8E036BCBC18C}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_MG.et" "{E22F205DF7AA6201}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_aMG.et" "{ED40C7A01A17999D}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_RPGpgo.et" "{9FA5185CA5397FA9}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_aRPG.et" "{F7E300AF3915D676}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_Rifleman.et" "{30E5727442EEF62A}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_Gunner.et" "{D7CED5946A19FF87}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_Driver.et"
+  }
+ }
+ HQ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Rank"
+    "Projection distance" 1
+   }
+  }
+  coords 2901.015 35.771 3126.064
+  angleX 0.395
+  angleY 73.727
+  angleZ 4.538
+  m_faction "RHS_AFRF"
+  m_aUnitPrefabSlots {
+   "{2AD7A78FD13CF279}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_SC.et" "{4A367841164567C4}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_Sniper.et" "{C8693623439BC3B6}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_MED.et"
+  }
+ }
+ Ural_Group {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Rank"
+    "Projection distance" 1
+   }
+   PS_GroupCallsignAssigner "{62B47CFC0DC7FE5A}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2906.943 33.876 3105.837
+  angleX -0.341
+  angleY 84.13
+  angleZ 5.419
+  m_faction "RHS_AFRF"
+  m_aUnitPrefabSlots {
+   "{B523A1063700777C}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_SL.et" "{21AEBAD927819899}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_GP.et" "{8ABC8E036BCBC18C}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_MG.et" "{E22F205DF7AA6201}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_aMG.et" "{7BB24BC949480BCD}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_RPK.et" "{F7E300AF3915D676}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_Rifleman.et" "{F7E300AF3915D676}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_Rifleman.et"
+  }
+ }
+ Ural_Group2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Rank"
+    "Projection distance" 1
+   }
+   PS_GroupCallsignAssigner "{62B47CFC0DC7FE5A}" {
+    m_iSquadCallsign 3
+   }
+  }
+  coords 2907.718 32.612 3092.915
+  angleX -0.616
+  angleY 87.03
+  angleZ 5.394
+  m_faction "RHS_AFRF"
+  m_aUnitPrefabSlots {
+   "{B523A1063700777C}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_SL.et" "{21AEBAD927819899}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_GP.et" "{8ABC8E036BCBC18C}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_MG.et" "{E22F205DF7AA6201}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_aMG.et" "{7BB24BC949480BCD}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_RPK.et" "{F7E300AF3915D676}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_Rifleman.et" "{F7E300AF3915D676}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_Rifleman.et"
+  }
+ }
+}
