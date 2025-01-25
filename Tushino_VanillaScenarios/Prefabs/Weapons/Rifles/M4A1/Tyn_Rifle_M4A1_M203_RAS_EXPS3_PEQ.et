@@ -1,0 +1,40 @@
+GenericEntity : "{C834F1F810DDF0A1}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_M203_RAS.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  RHS_SGC_RadialMenuComponent "{5E0ED058CD731BC8}" {
+   m_sDisplayName "#RHS-Weapon_M4A1_Name (#RHS-Weapon_M203_Name)"
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Description "#RHS-Weapon_M4A1_Description #RHS-Weapon_M203_UGL_Description"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0EEDB0BD59EE7D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Optics {
+      Prefab "{9C42803E49305273}Prefabs/Weapons/Attachments/Optics/exps/Optic_EXPS3-1.et"
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE949ECF03E3}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{5EA2BE9573F14F0C}" {
+      Enabled 0
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE95B630A07A}" {
+     AttachmentSlot InventoryStorageSlot "{5EA2BE95B7F1B3D5}" {
+      Prefab ""
+     }
+    }
+    AttachmentSlotComponent "{629ADD528EE856C1}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{629ADD52ACAC8DC6}" {
+      Prefab "{5AE8F3A22BDB534F}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_black.et"
+     }
+    }
+   }
+  }
+ }
+ coords 36.959 3.13 128.362
+}
