@@ -1,0 +1,11 @@
+SCR_ChimeraCharacter : "{1C77F70EF964BB47}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_HQ.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#JUM-Role_ReconPlatoonLeader"
+    Icon "{208FDC0A49380FD7}UI/Icons/platoon_leader.edds"
+   }
+  }
+ }
+}
