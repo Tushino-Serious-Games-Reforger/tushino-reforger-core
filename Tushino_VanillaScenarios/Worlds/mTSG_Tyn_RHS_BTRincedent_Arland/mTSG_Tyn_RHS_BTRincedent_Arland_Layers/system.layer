@@ -4,45 +4,22 @@ SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 113.126 1 124.397
 }
-PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+PS_GameModeCoop TSG_GameModeLobby1 : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_GameModeLobby.et" {
  components {
   SCR_InitWeatherComponent "{61B68227C35BFE9A}" {
    m_sInitialStartingWeatherId "Overcast"
   }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
    m_iStartingHours 11
+   m_bRandomWeatherChanges 1
   }
  }
- m_bMarkersOnlyOnBriefing 1
- m_bRemoveRedundantUnits 1
- m_bRemoveSquadMarkers 1
+ coords 3208.354 0.983 3012.921
+ m_eTestGameFlags SpawnAI
  m_iFreezeTime 90000
- m_bDisableChat 1
- m_bReserveSlots 1
  {
-  SCR_FactionManager "62B47CF63FDA2442" {
-   ID "5ED9088735FF2D8B"
-   Factions {
-    SCR_Faction "{56DEAC40D2DBC8B1}" {
-     m_bIsPlayable 1
-    }
-    SCR_Faction "{56DEAC40D3C2E623}" {
-     m_bIsPlayable 1
-    }
-    SCR_Faction "{56DEAC40D132400B}" {
-     m_bIsPlayable 1
-    }
-    SCR_Faction "{607AA5C7A94496DA}" {
-     m_bIsPlayable 1
-    }
-   }
-  }
   TSG_MissionTime {
-   components {
-    RplComponent "{633B6E49764C8661}" {
-    }
-   }
-   coords 2914.832 36.923 3133.264
+   ID "633B6E4969D543B5"
    m_iMissionTimeMinutes 30
   }
  }
