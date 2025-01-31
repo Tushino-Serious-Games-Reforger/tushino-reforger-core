@@ -1,0 +1,146 @@
+$grp Vehicle : "{04BDACC0BB83284E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered_MERDC.et" {
+ M923A1_transport_covered_MERDC1 {
+  components {
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "RHS_USAF"
+   }
+  }
+  coords 1089.824 2.781 6046.155
+  angleY -90.093
+ }
+ M923A1_transport_covered_MERDC3 {
+  components {
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "RHS_USAF"
+   }
+  }
+  coords 1090.02 2.781 6034.875
+  angleY -90.093
+ }
+ M923A1_transport_covered_MERDC2 {
+  components {
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "RHS_USAF"
+   }
+  }
+  coords 1089.871 2.781 6040.625
+  angleY -90.093
+ }
+ M923A1_transport_covered_MERDC4 {
+  components {
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "RHS_USAF"
+   }
+  }
+  coords 1239.907 33.103 6051.869
+  angleX -5.407
+  angleY -1.718
+  angleZ -1.621
+ }
+}
+Vehicle M1 : "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et" {
+ components {
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "RHS_USAF"
+  }
+ }
+ coords 1088.789 2.781 6029.371
+ angleY -87.746
+}
+Vehicle M998_MERDC1 : "{6B24D5AFD884D64C}Prefabs/Vehicles/Wheeled/M998/M998_MERDC.et" {
+ components {
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "RHS_USAF"
+  }
+ }
+ coords 1239.666 32.312 6061.528
+ angleX -4.504
+ angleY -2.663
+ angleZ -0.684
+}
+$grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
+ M1025_armed_M2HB_MERDC2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECB549327C1}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A60CECAE4FAF13E}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A60CECAD76E3803}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A60CECAC8B21989}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A60CECA3D786B16}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC68685CE799D}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC686F738D96E}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC686D9F9D394}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5B1070686F48F485}" {
+      NumSlots 10
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "RHS_USAF"
+   }
+  }
+  coords 1241.085 34.302 6033.39
+  angleX -1.971
+  angleY -6.15
+  angleZ -1.587
+ }
+ M1025_armed_M2HB_MERDC3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECB549327C1}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A60CECAE4FAF13E}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A60CECAD76E3803}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A60CECAC8B21989}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A60CECA3D786B16}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC68685CE799D}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC686F738D96E}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5A7CC686D9F9D394}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{5B1070686F48F485}" {
+      NumSlots 10
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "RHS_USAF"
+   }
+  }
+  coords 1240.186 33.85 6041.99
+  angleX -3.746
+  angleY -6.107
+  angleZ -1.396
+ }
+}
