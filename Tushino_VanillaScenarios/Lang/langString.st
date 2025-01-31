@@ -385,6 +385,14 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
+  CustomStringTableItem "{647D141A2A6A0E11}" {
+   Id "TYN-Role_DeputyLeader"
+   Target_en_us "Deputy commander"
+   Target_ru_ru "Заместитель командира"
+   Modified 1685925531
+   Author "p1vas"
+   LastChanged "p1vas"
+  }
   CustomStringTableItem "{62F82603A96FAC8A}" {
    Id "TYN-Role_RPK"
    Target_en_us "Rifleman RPK"
@@ -397,6 +405,14 @@ StringTable {
    Target_en_us "Senior Column"
    Target_ru_ru "Старший колонны"
    Modified 1684095252
+   Author "p1vas"
+   LastChanged "p1vas"
+  }
+  CustomStringTableItem "{647D1411A7B7C145}" {
+   Id "TYN-Role_TeamLeader"
+   Target_en_us "Team Leader"
+   Target_ru_ru "Командир группы"
+   Modified 1685921296
    Author "p1vas"
    LastChanged "p1vas"
   }
