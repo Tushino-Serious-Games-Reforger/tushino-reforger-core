@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1CE1F404B659DD1E}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_PL.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
