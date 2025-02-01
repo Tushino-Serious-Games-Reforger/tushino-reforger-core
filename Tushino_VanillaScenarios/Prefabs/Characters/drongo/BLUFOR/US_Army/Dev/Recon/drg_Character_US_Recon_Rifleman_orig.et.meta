@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3B07FAFC9205A8FC}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Rifleman_orig.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

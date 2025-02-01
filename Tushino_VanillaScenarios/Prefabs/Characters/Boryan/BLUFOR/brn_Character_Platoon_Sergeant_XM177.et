@@ -16,5 +16,11 @@ SCR_ChimeraCharacter : "{3D56107B6DFC8B43}Prefabs/Characters/drongo/BLUFOR/US_Ar
     }
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B87867B1643253}" {
+    }
+   }
+  }
  }
 }

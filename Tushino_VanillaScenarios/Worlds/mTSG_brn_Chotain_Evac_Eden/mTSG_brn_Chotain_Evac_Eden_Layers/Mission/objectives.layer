@@ -1,6 +1,12 @@
 $grp TSG_EntityConstraint {
  destroy_btrs {
   components {
+   SCR_EditableEntityComponent "{6456CDDF1FA41891}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{6456CDDF055B741A}" {
+     Name "Триггер на уничтожение всех БТР"
+    }
+    m_bAutoRegister ALWAYS
+   }
    RplComponent "{633D299687D9C700}" {
    }
   }
@@ -26,6 +32,12 @@ $grp TSG_EntityConstraint {
  }
  save_btrs {
   components {
+   SCR_EditableEntityComponent "{6456CDDF485590B9}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{6456CDDF4B2971FB}" {
+     Name "Триггер на сохранение живых БТР"
+    }
+    m_bAutoRegister ALWAYS
+   }
    RplComponent "{633D29910797BC96}" {
    }
   }
@@ -52,6 +64,12 @@ $grp TSG_EntityConstraint {
  }
  btr_evac {
   components {
+   SCR_EditableEntityComponent "{6456CDDEEA7DF2BE}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{6456CDDF10051A32}" {
+     Name "Триггер на эвакуацию БТР"
+    }
+    m_bAutoRegister ALWAYS
+   }
    RplComponent "{633D3C5D6BC335AD}" {
    }
   }
@@ -82,6 +100,16 @@ $grp TSG_EntityConstraint {
 }
 $grp TSG_FactionLossesConstraint {
  USSR_losses {
+  components {
+   SCR_EditableEntityComponent "{6456CDDF9B737999}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{6456CDDF80B4FFD9}" {
+     Name "Проигрыш СССР по потерям"
+    }
+    m_bAutoRegister ALWAYS
+   }
+   RplComponent "{6456CDDF7B0C0D07}" {
+   }
+  }
   coords 6173.927 178.717 7515.472
   angleX -4.305
   angleY 1.04
@@ -140,6 +168,16 @@ $grp TSG_FactionLossesConstraint {
   }
  }
  US_FIA_losses {
+  components {
+   SCR_EditableEntityComponent "{6456CDDF7F52DC84}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{6456CDDF6EFD925B}" {
+     Name "Проигрыш FIA и США по потерям"
+    }
+    m_bAutoRegister ALWAYS
+   }
+   RplComponent "{6456CDDF788B3E04}" {
+   }
+  }
   coords 6175.888 178.699 7520.478
   m_sFactionKey "US"
   m_aAdditionalFactionKeys {
@@ -164,6 +202,16 @@ $grp TSG_FactionLossesConstraint {
  }
 }
 TSG_GameAdvance advance_game {
+ components {
+  SCR_EditableEntityComponent "{6456CDDFB7224BAB}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{6456CDDFBB3DB652}" {
+    Name "Завершение игры если захвачен флаг и уничтожены БТР"
+   }
+   m_bAutoRegister ALWAYS
+  }
+  RplComponent "{6456CDDFB43D46E6}" {
+  }
+ }
  coords 7467.318 0 7981.399
  m_iNumberOfObjectivesToComplete 2
  m_aNamesOfObjectives {
@@ -173,6 +221,12 @@ TSG_GameAdvance advance_game {
 $grp TSG_ObserveFlag {
  observe_ussr_flag {
   components {
+   SCR_EditableEntityComponent "{6456CDDF584741A7}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{6456CDDF5C76A347}" {
+     Name "Триггер на удержание флага СССР"
+    }
+    m_bAutoRegister ALWAYS
+   }
    RplComponent "{63254261FFEE8360}" {
    }
    Hierarchy "{6324090066889EF4}" {
@@ -203,6 +257,12 @@ $grp TSG_ObserveFlag {
  }
  observe_us_flag {
   components {
+   SCR_EditableEntityComponent "{6456CDDF28D4AE5A}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{6456CDDF2B376DDA}" {
+     Name "Триггер на захват флага США"
+    }
+    m_bAutoRegister ALWAYS
+   }
    RplComponent "{63254261FAA32962}" {
    }
    Hierarchy "{632409009AED39E2}" {
@@ -228,6 +288,12 @@ $grp TSG_ObserveFlag {
  }
  observe_fia_flag {
   components {
+   SCR_EditableEntityComponent "{6456CDDF33191CB8}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{6456CDDF3618207A}" {
+     Name "Триггер на захват флага FIA"
+    }
+    m_bAutoRegister ALWAYS
+   }
    RplComponent "{63254261F472147E}" {
    }
    Hierarchy "{632409008CB6ED8E}" {

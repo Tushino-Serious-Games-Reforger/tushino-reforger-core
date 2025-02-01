@@ -24,53 +24,6 @@ $grp PolylineShapeEntity {
    }
   }
   IsClosed 1
-  {
-   $grp PS_PolyZoneTrigger {
-    trigger_USSR {
-     components {
-      Hierarchy "{614548BDF998E12B}" {
-      }
-     }
-     angleX -3.573
-     angleY -0.112
-     angleZ 1.793
-     TriggerShapeType Polyline
-     "Polyline Height" 1000
-     TriggerActivationType "All changes"
-     PeriodicQueries 1
-     UpdatePeriod 1
-     ClassesFilter {
-      "SCR_ChimeraCharacter"
-     }
-     m_polyZoneEffect PS_PolyZoneEffectScreenBlure "{62D6F957901FC4F3}" {
-     }
-     m_bReversed 1
-     m_sFactionKey "USSR"
-    }
-    trigger_US {
-     components {
-      Hierarchy "{614548BDF998E12B}" {
-      }
-     }
-     coords 0 -0.002 0
-     angleX -3.573
-     angleY -0.112
-     angleZ 1.793
-     TriggerShapeType Polyline
-     "Polyline Height" 1000
-     TriggerActivationType "All changes"
-     PeriodicQueries 1
-     UpdatePeriod 1
-     ClassesFilter {
-      "SCR_ChimeraCharacter"
-     }
-     m_polyZoneEffect PS_PolyZoneEffectScreenBlure "{62D6F9576A972993}" {
-     }
-     m_bReversed 1
-     m_sFactionKey "US"
-    }
-   }
-  }
  }
  frontline {
   components {
@@ -111,24 +64,6 @@ $grp PolylineShapeEntity {
    }
   }
   IsClosed 1
-  {
-   PS_PolyZoneTrigger frontline_trigger {
-    components {
-     Hierarchy "{62D720E153F9D546}" {
-     }
-    }
-    TriggerShapeType Polyline
-    "Polyline Height" 1000
-    TriggerActivationType "All changes"
-    PeriodicQueries 1
-    ClassesFilter {
-     "SCR_ChimeraCharacter"
-    }
-    m_polyZoneEffect PS_PolyZoneEffectScreenBlure "{62D720E104D3F192}" {
-    }
-    m_sFactionKey "US"
-   }
-  }
  }
  vybor_border {
   components {

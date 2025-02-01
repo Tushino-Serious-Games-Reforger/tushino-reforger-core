@@ -1,10 +1,17 @@
 $grp TSG_EntityConstraint {
  kill_administrator {
   components {
+   SCR_EditableEntityComponent "{6455762A74D4746E}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{645576298910613E}" {
+     Name "Триггер на убийство главы администрации"
+    }
+    m_sIconBoneName "kill admin script"
+    m_bAutoRegister ALWAYS
+   }
    RplComponent "{633D225CFE11B31C}" {
    }
   }
-  coords 12662.778 0 1785.969
+  coords 12178.896 0 1893.779
   m_aPrefabs {
    "{575536F7FD6F628B}Prefabs/Characters/Boryan/OPFOR/USSR_Army/CIV/brn_Character_USSR_Administrator.et"
   }
@@ -19,10 +26,17 @@ $grp TSG_EntityConstraint {
  }
  protect_administrator {
   components {
+   SCR_EditableEntityComponent "{6455762A79EB46DF}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{645576299B6A84C0}" {
+     Name "Триггер на сохранение в живых главы администрации"
+    }
+    m_sIconBoneName "protect admin script"
+    m_bAutoRegister ALWAYS
+   }
    RplComponent "{633D225D0DF16B3E}" {
    }
   }
-  coords 12628.836 0 1789.783
+  coords 12171.247 0 1898.584
   m_aPrefabs {
    "{575536F7FD6F628B}Prefabs/Characters/Boryan/OPFOR/USSR_Army/CIV/brn_Character_USSR_Administrator.et"
   }

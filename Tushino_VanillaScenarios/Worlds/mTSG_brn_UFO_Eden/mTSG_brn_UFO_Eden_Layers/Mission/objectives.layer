@@ -24,6 +24,12 @@ $grp PS_Objective {
 $grp TSG_FactionLossesConstraint {
  USSR_losses {
   components {
+   SCR_EditableEntityComponent "{6456CDD8794A0573}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{6456CDD87CD34863}" {
+     Name "Проигрыш СССР по потерям"
+    }
+    m_bAutoRegister ALWAYS
+   }
    RplComponent "{633E883FF447CD99}" {
    }
   }
@@ -61,6 +67,12 @@ $grp TSG_FactionLossesConstraint {
  }
  US_losses {
   components {
+   SCR_EditableEntityComponent "{6456CDD84FB6EE79}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{6456CDD87131E89D}" {
+     Name "Проигрыш США по потерям"
+    }
+    m_bAutoRegister ALWAYS
+   }
    RplComponent "{633E883FF1134EA5}" {
    }
   }

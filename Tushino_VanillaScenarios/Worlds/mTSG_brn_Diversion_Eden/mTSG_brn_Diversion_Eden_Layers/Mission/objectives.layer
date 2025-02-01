@@ -1,6 +1,12 @@
 $grp TSG_EntityConstraint {
  protect_supplies {
   components {
+   SCR_EditableEntityComponent "{6456CDDFE0014EF3}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{6456CDDFE4E2BF3E}" {
+     Name "Триггер на сохранение ящиков"
+    }
+    m_bAutoRegister ALWAYS
+   }
    RplComponent "{644B48108EAF8C3A}" {
    }
   }
@@ -26,6 +32,12 @@ $grp TSG_EntityConstraint {
  }
  destroy_supplies {
   components {
+   SCR_EditableEntityComponent "{6456CDDFF3A42739}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{6456CDDFF7438A1F}" {
+     Name "Триггер на уничтожение ящиков"
+    }
+    m_bAutoRegister ALWAYS
+   }
    RplComponent "{644B4810B1B24E33}" {
    }
   }
@@ -57,6 +69,12 @@ $grp TSG_EntityConstraint {
 $grp TSG_FactionLossesConstraint {
  us_losses {
   components {
+   SCR_EditableEntityComponent "{6456CDDFED6A1741}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{6456CDDC1070C515}" {
+     Name "Триггер на проигрыш США по потерям"
+    }
+    m_bAutoRegister ALWAYS
+   }
    RplComponent "{644D0674BB4441C2}" {
    }
   }
@@ -94,6 +112,12 @@ $grp TSG_FactionLossesConstraint {
  }
  ussr_losses {
   components {
+   SCR_EditableEntityComponent "{6456CDDC1F2D5DD2}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{6456CDDC022D6947}" {
+     Name "Триггер на проигрыш СССР по потерям"
+    }
+    m_bAutoRegister ALWAYS
+   }
    RplComponent "{644D0674BFB45B99}" {
    }
   }
