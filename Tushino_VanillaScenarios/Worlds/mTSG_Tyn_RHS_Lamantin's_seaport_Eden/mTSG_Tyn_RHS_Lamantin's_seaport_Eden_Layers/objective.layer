@@ -1,0 +1,169 @@
+$grp TSG_FactionLossesConstraint {
+ RF_losses {
+  components {
+   SCR_EditableEntityComponent "{64852A206A789F0E}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{64852A2067D666EA}" {
+     Name "Триггер потерь РФ"
+    }
+    m_bAutoRegister ALWAYS
+   }
+   RplComponent "{633E883FF447CD99}" {
+   }
+  }
+  coords 1233.332 31.632 6067.809
+  m_sFactionKey "RHS_AFRF"
+  m_iMinNumberOfAliveCharacters 5
+  {
+   PS_Objective RF_destroyed {
+    components {
+     RplComponent "{633E883E0C3A2235}" {
+     }
+     Hierarchy "{633E883E0A5E7884}" {
+     }
+    }
+    coords 2.204 0 4.331
+    m_sTitle "ВС РФ разгромленны "
+    m_iScore 100
+    m_sFactionKey "RHS_USAF"
+    m_bAdvanceWhenTriggered 1
+   }
+  }
+ }
+ US_losses {
+  components {
+   SCR_EditableEntityComponent "{64852A207DC3D3FF}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{64852A207BEAB2B8}" {
+     Name "Триггер потерь США"
+    }
+    m_bAutoRegister ALWAYS
+   }
+   RplComponent "{633E883FF447CD99}" {
+   }
+  }
+  coords 1238.932 31.372 6072.852
+  m_sFactionKey "RHS_USAF"
+  m_iMinNumberOfAliveCharacters 2
+  {
+   PS_Objective US_destroyed {
+    components {
+     RplComponent "{633E883E0C3A2235}" {
+     }
+     Hierarchy "{633E883E0A5E7884}" {
+     }
+    }
+    coords 2.204 0 4.331
+    m_sTitle "ВС США разгромленны"
+    m_iScore 100
+    m_sFactionKey "RHS_AFRF"
+    m_bAdvanceWhenTriggered 1
+   }
+  }
+ }
+}
+$grp TSG_ObserveFlag {
+ observe_AFRF_flag {
+  components {
+   SCR_EditableEntityComponent "{64852A203D88F906}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{64852A203823E557}" {
+     Name "Триггер захвата флага РФ"
+    }
+    m_bAutoRegister ALWAYS
+   }
+   RplComponent "{63254261F472147E}" {
+   }
+   Hierarchy "{632409008CB6ED8E}" {
+   }
+  }
+  coords 1054.313 2.81 6041.946
+  angleX 2.684
+  m_sFlagName "US_flag"
+  m_sFactionKey "RHS_AFRF"
+  {
+   PS_Objective AFRF_capture_seaport {
+    components {
+     RplComponent "{63227DE5673D8BF2}" {
+     }
+     Hierarchy "{6324091F51865E51}" {
+     }
+    }
+    coords -3661.003 -8.207 326.465
+    angleX -2.684
+    m_sTitle "ВС РФ захватили порт"
+    m_iScore 100
+    m_sFactionKey "RHS_AFRF"
+    m_bAdvanceWhenTriggered 1
+   }
+  }
+ }
+ observe_USAF_flag {
+  components {
+   SCR_EditableEntityComponent "{64852A200BFFD4A5}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{64852A2008E154E4}" {
+     Name "Триггер удержания флага США"
+    }
+    m_bAutoRegister ALWAYS
+   }
+   RplComponent "{63254261F472147E}" {
+   }
+   Hierarchy "{632409008CB6ED8E}" {
+   }
+  }
+  coords 1072.267 2.719 6027.172
+  angleX 2.684
+  m_sFlagName "US_flag"
+  m_sFactionKey "RHS_USAF"
+  {
+   PS_Objective USAF_capture_seaport2 {
+    components {
+     RplComponent "{63227DE5673D8BF2}" {
+     }
+     Hierarchy "{6324091F51865E51}" {
+     }
+    }
+    coords -3661.003 -8.207 326.465
+    angleX -2.684
+    m_sTitle "ВС США удержали порт"
+    m_iScore 100
+    m_sFactionKey "RHS_USAF"
+   }
+  }
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ AFRF_marker {
+  coords 1063.859 2.719 6036.93
+  angleX -1.971
+  angleY 83.85
+  angleZ -1.587
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 35
+  m_sDescription "Захватить"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ USAF_marker {
+  coords 1063.859 2.719 6036.93
+  angleX -1.971
+  angleY 83.85
+  angleZ -1.587
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 35
+  m_sDescription "Защищать"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+}

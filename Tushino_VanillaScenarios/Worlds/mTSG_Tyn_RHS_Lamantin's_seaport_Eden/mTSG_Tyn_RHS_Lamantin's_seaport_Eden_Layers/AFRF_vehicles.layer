@@ -1,0 +1,632 @@
+Vehicle UAZ1 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5AD4F813E67ECB53}" {
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{647D71BDF8525AAA}" {
+     SlotTemplate InventoryStorageSlot morphine {
+      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{647D71BDC91D5BF0}" {
+     SlotTemplate InventoryStorageSlot tourniquet {
+      Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{647D71BA235C5B19}" {
+     SlotTemplate InventoryStorageSlot ak_magazines {
+      Prefab "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{647D71BA153AB165}" {
+     SlotTemplate InventoryStorageSlot ak_magazines_traccer {
+      Prefab "{7DD4759A10D449CE}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{647D71BA77FC51B8}" {
+     SlotTemplate InventoryStorageSlot rgd5 {
+      Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{647D71BA4D2BB519}" {
+     SlotTemplate InventoryStorageSlot rdg2 {
+      Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{647D71BBF1AAE787}" {
+     SlotTemplate InventoryStorageSlot taf_patch {
+      Prefab "{F91554AC34AE97C0}Prefabs/Items/Equipment/Patches/TAF_logo.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{647E0C96DA0556A7}" {
+     SlotTemplate InventoryStorageSlot SVD_magazines {
+      Prefab "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
+     }
+     NumSlots 10
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "RHS_AFRF"
+  }
+ }
+ coords 2547.045 87.757 5350.37
+ angleX -1.998
+ angleY -113.349
+ angleZ -0.112
+}
+$grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
+ BTR70_AFRF1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{5A60D38E3C6A4E2F}" {
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{5A60D38E3C46CBE8}" {
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{5A60D38E3D91D053}" {
+      SlotTemplate InventoryStorageSlot AKammunition {
+       Prefab "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{5A60D38E3DCB490D}" {
+      SlotTemplate InventoryStorageSlot RPKammunition {
+       Prefab "{52FE3E0398FEEBC4}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_4Ball_1Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{5A60D38E3DD3F9D0}" {
+     }
+     MultiSlotConfiguration "{60EB3061E5B6F273}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{60EB3061E5B6F277}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{60EB3061E5B6F275}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{647E0C97443D6470}" {
+      SlotTemplate InventoryStorageSlot ak_magazines_traccer {
+       Prefab "{7DD4759A10D449CE}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{647E0C97BEE0D0C4}" {
+      SlotTemplate InventoryStorageSlot rpk_traccer {
+       Prefab "{CD21D42623717E8F}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{647E0C978AE51557}" {
+      SlotTemplate InventoryStorageSlot pkm_box_traccer {
+       Prefab "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et"
+      }
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{647E0C97E30597DC}" {
+      SlotTemplate InventoryStorageSlot TAF_patch {
+       Prefab "{F91554AC34AE97C0}Prefabs/Items/Equipment/Patches/TAF_logo.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{648516864AD11B58}" {
+      SlotTemplate InventoryStorageSlot helmets {
+       Prefab "{B5D99580B0620133}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47_6M2_no_cover.et"
+      }
+      NumSlots 2
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "RHS_AFRF"
+   }
+  }
+  coords 2573.411 89.238 5363.01
+  angleX -3.603
+  angleY -116.8
+  angleZ -1.184
+ }
+ BTR70_AFRF2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{5A60D38E3C6A4E2F}" {
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{5A60D38E3C46CBE8}" {
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{5A60D38E3D91D053}" {
+      SlotTemplate InventoryStorageSlot AKammunition {
+       Prefab "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{5A60D38E3DCB490D}" {
+      SlotTemplate InventoryStorageSlot RPKammunition {
+       Prefab "{52FE3E0398FEEBC4}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_4Ball_1Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{5A60D38E3DD3F9D0}" {
+     }
+     MultiSlotConfiguration "{60EB3061E5B6F273}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{60EB3061E5B6F277}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{60EB3061E5B6F275}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{647E0C97443D6470}" {
+      SlotTemplate InventoryStorageSlot ak_magazines_traccer {
+       Prefab "{7DD4759A10D449CE}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{647E0C97BEE0D0C4}" {
+      SlotTemplate InventoryStorageSlot rpk_traccer {
+       Prefab "{CD21D42623717E8F}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{647E0C978AE51557}" {
+      SlotTemplate InventoryStorageSlot pkm_box_traccer {
+       Prefab "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et"
+      }
+      NumSlots 4
+     }
+     MultiSlotConfiguration "{647E0C97E30597DC}" {
+      SlotTemplate InventoryStorageSlot TAF_patch {
+       Prefab "{F91554AC34AE97C0}Prefabs/Items/Equipment/Patches/TAF_logo.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{648516865E18C0AF}" {
+      SlotTemplate InventoryStorageSlot helmets {
+       Prefab "{B5D99580B0620133}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47_6M2_no_cover.et"
+      }
+      NumSlots 2
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "RHS_AFRF"
+   }
+  }
+  coords 2367.536 70.419 6182.568
+  angleX 7.573
+  angleY -164.672
+  angleZ -0.691
+ }
+}
+$grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
+ Ural4320_transport_covered1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38EDB3709A9}" {
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{647D71BA94858247}" {
+      SlotTemplate InventoryStorageSlot morphine {
+       Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{647D71BAE5D34A80}" {
+      SlotTemplate InventoryStorageSlot tourniquet {
+       Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{647E0C960ADF0BC8}" {
+      SlotTemplate InventoryStorageSlot RPK_magazine_traccer {
+       Prefab "{CD21D42623717E8F}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{647E0C9602467A82}" {
+      SlotTemplate InventoryStorageSlot RPK_magazine_traccer {
+       Prefab "{52FE3E0398FEEBC4}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_4Ball_1Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{647D71BAF7F7CD42}" {
+      SlotTemplate InventoryStorageSlot ak_magazines {
+       Prefab "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{647D71BAC418933B}" {
+      SlotTemplate InventoryStorageSlot ak_magazines_traccer {
+       Prefab "{7DD4759A10D449CE}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{647D71BAD8A48CD1}" {
+      SlotTemplate InventoryStorageSlot PKM_box {
+       Prefab "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{647D71BB32BA2A52}" {
+      SlotTemplate InventoryStorageSlot PKM_box_traccer {
+       Prefab "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{647D71BB1E2745E4}" {
+      SlotTemplate InventoryStorageSlot RPG_OG {
+       Prefab "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{647D71BB76C3C15A}" {
+      SlotTemplate InventoryStorageSlot PGVL {
+       Prefab "{FBBF84E3B447D822}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VL.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{647D71BB556E7C40}" {
+      SlotTemplate InventoryStorageSlot RGD5 {
+       Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+      }
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{647D71BBA6A3AA65}" {
+      SlotTemplate InventoryStorageSlot rdg2 {
+       Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+      }
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{647D71BB8455B020}" {
+      SlotTemplate InventoryStorageSlot VOG {
+       Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+      }
+      NumSlots 15
+     }
+     MultiSlotConfiguration "{647D71BBE4B046FF}" {
+      SlotTemplate InventoryStorageSlot TAF_patch {
+       Prefab "{F91554AC34AE97C0}Prefabs/Items/Equipment/Patches/TAF_logo.et"
+      }
+      NumSlots 12
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "RHS_AFRF"
+   }
+  }
+  coords 2554.946 88.128 5354.296
+  angleX -2
+  angleY -115.085
+  angleZ -0.052
+ }
+ Ural4320_transport_covered2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38EDB3709A9}" {
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{647D71BA94858247}" {
+      SlotTemplate InventoryStorageSlot morphine {
+       Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{647D71BAE5D34A80}" {
+      SlotTemplate InventoryStorageSlot tourniquet {
+       Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{647E0C97D59D2ADF}" {
+      SlotTemplate InventoryStorageSlot RPK_magazine {
+       Prefab "{52FE3E0398FEEBC4}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_4Ball_1Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{647E0C96238AB5B2}" {
+      SlotTemplate InventoryStorageSlot RPK_magazine_traccer {
+       Prefab "{CD21D42623717E8F}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{647D71BAF7F7CD42}" {
+      SlotTemplate InventoryStorageSlot ak_magazines {
+       Prefab "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{647D71BAC418933B}" {
+      SlotTemplate InventoryStorageSlot ak_magazines_traccer {
+       Prefab "{7DD4759A10D449CE}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{647D71BAD8A48CD1}" {
+      SlotTemplate InventoryStorageSlot PKM_box {
+       Prefab "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{647D71BB32BA2A52}" {
+      SlotTemplate InventoryStorageSlot PKM_box_traccer {
+       Prefab "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{647D71BB1E2745E4}" {
+      SlotTemplate InventoryStorageSlot RPG_OG {
+       Prefab "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{647D71BB76C3C15A}" {
+      SlotTemplate InventoryStorageSlot PGVL {
+       Prefab "{FBBF84E3B447D822}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VL.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{647D71BB556E7C40}" {
+      SlotTemplate InventoryStorageSlot RGD5 {
+       Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+      }
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{647D71BBA6A3AA65}" {
+      SlotTemplate InventoryStorageSlot rdg2 {
+       Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+      }
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{647D71BB8455B020}" {
+      SlotTemplate InventoryStorageSlot VOG {
+       Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+      }
+      NumSlots 15
+     }
+     MultiSlotConfiguration "{647D71BBE4B046FF}" {
+      SlotTemplate InventoryStorageSlot TAF_patch {
+       Prefab "{F91554AC34AE97C0}Prefabs/Items/Equipment/Patches/TAF_logo.et"
+      }
+      NumSlots 9
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "RHS_AFRF"
+   }
+  }
+  coords 2564.296 88.64 5358.506
+  angleX -3.942
+  angleY -115.014
+  angleZ -2.103
+ }
+ Ural4320_transport_covered3 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38EDB3709A9}" {
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{647D71BA94858247}" {
+      SlotTemplate InventoryStorageSlot morphine {
+       Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{647D71BAE5D34A80}" {
+      SlotTemplate InventoryStorageSlot tourniquet {
+       Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{647E0C97D59D2ADF}" {
+      SlotTemplate InventoryStorageSlot RPK_magazine {
+       Prefab "{52FE3E0398FEEBC4}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_4Ball_1Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{647E0C96238AB5B2}" {
+      SlotTemplate InventoryStorageSlot RPK_magazine_traccer {
+       Prefab "{CD21D42623717E8F}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{647D71BAF7F7CD42}" {
+      SlotTemplate InventoryStorageSlot ak_magazines {
+       Prefab "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{647D71BAC418933B}" {
+      SlotTemplate InventoryStorageSlot ak_magazines_traccer {
+       Prefab "{7DD4759A10D449CE}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{647D71BAD8A48CD1}" {
+      SlotTemplate InventoryStorageSlot PKM_box {
+       Prefab "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{647D71BB32BA2A52}" {
+      SlotTemplate InventoryStorageSlot PKM_box_traccer {
+       Prefab "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{647D71BB1E2745E4}" {
+      SlotTemplate InventoryStorageSlot RPG_OG {
+       Prefab "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{647D71BB76C3C15A}" {
+      SlotTemplate InventoryStorageSlot PGVL {
+       Prefab "{FBBF84E3B447D822}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VL.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{647D71BB556E7C40}" {
+      SlotTemplate InventoryStorageSlot RGD5 {
+       Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+      }
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{647D71BBA6A3AA65}" {
+      SlotTemplate InventoryStorageSlot rdg2 {
+       Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+      }
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{647D71BB8455B020}" {
+      SlotTemplate InventoryStorageSlot VOG {
+       Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+      }
+      NumSlots 15
+     }
+     MultiSlotConfiguration "{647D71BBE4B046FF}" {
+      SlotTemplate InventoryStorageSlot TAF_patch {
+       Prefab "{F91554AC34AE97C0}Prefabs/Items/Equipment/Patches/TAF_logo.et"
+      }
+      NumSlots 9
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "RHS_AFRF"
+   }
+  }
+  coords 2364.757 71.608 6172.792
+  angleX 6.488
+  angleY -162.86
+  angleZ 0.135
+ }
+ Ural4320_transport_covered4 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60D38EDB3709A9}" {
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{647D71BA94858247}" {
+      SlotTemplate InventoryStorageSlot morphine {
+       Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{647D71BAE5D34A80}" {
+      SlotTemplate InventoryStorageSlot tourniquet {
+       Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{647E0C960ADF0BC8}" {
+      SlotTemplate InventoryStorageSlot RPK_magazine_traccer {
+       Prefab "{CD21D42623717E8F}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{647E0C9602467A82}" {
+      SlotTemplate InventoryStorageSlot RPK_magazine_traccer {
+       Prefab "{52FE3E0398FEEBC4}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_4Ball_1Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{647D71BAF7F7CD42}" {
+      SlotTemplate InventoryStorageSlot ak_magazines {
+       Prefab "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{647D71BAC418933B}" {
+      SlotTemplate InventoryStorageSlot ak_magazines_traccer {
+       Prefab "{7DD4759A10D449CE}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{647D71BAD8A48CD1}" {
+      SlotTemplate InventoryStorageSlot PKM_box {
+       Prefab "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{647D71BB32BA2A52}" {
+      SlotTemplate InventoryStorageSlot PKM_box_traccer {
+       Prefab "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{647D71BB1E2745E4}" {
+      SlotTemplate InventoryStorageSlot RPG_OG {
+       Prefab "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{647D71BB76C3C15A}" {
+      SlotTemplate InventoryStorageSlot PGVL {
+       Prefab "{FBBF84E3B447D822}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VL.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{647D71BB556E7C40}" {
+      SlotTemplate InventoryStorageSlot RGD5 {
+       Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+      }
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{647D71BBA6A3AA65}" {
+      SlotTemplate InventoryStorageSlot rdg2 {
+       Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+      }
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{647D71BB8455B020}" {
+      SlotTemplate InventoryStorageSlot VOG {
+       Prefab "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+      }
+      NumSlots 15
+     }
+     MultiSlotConfiguration "{647D71BBE4B046FF}" {
+      SlotTemplate InventoryStorageSlot TAF_patch {
+       Prefab "{F91554AC34AE97C0}Prefabs/Items/Equipment/Patches/TAF_logo.et"
+      }
+      NumSlots 12
+     }
+    }
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "RHS_AFRF"
+   }
+  }
+  coords 2361.596 73.216 6163.038
+  angleX 8.429
+  angleY -162.869
+  angleZ -0.191
+ }
+}

@@ -1,0 +1,42 @@
+GenericEntity : "{1EED0C006408490B}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Vest_Ratnik_6B45_Loadout_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  ClothNodeStorageComponent "{5DEB2A8AB559C576}" {
+   Attributes SCR_ItemAttributeCollection "{5DEB2A8AB559C568}" {
+    ItemDisplayName UIInfo "{5DEB2A8AB559C56B}" {
+     Name "#RHS-Vest_Ratnik_6B45_Base_Name [1]"
+     Description "#RHS-Vest_Ratnik_6B45_Base_Description"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Radio {
+     Prefab "{6B750632582934E5}Prefabs/Characters/Vests/Vest_Ratnik_Pouches/Pouch_Ratnik_azart_pouch.et"
+    }
+    LoadoutSlotInfo Pouch1 {
+     AutoTransform 1
+     Prefab "{722C8E77D7AE3941}Prefabs/Characters/Vests/Vest_Ratnik_Pouches/Pouch_Ratnik_ak_1_pouch.et"
+    }
+    LoadoutSlotInfo Pouch2 {
+     Prefab "{EE9D33AFBDABF119}Prefabs/Characters/Vests/Vest_Ratnik_Pouches/Pouch_Ratnik_ak_2_pouch.et"
+    }
+    LoadoutSlotInfo Bayonet {
+     PivotID "Spine5"
+     Offset 0.173 0.0688 0.1478
+     Angles -88.672 147.35942 148.561
+     Prefab "{0AA53CB4EA5DBC32}Prefabs/Characters/Vests/Vest_Ratnik_Pouches/Pouch_6x9Scabbard.et"
+    }
+    LoadoutSlotInfo FirstAid {
+     Prefab "{ADF17AE969E9C691}Prefabs/Characters/Vests/Vest_Ratnik_Pouches/Pouch_Ratnik_appi_pouch.et"
+    }
+    LoadoutSlotInfo Etool {
+     PivotID "Spine5"
+     Offset 0.2013 -0.053 -0.0457
+     Angles -3.3068 98.44891 0.2473
+     Prefab "{FC07732ADAE70D5C}Prefabs/Items/Equipment/Accessories/ETool_MPL50/RHS_MPL50_Carrier.et"
+    }
+   }
+  }
+ }
+}

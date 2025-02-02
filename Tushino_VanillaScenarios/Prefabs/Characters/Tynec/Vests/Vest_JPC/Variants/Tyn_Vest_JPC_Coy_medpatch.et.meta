@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{EEF964839ACDFD7F}Prefabs/Characters/Vests/Vest_JPC/variants/Tyn_Vest_JPC_Coy_medpatch.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

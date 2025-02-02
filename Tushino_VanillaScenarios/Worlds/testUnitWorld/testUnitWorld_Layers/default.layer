@@ -89,8 +89,17 @@ GenericEntity : "{0DBE058F13F0C7E8}PrefabsEditable/Auto/Structures/Military/Flag
 GenericEntity : "{14B2D417839BF8A3}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_USSR.et" {
  coords 133.737 1 177.556
 }
+GenericEntity : "{28F32B1BED534EA9}Prefabs/Items/Tynec/Equipment/Radios/Tyn_Radio_ANPRC152A_OLD.et" {
+ coords 144.658 1 178.541
+}
+GenericEntity : "{4421A403A72806C7}Prefabs/Items/Tynec/Equipment/Radios/Tyn_Radio_ANPRC152A_OLD_SL.et" {
+ coords 144.195 1 179.502
+}
 SCR_ChimeraCharacter : "{4438AEFF45A8CE9E}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Rifleman.et" {
  coords 128.652 1 176.909
+}
+GenericEntity : "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" {
+ coords 146.78 1 179.76
 }
 $grp GenericEntity : "{8364151EF33B3B33}Prefabs/Structures/Core/FlagPole_Base.et" {
  {
@@ -109,13 +118,19 @@ $grp GenericEntity : "{8364151EF33B3B33}Prefabs/Structures/Core/FlagPole_Base.et
 GenericEntity : "{8528347E5F47F2A4}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_FIA.et" {
  coords 131.328 1 177.315
 }
+GameEntity : "{C55821E8E86C074E}Prefabs/Items/Equipment/Radios/Radio_ANPRC152.et" {
+ coords 144.423 1 178.908
+}
 GenericEntity : "{CC03E3F4B1E5E1B8}Prefabs/Items/drongo/Bulba_basic.et" {
  coords 135.803 1 179.471
 }
 GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et" {
- coords 140.074 1 179.888
+ coords 144.741 1 181.159
 }
 SCR_DestructibleBuildingEntity : "{DDDD6E504DF34F70}PrefabLibrary/Structures/Military/GuardHouse_01.et" {
  coords 141.334 0 168.836
  angleY 115.494
+}
+GameEntity : "{F91554AC34AE97C0}Prefabs/Items/Equipment/Patches/TAF_logo.et" {
+ coords 145.303 1 179.429
 }

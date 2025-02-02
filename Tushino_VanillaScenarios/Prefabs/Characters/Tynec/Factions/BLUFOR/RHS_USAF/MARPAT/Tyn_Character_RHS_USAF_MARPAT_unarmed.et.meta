@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4811E545CF73B14C}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/Tyn_Character_RHS_USAF_MARPAT_unarmed.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

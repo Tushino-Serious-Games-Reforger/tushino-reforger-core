@@ -1,0 +1,14 @@
+GenericEntity : "{C4FEAEB4AAA7B6B2}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_Coy.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    RHS_LoadoutSlotInfo ChestVelcro {
+     Prefab "{0D07F51A271B0065}Prefabs/Items/Equipment/Patches/Patch_USMC_ID_Bernat.et"
+    }
+   }
+  }
+ }
+ coords 78.57 1 140.14
+ angleY 0
+}
