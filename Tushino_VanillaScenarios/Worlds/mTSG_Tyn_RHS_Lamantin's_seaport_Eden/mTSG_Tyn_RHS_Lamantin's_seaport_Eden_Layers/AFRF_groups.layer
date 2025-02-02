@@ -46,7 +46,7 @@ $grp SCR_AIGroup : "{8C9DF519F9649420}Prefabs/Groups/OPFOR/drg_Group_USSR_RifleS
     m_iSquadCallsign 2
    }
   }
-  coords 2564.787 88.529 5353.473
+  coords 2565.134 88.548 5353.655
   angleX -0.454
   angleY -27.663
   angleZ -2.792
