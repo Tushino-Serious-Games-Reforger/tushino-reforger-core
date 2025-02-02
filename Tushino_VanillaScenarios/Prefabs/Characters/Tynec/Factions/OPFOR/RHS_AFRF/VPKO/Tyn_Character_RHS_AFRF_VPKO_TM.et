@@ -1,11 +1,28 @@
 SCR_ChimeraCharacter : "{6DB3B5CB37E7F6DF}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_unarmed.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{F2539FA5706E51E4}Prefabs/Items/Equipment/Binoculars/Binoculars_B12/Binoculars_B12.et"
+      }
+     }
+    }
+   }
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#TYN-Role_TeamLeader"
     Icon "{44B846FB4F46E36A}UI/Icons/team_leader.edds"
    }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{A2BCB4A18E01F41E}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_1P78.et"
@@ -31,33 +48,33 @@ SCR_ChimeraCharacter : "{6DB3B5CB37E7F6DF}Prefabs/Characters/Tynec/Factions/OPFO
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{647D71B16B9AB8D7}" {
+    ItemsInitConfigurationItem "{6485301EDB649980}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_Ratnik_Pouches/Pouch_Ratnik_azart_pouch.et"
      TargetPurpose 64
      PrefabsToSpawn {
       "{1F29EC0D6D22BAE8}Prefabs/Items/Tynec/Equipment/Radios/Tyn_Radio_R187P1_OLD_SL.et"
      }
     }
-    ItemsInitConfigurationItem "{647D71B163FE5CAF}" {
+    ItemsInitConfigurationItem "{6485301EDB649995}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_Ratnik_Pouches/Pouch_Ratnik_ak_1_pouch.et"
      PrefabsToSpawn {
       "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et" "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
      }
     }
-    ItemsInitConfigurationItem "{647D71B17E297513}" {
+    ItemsInitConfigurationItem "{6485301EDB64999C}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_Ratnik_Pouches/Pouch_Ratnik_ak_2_pouch.et"
      PrefabsToSpawn {
       "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et" "{59015F7C36DE86C2}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer_camo.et"
      }
     }
-    ItemsInitConfigurationItem "{647D71B176BECFFF}" {
+    ItemsInitConfigurationItem "{6485301EDB64999A}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_Ratnik_Pouches/Pouch_6x9Scabbard.et"
      TargetPurpose 64
      PrefabsToSpawn {
       "{65506D3712FA2D29}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6X9-1.et"
      }
     }
-    ItemsInitConfigurationItem "{647D71B14EF89F2A}" {
+    ItemsInitConfigurationItem "{6485301EDB6499A6}" {
      TargetStorage "Prefabs/Characters/Vests/Vest_Ratnik_Pouches/Pouch_Ratnik_appi_pouch.et"
      PrefabsToSpawn {
       "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
