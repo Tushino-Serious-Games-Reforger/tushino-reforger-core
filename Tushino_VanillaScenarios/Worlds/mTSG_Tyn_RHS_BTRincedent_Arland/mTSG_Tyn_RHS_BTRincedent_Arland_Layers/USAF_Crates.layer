@@ -59,7 +59,7 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
       SlotTemplate InventoryStorageSlot m72 {
        Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
       }
-      NumSlots 3
+      NumSlots 1
      }
      MultiSlotConfiguration "{646EB5868458011E}" {
       SlotTemplate InventoryStorageSlot HE_gp {
@@ -78,6 +78,18 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
        Prefab "{F91554AC34AE97C0}Prefabs/Items/Equipment/Patches/TAF_logo.et"
       }
       NumSlots 8
+     }
+     MultiSlotConfiguration "{64851681573ADF1B}" {
+      SlotTemplate InventoryStorageSlot explosive {
+       Prefab "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
+      }
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{64851681AF29B575}" {
+      SlotTemplate InventoryStorageSlot m34 {
+       Prefab "{CE0AF733722B3978}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_M34.et"
+      }
+      NumSlots 1
      }
     }
    }
@@ -153,7 +165,7 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
       SlotTemplate InventoryStorageSlot m72 {
        Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
       }
-      NumSlots 3
+      NumSlots 1
      }
      MultiSlotConfiguration "{646EB5868458011E}" {
       SlotTemplate InventoryStorageSlot HE_gp {
@@ -172,6 +184,18 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
        Prefab "{F91554AC34AE97C0}Prefabs/Items/Equipment/Patches/TAF_logo.et"
       }
       NumSlots 8
+     }
+     MultiSlotConfiguration "{64851681552DE27B}" {
+      SlotTemplate InventoryStorageSlot explosive {
+       Prefab "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
+      }
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{64851681ACE0D42D}" {
+      SlotTemplate InventoryStorageSlot m34 {
+       Prefab "{CE0AF733722B3978}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_M34.et"
+      }
+      NumSlots 1
      }
     }
    }
@@ -247,7 +271,7 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
       SlotTemplate InventoryStorageSlot m72 {
        Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
       }
-      NumSlots 3
+      NumSlots 1
      }
      MultiSlotConfiguration "{646EB5868458011E}" {
       SlotTemplate InventoryStorageSlot HE_gp {
@@ -266,6 +290,18 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
        Prefab "{F91554AC34AE97C0}Prefabs/Items/Equipment/Patches/TAF_logo.et"
       }
       NumSlots 8
+     }
+     MultiSlotConfiguration "{6485168152E3E266}" {
+      SlotTemplate InventoryStorageSlot explosive {
+       Prefab "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
+      }
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{64851681AAE7BCF5}" {
+      SlotTemplate InventoryStorageSlot m34 {
+       Prefab "{CE0AF733722B3978}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_M34.et"
+      }
+      NumSlots 1
      }
     }
    }
@@ -339,7 +375,7 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
       SlotTemplate InventoryStorageSlot m72 {
        Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
       }
-      NumSlots 4
+      NumSlots 1
      }
      MultiSlotConfiguration "{646EB5868458011E}" {
       SlotTemplate InventoryStorageSlot HE_gp {
@@ -358,6 +394,18 @@ $grp GenericEntity : "{2C303FA30DF3D73F}Prefabs/Props/Military/AmmoBoxes/US/Equi
        Prefab "{F91554AC34AE97C0}Prefabs/Items/Equipment/Patches/TAF_logo.et"
       }
       NumSlots 11
+     }
+     MultiSlotConfiguration "{64851680D63809A9}" {
+      SlotTemplate InventoryStorageSlot explosive {
+       Prefab "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
+      }
+      NumSlots 6
+     }
+     MultiSlotConfiguration "{6485168147E9B644}" {
+      SlotTemplate InventoryStorageSlot m34 {
+       Prefab "{CE0AF733722B3978}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_M34.et"
+      }
+      NumSlots 1
      }
     }
    }
