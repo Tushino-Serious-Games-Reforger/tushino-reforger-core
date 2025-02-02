@@ -20,7 +20,7 @@ PS_GameModeCoop TSG_GameModeLobby1 : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_Gam
  {
   TSG_MissionTime {
    ID "633B6E4969D543B5"
-   m_iMissionTimeMinutes 30
+   m_iMissionTimeMinutes 55
   }
  }
 }
