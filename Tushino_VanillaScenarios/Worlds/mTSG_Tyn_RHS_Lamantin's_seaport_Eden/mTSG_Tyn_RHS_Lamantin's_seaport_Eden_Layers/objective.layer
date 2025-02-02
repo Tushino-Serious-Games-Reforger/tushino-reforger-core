@@ -16,7 +16,7 @@ $grp TSG_FactionLossesConstraint {
      }
     }
     coords 2.204 0 4.331
-    m_sTitle "ВС РФ расгромленны "
+    m_sTitle "ВС РФ разгромленны "
     m_iScore 100
     m_sFactionKey "RHS_USAF"
     m_bAdvanceWhenTriggered 1
@@ -30,7 +30,7 @@ $grp TSG_FactionLossesConstraint {
   }
   coords 1238.932 31.372 6072.852
   m_sFactionKey "RHS_USAF"
-  m_iMinNumberOfAliveCharacters 3
+  m_iMinNumberOfAliveCharacters 2
   {
    PS_Objective US_destroyed {
     components {
@@ -40,18 +40,12 @@ $grp TSG_FactionLossesConstraint {
      }
     }
     coords 2.204 0 4.331
-    m_sTitle "ВС США расгромленны"
+    m_sTitle "ВС США разгромленны"
     m_iScore 100
     m_sFactionKey "RHS_AFRF"
     m_bAdvanceWhenTriggered 1
    }
   }
- }
-}
-TSG_GameAdvance advance_game {
- coords 862.013 -10.736 5939.695
- m_aNamesOfObjectives {
-  "AFRF_capture_seaport"
  }
 }
 $grp TSG_ObserveFlag {
@@ -79,6 +73,7 @@ $grp TSG_ObserveFlag {
     m_sTitle "ВС РФ захватили порт"
     m_iScore 100
     m_sFactionKey "RHS_AFRF"
+    m_bAdvanceWhenTriggered 1
    }
   }
  }
