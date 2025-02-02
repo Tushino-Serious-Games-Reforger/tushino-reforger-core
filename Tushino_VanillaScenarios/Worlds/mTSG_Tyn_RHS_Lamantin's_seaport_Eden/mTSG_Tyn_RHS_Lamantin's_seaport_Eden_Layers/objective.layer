@@ -1,6 +1,12 @@
 $grp TSG_FactionLossesConstraint {
  RF_losses {
   components {
+   SCR_EditableEntityComponent "{64852A206A789F0E}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{64852A2067D666EA}" {
+     Name "Триггер потерь РФ"
+    }
+    m_bAutoRegister ALWAYS
+   }
    RplComponent "{633E883FF447CD99}" {
    }
   }
@@ -25,6 +31,12 @@ $grp TSG_FactionLossesConstraint {
  }
  US_losses {
   components {
+   SCR_EditableEntityComponent "{64852A207DC3D3FF}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{64852A207BEAB2B8}" {
+     Name "Триггер потерь США"
+    }
+    m_bAutoRegister ALWAYS
+   }
    RplComponent "{633E883FF447CD99}" {
    }
   }
@@ -51,6 +63,12 @@ $grp TSG_FactionLossesConstraint {
 $grp TSG_ObserveFlag {
  observe_AFRF_flag {
   components {
+   SCR_EditableEntityComponent "{64852A203D88F906}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{64852A203823E557}" {
+     Name "Триггер захвата флага РФ"
+    }
+    m_bAutoRegister ALWAYS
+   }
    RplComponent "{63254261F472147E}" {
    }
    Hierarchy "{632409008CB6ED8E}" {
@@ -79,6 +97,12 @@ $grp TSG_ObserveFlag {
  }
  observe_USAF_flag {
   components {
+   SCR_EditableEntityComponent "{64852A200BFFD4A5}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{64852A2008E154E4}" {
+     Name "Триггер удержания флага США"
+    }
+    m_bAutoRegister ALWAYS
+   }
    RplComponent "{63254261F472147E}" {
    }
    Hierarchy "{632409008CB6ED8E}" {

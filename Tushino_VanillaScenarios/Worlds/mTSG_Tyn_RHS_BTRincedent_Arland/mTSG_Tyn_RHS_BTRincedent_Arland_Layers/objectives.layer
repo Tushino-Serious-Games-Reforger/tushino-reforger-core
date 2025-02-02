@@ -1,6 +1,12 @@
 $grp TSG_EntityConstraint {
  BTR_save {
   components {
+   SCR_EditableEntityComponent "{64852A21977FBBEB}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{64852A219230C8D6}" {
+     Name "Триггер сохранения БТРа"
+    }
+    m_bAutoRegister ALWAYS
+   }
    RplComponent "{633B6E4759FDDC59}" {
    }
   }
@@ -19,6 +25,12 @@ $grp TSG_EntityConstraint {
  }
  BTR_destroy {
   components {
+   SCR_EditableEntityComponent "{64852A21A4D3F9DB}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{64852A2187BA9991}" {
+     Name "Триггер уничтожения БТРа"
+    }
+    m_bAutoRegister ALWAYS
+   }
    RplComponent "{633B6E4735BD04AC}" {
    }
   }
@@ -39,6 +51,12 @@ $grp TSG_EntityConstraint {
 $grp TSG_FactionLossesConstraint {
  RF_losses {
   components {
+   SCR_EditableEntityComponent "{64852A21FF107A23}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{64852A21F99D0B9F}" {
+     Name "Триггер потерь РФ"
+    }
+    m_bAutoRegister ALWAYS
+   }
    RplComponent "{633E883FF447CD99}" {
    }
   }
@@ -62,6 +80,12 @@ $grp TSG_FactionLossesConstraint {
  }
  US_losses {
   components {
+   SCR_EditableEntityComponent "{64852A21CD8EBCDF}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{64852A21C8A8DC39}" {
+     Name "Триггер потерь США"
+    }
+    m_bAutoRegister ALWAYS
+   }
    RplComponent "{633E883FF1134EA5}" {
    }
   }
