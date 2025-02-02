@@ -60,6 +60,12 @@ Vehicle BTR1 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
      }
      NumSlots 9
     }
+    MultiSlotConfiguration "{648516883E3BB047}" {
+     SlotTemplate InventoryStorageSlot helmet {
+      Prefab "{B5D99580B0620133}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47_6M2_no_cover.et"
+     }
+     NumSlots 2
+    }
    }
   }
  }
