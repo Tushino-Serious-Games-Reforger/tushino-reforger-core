@@ -24,6 +24,13 @@ PS_GameModeCoop "62D1737781F21CC7" : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_Gam
  {
   TSG_MissionTime {
    ID "633B6E4969D543B5"
+   components {
+    SCR_EditableEntityComponent "{6456CDDAF220056A}" {
+     m_UIInfo SCR_EditableEntityUIInfo "{6456CDDAF5029BA3}" {
+      Name "Завершение миссии по времени"
+     }
+    }
+   }
    m_iMissionTimeMinutes 50
   }
  }

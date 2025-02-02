@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{903097F658A99BE3}Prefabs/Characters/Drongo/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman.et" {
+SCR_ChimeraCharacter : "{903097F658A99BE3}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman.et" {
  ID "520EC961A090BBD5"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -19,6 +19,11 @@ SCR_ChimeraCharacter : "{903097F658A99BE3}Prefabs/Characters/Drongo/BLUFOR/US_Ar
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B87867EA32507F}" {
+     PrefabsToSpawn + {
+      "{BA2D0EE170E44DC7}Prefabs/Items/drongo/Equipment/Radios/Radio_ANPRC68_rprv.et"
+     }
+    }
     ItemsInitConfigurationItem "{61B87867AD2AC1E7}" {
      TargetStorage "Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et"
     }

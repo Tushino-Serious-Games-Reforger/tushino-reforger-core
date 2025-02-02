@@ -632,27 +632,6 @@ $grp PolylineShapeEntity {
    }
   }
   IsClosed 1
-  {
-   PS_PolyZoneTrigger ussr_trigger {
-    components {
-     Hierarchy "{62F34D0E6039DDC2}" {
-     }
-    }
-    coords 67.308 1.291 -89.781
-    TriggerShapeType Polyline
-    "Polyline Height" 1000
-    TriggerActivationType "All changes"
-    PeriodicQueries 1
-    ClassesFilter {
-     "ChimeraCharacter"
-    }
-    m_polyZoneEffect PS_PolyZoneEffectScreenBlure "{62F34D0F83A86917}" {
-    }
-    m_bReversed 1
-    m_bAliveOnly 1
-    m_sFactionKey "USSR"
-   }
-  }
  }
  blue_marker {
   components {
@@ -949,38 +928,5 @@ $grp PolylineShapeEntity {
   }
   IsClosed 1
   LineColor 0 0.125 0.502 1
-  {
-   PS_PolyZoneTrigger hq_trigger {
-    components {
-     Hierarchy "{62F8DDE016F482A7}" {
-     }
-    }
-    coords -4.303 1.466 60.755
-    TriggerShapeType Polyline
-    "Polyline Height" 1000
-    TriggerActivationType "All changes"
-    PeriodicQueries 1
-    UpdatePeriod 10
-    ClassesFilter {
-     "ChimeraCharacter"
-    }
-    PrefabsFilter {
-     PrefabFilter "{62F8DDE023E12753}" {
-      Prefab "{575536F7FD6F628B}Prefabs/Characters/Boryan/OPFOR/USSR_Army/CIV/brn_Character_USSR_Administrator.et"
-     }
-     PrefabFilter "{62F8DDE02F2FEFDA}" {
-      Prefab "{4D78E271130A6C6F}Prefabs/Characters/Boryan/OPFOR/USSR_Army/CIV/brn_Character_USSR_Bodyguard.et"
-     }
-     PrefabFilter "{62F8DDE05AA0B21E}" {
-      Prefab "{930F93EE5A9072AD}Prefabs/Characters/Boryan/OPFOR/USSR_Army/CIV/brn_Character_USSR_SeniorBodyguard.et"
-     }
-    }
-    m_polyZoneEffect PS_PolyZoneEffectRestricted "{62F8DDE0434D3D81}" {
-     m_fKillTime 120
-    }
-    m_bReversed 1
-    m_bAliveOnly 1
-   }
-  }
  }
 }
