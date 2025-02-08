@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{FF7ABD6F24394EC5}Prefabs/Characters/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_base.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

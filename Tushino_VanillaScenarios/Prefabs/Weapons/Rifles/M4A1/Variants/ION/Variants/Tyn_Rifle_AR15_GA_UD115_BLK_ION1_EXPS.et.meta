@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3C1685FFB432AD4B}Prefabs/Weapons/Rifles/M4A1/Variants/ION/Variants/Tyn_Rifle_AR15_GA_UD115_BLK_ION1_EXPS.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
