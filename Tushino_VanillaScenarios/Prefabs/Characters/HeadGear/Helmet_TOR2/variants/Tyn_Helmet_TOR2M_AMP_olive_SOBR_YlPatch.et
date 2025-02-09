@@ -1,0 +1,28 @@
+GameEntity : "{1CB7F72BBD5E2972}Prefabs/Characters/HeadGear/Helmet_TOR2/Helmet_TOR2M_AMP_olive.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab "{7E743612A8641FAB}Prefabs/Characters/HeadGear/Helmet_TOR/Headgear_tor_cover_fg.et"
+    }
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{02A017B3122AC52D}Prefabs/Characters/HeadGear/Balaclavas/LShZ_Balaclava/Balaclava_LShZ_atacs.et"
+    }
+    RHS_LoadoutSlotInfo BackVelcro {
+     Prefab "{2893C652AFE86456}Prefabs/Characters/HeadGear/Helmet_TOR/counterweight/TOR_counterweight_FG.et"
+    }
+    RHS_LoadoutSlotInfo LeftVelcro {
+     Prefab "{30C3A87F16109380}Prefabs/Items/Equipment/Patches/Patch_RU_Flag_Reflective_Orange.et"
+    }
+    RHS_LoadoutSlotInfo RightVelcro {
+    }
+    LoadoutSlotInfo backpatch {
+     PivotID "Head"
+     Offset 0 0.1193 0.148
+     Angles 11.8651 0 0
+    }
+   }
+  }
+ }
+}

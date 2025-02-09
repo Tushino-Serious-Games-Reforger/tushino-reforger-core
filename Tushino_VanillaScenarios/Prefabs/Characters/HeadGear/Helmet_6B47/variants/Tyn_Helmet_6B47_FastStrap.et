@@ -1,0 +1,21 @@
+GameEntity : "{834D8CA2379392B5}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47_FastStrap.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{E2AEE09BA445A688}Prefabs/Characters/Eyewear/npp_kondor/Eyewear_npp_kondor.et"
+    }
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab ""
+    }
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{02A017B3122AC52D}Prefabs/Characters/HeadGear/Balaclavas/LShZ_Balaclava/Balaclava_LShZ_atacs.et"
+    }
+    RHS_LoadoutSlotInfo Headset {
+     Prefab "{85D618A51C013F7A}Prefabs/Characters/HeadGear/Headphones_Peltor/Headphones_Peltor_yellow.et"
+    }
+   }
+  }
+ }
+}
