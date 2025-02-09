@@ -385,11 +385,35 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
+  CustomStringTableItem "{64928668311A027C}" {
+   Id "TYN-Role_AsTmCmd"
+   Target_en_us "Assault team commander"
+   Target_ru_ru "Командир штурмовой группы"
+   Modified 1687327452
+   Author "p1vas"
+   LastChanged "p1vas"
+  }
   CustomStringTableItem "{647D141A2A6A0E11}" {
    Id "TYN-Role_DeputyLeader"
    Target_en_us "Deputy commander"
    Target_ru_ru "Заместитель командира"
    Modified 1685925531
+   Author "p1vas"
+   LastChanged "p1vas"
+  }
+  CustomStringTableItem "{6492866173296C20}" {
+   Id "TYN-Role_employer"
+   Target_en_us "Employer"
+   Target_ru_ru "Закасчик"
+   Modified 1687331918
+   Author "p1vas"
+   LastChanged "p1vas"
+  }
+  CustomStringTableItem "{64928661A5964387}" {
+   Id "TYN-Role_MercCommander"
+   Target_en_us "Merc commander"
+   Target_ru_ru "Командир наёмников"
+   Modified 1687331945
    Author "p1vas"
    LastChanged "p1vas"
   }
