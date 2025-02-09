@@ -1,0 +1,54 @@
+SCR_ChimeraCharacter : "{D95DCAA9E414C36F}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TYN-Role_employer"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{E998FA484B0C4BFF}Prefabs/Weapons/Handguns/Glock/Handgun_Glock17.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{54A7E4E38371553E}Prefabs/Characters/HeadGear/Helmet_Exfil/Helmet_Exfil_Blk.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{AE93D885FDF713D4}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_black_V1.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{037DD3060547B417}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_MCBlk.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{1A65EADE4B08583E}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_black_V1.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{C7923961D7235D70}Prefabs/Characters/Footwear/CombatBoots_Soviet_01.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{4F71E7468E78DDD2}Prefabs/Characters/Handwear/Gloves_Leather_01/Gloves_Leather_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6490D0C540A915A4}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_black_V1.et"
+    }
+    ItemsInitConfigurationItem "{6490D0C5513755EA}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_black_V1.et"
+    }
+    ItemsInitConfigurationItem "{6490D0C5BCA22EB6}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_black_V1.et"
+    }
+    ItemsInitConfigurationItem "{64928660313BF359}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_black_V1.et"
+     PrefabsToSpawn {
+      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+     }
+    }
+   }
+  }
+ }
+}
