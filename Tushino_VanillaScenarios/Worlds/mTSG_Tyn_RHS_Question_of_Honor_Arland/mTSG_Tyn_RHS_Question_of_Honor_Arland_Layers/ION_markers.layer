@@ -1,0 +1,129 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ RHS_ION_G_013_M {
+  coords 1391.297 36.115 2350.461
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Атлас Уайт 4"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR" "RHS_AFRF" "RHS_ION"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ RHS_ION_G_000_M {
+  coords 1406.601 36.251 2338.901
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Атлас Ред 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR" "RHS_AFRF" "RHS_ION"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ RHS_ION_G_010_M {
+  coords 1406.465 35.954 2342.672
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Атлас Уайт 1"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR" "RHS_AFRF" "RHS_ION"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ RHS_ION_G_011_M {
+  coords 1406.223 35.904 2349.389
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Атлас Уайт 2"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR" "RHS_AFRF" "RHS_ION"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ RHS_ION_G_012_M {
+  coords 1406.036 35.841 2356.149
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Атлас Уайт 3"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR" "RHS_AFRF" "RHS_ION"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 1397.258 35.88 2358.375
+  angleX 0.881
+  angleY 269.076
+  angleZ -0.909
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.399
+  m_sDescription "#AR-Vehicle_M1025_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR" "RHS_AFRF" "RHS_ION"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 1397.325 35.84 2366.42
+  angleX 0.881
+  angleY 269.076
+  angleZ -0.909
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0.44 0.078 1
+  m_sQuadName "Car"
+  m_fWorldSize 2.399
+  m_sDescription "#AR-Vehicle_M1025_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR" "RHS_AFRF" "RHS_ION"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+}

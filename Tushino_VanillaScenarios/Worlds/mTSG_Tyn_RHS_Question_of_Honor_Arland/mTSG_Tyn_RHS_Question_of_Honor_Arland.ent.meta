@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{FDCD51ADD01BA89F}Worlds/mTSG_Tyn_RHS_Question_of_Honor_Arland/mTSG_Tyn_RHS_Question_of_Honor_Arland.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

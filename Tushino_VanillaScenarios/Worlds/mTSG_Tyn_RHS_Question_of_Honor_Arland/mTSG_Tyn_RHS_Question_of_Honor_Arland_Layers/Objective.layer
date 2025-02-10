@@ -1,0 +1,191 @@
+PolylineShapeEntity ION_border {
+ components {
+  PS_PolyZone "{649438852EA03A54}" {
+   m_cPolygonColor 1 1 1 0
+   m_cPolygonBorderColor 0.502 0 0 1
+   m_fPolygonBorderWidth 8.7
+   m_aVisibleForFactions {
+    "RHS_ION" "RHS_AFRF" ""
+   }
+  }
+ }
+ coords 1393.81 36.159 2324.872
+ Points {
+  ShapePoint "{64943884E39CBC8D}" {
+   Position -0.127 0.007 -1.676
+  }
+  ShapePoint "{64943884E39C8AE0}" {
+   Position 21.05 0.104 -1.614
+  }
+  ShapePoint "{64943884F956185B}" {
+   Position 42.194 0.656 -1.051
+  }
+  ShapePoint "{64943884F4F83D1E}" {
+   Position 43.093 0.916 138.195
+  }
+  ShapePoint "{64943884F2F1007C}" {
+   Position -12.304 0.665 137.872
+  }
+  ShapePoint "{64943884CF53971C}" {
+   Position -99.753 1.318 79.625
+  }
+  ShapePoint "{64943884CC6A3598}" {
+   Position -43.91 1.132 -0.564
+  }
+  ShapePoint "{64943884C7205162}" {
+   Position 0.078 -0.001 -0.115
+  }
+ }
+ IsClosed 1
+}
+$grp TSG_EntityConstraint {
+ protect_employer {
+  components {
+   SCR_EditableEntityComponent "{6455762A79EB46DF}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{645576299B6A84C0}" {
+     Name "Триггер на сохранение в живых главы администрации"
+    }
+    m_sIconBoneName "protect admin script"
+    m_bAutoRegister ALWAYS
+   }
+   RplComponent "{633D225D0DF16B3E}" {
+   }
+  }
+  coords 1391.652 36.191 2360.921
+  m_aPrefabs {
+   "{665EEAE4A6507C20}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_businessman.et"
+  }
+  m_bCheckAlive 1
+  {
+   PS_Objective employer_protected : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+    coords -658.6 0 483.449
+    m_sTitle "Закасчик уцелел"
+    m_sFactionKey "RHS_ION"
+   }
+  }
+ }
+ kill_employer {
+  components {
+   SCR_EditableEntityComponent "{6455762A74D4746E}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{645576298910613E}" {
+     Name "Триггер на убийство главы администрации"
+    }
+    m_sIconBoneName "kill admin script"
+    m_bAutoRegister ALWAYS
+   }
+   RplComponent "{633D225CFE11B31C}" {
+   }
+  }
+  coords 1399.301 36.191 2356.116
+  m_aPrefabs {
+   "{665EEAE4A6507C20}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_businessman.et"
+  }
+  m_bDisableWhenTriggered 1
+  {
+   PS_Objective employer_killed : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+    coords 0 0 0
+    m_sTitle "Предатель убит"
+    m_sFactionKey "RHS_AFRF"
+    m_bAdvanceWhenTriggered 1
+   }
+  }
+ }
+ employer_secure {
+  components {
+   SCR_EditableEntityComponent "{6456CDDEEA7DF2BE}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{6456CDDF10051A32}" {
+     Name "Триггер на эвакуацию БТР"
+    }
+    m_bAutoRegister ALWAYS
+   }
+   RplComponent "{633D3C5D6BC335AD}" {
+   }
+  }
+  coords 1387.965 36.25 2361.6
+  m_aPrefabs {
+   "{665EEAE4A6507C20}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_businessman.et"
+  }
+  m_bCheckAlive 1
+  m_bDisableWhenTriggered 1
+  m_sPolygonName "ION_border"
+  m_bInversed 1
+  {
+   PS_Objective employer_secured {
+    components {
+     RplComponent "{63227DE56BEEC6E3}" {
+     }
+     Hierarchy "{633D29968DE3461B}" {
+     }
+    }
+    coords -116.075 0 -656.659
+    m_sTitle "Предатель был захвачен"
+    m_iScore 100
+    m_sFactionKey "RHS_AFRF"
+    m_bAdvanceWhenTriggered 1
+   }
+  }
+ }
+ employer_secure2 {
+  components {
+   SCR_EditableEntityComponent "{6456CDDEEA7DF2BE}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{6456CDDF10051A32}" {
+     Name "Триггер на эвакуацию БТР"
+    }
+    m_bAutoRegister ALWAYS
+   }
+   RplComponent "{633D3C5D6BC335AD}" {
+   }
+  }
+  coords 1406.672 35.771 2354.191
+  m_aPrefabs {
+   "{665EEAE4A6507C20}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_businessman.et"
+  }
+  m_bCheckAlive 1
+  m_bDisableWhenTriggered 1
+  m_sPolygonName "ION_border"
+  m_bInversed 1
+  {
+   PS_Objective employer_secured2 {
+    components {
+     RplComponent "{63227DE56BEEC6E3}" {
+     }
+     Hierarchy "{633D29968DE3461B}" {
+     }
+    }
+    coords -116.075 0 -656.659
+    m_sTitle "Закасчик был захвачен"
+    m_iScore -100
+    m_sFactionKey "RHS_ION"
+    m_bAdvanceWhenTriggered 1
+   }
+  }
+ }
+}
+TSG_FactionLossesConstraint RF_losses {
+ components {
+  SCR_EditableEntityComponent "{64852A21FF107A23}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{64852A21F99D0B9F}" {
+    Name "Триггер потерь РФ"
+   }
+   m_bAutoRegister ALWAYS
+  }
+  RplComponent "{633E883FF447CD99}" {
+  }
+ }
+ coords 1396.381 36.043 2349.628
+ m_sFactionKey "RHS_AFRF"
+ {
+  PS_Objective RF_destroyed {
+   components {
+    RplComponent "{633E883E0C3A2235}" {
+    }
+    Hierarchy "{633E883E0A5E7884}" {
+    }
+   }
+   m_sTitle "Оперативники СОБР разгромленны"
+   m_iScore 100
+   m_sFactionKey "RHS_ION"
+   m_bAdvanceWhenTriggered 1
+  }
+ }
+}
