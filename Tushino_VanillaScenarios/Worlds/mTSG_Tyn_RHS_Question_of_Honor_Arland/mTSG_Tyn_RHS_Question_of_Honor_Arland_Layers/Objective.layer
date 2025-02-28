@@ -94,7 +94,7 @@ $grp TSG_EntityConstraint {
   components {
    SCR_EditableEntityComponent "{6456CDDEEA7DF2BE}" {
     m_UIInfo SCR_EditableEntityUIInfo "{6456CDDF10051A32}" {
-     Name "Триггер на эвакуацию БТР"
+     Name "Триггер захвата главы администрации живым"
     }
     m_bAutoRegister ALWAYS
    }
@@ -129,7 +129,7 @@ $grp TSG_EntityConstraint {
   components {
    SCR_EditableEntityComponent "{6456CDDEEA7DF2BE}" {
     m_UIInfo SCR_EditableEntityUIInfo "{6456CDDF10051A32}" {
-     Name "Триггер на эвакуацию БТР"
+     Name "Триггер захвата главы администрации живым(Для РФ)"
     }
     m_bAutoRegister ALWAYS
    }
