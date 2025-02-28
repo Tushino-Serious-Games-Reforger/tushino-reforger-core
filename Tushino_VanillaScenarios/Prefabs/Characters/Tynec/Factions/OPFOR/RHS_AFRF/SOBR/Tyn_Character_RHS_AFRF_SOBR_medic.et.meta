@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9C348D72FF8128B3}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_medic.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

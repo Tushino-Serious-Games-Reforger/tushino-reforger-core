@@ -1,0 +1,28 @@
+GenericEntity : "{710B611121AAD8A1}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_npz_b10m_b19n_tgpa.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{64925B04C0D852E5}" {
+     SourceMaterial "ak"
+     AssignedMaterial "{EF084A34D957EAFE}Assets/Weapons/Rifles/ak74m/Data/ak74m_camo.emat"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5D5100CE8CA5075D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot RIS_Slot {
+      Prefab "{F016B4DEF5F4DD5D}Prefabs/Weapons/Attachments/Optics/exps/Optic_EXPS3-2.et"
+     }
+    }
+    AttachmentSlotComponent "{60CC8875532C0317}" {
+     AttachmentSlot InventoryStorageSlot Handguard {
+      Prefab "{86E71F45F9238778}Prefabs/Weapons/Attachments/Handguards/Handguard_AK74M/Handguard_Zenitco_B10M_B19.et"
+     }
+    }
+   }
+  }
+ }
+ coords 107.013 1.717 117.522
+}

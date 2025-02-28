@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9775B1713FED79BF}Missions/mTSG_Tyn_RHS_Question_of_Honor_Arland.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

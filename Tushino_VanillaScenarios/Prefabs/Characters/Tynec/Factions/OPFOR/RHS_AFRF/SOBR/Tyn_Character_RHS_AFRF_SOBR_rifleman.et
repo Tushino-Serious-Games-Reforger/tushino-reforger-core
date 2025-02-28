@@ -1,0 +1,73 @@
+SCR_ChimeraCharacter : "{DF781AF41DE63A72}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_rifleman"
+    Icon "{AE53796BC5D21A08}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Rifleman.edds"
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{EE8F331124D48BDD}Prefabs/Weapons/Rifles/AK74M/variants/Rifle_AK74M_npz_b10m_EXPS_silent.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{384A4FE5E278EC30}Prefabs/Characters/HeadGear/Helmet_TOR/variants/RG/Helmet_TOR_medium_green_RG8.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{CB38987269A299A2}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_SOBR.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{14712B6C95CA8557}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_belt_taktika_1.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{64925B0BE3BC44C6}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP111_radioClosed_FG.et"
+     PrefabsToSpawn {
+      "{6D2ABF4BAB295AF3}Prefabs/Items/Tynec/Equipment/Radios/Tyn_Radio_R187P1_OLD.et"
+     }
+    }
+    ItemsInitConfigurationItem "{64925B0BC2072A79}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_magpouch_base.et"
+     PrefabsToSpawn {
+      "{0FD71EAC637C1624}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer_camo.et" "{0FD71EAC637C1624}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer_camo.et"
+     }
+    }
+    ItemsInitConfigurationItem "{64925B0A3BAD574D}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_magpouch_morphed_base.et"
+     PrefabsToSpawn {
+      "{0FD71EAC637C1624}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer_camo.et" "{0FD71EAC637C1624}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer_camo.et"
+     }
+    }
+    ItemsInitConfigurationItem "{64925B0A0D307BFB}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_magpouch_morphed_base.et"
+     PrefabsToSpawn {
+      "{59015F7C36DE86C2}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer_camo.et" "{59015F7C36DE86C2}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer_camo.et"
+     }
+    }
+    ItemsInitConfigurationItem "{64925B0AB16887A5}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_FG.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{64925B0A914F6092}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_2_FG.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+   }
+  }
+ }
+}

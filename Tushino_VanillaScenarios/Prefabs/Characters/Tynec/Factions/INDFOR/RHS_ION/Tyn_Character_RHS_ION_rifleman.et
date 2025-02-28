@@ -1,0 +1,67 @@
+SCR_ChimeraCharacter : "{D95DCAA9E414C36F}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_rifleman"
+    Icon "{AE53796BC5D21A08}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Rifleman.edds"
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{3C1685FFB432AD4B}Prefabs/Weapons/Rifles/M4A1/Variants/ION/Variants/Tyn_Rifle_AR15_GA_UD115_BLK_ION1_EXPS.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E9D3278852A68C1E}Prefabs/Characters/HeadGear/Helmet_OPSCORE/variants/ION/Helmet_OPSCORE_MID_GRAY_ION2.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{E9F21639135FFA1B}Prefabs/Characters/Tynec/Vests/Vest_JPC/Tyn_Vest_JPC_MCBlk_IONpatch.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{D49BAC15ECA6BD56}Prefabs/Characters/Vests/Vest_JPC/variants/ION/Vest_JPC_MCBlk_no_belt.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6490D0C7B09D3F59}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_MCBlk.et"
+     PrefabsToSpawn {
+      "{4A9076E1979B457A}Prefabs/Items/Tynec/Equipment/Radios/Tyn_Radio_ANPRC152A_ION_OLD.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6490D0C03ADA6B33}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_jpc_placard_MCBLK.et"
+     PrefabsToSpawn {
+      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6490D0C07D0AC6AB}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MCBlk.et"
+     PrefabsToSpawn {
+      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6490D0C04F0C2976}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Minimap_JPC_ZipOnPanel2.0_MCBlk.et"
+     PrefabsToSpawn {
+      "{A9A385FE1F7BF4BD}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M856_Tracer.et" "{A9A385FE1F7BF4BD}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M856_Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6490D0C1123CD21D}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Raid_MCBlk.et"
+     PrefabsToSpawn {
+      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E3365A394635C622}Prefabs/Weapons/Rifles/M4A1/Variants/ION/Variants/Tyn_Rifle_DOM4A1_ION_BRAVO4_SD.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

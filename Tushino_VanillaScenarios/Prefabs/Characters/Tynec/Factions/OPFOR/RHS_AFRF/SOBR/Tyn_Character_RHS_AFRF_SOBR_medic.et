@@ -1,0 +1,88 @@
+SCR_ChimeraCharacter : "{DF781AF41DE63A72}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_medic"
+    Icon "{F3FCC3B9732551D9}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Medic.edds"
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{EE8F331124D48BDD}Prefabs/Weapons/Rifles/AK74M/variants/Rifle_AK74M_npz_b10m_EXPS_silent.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{89CD29FF056075B0}Prefabs/Characters/HeadGear/Helmet_6B47/variants/Tyn_Helmet_6B47_FastStrap.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{16ADEFF7E866B06D}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_groin_neck_protection_SOBR.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{72DB97161FBA7AF0}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_FG.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{7A88EDF9ACE491B7}Prefabs/Characters/Vests/Vest_TV102/variants/Vest_TV102_rifleman_FG_2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6492866D5ACC3F2C}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP111_radioClosed_FG.et"
+     PrefabsToSpawn {
+      "{6D2ABF4BAB295AF3}Prefabs/Items/Tynec/Equipment/Radios/Tyn_Radio_R187P1_OLD.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6492866DA564CE3F}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_ATACS.et"
+     PrefabsToSpawn {
+      "{0FD71EAC637C1624}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer_camo.et" "{0FD71EAC637C1624}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer_camo.et" "{59015F7C36DE86C2}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer_camo.et" "{59015F7C36DE86C2}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer_camo.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6492866DB03E2DA2}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_FG.et"
+     PrefabsToSpawn {
+      "{0FD71EAC637C1624}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer_camo.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6492866D823637DD}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_3_FG.et"
+     PrefabsToSpawn {
+      "{0FD71EAC637C1624}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer_camo.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6492866D9D132FB0}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_2_FG.et"
+     PrefabsToSpawn {
+      "{0FD71EAC637C1624}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer_camo.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6492866D9363DA4C}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_FG.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6492866DE6186A3B}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_2_FG.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6492866DDC39ABA2}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_FG.et"
+     PrefabsToSpawn {
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
+     }
+    }
+   }
+  }
+ }
+}

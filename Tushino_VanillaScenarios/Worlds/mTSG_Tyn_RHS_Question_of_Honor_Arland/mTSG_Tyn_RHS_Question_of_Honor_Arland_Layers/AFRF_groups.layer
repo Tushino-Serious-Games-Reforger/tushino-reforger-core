@@ -1,0 +1,119 @@
+$grp SCR_AIGroup : "{121F4A7DB996AE83}Prefabs/Groups/Tynec/OPFOR/Tyn_Group_USSR_HQ.et" {
+ A23 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "rank"
+   }
+   PS_GroupCallsignAssigner "{62B47CFC0DC7FE5A}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2336.833 72.974 1999.15
+  angleY 39.802
+  m_faction "RHS_AFRF"
+  m_aUnitPrefabSlots {
+   "{594E88FAAD99ADE7}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_SL.et" "{BB153E52C7FA804F}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_TM.et" "{66D1A7FFF1521B17}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_MG.et" "{B4D66022CA2A925C}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_aMG.et" "{DC8F4B3D644FF1B5}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_GM.et" "{3DC26E2792E30DBB}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_rifleman.et" "{3DC26E2792E30DBB}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_rifleman.et"
+  }
+ }
+ A22 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "rank"
+   }
+   PS_GroupCallsignAssigner "{62B47CFC0DC7FE5A}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2328.211 71.841 2006.288
+  angleY 39.802
+  m_faction "RHS_AFRF"
+  m_aUnitPrefabSlots {
+   "{594E88FAAD99ADE7}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_SL.et" "{BB153E52C7FA804F}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_TM.et" "{66D1A7FFF1521B17}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_MG.et" "{B4D66022CA2A925C}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_aMG.et" "{DC8F4B3D644FF1B5}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_GM.et" "{3DC26E2792E30DBB}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_rifleman.et" "{3DC26E2792E30DBB}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_rifleman.et"
+  }
+ }
+ A11 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "rank"
+   }
+  }
+  coords 2312.497 69.78 2019.088
+  angleY 39.802
+  m_faction "RHS_AFRF"
+  m_aUnitPrefabSlots {
+   "{50DA43F688524F9F}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_HQ.et" "{9C348D72FF8128B3}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_medic.et" "{AB14316D5C12C668}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_Sniper.et"
+  }
+ }
+ A21 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "rank"
+   }
+   PS_GroupCallsignAssigner "{62B47CFC0DC7FE5A}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 2319.853 70.534 2013.083
+  angleY 39.802
+  m_faction "RHS_AFRF"
+  m_aUnitPrefabSlots {
+   "{594E88FAAD99ADE7}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_SL.et" "{BB153E52C7FA804F}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_TM.et" "{66D1A7FFF1521B17}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_MG.et" "{B4D66022CA2A925C}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_aMG.et" "{DC8F4B3D644FF1B5}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_GM.et" "{3DC26E2792E30DBB}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_rifleman.et" "{3DC26E2792E30DBB}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_rifleman.et"
+  }
+ }
+ A32 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "rank"
+   }
+   PS_GroupCallsignAssigner "{62B47CFC0DC7FE5A}" {
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2339.813 65.809 2800.057
+  angleX 0.634
+  angleY 45.1
+  angleZ -0.632
+  m_faction "RHS_AFRF"
+  m_aUnitPrefabSlots {
+   "{594E88FAAD99ADE7}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_SL.et" "{BB153E52C7FA804F}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_TM.et" "{66D1A7FFF1521B17}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_MG.et" "{B4D66022CA2A925C}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_aMG.et" "{DC8F4B3D644FF1B5}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_GM.et" "{3DC26E2792E30DBB}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_rifleman.et" "{3DC26E2792E30DBB}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_rifleman.et"
+  }
+ }
+ A33 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "rank"
+   }
+   PS_GroupCallsignAssigner "{62B47CFC0DC7FE5A}" {
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 2
+   }
+  }
+  coords 2347.722 65.906 2792.135
+  angleY 45.306
+  m_faction "RHS_AFRF"
+  m_aUnitPrefabSlots {
+   "{594E88FAAD99ADE7}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_SL.et" "{BB153E52C7FA804F}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_TM.et" "{66D1A7FFF1521B17}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_MG.et" "{B4D66022CA2A925C}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_aMG.et" "{DC8F4B3D644FF1B5}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_GM.et" "{3DC26E2792E30DBB}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_rifleman.et" "{3DC26E2792E30DBB}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_rifleman.et"
+  }
+ }
+ A31 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "rank"
+   }
+   PS_GroupCallsignAssigner "{62B47CFC0DC7FE5A}" {
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 2332.139 65.686 2807.623
+  angleX 1.901
+  angleY 45.286
+  angleZ -0.623
+  m_faction "RHS_AFRF"
+  m_aUnitPrefabSlots {
+   "{594E88FAAD99ADE7}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_SL.et" "{BB153E52C7FA804F}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_TM.et" "{66D1A7FFF1521B17}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_MG.et" "{B4D66022CA2A925C}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_aMG.et" "{DC8F4B3D644FF1B5}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_GM.et" "{3DC26E2792E30DBB}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_rifleman.et" "{3DC26E2792E30DBB}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_rifleman.et"
+  }
+ }
+}

@@ -1,0 +1,72 @@
+GenericEntity : "{9C86BA57C1B1BE03}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_preset_base.et" {
+ ID "60633E89449A0B9A"
+ components {
+  MeshObject "{60633E894989E482}" {
+   Object "{7D2272F6DDD7984C}Assets/Characters/Belts/Belt_NppKlass_Taktika/taktika_belt_ground.xob"
+  }
+  RHS_ClothNodeStorageComponent "{60633E894989E44F}" {
+   Attributes SCR_ItemAttributeCollection "{60633E894989E477}" {
+    ItemDisplayName UIInfo "{60633E894989E4CB}" {
+     Name "#RHS-Vest_Preset_Prefix #RHS-Vest_Taktika_Base_Name [#AR-Weapon_PKM_Name] - #RHS-Camo_ATACSFG"
+     Description "#RHS-Belt_Taktika_Description"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{60633E894989E6AD}" {
+   Slots {
+    LoadoutSlotInfo PKM {
+     PivotID "Spine1"
+     Offset -0.2709 -0.0747 -0.0732
+     Angles -2.6279 162.91048 -2.8263
+     Prefab "{53F0E9D91F7E7040}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Mordor_PKM.et"
+    }
+    LoadoutSlotInfo PKM3 {
+     PivotID "Spine1"
+     Offset 0.2683 -0.071 -0.0231
+     Angles 0.5632 -0.7704 -1.8163
+     Prefab "{53F0E9D91F7E7040}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Mordor_PKM.et"
+    }
+    LoadoutSlotInfo Radio {
+     PivotID "Spine5"
+     Offset -0.1752 0.0483 -0.1701
+     Angles -0.3108 -123.4103 -0.0896
+     Prefab "{B949AD0954715B54}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP111_radioClosed_FG.et"
+    }
+    LoadoutSlotInfo medkit {
+     PivotID "Spine5"
+     Offset -0.2208 0.0306 0.0321
+     Angles -0.2267 -77.9722 4.3359
+     Prefab "{CCEC6694F57081B1}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_medpouch.et"
+    }
+    LoadoutSlotInfo holster {
+     PivotID "Spine5"
+     Offset 0.2094 0.013 0.1137
+     Angles -6.3167 62.7532 -3.5915
+     Prefab "{29F12A128C12B660}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_holster.et"
+    }
+    LoadoutSlotInfo pistolmag1 {
+     PivotID "Spine5"
+     Offset 0.2294 0.0045 -0.0068
+     Angles 0 86.7999 -7.3061
+     Prefab "{F5B31B4BAA318B4D}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_magpouch_pistol.et"
+    }
+    LoadoutSlotInfo pistolmag2 {
+     PivotID "Spine5"
+     Offset 0.2267 -0.0016 0.0407
+     Angles -0.5939 82.16228 -7.2821
+     Prefab "{F5B31B4BAA318B4D}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_magpouch_pistol.et"
+    }
+   }
+   WornModel "{474482B7D5A31C48}Assets/Characters/Belts/Belt_Wartech_TV106/TV106_TV107.xob"
+   WornMaterialsOverride {
+    "{6F128E41B1F7F211}Assets/Characters/Belts/Belt_Wartech_TV106/data/tv106_FG.emat"
+   }
+   ItemModel "{595F3EF087206227}Assets/Characters/Belts/Belt_Wartech_TV106/TV106_ground.xob"
+   ItemMaterialsOverride {
+    "{6F128E41B1F7F211}Assets/Characters/Belts/Belt_Wartech_TV106/data/tv106_FG.emat"
+   }
+   DebugWornModel 0
+  }
+ }
+ coords 124.605 1.677 175.074
+}

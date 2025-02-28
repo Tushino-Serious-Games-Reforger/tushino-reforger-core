@@ -1,0 +1,285 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ RHS_AFRF_G_000_M {
+  coords 2312.497 69.78 2019.088
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Актив-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR" "RHS_AFRF" "RHS_ION"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ RHS_AFRF_G_010_M {
+  coords 2319.853 70.534 2013.083
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Актив-21"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR" "RHS_AFRF" "RHS_ION"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ RHS_AFRF_G_011_M {
+  coords 2328.211 71.841 2006.288
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Актив-22"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR" "RHS_AFRF" "RHS_ION"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ RHS_AFRF_G_012_M {
+  coords 2336.833 72.974 1999.15
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Актив-23"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR" "RHS_AFRF" "RHS_ION"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ RHS_AFRF_G_020_M {
+  coords 2332.139 65.686 2807.623
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Актив-31"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR" "RHS_AFRF" "RHS_ION"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ RHS_AFRF_G_021_M {
+  coords 2339.813 65.809 2800.057
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Актив-32"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR" "RHS_AFRF" "RHS_ION"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ RHS_AFRF_G_022_M {
+  coords 2347.722 65.906 2792.135
+  m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "undefined"
+  m_fWorldSize 50
+  m_sDescription "Актив-33"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR" "RHS_AFRF" "RHS_ION"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 2324.916 70.989 2013.407
+  angleX -7.624
+  angleY 40.747
+  angleZ -0.693
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "Car"
+  m_fWorldSize 3.124
+  m_sDescription "#RHS-Vehicle_K4386_Name #RHS-Vehicle_Unarmed"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR" "RHS_AFRF" "RHS_ION"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 2332.903 72.238 2006.474
+  angleX -5.617
+  angleY 40.784
+  angleZ 1.045
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "Car"
+  m_fWorldSize 3.124
+  m_sDescription "#RHS-Vehicle_K4386_Name #RHS-Vehicle_Unarmed"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR" "RHS_AFRF" "RHS_ION"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 2340.948 73.135 2000.016
+  angleX -5.131
+  angleY 40.708
+  angleZ -0.88
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "Car"
+  m_fWorldSize 3.124
+  m_sDescription "#RHS-Vehicle_K4386_Name #RHS-Vehicle_Unarmed"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR" "RHS_AFRF" "RHS_ION"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 2351.896 65.906 2792.606
+  angleY 46.113
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "Car"
+  m_fWorldSize 3.124
+  m_sDescription "#RHS-Vehicle_K4386_Name #RHS-Vehicle_Unarmed"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR" "RHS_AFRF" "RHS_ION"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 2316.252 69.913 2020.641
+  angleX -5.023
+  angleY 38.992
+  angleZ 0.528
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "Car"
+  m_fWorldSize 3.124
+  m_sDescription "#RHS-Vehicle_K4386_Name"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR" "RHS_AFRF" "RHS_ION"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 2337.205 65.737 2807.468
+  angleX -0.62
+  angleY 46.131
+  angleZ -0.645
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "Car"
+  m_fWorldSize 3.124
+  m_sDescription "#RHS-Vehicle_K4386_Name #RHS-Vehicle_Unarmed"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR" "RHS_AFRF" "RHS_ION"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ {
+  coords 2344.497 65.847 2799.801
+  angleX -0.646
+  angleY 46.212
+  angleZ 0.619
+  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 0.555 0.002 0 1
+  m_sQuadName "Car"
+  m_fWorldSize 3.124
+  m_sDescription "#RHS-Vehicle_K4386_Name #RHS-Vehicle_Unarmed"
+  m_bUseWorldScale 1
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR" "RHS_AFRF" "RHS_ION"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ illustration {
+  coords 3597.529 0 2203.594
+  angleX -3.865
+  angleY 95.363
+  angleZ -6.613
+  m_sImageSet "{39674168809B6C0E}UI/Icons/businessman.edds"
+  m_sImageSetGlow ""
+  m_sQuadName ""
+  m_fWorldSize 610.224
+  m_sDescription "Фото цели"
+  m_aVisibleForFactions {
+   "FIA" "US" "USSR" "RHS_AFRF" "RHS_ION"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+}

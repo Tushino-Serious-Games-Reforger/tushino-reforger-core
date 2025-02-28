@@ -1,0 +1,82 @@
+SCR_ChimeraCharacter : "{DF781AF41DE63A72}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/SOBR/Tyn_Character_RHS_AFRF_SOBR_unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_grenadier"
+    Icon "{DDAEEF112BEBCF94}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Grenadier.edds"
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{EE8F331124D48BDD}Prefabs/Weapons/Rifles/AK74M/variants/Rifle_AK74M_npz_b10m_EXPS_silent.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{1828C5C23AE5E4CA}Prefabs/Weapons/GrenadeLaunchers/GM94/GL_GM94.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{384A4FE5E278EC30}Prefabs/Characters/HeadGear/Helmet_TOR/variants/RG/Helmet_TOR_medium_green_RG8.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{347466AF85CDE212}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_neck_protection_SOBR.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{B19468EF38AFABD9}Prefabs/Characters/Vests/Vest_TV102/variants/Vest_TV102_rifleman_FG_GM94.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{649286679AC1D56C}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP111_radioClosed_FG.et"
+     PrefabsToSpawn {
+      "{6D2ABF4BAB295AF3}Prefabs/Items/Tynec/Equipment/Radios/Tyn_Radio_R187P1_OLD.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6492866794CA498A}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp103_FG.et"
+     PrefabsToSpawn {
+      "{0FD71EAC637C1624}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer_camo.et" "{0FD71EAC637C1624}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer_camo.et"
+     }
+    }
+    ItemsInitConfigurationItem "{64928667FA330208}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_FG.et"
+     PrefabsToSpawn {
+      "{0FD71EAC637C1624}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer_camo.et"
+     }
+    }
+    ItemsInitConfigurationItem "{64928667DD383401}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_2_FG.et"
+     PrefabsToSpawn {
+      "{0FD71EAC637C1624}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer_camo.et"
+     }
+    }
+    ItemsInitConfigurationItem "{64928667D3BA6835}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_3_FG.et"
+     PrefabsToSpawn {
+      "{59015F7C36DE86C2}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer_camo.et"
+     }
+    }
+    ItemsInitConfigurationItem "{649286644548C8EC}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_A20.et"
+     PrefabsToSpawn {
+      "{FDACA6E5AEC36BD0}Prefabs/Weapons/Magazines/GM94/Magazine_43x30mm_GM94_4rnd_VGM93100.et" "{FDACA6E5AEC36BD0}Prefabs/Weapons/Magazines/GM94/Magazine_43x30mm_GM94_4rnd_VGM93100.et" "{FDACA6E5AEC36BD0}Prefabs/Weapons/Magazines/GM94/Magazine_43x30mm_GM94_4rnd_VGM93100.et"
+     }
+    }
+    ItemsInitConfigurationItem "{64928664C5247AD9}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_atacs.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+   }
+  }
+ }
+}

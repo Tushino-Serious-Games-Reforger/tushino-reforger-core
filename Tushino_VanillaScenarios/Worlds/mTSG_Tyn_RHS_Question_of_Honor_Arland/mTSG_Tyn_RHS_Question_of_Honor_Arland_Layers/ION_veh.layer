@@ -1,0 +1,24 @@
+$grp Vehicle : "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et" {
+ M2 {
+  components {
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "RHS_ION"
+   }
+  }
+  coords 1397.325 35.84 2366.42
+  angleX 0.881
+  angleY 179.076
+  angleZ -0.909
+ }
+ M1 {
+  components {
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "RHS_ION"
+   }
+  }
+  coords 1397.258 35.88 2358.375
+  angleX 0.881
+  angleY 179.076
+  angleZ -0.909
+ }
+}
