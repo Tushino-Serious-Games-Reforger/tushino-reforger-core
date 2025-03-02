@@ -43,7 +43,7 @@ $grp TSG_EntityConstraint {
   components {
    SCR_EditableEntityComponent "{6455762A79EB46DF}" {
     m_UIInfo SCR_EditableEntityUIInfo "{645576299B6A84C0}" {
-     Name "Триггер на сохранение в живых главы администрации"
+     Name "Триггер на сохранение в живых ВИПа"
     }
     m_sIconBoneName "protect admin script"
     m_bAutoRegister ALWAYS
@@ -68,7 +68,7 @@ $grp TSG_EntityConstraint {
   components {
    SCR_EditableEntityComponent "{6455762A74D4746E}" {
     m_UIInfo SCR_EditableEntityUIInfo "{645576298910613E}" {
-     Name "Триггер на убийство главы администрации"
+     Name "Триггер на убийство ВИПа"
     }
     m_sIconBoneName "kill admin script"
     m_bAutoRegister ALWAYS
@@ -94,7 +94,7 @@ $grp TSG_EntityConstraint {
   components {
    SCR_EditableEntityComponent "{6456CDDEEA7DF2BE}" {
     m_UIInfo SCR_EditableEntityUIInfo "{6456CDDF10051A32}" {
-     Name "Триггер захвата главы администрации живым"
+     Name "Триггер захвата ВИПа живым"
     }
     m_bAutoRegister ALWAYS
    }
@@ -110,53 +110,33 @@ $grp TSG_EntityConstraint {
   m_sPolygonName "ION_border"
   m_bInversed 1
   {
-   PS_Objective employer_secured {
-    components {
-     RplComponent "{63227DE56BEEC6E3}" {
+   $grp PS_Objective {
+    employer_secured {
+     components {
+      RplComponent "{63227DE56BEEC6E3}" {
+      }
+      Hierarchy "{633D29968DE3461B}" {
+      }
      }
-     Hierarchy "{633D29968DE3461B}" {
-     }
+     coords -116.075 0 -656.659
+     m_sTitle "Предатель был захвачен"
+     m_iScore 100
+     m_sFactionKey "RHS_AFRF"
+     m_bAdvanceWhenTriggered 1
     }
-    coords -116.075 0 -656.659
-    m_sTitle "Предатель был захвачен"
-    m_iScore 100
-    m_sFactionKey "RHS_AFRF"
-    m_bAdvanceWhenTriggered 1
-   }
-  }
- }
- employer_secure2 {
-  components {
-   SCR_EditableEntityComponent "{6456CDDEEA7DF2BE}" {
-    m_UIInfo SCR_EditableEntityUIInfo "{6456CDDF10051A32}" {
-     Name "Триггер захвата главы администрации живым(Для РФ)"
-    }
-    m_bAutoRegister ALWAYS
-   }
-   RplComponent "{633D3C5D6BC335AD}" {
-   }
-  }
-  coords 1406.672 35.771 2354.191
-  m_aPrefabs {
-   "{665EEAE4A6507C20}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_businessman.et"
-  }
-  m_bCheckAlive 1
-  m_bDisableWhenTriggered 1
-  m_sPolygonName "ION_border"
-  m_bInversed 1
-  {
-   PS_Objective employer_secured2 {
-    components {
-     RplComponent "{63227DE56BEEC6E3}" {
+    employer_secured3 {
+     components {
+      RplComponent "{63227DE56BEEC6E3}" {
+      }
+      Hierarchy "{633D29968DE3461B}" {
+      }
      }
-     Hierarchy "{633D29968DE3461B}" {
-     }
+     coords 19.07 12.266 -118.179
+     m_sTitle "Закасчик был захвачен"
+     m_iScore -100
+     m_sFactionKey "RHS_ION"
+     m_bAdvanceWhenTriggered 1
     }
-    coords -116.075 0 -656.659
-    m_sTitle "Закасчик был захвачен"
-    m_iScore -100
-    m_sFactionKey "RHS_ION"
-    m_bAdvanceWhenTriggered 1
    }
   }
  }
