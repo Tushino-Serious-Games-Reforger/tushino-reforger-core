@@ -48,3 +48,22 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   }
  }
 }
+PS_ManualMarker illustration : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 3597.529 0 2203.594
+ angleX -3.865
+ angleY 95.363
+ angleZ -6.613
+ m_sImageSet "{39674168809B6C0E}UI/Icons/businessman.edds"
+ m_sImageSetGlow ""
+ m_sQuadName ""
+ m_fWorldSize 610.224
+ m_sDescription "#TYN-Desc_TargetPhoto"
+ m_aVisibleForFactions {
+  "FIA" "US" "USSR" "RHS_AFRF" "RHS_ION"
+ }
+ m_bVisibleForEmptyFaction 1
+ m_aHideOnGameModeStates {
+  1
+ }
+ m_iZOrder 0
+}
