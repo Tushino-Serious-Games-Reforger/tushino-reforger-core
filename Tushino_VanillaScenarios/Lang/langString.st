@@ -385,6 +385,14 @@ StringTable {
    Author "siwi1"
    LastChanged "siwi1"
   }
+  CustomStringTableItem "{64C5461A701FAD80}" {
+   Id "TYN-Desc_TargetPhoto"
+   Target_en_us "Photo of object"
+   Target_ru_ru "Фото цели"
+   Modified 1690651443
+   Author "p1vas"
+   LastChanged "p1vas"
+  }
   CustomStringTableItem "{64928668311A027C}" {
    Id "TYN-Role_AsTmCmd"
    Target_en_us "Assault team commander"
