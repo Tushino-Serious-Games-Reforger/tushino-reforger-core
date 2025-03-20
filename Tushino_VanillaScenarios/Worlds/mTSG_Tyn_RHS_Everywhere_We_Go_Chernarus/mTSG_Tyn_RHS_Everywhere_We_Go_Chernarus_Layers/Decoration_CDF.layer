@@ -1,0 +1,778 @@
+GenericEntity Barricade_on_road : "{01E0B52B5BA2EF72}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_USSR_04.et" {
+ coords 1795.107 261.575 12048.317
+ angleY 81.191
+ {
+  GenericEntity : "{9C29AB1512EB4F65}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Sign_USSR_01.et" {
+   coords -0.748 -0.303 5.156
+   angleY -3.091
+  }
+ }
+}
+StaticModelEntity HQ_bunker : "{3FE207D0029D97CC}Prefabs/Structures/Military/Fortifications/BlastCover_E_01/BlastCover_E_01_8x13.et" {
+ coords 1759.182 262.676 12096.178
+ angleY 170.493
+ {
+  StaticModelEntity : "{2337DFDD05C26996}Prefabs/MP/Campaign/RequestTable_USSR_Barracks.et" {
+   coords 2.069 0.077 8.012
+   angleX -0.247
+   angleY 179.315
+   angleZ 3.678
+  }
+  $grp GenericEntity : "{31A455F7FD8DCE84}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_plastic.et" {
+   {
+    coords 4.303 2.805 7.973
+    angleY -89.626
+   }
+   {
+    coords 4.34 2.821 4.827
+    angleY -89.626
+   }
+   {
+    coords 4.373 2.805 1.637
+    angleY -89.626
+   }
+   {
+    coords 4.41 2.805 -1.509
+    angleY -89.626
+   }
+   {
+    coords -3.276 1.746 8.806
+    angleY 177.261
+   }
+  }
+  StaticModelEntity : "{31F69EA0C0143F1D}Prefabs/Compositions/Misc/SubCompositions/Furniture/Bed_Notebook_US_01.et" {
+   coords 1.951 0.112 1.659
+   angleX -0.168
+   angleY 178.072
+   angleZ 3.682
+  }
+  GenericEntity : "{344ABEB98BB96721}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/USSR/EquipmentBoxStack_USSR_01_V4_covered.et" {
+   coords -3.834 -0.28 -0.043
+   angleX -3.667
+   angleY -88.656
+   angleZ -0.377
+  }
+  GenericEntity : "{34AD2F398FDFE5B3}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/USSR/EquipmentBoxStack_USSR_01_V5.et" {
+   coords -3.673 -0.273 7.681
+   angleX 0.586
+   angleY 176.914
+   angleZ 2.619
+  }
+  StaticModelEntity : "{52D00BCAC3D201B9}Prefabs/Compositions/Misc/SubCompositions/Furniture/Chair_Garbage_US_01.et" {
+   coords 2.04 0.082 7.301
+   angleX 0.487
+   angleY -178.304
+   angleZ 3.543
+  }
+  GenericEntity : "{55B73CF1EE914E07}Prefabs/Props/Military/Compositions/USSR/Antenna_02_USSR.et" {
+   coords 2.565 4.195 -1.356
+   angleY -170.493
+  }
+  GenericEntity : "{5E6CBF60621C39CD}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Ammunition_USSR.et" {
+   components {
+    SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+     Enabled 0
+     m_bArsenalEnabled 0
+    }
+    SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+     Enabled 0
+    }
+    SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+     Enabled 0
+    }
+    SCR_ServicePointComponent "{5C7489C2D2BCCFA0}" {
+     Enabled 0
+    }
+    SCR_SoundDataComponent "{5C53391603B5CF41}" {
+     Enabled 0
+    }
+    UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+     Enabled 0
+    }
+    SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
+     Enabled 0
+    }
+    ActionsManagerComponent "{5476B36C403D4CC0}" {
+     Enabled 0
+    }
+    RplComponent "{5476B36C54387F41}" {
+     Enabled 0
+    }
+   }
+   coords 3.151 0.148 8.363
+   angleX -0.225
+   angleY 178.97
+   angleZ 3.679
+  }
+  GenericEntity : "{5F76887813B86AD4}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/USSR/EquipmentBoxStack_USSR_01_V6_covered.et" {
+   coords -2.563 -0.195 -2.427
+   angleX 0.619
+   angleY 179.55
+   angleZ 3.522
+  }
+  GenericEntity : "{65CD3EE14677E3AA}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/USSR/EquipmentBoxStack_USSR_01_V1.et" {
+   coords -3.813 -0.264 -2.363
+   angleX 0.465
+   angleY 179.535
+   angleZ 2.643
+  }
+  GenericEntity : "{76D4B8AFA34EE178}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/USSR/EquipmentBoxStack_USSR_01_V1_covered.et" {
+   coords -3.825 -0.274 -1.244
+   angleX 0.438
+   angleY -179.889
+   angleZ 2.648
+  }
+  $grp GenericEntity : "{78AB783E28EDEBD4}Prefabs/Props/Military/Sandbags/Sandbag_01_long_plastic.et" {
+   {
+    coords 3.079 2.059 9.315
+    angleY 178.673
+   }
+   {
+    coords -0.104 2.059 9.092
+    angleY 178.673
+   }
+  }
+  GenericEntity : "{7C93700E1AC4C387}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Medical_USSR.et" {
+   components {
+    SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+     Enabled 0
+    }
+    SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+     Enabled 0
+    }
+    SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+     Enabled 1
+     MultiSlots {
+      MultiSlotConfiguration "{64E73A4A7A49A27B}" {
+       SlotTemplate InventoryStorageSlot Dressing {
+        Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+       }
+       NumSlots 30
+      }
+      MultiSlotConfiguration "{64E73A4A79FD757D}" {
+       SlotTemplate InventoryStorageSlot tourniquet {
+        Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+       }
+       NumSlots 10
+      }
+      MultiSlotConfiguration "{64E73A4A79916CC0}" {
+       SlotTemplate InventoryStorageSlot morphine {
+        Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+       }
+       NumSlots 30
+      }
+      MultiSlotConfiguration "{64E73A4A7929DFD6}" {
+       SlotTemplate InventoryStorageSlot salinebag {
+        Prefab "{527D7C5D2E476BDC}Prefabs/Items/Medicine/SalineBag_01/SalineBag_USSR_01.et"
+       }
+       NumSlots 10
+      }
+      MultiSlotConfiguration "{64E73A4A78E60A50}" {
+       SlotTemplate InventoryStorageSlot medkit {
+        Prefab "{21EF98BFC1EB3793}Prefabs/Items/Equipment/Kits/MedicalKit_01/MedicalKit_01_USSR.et"
+       }
+       NumSlots 1
+      }
+     }
+    }
+    UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+     Enabled 0
+     MultiSlots {
+      MultiSlotConfiguration "{64E73A4B9B324E2A}" {
+       SlotTemplate InventoryStorageSlot Dressing {
+        Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+       }
+       NumSlots 30
+      }
+      MultiSlotConfiguration "{64E73A4B9AA67942}" {
+       SlotTemplate InventoryStorageSlot tourniquet {
+        Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+       }
+       NumSlots 10
+      }
+      MultiSlotConfiguration "{64E73A4B9A448ECA}" {
+       SlotTemplate InventoryStorageSlot morphine {
+        Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+       }
+       NumSlots 30
+      }
+      MultiSlotConfiguration "{64E73A4B9A00582A}" {
+       SlotTemplate InventoryStorageSlot salinebag {
+        Prefab "{527D7C5D2E476BDC}Prefabs/Items/Medicine/SalineBag_01/SalineBag_USSR_01.et"
+       }
+       NumSlots 10
+      }
+      MultiSlotConfiguration "{64E73A4B99A73713}" {
+       SlotTemplate InventoryStorageSlot medkit {
+        Prefab "{21EF98BFC1EB3793}Prefabs/Items/Equipment/Kits/MedicalKit_01/MedicalKit_01_USSR.et"
+       }
+       NumSlots 1
+      }
+     }
+    }
+    SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
+     Enabled 0
+    }
+   }
+   coords 1.307 0.054 0.685
+   angleX 3.685
+   angleY 87.046
+   angleZ 0.101
+  }
+  GenericEntity : "{865B9E01D2C0B2D7}Prefabs/Items/Equipment/Maps/PaperMap_01_full.et" {
+   components {
+    InventoryItemComponent "{5222EB4D0C73006B}" {
+     Enabled 0
+    }
+    SCR_SoundDataComponent "{5B18D20ED0099A17}" {
+     Enabled 0
+    }
+    ActionsManagerComponent "{508AB5952B584B2E}" {
+     Enabled 0
+    }
+    GadgetGamepadEffectsManagerComponent "{61E103D57E322BB5}" {
+     Enabled 0
+    }
+    RplComponent "{508AB59531D748C9}" {
+     Enabled 0
+    }
+    Hierarchy "{5D9ED4F4B675D16F}" {
+     Enabled 0
+    }
+   }
+   coords 0.568 1.217 6.912
+   angleX -4.907
+   angleY 88.656
+  }
+  StaticModelEntity : "{9325E5C905CC0768}Prefabs/Compositions/Misc/SubCompositions/Furniture/Bed_Blankets_US_01.et" {
+   coords 1.908 0.093 2.577
+   angleX 0.672
+   angleY 178.689
+   angleZ 3.513
+  }
+  StaticModelEntity : "{99AF9B997328956D}Prefabs/Compositions/Misc/SubCompositions/Furniture/Chair_Stack_US_01.et" {
+   coords 1.196 0.038 5.155
+   angleX 3.685
+   angleY 84.449
+   angleZ -0.066
+  }
+  GenericEntity : "{B728C4AE0E6EB1E8}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Equipment_USSR.et" {
+   components {
+    SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+     Enabled 0
+     m_bArsenalEnabled 0
+    }
+    SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+     Enabled 0
+    }
+    SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+     Enabled 0
+    }
+    SCR_SoundDataComponent "{5C53391603B5CF41}" {
+     Enabled 0
+    }
+    UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+     Enabled 0
+    }
+    SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
+     Enabled 0
+    }
+    ActionsManagerComponent "{5476B36C403D4CC0}" {
+     Enabled 0
+    }
+    RplComponent "{5476B36C54387F41}" {
+     Enabled 0
+    }
+   }
+   coords 4.235 0.217 8.241
+   angleX -3.686
+   angleY -93.773
+   angleZ -0.049
+  }
+  $grp GenericEntity : "{BBE13893AEA69C0C}Prefabs/Props/Military/Sandbags/Sandbag_01_foundation_plastic.et" {
+   {
+    coords -2.568 4.038 7.308
+    angleY -91.24
+   }
+   {
+    coords 1.674 4.038 7.402
+    angleY 88.538
+   }
+   {
+    coords -2.431 4.038 2.969
+    angleY -91.24
+   }
+   {
+    coords 1.813 4.038 3.064
+    angleY 88.538
+   }
+   {
+    coords -2.302 4.038 -1.214
+    angleY -91.24
+   }
+   {
+    coords 1.942 4.038 -1.117
+    angleY 88.538
+   }
+  }
+  GenericEntity : "{F161BC650B2BD9D4}PrefabsEditable/SupportStationSystems/E_SupportStationSystem_Heal.et" {
+   coords 0.117 -0.323 2.536
+   angleY -170.493
+  }
+  $grp GenericEntity : "{F29A05EBA7063E7C}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_plastic.et" {
+   {
+    coords 3.317 0.09 9.382
+    angleY -2.784
+   }
+   {
+    coords 0.705 -0.001 9.107
+    angleY -2.784
+   }
+   {
+    coords -3.262 -0.367 8.784
+    angleY -2.784
+   }
+   {
+    coords 0.361 -0.267 -0.169
+    angleY -92.549
+   }
+   {
+    coords 0.181 -0.267 2.475
+    angleY -92.549
+   }
+   {
+    coords 0.067 -0.267 5.024
+    angleY -92.549
+   }
+   {
+    coords -0.065 -0.24 7.586
+    angleY -90.315
+   }
+   {
+    coords 1.766 -0.233 3.593
+    angleY 0.302
+   }
+   {
+    coords -1.483 -0.309 5.056
+    angleY 179.034
+   }
+  }
+ }
+}
+StaticModelEntity Okopchik : "{410BC3D746AB53AE}Prefabs/Structures/Military/Fortifications/BlastCover_E_01/BlastCover_E_01_13x18.et" {
+ coords 1799.628 258.863 12077.285
+ angleY -102.584
+}
+$grp GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ Bunker4 {
+  coords 1809.589 260.436 12158.544
+  angleY 50.581
+ }
+ Bunker5 {
+  coords 1780.912 261.469 12102.712
+  angleY 83.228
+  {
+   GenericEntity {
+    ID "5CD2AC4CE7DAAB22"
+    coords 5.258 0 -0.499
+   }
+   StaticModelEntity {
+    ID "5CCCBED96B5A1DB7"
+    coords 0 0.497 3
+   }
+  }
+ }
+ Bunker6 {
+  coords 1790.716 261.381 12130.188
+  angleY 103.616
+  {
+   GenericEntity {
+    ID "5CD2AC4CE7DAAB22"
+    coords 5.076 0 -0.534
+   }
+   StaticModelEntity {
+    ID "5CCCBED96B5A1DB7"
+    coords -0.002 0.598 3
+   }
+  }
+ }
+ Bunker9 {
+  coords 1794.627 261.209 12197.495
+  angleX -4.361
+  angleY 95.535
+  angleZ -1.319
+ }
+}
+GenericEntity bunker1 : "{BBE13893AEA69C0C}Prefabs/Props/Military/Sandbags/Sandbag_01_foundation_plastic.et" {
+ coords 1786.849 262.236 12078.99
+ angleY 78.617
+ {
+  $grp GenericEntity : "{0B0C600941B2A6A8}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_plastic.et" {
+   {
+    coords -1.588 0.029 -1.21
+    angleY -91.038
+   }
+   {
+    coords -1.618 0.722 -1.151
+    angleY -91.038
+   }
+   {
+    coords 0.723 0.911 5.513
+    angleY -90.423
+   }
+   {
+    coords 3.965 0.976 5.56
+    angleY -92.645
+   }
+  }
+  Turret : "{29F0CC704A582154}Prefabs/Weapons/Tripods/6T7/Tripod_6T7_NSV.et" {
+   components {
+    TurretControllerComponent "{51ACD09C61C183E4}" {
+     LimitsHoriz -80 90
+    }
+    SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+     InitialStorageSlots {
+      InventoryStorageSlot Magazine_4 {
+       Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+      }
+      InventoryStorageSlot Magazine_5 {
+       Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+      }
+     }
+    }
+   }
+   coords 2.339 0.945 6.155
+   angleX -0.651
+   angleY -2.769
+   angleZ -2.843
+  }
+  $grp GenericEntity : "{31A455F7FD8DCE84}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_plastic.et" {
+   {
+    coords 2.401 -0.177 6.028
+    angleY -1.351
+   }
+   {
+    coords 3.979 -0.168 4.856
+    angleY 89.262
+   }
+   {
+    coords 0.678 -0.184 4.669
+    angleY -91.019
+   }
+  }
+  $grp GenericEntity : "{64A3A595C0A833AC}Prefabs/Props/Military/Sandbags/Sandbag_01_round_plastic.et" {
+   {
+    coords 5.015 2.162 1.984
+    angleY -154.12
+   }
+   {
+    coords -0.365 2.18 2.457
+    angleY 135.621
+   }
+  }
+  $grp GenericEntity : "{6762F7C5C3A2419B}Prefabs/Props/Military/Sandbags/Sandbag_01_short_plastic.et" {
+   {
+    coords 5.81 2.09 -0.851
+    angleY -90.139
+   }
+   {
+    coords 5.127 2.016 -1.489
+    angleY 1.096
+   }
+   {
+    coords 2.217 2.152 0.5
+    angleY 1.668
+   }
+   {
+    coords 4.9 2.051 -0.287
+    angleY -90.139
+   }
+   {
+    coords 2.226 2.179 3.292
+    angleY 1.355
+   }
+   {
+    coords 5.138 2.043 1.315
+    angleY 0.783
+   }
+   {
+    coords 0.975 2.074 2.3
+    angleY -2.408
+   }
+   {
+    coords 2.15 2.096 4.255
+    angleY -0.742
+   }
+   {
+    coords 2.267 2.166 5.232
+    angleY -1.546
+   }
+  }
+  $grp GenericEntity : "{78AB783E28EDEBD4}Prefabs/Props/Military/Sandbags/Sandbag_01_long_plastic.et" {
+   {
+    coords -0.404 2.009 -1.596
+    angleY 177.54
+   }
+   {
+    coords 2.846 1.993 -1.456
+    angleY 179.769
+   }
+   {
+    coords 4.737 2.118 0.472
+    angleY 0.673
+   }
+   {
+    coords -0.428 2.069 0.495
+    angleY -1.96
+   }
+   {
+    coords 2.774 2.099 -0.353
+    angleY 179.769
+   }
+   {
+    coords -0.475 2.02 -0.495
+    angleY 177.54
+   }
+   {
+    coords -0.382 2.036 1.177
+    angleY 177.226
+   }
+   {
+    coords 2.776 2.126 2.439
+    angleY 179.455
+   }
+   {
+    coords 2.856 2.02 1.338
+    angleY 179.455
+   }
+   {
+    coords 3.503 2.122 4.469
+    angleY 89.017
+   }
+   {
+    coords 0.811 2.205 4.448
+    angleY 89.017
+   }
+  }
+  $grp GenericEntity : "{8777F96EBE817623}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_base.et" {
+   {
+    coords 5.92 -0.063 0.149
+    angleY -90.743
+   }
+   {
+    coords -1.642 -0.12 0.844
+    angleY -89.776
+   }
+  }
+  $grp GenericEntity : "{B6307C189CCCA0B9}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_plastic.et" {
+   {
+    coords 4.885 -0.092 2.232
+    angleY -151.4
+   }
+   {
+    coords -0.353 -0.08 2.213
+    angleY 157.78
+   }
+  }
+  $grp GenericEntity : "{BBE13893AEA69C0C}Prefabs/Props/Military/Sandbags/Sandbag_01_foundation_plastic.et" {
+   {
+    coords 4.311 0.043 -0.023
+    angleY 0.799
+   }
+   {
+    coords 2.401 0.013 4.257
+    angleY -0.49
+   }
+  }
+  $grp GenericEntity : "{C1F38F057250EE4E}Prefabs/Structures/Agriculture/Barn/Barn_E_03_Wall_01.et" {
+   {
+    coords 5.613 2.073 0.138
+    angleX -89.96
+    angleY 99.017
+    angleZ 170.777
+   }
+   {
+    coords 1.462 2.055 0.144
+    angleX -89.96
+    angleY 99.017
+    angleZ 170.777
+   }
+   {
+    coords 3.932 2.125 2.376
+    angleX -88.642
+    angleY 0.96
+    angleZ -91.166
+   }
+   {
+    coords 3.535 2.063 0.453
+    angleX -89.96
+    angleY 99.017
+    angleZ 170.777
+   }
+   {
+    coords 3.969 2.157 3.955
+    angleX -89.96
+    angleY 99.017
+    angleZ 170.777
+   }
+   {
+    coords 6.461 -0.714 -0.073
+    angleX 1.151
+    angleY 87.596
+   }
+   {
+    coords 0.157 -2.252 4.387
+    angleY -89.587
+   }
+   {
+    coords 4.489 -2.232 4.468
+    angleY 89.178
+   }
+   {
+    coords 2.316 -2.281 6.525
+    angleY -2.164
+   }
+   {
+    coords -2.135 -0.668 -0.171
+    angleX 0.431
+    angleY -89.231
+   }
+  }
+  $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+   {
+    coords 3.499 0.446 4.578
+    angleX 0.051
+    angleY 177.138
+    angleZ 90.878
+   }
+   {
+    coords 1.15 0.374 4.185
+    angleX -0.001
+    angleY -179.985
+    angleZ -89.979
+   }
+  }
+  $grp SCR_DestructibleEntity : "{D50A0255E3EB8CCF}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_V1_4m.et" {
+   {
+    coords 2.361 -2.252 6.76
+    angleY -1.47
+   }
+   {
+    coords 0.056 -2.156 4.189
+    angleY -90.849
+   }
+   {
+    coords 4.648 -2.043 4.498
+    angleY -90.772
+   }
+  }
+  $grp GenericEntity : "{F29A05EBA7063E7C}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_plastic.et" {
+   {
+    coords 5.125 -0.141 -1.589
+    angleY 1.827
+   }
+   {
+    coords 1.474 -0.102 -1.577
+    angleY -179.821
+   }
+   {
+    coords 2.393 -0.041 0.578
+    angleY -0.59
+   }
+  }
+ }
+}
+$grp StaticModelEntity : "{C2ACB740ED1CEB46}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_burlap_foundation_camonet.et" {
+ Bunker7 {
+  coords 1731.983 267.593 11999.559
+  angleY -138.539
+ }
+ Bunker8 {
+  coords 1751.076 266.478 11993.637
+  angleY 170.328
+ }
+}
+$grp StaticModelEntity : "{D0F17E2313DE33F1}Prefabs/Structures/Military/Fortifications/BlastCover_E_01/BlastCover_E_01_18x5.et" {
+ {
+  coords 1750.18 263.114 11994.474
+  angleY -9.182
+ }
+ {
+  coords 1784.504 258.793 12102.146
+  angleY -94.015
+ }
+ {
+  coords 1794.157 258.808 12128.962
+  angleY -76.344
+ }
+ {
+  coords 1732.038 264.284 12000.579
+  angleY 43.256
+ }
+}
+StaticModelEntity bunker3 : "{D4177594212A056F}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_plastic_foundation.et" {
+ coords 1800.959 261.807 12074.959
+ angleY 78.958
+ {
+  GenericEntity {
+   ID "5A532DCF3ECE312F"
+   coords -0.001 0.1 0.001
+  }
+  GenericEntity {
+   ID "5A532DCF3ECE3109"
+   coords -0.001 0.1 0.001
+  }
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{EE5219B38424AB12}Prefabs/Structures/Military/Bunkers/Bunker_01/Bunker_01_3fp.et" {
+ {
+  coords 1739.878 1.955 11992.446
+  angleY -167.338
+ }
+ {
+  coords 1760.932 2.01 11995.163
+  angleY 164.625
+ }
+ {
+  coords 1974.167 0.926 12296.782
+  angleY 67.538
+ }
+ {
+  coords 1722.508 1.364 12004.689
+  angleY -133.082
+ }
+ bunker2 {
+  coords 1793.642 0.753 12020.33
+  angleY 77.613
+  {
+   Turret : "{29F0CC704A582154}Prefabs/Weapons/Tripods/6T7/Tripod_6T7_NSV.et" {
+    components {
+     TurretControllerComponent "{51ACD09C61C183E4}" {
+      LimitsHoriz -80 90
+     }
+     SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+      InitialStorageSlots {
+       InventoryStorageSlot Magazine_4 {
+        Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+       }
+       InventoryStorageSlot Magazine_5 {
+        Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+       }
+      }
+     }
+    }
+    coords 0.107 4.842 2.18
+    angleX -2.917
+    angleY -1.264
+   }
+   GameEntity : "{BE3D3EA72E000EFB}Prefabs/Structures/BuildingParts/Ladders/Ladder_DieselPowerPlant_01/Ladder_DieselPowerPlant_01_386_B.et" {
+    coords 0.255 3.952 -3.441
+    angleY 179.493
+   }
+   GenericEntity : "{F0EC223F2A1094C0}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_burlap.et" {
+    coords 0.254 3.864 0.467
+    angleY -1.485
+   }
+  }
+ }
+}

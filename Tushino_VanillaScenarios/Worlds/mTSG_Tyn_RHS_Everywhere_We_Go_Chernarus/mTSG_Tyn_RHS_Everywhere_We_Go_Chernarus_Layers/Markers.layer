@@ -1,0 +1,273 @@
+$grp PolylineShapeEntity {
+ {
+  components {
+   PS_PolyZone "{64E512BDB911ECA3}" {
+    m_mPolygonTexture ""
+    m_cPolygonColor 1 1 1 0
+    m_mPolygonTextureBorder ""
+    m_cPolygonBorderColor 0.283 0.283 0.283 1
+    m_fPolygonBorderWidth 3.5
+    m_bLineMode 1
+    m_aVisibleForFactions {
+     "RHS_AFRF" "Ses_CDF" ""
+    }
+   }
+  }
+  coords 2163.593 240.707 12262.015
+  Points {
+   ShapePoint "{64E512BDAABBA16C}" {
+    Position 0 0 0
+   }
+   ShapePoint "{64E512BDAC8C0E2C}" {
+    Position 10.808 -0.187 -25.636
+   }
+   ShapePoint "{64E512BDA1AE1CF8}" {
+    Position -6.72 1.105 -33.246
+   }
+   ShapePoint "{64E512BDBDAD2C1F}" {
+    Position -17.95 1.022 -8.815
+   }
+  }
+ }
+ {
+  components {
+   PS_PolyZone "{64E512BF16F3C81B}" {
+    m_mPolygonTexture ""
+    m_cPolygonColor 0.429 0.429 0.429 1
+    m_mPolygonTextureBorder ""
+    m_cPolygonBorderColor 0.283 0.283 0.283 1
+    m_fPolygonBorderWidth 3.5
+    m_aVisibleForFactions {
+     "RHS_AFRF" "Ses_CDF" ""
+    }
+   }
+  }
+  coords 2283.048 236.798 12268.832
+  Points {
+   ShapePoint "{64E512BF2CFEB08E}" {
+    Position 0 0 0
+   }
+   ShapePoint "{64E512BF2CFFCB6C}" {
+    Position -8.572 0.502 -9.898
+   }
+   ShapePoint "{64E512BF385A8435}" {
+    Position -6.291 0.465 -11.93
+   }
+   ShapePoint "{64E512BF37927E21}" {
+    Position -6.527 0.48 -12.2
+   }
+   ShapePoint "{64E512BF33980FB4}" {
+    Position -0.761 0.333 -17.312
+   }
+   ShapePoint "{64E512BF3057475B}" {
+    Position 2.675 0.141 -13.452
+   }
+   ShapePoint "{64E512BF0AFB3CE8}" {
+    Position 6.218 0.123 -16.579
+   }
+   ShapePoint "{64E512BF048CFF9E}" {
+    Position 8.204 0.01 -14.3
+   }
+   ShapePoint "{64E512BF01476399}" {
+    Position 4.674 0.007 -11.188
+   }
+   ShapePoint "{64E512BF1E9AD597}" {
+    Position 8.166 -0.173 -7.223
+   }
+  }
+  IsClosed 1
+ }
+ {
+  components {
+   PS_PolyZone "{64E512BCC662A7D7}" {
+    m_mPolygonTexture ""
+    m_cPolygonColor 0.429 0.429 0.429 1
+    m_mPolygonTextureBorder ""
+    m_cPolygonBorderColor 0.283 0.283 0.283 1
+    m_fPolygonBorderWidth 3.5
+    m_aVisibleForFactions {
+     "RHS_AFRF" "Ses_CDF" ""
+    }
+   }
+  }
+  coords 2212.677 238.197 12260.606
+  Points {
+   ShapePoint "{64E512BCF78453D7}" {
+    Position 0 0 0
+   }
+   ShapePoint "{64E512BCF9640F30}" {
+    Position -9.578 1.396 -7.042
+   }
+   ShapePoint "{64E512BCCF50E44C}" {
+    Position 1.521 1.187 -21.589
+   }
+   ShapePoint "{64E512BCCBC8DACB}" {
+    Position 11.028 0.65 -14.284
+   }
+  }
+  IsClosed 1
+ }
+ {
+  components {
+   PS_PolyZone "{64E512B2E76F9D46}" {
+    m_mPolygonTexture ""
+    m_cPolygonColor 0.429 0.429 0.429 1
+    m_mPolygonTextureBorder ""
+    m_cPolygonBorderColor 0.283 0.283 0.283 1
+    m_fPolygonBorderWidth 3.5
+    m_aVisibleForFactions {
+     "Ses_CDF" "RHS_AFRF" ""
+    }
+   }
+  }
+  coords 2159.154 240.991 12271.122
+  Points {
+   ShapePoint "{64E512B280C5B9BF}" {
+    Position 0 0 0
+   }
+   ShapePoint "{64E512B280C57723}" {
+    Position -17.958 0.982 -8.97
+   }
+   ShapePoint "{64E512B290AA0CC3}" {
+    Position -13.515 0.738 -17.9
+   }
+   ShapePoint "{64E512B2ECF2664F}" {
+    Position 4.477 -0.285 -9.102
+   }
+  }
+  IsClosed 1
+ }
+ {
+  components {
+   PS_PolyZone "{64E512B00DC53732}" {
+    m_mPolygonTexture ""
+    m_cPolygonColor 1 1 1 0
+    m_mPolygonTextureBorder ""
+    m_cPolygonBorderColor 0.283 0.283 0.283 1
+    m_fPolygonBorderWidth 3.5
+    m_bLineMode 1
+    m_aVisibleForFactions {
+     "RHS_AFRF" "Ses_CDF" ""
+    }
+   }
+  }
+  coords 2186.733 242.035 12173.777
+  Points {
+   ShapePoint "{64E512B0214D09BF}" {
+    Position 0 0 0
+   }
+   ShapePoint "{64E512B02327F802}" {
+    Position 2.33 0.026 -4.808
+   }
+   ShapePoint "{64E512B039A7A51F}" {
+    Position 27.139 -1.342 8.161
+   }
+   ShapePoint "{64E512B0370582A7}" {
+    Position 14.876 -1.502 34.887
+   }
+   ShapePoint "{64E512B034FB8223}" {
+    Position 6.496 -1.058 31.224
+   }
+  }
+ }
+ {
+  components {
+   PS_PolyZone "{64E512B7CAD9B10B}" {
+    m_mPolygonTexture ""
+    m_cPolygonColor 0.429 0.429 0.429 1
+    m_mPolygonTextureBorder ""
+    m_cPolygonBorderColor 0.283 0.283 0.283 1
+    m_fPolygonBorderWidth 3.5
+    m_aVisibleForFactions {
+     "RHS_AFRF" "Ses_CDF" ""
+    }
+   }
+  }
+  coords 2186.716 242.035 12173.809
+  Points {
+   ShapePoint "{64E512B799CD1A0D}" {
+    Position 0 0 0
+   }
+   ShapePoint "{64E512B799CEEC9E}" {
+    Position 7.021 -0.375 3.461
+   }
+   ShapePoint "{64E512B7E5AC5FA3}" {
+    Position 0.215 -0.419 16.89
+   }
+   ShapePoint "{64E512B7FEE1F657}" {
+    Position 10.817 -1.047 22.334
+   }
+   ShapePoint "{64E512B7F89E5EBC}" {
+    Position 6.389 -1.053 31.163
+   }
+   ShapePoint "{64E512B7F301A938}" {
+    Position -11.25 -0.038 22.095
+   }
+  }
+  IsClosed 1
+ }
+ {
+  components {
+   PS_PolyZone "{64E512BF815819CE}" {
+    m_mPolygonTexture ""
+    m_cPolygonColor 0.429 0.429 0.429 1
+    m_mPolygonTextureBorder ""
+    m_cPolygonBorderColor 0.283 0.283 0.283 1
+    m_fPolygonBorderWidth 3.5
+    m_aVisibleForFactions {
+     "RHS_AFRF" "Ses_CDF" ""
+    }
+   }
+  }
+  coords 2266.813 237.74 12249.018
+  Points {
+   ShapePoint "{64E512BFB54B04C4}" {
+    Position 0 0 0
+   }
+   ShapePoint "{64E512BFB74D9400}" {
+    Position 7.312 -0.137 -6.451
+   }
+   ShapePoint "{64E512BF8C66C010}" {
+    Position -14.075 0.958 -28.468
+   }
+   ShapePoint "{64E512BF865C8FC3}" {
+    Position -21.138 0.988 -22.144
+   }
+  }
+  IsClosed 1
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ marker_Atack {
+  coords 1760.036 266.697 12092.912
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "Task_Attack"
+  m_fWorldSize 40
+  m_sDescription "Захватить"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+ marker_defend {
+  coords 1760.205 266.736 12093.361
+  m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "Task_Defend"
+  m_fWorldSize 40
+  m_sDescription "Удержать"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "Ses_CDF"
+  }
+  m_aHideOnGameModeStates {
+  }
+  m_iZOrder 0
+ }
+}
