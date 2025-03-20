@@ -1,0 +1,19 @@
+SCR_ChimeraCharacter : "{4BFF58F0CD2430BC}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_MED.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#JUM-Role_ReconMedic"
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{64CE25D1110E1A45}" {
+     PrefabsToSpawn {
+      "{4421A403A72806C7}Prefabs/Items/Tynec/Equipment/Radios/Tyn_Radio_ANPRC152A_OLD_SL.et"
+     }
+    }
+   }
+  }
+ }
+}

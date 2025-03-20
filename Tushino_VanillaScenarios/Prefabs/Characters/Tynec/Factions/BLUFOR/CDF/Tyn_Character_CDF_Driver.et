@@ -1,0 +1,17 @@
+SCR_ChimeraCharacter : "{6E7064C8F1963788}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_Gunner.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#BRN-Role_VehicleDriver"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{3DE0155EC9767B98}Prefabs/Items/Equipment/Backpacks/Backpack_Veshmeshok.et"
+    }
+   }
+  }
+ }
+}
