@@ -417,6 +417,14 @@ StringTable {
    Author "p1vas"
    LastChanged "p1vas"
   }
+  CustomStringTableItem "{64D0BCE95EDDF0A0}" {
+   Id "TYN-Role_ReconDriver"
+   Target_en_us "Scout Driver"
+   Target_ru_ru "Разведчик-водитель"
+   Modified 1691403828
+   Author "p1vas"
+   LastChanged "p1vas"
+  }
   CustomStringTableItem "{62F82603A96FAC8A}" {
    Id "TYN-Role_RPK"
    Target_en_us "Rifleman RPK"
