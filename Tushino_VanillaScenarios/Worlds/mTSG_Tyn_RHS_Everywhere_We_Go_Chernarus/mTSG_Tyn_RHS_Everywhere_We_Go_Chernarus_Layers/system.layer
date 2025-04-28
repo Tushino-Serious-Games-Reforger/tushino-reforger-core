@@ -1,0 +1,55 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 5495.384 333.816 8433.115
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 5496.834 333.816 8430.377
+}
+PS_GameModeCoop TSG_GameModeLobby1 : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_GameModeLobby.et" {
+ components {
+  SCR_InitWeatherComponent "{61B68227C35BFE9A}" {
+   m_sInitialStartingWeatherId "Cloudy"
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 12
+   m_bRandomWeatherChanges 1
+  }
+ }
+ coords 8592.063 333.799 11318.901
+ m_eTestGameFlags SpawnAI
+ {
+  SCR_FactionManager "64E73A42374D620A" {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{56DEAC40D3C2E623}" {
+     m_aEntityCatalogs {
+      SCR_EntityCatalogMultiList "{5C68A0E9AFE1E631}" {
+       m_aMultiLists {
+        SCR_EntityCatalogMultiListEntry "{5C68AD5F7414CA4A}" {
+         m_aEntities {
+          SCR_EntityCatalogInventoryItem "{5C62F7DF32FB7626}" {
+           m_sEntityPrefab ""
+          }
+          SCR_EntityCatalogInventoryItem "{5C62F7DF3138C6BB}" {
+           m_sEntityPrefab ""
+          }
+          SCR_EntityCatalogInventoryItem "{5C62F7DF307FC925}" {
+           m_sEntityPrefab ""
+          }
+          SCR_EntityCatalogInventoryItem "{5C62F7DF30AA69BA}" {
+           m_sEntityPrefab ""
+          }
+          SCR_EntityCatalogInventoryItem "{5E22CEC974AFD875}" {
+           m_sEntityPrefab ""
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+    SCR_Faction "{5D9F7285A1D004FE}" {
+    }
+   }
+  }
+ }
+}

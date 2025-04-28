@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{25657D2ECE357438}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Speznaz/Tyn_Character_RHS_AFRF_VPKO_speznaz_Rifleman.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

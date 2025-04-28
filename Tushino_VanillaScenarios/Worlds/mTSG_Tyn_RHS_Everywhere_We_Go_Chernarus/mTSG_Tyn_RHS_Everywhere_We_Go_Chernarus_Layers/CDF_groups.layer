@@ -1,0 +1,79 @@
+$grp SCR_AIGroup : "{8C9DF519F9649420}Prefabs/Groups/OPFOR/drg_Group_USSR_RifleSquad.et" {
+ CDF3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Rank"
+   }
+   PS_GroupCallsignAssigner "{62BCC98D785260C7}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1777.697 261.775 12082.059
+  angleY 82.263
+  m_faction "Ses_CDF"
+  m_aUnitPrefabSlots {
+   "{F7FFD3A9263770C3}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_SL.et" "{15A465014C545D6B}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_TM.et" "{C860FCAC7AFCC633}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_MG.et" "{61B94E8E79159108}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_aMG.et" "{B87DD2197B37B39D}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_ATpgo.et" "{EB06F9556ED39BB7}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_aAT.et" "{14A36EFDA53DA666}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_Sniper.et" "{F824251AC7F7F8C4}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_RPK.et"
+  }
+ }
+ CDF5 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Rank"
+   }
+   PS_GroupCallsignAssigner "{62BCC98D785260C7}" {
+    m_iSquadCallsign 5
+   }
+  }
+  coords 1765.422 263.188 12169.717
+  angleY -18.072
+  m_faction "Ses_CDF"
+  m_aUnitPrefabSlots {
+   "{F7FFD3A9263770C3}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_SL.et" "{15A465014C545D6B}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_TM.et" "{F824251AC7F7F8C4}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_RPK.et" "{B87DD2197B37B39D}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_ATpgo.et" "{EB06F9556ED39BB7}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_aAT.et" "{14A36EFDA53DA666}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_Sniper.et" "{6E7064C8F1963788}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_Gunner.et" "{895BC328D9613E25}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_Driver.et"
+  }
+ }
+ CDF4 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Rank"
+   }
+   PS_GroupCallsignAssigner "{62BCC98D785260C7}" {
+    m_iSquadCallsign 3
+   }
+  }
+  coords 1756.611 263.435 12043.934
+  angleY -2.291
+  m_faction "Ses_CDF"
+  m_aUnitPrefabSlots {
+   "{F7FFD3A9263770C3}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_SL.et" "{15A465014C545D6B}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_TM.et" "{C860FCAC7AFCC633}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_MG.et" "{61B94E8E79159108}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_aMG.et" "{B87DD2197B37B39D}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_ATpgo.et" "{EB06F9556ED39BB7}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_aAT.et" "{F824251AC7F7F8C4}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_RPK.et" "{14A36EFDA53DA666}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_Sniper.et" "{6E7064C8F1963788}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_Gunner.et" "{895BC328D9613E25}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_Driver.et"
+  }
+ }
+ CDF1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Rank"
+   }
+  }
+  coords 1758.529 262.875 12079.239
+  angleY -11.05
+  m_faction "Ses_CDF"
+  m_aUnitPrefabSlots {
+   "{FE6B18A503FC92BB}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_HQ.et" "{8762901C6E19BD48}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_ZAM.et" "{C860FCAC7AFCC633}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_MG.et" "{61B94E8E79159108}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_aMG.et"
+  }
+ }
+ CDF2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Rank"
+   }
+   PS_GroupCallsignAssigner "{62BCC98D785260C7}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1757.084 262.91 12083.583
+  angleY 82.263
+  m_faction "Ses_CDF"
+  m_aUnitPrefabSlots {
+   "{D1685F1F650D0190}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_MEDsl.et" "{4BFF58F0CD2430BC}Prefabs/Characters/Tynec/Factions/BLUFOR/CDF/Tyn_Character_CDF_MED.et"
+  }
+ }
+}

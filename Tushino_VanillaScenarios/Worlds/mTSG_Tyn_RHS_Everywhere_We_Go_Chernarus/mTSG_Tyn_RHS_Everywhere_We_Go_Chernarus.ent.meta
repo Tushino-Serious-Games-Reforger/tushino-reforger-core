@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{A8D1EC1708955CE0}Worlds/mTSG_Tyn_RHS_Everywhere_We_Go_Chernarus/mTSG_Tyn_RHS_Everywhere_We_Go_Chernarus.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+  ENTResourceClass Xbox : PC {
+  }
+ }
+}

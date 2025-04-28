@@ -1,3 +1,23 @@
+PolylineShapeEntity {
+ components {
+  PS_PolyZone "{64D0DB8142E0A5F4}" {
+   m_mPolygonTexture ""
+   m_cPolygonColor 1 1 1 0
+   m_mPolygonTextureBorder ""
+   m_cPolygonBorderColor 1 0.008 0.008 1
+   m_bLineMode 1
+  }
+ }
+ coords 2495.381 4.913 3211.26
+ Points {
+  ShapePoint "{64D0DB810ACC4B10}" {
+   Position 0 0 0
+  }
+  ShapePoint "{64D0DB810ACFB3CA}" {
+   Position -133.982 61.885 -293.336
+  }
+ }
+}
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  US_G_000_M {
   coords 3111.403 4 3010.673
