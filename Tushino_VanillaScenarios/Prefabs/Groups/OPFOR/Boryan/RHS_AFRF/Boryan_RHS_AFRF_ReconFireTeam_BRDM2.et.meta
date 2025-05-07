@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{538AE67CF05BECAE}Prefabs/Groups/OPFOR/Boryan/RHS_AFRF/Boryan_RHS_AFRF_ReconFireTeam_BRDM2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

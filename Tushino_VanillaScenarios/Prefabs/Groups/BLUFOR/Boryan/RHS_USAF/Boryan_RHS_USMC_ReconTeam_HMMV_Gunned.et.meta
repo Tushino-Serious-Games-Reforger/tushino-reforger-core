@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A2A3DD7778DB8AFB}Prefabs/Groups/BLUFOR/Boryan/RHS_USAF/Boryan_RHS_USMC_ReconTeam_HMMV_Gunned.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

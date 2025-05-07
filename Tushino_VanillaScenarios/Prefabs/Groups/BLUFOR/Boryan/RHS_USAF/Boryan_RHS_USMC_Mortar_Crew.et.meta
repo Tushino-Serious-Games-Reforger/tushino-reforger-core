@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{80C19833E56E2207}Prefabs/Groups/BLUFOR/Boryan/RHS_USAF/Boryan_RHS_USMC_Mortar_Crew.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

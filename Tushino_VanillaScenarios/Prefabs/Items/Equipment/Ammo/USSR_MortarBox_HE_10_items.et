@@ -1,0 +1,22 @@
+GenericEntity : "{6DC231B93D42AF21}Prefabs/Items/Equipment/Kits/MortarRearmingKit/MortarRearmingKit_USSR.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  SCR_ArsenalComponent "{61A2A755D00BCAB6}" {
+   Enabled 0
+  }
+  SCR_UniversalInventoryStorageComponent "{61A2A755D00BCAAB}" {
+   MultiSlots {
+    MultiSlotConfiguration "{654B2D6E6AC40DCF}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{98EC9C526AFBA282}Prefabs/Weapons/Ammo/Ammo_Shell_82mm_HE_O832DU.et"
+     }
+     NumSlots 10
+    }
+   }
+  }
+  SCR_ArsenalInventoryStorageManagerComponent "{61A2A755D00BCB43}" {
+   Enabled 0
+  }
+ }
+ coords 2401.793 1.005 3277.734
+}

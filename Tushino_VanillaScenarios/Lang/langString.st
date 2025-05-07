@@ -67,6 +67,22 @@ StringTable {
    Author "tread"
    LastChanged "tread"
   }
+  CustomStringTableItem "{654B2D6002F20F8A}" {
+   Id "BRN-Role_Mortar_Crew"
+   Target_en_us "Mortar Crew"
+   Target_ru_ru "Номер минометного расчета"
+   Modified 1699443427
+   Author "tread"
+   LastChanged "tread"
+  }
+  CustomStringTableItem "{654B2D67E39C05BE}" {
+   Id "BRN-Role_Mortar_SL"
+   Target_en_us "Mortar Squad Leader"
+   Target_ru_ru "Командир минометного расчета"
+   Modified 1699443374
+   Author "tread"
+   LastChanged "tread"
+  }
   CustomStringTableItem "{644D064320C1508E}" {
    Id "BRN-Role_PlatoonSergeant"
    Target_en_us "Platoon Sergeant"

@@ -1,0 +1,98 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ capture_arleville {
+  coords 816.914 0 3105.813
+  m_sTitle "Задачи"
+  m_sTextData "Захватить Арлевилль"
+  m_sFactionKey ""
+ }
+ protect_arleville {
+  coords 776.503 0 3129.663
+  m_sTitle "Задачи"
+  m_sTextData "Защитить Арлевилль"
+  m_sFactionKey ""
+ }
+ capture_beauregard {
+  coords 807.002 0 3128.671
+  m_sTitle "Задачи"
+  m_sTextData "Захватить Борегар"
+  m_sFactionKey ""
+ }
+ protect_beauregard {
+  coords 807.869 0 3108.558
+  m_sTitle "Задачи"
+  m_sTextData "Защитить Борегар"
+  m_sFactionKey ""
+ }
+ capture_dispatcher {
+  coords 798.918 0 3100.192
+  m_sTitle "Задачи"
+  m_sTextData "Захватить диспетчерскую"
+  m_sFactionKey ""
+ }
+ protect_dispatcher {
+  coords 787.814 0 3086.808
+  m_sTitle "Задачи"
+  m_sTextData "Защитить диспетчерскую"
+  m_sFactionKey ""
+ }
+ capture_military {
+  coords 812.504 0 3096.381
+  m_sTitle "Задачи"
+  m_sTextData "Захватить военную базу"
+  m_sFactionKey ""
+ }
+ protect_military {
+  coords 797.085 0 3091.388
+  m_sTitle "Задачи"
+  m_sTextData "Защитить военную базу"
+  m_sFactionKey ""
+ }
+ capture_moss_hill {
+  coords 806.974 0 3089.321
+  m_sTitle "Задачи"
+  m_sTextData "Захватить Мховый холм"
+  m_sFactionKey ""
+ }
+ protect_moss_hill {
+  coords 820.581 0 3095.295
+  m_sTitle "Задачи"
+  m_sTextData "Защитить мховый холм"
+  m_sFactionKey ""
+ }
+ capture_north_harbor {
+  coords 802.034 0 3087.673
+  m_sTitle "Задачи"
+  m_sTextData "Захватить северную пристань"
+  m_sFactionKey ""
+ }
+ protect_north_harbor {
+  coords 813.989 0 3096.785
+  m_sTitle "Задачи"
+  m_sTextData "Защитить северную пристань"
+  m_sFactionKey ""
+ }
+ capture_radiotower {
+  coords 784.696 0 3087.75
+  m_sTitle "Задачи"
+  m_sTextData "Захватить радиовышку"
+  m_sFactionKey ""
+ }
+ protect_radiotower {
+  coords 802.059 0 3098.247
+  m_sTitle "Задачи"
+  m_sTextData "Защитить радиовышку"
+  m_sFactionKey ""
+ }
+ capture_south_harbor {
+  coords 805.805 0 3111.716
+  m_sTitle "Задачи"
+  m_sTextData "Захватить южный причал"
+  m_sFactionKey ""
+ }
+ protect_south_harbor {
+  coords 830.106 0 3129.093
+  m_sTitle "Задачи"
+  m_sTextData "Защитить южный причал"
+  m_sFactionKey ""
+ }
+}

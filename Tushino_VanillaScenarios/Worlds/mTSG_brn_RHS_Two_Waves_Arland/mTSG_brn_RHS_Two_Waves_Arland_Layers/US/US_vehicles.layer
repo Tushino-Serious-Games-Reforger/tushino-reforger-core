@@ -1,0 +1,68 @@
+$grp Vehicle : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
+ HQ_LAV25 {
+  coords 1710.967 45.063 1098.146
+  angleY 72.63
+  m_sAttachmentGroupName "USMC_HQ_Squad"
+  m_bEnableMoveOnFreeze 1
+ }
+ Moss_Hill_LAV25 {
+  coords 2345.994 87.77 1356.376
+  angleY 35.015
+  m_sAttachmentGroupName "USMC_Squad_Moss_Hill"
+  m_bEnableMoveOnFreeze 1
+ }
+ Harbor_LAV25 {
+  coords 1493.302 1.092 1851.052
+  angleY -35.667
+  m_sAttachmentGroupName "USMC_Squad_Harbor"
+  m_bEnableMoveOnFreeze 1
+ }
+}
+Turret : "{8094D99689ABE241}Prefabs/Weapons/Mortars/M252/Mortar_M252.et" {
+ coords 1654.81 47.339 1089.25
+ angleX -3.507
+ angleY -0.494
+ angleZ 8.02
+}
+Vehicle US_Mortar_Truck : "{9B1BF9644E0378D6}Prefabs/Vehicles/Wheeled/M998/M998_covered_long.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{654D4520BB8860F4}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{6113990D163E5249}Prefabs/Items/Equipment/BalisticTable/BalisticTable_US.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{654D4520AE2A3B46}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{56350EE0FAE7FB06}Prefabs/Items/Equipment/Ammo/US_MortarBox_HE_10_items.et"
+     }
+     NumSlots 3
+    }
+   }
+  }
+ }
+ coords 1651.441 46.352 1103.627
+ angleX -0.86
+ angleY 106.169
+ angleZ -0.249
+ m_sAttachmentGroupName "USMC_Mortar_Crew"
+ m_bEnableMoveOnFreeze 1
+}
+$grp Vehicle : "{FA6820A9A52CD05B}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MDO_USAF.et" {
+ Humvee_Military {
+  coords 1385.099 36.088 2393.251
+  angleX -0.072
+  angleY -41.722
+  angleZ 1.264
+  m_sAttachmentGroupName "USMC_Recon_Military"
+  m_bEnableMoveOnFreeze 1
+ }
+ Humvee_Arleville {
+  coords 2692.663 77.438 1665.562
+  angleY -39.679
+  m_sAttachmentGroupName "USMC_Recon_Arleville"
+  m_bEnableMoveOnFreeze 1
+ }
+}

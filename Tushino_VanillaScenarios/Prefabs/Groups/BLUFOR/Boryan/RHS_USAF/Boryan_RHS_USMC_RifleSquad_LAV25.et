@@ -1,0 +1,18 @@
+SCR_AIGroup : "{DA70F249A8B7A366}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Group_USAF_USMC_MARSOC_RifleSquad.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  PS_GroupCallsignAssigner "{654B2D5A5A1324C5}" {
+  }
+ }
+ coords 1495.71 1.182 1847.008
+ angleX -0.152
+ angleY -30.188
+ angleZ -0.187
+ m_aUnitPrefabSlots {
+  "{15E33C02DCAF593F}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_SL.et" "{6751138A74CEE8B9}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Deputy.et" "{249EE0F822A467AA}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_MG_249.et" "{681A9206534DC2C2}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Rifleman-AT.et" "{816E27DDCC2EB6DA}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_GP.et" "{681A9206534DC2C2}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Rifleman-AT.et" "{D5E302E8CC9BA6E2}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Sniper.et" "{AF3008DD9830370C}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Gunner.et" "{481BAF3DB0C73EA1}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Driver.et"
+ }
+ m_sCustomNameSet "HQ Squad (LAV-25)"
+}
