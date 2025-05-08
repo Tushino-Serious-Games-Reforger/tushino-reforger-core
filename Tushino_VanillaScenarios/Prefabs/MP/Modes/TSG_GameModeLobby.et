@@ -11,15 +11,4 @@ PS_GameModeCoop : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  m_iFreezeTime 300000
  m_bDisableChat 1
  m_bReserveSlots 1
- {
-  TSG_MissionTime {
-   ID "633B6E4969D543B5"
-   components {
-    RplComponent "{633B6E49764C8661}" {
-    }
-   }
-   coords 41.182 -0.262 -21.563
-   m_iMissionTimeMinutes 60
-  }
- }
 }

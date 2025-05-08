@@ -1,0 +1,10 @@
+TSG_ObjectiveLottery {
+ ID "654F4E6518AD3AB7"
+ components {
+  RplComponent "{654F4E650400C9A4}" {
+  }
+  Hierarchy "{654F4E650600F6E3}" {
+  }
+ }
+ coords 819.839 0 3101.219
+}

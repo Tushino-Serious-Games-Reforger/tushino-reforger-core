@@ -50,22 +50,6 @@ $grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" 
   m_bEnableMoveOnFreeze 1
  }
 }
-$grp Vehicle : "{9AEDF323A812F9ED}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_AFRF.et" {
- Dispatcher_BRDM {
-  coords 1347.601 38 2941.973
-  angleY 164.059
-  m_sAttachmentGroupName "AFRF_Recon_Dispatcher"
-  m_bEnableMoveOnFreeze 1
- }
- Radio_BRDM {
-  coords 3070.823 47.157 2388.013
-  angleX -1.684
-  angleY 160.17
-  angleZ 0.607
-  m_sAttachmentGroupName "AFRF_Recon_Radio"
-  m_bEnableMoveOnFreeze 1
- }
-}
 Turret : "{D1FFE458E8AC4BDB}Prefabs/Weapons/Mortars/2B14/Mortar_2B14.et" {
  coords 2410.949 1.034 3275.224
  angleX -3.576

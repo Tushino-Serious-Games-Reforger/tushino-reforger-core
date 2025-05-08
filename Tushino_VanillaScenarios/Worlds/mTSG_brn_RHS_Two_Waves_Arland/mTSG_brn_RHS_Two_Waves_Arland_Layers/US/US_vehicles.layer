@@ -50,19 +50,3 @@ Vehicle US_Mortar_Truck : "{9B1BF9644E0378D6}Prefabs/Vehicles/Wheeled/M998/M998_
  m_sAttachmentGroupName "USMC_Mortar_Crew"
  m_bEnableMoveOnFreeze 1
 }
-$grp Vehicle : "{FA6820A9A52CD05B}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MDO_USAF.et" {
- Humvee_Military {
-  coords 1385.099 36.088 2393.251
-  angleX -0.072
-  angleY -41.722
-  angleZ 1.264
-  m_sAttachmentGroupName "USMC_Recon_Military"
-  m_bEnableMoveOnFreeze 1
- }
- Humvee_Arleville {
-  coords 2692.663 77.438 1665.562
-  angleY -39.679
-  m_sAttachmentGroupName "USMC_Recon_Arleville"
-  m_bEnableMoveOnFreeze 1
- }
-}

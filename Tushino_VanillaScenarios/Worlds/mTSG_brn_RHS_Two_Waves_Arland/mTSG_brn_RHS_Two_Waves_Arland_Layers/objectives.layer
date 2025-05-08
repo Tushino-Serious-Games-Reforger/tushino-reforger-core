@@ -1,98 +1,169 @@
-$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+$grp TSG_Objective : "{3FF3F42AE7C700C2}Prefabs/Trigger/TSG_Objective.et" {
  capture_arleville {
   coords 816.914 0 3105.813
   m_sTitle "Задачи"
   m_sTextData "Захватить Арлевилль"
-  m_sFactionKey ""
- }
- protect_arleville {
-  coords 776.503 0 3129.663
-  m_sTitle "Задачи"
-  m_sTextData "Защитить Арлевилль"
-  m_sFactionKey ""
+  m_iScore 100
+  m_sFactionKey "RHS_AFRF"
  }
  capture_beauregard {
   coords 807.002 0 3128.671
   m_sTitle "Задачи"
   m_sTextData "Захватить Борегар"
-  m_sFactionKey ""
- }
- protect_beauregard {
-  coords 807.869 0 3108.558
-  m_sTitle "Задачи"
-  m_sTextData "Защитить Борегар"
-  m_sFactionKey ""
+  m_iScore 100
+  m_sFactionKey "RHS_USAF"
  }
  capture_dispatcher {
   coords 798.918 0 3100.192
   m_sTitle "Задачи"
   m_sTextData "Захватить диспетчерскую"
-  m_sFactionKey ""
- }
- protect_dispatcher {
-  coords 787.814 0 3086.808
-  m_sTitle "Задачи"
-  m_sTextData "Защитить диспетчерскую"
-  m_sFactionKey ""
+  m_iScore 100
+  m_sFactionKey "RHS_USAF"
  }
  capture_military {
   coords 812.504 0 3096.381
   m_sTitle "Задачи"
   m_sTextData "Захватить военную базу"
-  m_sFactionKey ""
- }
- protect_military {
-  coords 797.085 0 3091.388
-  m_sTitle "Задачи"
-  m_sTextData "Защитить военную базу"
-  m_sFactionKey ""
+  m_iScore 100
+  m_sFactionKey "RHS_AFRF"
  }
  capture_moss_hill {
   coords 806.974 0 3089.321
   m_sTitle "Задачи"
   m_sTextData "Захватить Мховый холм"
-  m_sFactionKey ""
- }
- protect_moss_hill {
-  coords 820.581 0 3095.295
-  m_sTitle "Задачи"
-  m_sTextData "Защитить мховый холм"
-  m_sFactionKey ""
+  m_iScore 100
+  m_sFactionKey "RHS_AFRF"
  }
  capture_north_harbor {
   coords 802.034 0 3087.673
   m_sTitle "Задачи"
   m_sTextData "Захватить северную пристань"
-  m_sFactionKey ""
- }
- protect_north_harbor {
-  coords 813.989 0 3096.785
-  m_sTitle "Задачи"
-  m_sTextData "Защитить северную пристань"
-  m_sFactionKey ""
+  m_iScore 100
+  m_sFactionKey "RHS_USAF"
  }
  capture_radiotower {
   coords 784.696 0 3087.75
   m_sTitle "Задачи"
   m_sTextData "Захватить радиовышку"
-  m_sFactionKey ""
- }
- protect_radiotower {
-  coords 802.059 0 3098.247
-  m_sTitle "Задачи"
-  m_sTextData "Защитить радиовышку"
-  m_sFactionKey ""
+  m_iScore 100
+  m_sFactionKey "RHS_USAF"
  }
  capture_south_harbor {
   coords 805.805 0 3111.716
   m_sTitle "Задачи"
   m_sTextData "Захватить южный причал"
-  m_sFactionKey ""
+  m_iScore 100
+  m_sFactionKey "RHS_AFRF"
+ }
+ protect_arleville {
+  coords 776.503 0 3129.663
+  m_sTitle "Задачи"
+  m_sTextData "Защитить Арлевилль"
+  m_iScore 100
+  m_sFactionKey "RHS_USAF"
+ }
+ protect_beauregard {
+  coords 807.869 0 3108.558
+  m_sTitle "Задачи"
+  m_sTextData "Защитить Борегар"
+  m_iScore 100
+  m_sFactionKey "RHS_AFRF"
+ }
+ protect_dispatcher {
+  coords 787.814 0 3086.808
+  m_sTitle "Задачи"
+  m_sTextData "Защитить диспетчерскую"
+  m_iScore 100
+  m_sFactionKey "RHS_AFRF"
+ }
+ protect_military {
+  coords 797.085 0 3091.388
+  m_sTitle "Задачи"
+  m_sTextData "Защитить военную базу"
+  m_iScore 100
+  m_sFactionKey "RHS_USAF"
+ }
+ protect_moss_hill {
+  coords 820.581 0 3095.295
+  m_sTitle "Задачи"
+  m_sTextData "Защитить мховый холм"
+  m_iScore 100
+  m_sFactionKey "RHS_USAF"
+ }
+ protect_north_harbor {
+  coords 813.989 0 3096.785
+  m_sTitle "Задачи"
+  m_sTextData "Защитить северную пристань"
+  m_iScore 100
+  m_sFactionKey "RHS_AFRF"
+ }
+ protect_radiotower {
+  coords 802.059 0 3098.247
+  m_sTitle "Задачи"
+  m_sTextData "Защитить радиовышку"
+  m_iScore 100
+  m_sFactionKey "RHS_AFRF"
  }
  protect_south_harbor {
   coords 830.106 0 3129.093
   m_sTitle "Задачи"
   m_sTextData "Защитить южный причал"
-  m_sFactionKey ""
+  m_iScore 100
+  m_sFactionKey "RHS_USAF"
+ }
+}
+TSG_ObjectiveLottery lottery : "{8B60934A2F184638}Prefabs/Trigger/TSG_ObjectiveLottery.et" {
+ coords 820.008 0 3101.318
+ m_aTickets {
+  TSG_ObjectiveTicket "{6550080BE81046F1}" {
+   m_sObjectiveName "capture_arleville"
+   m_sCounterObjectiveName "protect_arleville"
+  }
+  TSG_ObjectiveTicket "{6550080A152E162A}" {
+   m_sObjectiveName "capture_beauregard"
+   m_sCounterObjectiveName "protect_beauregard"
+  }
+  TSG_ObjectiveTicket "{6550080A070B2ACD}" {
+   m_sObjectiveName "capture_dispatcher"
+   m_sCounterObjectiveName "protect_dispatcher"
+  }
+  TSG_ObjectiveTicket "{6550080A31321C61}" {
+   m_sObjectiveName "capture_military"
+   m_sCounterObjectiveName "protect_military"
+  }
+  TSG_ObjectiveTicket "{6550080A3DFD6577}" {
+   m_sObjectiveName "capture_moss_hill"
+   m_sCounterObjectiveName "protect_moss_hill"
+  }
+  TSG_ObjectiveTicket "{6550080A26205AE7}" {
+   m_sObjectiveName "capture_north_harbor"
+   m_sCounterObjectiveName "protect_north_harbor"
+  }
+  TSG_ObjectiveTicket "{6550080A5D4C3219}" {
+   m_sObjectiveName "capture_radiotower"
+   m_sCounterObjectiveName "protect_radiotower"
+  }
+  TSG_ObjectiveTicket "{6550080A4B322140}" {
+   m_sObjectiveName "capture_south_harbor"
+   m_sCounterObjectiveName "protect_south_harbor"
+  }
+ }
+ m_iLotteryTimeoutSeconds 600
+ m_iMinLotteryTimeoutSeconds 300
+ m_iCounterObjectiveRevealDelaySeconds 300
+ m_iMinCounterObjectiveRevealDelaySeconds 180
+}
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ AFRF_destroyed {
+  coords 340.941 1.611 2366.176
+  m_sTitle "ВС РФ разгромлены"
+  m_sFactionKey "RHS_USAF"
+  m_bAdvanceWhenTriggered 1
+ }
+ USAF_destroyed {
+  coords 338.044 2.708 2427.222
+  m_sTitle "ВС США разгромлены"
+  m_sFactionKey "RHS_AFRF"
+  m_bAdvanceWhenTriggered 1
  }
 }
