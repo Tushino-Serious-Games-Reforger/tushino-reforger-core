@@ -2,6 +2,7 @@ TSG_Objective {
  ID "654F4BC938A3C68D"
  components {
   RplComponent "{654F4BC97DD70C1B}" {
+   Streamable Disabled
   }
   Hierarchy "{654F4BC97F09AA88}" {
   }

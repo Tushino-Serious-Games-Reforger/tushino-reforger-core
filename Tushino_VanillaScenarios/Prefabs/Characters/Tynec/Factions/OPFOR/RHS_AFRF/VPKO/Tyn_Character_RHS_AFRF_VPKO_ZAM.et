@@ -40,7 +40,6 @@ SCR_ChimeraCharacter : "{6DB3B5CB37E7F6DF}Prefabs/Characters/Tynec/Factions/OPFO
     }
     LoadoutSlotInfo Back {
      PivotID "scene_root"
-     Name "Backpack"
      AreaType LoadoutBackpackArea "{5A68E3332875E6B7}" {
      }
     }

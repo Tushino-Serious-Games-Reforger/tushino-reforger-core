@@ -19,10 +19,10 @@ $grp Vehicle : "{3312ADBF53A16DD8}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
  }
 }
 Turret : "{8094D99689ABE241}Prefabs/Weapons/Mortars/M252/Mortar_M252.et" {
- coords 1654.81 47.339 1089.25
- angleX -3.507
- angleY -0.494
- angleZ 8.02
+ coords 1658.454 46.229 1101.168
+ angleX 0.902
+ angleY -0.426
+ angleZ 0.888
 }
 Vehicle US_Mortar_Truck : "{9B1BF9644E0378D6}Prefabs/Vehicles/Wheeled/M998/M998_covered_long.et" {
  components {
@@ -34,12 +34,6 @@ Vehicle US_Mortar_Truck : "{9B1BF9644E0378D6}Prefabs/Vehicles/Wheeled/M998/M998_
      }
      NumSlots 2
     }
-    MultiSlotConfiguration "{654D4520AE2A3B46}" {
-     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
-      Prefab "{56350EE0FAE7FB06}Prefabs/Items/Equipment/Ammo/US_MortarBox_HE_10_items.et"
-     }
-     NumSlots 3
-    }
    }
   }
  }
@@ -49,4 +43,22 @@ Vehicle US_Mortar_Truck : "{9B1BF9644E0378D6}Prefabs/Vehicles/Wheeled/M998/M998_
  angleZ -0.249
  m_sAttachmentGroupName "USMC_Mortar_Crew"
  m_bEnableMoveOnFreeze 1
+}
+$grp GenericEntity : "{CF2703AE1EF05837}Prefabs/Props/Boryan/Military/AmmoBoxes/RHS_USAF/RHS_USAF_81mm_AmmoBox_10_items.et" {
+ {
+  coords 1656.231 46.274 1101.745
+  angleX 0.895
+  angleY 0.014
+  angleZ 0.895
+ }
+ {
+  coords 1655.922 46.265 1100.897
+  angleX 0.895
+  angleY 0.014
+  angleZ 0.895
+ }
+ {
+  coords 1656.027 46.281 1102.987
+  angleZ 0.895
+ }
 }

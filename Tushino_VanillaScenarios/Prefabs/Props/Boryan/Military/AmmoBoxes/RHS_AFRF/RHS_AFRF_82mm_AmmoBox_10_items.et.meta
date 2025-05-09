@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{40FCAB314C512EB5}Prefabs/Items/Equipment/Ammo/USSR_MortarBox_HE_10_items.et"
+ Name "{95626379A84393CE}Prefabs/Props/Boryan/Military/AmmoBoxes/RHS_AFRF/RHS_AFRF_82mm_AmmoBox_10_items.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

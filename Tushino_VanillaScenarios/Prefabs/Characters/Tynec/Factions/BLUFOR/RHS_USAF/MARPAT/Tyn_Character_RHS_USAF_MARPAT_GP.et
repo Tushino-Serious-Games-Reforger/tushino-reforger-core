@@ -26,7 +26,6 @@ SCR_ChimeraCharacter : "{4811E545CF73B14C}Prefabs/Characters/Tynec/Factions/BLUF
     }
     LoadoutSlotInfo Back {
      PivotID "scene_root"
-     Name "Backpack"
      AreaType LoadoutBackpackArea "{5A68E3332875E6B7}" {
      }
     }
