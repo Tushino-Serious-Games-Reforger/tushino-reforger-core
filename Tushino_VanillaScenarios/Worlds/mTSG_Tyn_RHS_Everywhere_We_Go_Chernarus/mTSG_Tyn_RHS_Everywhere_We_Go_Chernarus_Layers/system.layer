@@ -1,23 +1,33 @@
-SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
- coords 5495.384 333.816 8433.115
+SCR_AIWorld : "{01DC74137CFDDB6A}Prefabs/AI/SCR_AIWorld_Arland.et" {
+ coords 3925.431 258.144 13172.344
 }
-PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
- coords 5496.834 333.816 8430.377
+PerceptionManager PerceptionManager2 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 3963.642 258.144 13179.854
 }
-PS_GameModeCoop TSG_GameModeLobby1 : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_GameModeLobby.et" {
+PS_GameModeCoop TSG_GameModeLobby2 : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_GameModeLobby.et" {
  components {
   SCR_InitWeatherComponent "{61B68227C35BFE9A}" {
-   m_sInitialStartingWeatherId "Cloudy"
+   m_sInitialStartingWeatherId "Clear"
   }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 12
+   m_iStartingHours 14
+   m_iStartingMinutes 10
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{654E01C38F383067}" {
+     m_iStartingHour 14
+     m_iStartingMinutes 10
+    }
+   }
    m_bRandomWeatherChanges 1
   }
  }
- coords 8592.063 333.799 11318.901
- m_eTestGameFlags SpawnAI
+ coords 2733.079 258.144 11271.219
+ angleZ 0.895
+ m_bDisableVanillaGroupMenu 1
+ m_bDisablePlayablesStreaming 1
+ m_bFreezeTimeShootingForbiden 1
  {
-  SCR_FactionManager "64E73A42374D620A" {
+  SCR_FactionManager "655450DD46F8B832" {
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{56DEAC40D3C2E623}" {
@@ -28,18 +38,26 @@ PS_GameModeCoop TSG_GameModeLobby1 : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_Gam
          m_aEntities {
           SCR_EntityCatalogInventoryItem "{5C62F7DF32FB7626}" {
            m_sEntityPrefab ""
+           m_bEnabled 0
+           m_aEntityDataList {
+            SCR_ArsenalItem "{5C62F7DF4DC2857D}" {
+            }
+           }
           }
           SCR_EntityCatalogInventoryItem "{5C62F7DF3138C6BB}" {
            m_sEntityPrefab ""
+           m_bEnabled 0
           }
           SCR_EntityCatalogInventoryItem "{5C62F7DF307FC925}" {
            m_sEntityPrefab ""
+           m_bEnabled 0
           }
           SCR_EntityCatalogInventoryItem "{5C62F7DF30AA69BA}" {
            m_sEntityPrefab ""
+           m_bEnabled 0
           }
           SCR_EntityCatalogInventoryItem "{5E22CEC974AFD875}" {
-           m_sEntityPrefab ""
+           m_bEnabled 0
           }
          }
         }
@@ -47,9 +65,42 @@ PS_GameModeCoop TSG_GameModeLobby1 : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_Gam
       }
      }
     }
-    SCR_Faction "{5D9F7285A1D004FE}" {
+   }
+  }
+ }
+}
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_bUseTestingMode 0
+   m_aLossLogics {
+    LossLogic "{655131A7A3F08DEC}" {
+     m_aLosses {
+      FactionLoss "{655131A7A42618E9}" {
+       m_iCriticalLossCount 3
+       m_sFactionKey "RHS_AFRF"
+      }
+     }
+     m_sObjectiveNames {
+      "RF_destroyed"
+     }
+     m_bAdvanceGameStage 1
+    }
+    LossLogic "{655450C14F9C8840}" {
+     m_aLosses {
+      FactionLoss "{655450C14E78ED66}" {
+       m_sFactionKey "Ses_CDF"
+      }
+     }
+     m_sObjectiveNames {
+      "US_destroyed"
+     }
     }
    }
   }
  }
+ coords 1821.642 261.024 12144.105
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ coords 1823.205 259.76 12070.626
 }

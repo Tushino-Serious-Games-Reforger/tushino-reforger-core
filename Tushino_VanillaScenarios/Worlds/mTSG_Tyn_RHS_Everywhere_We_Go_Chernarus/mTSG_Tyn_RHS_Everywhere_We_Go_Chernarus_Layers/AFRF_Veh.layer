@@ -3,6 +3,7 @@ Vehicle UAZ1 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
  angleX 0.875
  angleY -102.218
  angleZ -0.189
+ m_sAttachmentGroupName "AFRF1"
 }
 Vehicle UAZ452_ambulance1 : "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et" {
  components {
@@ -30,6 +31,7 @@ Vehicle UAZ452_ambulance1 : "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/U
  angleX 1.934
  angleY -101.66
  angleZ 0.515
+ m_sAttachmentGroupName "AFRF2"
 }
 $grp Vehicle : "{6F4D5B56F4905A62}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed_Green.et" {
  Tigr2 {
@@ -42,6 +44,16 @@ $grp Vehicle : "{6F4D5B56F4905A62}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR
       }
       NumSlots 15
      }
+     MultiSlotConfiguration "{62B233ED7C2615D2}" {
+      SlotTemplate InventoryStorageSlot Can {
+       Prefab "{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et"
+      }
+     }
+     MultiSlotConfiguration "{62B233ED7C2615D3}" {
+      SlotTemplate InventoryStorageSlot Repkit {
+       Prefab "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et"
+      }
+     }
      MultiSlotConfiguration "{64E73A4611406610}" {
       SlotTemplate InventoryStorageSlot Tourniquet {
        Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
@@ -53,16 +65,6 @@ $grp Vehicle : "{6F4D5B56F4905A62}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR
        Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
       }
       NumSlots 5
-     }
-     MultiSlotConfiguration "{62B233ED7C2615D2}" {
-      SlotTemplate InventoryStorageSlot Can {
-       Prefab "{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et"
-      }
-     }
-     MultiSlotConfiguration "{62B233ED7C2615D3}" {
-      SlotTemplate InventoryStorageSlot Repkit {
-       Prefab "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et"
-      }
      }
      MultiSlotConfiguration "{64E73A46752430C2}" {
       SlotTemplate InventoryStorageSlot Ak_mag {
@@ -107,6 +109,7 @@ $grp Vehicle : "{6F4D5B56F4905A62}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR
   angleX 0.868
   angleY -104.269
   angleZ -0.221
+  m_sAttachmentGroupName "AFRF6"
  }
  Tigr1 {
   components {
@@ -117,6 +120,16 @@ $grp Vehicle : "{6F4D5B56F4905A62}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR
        Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
       }
       NumSlots 15
+     }
+     MultiSlotConfiguration "{62B233ED7C2615D2}" {
+      SlotTemplate InventoryStorageSlot Can {
+       Prefab "{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et"
+      }
+     }
+     MultiSlotConfiguration "{62B233ED7C2615D3}" {
+      SlotTemplate InventoryStorageSlot Repkit {
+       Prefab "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et"
+      }
      }
      MultiSlotConfiguration "{64E73A4611406610}" {
       SlotTemplate InventoryStorageSlot Tourniquet {
@@ -129,16 +142,6 @@ $grp Vehicle : "{6F4D5B56F4905A62}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR
        Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
       }
       NumSlots 5
-     }
-     MultiSlotConfiguration "{62B233ED7C2615D2}" {
-      SlotTemplate InventoryStorageSlot Can {
-       Prefab "{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et"
-      }
-     }
-     MultiSlotConfiguration "{62B233ED7C2615D3}" {
-      SlotTemplate InventoryStorageSlot Repkit {
-       Prefab "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et"
-      }
      }
      MultiSlotConfiguration "{64E73A46752430C2}" {
       SlotTemplate InventoryStorageSlot Ak_mag {
@@ -183,6 +186,7 @@ $grp Vehicle : "{6F4D5B56F4905A62}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR
   angleX 0.868
   angleY -104.269
   angleZ -0.221
+  m_sAttachmentGroupName "AFRF7"
  }
 }
 $grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
@@ -248,6 +252,7 @@ $grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
   angleX 1.065
   angleY -102.242
   angleZ 0.685
+  m_sAttachmentGroupName "AFRF3"
  }
  BTR2 {
   components {
@@ -311,6 +316,7 @@ $grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
   angleX 1.065
   angleY -102.242
   angleZ 0.685
+  m_sAttachmentGroupName "AFRF4"
  }
  BTR1 {
   components {
@@ -374,5 +380,6 @@ $grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
   angleX 1.065
   angleY -102.242
   angleZ 0.685
+  m_sAttachmentGroupName "AFRF5"
  }
 }

@@ -1,3 +1,31 @@
+$grp PS_Objective {
+ RF_destroyed {
+  components {
+   RplComponent "{633E883E0C3A2235}" {
+   }
+   Hierarchy "{633E883E0A5E7884}" {
+   }
+  }
+  coords 2971.689 48.175 6811.097
+  m_sTitle "ВС РФ расгромленны "
+  m_iScore 50
+  m_sFactionKey "RHS_USAF"
+  m_bAdvanceWhenTriggered 1
+ }
+ us_destroyed {
+  components {
+   RplComponent "{633E883E25DFA33E}" {
+   }
+   Hierarchy "{633E883E2606D9E4}" {
+   }
+  }
+  coords 2977.66 54.492 6775.217
+  m_sTitle "Американцы разгромлены"
+  m_iScore 50
+  m_sFactionKey "RHS_AFRF"
+  m_bAdvanceWhenTriggered 1
+ }
+}
 $grp TSG_EntityConstraint {
  BTR_save {
   components {
@@ -43,66 +71,6 @@ $grp TSG_EntityConstraint {
     coords -956.613 -89.685 3441.215
     m_sTitle "Уничтожить БТР"
     m_sFactionKey "RHS_USAF"
-    m_bAdvanceWhenTriggered 1
-   }
-  }
- }
-}
-$grp TSG_FactionLossesConstraint {
- RF_losses {
-  components {
-   SCR_EditableEntityComponent "{64852A21FF107A23}" {
-    m_UIInfo SCR_EditableEntityUIInfo "{64852A21F99D0B9F}" {
-     Name "Триггер потерь РФ"
-    }
-    m_bAutoRegister ALWAYS
-   }
-   RplComponent "{633E883FF447CD99}" {
-   }
-  }
-  coords 2971.689 48.175 6811.097
-  m_sFactionKey "RHS_AFRF"
-  m_iMinNumberOfAliveCharacters 1
-  {
-   PS_Objective RF_destroyed {
-    components {
-     RplComponent "{633E883E0C3A2235}" {
-     }
-     Hierarchy "{633E883E0A5E7884}" {
-     }
-    }
-    m_sTitle "ВС РФ расгромленны "
-    m_iScore 50
-    m_sFactionKey "RHS_USAF"
-    m_bAdvanceWhenTriggered 1
-   }
-  }
- }
- US_losses {
-  components {
-   SCR_EditableEntityComponent "{64852A21CD8EBCDF}" {
-    m_UIInfo SCR_EditableEntityUIInfo "{64852A21C8A8DC39}" {
-     Name "Триггер потерь США"
-    }
-    m_bAutoRegister ALWAYS
-   }
-   RplComponent "{633E883FF1134EA5}" {
-   }
-  }
-  coords 2977.66 54.492 6775.218
-  m_sFactionKey "RHS_USAF"
-  m_iMinNumberOfAliveCharacters 2
-  {
-   PS_Objective us_destroyed {
-    components {
-     RplComponent "{633E883E25DFA33E}" {
-     }
-     Hierarchy "{633E883E2606D9E4}" {
-     }
-    }
-    m_sTitle "Американцы разгромлены"
-    m_iScore 50
-    m_sFactionKey "RHS_AFRF"
     m_bAdvanceWhenTriggered 1
    }
   }
