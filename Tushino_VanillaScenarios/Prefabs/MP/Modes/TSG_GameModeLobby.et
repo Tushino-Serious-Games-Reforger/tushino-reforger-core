@@ -5,10 +5,13 @@ PS_GameModeCoop : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
   }
  }
  coords 3803.239 311.021 8797.562
- m_bMarkersOnlyOnBriefing 1
+ m_bMarkersOnlyOnBriefing 0
  m_bRemoveRedundantUnits 1
  m_bRemoveSquadMarkers 1
  m_iFreezeTime 300000
  m_bDisableChat 1
  m_bReserveSlots 1
+ m_bDisableVanillaGroupMenu 1
+ m_bFriendliesSpectatorOnly 1
+ m_bFreezeTimeShootingForbiden 1
 }
