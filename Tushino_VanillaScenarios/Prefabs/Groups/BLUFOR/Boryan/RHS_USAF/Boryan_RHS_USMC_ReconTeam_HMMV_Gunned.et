@@ -1,0 +1,15 @@
+SCR_AIGroup : "{DA70F249A8B7A366}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Group_USAF_USMC_MARSOC_RifleSquad.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+ }
+ coords 1495.71 1.182 1847.008
+ angleX -0.152
+ angleY -30.188
+ angleZ -0.187
+ m_aUnitPrefabSlots {
+  "{145F21D7541094DC}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Recon/Tyn_Character_RHS_USAF_MARPAT_Recon_SL.et" "{1BEAC47B39C88A07}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Recon/Tyn_Character_RHS_USAF_MARPAT_Recon_Sapper.et" "{75675C1A0EE7C5ED}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Recon/Tyn_Character_RHS_USAF_MARPAT_Recon_Sniper.et" "{BE1EB907023DDA20}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Recon/Tyn_Character_RHS_USAF_MARPAT_Recon_Rifleman.et" "{BE1EB907023DDA20}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Recon/Tyn_Character_RHS_USAF_MARPAT_Recon_Rifleman.et"
+ }
+}

@@ -1,0 +1,72 @@
+Vehicle AFRF_Mortar_Truck : "{01F65EFB8D767A91}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_cargo.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5D7E924E84B181BC}" {
+   MultiSlots {
+    MultiSlotConfiguration "{654D452238EC1D9F}" {
+     SlotTemplate InventoryStorageSlot InventoryStorageSlot {
+      Prefab "{B41607EAB58A4252}Prefabs/Items/Equipment/BalisticTable/BalisticTable_USSR.et"
+     }
+     NumSlots 2
+    }
+   }
+  }
+ }
+ coords 2399.932 1.092 3275.626
+ angleX 2.451
+ angleY 133.803
+ angleZ -3.841
+ m_sAttachmentGroupName "AFRF_Mortar_Team"
+ m_bEnableMoveOnFreeze 1
+}
+$grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
+ Beauregard_BTR70 {
+  coords 3262.318 2.513 2862.498
+  angleX 1.998
+  angleY -113.579
+  angleZ 0.104
+  m_sAttachmentGroupName "AFRF_Squad_Beauregard"
+  m_bEnableMoveOnFreeze 1
+ }
+ Harbor_BTR70 {
+  coords 1173.261 1.063 3314.013
+  angleX 0.879
+  angleY 10.832
+  angleZ 0.168
+  m_sAttachmentGroupName "AFRF_Squad_Harbor"
+  m_bEnableMoveOnFreeze 1
+ }
+ HQ_BTR70 {
+  coords 2393.051 5.829 3207.315
+  angleX 5.421
+  angleY -173.689
+  angleZ -0.298
+  m_sAttachmentGroupName "AFRF_HQ_Squad"
+  m_bEnableMoveOnFreeze 1
+ }
+}
+$grp GenericEntity : "{95626379A84393CE}Prefabs/Props/Boryan/Military/AmmoBoxes/RHS_AFRF/RHS_AFRF_82mm_AmmoBox_10_items.et" {
+ {
+  coords 2405.3 1.382 3270.566
+  angleX -3.577
+  angleY 0.014
+  angleZ 0.893
+ }
+ {
+  coords 2405.914 1.269 3272.251
+  angleX -2.686
+  angleY -0.126
+  angleZ -0.888
+ }
+ {
+  coords 2405.159 1.328 3271.465
+  angleX -3.575
+  angleY -0.084
+  angleZ 0.899
+ }
+}
+Turret : "{D1FFE458E8AC4BDB}Prefabs/Weapons/Mortars/2B14/Mortar_2B14.et" {
+ coords 2403.583 1.34 3271.565
+ angleX -3.576
+ angleY -0.056
+ angleZ 0.004
+}

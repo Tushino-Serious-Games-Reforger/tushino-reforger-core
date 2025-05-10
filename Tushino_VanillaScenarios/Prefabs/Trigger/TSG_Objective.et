@@ -1,0 +1,12 @@
+TSG_Objective {
+ ID "654F4BC938A3C68D"
+ components {
+  RplComponent "{654F4BC97DD70C1B}" {
+   Streamable Disabled
+  }
+  Hierarchy "{654F4BC97F09AA88}" {
+  }
+ }
+ coords 1557.514 37.459 2555.444
+ m_sDescriptionLayout "{41DAF7B7061DC0BC}UI/MissionDescription/DescriptionEditable.layout"
+}

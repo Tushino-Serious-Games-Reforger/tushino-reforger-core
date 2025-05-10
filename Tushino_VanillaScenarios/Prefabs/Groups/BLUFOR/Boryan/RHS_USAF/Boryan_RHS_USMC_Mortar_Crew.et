@@ -1,0 +1,7 @@
+SCR_AIGroup : "{7A43006F3F254FB2}Prefabs/Groups/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Group_USAF_USMC_MARSOC_SentryTeam.et" {
+ ID "0000000000000001"
+ coords 1648.232 47.817 1091.095
+ m_aUnitPrefabSlots {
+  "{DE244EBA2E587CB9}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Mortar_SL.et" "{FA7B93090CF49E46}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Mortar_Crewman.et"
+ }
+}

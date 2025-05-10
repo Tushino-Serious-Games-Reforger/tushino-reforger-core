@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{800E40745A24E97F}Prefabs/Groups/OPFOR/Boryan/RHS_AFRF/Boryan_RHS_AFRF_RifleSquad_BTR70.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

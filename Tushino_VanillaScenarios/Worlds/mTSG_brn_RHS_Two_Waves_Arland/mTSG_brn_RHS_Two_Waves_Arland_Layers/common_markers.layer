@@ -1,0 +1,36 @@
+$grp PS_ManualMarker : "{3F72FA5DA5D53A0E}Prefabs/Markers/RF_marker.et" {
+ RF_dispatcher {
+  coords 1343.975 37.71 2972.578
+  m_sDescription "Диспетчерская"
+ }
+ RF_north_harbor {
+  coords 1144.023 1.156 3349.94
+  m_sDescription "Северная пристань"
+ }
+ RF_radiotower {
+  coords 3109.826 44.175 2417.653
+  m_sDescription "Радиовышка"
+ }
+ RF_beauregard {
+  coords 3255.448 2 2914.809
+  m_sDescription "Борегар"
+ }
+}
+$grp PS_ManualMarker : "{75DDCAC9E500E161}Prefabs/Markers/US_marker.et" {
+ US_arleville {
+  coords 2755.593 77.375 1633.438
+  m_sDescription "Арлевилль"
+ }
+ US_military {
+  coords 1388.124 36.309 2357.129
+  m_sDescription "Военная база"
+ }
+ US_moss_hill {
+  coords 2302.126 90.222 1259.104
+  m_sDescription "Мховый холм"
+ }
+ US_south_harbor {
+  coords 1459.155 1.125 1811.422
+  m_sDescription "Южная пристань"
+ }
+}

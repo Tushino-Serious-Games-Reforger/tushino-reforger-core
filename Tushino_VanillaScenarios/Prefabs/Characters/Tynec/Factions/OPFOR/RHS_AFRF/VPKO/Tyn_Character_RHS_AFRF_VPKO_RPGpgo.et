@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{881279A013B001E6}Prefabs/Characters/Tynec/Factions/OPFOR/AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_RPG.et" {
+SCR_ChimeraCharacter : "{881279A013B001E6}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_RPG.et" {
  ID "520EC961A090B1EE"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0C83F15A986DF369}Prefabs/Groups/BLUFOR/Boryan/RHS_USAF/Boryan_RHS_USMC_RifleSquad_LAV25.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

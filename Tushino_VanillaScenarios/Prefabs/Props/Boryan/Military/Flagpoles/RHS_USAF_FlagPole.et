@@ -1,0 +1,18 @@
+GenericEntity : "{0DBE058F13F0C7E8}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_US.et" {
+ ID "50C6D20663830070"
+ components {
+  SCR_EditableEntityComponent "{5EF0BDF2D0AE76F6}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "RHS_USAF"
+    m_aAuthoredLabels {
+     1677929688
+    }
+   }
+  }
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_sFactionKey "RHS_USAF"
+  }
+ }
+ coords 1143.757 1.261 3350.698
+ angleX 0.895
+}

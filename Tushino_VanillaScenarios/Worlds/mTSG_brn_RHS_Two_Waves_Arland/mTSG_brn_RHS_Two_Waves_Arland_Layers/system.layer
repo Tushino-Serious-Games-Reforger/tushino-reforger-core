@@ -1,0 +1,60 @@
+SCR_AIWorld : "{01DC74137CFDDB6A}Prefabs/AI/SCR_AIWorld_Arland.et" {
+ coords 2444.945 0 3464.705
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 2483.156 0 3472.215
+}
+PS_GameModeCoop TSG_GameModeLobby1 : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_GameModeLobby.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 13
+   m_iStartingMinutes 37
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{654E01C38F383067}" {
+     m_sWeatherPresetName "Clear"
+     m_iStartingHour 13
+     m_iStartingMinutes 37
+    }
+   }
+   m_bRandomWeatherChanges 1
+  }
+ }
+ coords 1252.593 0 1563.58
+ angleZ 0.895
+}
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_aLossLogics {
+    LossLogic "{655131A709FC24EA}" {
+     m_aLosses {
+      FactionLoss "{655131A776EF33C4}" {
+       m_iCriticalLossCount 3
+       m_sFactionKey "RHS_USAF"
+      }
+     }
+     m_sObjectiveNames {
+      "USAF_destroyed"
+     }
+     m_bAdvanceGameStage 1
+    }
+    LossLogic "{655131A7A3F08DEC}" {
+     m_aLosses {
+      FactionLoss "{655131A7A42618E9}" {
+       m_iCriticalLossCount 3
+       m_sFactionKey "RHS_AFRF"
+      }
+     }
+     m_sObjectiveNames {
+      "AFRF_destroyed"
+     }
+     m_bAdvanceGameStage 1
+    }
+   }
+  }
+ }
+ coords 341.156 2.88 2436.466
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ coords 342.719 1.616 2362.987
+}

@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{6DB3B5CB37E7F6DF}Prefabs/Characters/Tynec/Factions/OPFOR/AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_unarmed.et" {
+SCR_ChimeraCharacter : "{6DB3B5CB37E7F6DF}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_unarmed.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {

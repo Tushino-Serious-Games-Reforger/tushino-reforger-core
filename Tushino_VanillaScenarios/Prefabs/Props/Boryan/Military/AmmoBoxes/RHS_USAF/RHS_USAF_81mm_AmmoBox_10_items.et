@@ -1,0 +1,17 @@
+GenericEntity : "{3D5594CC62AAFB88}Prefabs/Props/Military/AmmoBoxes/AmmoBox_81mm_mortar_3rnd.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   MultiSlots {
+    MultiSlotConfiguration "{65530321497F0DDF}" {
+     SlotTemplate InventoryStorageSlot shells {
+      Prefab "{38BAE094333E31BF}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_HE_M821.et"
+     }
+     NumSlots 10
+    }
+   }
+   m_fMaxWeight 50
+  }
+ }
+ coords 1649.643 46.376 1102.225
+}

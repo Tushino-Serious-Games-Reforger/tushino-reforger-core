@@ -1,0 +1,10 @@
+SCR_AIGroup : "{85591815191600FC}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Group_RHS_RF_MSV_VKPO_S_SentryTeam.et" {
+ ID "0000000000000001"
+ coords 2422.86 0.944 3274.183
+ angleX -3.576
+ angleY -0.056
+ angleZ 0.897
+ m_aUnitPrefabSlots {
+  "{20643439F6BEFA9E}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_Mortar_SL.et" "{2F7D2D719432BD35}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_Mortar_Crewman.et"
+ }
+}

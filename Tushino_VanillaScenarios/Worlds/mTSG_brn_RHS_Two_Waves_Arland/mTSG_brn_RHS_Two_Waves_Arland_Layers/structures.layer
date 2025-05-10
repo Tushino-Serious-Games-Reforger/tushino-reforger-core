@@ -1,0 +1,99 @@
+$grp GenericEntity : "{6203CCA8431DF76D}Prefabs/Props/Boryan/Military/Flagpoles/RHS_AFRF_FlagPole.et" {
+ flag_beauregard {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aObjectiveNames {
+     "capture_beauregard" "protect_beauregard"
+    }
+   }
+  }
+  coords 3255.62 2 2914.771
+  angleY 0.07
+ }
+ flag_dispatcher {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aObjectiveNames {
+     "capture_dispatcher" "protect_dispatcher"
+    }
+   }
+  }
+  coords 1344.501 37.72 2972.428
+  angleX -0.895
+  angleY 0
+  angleZ -0.895
+ }
+ flag_north_harbor {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aObjectiveNames {
+     "capture_north_harbor" "protect_north_harbor"
+    }
+   }
+  }
+  coords 1143.757 1.261 3350.698
+  angleX 0.895
+  angleY 0
+ }
+ flag_radiotower {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aObjectiveNames {
+     "capture_radiotower" "protect_radiotower"
+    }
+   }
+  }
+  coords 3112.101 44.11 2416.69
+  angleX -0.892
+  angleY -0.069
+  angleZ 2.684
+ }
+}
+$grp GenericEntity : "{7A2F0550EFD54E5E}Prefabs/Props/Boryan/Military/Flagpoles/RHS_USAF_FlagPole.et" {
+ flag_south_harbor {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aObjectiveNames {
+     "capture_south_harbor" "protect_south_harbor"
+    }
+   }
+  }
+  coords 1458.773 1.125 1811.956
+  angleX 0
+  angleY 0.007
+ }
+ flag_moss_hill {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aObjectiveNames {
+     "capture_moss_hill" "protect_moss_hill"
+    }
+   }
+  }
+  coords 2302.223 90.219 1258.974
+  angleX 1.79
+ }
+ flag_military {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aObjectiveNames {
+     "capture_military" "protect_military"
+    }
+   }
+  }
+  coords 1388.079 36.31 2355.996
+  angleX 0
+  angleZ 1.79
+ }
+ flag_arleville {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aObjectiveNames {
+     "capture_arleville" "protect_arleville"
+    }
+   }
+  }
+  coords 2757.679 77.347 1633.112
+  angleX 1.79
+ }
+}

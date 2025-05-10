@@ -1,0 +1,73 @@
+$grp SCR_AIGroup : "{0C83F15A986DF369}Prefabs/Groups/BLUFOR/Boryan/RHS_USAF/Boryan_RHS_USMC_RifleSquad_LAV25.et" {
+ USMC_HQ_Squad {
+  coords 1735.099 45.521 1085.887
+  angleX 3.996
+  angleY -25.343
+  angleZ 0.085
+  m_sCustomNameSet "HQ Squad"
+ }
+ USMC_Squad_Moss_Hill {
+  components {
+   PS_GroupCallsignAssigner "{654B2D5A5A1324C5}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 2319.478 84.482 1361.726
+  angleX 13.277
+  angleY 128.073
+  angleZ -4.074
+  m_sCustomNameSet "2-2 Squad"
+ }
+ USMC_Squad_Harbor {
+  components {
+   PS_GroupCallsignAssigner "{654B2D5A5A1324C5}" {
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1483.19 1.347 1859.11
+  angleX -4.818
+  angleY 111.901
+  angleZ 4.785
+  m_sCustomNameSet "3-2 Squad"
+ }
+}
+SCR_AIGroup USMC_Mortar_Crew : "{80C19833E56E2207}Prefabs/Groups/BLUFOR/Boryan/RHS_USAF/Boryan_RHS_USMC_Mortar_Crew.et" {
+ components {
+  PS_GroupCallsignAssigner "{654B2D6A8ACD0635}" {
+   m_iSquadCallsign 1
+  }
+ }
+ coords 1647.13 47.766 1092.124
+ angleX -5.351
+ angleY -0.168
+ angleZ 1.798
+ m_sCustomNameSet "1-2 Mortar Crew"
+}
+$grp SCR_AIGroup : "{A2A3DD7778DB8AFB}Prefabs/Groups/BLUFOR/Boryan/RHS_USAF/Boryan_RHS_USMC_ReconTeam_HMMV_Gunned.et" {
+ USMC_Recon_Military {
+  components {
+   PS_GroupCallsignAssigner "{654B2D6526CC2872}" {
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 1363.63 37.082 2394.874
+  angleX -0.046
+  angleY 47.072
+  angleZ 1.265
+  m_sCustomNameSet "3-1 Recon"
+ }
+ USMC_Recon_Arleville {
+  components {
+   PS_GroupCallsignAssigner "{654B2D6537A211EF}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 2707.14 77.531 1649.327
+  angleX 0
+  angleY -120.757
+  angleZ 0
+  m_sCustomNameSet "2-1 Recon"
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{75675C1A0EE7C5ED}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Recon_Sniper.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

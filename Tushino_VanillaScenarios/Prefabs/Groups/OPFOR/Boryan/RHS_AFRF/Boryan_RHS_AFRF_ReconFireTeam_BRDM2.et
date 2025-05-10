@@ -1,0 +1,12 @@
+SCR_AIGroup : "{28574BDF21397789}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Group_RHS_RF_MSV_VKPO_S_FireGroup.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+ }
+ coords 3076.254 46.726 2377.852
+ m_aUnitPrefabSlots {
+  "{60EBDB5144E6DB34}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Speznaz/Tyn_Character_RHS_AFRF_VPKO_speznaz_SL.et" "{4ABFF86C06BB9BD7}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Speznaz/Tyn_Character_RHS_AFRF_VPKO_speznaz_sapper.et" "{2432600D3194D43D}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Speznaz/Tyn_Character_RHS_AFRF_VPKO_speznaz_sniper.et" "{25657D2ECE357438}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Speznaz/Tyn_Character_RHS_AFRF_VPKO_speznaz_Rifleman.et" "{B9CACDD84DC84C7E}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Speznaz/Tyn_Character_RHS_AFRF_VPKO_speznaz_Driver.et"
+ }
+}

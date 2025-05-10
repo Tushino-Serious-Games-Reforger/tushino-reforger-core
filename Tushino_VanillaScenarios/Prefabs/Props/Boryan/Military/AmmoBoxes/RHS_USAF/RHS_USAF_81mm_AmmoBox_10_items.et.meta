@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CF2703AE1EF05837}Prefabs/Props/Boryan/Military/AmmoBoxes/RHS_USAF/RHS_USAF_81mm_AmmoBox_10_items.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

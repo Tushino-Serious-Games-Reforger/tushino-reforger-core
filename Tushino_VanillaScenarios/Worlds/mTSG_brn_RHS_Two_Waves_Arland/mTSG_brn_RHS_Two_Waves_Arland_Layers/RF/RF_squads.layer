@@ -1,0 +1,71 @@
+$grp SCR_AIGroup : "{538AE67CF05BECAE}Prefabs/Groups/OPFOR/Boryan/RHS_AFRF/Boryan_RHS_AFRF_ReconFireTeam_BRDM2.et" {
+ AFRF_Recon_Radio {
+  components {
+   PS_GroupCallsignAssigner "{654B2D64BAE12456}" {
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 3077.236 46.7 2378.254
+  angleX 1.786
+  angleY 0.084
+  angleZ 2.685
+  m_sCustomNameSet "3-1 Разведка"
+ }
+ AFRF_Recon_Dispatcher {
+  components {
+   PS_GroupCallsignAssigner "{654B2D64408510D9}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 1362.437 38 2946.76
+  angleY 165.798
+  m_sCustomNameSet "2-1 Разведка"
+ }
+}
+SCR_AIGroup AFRF_Mortar_Team : "{6EA3AD592B4EFEAB}Prefabs/Groups/OPFOR/Boryan/RHS_AFRF/Boryan_RHS_AFRF_MortarTeam.et" {
+ components {
+  PS_GroupCallsignAssigner "{654B2D6124527F7F}" {
+   m_iSquadCallsign 1
+  }
+ }
+ coords 2404.094 0.962 3281.51
+ angleX -3.562
+ angleY -0.223
+ angleZ 3.583
+ m_sCustomNameSet "1-2 Минометный расчет"
+}
+$grp SCR_AIGroup : "{800E40745A24E97F}Prefabs/Groups/OPFOR/Boryan/RHS_AFRF/Boryan_RHS_AFRF_RifleSquad_BTR70.et" {
+ AFRF_Squad_Harbor {
+  components {
+   PS_GroupCallsignAssigner "{654B2D64812EE0A6}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1164.679 1.156 3311.837
+  angleY 80.763
+  m_sCustomNameSet "2-2 Отделение"
+ }
+ AFRF_HQ_Squad {
+  components {
+   PS_GroupCallsignAssigner "{654B2D64560470AE}" {
+   }
+  }
+  coords 2392.907 4.968 3217.189
+  angleX 5.345
+  angleY 179.319
+  angleZ -0.955
+  m_sCustomNameSet "1-1 Штабное отделение"
+ }
+ AFRF_Squad_Beauregard {
+  components {
+   PS_GroupCallsignAssigner "{654B2D64ABEDDA55}" {
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 3278.762 2 2890.714
+  angleY -132.464
+  m_sCustomNameSet "3-2 Отделение"
+ }
+}

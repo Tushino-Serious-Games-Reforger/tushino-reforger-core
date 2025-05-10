@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{F7E300AF3915D676}Prefabs/Characters/Tynec/Factions/OPFOR/AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_Rifleman.et" {
+SCR_ChimeraCharacter : "{F7E300AF3915D676}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_Rifleman.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {

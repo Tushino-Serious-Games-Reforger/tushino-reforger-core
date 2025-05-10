@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D82D9534F0FAF92A}Prefabs/Weapons/Rifles/M4A1/Tyn_Rifle_M4A1_BLOCK_0_ACOG_sup.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
