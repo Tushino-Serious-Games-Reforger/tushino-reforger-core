@@ -19,7 +19,7 @@ GenericEntity : "{5879D8E9C56E358D}Prefabs/Items/Core/Radio_base.et" {
    Transceivers {
     RadioTransceiver "{6490D0C7F2B56CF2}" {
      ChannelFrequency 32000
-     "Transmitting Range" 2200
+     "Transmitting Range" 2000
      "Min tunable frequency" 32000
      "Max tunable frequency" 68000
      "Frequency resolution" 100
@@ -133,7 +133,7 @@ GenericEntity : "{5879D8E9C56E358D}Prefabs/Items/Core/Radio_base.et" {
     }
    }
    additionalActions {
-    SCR_EquipGadgetAction "{553AEBE8806A957C}" : "{068D8D646964D12A}Prefabs/Characters/Core/Actions/EquipGadgetAction.conf" {
+    SCR_EquipItemAction "{553AEBE8806A957C}" : "{068D8D646964D12A}Prefabs/Characters/Core/Actions/EquipGadgetAction.conf" {
     }
     SCR_RadioTuningUserAction "{6490D0C7F2B56D3C}" {
      ParentContextList {
