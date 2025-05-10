@@ -32,9 +32,10 @@ class TSG_FactionLossesConstraint: TSG_BasePeriodicCheck
 		PS_PlayableManager manager = PS_PlayableManager.GetInstance();
 		//TSG_MissionDataManager manager = TSG_MissionDataManager.GetInstance();
 		int nAlive = 0;
-		array<PS_PlayableComponent> playables = manager.GetPlayablesSorted();
-		foreach(PS_PlayableComponent playable : playables)
+		array<PS_PlayableContainer> playables = manager.GetPlayablesSorted();
+		foreach(PS_PlayableContainer container : playables)
 		{
+			PS_PlayableComponent playable = container.GetPlayableComponent();
 			FactionAffiliationComponent factionAffiliationComponent = playable.GetFactionAffiliationComponent();
 			SCR_Faction faction = SCR_Faction.Cast(factionAffiliationComponent.GetDefaultAffiliatedFaction());
 			string unitFaction = faction.GetFactionKey();

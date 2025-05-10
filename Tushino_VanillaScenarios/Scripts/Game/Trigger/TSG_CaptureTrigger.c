@@ -93,8 +93,9 @@ class TSG_CaptureTrigger: TSG_BasePeriodicCheck
 			triggerState[faction] = 0;
 		}
 		PS_PlayableManager manager = PS_PlayableManager.GetInstance();
-		foreach (PS_PlayableComponent playable : manager.GetPlayablesSorted())
+		foreach (PS_PlayableContainer container : manager.GetPlayablesSorted())
 		{
+			PS_PlayableComponent playable = container.GetPlayableComponent();
 			if (IsAlive(playable.GetOwner()) && IsInside(playable.GetOwner()))
 			{
 				FactionAffiliationComponent factionAffiliationComponent = playable.GetFactionAffiliationComponent();

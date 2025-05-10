@@ -73,8 +73,9 @@ class TSG_MissionDataManager : ScriptComponent
 		array<IEntity> result = {};
 
 		PS_PlayableManager manager = PS_PlayableManager.GetInstance();
-		foreach (PS_PlayableComponent playable : manager.GetPlayablesSorted())
+		foreach (PS_PlayableContainer container : manager.GetPlayablesSorted())
 		{
+			PS_PlayableComponent playable = container.GetPlayableComponent();
 			IEntity owner = playable.GetOwner();
 			RplComponent component = RplComponent.Cast(owner.FindComponent(RplComponent));
 			if (!m_mTrackedEntities.Contains(component.Id()))
