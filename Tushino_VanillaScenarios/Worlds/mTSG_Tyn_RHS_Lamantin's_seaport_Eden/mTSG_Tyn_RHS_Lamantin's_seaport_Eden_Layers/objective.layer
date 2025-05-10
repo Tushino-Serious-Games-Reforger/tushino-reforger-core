@@ -1,63 +1,29 @@
-$grp TSG_FactionLossesConstraint {
- RF_losses {
+$grp PS_Objective {
+ RF_destroyed {
   components {
-   SCR_EditableEntityComponent "{64852A206A789F0E}" {
-    m_UIInfo SCR_EditableEntityUIInfo "{64852A2067D666EA}" {
-     Name "Триггер потерь РФ"
-    }
-    m_bAutoRegister ALWAYS
+   RplComponent "{633E883E0C3A2235}" {
    }
-   RplComponent "{633E883FF447CD99}" {
+   Hierarchy "{633E883E0A5E7884}" {
    }
   }
-  coords 1233.332 31.632 6067.809
-  m_sFactionKey "RHS_AFRF"
-  m_iMinNumberOfAliveCharacters 5
-  {
-   PS_Objective RF_destroyed {
-    components {
-     RplComponent "{633E883E0C3A2235}" {
-     }
-     Hierarchy "{633E883E0A5E7884}" {
-     }
-    }
-    coords 2.204 0 4.331
-    m_sTitle "ВС РФ разгромленны "
-    m_iScore 100
-    m_sFactionKey "RHS_USAF"
-    m_bAdvanceWhenTriggered 1
-   }
-  }
- }
- US_losses {
-  components {
-   SCR_EditableEntityComponent "{64852A207DC3D3FF}" {
-    m_UIInfo SCR_EditableEntityUIInfo "{64852A207BEAB2B8}" {
-     Name "Триггер потерь США"
-    }
-    m_bAutoRegister ALWAYS
-   }
-   RplComponent "{633E883FF447CD99}" {
-   }
-  }
-  coords 1238.932 31.372 6072.852
+  coords 1235.536 31.632 6072.14
+  m_sTitle "ВС РФ разгромленны "
+  m_iScore 100
   m_sFactionKey "RHS_USAF"
-  m_iMinNumberOfAliveCharacters 2
-  {
-   PS_Objective US_destroyed {
-    components {
-     RplComponent "{633E883E0C3A2235}" {
-     }
-     Hierarchy "{633E883E0A5E7884}" {
-     }
-    }
-    coords 2.204 0 4.331
-    m_sTitle "ВС США разгромленны"
-    m_iScore 100
-    m_sFactionKey "RHS_AFRF"
-    m_bAdvanceWhenTriggered 1
+  m_bAdvanceWhenTriggered 1
+ }
+ US_destroyed {
+  components {
+   RplComponent "{633E883E0C3A2235}" {
+   }
+   Hierarchy "{633E883E0A5E7884}" {
    }
   }
+  coords 1241.136 31.372 6077.183
+  m_sTitle "ВС США разгромленны"
+  m_iScore 100
+  m_sFactionKey "RHS_AFRF"
+  m_bAdvanceWhenTriggered 1
  }
 }
 $grp TSG_ObserveFlag {

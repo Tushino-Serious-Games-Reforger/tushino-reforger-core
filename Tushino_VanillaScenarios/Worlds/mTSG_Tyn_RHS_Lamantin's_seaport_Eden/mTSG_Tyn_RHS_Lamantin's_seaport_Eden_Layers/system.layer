@@ -1,26 +1,67 @@
-SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
- coords 111.676 1 127.135
+SCR_AIWorld : "{01DC74137CFDDB6A}Prefabs/AI/SCR_AIWorld_Arland.et" {
+ coords 4622.355 85.074 6441.534
 }
-PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
- coords 113.126 1 124.397
+PerceptionManager PerceptionManager2 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 4660.566 85.074 6449.044
 }
-PS_GameModeCoop TSG_GameModeLobby1 : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_GameModeLobby.et" {
+PS_GameModeCoop TSG_GameModeLobby2 : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_GameModeLobby.et" {
  components {
-  SCR_InitWeatherComponent "{61B68227C35BFE9A}" {
-   m_sInitialStartingWeatherId "Clear"
-  }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 15
+   m_iStartingHours 13
+   m_iStartingMinutes 37
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{654E01C38F383067}" {
+     m_sWeatherPresetName "Clear"
+     m_iStartingHour 13
+     m_iStartingMinutes 37
+    }
+   }
    m_bRandomWeatherChanges 1
   }
  }
- coords 3208.354 0.983 3012.921
- m_eTestGameFlags SpawnAI
- m_iFreezeTime 120000
- {
-  TSG_MissionTime {
-   ID "633B6E4969D543B5"
-   m_iMissionTimeMinutes 55
+ coords 3430.003 85.074 4540.409
+ angleZ 0.895
+ m_bDisableVanillaGroupMenu 1
+ m_bDisablePlayablesStreaming 1
+ m_bFreezeTimeShootingForbiden 1
+}
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_bUseTestingMode 0
+   m_aLossLogics {
+    LossLogic "{655131A7A3F08DEC}" {
+     m_aLosses {
+      FactionLoss "{655131A7A42618E9}" {
+       m_sFactionKey "RHS_AFRF"
+      }
+     }
+     m_sObjectiveNames {
+      "RF_destroyed"
+     }
+     m_bAdvanceGameStage 1
+    }
+    LossLogic "{655450C5A782C706}" {
+     m_aLosses {
+      FactionLoss "{655450C5A5FE585C}" {
+       m_iCriticalLossCount 2
+       m_sFactionKey "RHS_USAF"
+      }
+     }
+     m_sObjectiveNames {
+      "US_destroyed"
+     }
+    }
+   }
   }
  }
+ coords 2518.566 87.954 5413.295
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 3300
+  }
+ }
+ coords 2520.129 86.69 5339.816
 }

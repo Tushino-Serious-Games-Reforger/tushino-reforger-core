@@ -6,6 +6,10 @@ $grp Vehicle : "{A61E5C16E9A2161A}Prefabs/Vehicles/Wheeled/K4386/K4386.et" {
      MultiSlotConfiguration "{62593DAA0629E159}" {
       NumSlots 20
      }
+     MultiSlotConfiguration "{5E86A8C9FA613274}" {
+     }
+     MultiSlotConfiguration "{5EB0D397B70EA57A}" {
+     }
      MultiSlotConfiguration "{64940DA14ACE9C01}" {
       SlotTemplate InventoryStorageSlot morphine {
        Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
@@ -17,10 +21,6 @@ $grp Vehicle : "{A61E5C16E9A2161A}Prefabs/Vehicles/Wheeled/K4386/K4386.et" {
        Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
       }
       NumSlots 10
-     }
-     MultiSlotConfiguration "{5E86A8C9FA613274}" {
-     }
-     MultiSlotConfiguration "{5EB0D397B70EA57A}" {
      }
      MultiSlotConfiguration "{64940DA1AF6A4AA8}" {
       SlotTemplate InventoryStorageSlot ak_magazine {
@@ -83,6 +83,7 @@ $grp Vehicle : "{A61E5C16E9A2161A}Prefabs/Vehicles/Wheeled/K4386/K4386.et" {
   angleX -7.624
   angleY -49.253
   angleZ -0.693
+  m_sAttachmentGroupName "A21"
  }
  K2 {
   components {
@@ -90,6 +91,10 @@ $grp Vehicle : "{A61E5C16E9A2161A}Prefabs/Vehicles/Wheeled/K4386/K4386.et" {
     MultiSlots {
      MultiSlotConfiguration "{62593DAA0629E159}" {
       NumSlots 20
+     }
+     MultiSlotConfiguration "{5E86A8C9FA613274}" {
+     }
+     MultiSlotConfiguration "{5EB0D397B70EA57A}" {
      }
      MultiSlotConfiguration "{64940DA14ACE9C01}" {
       SlotTemplate InventoryStorageSlot morphine {
@@ -102,10 +107,6 @@ $grp Vehicle : "{A61E5C16E9A2161A}Prefabs/Vehicles/Wheeled/K4386/K4386.et" {
        Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
       }
       NumSlots 10
-     }
-     MultiSlotConfiguration "{5E86A8C9FA613274}" {
-     }
-     MultiSlotConfiguration "{5EB0D397B70EA57A}" {
      }
      MultiSlotConfiguration "{64940DA1AF6A4AA8}" {
       SlotTemplate InventoryStorageSlot ak_magazine {
@@ -168,6 +169,7 @@ $grp Vehicle : "{A61E5C16E9A2161A}Prefabs/Vehicles/Wheeled/K4386/K4386.et" {
   angleX -5.617
   angleY -49.216
   angleZ 1.045
+  m_sAttachmentGroupName "A22"
  }
  K3 {
   components {
@@ -175,6 +177,10 @@ $grp Vehicle : "{A61E5C16E9A2161A}Prefabs/Vehicles/Wheeled/K4386/K4386.et" {
     MultiSlots {
      MultiSlotConfiguration "{62593DAA0629E159}" {
       NumSlots 20
+     }
+     MultiSlotConfiguration "{5E86A8C9FA613274}" {
+     }
+     MultiSlotConfiguration "{5EB0D397B70EA57A}" {
      }
      MultiSlotConfiguration "{64940DA14ACE9C01}" {
       SlotTemplate InventoryStorageSlot morphine {
@@ -187,10 +193,6 @@ $grp Vehicle : "{A61E5C16E9A2161A}Prefabs/Vehicles/Wheeled/K4386/K4386.et" {
        Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
       }
       NumSlots 10
-     }
-     MultiSlotConfiguration "{5E86A8C9FA613274}" {
-     }
-     MultiSlotConfiguration "{5EB0D397B70EA57A}" {
      }
      MultiSlotConfiguration "{64940DA1AF6A4AA8}" {
       SlotTemplate InventoryStorageSlot ak_magazine {
@@ -253,6 +255,7 @@ $grp Vehicle : "{A61E5C16E9A2161A}Prefabs/Vehicles/Wheeled/K4386/K4386.et" {
   angleX -5.131
   angleY -49.292
   angleZ -0.88
+  m_sAttachmentGroupName "A23"
  }
  K5 {
   components {
@@ -260,6 +263,10 @@ $grp Vehicle : "{A61E5C16E9A2161A}Prefabs/Vehicles/Wheeled/K4386/K4386.et" {
     MultiSlots {
      MultiSlotConfiguration "{62593DAA0629E159}" {
       NumSlots 20
+     }
+     MultiSlotConfiguration "{5E86A8C9FA613274}" {
+     }
+     MultiSlotConfiguration "{5EB0D397B70EA57A}" {
      }
      MultiSlotConfiguration "{64940DA14ACE9C01}" {
       SlotTemplate InventoryStorageSlot morphine {
@@ -272,10 +279,6 @@ $grp Vehicle : "{A61E5C16E9A2161A}Prefabs/Vehicles/Wheeled/K4386/K4386.et" {
        Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
       }
       NumSlots 10
-     }
-     MultiSlotConfiguration "{5E86A8C9FA613274}" {
-     }
-     MultiSlotConfiguration "{5EB0D397B70EA57A}" {
      }
      MultiSlotConfiguration "{64940DA1AF6A4AA8}" {
       SlotTemplate InventoryStorageSlot ak_magazine {
@@ -338,6 +341,7 @@ $grp Vehicle : "{A61E5C16E9A2161A}Prefabs/Vehicles/Wheeled/K4386/K4386.et" {
   angleX -0.62
   angleY -43.869
   angleZ -0.645
+  m_sAttachmentGroupName "A31"
  }
  K4 {
   components {
@@ -345,6 +349,10 @@ $grp Vehicle : "{A61E5C16E9A2161A}Prefabs/Vehicles/Wheeled/K4386/K4386.et" {
     MultiSlots {
      MultiSlotConfiguration "{62593DAA0629E159}" {
       NumSlots 20
+     }
+     MultiSlotConfiguration "{5E86A8C9FA613274}" {
+     }
+     MultiSlotConfiguration "{5EB0D397B70EA57A}" {
      }
      MultiSlotConfiguration "{64940DA14ACE9C01}" {
       SlotTemplate InventoryStorageSlot morphine {
@@ -357,10 +365,6 @@ $grp Vehicle : "{A61E5C16E9A2161A}Prefabs/Vehicles/Wheeled/K4386/K4386.et" {
        Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
       }
       NumSlots 10
-     }
-     MultiSlotConfiguration "{5E86A8C9FA613274}" {
-     }
-     MultiSlotConfiguration "{5EB0D397B70EA57A}" {
      }
      MultiSlotConfiguration "{64940DA1AF6A4AA8}" {
       SlotTemplate InventoryStorageSlot ak_magazine {
@@ -421,6 +425,7 @@ $grp Vehicle : "{A61E5C16E9A2161A}Prefabs/Vehicles/Wheeled/K4386/K4386.et" {
   }
   coords 2351.896 65.906 2792.606
   angleY -43.887
+  m_sAttachmentGroupName "A33"
  }
  K6 {
   components {
@@ -428,6 +433,10 @@ $grp Vehicle : "{A61E5C16E9A2161A}Prefabs/Vehicles/Wheeled/K4386/K4386.et" {
     MultiSlots {
      MultiSlotConfiguration "{62593DAA0629E159}" {
       NumSlots 20
+     }
+     MultiSlotConfiguration "{5E86A8C9FA613274}" {
+     }
+     MultiSlotConfiguration "{5EB0D397B70EA57A}" {
      }
      MultiSlotConfiguration "{64940DA14ACE9C01}" {
       SlotTemplate InventoryStorageSlot morphine {
@@ -440,10 +449,6 @@ $grp Vehicle : "{A61E5C16E9A2161A}Prefabs/Vehicles/Wheeled/K4386/K4386.et" {
        Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
       }
       NumSlots 10
-     }
-     MultiSlotConfiguration "{5E86A8C9FA613274}" {
-     }
-     MultiSlotConfiguration "{5EB0D397B70EA57A}" {
      }
      MultiSlotConfiguration "{64940DA1AF6A4AA8}" {
       SlotTemplate InventoryStorageSlot ak_magazine {
@@ -506,72 +511,92 @@ $grp Vehicle : "{A61E5C16E9A2161A}Prefabs/Vehicles/Wheeled/K4386/K4386.et" {
   angleX -0.646
   angleY -43.788
   angleZ 0.619
+  m_sAttachmentGroupName "A32"
  }
-}
-Vehicle K4_armed : "{AB5DE68E3E654FCA}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed.et" {
- components {
-  SCR_UniversalInventoryStorageComponent "{62593DAA0629B085}" {
-   MultiSlots {
-    MultiSlotConfiguration "{62593DAA0629E159}" {
-     NumSlots 20
-    }
-    MultiSlotConfiguration "{64940DA16E2D4F01}" {
-     SlotTemplate InventoryStorageSlot tourniquet {
-      Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+ K7 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{62593DAA0629B085}" {
+    MultiSlots {
+     MultiSlotConfiguration "{62593DAA0629E159}" {
+      NumSlots 20
      }
-     NumSlots 5
-    }
-    MultiSlotConfiguration "{64940DA16D4814BC}" {
-     SlotTemplate InventoryStorageSlot morphine {
-      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     MultiSlotConfiguration "{5E86A8C9FA613274}" {
      }
-     NumSlots 5
-    }
-    MultiSlotConfiguration "{5E86A8C9FA613274}" {
-    }
-    MultiSlotConfiguration "{5EB0D397B70EA57A}" {
-    }
-    MultiSlotConfiguration "{64940DA054BAAAFF}" {
-     SlotTemplate InventoryStorageSlot ak_magazine {
-      Prefab "{0FD71EAC637C1624}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer_camo.et"
+     MultiSlotConfiguration "{5EB0D397B70EA57A}" {
      }
-     NumSlots 20
-    }
-    MultiSlotConfiguration "{64940DA08DBF3C65}" {
-     SlotTemplate InventoryStorageSlot ak_tracer {
-      Prefab "{59015F7C36DE86C2}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer_camo.et"
+     MultiSlotConfiguration "{64940DA14ACE9C01}" {
+      SlotTemplate InventoryStorageSlot morphine {
+       Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      }
+      NumSlots 10
      }
-     NumSlots 10
-    }
-    MultiSlotConfiguration "{64940DA093D64EA0}" {
-     SlotTemplate InventoryStorageSlot svd_magazine {
-      Prefab "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
+     MultiSlotConfiguration "{64940DA14A7FF477}" {
+      SlotTemplate InventoryStorageSlot tourniquet {
+       Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+      }
+      NumSlots 10
      }
-     NumSlots 15
-    }
-    MultiSlotConfiguration "{64940DA0E49A01FD}" {
-     SlotTemplate InventoryStorageSlot rgd5 {
-      Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     MultiSlotConfiguration "{64940DA1AF6A4AA8}" {
+      SlotTemplate InventoryStorageSlot ak_magazine {
+       Prefab "{0FD71EAC637C1624}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer_camo.et"
+      }
+      NumSlots 20
      }
-     NumSlots 8
-    }
-    MultiSlotConfiguration "{64940DA0F1226B57}" {
-     SlotTemplate InventoryStorageSlot rdg2 {
-      Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     MultiSlotConfiguration "{64940DA1A66849E8}" {
+      SlotTemplate InventoryStorageSlot ak_tracer {
+       Prefab "{59015F7C36DE86C2}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Tracer_camo.et"
+      }
+      NumSlots 10
      }
-     NumSlots 8
-    }
-    MultiSlotConfiguration "{64940DA0C8EBDC62}" {
-     SlotTemplate InventoryStorageSlot TAF_logo {
-      Prefab "{F91554AC34AE97C0}Prefabs/Items/Equipment/Patches/TAF_logo.et"
+     MultiSlotConfiguration "{64940DA18C05B507}" {
+      SlotTemplate InventoryStorageSlot pkm_box {
+       Prefab "{0110F6D92703114A}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13_4Ball_1Tracer.et"
+      }
+      NumSlots 5
      }
-     NumSlots 3
+     MultiSlotConfiguration "{64940DA19982AEA7}" {
+      SlotTemplate InventoryStorageSlot pkm_tracer {
+       Prefab "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{64940DA1E92FA1CC}" {
+      SlotTemplate InventoryStorageSlot GP {
+       Prefab "{FDACA6E5AEC36BD0}Prefabs/Weapons/Magazines/GM94/Magazine_43x30mm_GM94_4rnd_VGM93100.et"
+      }
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{64940DBE3E532E88}" {
+      SlotTemplate InventoryStorageSlot GP2 {
+       Prefab "{D3CCDE5C34549F1A}Prefabs/Weapons/Magazines/GM94/Magazine_43x30mm_GM94_4rnd_VGM93900.et"
+      }
+      NumSlots 3
+     }
+     MultiSlotConfiguration "{64940DBE06F2B490}" {
+      SlotTemplate InventoryStorageSlot rgd5 {
+       Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+      }
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{64940DBE16B1F778}" {
+      SlotTemplate InventoryStorageSlot rdg2 {
+       Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+      }
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{64940DBE6C8A3B36}" {
+      SlotTemplate InventoryStorageSlot TAF_logo {
+       Prefab "{F91554AC34AE97C0}Prefabs/Items/Equipment/Patches/TAF_logo.et"
+      }
+      NumSlots 7
+     }
     }
    }
   }
+  coords 2315.26 69.821 2021.122
+  angleX -5.037
+  angleY -49.236
+  angleZ 0.373
+  m_sAttachmentGroupName "A11"
  }
- coords 2316.252 69.913 2020.641
- angleX -5.023
- angleY -51.008
- angleZ 0.528
 }

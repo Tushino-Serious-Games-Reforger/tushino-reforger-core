@@ -9,6 +9,7 @@ $grp Vehicle : "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et" {
   angleX 0.881
   angleY 179.076
   angleZ -0.909
+  m_bEnableMoveOnFreeze 1
  }
  M1 {
   components {
@@ -20,5 +21,6 @@ $grp Vehicle : "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et" {
   angleX 0.881
   angleY 179.076
   angleZ -0.909
+  m_bEnableMoveOnFreeze 1
  }
 }

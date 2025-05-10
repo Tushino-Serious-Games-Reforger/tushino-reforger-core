@@ -1,63 +1,29 @@
-$grp TSG_FactionLossesConstraint {
- RF_losses {
+$grp PS_Objective {
+ RF_destroyed {
   components {
-   SCR_EditableEntityComponent "{64852A206A789F0E}" {
-    m_UIInfo SCR_EditableEntityUIInfo "{64852A2067D666EA}" {
-     Name "Триггер потерь РФ"
-    }
-    m_bAutoRegister ALWAYS
+   RplComponent "{633E883E0C3A2235}" {
    }
-   RplComponent "{633E883FF447CD99}" {
+   Hierarchy "{633E883E0A5E7884}" {
    }
   }
-  coords 2432.45 232.22 12233.38
-  m_sFactionKey "RHS_AFRF"
-  m_iMinNumberOfAliveCharacters 3
-  {
-   PS_Objective RF_destroyed {
-    components {
-     RplComponent "{633E883E0C3A2235}" {
-     }
-     Hierarchy "{633E883E0A5E7884}" {
-     }
-    }
-    coords 2.204 0 4.331
-    m_sTitle "ВС РФ разгромленны "
-    m_iScore 100
-    m_sFactionKey "Ses_CDF"
-    m_bAdvanceWhenTriggered 1
-   }
-  }
- }
- CDF_losses {
-  components {
-   SCR_EditableEntityComponent "{64852A207DC3D3FF}" {
-    m_UIInfo SCR_EditableEntityUIInfo "{64852A207BEAB2B8}" {
-     Name "Триггер потерь ЧСО"
-    }
-    m_bAutoRegister ALWAYS
-   }
-   RplComponent "{633E883FF447CD99}" {
-   }
-  }
-  coords 2438.05 231.96 12238.423
+  coords 2434.654 232.22 12237.711
+  m_sTitle "ВС РФ разгромленны "
+  m_iScore 100
   m_sFactionKey "Ses_CDF"
-  m_iMinNumberOfAliveCharacters 5
-  {
-   PS_Objective US_destroyed {
-    components {
-     RplComponent "{633E883E0C3A2235}" {
-     }
-     Hierarchy "{633E883E0A5E7884}" {
-     }
-    }
-    coords 2.204 0 4.331
-    m_sTitle "ЧСО разгромленны"
-    m_iScore 100
-    m_sFactionKey "RHS_AFRF"
-    m_bAdvanceWhenTriggered 1
+  m_bAdvanceWhenTriggered 1
+ }
+ US_destroyed {
+  components {
+   RplComponent "{633E883E0C3A2235}" {
+   }
+   Hierarchy "{633E883E0A5E7884}" {
    }
   }
+  coords 2440.254 231.96 12242.754
+  m_sTitle "ЧСО разгромленны"
+  m_iScore 100
+  m_sFactionKey "RHS_AFRF"
+  m_bAdvanceWhenTriggered 1
  }
 }
 $grp TSG_ObserveFlag {
