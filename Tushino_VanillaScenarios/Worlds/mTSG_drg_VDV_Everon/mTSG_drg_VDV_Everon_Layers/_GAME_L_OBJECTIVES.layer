@@ -1,0 +1,29 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ FLAG_1_USSR {
+  m_sTitle "Диспетчерская вышка"
+  m_sFactionKey "USSR"
+ }
+ FLAG_1_FIA {
+  m_sTitle "Диспетчерская вышка"
+  m_iScore 50
+ }
+ FLAG_2_FIA {
+  m_sTitle "Склад под контролем"
+  m_iOrder 1
+  m_iScore 50
+ }
+ FLAG_2_USSR {
+  m_sTitle "Склад под контролем"
+  m_iOrder 1
+  m_sFactionKey "USSR"
+ }
+ DESTROY_ENEMY_FIA {
+  coords 0 0 0
+  m_sTitle "Разгромить противника"
+ }
+ DESTROY_ENEMY_USSR {
+  coords 0 0 0
+  m_sTitle "Разгромить противника"
+  m_sFactionKey "USSR"
+ }
+}

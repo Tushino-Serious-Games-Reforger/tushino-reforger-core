@@ -1,0 +1,33 @@
+GenericEntity : "{8F17290FBF410605}Prefabs/Props/Drongo/drg_AmmoBox_82mm_mortar_10rnd_HE.et" {
+ ID "F0DBA538AC2A0552"
+ coords 10517.068 285.111 6501.896
+ angleY 83.406
+ {
+  $grp GenericEntity : "{8F17290FBF410605}Prefabs/Props/Drongo/drg_AmmoBox_82mm_mortar_10rnd_HE.et" {
+   {
+    ID "6558BB8698E02A9B"
+    coords 0 0.194 0
+    angleX 0.035
+    angleZ 0.046
+   }
+   {
+    ID "6558BB8698E02A9C"
+    coords 0 0.097 0
+    angleX 0.018
+    angleZ 0.023
+   }
+   {
+    ID "6558BB8698E05608"
+    coords 0 0.389 0
+    angleX 0.07
+    angleZ 0.092
+   }
+   {
+    ID "6558BB8698E05609"
+    coords 0 0.292 0
+    angleX 0.052
+    angleZ 0.069
+   }
+  }
+ }
+}

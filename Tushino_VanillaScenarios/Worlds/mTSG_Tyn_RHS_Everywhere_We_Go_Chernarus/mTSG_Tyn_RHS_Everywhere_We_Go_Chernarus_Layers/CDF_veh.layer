@@ -12,23 +12,23 @@ $grp Vehicle : "{52441D784D145D52}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_CDF.e
      MultiSlotConfiguration "{5A60D38E3C46CBE8}" {
       NumSlots 5
      }
-     MultiSlotConfiguration "{5A60D38E3D89BD31}" {
-      NumSlots 8
-     }
      MultiSlotConfiguration "{5A60D38E3D91D053}" {
       SlotTemplate InventoryStorageSlot AKammunition {
        Prefab "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et"
       }
       NumSlots 15
      }
-     MultiSlotConfiguration "{5A60D38E3DCB490D}" {
-      NumSlots 10
-     }
      MultiSlotConfiguration "{60E55E1361A665B6}" {
       NumSlots 0
      }
      MultiSlotConfiguration "{60E55E1361A665B4}" {
       NumSlots 0
+     }
+     MultiSlotConfiguration "{5A60D38E3D89BD31}" {
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{5A60D38E3DCB490D}" {
+      NumSlots 10
      }
      MultiSlotConfiguration "{64E73A5B81031E14}" {
       SlotTemplate InventoryStorageSlot Magazine_tracer {
@@ -64,6 +64,7 @@ $grp Vehicle : "{52441D784D145D52}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_CDF.e
   angleX -2.682
   angleY 92.305
   angleZ -0.108
+  m_sAttachmentGroupName "CDF4"
  }
  BTR70_Ses_CDF2 {
   components {
@@ -85,23 +86,23 @@ $grp Vehicle : "{52441D784D145D52}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_CDF.e
      MultiSlotConfiguration "{5A60D38E3C46CBE8}" {
       NumSlots 5
      }
-     MultiSlotConfiguration "{5A60D38E3D89BD31}" {
-      NumSlots 8
-     }
      MultiSlotConfiguration "{5A60D38E3D91D053}" {
       SlotTemplate InventoryStorageSlot AKammunition {
        Prefab "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et"
       }
       NumSlots 15
      }
-     MultiSlotConfiguration "{5A60D38E3DCB490D}" {
-      NumSlots 10
-     }
      MultiSlotConfiguration "{60E55E1361A665B6}" {
       NumSlots 0
      }
      MultiSlotConfiguration "{60E55E1361A665B4}" {
       NumSlots 0
+     }
+     MultiSlotConfiguration "{5A60D38E3D89BD31}" {
+      NumSlots 8
+     }
+     MultiSlotConfiguration "{5A60D38E3DCB490D}" {
+      NumSlots 10
      }
      MultiSlotConfiguration "{64E73A5B81031E14}" {
       SlotTemplate InventoryStorageSlot Magazine_tracer {
@@ -137,6 +138,7 @@ $grp Vehicle : "{52441D784D145D52}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_CDF.e
   angleX -2.828
   angleY 70.358
   angleZ 0.06
+  m_sAttachmentGroupName "CDF5"
  }
 }
 GenericEntity : "{B728C4AE0E6EB1E8}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Equipment_USSR.et" {

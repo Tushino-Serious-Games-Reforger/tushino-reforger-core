@@ -1,0 +1,23 @@
+GenericEntity : "{14B2D417839BF8A3}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_USSR.et" {
+ components {
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_aObjectiveNames {
+    "US_1" "USSR_1"
+   }
+   m_aFlagData {
+    PS_FlagData "{651121348AC44787}" {
+     m_sFactionKey "US"
+     m_iCaptureCounter 1
+    }
+    PS_FlagData "{651121348AEB2230}" {
+     m_sFactionKey "USSR"
+    }
+   }
+   m_sFactionKey "USSR"
+   m_bUseAdvanceGameState 1
+   m_sUseNotification 1
+   m_sNotificationText "Логистический порт захвачен фракцией %1"
+  }
+ }
+ coords 3260.085 4.772 2923.715
+}

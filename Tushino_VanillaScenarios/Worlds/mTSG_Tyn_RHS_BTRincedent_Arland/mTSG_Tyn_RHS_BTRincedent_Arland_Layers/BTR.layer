@@ -1,12 +1,5 @@
 Vehicle BTR1 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
  components {
-  BaseVehicleNodeComponent "{20FB66C5B2237133}" {
-   components {
-    SCR_CarControllerComponent "{20FB66C5BC92275B}" {
-     EngineStartupChance 0
-    }
-   }
-  }
   SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
    MultiSlots {
     MultiSlotConfiguration "{5A60D38E3CF4827A}" {
@@ -68,9 +61,18 @@ Vehicle BTR1 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
     }
    }
   }
+  BaseVehicleNodeComponent "{20FB66C5B2237133}" {
+   components {
+    SCR_CarControllerComponent "{20FB66C5BC92275B}" {
+     EngineStartupChance 0
+    }
+   }
+  }
  }
  coords 2909.825 34.653 3114.61
  angleX 5.427
  angleY -10.944
  angleZ -0.14
+ m_sAttachmentGroupName "BTR_Group"
+ m_bEnableMoveOnFreeze 1
 }

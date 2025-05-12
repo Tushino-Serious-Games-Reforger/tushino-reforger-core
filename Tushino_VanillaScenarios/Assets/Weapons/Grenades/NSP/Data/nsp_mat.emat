@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{901CCA85987068B8}Assets/Weapons/Grenades/NSP/Data/nsp_BCR.edds"
+ NMOMap "{A8C4711741073A26}Assets/Weapons/Grenades/NSP/Data/nsp_NMO.edds"
+}

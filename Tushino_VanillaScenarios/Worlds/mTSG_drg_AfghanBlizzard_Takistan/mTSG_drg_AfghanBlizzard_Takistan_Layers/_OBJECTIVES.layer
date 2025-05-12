@@ -1,0 +1,37 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ USSR_1 {
+  coords 1609.265 14.084 1574.584
+  m_sTitle "Военная база захвачена"
+  m_iScore 50
+  m_sFactionKey "USSR"
+ }
+ FIA_1 {
+  coords 8494.292 257.691 2403.939
+  m_sTitle "Военная база под контролем"
+  m_iScore 50
+ }
+ USSR_2 {
+  coords 1609.265 14.084 1574.584
+  m_sTitle "Военный городок захвачен"
+  m_iOrder 1
+  m_iScore 50
+  m_sFactionKey "USSR"
+ }
+ FIA_2 {
+  coords 8494.292 257.691 2403.939
+  m_sTitle "Военный городок под контролем"
+  m_iOrder 1
+  m_iScore 50
+ }
+ FIA_KILL_USSR {
+  coords 8494.292 257.691 2403.939
+  m_sTitle "Погорёвка под контролем"
+  m_iOrder 1
+ }
+ USSR_KILL_FIA {
+  coords 1609.265 14.084 1574.584
+  m_sTitle "Погорёвка под контролем"
+  m_iOrder 1
+  m_sFactionKey "USSR"
+ }
+}

@@ -18,7 +18,7 @@ SCR_ChimeraCharacter : "{43CED484D075F274}Prefabs/Characters/Factions/OPFOR/USSR
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{EB404DC9E1BCB750}Prefabs/Weapons/Rifles/AK74/Rifle_AK74N_1P29.et"
+   WeaponTemplate "{1B332B99C72DAF8B}Prefabs/Weapons/Rifles/AK74/Variants/Rifle_AK74N_PBS4_1P29.et"
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {

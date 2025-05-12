@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{4438AEFF45A8CE9E}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Rifleman.et" {
+SCR_ChimeraCharacter : "{4438AEFF45A8CE9E}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Rifleman.et" {
  ID "520EC961A090BBD5"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -9,6 +9,15 @@ SCR_ChimeraCharacter : "{4438AEFF45A8CE9E}Prefabs/Characters/drongo/BLUFOR/US_Ar
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{D2B48DEBEF38D7D7}Prefabs/Weapons/MachineGuns/M249/MG_M249.et"
   }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 1
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{E30EF7A856618FEC}Prefabs/Characters/Heads/Head_Black_02_Camo.et"
+     Body "{6253161EEAB88EAB}Prefabs/Characters/Basebody/CharacterBasebody_Black_02.et"
+    }
+   }
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Vest {
@@ -18,11 +27,6 @@ SCR_ChimeraCharacter : "{4438AEFF45A8CE9E}Prefabs/Characters/drongo/BLUFOR/US_Ar
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{61B75C981AA2A498}" {
-     PrefabsToSpawn + {
-      "{BA2D0EE170E44DC7}Prefabs/Items/drongo/Equipment/Radios/Radio_ANPRC68_rprv.et"
-     }
-    }
     ItemsInitConfigurationItem "{61B87CCDC52A0DBF}" {
      TargetStorage "Prefabs/Items/Equipment/Accessories/Pouch_ALICE_200rnd_M249/Pouch_ALICE_200rnd_M249.et"
      PrefabsToSpawn {

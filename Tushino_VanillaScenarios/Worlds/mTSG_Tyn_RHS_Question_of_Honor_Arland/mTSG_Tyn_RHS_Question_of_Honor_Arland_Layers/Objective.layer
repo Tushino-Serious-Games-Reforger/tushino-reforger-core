@@ -1,3 +1,16 @@
+PS_Objective RF_destroyed {
+ components {
+  RplComponent "{633E883E0C3A2235}" {
+  }
+  Hierarchy "{633E883E0A5E7884}" {
+  }
+ }
+ coords 1396.381 36.043 2349.628
+ m_sTitle "Оперативники СОБР разгромленны"
+ m_iScore 100
+ m_sFactionKey "RHS_ION"
+ m_bAdvanceWhenTriggered 1
+}
 PolylineShapeEntity ION_border {
  components {
   PS_PolyZone "{649438852EA03A54}" {
@@ -138,34 +151,6 @@ $grp TSG_EntityConstraint {
      m_bAdvanceWhenTriggered 1
     }
    }
-  }
- }
-}
-TSG_FactionLossesConstraint RF_losses {
- components {
-  SCR_EditableEntityComponent "{64852A21FF107A23}" {
-   m_UIInfo SCR_EditableEntityUIInfo "{64852A21F99D0B9F}" {
-    Name "Триггер потерь РФ"
-   }
-   m_bAutoRegister ALWAYS
-  }
-  RplComponent "{633E883FF447CD99}" {
-  }
- }
- coords 1396.381 36.043 2349.628
- m_sFactionKey "RHS_AFRF"
- {
-  PS_Objective RF_destroyed {
-   components {
-    RplComponent "{633E883E0C3A2235}" {
-    }
-    Hierarchy "{633E883E0A5E7884}" {
-    }
-   }
-   m_sTitle "Оперативники СОБР разгромленны"
-   m_iScore 100
-   m_sFactionKey "RHS_ION"
-   m_bAdvanceWhenTriggered 1
   }
  }
 }

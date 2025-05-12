@@ -63,6 +63,7 @@ Vehicle UAZ1 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
  angleX -1.998
  angleY -113.349
  angleZ -0.112
+ m_sAttachmentGroupName "A11"
 }
 $grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" {
  BTR70_AFRF1 {
@@ -141,6 +142,7 @@ $grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" 
   angleX -3.603
   angleY -116.8
   angleZ -1.184
+  m_sAttachmentGroupName "A24"
  }
  BTR70_AFRF2 {
   components {
@@ -218,6 +220,7 @@ $grp Vehicle : "{447CFE8D73F95C3E}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF.et" 
   angleX 7.573
   angleY -164.672
   angleZ -0.691
+  m_sAttachmentGroupName "B14"
  }
 }
 $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
@@ -322,6 +325,7 @@ $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
   angleX -2
   angleY -115.085
   angleZ -0.052
+  m_sAttachmentGroupName "A22"
  }
  Ural4320_transport_covered2 {
   components {
@@ -424,6 +428,7 @@ $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
   angleX -3.942
   angleY -115.014
   angleZ -2.103
+  m_sAttachmentGroupName "A23"
  }
  Ural4320_transport_covered3 {
   components {
@@ -526,6 +531,7 @@ $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
   angleX 6.488
   angleY -162.86
   angleZ 0.135
+  m_sAttachmentGroupName "B13"
  }
  Ural4320_transport_covered4 {
   components {
@@ -628,5 +634,6 @@ $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
   angleX 8.429
   angleY -162.869
   angleZ -0.191
+  m_sAttachmentGroupName "B12"
  }
 }

@@ -13,4 +13,5 @@ PS_GameModeCoop : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  m_bReserveSlots 1
  m_bDisableVanillaGroupMenu 1
  m_bFriendliesSpectatorOnly 1
+ m_bFreezeTimeShootingForbiden 1
 }
