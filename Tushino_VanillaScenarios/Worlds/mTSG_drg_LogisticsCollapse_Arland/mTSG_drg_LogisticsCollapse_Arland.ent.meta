@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{B6E0D0E167F9BC7F}Worlds/PvP_VDV_Everon/PvP_VDV_Everon.ent"
+ Name "{5FA9B2C9817CC2FF}Worlds/mTSG_drg_LogisticsCollapse_Arland/mTSG_drg_LogisticsCollapse_Arland.ent"
  Configurations {
   ENTResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   ENTResourceClass PS5 : PC {
   }
   ENTResourceClass HEADLESS : PC {
+  }
+  ENTResourceClass Xbox : PC {
   }
  }
 }

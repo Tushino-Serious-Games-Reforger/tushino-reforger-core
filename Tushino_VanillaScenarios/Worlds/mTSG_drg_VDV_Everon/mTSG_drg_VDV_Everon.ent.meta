@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{3A6EBE515BDF1BAF}Worlds/PvP_RedStream_Barzan/PvP_RedStream_Barzan.ent"
+ Name "{1DE9D1568C8BB47D}Worlds/mTSG_drg_VDV_Everon/mTSG_drg_VDV_Everon.ent"
  Configurations {
   ENTResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   ENTResourceClass PS5 : PC {
   }
   ENTResourceClass HEADLESS : PC {
+  }
+  ENTResourceClass Xbox : PC {
   }
  }
 }
