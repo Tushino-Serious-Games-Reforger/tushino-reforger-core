@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B6E0D0E167F9BC7F}Worlds/PvP_VDV_Everon/PvP_VDV_Everon.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

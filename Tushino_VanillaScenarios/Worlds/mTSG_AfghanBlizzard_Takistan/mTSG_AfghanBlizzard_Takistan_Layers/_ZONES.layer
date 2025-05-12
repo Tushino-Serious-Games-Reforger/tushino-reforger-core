@@ -1,0 +1,69 @@
+PolylineShapeEntity {
+ components {
+  PS_PolyZone "{64C89A5155B6A658}" {
+   m_mPolygonTexture "{685110049EC3CE32}UI/layouts/Textures/Grid2b.edds"
+   m_cPolygonColor 0.502 0 0 1
+   m_mPolygonTextureBorder ""
+   m_cPolygonBorderColor 1 1 1 0
+   m_aVisibleForFactions {
+    "FIA" "USSR" ""
+   }
+  }
+ }
+ coords 5683.145 114.952 9280.912
+ Points {
+  ShapePoint "{64C89A509B898C80}" {
+   Position 82.75 21.763 235.071
+  }
+  ShapePoint "{654F3B2D1A381A5F}" {
+   Position -888.831 159.392 -835.616
+  }
+  ShapePoint "{654F3B2D1B44D8B7}" {
+   Position -1887.272 -28.997 945.432
+  }
+  ShapePoint "{654F3B2D63913CE4}" {
+   Position -2400.516 -4.915 2368.611
+  }
+  ShapePoint "{654F3B2D63C2F212}" {
+   Position -2407.874 0 4099.697
+  }
+  ShapePoint "{654F3B2D60BBA8A0}" {
+   Position 1401.226 0 4488.975
+  }
+  ShapePoint "{654F3B2D61305210}" {
+   Position 2380.193 0 4303.944
+  }
+  ShapePoint "{654F3B2D6188977F}" {
+   Position 3355.477 104.568 1482.547
+  }
+  ShapePoint "{654F3B2D6615EA82}" {
+   Position 2250.528 36.603 774.902
+  }
+  ShapePoint "{654F3B2D667C51D1}" {
+   Position 1081.581 53.116 136.887
+  }
+ }
+ IsClosed 1
+ {
+  PS_PolyZoneTrigger {
+   components {
+    Hierarchy "{614548BDF998E12B}" {
+    }
+   }
+   TriggerShapeType Polyline
+   SphereRadius 5000000
+   "Polyline Height" 1000
+   ShapeColor 0.251 0 0.502 1
+   TriggerActivationType "All changes"
+   PeriodicQueries 1
+   UpdatePeriod 1
+   ClassesFilter {
+    "SCR_ChimeraCharacter"
+   }
+   m_polyZoneEffect PS_PolyZoneEffectRestricted "{6146D719824FE119}" {
+    m_fKillTime 40
+   }
+   m_sFactionKey "FIA"
+  }
+ }
+}

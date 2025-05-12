@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{749CC8EDA102C70E}Prefabs/Characters/Drongo/BLUFOR/US_Army/Dev/drg_Character_US_Unarmed.et" {
+SCR_ChimeraCharacter : "{749CC8EDA102C70E}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Unarmed.et" {
  ID "520EC961A090BBD5"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -22,7 +22,7 @@ SCR_ChimeraCharacter : "{749CC8EDA102C70E}Prefabs/Characters/Drongo/BLUFOR/US_Ar
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{61B75C986066B4C1}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_suspenders_2.et"
+     TargetStorage "Vest/Vest_ALICE_rifleman.et"
     }
    }
   }

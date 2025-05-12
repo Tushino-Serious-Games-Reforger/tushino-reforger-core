@@ -1,0 +1,56 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ "_1_RULES" {
+  m_sTitle "#PS-Description_HeaderRules"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
+  m_sTextData "ОБЩИЕ ПРАВИЛА "\
+  "— Всем запрещено надевать форму, головные уборы, разгрузки, бронежилеты противника (рюкзаки можно) "\
+  "— Количество радиостанций ограничено до 2-3 шт. в отделении. "\
+  "— Запрещено любым способом дюпать ресурсы доступные изначально."\
+  ""\
+  "ПРАВИЛА СССР"\
+  "— Гарнизону порта, запрещено покидать позиции. (Пересекать красную линию.)"\
+  ""\
+  "ПРАВИЛА США"\
+  "— Нам запрещено попадать в подконтрольную СССР территорию (Красная штрихованная зона)"\
+  ""\
+  "СПОСОБЫ ПОБЕДЫ ДЛЯ СССР"\
+  "Для победы необходимо выполнить следующие задачи:"\
+  "— Нанести серьёзные потери противнику."\
+  "— Удержать логистический узел в течении миссии"\
+  ""\
+  "СПОСОБЫ ПОБЕДЫ ДЛЯ США"\
+  "— Нанести серьёзные потери противнику."\
+  "— Захватить логистический узел в течении миссии"\
+  ""\
+  "* Дюп — игровой эксплойт, позволяющий нечестным способом дублировать предметы или ресурсы за счёт багов и недоработок в механике игры (от англ. duplication)."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 1
+ }
+ "_2_USSR" {
+  m_sTitle "#PS-Description_HeaderUSSR"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
+  m_sTextData "Нам нужно удержать логистический центр под нашим контролем."
+  m_aVisibleForFactions {
+   "USSR"
+  }
+  m_iOrder 2
+ }
+ "_2_USA" {
+  m_sTitle "#PS-Description_HeaderUS"
+  m_sTextData "Нам необходимо захватить логистический узел СССР."\
+  ""\
+  "Обратите внимнаие, позиции противника, сильно укреплены. "
+  m_aVisibleForFactions {
+   "US"
+  }
+  m_iOrder 2
+ }
+ "_0_ABOUT" {
+  m_sTitle "#PS-Description_HeaderAboutMission"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
+  m_sTextData "Бой за логитический узел СССР в порту Борегар."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+}

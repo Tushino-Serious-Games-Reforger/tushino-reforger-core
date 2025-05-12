@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3A6EBE515BDF1BAF}Worlds/PvP_RedStream_Barzan/PvP_RedStream_Barzan.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

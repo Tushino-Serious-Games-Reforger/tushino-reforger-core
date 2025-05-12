@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5F2887A57B707C4D}Worlds/PvP_LogisticsCollapse_Arland/PvP_LogisticsCollapse_Arland.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{516B6D08CE76004B}Prefabs/Characters/Drongo/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et" {
+SCR_ChimeraCharacter : "{516B6D08CE76004B}Prefabs/Characters/Factions/OPFOR/USSR_Army/drg_Character_USSR_Rifleman.et" {
  ID "520EC961A090BE1E"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -26,21 +26,22 @@ SCR_ChimeraCharacter : "{516B6D08CE76004B}Prefabs/Characters/Drongo/OPFOR/USSR_A
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{61B543E7DB56B026}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Jacket_M88_rolledup.et"
+     TargetStorage "Vest/Vest_SovietHarness_MG.et"
     }
     ItemsInitConfigurationItem "{61B543E4F8901B0E}" {
+     TargetStorage "Jacket/Jacket_M88_base.et"
      PrefabsToSpawn {
-      "{92B819C350698359}Prefabs/Items/Drongo/Equipment/Radios/Radio_R148_rprv.et"
+      "{92B819C350698359}Prefabs/Items/Equipment/Radios/Radio_R148_rprv.et"
      }
     }
     ItemsInitConfigurationItem "{61B543E550602935}" {
-     TargetStorage "Prefabs/Items/Equipment/Accessories/Pouch_Soviet_100rnd_PKM/Pouch_Soviet_100rnd_PKM.et"
+     TargetStorage "Vest/Vest_SovietHarness_MG.et/GrenadePouch/Pouch_Soviet_100rnd_PKM.et"
      PrefabsToSpawn {
       "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{61B543E55260DECA}" {
-     TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
+     TargetStorage "Back/Backpack_Kolobok.et"
      PrefabsToSpawn {
       "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
      }
