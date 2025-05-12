@@ -1,0 +1,50 @@
+$grp GenericEntity : "{1112756E8A13445B}Prefabs/Props/Industrial/Pallets/Pallet_01_Pile.et" {
+ {
+  coords 4922.71 41.636 11781.767
+  angleX -3.028
+  angleY 92.601
+  angleZ 0.479
+ }
+ {
+  coords 4923.033 41.606 11780.622
+  angleX 0.465
+  angleY 2.874
+  angleZ 3.03
+ }
+ {
+  coords 4922.163 41.653 11780.664
+  angleX 0.447
+  angleY 2.873
+  angleZ 3.381
+ }
+}
+$grp GenericEntity : "{795552B887CD50E7}Prefabs/Props/Industrial/ConcretePanel_01_stack.et" {
+ {
+  coords 4924.371 41.549 11781.827
+  angleX 3
+  angleY -90.261
+  angleZ -0.629
+ }
+ {
+  coords 4678.854 30.265 11153.606
+  angleX 0.892
+  angleY -90.228
+  angleZ -0.899
+ }
+ {
+  coords 4681.512 27.632 11150.624
+  angleX 0.025
+  angleY -1.62
+  angleZ 0.895
+ }
+ {
+  coords 4648.487 27.975 11147.712
+  angleX -0.484
+  angleY 87.87
+  angleZ -0.583
+ }
+ {
+  coords 4646.375 27.843 11147.58
+  angleY 87.87
+ }
+}

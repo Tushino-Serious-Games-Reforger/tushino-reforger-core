@@ -1,0 +1,168 @@
+$grp GenericEntity : "{0C923757B8B8306B}Prefabs/Compositions/Misc/FreeRoamBuilding/BarbedTapeTriple_S_USSR_01.et" {
+ {
+  coords 3363.49 1.759 2880.704
+  angleX -0.041
+  angleY 55.821
+  angleZ -0.007
+ }
+ {
+  coords 3315.495 1.821 2848.024
+  angleX -0.197
+  angleY 53.959
+  angleZ 1.25
+ }
+ {
+  coords 3358.679 1.581 2877.437
+  angleX -1.156
+  angleY 55.773
+  angleZ 3.019
+ }
+ {
+  coords 3338.255 1.683 2863.568
+  angleX -1.156
+  angleY 55.773
+  angleZ 3.019
+ }
+ {
+  coords 3335.687 1.809 2861.824
+  angleX -1.349
+  angleY 55.738
+  angleZ 4.265
+ }
+ {
+  coords 3332.817 1.912 2859.875
+  angleX -0.041
+  angleY 55.821
+  angleZ -0.007
+ }
+ {
+  coords 3340.989 1.695 2865.425
+  angleX -0.238
+  angleY 55.821
+  angleZ 1.243
+ }
+ {
+  coords 3348.306 1.633 2870.393
+  angleX -1.156
+  angleY 55.773
+  angleZ 3.019
+ }
+ {
+  coords 3345.738 1.759 2868.649
+  angleX -1.349
+  angleY 55.738
+  angleZ 4.265
+ }
+ {
+  coords 3373.287 1.71 2887.356
+  angleX -0.041
+  angleY 55.821
+  angleZ -0.007
+ }
+ {
+  coords 3381.459 1.493 2892.906
+  angleX -0.238
+  angleY 55.821
+  angleZ 1.243
+ }
+ {
+  coords 3331.517 1.742 2858.993
+  angleX -0.238
+  angleY 55.821
+  angleZ 1.243
+ }
+ {
+  coords 3312.823 1.807 2846.079
+  angleX -1.115
+  angleY 53.91
+  angleZ 3.026
+ }
+ {
+  coords 3342.868 1.862 2866.7
+  angleX -0.041
+  angleY 55.821
+  angleZ -0.007
+ }
+ {
+  coords 3351.04 1.645 2872.25
+  angleX -0.238
+  angleY 55.821
+  angleZ 1.243
+ }
+ {
+  coords 3310.313 1.931 2844.252
+  angleX -1.309
+  angleY 53.876
+  angleZ 4.272
+ }
+ {
+  coords 3366.36 1.656 2882.653
+  angleX -1.349
+  angleY 55.738
+  angleZ 4.265
+ }
+ {
+  coords 3376.157 1.607 2889.306
+  angleX -1.349
+  angleY 55.738
+  angleZ 4.265
+ }
+ {
+  coords 3356.111 1.707 2875.693
+  angleX -1.349
+  angleY 55.738
+  angleZ 4.265
+ }
+ {
+  coords 3368.928 1.53 2884.397
+  angleX -1.156
+  angleY 55.773
+  angleZ 3.019
+ }
+ {
+  coords 3361.413 1.593 2879.294
+  angleX -0.238
+  angleY 55.821
+  angleZ 1.243
+ }
+ {
+  coords 3353.241 1.81 2873.744
+  angleX -0.041
+  angleY 55.821
+  angleZ -0.007
+ }
+ {
+  coords 3323.345 1.959 2853.443
+  angleX -0.041
+  angleY 55.821
+  angleZ -0.007
+ }
+ {
+  coords 3328.783 1.73 2857.136
+  angleX -1.156
+  angleY 55.773
+  angleZ 3.019
+ }
+ {
+  coords 3326.215 1.856 2855.392
+  angleX -1.349
+  angleY 55.738
+  angleZ 4.265
+ }
+ {
+  coords 3371.662 1.542 2886.254
+  angleX -0.238
+  angleY 55.821
+  angleZ 1.243
+ }
+ {
+  coords 3378.725 1.481 2891.05
+  angleX -1.156
+  angleY 55.773
+  angleZ 3.019
+ }
+ {
+  coords 3307.508 2.031 2842.211
+  angleY 53.959
+ }
+}

@@ -17,6 +17,9 @@ SCR_ChimeraCharacter : "{B6FE3479F0ED092C}Prefabs/Characters/Factions/OPFOR/USSR
     Name "#DRG-Role_Recon_PL"
    }
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{43D001A8797EA5C9}Prefabs/Weapons/Rifles/AK74/Variants/Rifle_AK74N_PBS4.et"
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{61B60D5867CCF399}" {
@@ -25,7 +28,7 @@ SCR_ChimeraCharacter : "{B6FE3479F0ED092C}Prefabs/Characters/Factions/OPFOR/USSR
      }
     }
     ItemsInitConfigurationItem "{61B60D5A725FEB6A}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Suit_KLMK/Suit_KLMK.et"
+     TargetStorage "Jacket/Suit_KLMK.et"
      PrefabsToSpawn {
       "{92B819C350698359}Prefabs/Items/Equipment/Radios/Radio_R148_rprv.et"
      }

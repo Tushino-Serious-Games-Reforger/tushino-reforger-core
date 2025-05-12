@@ -1,0 +1,20 @@
+PS_Objective END_TIME_OBJECTIVE : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ coords 0 0 0
+ m_sTitle "Время закончилось (скрыто)"
+ m_iScore 50
+ m_sFactionKey "NULL"
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2703
+   m_aObjectiveNames {
+    "END_TIME_OBJECTIVE"
+   }
+   m_aTimeLeftWarningTimers {
+    2700
+   }
+  }
+ }
+ coords 1480.209 2 831.127
+}

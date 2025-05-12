@@ -1,0 +1,68 @@
+$grp GenericEntity : "{37FF769500E5C13C}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V2_FIA.et" {
+ FIA_FLAG_1 {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aObjectiveNames {
+     "FLAG_1_FIA" "FLAG_1_USSR"
+    }
+    m_aFlagData {
+     PS_FlagData "{64D6DCDF6405F050}" {
+      m_sFactionKey "USSR"
+      m_iCaptureCounter 1
+     }
+     PS_FlagData "{64D6DCDF64324286}" {
+      m_sFactionKey "FIA"
+      m_iCaptureCounter 1
+     }
+    }
+    m_sFactionKey "FIA"
+   }
+  }
+  coords 4915.033 44.193 11792.351
+  {
+   PS_ManualMarker flag : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+    m_sImageSetGlow ""
+    m_sQuadName "Task_Defend"
+    m_fWorldSize 35
+    m_bUseWorldScale 0
+    m_bVisibleForEmptyFaction 1
+    m_bShowForAnyFaction 1
+   }
+  }
+ }
+ FIA_FLAG_2 {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aObjectiveNames {
+     "FLAG_2_USSR" "FLAG_2_FIA"
+    }
+    m_aFlagData {
+     PS_FlagData "{64D6DCDF6405F050}" {
+      m_sFactionKey "USSR"
+      m_iCaptureCounter 1
+     }
+     PS_FlagData "{64D6DCDF64324286}" {
+      m_sFactionKey "FIA"
+      m_iCaptureCounter 1
+     }
+    }
+    m_sFactionKey "FIA"
+   }
+  }
+  coords 4665.802 35.288 11145.825
+  {
+   PS_ManualMarker flag2 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+    m_sImageSetGlow ""
+    m_sQuadName "Task_Defend"
+    m_fWorldSize 35
+    m_bUseWorldScale 0
+    m_bVisibleForEmptyFaction 1
+    m_bShowForAnyFaction 1
+   }
+  }
+ }
+}

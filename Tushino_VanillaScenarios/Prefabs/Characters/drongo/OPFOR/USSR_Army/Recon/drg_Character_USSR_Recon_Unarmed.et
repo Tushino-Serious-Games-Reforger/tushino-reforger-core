@@ -26,10 +26,10 @@ SCR_ChimeraCharacter : "{6A651A06B845EA4B}Prefabs/Characters/Factions/OPFOR/USSR
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{61B543E763DE9F7B}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Suit_KLMK/Suit_KLMK.et"
+     TargetStorage "Jacket/Suit_KLMK.et"
     }
     ItemsInitConfigurationItem "{61B543E7DB56B026}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Suit_KLMK/Suit_KLMK.et"
+     TargetStorage "Jacket/Suit_KLMK.et"
     }
    }
   }

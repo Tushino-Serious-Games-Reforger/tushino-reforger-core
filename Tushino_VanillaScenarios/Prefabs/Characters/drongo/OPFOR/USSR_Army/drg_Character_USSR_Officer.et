@@ -40,22 +40,28 @@ SCR_ChimeraCharacter : "{1ADC4934980AA91A}Prefabs/Characters/Factions/OPFOR/USSR
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{61B543E7DB56B026}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et"
+     TargetStorage "ArmoredVest/Vest_6B3.et"
     }
     ItemsInitConfigurationItem "{61B543E4F8901B0E}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et"
+     TargetStorage "ArmoredVest/Vest_6B3.et"
      PrefabsToSpawn {
       "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
      }
     }
     ItemsInitConfigurationItem "{61B543E550602935}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et"
+     TargetStorage "ArmoredVest/Vest_6B3.et"
      PrefabsToSpawn {
       "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et"
      }
     }
     ItemsInitConfigurationItem "{61B543E55260DECA}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et"
+     TargetStorage "Jacket/Jacket_M88_base.et"
+     PrefabsToSpawn {
+      "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{61B543EAEB9BD049}" {
+     TargetStorage "Jacket/Jacket_M88_base.et"
     }
     ItemsInitConfigurationItem "{61B543EE750B93B9}" {
      PrefabsToSpawn {

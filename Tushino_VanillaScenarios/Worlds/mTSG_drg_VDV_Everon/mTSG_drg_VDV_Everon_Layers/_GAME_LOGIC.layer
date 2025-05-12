@@ -1,0 +1,44 @@
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_iTestingPlayerCounts 6
+   m_aLossLogics {
+    LossLogic "{6521499EAAF6CC48}" {
+     m_aLosses {
+      FactionLoss "{6521499EA9904353}" {
+       m_iCriticalLossCount 3
+      }
+     }
+     m_sObjectiveNames {
+      "DESTROY_ENEMY_FIA"
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "Победа FIA: СССР понесли серьёзные потери."
+    }
+    LossLogic "{6521499EAB2B7BE8}" {
+     m_aLosses {
+      FactionLoss "{6521499EEC21746E}" {
+       m_iCriticalLossCount 3
+       m_sFactionKey "FIA"
+      }
+     }
+     m_sObjectiveNames {
+      "DESTROY_ENEMY_USSR"
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "Победа СССР: FIA понесли серьёзные потери."
+    }
+   }
+  }
+ }
+ coords 4884.188 28.592 11783.262
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 3000
+  }
+ }
+}

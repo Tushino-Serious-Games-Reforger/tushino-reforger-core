@@ -1,0 +1,212 @@
+$grp GenericEntity : "{C63BFEEA9DE1CF26}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_05_Campaign.et" {
+ {
+  coords 11366.563 62.031 11235.799
+  angleY -61.201
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+    coords -0.755 -0.001 0.041
+    {
+     GenericEntity {
+      ID "5D45393936823FC0"
+      coords -1.418 0.017 0.307
+      angleX 0.744
+      angleY 0.062
+      angleZ 0.491
+     }
+     GenericEntity {
+      ID "5D45393936823FC3"
+      coords 1.185 0 0.209
+      angleY 179.947
+     }
+    }
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9068"
+    coords 4.306 0.042 -0.072
+    angleX -2.148
+    angleY 3.301
+    angleZ -1.598
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9048"
+    coords -4.471 0.09 2.846
+    angleX 1.994
+    angleY -94.758
+    angleZ 0.065
+   }
+   GenericEntity {
+    ID "5E330D6CFA231272"
+    coords 2.09 -0.032 2.548
+    angleX -1.259
+    angleY 9.478
+    angleZ 0.047
+   }
+   GenericEntity {
+    ID "5D1ED922875C41AD"
+    coords -4.156 0.039 -1.064
+    angleX 0.303
+    angleY -2.112
+    angleZ 1.225
+   }
+   GenericEntity {
+    ID "5D1ED922875C415B"
+    coords -3.974 0.06 1.372
+    angleX 0.848
+    angleY 5.014
+    angleZ 1.805
+   }
+   GenericEntity {
+    ID "5D1ED922875C4178"
+    coords 2.755 0.03 -2.318
+    angleX -0.774
+    angleY -63.212
+    angleZ 0.444
+   }
+   GenericEntity {
+    ID "5D1ED922875C418B"
+    coords 4.303 0.019 1.209
+    angleX 1.275
+    angleY 33.294
+    angleZ -1.524
+   }
+   GenericEntity {
+    ID "5D1ED922875C41BB"
+    coords 4.306 0.019 2.1
+    angleX -3.646
+    angleY -27.211
+    angleZ 0.503
+   }
+   GenericEntity {
+    ID "5D1ED922875C4149"
+    coords -4.22 0.047 0.16
+    angleX 1.245
+    angleY -87.56
+    angleZ -0.205
+   }
+   GenericEntity {
+    ID "5D1ED922875C4163"
+    coords 2.836 0 0.415
+    angleY 0.673
+   }
+   PS_ManualMarker flag3 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    angleY -123.222
+    m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+    m_sImageSetGlow ""
+    m_sQuadName "SupplyDepot"
+    m_fWorldSize 35
+    m_sDescription "Ресурсы"
+    m_bUseWorldScale 0
+    m_bVisibleForEmptyFaction 1
+    m_bShowForAnyFaction 1
+   }
+  }
+ }
+ {
+  coords 11362.531 61.742 11226.932
+  angleX -0.088
+  angleY -48.977
+  angleZ -1.263
+  {
+   GenericEntity {
+    ID "5D4539393E1536C3"
+    coords -0.755 -0.001 0.041
+    {
+     GenericEntity {
+      ID "5D45393936823FC0"
+      coords -1.418 0.017 0.307
+      angleX 0.744
+      angleY 0.062
+      angleZ 0.491
+     }
+     GenericEntity {
+      ID "5D45393936823FC3"
+      coords 1.185 0 0.209
+      angleY 179.947
+     }
+    }
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9068"
+    coords 4.306 0.042 -0.072
+    angleX -2.148
+    angleY 3.301
+    angleZ -1.598
+   }
+   GenericEntity {
+    ID "5E5CB3055E6F9048"
+    coords -4.471 0.09 2.846
+    angleX 1.994
+    angleY -94.758
+    angleZ 0.065
+   }
+   GenericEntity {
+    ID "5E330D6CFA231272"
+    coords 2.09 -0.032 2.548
+    angleX -1.259
+    angleY 9.478
+    angleZ 0.047
+   }
+   GenericEntity {
+    ID "5D1ED922875C41AD"
+    coords -4.156 0.039 -1.064
+    angleX 0.303
+    angleY -2.112
+    angleZ 1.225
+   }
+   GenericEntity {
+    ID "5D1ED922875C415B"
+    coords -3.974 0.06 1.372
+    angleX 0.848
+    angleY 5.014
+    angleZ 1.805
+   }
+   GenericEntity {
+    ID "5D1ED922875C4178"
+    coords 2.755 0.03 -2.318
+    angleX -0.774
+    angleY -63.212
+    angleZ 0.444
+   }
+   GenericEntity {
+    ID "5D1ED922875C418B"
+    coords 4.303 0.019 1.209
+    angleX 1.275
+    angleY 33.294
+    angleZ -1.524
+   }
+   GenericEntity {
+    ID "5D1ED922875C41BB"
+    coords 4.306 0.019 2.1
+    angleX -3.646
+    angleY -27.211
+    angleZ 0.503
+   }
+   GenericEntity {
+    ID "5D1ED922875C4149"
+    coords -4.22 0.047 0.16
+    angleX 1.245
+    angleY -87.56
+    angleZ -0.205
+   }
+   GenericEntity {
+    ID "5D1ED922875C4163"
+    coords 2.836 0 0.415
+    angleY 0.673
+   }
+   PS_ManualMarker flag4 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords 0 0 0
+    angleY -123.222
+    m_sImageSet "{C3F217CA9CF060B4}UI/Imagesets/Conflict/ConflictIconsSet.imageset"
+    m_sImageSetGlow ""
+    m_sQuadName "SupplyDepot"
+    m_fWorldSize 35
+    m_sDescription "Ресурсы"
+    m_bUseWorldScale 0
+    m_bVisibleForEmptyFaction 1
+    m_bShowForAnyFaction 1
+   }
+  }
+ }
+}

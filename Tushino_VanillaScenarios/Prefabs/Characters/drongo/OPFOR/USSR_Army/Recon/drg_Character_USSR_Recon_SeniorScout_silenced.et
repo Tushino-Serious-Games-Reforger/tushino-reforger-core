@@ -1,8 +1,0 @@
-SCR_ChimeraCharacter : "{072F75BB5AA0200E}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_SeniorScout.et" {
- ID "520EC961A090BE1E"
- components {
-  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{1B332B99C72DAF8B}Prefabs/Weapons/Rifles/AK74/Variants/Rifle_AK74N_PBS4_1P29.et"
-  }
- }
-}
