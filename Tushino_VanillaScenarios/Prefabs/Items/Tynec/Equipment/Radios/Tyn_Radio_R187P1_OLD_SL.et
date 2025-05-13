@@ -1,0 +1,18 @@
+GenericEntity : "{6D2ABF4BAB295AF3}Prefabs/Items/Tynec/Equipment/Radios/Tyn_Radio_R187P1_OLD.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   Transceivers {
+    RadioTransceiver "{6460BC2B4AE95D9E}" {
+     "Transmitting Range" 5000
+    }
+    RadioTransceiver "{655AD2AC6B7F87B4}" {
+     "Transmitting Range" 5000
+     "Min tunable frequency" 27000
+     "Max tunable frequency" 52000
+     "Frequency resolution" 100
+    }
+   }
+  }
+ }
+}

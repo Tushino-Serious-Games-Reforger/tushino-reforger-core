@@ -130,7 +130,7 @@ GenericEntity : "{B28CBB4B115A6F09}Prefabs/Weapons/Rifles/M4A1/Variants/ION/Vari
 GameEntity : "{C55821E8E86C074E}Prefabs/Items/Equipment/Radios/Radio_ANPRC152.et" {
  coords 144.423 1 178.908
 }
-GenericEntity : "{CC03E3F4B1E5E1B8}Prefabs/Items/drongo/Bulba_basic.et" {
+GenericEntity : "{CC03E3F4B1E5E1B8}Prefabs/Items/Bulba_basic.et" {
  coords 135.803 1 179.471
 }
 GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et" {

@@ -1,7 +1,302 @@
 StringTable {
  ItemClassName "CustomStringTableItem"
  Items {
-  CustomStringTableItem "{60D69CEAC1E9BFB9}" {
+  CustomStringTableItem "{62F55CDC686001DE}" {
+   Id "BRN-Role_Administrator"
+   Target_en_us "Head of administration"
+   Target_ru_ru "Глава администрации"
+   Modified 1682906602
+   Author "tread"
+   LastChanged "tread"
+  }
+  CustomStringTableItem "{62F55CDC0C739139}" {
+   Id "BRN-Role_Bodyguard"
+   Target_en_us "Bodyguard"
+   Target_ru_ru "Телохранитель"
+   Modified 1660248218
+   Author "tread"
+   LastChanged "tread"
+  }
+  CustomStringTableItem "{644D0641CCA3A475}" {
+   Id "BRN-Role_DeputyPlatoonLeader"
+   Target_en_us "Deputy Platoon Leader"
+   Target_ru_ru "Зам. ком. взвода"
+   Modified 1683041174
+   Author "tread"
+   LastChanged "tread"
+  }
+  CustomStringTableItem "{644D064C86DFC158}" {
+   Id "BRN-Role_LightInfantryCompany1SG"
+   Target_en_us "Company First Sergeant"
+   Modified 1682848349
+   Author "tread"
+   LastChanged "tread"
+  }
+  CustomStringTableItem "{644D064D1CD5A848}" {
+   Id "BRN-Role_LightInfantryCompanyArmorer"
+   Target_en_us "Armorer"
+   Modified 1682848556
+   Author "tread"
+   LastChanged "tread"
+  }
+  CustomStringTableItem "{644D064C98C1ECE3}" {
+   Id "BRN-Role_LightInfantryCompanyCommander"
+   Target_en_us "Company Commander"
+   Modified 1682848322
+   Author "tread"
+   LastChanged "tread"
+  }
+  CustomStringTableItem "{644D0671905428AD}" {
+   Id "BRN-Role_LightInfantryCompanyCommoChief"
+   Target_en_us "Communications Chief"
+   Modified 1682850866
+   Author "tread"
+   LastChanged "tread"
+  }
+  CustomStringTableItem "{644D064CEF6038FB}" {
+   Id "BRN-Role_LightInfantryCompanySupplySergeant"
+   Target_en_us "Supply Sergeant"
+   Modified 1682848535
+   Author "tread"
+   LastChanged "tread"
+  }
+  CustomStringTableItem "{644D064CB353EFCA}" {
+   Id "BRN-Role_LightInfantryCompanyXO"
+   Target_en_us "Executive Officer"
+   Modified 1682848372
+   Author "tread"
+   LastChanged "tread"
+  }
+  CustomStringTableItem "{654B2D6002F20F8A}" {
+   Id "BRN-Role_Mortar_Crew"
+   Target_en_us "Mortar Crew"
+   Target_ru_ru "Номер минометного расчета"
+   Modified 1699443427
+   Author "tread"
+   LastChanged "tread"
+  }
+  CustomStringTableItem "{654B2D67E39C05BE}" {
+   Id "BRN-Role_Mortar_SL"
+   Target_en_us "Mortar Squad Leader"
+   Target_ru_ru "Командир минометного расчета"
+   Modified 1699443374
+   Author "tread"
+   LastChanged "tread"
+  }
+  CustomStringTableItem "{644D064320C1508E}" {
+   Id "BRN-Role_PlatoonSergeant"
+   Target_en_us "Platoon Sergeant"
+   Modified 1682848271
+   Author "tread"
+   LastChanged "tread"
+  }
+  CustomStringTableItem "{644D06432F266C30}" {
+   Id "BRN-Role_RTO"
+   Target_en_us "RTO"
+   Modified 1682848275
+   Author "tread"
+   LastChanged "tread"
+  }
+  CustomStringTableItem "{62F5638186C96DFF}" {
+   Id "BRN-Role_SecurityHead"
+   Target_en_us "Senior bodyguard"
+   Target_ru_ru "Старший телохранитель"
+   Modified 1660249265
+   Author "tread"
+   LastChanged "tread"
+  }
+  CustomStringTableItem "{62CB60AD6B9AFE1B}" {
+   Id "BRN-Role_VehicleDriver"
+   Target_en_us "Driver"
+   Target_ru_ru "Водитель"
+   Modified 1657496905
+   Author "tread"
+   LastChanged "tread"
+  }
+  CustomStringTableItem "{62CB60AD6F72C237}" {
+   Id "BRN-Role_VehicleGunner"
+   Target_en_us "Gunner"
+   Target_ru_ru "Стрелок"
+   Modified 1657496890
+   Author "tread"
+   LastChanged "tread"
+  }
+  CustomStringTableItem "{62D2B1D5FC482723}" {
+   Id "JUM-Role_Recon"
+   Target_en_us "Recon"
+   Target_ru_ru "Разведчик"
+   Modified 1657977013
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{62D2CEB179A6597C}" {
+   Id "JUM-Role_ReconAR"
+   Target_en_us "Recon machine gunner"
+   Target_ru_ru "Разведчик-пулеметчик"
+   Modified 1657990891
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{62D2CEA9D73A1851}" {
+   Id "JUM-Role_ReconAT"
+   Target_en_us "Recon anti-tank"
+   Target_ru_ru "Разведчик-гранатометчик"
+   Modified 1657990869
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{62D2B1D7E01634AB}" {
+   Id "JUM-Role_ReconCompanyCommander"
+   Target_en_us "Company commander"
+   Target_ru_ru "Командир роты"
+   Modified 1657976122
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{62D2B1D4D274D0FC}" {
+   Id "JUM-Role_ReconCompanyForeman"
+   Target_en_us "Company Foreman"
+   Target_ru_ru "Старшина роты"
+   Modified 1657976643
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{62D2CEA8FF0D107C}" {
+   Id "JUM-Role_ReconDriver"
+   Target_en_us "Driver (BTR-70)"
+   Target_ru_ru "Водитель (БТР-70)"
+   Modified 1657987657
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{62D2CEA88B7AAEFC}" {
+   Id "JUM-Role_ReconGunner"
+   Target_en_us "Gunner (BTR-70)"
+   Target_ru_ru "Наводчик-оператор (БТР-70)"
+   Modified 1657987607
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{62D2B1D200EDCFB6}" {
+   Id "JUM-Role_ReconMedic"
+   Target_en_us "Medic"
+   Target_ru_ru "Санинструктор"
+   Modified 1657977224
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{62D2CEA1084F91FA}" {
+   Id "JUM-Role_ReconPlatoonLeader"
+   Target_en_us "Platoon leader"
+   Target_ru_ru "Командир взвода"
+   Modified 1657983000
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{62D2B1D4ABCB9623}" {
+   Id "JUM-Role_ReconPolitOfficer"
+   Target_en_us "Polit Officer"
+   Target_ru_ru "Зам. командира роты по политической части"
+   Modified 1657976452
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{62D2B1DF6C9C226E}" {
+   Id "JUM-Role_ReconRATELO"
+   Target_en_us "RATELO"
+   Target_ru_ru "Радиотелефонист"
+   Modified 1657979778
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{62D2B1DF0F1531CB}" {
+   Id "JUM-Role_ReconSeniorRecon"
+   Target_en_us "Senior recon"
+   Target_ru_ru "Старший разведчик"
+   Modified 1657979706
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{62D2B1DE6FCE6603}" {
+   Id "JUM-Role_ReconSquadLeader"
+   Target_en_us "Squad leader"
+   Target_ru_ru "Командир отделения"
+   Modified 1657979350
+   Author "siwi1"
+   LastChanged "siwi1"
+  }
+  CustomStringTableItem "{64C5461A701FAD80}" {
+   Id "TYN-Desc_TargetPhoto"
+   Target_en_us "Photo of object"
+   Target_ru_ru "Фото цели"
+   Modified 1690651443
+   Author "p1vas"
+   LastChanged "p1vas"
+  }
+  CustomStringTableItem "{64928668311A027C}" {
+   Id "TYN-Role_AsTmCmd"
+   Target_en_us "Assault team commander"
+   Target_ru_ru "Командир штурмовой группы"
+   Modified 1687327452
+   Author "p1vas"
+   LastChanged "p1vas"
+  }
+  CustomStringTableItem "{647D141A2A6A0E11}" {
+   Id "TYN-Role_DeputyLeader"
+   Target_en_us "Deputy commander"
+   Target_ru_ru "Заместитель командира"
+   Modified 1685925531
+   Author "p1vas"
+   LastChanged "p1vas"
+  }
+  CustomStringTableItem "{6492866173296C20}" {
+   Id "TYN-Role_employer"
+   Target_en_us "Employer"
+   Target_ru_ru "Закасчик"
+   Modified 1687331918
+   Author "p1vas"
+   LastChanged "p1vas"
+  }
+  CustomStringTableItem "{64928661A5964387}" {
+   Id "TYN-Role_MercCommander"
+   Target_en_us "Merc commander"
+   Target_ru_ru "Командир наёмников"
+   Modified 1687331945
+   Author "p1vas"
+   LastChanged "p1vas"
+  }
+  CustomStringTableItem "{64D0BCE95EDDF0A0}" {
+   Id "TYN-Role_ReconDriver"
+   Target_en_us "Scout Driver"
+   Target_ru_ru "Разведчик-водитель"
+   Modified 1691403828
+   Author "p1vas"
+   LastChanged "p1vas"
+  }
+  CustomStringTableItem "{62F82603A96FAC8A}" {
+   Id "TYN-Role_RPK"
+   Target_en_us "Rifleman RPK"
+   Target_ru_ru "Стрелок РПК"
+   Modified 1662138473
+   LastChanged "������"
+  }
+  CustomStringTableItem "{64613B8B57426681}" {
+   Id "TYN-Role_SeniorColumn"
+   Target_en_us "Senior Column"
+   Target_ru_ru "Старший колонны"
+   Modified 1684095252
+   Author "p1vas"
+   LastChanged "p1vas"
+  }
+  CustomStringTableItem "{647D1411A7B7C145}" {
+   Id "TYN-Role_TeamLeader"
+   Target_en_us "Team Leader"
+   Target_ru_ru "Командир группы"
+   Modified 1685921296
+   Author "p1vas"
+   LastChanged "p1vas"
+  }
+    CustomStringTableItem "{60D69CEAC1E9BFB9}" {
    Id "DRG-AT_SSO"
    Target_en_us "Scout anti-tank"
    Target_ru_ru "Разведчик-гранатомётчик"
