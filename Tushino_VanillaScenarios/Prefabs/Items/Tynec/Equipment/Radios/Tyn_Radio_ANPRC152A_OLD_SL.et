@@ -1,0 +1,16 @@
+GenericEntity : "{28F32B1BED534EA9}Prefabs/Items/Tynec/Equipment/Radios/Tyn_Radio_ANPRC152A_OLD.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   Transceivers {
+    RadioTransceiver "{6462895ECE7892E0}" {
+     ChannelFrequency 48000
+     "Transmitting Range" 2200
+     "Min tunable frequency" 32000
+     "Max tunable frequency" 68000
+     "Frequency resolution" 100
+    }
+   }
+  }
+ }
+}
