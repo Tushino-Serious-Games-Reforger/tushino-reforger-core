@@ -1,4 +1,4 @@
-$grp SCR_AIGroup : "{17C7309FFE4775B0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad_P.et" {
+$grp SCR_AIGroup : "{17C7309FFE4775B0}Prefabs/Groups/Drongo/INDFOR/Group_FIA_RifleSquad_P.et" {
  FIA_1_0_0 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
@@ -161,7 +161,15 @@ $grp GenericEntity : "{B172E432F56B319D}Prefabs/Props/Drongo/drg_AmmoBoxCluster_
   angleY -6.08
  }
 }
-SCR_AIGroup FIA_0_0_0 : "{CA73F9230999408B}Prefabs/Groups/INDFOR/Group_FIA_PlatoonHQ_P.et" {
+$grp GameEntity : "{B41607EAB58A4252}Prefabs/Items/Equipment/BalisticTable/BalisticTable_USSR.et" {
+ {
+  coords 10518.021 285.111 6501.327
+ }
+ {
+  coords 10518.35 285.111 6501.313
+ }
+}
+SCR_AIGroup FIA_0_0_0 : "{CA73F9230999408B}Prefabs/Groups/Drongo/INDFOR/Group_FIA_PlatoonHQ_P.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation " "

@@ -1,3 +1,34 @@
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_iTestingPlayerCounts 8
+   m_aLossLogics {
+    LossLogic "{655B2D375FF6C117}" {
+     m_aLosses {
+      FactionLoss "{655B2D37A13B01F1}" {
+       m_iCriticalLossCount 4
+      }
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "#drg_ModuleCriticalLoss_ConditionMet_DefendWin"
+    }
+    LossLogic "{655B2D375C020241}" {
+     m_aLosses {
+      FactionLoss "{655B2D37A756BBBA}" {
+       m_iCriticalLossCount 4
+       m_sFactionKey "US"
+      }
+     }
+     m_bAdvanceGameStage 1
+     m_bUseMessage 1
+     m_bEventMessage "#drg_ModuleCriticalLoss_ConditionMet_AttackWin"
+    }
+   }
+  }
+ }
+ coords 1505.364 0 909.81
+}
 PS_Objective END_TIME_OBJECTIVE : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
  coords 0 0 0
  m_sTitle "Время закончилось (скрыто)"
@@ -8,9 +39,6 @@ GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" 
  components {
   DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
    m_iMissionTime 2703
-   m_aObjectiveNames {
-    "END_TIME_OBJECTIVE"
-   }
    m_aTimeLeftWarningTimers {
     2700
    }
