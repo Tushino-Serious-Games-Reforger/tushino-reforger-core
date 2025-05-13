@@ -7,8 +7,15 @@ GenericEntity : "{4181B1C8B5E56392}Prefabs/Items/Equipment/Radios/Radio_R107M_FI
    Transceivers {
     RadioTransceiver "{5EA4A89F0D06E18F}" {
      ChannelFrequency 52000
-     "Transmitting Range" 5000
+     "Transmitting Range" 10000
      "Frequency resolution" 100
+    }
+    RadioTransceiver "{5E06C824E007EA8F}" {
+     ChannelFrequency 0
+     "Transmitting Range" 1
+     "Min tunable frequency" 0
+     "Max tunable frequency" 0
+     "Frequency resolution" 0
     }
    }
   }
