@@ -1,4 +1,4 @@
-$grp SCR_AIGroup : "{360C6407B466DFE8}Prefabs/Groups/BLUFOR/drg_Group_US_RifleSquad.et" {
+$grp SCR_AIGroup : "{360C6407B466DFE8}Prefabs/Groups/Drongo/BLUFOR/drg_Group_US_RifleSquad.et" {
  Riflesquad_USAF4 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
@@ -14,7 +14,7 @@ $grp SCR_AIGroup : "{360C6407B466DFE8}Prefabs/Groups/BLUFOR/drg_Group_US_RifleSq
   angleZ 18.332
   m_faction "RHS_USAF"
   m_aUnitPrefabSlots {
-   "{15E33C02DCAF593F}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_SL.et" "{816E27DDCC2EB6DA}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_GP.et" "{249EE0F822A467AA}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_MG_249.et" "{4A0624046C728330}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_aMG.et" "{681A9206534DC2C2}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Rifleman-AT.et" "{681A9206534DC2C2}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Rifleman-AT.et" "{62F141FF1D4E6B9B}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Rifleman.et" "{62F141FF1D4E6B9B}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Rifleman.et"
+   "{15E33C02DCAF593F}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_SL.et" "{816E27DDCC2EB6DA}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_GP.et" "{249EE0F822A467AA}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_MG_249.et" "{4A0624046C728330}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_aMG.et" "{681A9206534DC2C2}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Rifleman-AT.et" "{62F141FF1D4E6B9B}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Rifleman.et" "{62F141FF1D4E6B9B}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Rifleman.et" "{62F141FF1D4E6B9B}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Rifleman.et"
   }
  }
  Riflesquad_USAF2 {
@@ -32,7 +32,7 @@ $grp SCR_AIGroup : "{360C6407B466DFE8}Prefabs/Groups/BLUFOR/drg_Group_US_RifleSq
   angleZ -0.302
   m_faction "RHS_USAF"
   m_aUnitPrefabSlots {
-   "{15E33C02DCAF593F}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_SL.et" "{816E27DDCC2EB6DA}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_GP.et" "{249EE0F822A467AA}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_MG_249.et" "{4A0624046C728330}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_aMG.et" "{8F3E28F3B0A8D208}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_MG_60.et" "{4A0624046C728330}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_aMG.et" "{681A9206534DC2C2}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Rifleman-AT.et" "{681A9206534DC2C2}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Rifleman-AT.et"
+   "{15E33C02DCAF593F}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_SL.et" "{816E27DDCC2EB6DA}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_GP.et" "{249EE0F822A467AA}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_MG_249.et" "{4A0624046C728330}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_aMG.et" "{8F3E28F3B0A8D208}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_MG_60.et" "{4A0624046C728330}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_aMG.et" "{681A9206534DC2C2}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Rifleman-AT.et" "{62F141FF1D4E6B9B}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Rifleman.et"
   }
  }
  Riflesquad_USAF3 {
@@ -48,7 +48,7 @@ $grp SCR_AIGroup : "{360C6407B466DFE8}Prefabs/Groups/BLUFOR/drg_Group_US_RifleSq
   angleY -25.805
   m_faction "RHS_USAF"
   m_aUnitPrefabSlots {
-   "{15E33C02DCAF593F}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_SL.et" "{816E27DDCC2EB6DA}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_GP.et" "{249EE0F822A467AA}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_MG_249.et" "{4A0624046C728330}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_aMG.et" "{681A9206534DC2C2}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Rifleman-AT.et" "{681A9206534DC2C2}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Rifleman-AT.et" "{62F141FF1D4E6B9B}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Rifleman.et" "{62F141FF1D4E6B9B}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Rifleman.et"
+   "{15E33C02DCAF593F}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_SL.et" "{816E27DDCC2EB6DA}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_GP.et" "{249EE0F822A467AA}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_MG_249.et" "{4A0624046C728330}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_aMG.et" "{681A9206534DC2C2}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Rifleman-AT.et" "{62F141FF1D4E6B9B}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Rifleman.et" "{62F141FF1D4E6B9B}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Rifleman.et" "{62F141FF1D4E6B9B}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Rifleman.et"
   }
  }
  HQ_USAF {
@@ -61,7 +61,7 @@ $grp SCR_AIGroup : "{360C6407B466DFE8}Prefabs/Groups/BLUFOR/drg_Group_US_RifleSq
   angleY 39.288
   m_faction "RHS_USAF"
   m_aUnitPrefabSlots {
-   "{8CFD859BC14868AF}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_PL.et" "{327426F7B044FFA6}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_MED.et" "{D5E302E8CC9BA6E2}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Sniper.et"
+   "{8CFD859BC14868AF}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_PL.et" "{327426F7B044FFA6}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_MED.et" "{304ABCAC95CEA68C}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Marksman.et"
   }
  }
  Riflesquad_USAF {
@@ -77,7 +77,7 @@ $grp SCR_AIGroup : "{360C6407B466DFE8}Prefabs/Groups/BLUFOR/drg_Group_US_RifleSq
   angleY 39.288
   m_faction "RHS_USAF"
   m_aUnitPrefabSlots {
-   "{15E33C02DCAF593F}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_SL.et" "{816E27DDCC2EB6DA}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_GP.et" "{249EE0F822A467AA}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_MG_249.et" "{4A0624046C728330}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_aMG.et" "{681A9206534DC2C2}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Rifleman-AT.et" "{681A9206534DC2C2}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Rifleman-AT.et" "{62F141FF1D4E6B9B}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Rifleman.et" "{62F141FF1D4E6B9B}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Rifleman.et"
+   "{15E33C02DCAF593F}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_SL.et" "{816E27DDCC2EB6DA}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_GP.et" "{249EE0F822A467AA}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_MG_249.et" "{4A0624046C728330}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_aMG.et" "{681A9206534DC2C2}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Rifleman-AT.et" "{62F141FF1D4E6B9B}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Rifleman.et" "{62F141FF1D4E6B9B}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Rifleman.et" "{62F141FF1D4E6B9B}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Rifleman.et"
   }
  }
 }
