@@ -29,7 +29,7 @@ PS_GameModeCoop TSG_GameModeLobby2 : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_Gam
 GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
  components {
   DRG_CriticalLossComponent "{65213D368F1BD792}" {
-   m_bUseTestingMode 0
+   m_iTestingPlayerCounts 7
    m_aLossLogics {
     LossLogic "{655131A7A3F08DEC}" {
      m_aLosses {
