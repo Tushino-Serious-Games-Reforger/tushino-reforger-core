@@ -11,45 +11,85 @@ PS_Objective RF_destroyed {
  m_sFactionKey "RHS_ION"
  m_bAdvanceWhenTriggered 1
 }
-PolylineShapeEntity ION_border {
+PolylineShapeEntity ION_Border {
  components {
-  PS_PolyZone "{649438852EA03A54}" {
+  PS_PolyZone "{655EF22349294586}" {
    m_cPolygonColor 1 1 1 0
-   m_cPolygonBorderColor 0.502 0 0 1
-   m_fPolygonBorderWidth 8.7
+   m_cPolygonBorderColor 0.803 0.014 0.014 1
+   m_fPolygonBorderWidth 4.3
    m_aVisibleForFactions {
-    "RHS_ION" "RHS_AFRF" ""
+    "RHS_AFRF" "RHS_ION" ""
    }
   }
  }
- coords 1393.81 36.159 2324.872
+ coords 1393.916 36.158 2324.615
  Points {
-  ShapePoint "{64943884E39CBC8D}" {
-   Position -0.127 0.007 -1.676
+  ShapePoint "{655EF2233151C777}" {
+   Position 0 0 0
   }
-  ShapePoint "{64943884E39C8AE0}" {
-   Position 21.05 0.104 -1.614
+  ShapePoint "{655EF22331517C9A}" {
+   Position 12.267 -0.011 0
   }
-  ShapePoint "{64943884F956185B}" {
-   Position 42.194 0.656 -1.051
+  ShapePoint "{655EF2230A61D0B3}" {
+   Position 12.293 -0.001 -1.317
   }
-  ShapePoint "{64943884F4F83D1E}" {
-   Position 43.093 0.916 138.195
+  ShapePoint "{655EF2230667F680}" {
+   Position 42.075 0.659 -0.87
   }
-  ShapePoint "{64943884F2F1007C}" {
-   Position -12.304 0.665 137.872
+  ShapePoint "{655EF2231FF8E3B2}" {
+   Position 42.333 0.12 29.697
   }
-  ShapePoint "{64943884CF53971C}" {
-   Position -99.753 1.318 79.625
+  ShapePoint "{655EF223196746DF}" {
+   Position 43.28 0.973 137.758
   }
-  ShapePoint "{64943884CC6A3598}" {
-   Position -43.91 1.132 -0.564
+  ShapePoint "{655EF22317B12A71}" {
+   Position 37.731 0.738 138.693
   }
-  ShapePoint "{64943884C7205162}" {
-   Position 0.078 -0.001 -0.115
+  ShapePoint "{655EF22312A15099}" {
+   Position 35.616 0.686 138.708
+  }
+  ShapePoint "{655EF2236E87514B}" {
+   Position -12.383 0.667 138.141
+  }
+  ShapePoint "{655EF223673F744D}" {
+   Position -99.839 1.322 79.972
+  }
+  ShapePoint "{655EF2237EC9B61E}" {
+   Position -68.024 0.861 32.481
+  }
+  ShapePoint "{655EF2237B148D24}" {
+   Position -60.716 0.667 22.217
+  }
+  ShapePoint "{655EF22376E62ADF}" {
+   Position -44.068 1.13 -0.237
   }
  }
  IsClosed 1
+ {
+  PS_PolyZoneTrigger Employee_annahilation {
+   components {
+    Hierarchy "{614548BDF998E12B}" {
+    }
+   }
+   coords 7.842 -0.126 16.04
+   TriggerShapeType Polyline
+   "Polyline Height" 500
+   ShapeColor 1 0 0 0
+   TriggerActivationType "All changes"
+   PeriodicQueries 1
+   UpdatePeriod 1
+   ClassesFilter {
+    "SCR_ChimeraCharacter"
+   }
+   m_polyZoneEffect PS_PolyZoneEffectRestricted "{614548BC046ADB65}" {
+    m_fKillTime 20
+   }
+   m_bReversed 1
+   m_bAliveOnly 1
+   m_sFactionKey "RHS_ION"
+   m_sGroupKey "AR1"
+  }
+ }
 }
 $grp TSG_EntityConstraint {
  protect_employer {
@@ -72,7 +112,7 @@ $grp TSG_EntityConstraint {
   {
    PS_Objective employer_protected : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
     coords -658.6 0 483.449
-    m_sTitle "Закасчик уцелел"
+    m_sTitle "Заказчик уцелел"
     m_sFactionKey "RHS_ION"
    }
   }
@@ -97,59 +137,9 @@ $grp TSG_EntityConstraint {
   {
    PS_Objective employer_killed : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
     coords 0 0 0
-    m_sTitle "Предатель убит"
+    m_sTitle "Заказчик убит"
     m_sFactionKey "RHS_AFRF"
     m_bAdvanceWhenTriggered 1
-   }
-  }
- }
- employer_secure {
-  components {
-   SCR_EditableEntityComponent "{6456CDDEEA7DF2BE}" {
-    m_UIInfo SCR_EditableEntityUIInfo "{6456CDDF10051A32}" {
-     Name "Триггер захвата ВИПа живым"
-    }
-    m_bAutoRegister ALWAYS
-   }
-   RplComponent "{633D3C5D6BC335AD}" {
-   }
-  }
-  coords 1387.965 36.25 2361.6
-  m_aPrefabs {
-   "{665EEAE4A6507C20}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_businessman.et"
-  }
-  m_bCheckAlive 1
-  m_bDisableWhenTriggered 1
-  m_sPolygonName "ION_border"
-  m_bInversed 1
-  {
-   $grp PS_Objective {
-    employer_secured {
-     components {
-      RplComponent "{63227DE56BEEC6E3}" {
-      }
-      Hierarchy "{633D29968DE3461B}" {
-      }
-     }
-     coords -116.075 0 -656.659
-     m_sTitle "Предатель был захвачен"
-     m_iScore 100
-     m_sFactionKey "RHS_AFRF"
-     m_bAdvanceWhenTriggered 1
-    }
-    employer_secured3 {
-     components {
-      RplComponent "{63227DE56BEEC6E3}" {
-      }
-      Hierarchy "{633D29968DE3461B}" {
-      }
-     }
-     coords 19.07 12.266 -118.179
-     m_sTitle "Закасчик был захвачен"
-     m_iScore -100
-     m_sFactionKey "RHS_ION"
-     m_bAdvanceWhenTriggered 1
-    }
    }
   }
  }
