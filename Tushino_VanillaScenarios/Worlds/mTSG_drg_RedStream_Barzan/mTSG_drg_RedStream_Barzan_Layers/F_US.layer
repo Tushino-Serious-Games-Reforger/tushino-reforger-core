@@ -1,4 +1,4 @@
-SCR_AIGroup US_3_0_0_DEF : "{0727ADE18EE48E64}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_MedicalTeam.et" {
+SCR_AIGroup US_3_0_0_DEF : "{0727ADE18EE48E64}Prefabs/Groups/Drongo/BLUFOR/Campaign/F_US_drg_MedicalTeam.et" {
  components {
   PS_GroupCallsignAssigner "{64607D043396154A}" {
    m_iCompanyCallsign 3
@@ -39,7 +39,7 @@ $grp Vehicle : "{0EB8DF238DCFF0D7}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transpo
   m_bEnableMoveOnFreeze 1
  }
 }
-SCR_AIGroup US_1_0_3_DEF : "{119A3C5BF9D14C80}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_MG_Squad.et" {
+SCR_AIGroup US_1_0_3_DEF : "{119A3C5BF9D14C80}Prefabs/Groups/Drongo/BLUFOR/Campaign/F_US_drg_MG_Squad.et" {
  components {
   PS_GroupCallsignAssigner "{64607D040E149AD9}" {
    m_iCompanyCallsign 1
@@ -48,6 +48,16 @@ SCR_AIGroup US_1_0_3_DEF : "{119A3C5BF9D14C80}Prefabs/Groups/BLUFOR/Campaign/F_U
  }
  coords 1494.249 2 828.99
  angleY -33.623
+}
+$grp GenericEntity : "{2BD8F0769429AC4A}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_81mm_MortarCluster_100rnd_HE.et" {
+ {
+  coords 1525.347 2.094 851.883
+  angleY 60.7
+ }
+ {
+  coords 1520.64 2.063 849.523
+  angleY 61.523
+ }
 }
 Vehicle "_1_M997_maxi_ambulance_MERDC1" : "{3B1EB924602C7A07}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance_MERDC.et" {
  coords 1439.359 1.979 756.154
@@ -97,7 +107,7 @@ $grp Vehicle : "{5674FAEB9AB7BDD0}Prefabs/Vehicles/Wheeled/M998/M998.et" {
   m_bEnableMoveOnFreeze 1
  }
 }
-SCR_AIGroup US_0_0_0_DEF : "{68D5E3B6F7C86BD0}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_CompanyHQ.et" {
+SCR_AIGroup US_0_0_0_DEF : "{68D5E3B6F7C86BD0}Prefabs/Groups/Drongo/BLUFOR/Campaign/F_US_drg_CompanyHQ.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation " "
@@ -108,7 +118,7 @@ SCR_AIGroup US_0_0_0_DEF : "{68D5E3B6F7C86BD0}Prefabs/Groups/BLUFOR/Campaign/F_U
  angleY -77.47
  angleZ -1.068
  m_aUnitPrefabSlots {
-  "{F81AEF796B932D96}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_CL.et"
+  "{F81AEF796B932D96}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_CL.et"
  }
  m_bSnapToTerrain 0
 }
@@ -142,7 +152,7 @@ $grp Turret : "{8094D99689ABE241}Prefabs/Weapons/Mortars/M252/Mortar_M252.et" {
   angleY -113.723
  }
 }
-SCR_AIGroup US_6_0_0 : "{8AE885D9508D0CB7}Prefabs/Groups/BLUFOR/Campaign/S_US_drg_ReconSquad.et" {
+SCR_AIGroup US_6_0_0 : "{8AE885D9508D0CB7}Prefabs/Groups/Drongo/BLUFOR/Campaign/S_US_drg_ReconSquad.et" {
  components {
   PS_GroupCallsignAssigner "{6460980981A09BD7}" {
    m_iCompanyCallsign 6
@@ -151,7 +161,7 @@ SCR_AIGroup US_6_0_0 : "{8AE885D9508D0CB7}Prefabs/Groups/BLUFOR/Campaign/S_US_dr
  coords 1464.634 2 845.357
  angleY -148.385
 }
-$grp SCR_AIGroup : "{8D21AAF73F41E8F6}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_RifleSquad.et" {
+$grp SCR_AIGroup : "{8D21AAF73F41E8F6}Prefabs/Groups/Drongo/BLUFOR/Campaign/F_US_drg_RifleSquad.et" {
  US_1_0_0_DEF {
   components {
    PS_GroupCallsignAssigner "{646098080991B56F}" {
@@ -161,7 +171,7 @@ $grp SCR_AIGroup : "{8D21AAF73F41E8F6}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_Ri
   coords 1451.074 2.031 747.946
   angleY -78.976
   m_aUnitPrefabSlots {
-   "{069E238FD5C16DFC}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_SL.et" "{C2101FF9EC237FBA}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_TL.et" "{AC046B05DDBE646B}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{6B16D290E745CFEF}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_AR.et" "{C42B6C8C59509617}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman_LAT.et" "{C2101FF9EC237FBA}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_TL.et" "{AC046B05DDBE646B}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{6B16D290E745CFEF}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_AR.et" "{C42B6C8C59509617}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman_LAT.et"
+   "{069E238FD5C16DFC}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_SL.et" "{C2101FF9EC237FBA}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_TL.et" "{AC046B05DDBE646B}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{6B16D290E745CFEF}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_AR.et" "{C42B6C8C59509617}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman_LAT.et" "{C2101FF9EC237FBA}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_TL.et" "{AC046B05DDBE646B}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{6B16D290E745CFEF}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_AR.et" "{C42B6C8C59509617}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman_LAT.et"
   }
   m_bSnapToTerrain 0
  }
@@ -177,7 +187,7 @@ $grp SCR_AIGroup : "{8D21AAF73F41E8F6}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_Ri
   angleY -55.882
   angleZ -1.243
   m_aUnitPrefabSlots {
-   "{069E238FD5C16DFC}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_SL.et" "{C2101FF9EC237FBA}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_TL.et" "{AC046B05DDBE646B}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{6B16D290E745CFEF}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_AR.et" "{C42B6C8C59509617}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman_LAT.et" "{C2101FF9EC237FBA}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_TL.et" "{AC046B05DDBE646B}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{6B16D290E745CFEF}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_AR.et" "{C42B6C8C59509617}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman_LAT.et"
+   "{069E238FD5C16DFC}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_SL.et" "{C2101FF9EC237FBA}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_TL.et" "{AC046B05DDBE646B}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{6B16D290E745CFEF}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_AR.et" "{C42B6C8C59509617}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman_LAT.et" "{C2101FF9EC237FBA}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_TL.et" "{AC046B05DDBE646B}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{6B16D290E745CFEF}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_AR.et" "{C42B6C8C59509617}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman_LAT.et"
   }
   m_bSnapToTerrain 0
  }
@@ -193,12 +203,12 @@ $grp SCR_AIGroup : "{8D21AAF73F41E8F6}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_Ri
   angleY -75.959
   angleZ -1.086
   m_aUnitPrefabSlots {
-   "{069E238FD5C16DFC}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_SL.et" "{C2101FF9EC237FBA}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_TL.et" "{AC046B05DDBE646B}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{6B16D290E745CFEF}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_AR.et" "{C42B6C8C59509617}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman_LAT.et" "{C2101FF9EC237FBA}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_TL.et" "{AC046B05DDBE646B}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{6B16D290E745CFEF}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_AR.et" "{C42B6C8C59509617}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman_LAT.et"
+   "{069E238FD5C16DFC}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_SL.et" "{C2101FF9EC237FBA}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_TL.et" "{AC046B05DDBE646B}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{6B16D290E745CFEF}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_AR.et" "{C42B6C8C59509617}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman_LAT.et" "{C2101FF9EC237FBA}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_TL.et" "{AC046B05DDBE646B}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Grenadier.et" "{6B16D290E745CFEF}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_AR.et" "{C42B6C8C59509617}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Rifleman_LAT.et"
   }
   m_bSnapToTerrain 0
  }
 }
-$grp SCR_AIGroup : "{983EB2C5F6E84CD7}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_MortarCrew.et" {
+$grp SCR_AIGroup : "{983EB2C5F6E84CD7}Prefabs/Groups/Drongo/BLUFOR/Campaign/F_US_drg_MortarCrew.et" {
  US_4_0_0_DEF {
   components {
    PS_GroupCallsignAssigner "{64607D07A7096E4D}" {
@@ -210,7 +220,7 @@ $grp SCR_AIGroup : "{983EB2C5F6E84CD7}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_Mo
   angleY 144.464
   angleZ 0.208
   m_aUnitPrefabSlots + {
-   "{49734327564F4C54}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_MortarAmmoBearer.et"
+   "{49734327564F4C54}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_MortarAmmoBearer.et"
   }
  }
  US_4_0_1_DEF {
@@ -225,60 +235,8 @@ $grp SCR_AIGroup : "{983EB2C5F6E84CD7}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_Mo
   angleY 152.364
   angleZ 0.378
   m_aUnitPrefabSlots + {
-   "{49734327564F4C54}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_MortarAmmoBearer.et"
+   "{49734327564F4C54}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_MortarAmmoBearer.et"
   }
- }
-}
-$grp GenericEntity : "{CD62F06653C03448}Prefabs/Props/Military/AmmoBoxes/drg_ammobox_81mm_100rnd_HE.et" {
- _ammobox {
-  coords 1519.691 2.062 848.342
-  angleX 0
-  angleY -28.717
-  angleZ 0
- }
- _ammobox2 {
-  coords 1524.836 2.062 851.31
-  angleX 0
-  angleY -28.717
-  angleZ 0
- }
- _ammobox3 {
-  coords 1511.952 2.031 843.376
-  angleX 0
-  angleY -28.717
-  angleZ 0
- }
- _ammobox4 {
-  coords 1508 2 841.437
-  angleX 0
-  angleY -28.717
-  angleZ 0
- }
-}
-$grp GenericEntity : "{D6D8F271391B1A6E}Prefabs/Props/Military/AmmoBoxes/drg_ammobox_81mm_100rnd_Smoke.et" {
- {
-  coords 1519.234 2.062 848.055
-  angleX 0
-  angleY -29.222
-  angleZ 0
- }
- {
-  coords 1524.373 2.093 851.076
-  angleX 0
-  angleY -29.222
-  angleZ 0
- }
- {
-  coords 1507.543 2 841.15
-  angleX 0
-  angleY -29.222
-  angleZ 0
- }
- {
-  coords 1511.439 2.031 843.076
-  angleX 0
-  angleY -29.222
-  angleZ 0
  }
 }
 Vehicle M151A1 : "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et" {
@@ -287,7 +245,7 @@ Vehicle M151A1 : "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et" {
  m_sAttachmentGroupName "US_6_0_0"
  m_bEnableMoveOnFreeze 1
 }
-SCR_AIGroup US_2_0_0_DEF : "{F7B1E883643FF4A3}Prefabs/Groups/BLUFOR/Campaign/F_US_drg_DemolitionTeam.et" {
+SCR_AIGroup US_2_0_0_DEF : "{F7B1E883643FF4A3}Prefabs/Groups/Drongo/BLUFOR/Campaign/F_US_drg_DemolitionTeam.et" {
  components {
   PS_GroupCallsignAssigner "{64607D0CB31C3FB0}" {
    m_iCompanyCallsign 2
