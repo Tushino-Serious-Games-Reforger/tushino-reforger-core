@@ -13,50 +13,55 @@ PS_Objective RF_destroyed {
 }
 PolylineShapeEntity ION_border {
  components {
-  PS_PolyZone "{649438852EA03A54}" {
+  PS_PolyZone "{655ECB31CCE96A96}" {
    m_cPolygonColor 1 1 1 0
-   m_cPolygonBorderColor 0.502 0 0 1
-   m_fPolygonBorderWidth 8.7
+   m_cPolygonBorderColor 1 0.025 0.025 1
+   m_fPolygonBorderWidth 5.1
    m_aVisibleForFactions {
-    "RHS_ION" "RHS_AFRF" ""
+    "RHS_AFRF" "RHS_ION" ""
    }
   }
  }
- coords 1393.81 36.159 2324.872
+ coords 1393.907 36.158 2324.653
  Points {
-  ShapePoint "{64943884E39CBC8D}" {
-   Position -0.127 0.007 -1.676
+  ShapePoint "{655ECB3118242CC2}" {
+   Position -0.002 0 -0.044
   }
-  ShapePoint "{64943884E39C8AE0}" {
-   Position 21.05 0.104 -1.614
+  ShapePoint "{655ECB31183797D4}" {
+   Position 12.295 -0.004 -0.516
   }
-  ShapePoint "{64943884F956185B}" {
-   Position 42.194 0.656 -1.051
+  ShapePoint "{655ECB314AD621FB}" {
+   Position 12.311 -0.001 -1.354
   }
-  ShapePoint "{64943884F4F83D1E}" {
-   Position 43.093 0.916 138.195
+  ShapePoint "{655ECB315F7AAEF6}" {
+   Position 42.092 0.659 -0.909
   }
-  ShapePoint "{64943884F2F1007C}" {
-   Position -12.304 0.665 137.872
+  ShapePoint "{655ECB31ADE9DA88}" {
+   Position 43.254 0.955 138.544
   }
-  ShapePoint "{64943884CF53971C}" {
-   Position -99.753 1.318 79.625
+  ShapePoint "{655ECB31A33E9538}" {
+   Position -12.361 0.667 138.111
   }
-  ShapePoint "{64943884CC6A3598}" {
-   Position -43.91 1.132 -0.564
+  ShapePoint "{655ECB31B5D46849}" {
+   Position -99.813 1.321 79.922
   }
-  ShapePoint "{64943884C7205162}" {
-   Position 0.078 -0.001 -0.115
+  ShapePoint "{655ECB3184764C86}" {
+   Position -68.026 0.861 32.442
+  }
+  ShapePoint "{655ECB319FBB1E17}" {
+   Position -60.715 0.667 22.189
+  }
+  ShapePoint "{655ECB319AFD11D8}" {
+   Position -44.055 1.131 -0.29
   }
  }
- IsClosed 1
  {
   PS_PolyZoneTrigger {
    components {
     Hierarchy "{614548BDF998E12B}" {
     }
    }
-   coords 170.009 1.591 -71.592
+   coords 169.912 1.592 -71.373
    TriggerShapeType Polyline
    "Polyline Height" 500
    ShapeColor 1 0 0 0
