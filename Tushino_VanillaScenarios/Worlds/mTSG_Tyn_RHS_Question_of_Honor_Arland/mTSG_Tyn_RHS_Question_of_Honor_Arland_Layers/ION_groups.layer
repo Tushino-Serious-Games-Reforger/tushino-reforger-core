@@ -1,23 +1,27 @@
 $grp SCR_AIGroup : "{087C09FBF41A86AF}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_HQ.et" {
- AR1 {
+ BR1 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "rank"
+   }
+   PS_GroupCallsignAssigner "{62B47CF8375BEC52}" {
+    m_iCompanyCallsign 1
    }
   }
   coords 1406.601 36.251 2338.901
   angleY -92.112
   m_faction "RHS_ION"
   m_aUnitPrefabSlots {
-   "{C77498DB7A3A0CFF}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_HQ.et" "{665EEAE4A6507C20}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_businessman.et" "{46720C6F51489364}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_medic.et" "{B0D0BCB4DD4775FD}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_sniper.et"
+   "{C77498DB7A3A0CFF}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_HQ.et" "{46720C6F51489364}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_medic.et" "{B0D0BCB4DD4775FD}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_sniper.et"
   }
  }
- AW1 {
+ BW1 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "rank"
    }
    PS_GroupCallsignAssigner "{62B47CF8375BEC52}" {
+    m_iCompanyCallsign 1
     m_iPlatoonCallsign 1
    }
   }
@@ -28,12 +32,13 @@ $grp SCR_AIGroup : "{087C09FBF41A86AF}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_
    "{CEE053D75FF1EE87}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_SL.et" "{2CBBE57F3592C32F}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_TM.et" "{F2178CA8A9718502}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_rifleman.et" "{F2178CA8A9718502}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_rifleman.et" "{2CBBE57F3592C32F}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_TM.et" "{7BC0CB0914FC52C8}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_AT.et" "{7BC0CB0914FC52C8}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_AT.et"
   }
  }
- AW2 {
+ BW2 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "rank"
    }
    PS_GroupCallsignAssigner "{62B47CF8375BEC52}" {
+    m_iCompanyCallsign 1
     m_iPlatoonCallsign 1
     m_iSquadCallsign 1
    }
@@ -45,12 +50,13 @@ $grp SCR_AIGroup : "{087C09FBF41A86AF}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_
    "{CEE053D75FF1EE87}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_SL.et" "{2CBBE57F3592C32F}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_TM.et" "{F2178CA8A9718502}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_rifleman.et" "{F2178CA8A9718502}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_rifleman.et" "{2CBBE57F3592C32F}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_TM.et" "{7BC0CB0914FC52C8}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_AT.et" "{7BC0CB0914FC52C8}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_AT.et"
   }
  }
- AG1 {
+ BW4 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "rank"
    }
    PS_GroupCallsignAssigner "{62B47CF8375BEC52}" {
+    m_iCompanyCallsign 1
     m_iPlatoonCallsign 1
     m_iSquadCallsign 3
    }
@@ -62,12 +68,13 @@ $grp SCR_AIGroup : "{087C09FBF41A86AF}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_
    "{CEE053D75FF1EE87}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_SL.et" "{2CBBE57F3592C32F}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_TM.et" "{7BC0CB0914FC52C8}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_AT.et" "{7BC0CB0914FC52C8}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_AT.et" "{2CBBE57F3592C32F}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_TM.et" "{F2178CA8A9718502}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_rifleman.et" "{F2178CA8A9718502}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_rifleman.et"
   }
  }
- AW3 {
+ BW3 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "rank"
    }
    PS_GroupCallsignAssigner "{62B47CF8375BEC52}" {
+    m_iCompanyCallsign 1
     m_iPlatoonCallsign 1
     m_iSquadCallsign 2
    }
@@ -78,5 +85,19 @@ $grp SCR_AIGroup : "{087C09FBF41A86AF}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_
   m_aUnitPrefabSlots {
    "{CEE053D75FF1EE87}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_SL.et" "{2CBBE57F3592C32F}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_TM.et" "{F2178CA8A9718502}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_rifleman.et" "{F2178CA8A9718502}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_rifleman.et" "{2CBBE57F3592C32F}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_TM.et" "{7BC0CB0914FC52C8}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_AT.et" "{7BC0CB0914FC52C8}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_AT.et"
   }
+ }
+ AR1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "rank"
+   }
+  }
+  coords 1399.743 35.994 2336.677
+  angleY -1.75
+  m_faction "RHS_ION"
+  m_aUnitPrefabSlots {
+   "{665EEAE4A6507C20}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_businessman.et"
+  }
+  m_sCustomNameSet "Обязательно занять"
  }
 }

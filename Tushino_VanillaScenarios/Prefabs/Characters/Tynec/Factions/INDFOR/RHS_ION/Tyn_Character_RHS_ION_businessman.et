@@ -6,8 +6,26 @@ SCR_ChimeraCharacter : "{D95DCAA9E414C36F}Prefabs/Characters/Tynec/Factions/INDF
     Name "#TYN-Role_employer"
    }
   }
+  SCR_ExtendedCharacterIdentityComponent "{5AEEA3C8B2AA118B}" {
+   m_ExtendedIdentity SCR_ExtendedCharacterIdentity "{5AEEA3C8BF06C593}" {
+    m_sFactionOfOriginKey "USSR"
+   }
+   m_iMinRandomAge 45
+   m_iMaxRandomAge 60
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate "{E998FA484B0C4BFF}Prefabs/Weapons/Handguns/Glock/Handgun_Glock17.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 1
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{5793DF10BF10B857}Prefabs/Characters/Heads/Head_White_03_Old.et"
+    }
+    Name "Олег"
+    Alias ""
+    Surname "Мищенко"
+   }
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
