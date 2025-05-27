@@ -68,5 +68,25 @@ SCR_ChimeraCharacter : "{D95DCAA9E414C36F}Prefabs/Characters/Tynec/Factions/INDF
     }
    }
   }
+  ActionsManagerComponent "{520EA1D2F659CE02}" {
+   additionalActions {
+    TSG_DeathConfirmAction "{657724A87E850105}" {
+     ParentContextList {
+      "LowerTorso"
+     }
+     UIInfo UIInfo "{657724A885BF6611}" {
+      Name "Подтвердить смерть"
+     }
+     Duration 6
+     m_aObjectivesToDone {
+      "employer_killed"
+     }
+     m_aObjectivesToFail {
+      "employer_protected"
+     }
+     m_FactionKey "RHS_AFRF"
+    }
+   }
+  }
  }
 }
