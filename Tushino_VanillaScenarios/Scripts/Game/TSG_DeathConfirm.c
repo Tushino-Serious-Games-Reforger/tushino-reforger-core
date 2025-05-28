@@ -8,6 +8,7 @@ class TSG_DeathConfirm : ScriptedUserAction
 	ref array<string> m_aObjectivesToFail;
 	
 	PS_Objective Objective
+	bool WasUsed = false;
 	
 	override void Init(IEntity pOwnerEntity, GenericComponent pManagerComponent)
 	{
@@ -56,6 +57,7 @@ class TSG_DeathConfirm : ScriptedUserAction
 			}
 			gameModeCoop.AdvanceGameState(SCR_EGameModeState.GAME);
 		}
+		WasUsed = true;
 	}
 }
 

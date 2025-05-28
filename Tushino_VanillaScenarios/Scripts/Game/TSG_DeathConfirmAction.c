@@ -1,7 +1,9 @@
 class TSG_DeathConfirmAction : TSG_DeathConfirm
 {
 	[Attribute(defvalue: "USSR", desc: "Which faction can see action")]
-	FactionKey m_FactionKey;
+	FactionKey m_vFactionKey;
+	[Attribute(desc: "Should become unavailable after use?", defvalue: "true")]
+	bool m_vActionEnd
 	//------------------------------------------------------------------------------------------------
 	override bool CanBeShownScript(IEntity user)
 	{
@@ -29,7 +31,7 @@ class TSG_DeathConfirmAction : TSG_DeathConfirm
 			return false;
 		
 		// Disallow action when wrong faction
-		if (!m_FactionKey)
+		if (!m_vFactionKey)
 			return false;
 		
 		FactionAffiliationComponent factionAffiliationComp = FactionAffiliationComponent.Cast(user.FindComponent(FactionAffiliationComponent));
@@ -41,9 +43,15 @@ class TSG_DeathConfirmAction : TSG_DeathConfirm
 				return false;
 		
 		SCR_Faction faction = SCR_Faction.Cast(factionAffiliationComp.GetAffiliatedFaction());
-		if (faction != factionManager.GetFactionByKey(m_FactionKey)) //check faction via factions
+		if (faction != factionManager.GetFactionByKey(m_vFactionKey)) //check faction via factions
 			return false;
 		
-		return super.CanBePerformedScript(user);
+		if(m_vActionEnd)
+		{
+			if(WasUsed)
+				return false;
+		}
+		
+		return true;
 	}
 }
