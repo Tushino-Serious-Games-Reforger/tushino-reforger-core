@@ -25,6 +25,62 @@ PS_GameModeCoop TSG_GameModeLobby2 : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_Gam
  m_bDisableVanillaGroupMenu 1
  m_bDisablePlayablesStreaming 1
  m_bFreezeTimeShootingForbiden 1
+ {
+  SCR_FactionManager {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{623962205CE2B89C}" {
+     m_CallsignInfo SCR_FactionCallsignInfo "{5CC8BB97E017CDBC}" {
+      m_aCompanyNames {
+       SCR_CallsignInfo "{55CCB792CD021D5C}" {
+        m_sCallsign "#TYN-Callsign_Alpha"
+       }
+       SCR_CallsignInfo "{55CCB792CCD598D3}" {
+        m_sCallsign "#TYN-Callsign_Bravo"
+       }
+       SCR_CallsignInfo "{55CCB792CC9C7AD6}" {
+        m_sCallsign "#TYN-Callsign_Charlie"
+       }
+       SCR_CallsignInfo "{55CCB792CCB4D441}" {
+        m_sCallsign "#TYN-Callsign_Golf"
+       }
+       SCR_CallsignInfo "{55CCB792CC5F08F3}" {
+       }
+      }
+      m_aPlatoonNames {
+       SCR_CallsignInfo "{55CCB792CE6E998D}" {
+        m_sCallsign "1"
+       }
+       SCR_CallsignInfo "{55CCB792CE18FB44}" {
+        m_sCallsign "2"
+       }
+       SCR_CallsignInfo "{55CCB792CE02ECFA}" {
+        m_sCallsign "3"
+       }
+       SCR_CallsignInfo "{55CCB792CE2A44BD}" {
+        m_sCallsign "4"
+       }
+       SCR_CallsignInfo "{6578EDAC250AF281}" {
+        m_sCallsign "5"
+       }
+       SCR_CallsignInfo "{6578EDAC24CA0598}" {
+        m_sCallsign "6"
+       }
+      }
+      m_aSquadNames {
+       SCR_CallsignInfo "{6578EDAC3ACE09B4}" {
+        m_sCallsign "5"
+       }
+       SCR_CallsignInfo "{6578EDAC3A929BE4}" {
+        m_sCallsign "6"
+       }
+      }
+      m_sCallsignGroupFormat "%1 %2-%3"
+     }
+    }
+   }
+  }
+ }
 }
 GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
  components {

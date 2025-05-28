@@ -4,9 +4,6 @@ $grp SCR_AIGroup : "{087C09FBF41A86AF}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "rank"
    }
-   PS_GroupCallsignAssigner "{62B47CF8375BEC52}" {
-    m_iCompanyCallsign 1
-   }
   }
   coords 1406.601 36.251 2338.901
   angleY -92.112
@@ -21,8 +18,7 @@ $grp SCR_AIGroup : "{087C09FBF41A86AF}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_
     DefaultFormation "rank"
    }
    PS_GroupCallsignAssigner "{62B47CF8375BEC52}" {
-    m_iCompanyCallsign 1
-    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
    }
   }
   coords 1406.465 35.954 2342.672
@@ -38,9 +34,7 @@ $grp SCR_AIGroup : "{087C09FBF41A86AF}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_
     DefaultFormation "rank"
    }
    PS_GroupCallsignAssigner "{62B47CF8375BEC52}" {
-    m_iCompanyCallsign 1
-    m_iPlatoonCallsign 1
-    m_iSquadCallsign 1
+    m_iSquadCallsign 3
    }
   }
   coords 1406.223 35.904 2349.389
@@ -56,9 +50,7 @@ $grp SCR_AIGroup : "{087C09FBF41A86AF}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_
     DefaultFormation "rank"
    }
    PS_GroupCallsignAssigner "{62B47CF8375BEC52}" {
-    m_iCompanyCallsign 1
-    m_iPlatoonCallsign 1
-    m_iSquadCallsign 3
+    m_iSquadCallsign 5
    }
   }
   coords 1391.297 36.115 2350.461
@@ -74,9 +66,7 @@ $grp SCR_AIGroup : "{087C09FBF41A86AF}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_
     DefaultFormation "rank"
    }
    PS_GroupCallsignAssigner "{62B47CF8375BEC52}" {
-    m_iCompanyCallsign 1
-    m_iPlatoonCallsign 1
-    m_iSquadCallsign 2
+    m_iSquadCallsign 4
    }
   }
   coords 1406.036 35.841 2356.149
@@ -90,6 +80,9 @@ $grp SCR_AIGroup : "{087C09FBF41A86AF}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "rank"
+   }
+   PS_GroupCallsignAssigner "{62B47CF8375BEC52}" {
+    m_iSquadCallsign 1
    }
   }
   coords 1399.743 35.994 2336.677
