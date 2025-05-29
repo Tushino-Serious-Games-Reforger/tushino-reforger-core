@@ -34,22 +34,22 @@ SCR_ChimeraCharacter : "{5413AF702DE14824}Prefabs/Characters/Tynec/Factions/OPFO
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6460BC2E66B7E1E9}" {
-     TargetStorage "Prefabs/Characters/Uniforms/VKPO/Field_Pants_VKPO.et"
+     TargetStorage "Pants/Field_Pants_VKPO.et"
      PrefabsToSpawn {
       "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
      }
     }
     ItemsInitConfigurationItem "{6460BC2E70A4E649}" {
-     TargetStorage "Prefabs/Characters/Uniforms/VKPO/Field_Jacket_VKPO.et"
+     TargetStorage "Jacket/Field_Jacket_VKPO.et"
      TargetPurpose 64
      PrefabsToSpawn {
       "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
      }
     }
     ItemsInitConfigurationItem "{6460BC2E5922A6B6}" {
-     TargetStorage "Prefabs/Characters/Uniforms/VKPO/Field_Jacket_VKPO.et"
+     TargetStorage "Jacket/Field_Jacket_VKPO.et"
      PrefabsToSpawn {
-      "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et"
+      "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/PaperMap_01_folded_USSR.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et"
      }
     }
    }
