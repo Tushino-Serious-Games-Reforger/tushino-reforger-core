@@ -1775,8 +1775,8 @@ StringTable {
   CustomStringTableItem "{6492866173296C20}" {
    Id "TYN-Role_employer"
    Target_en_us "Employer"
-   Target_ru_ru "Закасчик"
-   Modified 1687331918
+   Target_ru_ru "Заказчик"
+   Modified 1702578698
    Author "p1vas"
    LastChanged "p1vas"
   }
