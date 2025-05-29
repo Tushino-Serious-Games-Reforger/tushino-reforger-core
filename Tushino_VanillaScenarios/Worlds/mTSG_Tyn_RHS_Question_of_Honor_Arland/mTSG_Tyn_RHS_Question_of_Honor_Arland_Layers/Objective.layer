@@ -139,7 +139,6 @@ $grp TSG_EntityConstraint {
     coords 0 0 0
     m_sTitle "Заказчик убит"
     m_sFactionKey "RHS_AFRF"
-    m_bAdvanceWhenTriggered 1
    }
   }
  }
