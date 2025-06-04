@@ -37,20 +37,20 @@ SCR_ChimeraCharacter : "{5413AF702DE14824}Prefabs/Characters/Tynec/Factions/OPFO
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{64925B07D668EFBE}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_ATACS.et"
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_ATACS.et"
      TargetPurpose 64
      PrefabsToSpawn {
       "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
      }
     }
     ItemsInitConfigurationItem "{64925B07D625BDF1}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_ATACS.et"
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_ATACS.et"
      PrefabsToSpawn {
-      "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et"
+      "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/PaperMap_01_folded_USSR.et"
      }
     }
     ItemsInitConfigurationItem "{64925B07D5EAEE46}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_atacs.et"
+     TargetStorage "Pants/crye_pants_atacs.et"
      PrefabsToSpawn {
       "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
      }
