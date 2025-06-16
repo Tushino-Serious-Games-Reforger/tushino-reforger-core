@@ -1,0 +1,17 @@
+SCR_ChimeraCharacter : "{78EA5CC4F1C527F3}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Crew_Commander.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role_CrewGunner"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{EB2F05A3751B905A}Prefabs/Characters/HeadGear/Helmet_TSh4_01/Helmet_TSh4_01.et"
+    }
+   }
+  }
+ }
+}

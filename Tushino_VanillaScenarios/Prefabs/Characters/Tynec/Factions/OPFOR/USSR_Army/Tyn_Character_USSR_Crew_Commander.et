@@ -1,0 +1,63 @@
+SCR_ChimeraCharacter : "{2940AA84B1B66F05}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Unarmed.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role_CrewCommanderV"
+    Icon "{916C4E2CE39A8915}UI/Icons/crew.edds"
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{BFEA719491610A45}Prefabs/Weapons/Rifles/AKS74U/Rifle_AKS74U.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{D6B1ACA46036E9CE}Prefabs/Characters/HeadGear/Helmet_TSh4_01/Helmet_TSh4_01_open.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{78C9B02C0CBD594C}Prefabs/Characters/Uniforms/Jacket_Tanker_USSR_01/Jacket_Tanker_USSR_01.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DC91A67E1074AAC0}Prefabs/Characters/Uniforms/Pants_Tanker_USSR_01/Pants_Tanker_USSR_01_tucked.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{E90F2EB67A9CF49A}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_02.et"
+    }
+    LoadoutSlotInfo Vest {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{62AEFA3AD0A1511A}" {
+     TargetStorage "Jacket/Jacket_Tanker_USSR_01.et"
+    }
+    ItemsInitConfigurationItem "{62AEFA3B37BC94B5}" {
+     TargetStorage "Jacket/Jacket_Tanker_USSR_01.et"
+    }
+    ItemsInitConfigurationItem "{62AEFA3AD0E95D41}" {
+     TargetStorage "Pants/Pants_Tanker_USSR_01_tucked.et"
+    }
+    ItemsInitConfigurationItem "{62AEFA2663CD0DDB}" {
+     TargetStorage "Pants/Pants_Tanker_USSR_01_tucked.et"
+     PrefabsToSpawn {
+      "{62A47238C3C098DC}Prefabs/Items/Tynec/Equipment/Radios/Tyn_Radio_R148_SL.et"
+     }
+    }
+    ItemsInitConfigurationItem "{62B7066803E5B947}" {
+     TargetStorage "Back/Backpack_Medical_Soviet_NoCross_02.et"
+     PrefabsToSpawn {
+      "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et" "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et" "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et" "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et" "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+   }
+  }
+ }
+}
