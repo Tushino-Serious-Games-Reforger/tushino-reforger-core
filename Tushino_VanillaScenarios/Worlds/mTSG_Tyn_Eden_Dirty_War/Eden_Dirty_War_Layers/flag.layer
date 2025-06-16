@@ -1,4 +1,24 @@
-GenericEntity : "{8528347E5F47F2A4}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_FIA.et" {
+GenericEntity FLAG : "{8528347E5F47F2A4}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_FIA.et" {
+ components {
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_aObjectiveNames {
+    "Objective_1" "Objective_2"
+   }
+   m_aFlagData {
+    PS_FlagData "{65A0E48FFFAAA5ED}" {
+     m_sFactionKey "FIA"
+    }
+    PS_FlagData "{65A140E035D8BB6A}" {
+     m_sFactionKey "USSR"
+     m_iCaptureCounter 1
+    }
+   }
+   m_sFactionKey "FIA"
+   m_bUseAdvanceGameState 1
+   m_sUseNotification 1
+   m_sNotificationText "Советские войска захватили город"
+  }
+ }
  coords 4501.797 18.538 9486.219
  angleX 56.346
 }

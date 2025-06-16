@@ -1,8 +1,8 @@
 SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
- coords 111.676 1 127.135
+ coords 4610.076 14.857 9606.795
 }
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
- coords 113.126 1 124.397
+ coords 4611.526 14.857 9604.058
 }
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  components {
@@ -13,14 +13,16 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
    m_iStartingHours 9
   }
  }
+ coords 4498.4 13.857 9479.66
  m_bMarkersOnlyOnBriefing 1
  m_bRemoveRedundantUnits 1
  m_bRemoveSquadMarkers 1
  m_iFreezeTime 300000
  m_bDisableChat 1
  m_bReserveSlots 1
+ m_bDisableVanillaGroupMenu 1
  {
-  SCR_FactionManager "62B47CF63FDA2442" {
+  SCR_FactionManager "5EE8949D46B62B0A" {
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{56DEAC40D2DBC8B1}" {
@@ -32,21 +34,69 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
     SCR_Faction "{56DEAC40D132400B}" {
      m_bIsPlayable 1
     }
-    SCR_Faction "{607AA5C7A94496DA}" {
-     m_bIsPlayable 1
-    }
    }
   }
  }
 }
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_iTestingPlayerCounts 5
+   m_aLossLogics {
+    LossLogic "{655131A7A3F08DEC}" {
+     m_aLosses {
+      FactionLoss "{655131A7A42618E9}" {
+       m_iCriticalLossCount 4
+      }
+     }
+     m_sObjectiveNames {
+      "Objective_3"
+     }
+     m_bAdvanceGameStage 1
+    }
+    LossLogic "{655450C72DFDD54D}" {
+     m_aLosses {
+      FactionLoss "{655450C727047E66}" {
+       m_iCriticalLossCount 2
+       m_sFactionKey "FIA"
+      }
+     }
+     m_sObjectiveNames {
+      "Objective_4"
+     }
+    }
+   }
+  }
+ }
+ coords 4492.357 13.532 9468.027
+}
 $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
- {
-  coords 7231.358 125.976 4914.251
+ Objective_1 {
+  coords 7231.357 125.976 4914.25
   m_sTitle "Удержать свои позиции в городе \"Мо\""
  }
- {
-  coords 7284.442 145.713 4952.991
+ Objective_2 {
+  coords 7284.441 145.713 4952.991
   m_sTitle "Захватить город \"Мо\""
   m_sFactionKey "USSR"
  }
+ Objective_3 {
+  coords 4501.742 13.961 9476.539
+  angleX -2.684
+  m_sTitle "Партизаны разгромленны"
+  m_sFactionKey "USSR"
+ }
+ Objective_4 {
+  coords 4498.436 13.778 9476.066
+  angleX -2.684
+  m_sTitle "Советские войска разгромленны"
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2700
+  }
+ }
+ coords 4490.259 14.263 9466.313
 }

@@ -461,48 +461,6 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 0
  }
  {
-  coords 4510.142 13.689 9459.475
-  angleX -0.895
-  angleY 1.057
-  angleZ -0.016
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0 0.44 0.078 1
-  m_sQuadName "Car"
-  m_fWorldSize 2.399
-  m_sDescription "#AR-Vehicle_M1025_M2_Name"
-  m_bUseWorldScale 1
-  m_aVisibleForFactions {
-   "FIA" "US" "USSR"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-   1
-  }
-  m_iZOrder 0
- }
- {
-  coords 4520.278 14.016 9459.244
-  angleX -1.799
-  angleY -0.302
-  angleZ -1.78
-  m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
-  m_sImageSetGlow ""
-  m_MarkerColor 0 0.44 0.078 1
-  m_sQuadName "Car"
-  m_fWorldSize 2.399
-  m_sDescription "#AR-Vehicle_M1025_M2_Name"
-  m_bUseWorldScale 1
-  m_aVisibleForFactions {
-   "FIA" "US" "USSR"
-  }
-  m_bVisibleForEmptyFaction 1
-  m_aHideOnGameModeStates {
-   1
-  }
-  m_iZOrder 0
- }
- {
   coords 4479.534 13.68 9471.961
   angleX 0.882
   angleY 180.84
@@ -955,7 +913,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 10
  }
  USSR_G_103_M {
-  coords 5339.17 19.597 9761.087
+  coords 5337.604 19.597 9761.561
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
@@ -1023,7 +981,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 10
  }
  USSR_G_203_M {
-  coords 5337.611 19.333 9749.852
+  coords 5334.71 19.333 9750.073
   m_sImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
   m_sImageSetGlow ""
   m_MarkerColor 1 1 1 1
