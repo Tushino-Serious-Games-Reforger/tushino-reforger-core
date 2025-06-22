@@ -25,6 +25,17 @@ Vehicle Ural4320_FIA_transport1 : "{16E32C3ABEAFC2C6}Prefabs/Vehicles/Wheeled/Ur
  angleY -84.585
  angleZ -0.637
 }
+Vehicle UAZ452_transport1 : "{1FBB492E86002BF5}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport.et" {
+ coords 4537.656 14.558 9474.647
+}
+$grp Turret : "{29F0CC704A582154}Prefabs/Weapons/Tripods/6T7/Tripod_6T7_NSV.et" {
+ {
+  coords 4534.853 14.545 9467.466
+ }
+ {
+  coords 4534.787 14.525 9460.304
+ }
+}
 $grp SCR_AIGroup : "{3CCCF1BD3EDBCA86}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_RifleSquad.et" {
  FIA_RS1 {
   components {
@@ -118,6 +129,9 @@ $grp SCR_AIGroup : "{3CCCF1BD3EDBCA86}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_
   }
  }
 }
+Turret : "{3EA26CFD7A202636}Prefabs/Weapons/Tripods/6T7/Tripod_6T7_NSV_SPP.et" {
+ coords 4535.092 14.531 9474.556
+}
 $grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
  M1025_armed_M2HB1 {
   components {
@@ -186,6 +200,9 @@ $grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
   m_sAttachmentGroupName "FIA_RS2"
  }
 }
+Vehicle UAZ452_transport_CIV_blue1 : "{A2C4DBCDDE967600}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport_CIV_blue.et" {
+ coords 4537.7 14.602 9467.157
+}
 Vehicle UAZ469_covered_CIV_VAK1 : "{B2CC137FE424B129}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_VAK.et" {
  components {
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
@@ -214,6 +231,9 @@ Vehicle BTR70_FIA1 : "{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA
  angleY -91.39
  angleZ -0.851
  m_sAttachmentGroupName "FIA_RS6"
+}
+Vehicle UAZ452_transport_FIA1 : "{BDE16A6AE9942D44}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport_FIA.et" {
+ coords 4537.797 14.634 9459.149
 }
 $grp SCR_AIGroup : "{C5D8F4AAE0D8989A}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_Platoon.et" {
  FIA_PL1 {
