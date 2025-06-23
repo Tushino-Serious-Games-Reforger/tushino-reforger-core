@@ -1,11 +1,51 @@
 $grp GenericEntity : "{0DBE058F13F0C7E8}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_US.et" {
- {
+ Flag1 {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aObjectiveNames {
+     "US_Capture" "USSR_Capture"
+    }
+    m_aFlagData {
+     PS_FlagData "{65AF519C1426096C}" {
+      m_sFactionKey "US"
+     }
+     PS_FlagData "{65AF519C6D4A8394}" {
+      m_sFactionKey "USSR"
+      m_iCaptureCounter 1
+     }
+    }
+    m_sFactionKey "US"
+    m_bUseAdvanceGameState 1
+    m_sUseNotification 1
+    m_sNotificationText "Шотан был захвачен советской армией"
+   }
+  }
   coords 7099.294 132.365 6029.422
   angleX 15.499
   angleY -29.876
   angleZ -36.226
  }
- {
+ Flag2 {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_aObjectiveNames {
+     "USSR_Capture" "US_Capture"
+    }
+    m_aFlagData {
+     PS_FlagData "{65AF519C7FAD9056}" {
+      m_sFactionKey "US"
+     }
+     PS_FlagData "{65AF519C7EB14166}" {
+      m_sFactionKey "USSR"
+      m_iCaptureCounter 1
+     }
+    }
+    m_sFactionKey "US"
+    m_bUseAdvanceGameState 1
+    m_sUseNotification 1
+    m_sNotificationText "Ларун был захвачен советской армией"
+   }
+  }
   coords 7546.135 88.292 5512.713
   angleX -11.424
   angleY 162.695
