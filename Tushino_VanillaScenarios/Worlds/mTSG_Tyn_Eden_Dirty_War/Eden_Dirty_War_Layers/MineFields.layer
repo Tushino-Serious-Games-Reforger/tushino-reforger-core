@@ -7,8 +7,8 @@ $grp GenericEntity : "{28ECED0C0F3655DB}PrefabsEditable/EffectsModules/Mine/Effe
       m_fWidth 300.5
       m_fLength 236.1
      }
-     m_iMinProjectilesEachBarrage 480
-     m_iMaxProjectilesEachBarrage 480
+     m_iMinProjectilesEachBarrage 460
+     m_iMaxProjectilesEachBarrage 460
     }
    }
   }
