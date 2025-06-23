@@ -1,6 +1,9 @@
-GenericEntity : "{0DBE058F13F0C7E8}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_US.et" {
+GenericEntity Flag_pole : "{0DBE058F13F0C7E8}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_US.et" {
  components {
   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_aObjectiveNames {
+    "Objective1" "Objective2"
+   }
    m_aFlagData {
     PS_FlagData "{62C890247B67AC04}" {
      m_sFactionKey "US"
@@ -11,6 +14,8 @@ GenericEntity : "{0DBE058F13F0C7E8}PrefabsEditable/Auto/Structures/Military/Flag
     }
    }
    m_sFactionKey "US"
+   m_bUseAdvanceGameState 1
+   m_sUseNotification 1
   }
  }
  coords 5281.736 70.308 5304.347

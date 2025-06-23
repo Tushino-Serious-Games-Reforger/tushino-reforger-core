@@ -1,20 +1,20 @@
 $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
- {
+ Objective1 {
   coords 7072.119 118.641 6023.772
   m_sTitle "Удержать опорный пункт"
   m_sFactionKey "USSR"
  }
- {
+ Objective2 {
   coords 7092.348 130.04 6016.341
   m_sTitle "Захватить опорный пункт"
   m_sFactionKey "US"
  }
- {
+ Objective3 {
   coords 7092.348 130.04 6016.341
   m_sTitle "Разгромить противника"
   m_sFactionKey "US"
  }
- {
+ Objective4 {
   coords 7072.119 118.641 6023.772
   m_sTitle "Разгромить противника"
   m_sFactionKey "USSR"

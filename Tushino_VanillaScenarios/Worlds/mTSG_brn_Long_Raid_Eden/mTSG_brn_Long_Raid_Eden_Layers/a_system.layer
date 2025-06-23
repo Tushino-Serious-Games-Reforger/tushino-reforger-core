@@ -24,15 +24,61 @@ PS_GameModeCoop "62F956D81A25B236" : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_Gam
  m_bDisableChat 1
  m_bReserveSlots 1
 }
-TSG_MissionTime {
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
  components {
-  SCR_EditableEntityComponent "{6456CDDB161AB9AB}" {
-   m_UIInfo SCR_EditableEntityUIInfo "{6456CDDB197C9C52}" {
-    Name "Завершение миссии по времени"
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_iTestingPlayerCounts 7
+   m_aLossLogics {
+    LossLogic "{65AEE57FF3FC3ACB}" {
+     m_aLosses {
+      FactionLoss "{65AEE57C773609FD}" {
+       m_iCriticalLossCount 4
+      }
+     }
+     m_sObjectiveNames {
+      "USSR_Losses"
+     }
+     m_bAdvanceGameStage 1
+    }
+    LossLogic "{65AEE57FF39B6EF0}" {
+     m_aLosses {
+      FactionLoss "{65AEE57C5E7AB3A7}" {
+       m_iCriticalLossCount 7
+       m_sFactionKey "US"
+      }
+     }
+     m_sObjectiveNames {
+      "US_Losses"
+     }
+     m_bAdvanceGameStage 1
+    }
    }
   }
-  RplComponent "{6456CDDB13433820}" {
+ }
+ coords 4747.67 27.901 11778.648
+}
+GenericEntity : "{7A333AFB11EA847A}Prefabs/System/DRG_VehicleDestroyPrefab.et" {
+ components {
+  DRG_VehicleDestroyComponent "{65733BD6110AE8FC}" {
+   m_aVehicleLossLogics {
+    VehicleLossLogic "{65AEE57F1F98DD60}" {
+     m_bAdvanceGameStage 1
+     m_sSuccessObjectiveNames {
+      "Heli_Destroy"
+     }
+     m_sFailedObjectiveNames {
+      "Heli_Save"
+     }
+     m_sVehicleEntityNames {
+      "heli1" "heli2" "heli3" "heli4"
+     }
+     m_sMessage "Все вертолёты были уничтоженны"
+    }
+   }
   }
  }
- coords 4768.009 28.562 11592.864
+ coords 4782.511 28.648 11670.07
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ coords 4747.279 28.575 11703.217
 }

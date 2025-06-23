@@ -93,3 +93,34 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
   }
  }
 }
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_aLossLogics {
+    LossLogic "{65AEE553428C4794}" {
+     m_aLosses {
+      FactionLoss "{65AEE553409B478B}" {
+      }
+     }
+     m_sObjectiveNames {
+      "Objective3"
+     }
+     m_bAdvanceGameStage 1
+    }
+    LossLogic "{65AEE5500F990FCC}" {
+     m_aLosses {
+      FactionLoss "{65AEE5500DBFB388}" {
+       m_iCriticalLossCount 3
+       m_sFactionKey "US"
+      }
+     }
+     m_sObjectiveNames {
+      "Objective4"
+     }
+     m_bAdvanceGameStage 1
+    }
+   }
+  }
+ }
+ coords 5281.935 64.114 5316.319
+}
