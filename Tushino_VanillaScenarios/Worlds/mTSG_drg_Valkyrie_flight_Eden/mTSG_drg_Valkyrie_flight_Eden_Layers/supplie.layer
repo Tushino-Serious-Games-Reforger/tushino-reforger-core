@@ -3,8 +3,9 @@ Vehicle M923A1_repair1 : "{A042ACE5C2B13206}Prefabs/Vehicles/Wheeled/M923A1/M923
  angleX 2.822
  angleY -22.378
  angleZ -0.194
+ m_sAttachmentGroupName "US_5_0_0_T"
 }
-$grp GenericEntity : "{CC03E3F4B1E5E1B8}Prefabs/Items/drongo/Bulba_basic.et" {
+$grp GenericEntity : "{CC03E3F4B1E5E1B8}Prefabs/Items/Bulba_basic.et" {
  {
   coords 11122.822 34.587 11558.396
   angleX 3.173

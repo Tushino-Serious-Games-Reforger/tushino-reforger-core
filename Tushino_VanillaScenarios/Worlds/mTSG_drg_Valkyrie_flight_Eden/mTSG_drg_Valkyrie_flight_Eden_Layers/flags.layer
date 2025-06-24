@@ -1,6 +1,9 @@
 GenericEntity : "{14B2D417839BF8A3}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_USSR.et" {
  components {
   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_aObjectiveNames {
+    "Objective1" "Objective2"
+   }
    m_aFlagData {
     PS_FlagData "{62C7136BD6BA2D9B}" {
      m_sFactionKey "US"
