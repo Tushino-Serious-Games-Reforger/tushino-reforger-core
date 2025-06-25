@@ -45,10 +45,9 @@ SCR_ChimeraCharacter : "{7ADE36D180AF0F71}Prefabs/Characters/Tynec/Factions/INDF
      Prefab "{73EFD7591F4134D4}Prefabs/Items/Tynec/Equipment/Radios/Radio_RF10/Tyn_Radio_RF10.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{D8DDD4941197A92A}Prefabs/Characters/Tynec/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_Commander_morespace.et"
+     Prefab "{D8DDD4941197A929}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_Commander.et"
     }
     LoadoutSlotInfo HandWear {
-     Name "Handwear"
      AreaType LoadoutHandwearSlotArea "{5E38A40DE3C30495}" {
      }
     }
@@ -57,33 +56,39 @@ SCR_ChimeraCharacter : "{7ADE36D180AF0F71}Prefabs/Characters/Tynec/Factions/INDF
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{62F312DAB2968140}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Pants_TAZ83/Pants_TAZ83_01.et"
+     TargetStorage "Jacket/Jacket_TAZ83_01.et"
     }
     ItemsInitConfigurationItem "{62F312DAB4D9A2B7}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Jacket_TAZ83/Jacket_TAZ83_01.et"
+     TargetStorage "Jacket/Jacket_TAZ83_01.et"
     }
     ItemsInitConfigurationItem "{62F312DAA939F9A6}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Jacket_TAZ83/Jacket_TAZ83_01.et"
+     TargetStorage "Jacket/Jacket_TAZ83_01.et"
     }
     ItemsInitConfigurationItem "{62F312D9DB991312}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Pants_TAZ83/Pants_TAZ83_01.et"
+     TargetStorage "Pants/Pants_TAZ83_01.et"
     }
     ItemsInitConfigurationItem "{62B30ED4B88B7D07}" {
-     TargetStorage "Prefabs/Items/Equipment/Accessories/Pouch_Soviet_30rnd_AK74/Pouch_Soviet_30rnd_AK74.et"
+     TargetStorage "Vest/Vest_SovietHarness_Commander.et/MagPouch_6Sh46/Pouch_Soviet_30rnd_AK74.et"
      PrefabsToSpawn {
-      "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{BBB50A815A2F916B}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Ball.et" "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+      "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et" "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et" "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et" "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{62B30ED4A2508ECA}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_GrenadePouch.et"
+     TargetStorage "Vest/Vest_SovietHarness_Commander.et/GrenadePouch/Vest_SovietHarness_GrenadePouch.et"
      PrefabsToSpawn {
       "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
      }
     }
     ItemsInitConfigurationItem "{62B47CEB6A7A8466}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_GrenadePouch.et"
+     TargetStorage "Pants/Pants_TAZ83_01.et"
      PrefabsToSpawn {
-      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65B2F011742B497A}" {
+     TargetStorage "Pants/Pants_TAZ83_01.et"
+     PrefabsToSpawn {
+      "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
      }
     }
    }

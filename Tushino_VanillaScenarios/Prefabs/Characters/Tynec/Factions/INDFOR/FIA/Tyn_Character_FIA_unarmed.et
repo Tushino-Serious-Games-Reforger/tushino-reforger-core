@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{D19D9067132B15A7}Prefabs/Characters/Tynec/Factions/INDFOR/FIA/Tyn_Character_FIA_base.et" {
+SCR_ChimeraCharacter : "{D19D9067132B15A7}Prefabs/Characters/Tynec/Factions/INDFOR/Tyn_Character_FIA_base.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -40,26 +40,26 @@ SCR_ChimeraCharacter : "{D19D9067132B15A7}Prefabs/Characters/Tynec/Factions/INDF
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{62F312DAB2968140}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Pants_M70.et"
+     TargetStorage "Pants/Pants_M70.et"
      PrefabsToSpawn {
-      "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
      }
     }
     ItemsInitConfigurationItem "{62F312DAB4D9A2B7}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Jacket_M70.et"
+     TargetStorage "Jacket/Jacket_M70.et"
      PrefabsToSpawn {
       "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et"
      }
     }
     ItemsInitConfigurationItem "{62F312DAA939F9A6}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Jacket_M70.et"
+     TargetStorage "Jacket/Jacket_M70.et"
      TargetPurpose 64
      PrefabsToSpawn {
       "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
      }
     }
     ItemsInitConfigurationItem "{62F312D9DB991312}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Pants_M70.et"
+     TargetStorage "Pants/Pants_M70.et"
      PrefabsToSpawn {
       "{EEA485367BDBB745}Prefabs/Items/Tynec/Equipment/Radios/Tyn_Radio_ANPRC68_FIA.et"
      }

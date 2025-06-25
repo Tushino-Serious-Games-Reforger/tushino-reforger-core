@@ -46,10 +46,10 @@ SCR_ChimeraCharacter : "{7ADE36D180AF0F71}Prefabs/Characters/Tynec/Factions/INDF
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{62F312DAB4D9A2B7}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Jacket_TAZ83/Jacket_TAZ83_01.et"
+     TargetStorage "Jacket/Jacket_TAZ83_01.et"
     }
     ItemsInitConfigurationItem "{62F312DAA939F9A6}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Jacket_TAZ83/Jacket_TAZ83_01.et"
+     TargetStorage "Jacket/Jacket_TAZ83_01.et"
     }
     ItemsInitConfigurationItem "{62F312D9DB991312}" {
      TargetStorage ""
