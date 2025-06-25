@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{8BCAD8181325AB63}Prefabs/Characters/Tynec/Factions/INDFOR/FIA/Tyn_Character_FIA_aAT_armored.et"
+ Name "{C8D7C30E00216A26}Prefabs/Characters/Tynec/Factions/INDFOR/FIA/Tyn_Character_FIA_rifleman_armored.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
