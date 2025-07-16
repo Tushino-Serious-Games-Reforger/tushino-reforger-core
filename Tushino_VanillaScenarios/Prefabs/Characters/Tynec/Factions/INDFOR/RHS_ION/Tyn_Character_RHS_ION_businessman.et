@@ -84,7 +84,7 @@ SCR_ChimeraCharacter : "{D95DCAA9E414C36F}Prefabs/Characters/Tynec/Factions/INDF
      m_aObjectivesToFail {
       "employer_protected"
      }
-     m_FactionKey "RHS_AFRF"
+     m_vFactionKey "RHS_AFRF"
     }
    }
   }
