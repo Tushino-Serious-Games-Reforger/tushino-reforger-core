@@ -67,6 +67,7 @@ class TSG_FillPassportDataComponent : ScriptComponent
 		{
 			ChangeAIAllias();
 			GetGame().GetCallqueue().Remove(DoIt);
+			GetGame().GetCallqueue().CallLater(DoIt, 300000, true);
 		}
 		
 	}
