@@ -46,10 +46,14 @@ class TSG_DeathConfirmAction : TSG_DeathConfirm
 		if (faction != factionManager.GetFactionByKey(m_vFactionKey)) //check faction via factions
 			return false;
 		
-		if(m_vActionEnd)
+		if (m_vActionEnd == true)
 		{
-			if(WasUsed)
-				return false;
+			foreach(string ObjectiveName : GetDoneObjectives())
+			{
+				PS_Objective Objective = PS_Objective.Cast(GetGame().GetWorld().FindEntityByName(ObjectiveName));
+				if (Objective.GetCompleted() == true)
+					return false;
+			}
 		}
 		
 		return true;
