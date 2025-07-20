@@ -17,7 +17,7 @@ class TSG_FillPassportDataComponent : ScriptComponent
 		if(!GameModeCoop)
 			return;
 		
-		GetGame().GetCallqueue().CallLater(DoIt, 3990, true);
+		GetGame().GetCallqueue().CallLater(DoIt, 4000, true);
 	}
 	
 	void FindAllPlayers()
@@ -45,7 +45,11 @@ class TSG_FillPassportDataComponent : ScriptComponent
 		foreach(int ID : PlayersID)
 		{
 			IEntity Character = PlaybleManager.GetPlayableById(PlaybleManager.GetPlayableByPlayer(ID)).GetPlayableComponent().GetOwner();
+			if (!Character)
+				return;
 			Identity CharacterIdentity = CharacterIdentityComponent.Cast(Character.FindComponent(CharacterIdentityComponent)).GetIdentity();
+			if (!CharacterIdentity)
+				return;
 			CharacterIdentity.SetAlias(PlaybleManager.GetPlayerName(ID));
 		}
 	}
