@@ -11,15 +11,13 @@ class TSG_FillPassportDataComponent : ScriptComponent
 	override void OnPostInit(IEntity owner)
 	{
 		if (!GetGame().InPlayMode() || !Replication.IsServer())
-		{
-			Print("Server replication error or game is not running", LogLevel.ERROR);
             return;
-		}
+
 		GameModeCoop = PS_GameModeCoop.Cast(GetGame().GetGameMode());
 		if(!GameModeCoop)
 			return;
 		
-		GetGame().GetCallqueue().CallLater(DoIt, 1000, true);
+		GetGame().GetCallqueue().CallLater(DoIt, 3990, true);
 	}
 	
 	void FindAllPlayers()
