@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{763010CE05A28A11}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/Tyn_Character_UK_Base.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

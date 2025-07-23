@@ -1,0 +1,52 @@
+GenericEntity : "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   "Encryption key" "royalCrown"
+   "Turned on" 1
+   Transceivers {
+    RadioTransceiver "{5EA4A89F0D06E18F}" {
+     ChannelFrequency 10500
+     "Transmitting Range" 10000
+     "Min tunable frequency" 2000
+     "Max tunable frequency" 29000
+     "Frequency resolution" 100
+    }
+   }
+  }
+  SCR_DeployableInventoryItemInventoryComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "#BF-Item_Radio_PRC320_Name"
+     Description "#BF-Item_Radio_PRC320_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 5
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5EA4A89F0D06E1A6}" {
+      CameraPreset Front
+      CameraOrbitAngles -25 -25 180
+      CameraOffset 0 0.85 0
+      ItemRenderRotation 180 180 0
+      PreviewModel "{8000A87A9154E3AD}Assets/Items/Equipment/Backpacks/Backpack_Radio/Backpack_Radio_Item_01.xob"
+     }
+    }
+   }
+  }
+  SCR_RestrictedDeployableSpawnPointComponent "{5EA4A89F0D06E1A8}" {
+   m_sReplacementPrefab "{50700E35643AD625}Prefabs/Systems/DeployableRadios/DeployableItemRadioReplacementUK_320.et"
+   m_FactionKey "UK"
+   m_fSuppliesValue 300
+   m_iMaxRespawns 8
+  }
+  BaseLoadoutClothComponent "{5EA4A89F0D06E1DE}" {
+   WornModel "{220DAAF9CD43ADB1}Assets/Items/Equipment/Backpacks/Backpack_Radio/Backpack_Radio_01.xob"
+   ItemModel "{8000A87A9154E3AD}Assets/Items/Equipment/Backpacks/Backpack_Radio/Backpack_Radio_Item_01.xob"
+   DebugWornModel 0
+   DeflatedModel "{E82A0CF76AF28295}Assets/Items/Equipment/Backpacks/Backpack_Radio/Backpack_Radio_Inflated_01.xob"
+   DebugDeflatedModel 0
+  }
+ }
+ coords 0.172 0.947 -3.008
+}

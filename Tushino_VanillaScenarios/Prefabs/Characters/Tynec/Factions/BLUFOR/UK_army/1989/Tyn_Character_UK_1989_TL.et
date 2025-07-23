@@ -1,0 +1,11 @@
+SCR_ChimeraCharacter : "{39808DED1A0C22EA}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_TeamLeader"
+    Icon "{44B846FB4F46E36A}UI/Icons/team_leader.edds"
+   }
+  }
+ }
+}

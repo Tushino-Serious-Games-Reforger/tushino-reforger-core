@@ -1,0 +1,22 @@
+SCR_ChimeraCharacter : "{635BA4A1ED5C8986}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_Medic.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Roles-RHS_Medic"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{77A96CF0A56DD594}Prefabs/Weapons/Rifles/L85/A1/Rifle_L85A1_Attachments_SUSAT.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65EEC4350036A53B}" {
+     PrefabsToSpawn {
+      "{F5C29223AEC41AA4}Prefabs/Items/Tynec/Equipment/Radios/UK/Tyn_Radio_PRC349_UK_SL.et"
+     }
+    }
+   }
+  }
+ }
+}
