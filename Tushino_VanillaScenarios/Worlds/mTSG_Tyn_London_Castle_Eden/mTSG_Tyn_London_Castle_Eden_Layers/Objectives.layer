@@ -1,0 +1,22 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ ObserveFlag {
+  coords 9345.792 187.379 1096.124
+  m_sTitle "Захватить точку Лондон"
+  m_sFactionKey "USSR"
+ }
+ DefendFlag {
+  coords 9378.747 187.497 1105.729
+  m_sTitle "Удержать точку Лондон"
+  m_sFactionKey "UK"
+ }
+ DestroyUSSR {
+  coords 9345.643 185.905 1091.772
+  m_sTitle "Советские диверсанты разгромлены"
+  m_sFactionKey "UK"
+ }
+ DestroyUK {
+  coords 9371.833 189.197 1110.662
+  m_sTitle "Королевские бойцы разгромлены"
+  m_sFactionKey "USSR"
+ }
+}

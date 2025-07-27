@@ -41,6 +41,7 @@ SCR_ChimeraCharacter : "{2940AA84B1B66F05}Prefabs/Characters/Tynec/Factions/OPFO
     }
     ItemsInitConfigurationItem "{62AEFA3B37BC94B5}" {
      TargetStorage "Jacket/Jacket_Tanker_USSR_01.et"
+     TargetPurpose 1
     }
     ItemsInitConfigurationItem "{62AEFA3AD0E95D41}" {
      TargetStorage "Pants/Pants_Tanker_USSR_01_tucked.et"
@@ -48,7 +49,7 @@ SCR_ChimeraCharacter : "{2940AA84B1B66F05}Prefabs/Characters/Tynec/Factions/OPFO
     ItemsInitConfigurationItem "{62AEFA2663CD0DDB}" {
      TargetStorage "Pants/Pants_Tanker_USSR_01_tucked.et"
      PrefabsToSpawn {
-      "{62A47238C3C098DC}Prefabs/Items/Tynec/Equipment/Radios/Tyn_Radio_R148_SL.et"
+      "{62A47238C3C098DC}Prefabs/Items/Tynec/Equipment/Radios/RU/Tyn_Radio_R148_SL.et"
      }
     }
     ItemsInitConfigurationItem "{62B7066803E5B947}" {

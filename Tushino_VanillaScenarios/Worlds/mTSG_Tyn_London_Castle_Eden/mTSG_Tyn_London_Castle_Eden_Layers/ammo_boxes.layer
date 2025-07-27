@@ -1,0 +1,154 @@
+GenericEntity : "{76470F89DCB18B08}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Equipment_01_US_nonarsenal.et" {
+ components {
+  SCR_SoundDataComponent "{5C53391603B5CF41}" {
+   Enabled 1
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   MultiSlots {
+    MultiSlotConfiguration "{65F2D18CCB4F857E}" {
+     SlotTemplate InventoryStorageSlot MAW_Rockets {
+      Prefab "{F2E474689BD7C2E1}Prefabs/Weapons/Ammo/Ammo_Rocket_HEAT_L40.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{65F2D18EC902F249}" {
+     SlotTemplate InventoryStorageSlot backpacks {
+      Prefab "{25F3E9A9A45B3C58}Prefabs/Items/Equipment/Backpacks/Backpack_Para_Bergen.et"
+     }
+     NumSlots 4
+    }
+   }
+  }
+ }
+ coords 9417.423 190.281 1178.667
+ angleY 178.906
+ angleZ 1.425
+}
+GenericEntity : "{77E05141F565DFBD}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Ammunition_01_US_nonarsenal.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   MultiSlots {
+    MultiSlotConfiguration "{65F2D18B8B2220ED}" {
+     SlotTemplate InventoryStorageSlot Magazines_556 {
+      Prefab "{F605A4A0573F4BED}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_2+2.et"
+     }
+     NumSlots 70
+    }
+    MultiSlotConfiguration "{65F2D18A6A57E9C4}" {
+     SlotTemplate InventoryStorageSlot Magazines_556_traccer {
+      Prefab "{3A78FF067CB71998}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Tracer.et"
+     }
+     NumSlots 70
+    }
+    MultiSlotConfiguration "{65F2D18A7B2FF0DA}" {
+     SlotTemplate InventoryStorageSlot HE_Grenades {
+      Prefab "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et"
+     }
+     NumSlots 40
+    }
+    MultiSlotConfiguration "{65F2D18A44035167}" {
+     SlotTemplate InventoryStorageSlot Smoke_grenades_wp {
+      Prefab "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et"
+     }
+     NumSlots 40
+    }
+    MultiSlotConfiguration "{65F2D18AAE103D3C}" {
+     SlotTemplate InventoryStorageSlot roflo_banka {
+      Prefab "{74152E4FFA7E18E7}Prefabs/Weapons/Grenades/Can_Spilt.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{65F2D18F844FBEAC}" {
+     SlotTemplate InventoryStorageSlot Sniper_magazines {
+      Prefab "{4EBDF52AD20AC6D1}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_Ball_L2A2.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{65F2D18F96143171}" {
+     SlotTemplate InventoryStorageSlot Pistol_magazines {
+      Prefab "{1E7D876C06089E21}Prefabs/Weapons/Magazines/Magazine_9x19_HiPower_13rnd_Ball.et"
+     }
+     NumSlots 15
+    }
+   }
+  }
+ }
+ coords 9420.32 191.014 1175.65
+ angleY -78.088
+}
+GenericEntity : "{E0151778CBB17238}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Weapon_01_US_nonarsenal.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   MultiSlots {
+    MultiSlotConfiguration "{65F2D18DC1DB7210}" {
+     SlotTemplate InventoryStorageSlot OneUse_Launchers {
+      Prefab "{74369C511864A660}Prefabs/Weapons/Explosives/Mine_L9A1_Barmine/Mine_L9A1_Barmine.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{65F2D18DC0165CCA}" {
+     SlotTemplate InventoryStorageSlot LAW80 {
+      Prefab "{07D3AD1BE6EA2AB2}Prefabs/Weapons/Explosives/Mine_Mk7/Mine_Mk7.et"
+     }
+     NumSlots 2
+    }
+   }
+  }
+ }
+ coords 9420.039 190.999 1176.852
+ angleY -95.688
+}
+GenericEntity : "{E9B8AFBB0B22C6C4}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Explosives_01_US_nonarsenal.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   MultiSlots {
+    MultiSlotConfiguration "{65F2D18E2560B18C}" {
+     SlotTemplate InventoryStorageSlot c4 {
+      Prefab "{1F9E536AD45F48C7}Prefabs/Weapons/Explosives/DemoBlock_PE4/DemoBlock_PE4.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{65F2D18E01E92417}" {
+     SlotTemplate InventoryStorageSlot detonators {
+      Prefab "{9F268F34D83C9519}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_Shrike.et"
+     }
+     NumSlots 3
+    }
+    MultiSlotConfiguration "{65F2D18EEDBAA201}" {
+     SlotTemplate InventoryStorageSlot TNT {
+      Prefab "{3909998CAFD62EA3}Prefabs/Weapons/Explosives/DemoBlock_Hayrick/DemoBlock_Hayrick.et"
+     }
+     NumSlots 5
+    }
+   }
+  }
+ }
+ coords 9417.275 189.978 1178.19
+ angleX -1.785
+ angleY -94.293
+ angleZ 0.134
+}
+GenericEntity : "{EB06DEEC92716D60}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Launcher_01_US_nonarsenal.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   MultiSlots {
+    MultiSlotConfiguration "{65F2D18EB437F7F4}" {
+     SlotTemplate InventoryStorageSlot OneUse_Launchers {
+      Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{65F2D18EB0ED4877}" {
+     SlotTemplate InventoryStorageSlot LAW80 {
+      Prefab "{65DEE4A3BAAD1B1E}Prefabs/Weapons/Launchers/LAW80/Launcher_LAW80_base.et"
+     }
+     NumSlots 5
+    }
+   }
+  }
+ }
+ coords 9419.57 190.124 1176.959
+ angleX -6.742
+ angleY -119.728
+ angleZ 0.77
+}

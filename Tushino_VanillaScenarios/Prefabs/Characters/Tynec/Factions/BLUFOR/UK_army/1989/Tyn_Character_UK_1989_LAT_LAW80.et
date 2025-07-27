@@ -3,7 +3,7 @@ SCR_ChimeraCharacter : "{5D41B0E2A0EDEFC5}Prefabs/Characters/Tynec/Factions/BLUF
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#DRG-Role-AntiTank"
+    Name "#AR-Role_Rifleman"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {

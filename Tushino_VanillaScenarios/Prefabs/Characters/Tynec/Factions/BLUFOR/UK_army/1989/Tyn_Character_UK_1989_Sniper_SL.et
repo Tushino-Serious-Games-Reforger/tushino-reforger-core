@@ -1,0 +1,14 @@
+SCR_ChimeraCharacter : "{5EC104594F36466F}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_Sniper.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65EEC4350036A53B}" {
+     PrefabsToSpawn {
+      "{F5C29223AEC41AA4}Prefabs/Items/Tynec/Equipment/Radios/UK/Tyn_Radio_PRC349_UK_SL.et"
+     }
+    }
+   }
+  }
+ }
+}

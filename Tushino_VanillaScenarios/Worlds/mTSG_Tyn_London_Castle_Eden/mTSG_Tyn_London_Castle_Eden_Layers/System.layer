@@ -10,11 +10,13 @@ PS_GameModeCoop TSG_GameModeLobby : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_Game
    m_sInitialStartingWeatherId "Cloudy"
   }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 11
+   m_iStartingHours 17
+   m_iStartingMinutes 20
    m_aStartingWeatherAndTime {
     SCR_TimeAndWeatherState "{654E01C38F383067}" {
      m_sWeatherPresetName "Cloudy"
-     m_iStartingHour 11
+     m_iStartingHour 17
+     m_iStartingMinutes 20
     }
    }
    m_bRandomWeatherChanges 1
@@ -81,4 +83,39 @@ PS_GameModeCoop TSG_GameModeLobby : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_Game
    }
   }
  }
+}
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_aLossLogics {
+    LossLogic "{65F6B9FBDA78DF5E}" {
+     m_aLosses {
+      FactionLoss "{65F6B9FBD8DA7D5B}" {
+       m_iCriticalLossCount 0
+       m_sFactionKey "UK"
+      }
+     }
+     m_sObjectiveNames {
+      "DestroyUK"
+     }
+     m_bAdvanceGameStage 1
+    }
+    LossLogic "{65F6B9FA3E50B523}" {
+     m_aLosses {
+      FactionLoss "{65F6B9FA3D0736BF}" {
+       m_iCriticalLossCount 3
+      }
+     }
+     m_sObjectiveNames {
+      "DestroyUSSR"
+     }
+     m_bAdvanceGameStage 1
+    }
+   }
+  }
+ }
+ coords 9290.842 190.795 1190.264
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ coords 9293.061 192.064 1178.734
 }

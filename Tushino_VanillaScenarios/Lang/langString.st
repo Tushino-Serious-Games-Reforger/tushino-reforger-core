@@ -1796,6 +1796,14 @@ StringTable {
    Author "p1vas"
    LastChanged "p1vas"
   }
+  CustomStringTableItem "{65F55A68E2DFBDF4}" {
+   Id "TYN-Role_OperationCommander"
+   Target_en_us "Operation Commander"
+   Target_ru_ru "Командир операции"
+   Modified 1710582138
+   Author "p1vas"
+   LastChanged "p1vas"
+  }
   CustomStringTableItem "{64D0BCE95EDDF0A0}" {
    Id "TYN-Role_ReconDriver"
    Target_en_us "Scout Driver"

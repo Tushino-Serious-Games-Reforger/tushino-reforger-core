@@ -1,0 +1,140 @@
+$grp GenericEntity : "{77E05141F565DFBD}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Ammunition_01_US_nonarsenal.et" {
+ C31_ammobox {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    MultiSlots {
+     MultiSlotConfiguration "{65F55A6D4A5DFACB}" {
+      SlotTemplate InventoryStorageSlot Magazines_556 {
+       Prefab "{F605A4A0573F4BED}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_2+2.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{65F55A6D50A0A2CF}" {
+      SlotTemplate InventoryStorageSlot Magazines_556_tracer {
+       Prefab "{3A78FF067CB71998}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{65F55A6DBFB91C36}" {
+      SlotTemplate InventoryStorageSlot Grenades {
+       Prefab "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{65F55A6D8D14B797}" {
+      SlotTemplate InventoryStorageSlot Grenades_smoke {
+       Prefab "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et"
+      }
+      NumSlots 5
+     }
+    }
+   }
+  }
+  coords 9323.35 208.948 1158.869
+  angleY -90.267
+ }
+ B22_ammobox {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    MultiSlots {
+     MultiSlotConfiguration "{65F55A6D4A5DFACB}" {
+      SlotTemplate InventoryStorageSlot Magazines_556 {
+       Prefab "{F605A4A0573F4BED}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_2+2.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{65F55A6D50A0A2CF}" {
+      SlotTemplate InventoryStorageSlot Magazines_556_tracer {
+       Prefab "{3A78FF067CB71998}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{65F55A6DBFB91C36}" {
+      SlotTemplate InventoryStorageSlot Grenades {
+       Prefab "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{65F55A6D8D14B797}" {
+      SlotTemplate InventoryStorageSlot Grenades_smoke {
+       Prefab "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et"
+      }
+      NumSlots 5
+     }
+    }
+   }
+  }
+  coords 9325.909 208.907 1159.728
+  angleY 86.669
+ }
+ B24_ammobox {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    MultiSlots {
+     MultiSlotConfiguration "{65F55A6D4A5DFACB}" {
+      SlotTemplate InventoryStorageSlot Magazines_556 {
+       Prefab "{F605A4A0573F4BED}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_2+2.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{65F55A6D50A0A2CF}" {
+      SlotTemplate InventoryStorageSlot Magazines_556_tracer {
+       Prefab "{3A78FF067CB71998}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{65F55A6DBFB91C36}" {
+      SlotTemplate InventoryStorageSlot Grenades {
+       Prefab "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{65F55A6D8D14B797}" {
+      SlotTemplate InventoryStorageSlot Grenades_smoke {
+       Prefab "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et"
+      }
+      NumSlots 5
+     }
+    }
+   }
+  }
+  coords 9357.003 196.798 1182.552
+  angleX -6.257
+  angleY 1.014
+  angleZ 0.78
+ }
+ B23_ammobox {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    MultiSlots {
+     MultiSlotConfiguration "{65F55A6D4A5DFACB}" {
+      SlotTemplate InventoryStorageSlot Magazines_556 {
+       Prefab "{F605A4A0573F4BED}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_2+2.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{65F55A6D50A0A2CF}" {
+      SlotTemplate InventoryStorageSlot Magazines_556_tracer {
+       Prefab "{3A78FF067CB71998}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Tracer.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{65F55A6DBFB91C36}" {
+      SlotTemplate InventoryStorageSlot Grenades {
+       Prefab "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et"
+      }
+      NumSlots 5
+     }
+     MultiSlotConfiguration "{65F55A6D8D14B797}" {
+      SlotTemplate InventoryStorageSlot Grenades_smoke {
+       Prefab "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et"
+      }
+      NumSlots 5
+     }
+    }
+   }
+  }
+  coords 9374.771 204.264 1163.472
+  angleY 54.9
+ }
+}
