@@ -1,0 +1,80 @@
+Vehicle : "{701ADC27F9D842DF}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LWB_Transport.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{B2A8B5CD867B8FB5}UI/PreviewImages/Vehicles/3Series_LWB_Transport_Camo.edds"
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{65F773249FEBF32D}" {
+      m_BudgetType RANK_SERGEANT
+      m_Value 3
+     }
+    }
+   }
+   m_VariantData SCR_EditableEntityVariantData "{65949A05E7160267}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{65949A05E67946BB}" {
+      m_bEnabled 0
+     }
+     SCR_EditableEntityVariant "{65949A05E6F8411A}" {
+      m_bEnabled 0
+     }
+    }
+   }
+  }
+  SCR_ResourceComponent "{648B4DF41C28F137}" {
+   m_aContainers {
+    SCR_ResourceContainer "{648B4DF41C28F12E}" {
+     m_eResourceRights NONE
+    }
+   }
+   m_aEncapsulators {
+    SCR_ResourceEncapsulator "{648B4DF41C28F12C}" {
+     m_eResourceRights NONE
+    }
+   }
+   m_aConsumers {
+    SCR_ResourceConsumer "{5DB89931113F7D07}" {
+     m_eResourceRights NONE
+    }
+    SCR_ResourceConsumer "{5DB899311187CE27}" {
+     m_eResourceRights NONE
+    }
+   }
+   m_aGenerators {
+    SCR_ResourceGenerator "{5DB89931290977A9}" {
+     m_eResourceRights NONE
+    }
+    SCR_ResourceGenerator "{5DB899312996DFD9}" {
+     m_eResourceRights NONE
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{648B4DF41C28F11F}" {
+   Enabled 0
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo NumberPlate {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo CamoNet_Front {
+     Enabled 1
+     Prefab "{68F41E884C932476}Prefabs/Vehicles/Wheeled/LR_3Series/VehParts/Misc/CamoNet/3Series_CamoNet_Front.et"
+    }
+    RegisteringComponentSlotInfo CamoNet_Door_L {
+     Enabled 1
+    }
+    RegisteringComponentSlotInfo CamoNet_Door_R {
+     Enabled 1
+    }
+    RegisteringComponentSlotInfo CamoNet_Top {
+     Enabled 1
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   Enabled 0
+  }
+ }
+}

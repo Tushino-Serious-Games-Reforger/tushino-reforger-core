@@ -1,37 +1,3 @@
-Vehicle _Series_LWB_Transport_Camo1 : "{098E31B006CAE0CE}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LWB_Transport_Camo.et" {
- components {
-  SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
-   m_bIsLocked 1
-  }
-  SCR_ResourceComponent "{648B4DF41C28F137}" {
-   m_aDisabledResourceTypes {
-    0
-   }
-  }
-  ActionsManagerComponent "{C97BE5489221AE18}" {
-   additionalActions {
-    SCR_ToggleHandbrakeAction "{60DC8885D52C4097}" {
-     ParentContextList {
-     }
-    }
-    SCR_ToggleHandbrakeAction "{60DE778F7045386D}" {
-     ParentContextList {
-     }
-    }
-    SCR_ResourceContainerVehicleLoadAction "{5E43466F5444FB21}" {
-    }
-    SCR_ResourceContainerVehicleUnloadAction "{5E43466F53626780}" {
-     ParentContextList {
-     }
-    }
-   }
-  }
- }
- coords 9260.639 197.514 1139.516
- angleX 2.403
- angleY 175.614
- angleZ -3.767
-}
 GameEntity : "{10377ABE6825CC96}Prefabs/Props/Military/Generators/GeneratorMilitary_USSR_01/GeneratorMilitary_USSR_01_camo_open.et" {
  coords 9367.794 204.528 1161.378
  angleY 79.514
@@ -271,6 +237,26 @@ $grp StaticModelEntity : "{39C308BBB5945B85}Prefabs/Props/Military/Furniture/Cha
   angleY -34.842
  }
 }
+$grp Vehicle : "{412AE5094C4C8ACE}Prefabs/Vehicles/Wheeled/Decorative/M923A1_transport_covered_UK_Decorative.et" {
+ M923A1_transport_covered_UK_Decorative2 {
+  coords 9287.221 191.193 1166.8
+  angleX 1.99
+  angleY -20.603
+  angleZ 0.208
+ }
+ M923A1_transport_covered_UK_Decorative3 {
+  coords 9291.638 191.225 1169.012
+  angleX 1.965
+  angleY -37.398
+  angleZ -0.376
+ }
+ M923A1_transport_covered_UK_Decorative1 {
+  coords 9289.637 183.016 1082.9
+  angleX 3.525
+  angleY -40.139
+  angleZ -4.132
+ }
+}
 GenericEntity : "{4417ED07902CE47E}Prefabs/Props/Military/Radios/RadioStation_ANPRC77_01.et" {
  coords 9314.603 214.881 1165.296
  angleY 108.857
@@ -398,108 +384,11 @@ GenericEntity : "{68E52151F88CDE48}Prefabs/Structures/Signs/Warnings/SignNoEntry
  coords 9416.29 192.773 1189.643
  angleY 0.971
 }
-Vehicle M923A1_tanker_UK1 : "{6B3DF3AEFC3B0B16}Prefabs/Vehicles/Wheeled/M923A1/M923A1_tanker_UK.et" {
- components {
-  SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
-   m_bIsLocked 1
-  }
-  SlotManagerComponent "{55BCE45E438E4CFF}" {
-   Slots {
-    RegisteringComponentSlotInfo Arsenal {
-     Prefab ""
-    }
-   }
-  }
-  ActionsManagerComponent "{C97BE5489221AE18}" {
-   additionalActions {
-    SCR_ToggleHandbrakeAction "{60DC8885D52C4097}" {
-     ParentContextList {
-     }
-    }
-   }
-  }
- }
- coords 9289.343 183.85 1094.087
- angleX 3.722
- angleY 33.632
- angleZ 2.472
-}
 GenericEntity : "{6B961D615D79D6B6}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/US/EquipmentBoxStack_US_01_V3.et" {
  coords 9419.147 190.13 1179.137
  angleX 0.881
  angleY -0.11
  angleZ -7.126
-}
-$grp Vehicle : "{701ADC27F9D842DF}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LWB_Transport.et" {
- _Series_LWB_Transport1 {
-  components {
-   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
-    m_bIsLocked 1
-   }
-   ActionsManagerComponent "{C97BE5489221AE18}" {
-    additionalActions {
-     SCR_ToggleHandbrakeAction "{60DC8885D52C4097}" {
-      ParentContextList {
-      }
-     }
-     SCR_ToggleHandbrakeAction "{60DE778F7045386D}" {
-      ParentContextList {
-      }
-     }
-    }
-   }
-  }
-  coords 9313.289 189.07 1126.004
-  angleX 8.284
-  angleY 60.112
-  angleZ 5.457
- }
- _Series_LWB_Transport2 {
-  components {
-   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
-    m_bIsLocked 1
-   }
-   ActionsManagerComponent "{C97BE5489221AE18}" {
-    additionalActions {
-     SCR_ToggleHandbrakeAction "{60DC8885D52C4097}" {
-      ParentContextList {
-      }
-     }
-     SCR_ToggleHandbrakeAction "{60DE778F7045386D}" {
-      ParentContextList {
-      }
-     }
-    }
-   }
-  }
-  coords 9314.309 195.749 1146.142
-  angleX -13.831
-  angleY -66.812
-  angleZ -1.139
- }
- _Series_LWB_Transport3 {
-  components {
-   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
-    m_bIsLocked 1
-   }
-   ActionsManagerComponent "{C97BE5489221AE18}" {
-    additionalActions {
-     SCR_ToggleHandbrakeAction "{60DC8885D52C4097}" {
-      ParentContextList {
-      }
-     }
-     SCR_ToggleHandbrakeAction "{60DE778F7045386D}" {
-      ParentContextList {
-      }
-     }
-    }
-   }
-  }
-  coords 9421.938 190.443 1171.431
-  angleX 0.378
-  angleY 19.91
-  angleZ -3.667
- }
 }
 GenericEntity : "{745097E446C05528}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Corner_Right_US_02.et" {
  coords 9387.657 196.697 1181.221
@@ -570,6 +459,12 @@ GenericEntity : "{8154532BBAD4C09C}Prefabs/MP/Campaign/Assets/CampaignRadioBox.e
 }
 GenericEntity : "{89B5E4FFF711EBEC}Prefabs/Compositions/Misc/SubCompositions/EquipmentBoxStacked_Cluttered_US_01.et" {
  coords 9320.879 218.831 1167.702
+}
+Vehicle M923A1_tanker_UK_Decorative1 : "{8A84F74BA684E617}Prefabs/Vehicles/Wheeled/Decorative/M923A1_tanker_UK_Decorative.et" {
+ coords 9289.549 183.94 1095.237
+ angleX 4.013
+ angleY 26.107
+ angleZ 1.964
 }
 GenericEntity : "{8E0A5198519C41DD}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/US/EquipmentBoxStack_US_01_V2.et" {
  coords 9417.535 189.978 1178.911
@@ -694,27 +589,6 @@ GenericEntity : "{B4764656D8C07441}Prefabs/Props/Military/AmmoBoxes/EquipmentBox
  coords 9314.921 213.964 1167.362
  angleY -4.03
 }
-Vehicle M923A1_command_UK1 : "{B9540BEB76268B95}Prefabs/Vehicles/Wheeled/M923A1/M923A1_command_UK.et" {
- components {
-  BaseRadioComponent "{51EAE034CD7B7A2C}" {
-   "Encryption key" "royalCrown"
-  }
-  SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
-   m_bIsLocked 1
-  }
-  SlotManagerComponent "{55BCE45E438E4CFF}" {
-   Slots {
-    RegisteringComponentSlotInfo Arsenal {
-     Prefab ""
-    }
-   }
-  }
- }
- coords 9290.643 185.69 1110.68
- angleX 0.744
- angleY 75.433
- angleZ 9.882
-}
 $grp GenericEntity : "{BFF74A287E8300FB}Prefabs/Structures/Signs/Military/Sign_CommandPost_US_01.et" {
  {
   coords 9322.32 208.957 1151.566
@@ -817,6 +691,12 @@ $grp StaticModelEntity : "{C9CFDED29542A968}Prefabs/Props/Military/Furniture/Cot
   angleY 179.754
  }
 }
+Vehicle _Series_LWB_Transport_Camo_Decorative1 : "{CB37656BDFF96B39}Prefabs/Vehicles/Wheeled/Decorative/3Series_LWB_Transport_Camo_Decorative.et" {
+ coords 9260.654 197.524 1139.291
+ angleX 2.723
+ angleY 169.725
+ angleZ -5.025
+}
 $grp GenericEntity : "{D174C165E264E087}Prefabs/Structures/Signs/Military/SignRectangle_01_140x100/Sign_BaseEntrance_US_01.et" {
  {
   coords 9318.054 196.808 1143.822
@@ -837,6 +717,26 @@ GenericEntity : "{D31D0F615378FA6B}Prefabs/Compositions/Misc/SubCompositions/Can
 GenericEntity : "{D60220233693B077}Prefabs/Items/Equipment/Maps/Map_Paper_01/Map_Paper_01_unfolded_table.et" {
  coords 9314.757 214.88 1163.893
  angleY 87.398
+}
+$grp Vehicle : "{D9325D5BCC6D6D70}Prefabs/Vehicles/Wheeled/Decorative/3Series_LWB_Transport_Decorative.et" {
+ _Series_LWB_Transport_Decorative1 {
+  coords 9313.743 195.593 1146.286
+  angleX -16.148
+  angleY -81.751
+  angleZ 2.033
+ }
+ _Series_LWB_Transport_Decorative2 {
+  coords 9312.824 189.143 1126.698
+  angleX 7.251
+  angleY 69.816
+  angleZ 6.772
+ }
+ _Series_LWB_Transport_Decorative3 {
+  coords 9421.599 190.415 1171.841
+  angleX 0.195
+  angleY 17.067
+  angleZ -3.681
+ }
 }
 GenericEntity : "{DF6A4040983447C4}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/US/EquipmentBoxStack_US_01_V6.et" {
  coords 9321.8 213.97 1161.161
@@ -903,6 +803,12 @@ GenericEntity : "{F3E6A9A0076FB16A}Prefabs/Compositions/Misc/SubCompositions/Equ
  coords 9319.737 208.959 1158.977
  angleY 0
 }
+Vehicle M923A1_command_UK_Decorative1 : "{F8B31042EAA8FD11}Prefabs/Vehicles/Wheeled/Decorative/M923A1_command_UK_Decorative.et" {
+ coords 9290.297 185.861 1111.61
+ angleX 0.971
+ angleY 74.127
+ angleZ 9.862
+}
 $grp GenericEntity : "{F9910219711EC4FC}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Camo_long_high_US.et" {
  {
   coords 9327.771 190.033 1125.867
@@ -911,65 +817,6 @@ $grp GenericEntity : "{F9910219711EC4FC}Prefabs/Compositions/Misc/SubComposition
  {
   coords 9326.58 196.656 1141.149
   angleY 88.431
- }
-}
-$grp Vehicle : "{F9FD7E24B28538EE}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered_UK.et" {
- M923A1_transport_covered_UK3 {
-  components {
-   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
-    m_bIsLocked 1
-   }
-   ActionsManagerComponent "{C97BE5489221AE18}" {
-    additionalActions {
-     SCR_ToggleHandbrakeAction "{60DC8885D52C4097}" {
-      ParentContextList {
-      }
-     }
-    }
-   }
-  }
-  coords 9289.436 183.019 1082.963
-  angleX 3.479
-  angleY -40.772
-  angleZ -4.171
- }
- M923A1_transport_covered_UK1 {
-  components {
-   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
-    m_bIsLocked 1
-   }
-   ActionsManagerComponent "{C97BE5489221AE18}" {
-    additionalActions {
-     SCR_ToggleHandbrakeAction "{60DC8885D52C4097}" {
-      ParentContextList {
-      }
-     }
-    }
-   }
-  }
-  coords 9286.692 191.223 1166.985
-  angleX -0.044
-  angleY -13.347
-  angleZ 3.686
- }
- M923A1_transport_covered_UK2 {
-  components {
-   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
-    m_bIsLocked 1
-   }
-   ActionsManagerComponent "{C97BE5489221AE18}" {
-    additionalActions {
-     SCR_ToggleHandbrakeAction "{60DC8885D52C4097}" {
-      ParentContextList {
-      }
-     }
-    }
-   }
-  }
-  coords 9291.587 191.199 1168.236
-  angleX 2.524
-  angleY -19.891
-  angleZ -0.913
  }
 }
 $grp GenericEntity : "{FA9066DE33E8E67D}Prefabs/Structures/Military/Camps/Canvas_Covers/US/CanvasCover_Large_US.et" {

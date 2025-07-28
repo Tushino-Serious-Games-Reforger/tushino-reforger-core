@@ -1,0 +1,31 @@
+Vehicle : "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#AR-Vehicle_M923A1_Transport_Covered_Name"
+    m_Image "{5E480A7934BC2414}UI/Textures/EditorPreviews/Vehicles/Wheeled/M923A1/M923A1_transport_covered.edds"
+    m_sFaction "UK"
+    m_aAutoLabels {
+     7000 122 54
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+   Enabled 0
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "UK"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Cargo {
+     Prefab "{6FD80AA56DE3BF51}Prefabs/Vehicles/Wheeled/Decorative/Veh_parts/M923A1_cargo_canvas_decorative.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   Enabled 0
+  }
+ }
+}

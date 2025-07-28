@@ -14,6 +14,9 @@ GenericEntity UK_flag : "{A80E80B60FEAE52D}PrefabsEditable/Auto/Structures/Milit
     }
    }
    m_sFactionKey "UK"
+   m_bUseAdvanceGameState 1
+   m_sUseNotification 1
+   m_sNotificationText "Советское ДРГ захватило замок"
   }
  }
  coords 9322.196 229.583 1163.606
