@@ -10,8 +10,11 @@ class TSG_FillPassportDataComponent : ScriptComponent
 	
 	override void OnPostInit(IEntity owner)
 	{
-		if (!GetGame().InPlayMode() || !Replication.IsServer())
+		if (!Replication.IsServer())
             return;
+		
+		if (!GetGame().InPlayMode())
+			return;
 
 		GameModeCoop = PS_GameModeCoop.Cast(GetGame().GetGameMode());
 		if(!GameModeCoop)
@@ -46,10 +49,10 @@ class TSG_FillPassportDataComponent : ScriptComponent
 		{
 			IEntity Character = PlaybleManager.GetPlayableById(PlaybleManager.GetPlayableByPlayer(ID)).GetPlayableComponent().GetOwner();
 			if (!Character)
-				return;
+				continue;
 			Identity CharacterIdentity = CharacterIdentityComponent.Cast(Character.FindComponent(CharacterIdentityComponent)).GetIdentity();
 			if (!CharacterIdentity)
-				return;
+				continue;
 			CharacterIdentity.SetAlias(PlaybleManager.GetPlayerName(ID));
 		}
 	}
