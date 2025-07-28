@@ -7,7 +7,7 @@ GenericEntity : "{5879D8E9C56E358E}Prefabs/Items/Equipment/Radios/Radio_Deployab
    Transceivers {
     RadioTransceiver "{5EA4A89F0D06E18F}" {
      ChannelFrequency 42000
-     "Transmitting Range" 10000
+     "Transmitting Range" 1000
      "Frequency resolution" 100
     }
    }
@@ -57,7 +57,6 @@ GenericEntity : "{5879D8E9C56E358E}Prefabs/Items/Equipment/Radios/Radio_Deployab
   SCR_RestrictedDeployableSpawnPointComponent "{5EA4A89F0D06E1A8}" {
    Enabled 1
    m_sReplacementPrefab "{04F7BB1A1EA8BA23}Prefabs/Systems/DeployableRadios/DeployableItemRadioReplacementUSSR.et"
-   m_FactionKey "USSR"
    m_bQueryAllBases 1
   }
   SCR_SoundDataComponent "{5B18D20ED0099A17}" {
