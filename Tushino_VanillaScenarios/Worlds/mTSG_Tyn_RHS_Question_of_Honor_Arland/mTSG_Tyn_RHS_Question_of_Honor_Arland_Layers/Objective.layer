@@ -91,55 +91,16 @@ PolylineShapeEntity ION_Border {
   }
  }
 }
-$grp TSG_EntityConstraint {
- protect_employer {
-  components {
-   SCR_EditableEntityComponent "{6455762A79EB46DF}" {
-    m_UIInfo SCR_EditableEntityUIInfo "{645576299B6A84C0}" {
-     Name "Триггер на сохранение в живых ВИПа"
-    }
-    m_sIconBoneName "protect admin script"
-    m_bAutoRegister ALWAYS
-   }
-   RplComponent "{633D225D0DF16B3E}" {
-   }
-  }
-  coords 1391.652 36.191 2360.921
-  m_aPrefabs {
-   "{665EEAE4A6507C20}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_businessman.et"
-  }
-  m_bCheckAlive 1
-  {
-   PS_Objective employer_protected : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
-    coords -658.6 0 483.449
-    m_sTitle "Заказчик уцелел"
-    m_sFactionKey "RHS_ION"
-   }
-  }
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ employer_protected {
+  coords 733.052 36.191 2844.37
+  m_sTitle "Заказчик уцелел"
+  m_sFactionKey "RHS_ION"
  }
- kill_employer {
-  components {
-   SCR_EditableEntityComponent "{6455762A74D4746E}" {
-    m_UIInfo SCR_EditableEntityUIInfo "{645576298910613E}" {
-     Name "Триггер на убийство ВИПа"
-    }
-    m_sIconBoneName "kill admin script"
-    m_bAutoRegister ALWAYS
-   }
-   RplComponent "{633D225CFE11B31C}" {
-   }
-  }
+ employer_killed {
   coords 1399.301 36.191 2356.116
-  m_aPrefabs {
-   "{665EEAE4A6507C20}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_businessman.et"
-  }
-  m_bDisableWhenTriggered 1
-  {
-   PS_Objective employer_killed : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
-    coords 0 0 0
-    m_sTitle "Заказчик убит"
-    m_sFactionKey "RHS_AFRF"
-   }
-  }
+  m_sTitle "Заказчик убит"
+  m_sFactionKey "RHS_AFRF"
+  m_bAdvanceWhenTriggered 1
  }
 }
