@@ -7,9 +7,6 @@ class TSG_DeathConfirm : ScriptedUserAction
 	[Attribute(desc: "Names of objective which will fail after action")]
 	ref array<string> m_aObjectivesToFail;
 	
-	PS_Objective Objective
-	bool WasUsed = false;
-	
 	override void Init(IEntity pOwnerEntity, GenericComponent pManagerComponent)
 	{
 		if(!Replication.IsServer())
@@ -20,7 +17,7 @@ class TSG_DeathConfirm : ScriptedUserAction
 		
 		foreach(string m_aObjectiveToFail : m_aObjectivesToFail)
 		{
-			Objective = PS_Objective.Cast(GetGame().GetWorld().FindEntityByName(m_aObjectiveToFail));
+			PS_Objective Objective = PS_Objective.Cast(GetGame().GetWorld().FindEntityByName(m_aObjectiveToFail));
 			if(!Objective)
 				continue;
 			Objective.SetCompleted(true);
@@ -34,15 +31,15 @@ class TSG_DeathConfirm : ScriptedUserAction
 		
 		foreach(string m_aObjectiveToDone : m_aObjectivesToDone)
 		{
-			PS_Objective objective1 = PS_Objective.Cast(GetGame().GetWorld().FindEntityByName(m_aObjectiveToDone));
-			if(!objective1)
+			PS_Objective objective = PS_Objective.Cast(GetGame().GetWorld().FindEntityByName(m_aObjectiveToDone));
+			if(!objective)
 				continue;
-			objective1.SetCompleted(true);
+			objective.SetCompleted(true);
 		}
 		
 		foreach(string m_aObjectiveToFail : m_aObjectivesToFail)
 		{
-			Objective = PS_Objective.Cast(GetGame().GetWorld().FindEntityByName(m_aObjectiveToFail));
+			PS_Objective Objective = PS_Objective.Cast(GetGame().GetWorld().FindEntityByName(m_aObjectiveToFail));
 			if(!Objective)
 				continue;
 			Objective.SetCompleted(false);
@@ -57,7 +54,11 @@ class TSG_DeathConfirm : ScriptedUserAction
 			}
 			gameModeCoop.AdvanceGameState(SCR_EGameModeState.GAME);
 		}
-		WasUsed = true;
+	}
+	
+	array<string> GetDoneObjectives()
+	{
+		return m_aObjectivesToDone;
 	}
 }
 
