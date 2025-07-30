@@ -86,6 +86,12 @@ $grp GenericEntity {
 GenericEntity : "{0DBE058F13F0C7E8}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_US.et" {
  coords 132.683 1 178.141
 }
+SCR_AIGroup : "{121F4A7DB996AE83}Prefabs/Groups/Tynec/OPFOR/Tyn_Group_USSR_HQ.et" {
+ coords 135.288 1 186.139
+ m_aUnitPrefabSlots {
+  "{608A72127D48234B}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_HQ.et"
+ }
+}
 GenericEntity : "{14B2D417839BF8A3}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_USSR.et" {
  coords 133.737 1 177.556
 }
@@ -97,9 +103,6 @@ GenericEntity : "{3C1685FFB432AD4B}Prefabs/Weapons/Rifles/M4A1/Variants/ION/Vari
 }
 GenericEntity : "{4421A403A72806C7}Prefabs/Items/Tynec/Equipment/Radios/Tyn_Radio_ANPRC152A_OLD_SL.et" {
  coords 144.195 1 179.502
-}
-SCR_ChimeraCharacter : "{4438AEFF45A8CE9E}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Rifleman.et" {
- coords 128.652 1 176.909
 }
 GenericEntity : "{7276444E72B41B19}Prefabs/Weapons/Rifles/M4A1/Variants/ION/Variants/Rifle_DOM4A1_ION_ReapIR.et" {
  coords 138.564 1 180.187
@@ -136,9 +139,6 @@ GenericEntity : "{CC03E3F4B1E5E1B8}Prefabs/Items/Bulba_basic.et" {
 GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et" {
  coords 144.741 1 181.159
 }
-SCR_ChimeraCharacter : "{D95DCAA9E414C36F}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_unarmed.et" {
- coords 140.952 1 177.972
-}
 SCR_DestructibleBuildingEntity : "{DDDD6E504DF34F70}PrefabLibrary/Structures/Military/GuardHouse_01.et" {
  coords 141.334 0 168.836
  angleY 115.494
@@ -146,9 +146,6 @@ SCR_DestructibleBuildingEntity : "{DDDD6E504DF34F70}PrefabLibrary/Structures/Mil
 GenericEntity : "{E9F21639135FFA1B}Prefabs/Characters/Tynec/Vests/Vest_JPC/Tyn_Vest_JPC_MCBlk_IONpatch.et" {
  coords 138.711 1 178.694
  angleY 0
-}
-SCR_ChimeraCharacter : "{F2178CA8A9718502}Prefabs/Characters/Tynec/Factions/INDFOR/RHS_ION/Tyn_Character_RHS_ION_rifleman.et" {
- coords 139.874 1 178.33
 }
 GameEntity : "{F91554AC34AE97C0}Prefabs/Items/Equipment/Patches/TAF_logo.et" {
  coords 145.303 1 179.429

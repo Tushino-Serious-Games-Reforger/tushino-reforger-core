@@ -5,6 +5,10 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
  coords 113.126 1 124.397
 }
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  TSG_FillPassportDataComponent "{65E2BD4E2C455BE2}" {
+  }
+ }
  m_iFreezeTime 20000
  m_aFactionRespawnCount {
   PS_FactionRespawnCount "{60ECC979A2129D60}" {
