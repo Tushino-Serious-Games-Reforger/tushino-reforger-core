@@ -1,0 +1,8 @@
+GenericEntity {
+ ID "65FC0EE57D625FBF"
+ components {
+  TSG_FillPassportDataComponent "{65FC0EE5688FA06A}" {
+  }
+ }
+ coords 139.522 1 186.298
+}
