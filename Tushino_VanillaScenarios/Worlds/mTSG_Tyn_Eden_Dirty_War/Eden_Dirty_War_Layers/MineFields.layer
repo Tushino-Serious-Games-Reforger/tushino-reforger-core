@@ -1,0 +1,34 @@
+$grp GenericEntity : "{28ECED0C0F3655DB}PrefabsEditable/EffectsModules/Mine/EffectModule_MineField_Large_USSR.et" {
+ MineField1 {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{5D22CCE8D39ECEDA}" {
+      m_fWidth 300.5
+      m_fLength 236.1
+     }
+     m_iMinProjectilesEachBarrage 460
+     m_iMaxProjectilesEachBarrage 460
+    }
+   }
+  }
+  coords 4226.987 14.877 9859.654
+  angleY 15.46
+ }
+ MineField2 {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{5D22CCE8D39ECEDA}" {
+      m_fWidth 307.5
+      m_fLength 404.6
+     }
+     m_iMinProjectilesEachBarrage 570
+     m_iMaxProjectilesEachBarrage 570
+    }
+   }
+  }
+  coords 4291.95 50.2 9087.373
+  angleY -5.208
+ }
+}

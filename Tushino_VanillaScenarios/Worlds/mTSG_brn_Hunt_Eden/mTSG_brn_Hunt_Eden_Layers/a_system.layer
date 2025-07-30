@@ -23,7 +23,6 @@ PS_GameModeCoop "62D1737781F21CC7" : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_Gam
  m_bReserveSlots 1
  {
   TSG_MissionTime {
-   ID "633B6E4969D543B5"
    components {
     SCR_EditableEntityComponent "{6456CDDAF220056A}" {
      m_UIInfo SCR_EditableEntityUIInfo "{6456CDDAF5029BA3}" {
@@ -34,4 +33,12 @@ PS_GameModeCoop "62D1737781F21CC7" : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_Gam
    m_iMissionTimeMinutes 50
   }
  }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 3000
+  }
+ }
+ coords 11670.821 8.292 2199.764
 }

@@ -1,0 +1,27 @@
+SCR_ChimeraCharacter : "{78EA5CC4F1C527F3}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Crew_Commander.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role_CrewDriver"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Pants {
+     Prefab "{27494A16F172A97B}Prefabs/Characters/Uniforms/Pants_Tanker_USSR_01/Pants_Tanker_USSR_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{62AEFA3AD0E95D41}" {
+     TargetStorage "Pants/Pants_Tanker_USSR_01.et"
+    }
+    ItemsInitConfigurationItem "{62AEFA2663CD0DDB}" {
+     TargetStorage "Pants/Pants_Tanker_USSR_01.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,19 @@
+GenericEntity : "{D5E3C173EDBF5EF2}Prefabs/Items/Tynec/Equipment/Radios/UK/Tyn_Radio_PRC349_UK.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   Transceivers {
+    RadioTransceiver "{65EEC43563047547}" {
+     "Transmitting Range" 600
+    }
+    RadioTransceiver "{65EEC42A343BBBA8}" {
+     ChannelFrequency 48000
+     "Transmitting Range" 600
+     "Min tunable frequency" 3700
+     "Max tunable frequency" 76000
+     "Frequency resolution" 100
+    }
+   }
+  }
+ }
+}

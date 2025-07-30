@@ -1,4 +1,4 @@
-SCR_AIGroup : "{087C09FBF41A86AF}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_HQ.et" {
+SCR_AIGroup FIA_HQ : "{087C09FBF41A86AF}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_HQ.et" {
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "line"
@@ -25,8 +25,31 @@ Vehicle Ural4320_FIA_transport1 : "{16E32C3ABEAFC2C6}Prefabs/Vehicles/Wheeled/Ur
  angleY -84.585
  angleZ -0.637
 }
-$grp SCR_AIGroup : "{3CCCF1BD3EDBCA86}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_RifleSquad.et" {
+Vehicle UAZ452_transport1 : "{1FBB492E86002BF5}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5D7E924E84B181BC}" {
+   MultiSlots {
+    MultiSlotConfiguration "{65AE9113AFF04500}" {
+     SlotTemplate InventoryStorageSlot NSVT_BOX {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     NumSlots 10
+    }
+   }
+  }
+ }
+ coords 4537.656 14.558 9474.647
+}
+$grp Turret : "{29F0CC704A582154}Prefabs/Weapons/Tripods/6T7/Tripod_6T7_NSV.et" {
  {
+  coords 4534.853 14.545 9467.466
+ }
+ {
+  coords 4534.787 14.525 9460.304
+ }
+}
+$grp SCR_AIGroup : "{3CCCF1BD3EDBCA86}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_RifleSquad.et" {
+ FIA_RS1 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
@@ -40,7 +63,7 @@ $grp SCR_AIGroup : "{3CCCF1BD3EDBCA86}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_
    "{DDBD954A31B83CE1}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_SL.et" "{5B320D2AC895D995}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_GP_US.et" "{C0398D8440BE7D52}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_MG_PKM.et" "{AD194D0BAEBB6F1D}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_aMG_PKM.et" "{619F38AF26296482}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_MG_RPK.et" "{689D0D947AB580AF}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_AT.et" "{72BDE4E08F0D07F1}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_aAT.et" "{99A08829678F5489}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_Rifleman_US.et"
   }
  }
- {
+ FIA_RS2 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
@@ -55,7 +78,7 @@ $grp SCR_AIGroup : "{3CCCF1BD3EDBCA86}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_
    "{DDBD954A31B83CE1}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_SL.et" "{5B320D2AC895D995}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_GP_US.et" "{B920988C6DFA4FBE}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_MG_M60.et" "{D400580383FF5DF1}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_aMG_M60.et" "{619F38AF26296482}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_MG_RPK.et" "{689D0D947AB580AF}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_AT.et" "{72BDE4E08F0D07F1}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_aAT.et" "{EC87D6A0D1E3A391}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_Rifleman_US_v2.et"
   }
  }
- {
+ FIA_RS3 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
@@ -70,7 +93,7 @@ $grp SCR_AIGroup : "{3CCCF1BD3EDBCA86}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_
    "{DDBD954A31B83CE1}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_SL.et" "{5B320D2AC895D995}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_GP_US.et" "{6B31FFC17E3EE60C}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_MG_M249.et" "{F3A18497E91DB861}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_aMG_M249.et" "{C0398D8440BE7D52}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_MG_PKM.et" "{AD194D0BAEBB6F1D}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_aMG_PKM.et" "{D2E6D748D35BB78F}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_Rifleman-USSR.et"
   }
  }
- {
+ FIA_RS4 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
@@ -85,7 +108,7 @@ $grp SCR_AIGroup : "{3CCCF1BD3EDBCA86}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_
    "{DDBD954A31B83CE1}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_SL.et" "{49308E952139D305}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_GP.et" "{6B31FFC17E3EE60C}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_MG_M249.et" "{F3A18497E91DB861}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_aMG_M249.et" "{689D0D947AB580AF}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_AT.et" "{72BDE4E08F0D07F1}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_aAT.et" "{D2E6D748D35BB78F}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_Rifleman-USSR.et" "{99A08829678F548A}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_Rifleman.et"
   }
  }
- {
+ FIA_RS5 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
@@ -101,7 +124,7 @@ $grp SCR_AIGroup : "{3CCCF1BD3EDBCA86}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_
    "{DDBD954A31B83CE1}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_SL.et" "{49308E952139D305}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_GP.et" "{B920988C6DFA4FBE}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_MG_M60.et" "{D400580383FF5DF1}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_aMG_M60.et" "{619F38AF26296482}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_MG_RPK.et" "{E27AB74231A9A816}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_MG_UK.et" "{8A938EBDDE9087F7}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_aMG_UK.et" "{EC87D6A0D1E3A391}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_Rifleman_US_v2.et"
   }
  }
- {
+ FIA_RS6 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
@@ -114,9 +137,12 @@ $grp SCR_AIGroup : "{3CCCF1BD3EDBCA86}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_
   coords 4510.842 13.724 9463.333
   angleY 178.89
   m_aUnitPrefabSlots {
-   "{DDBD954A31B83CE1}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_SL.et" "{49308E952139D305}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_GP.et" "{E27AB74231A9A816}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_MG_UK.et" "{8A938EBDDE9087F7}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_aMG_UK.et" "{619F38AF26296482}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_MG_RPK.et" "{D2E6D748D35BB78F}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_Rifleman-USSR.et" "{EC87D6A0D1E3A391}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_Rifleman_US_v2.et"
+   "{DDBD954A31B83CE1}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_SL.et" "{49308E952139D305}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_GP.et" "{E27AB74231A9A816}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_MG_UK.et" "{8A938EBDDE9087F7}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_aMG_UK.et" "{619F38AF26296482}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_MG_RPK.et" "{0DF3203E898591B2}Prefabs/Characters/Tynec/Factions/INDFOR/FIA/Tyn_Character_FIA_Crew_gunner.et" "{EAD887DEA172981F}Prefabs/Characters/Tynec/Factions/INDFOR/FIA/Tyn_Character_FIA_Crew_driver.et"
   }
  }
+}
+Turret : "{3EA26CFD7A202636}Prefabs/Weapons/Tripods/6T7/Tripod_6T7_NSV_SPP.et" {
+ coords 4535.092 14.531 9474.556
 }
 $grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
  M1025_armed_M2HB1 {
@@ -131,6 +157,9 @@ $grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
      MultiSlotConfiguration "{5A60CECB549327C1}" {
       NumSlots 5
      }
+     MultiSlotConfiguration "{5B1070686F48F485}" {
+      NumSlots 6
+     }
      MultiSlotConfiguration "{5A60CECAE4FAF13E}" {
       NumSlots 0
      }
@@ -140,9 +169,6 @@ $grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
      MultiSlotConfiguration "{5A60CECA3D786B16}" {
       NumSlots 0
      }
-     MultiSlotConfiguration "{5B1070686F48F485}" {
-      NumSlots 6
-     }
     }
    }
   }
@@ -150,6 +176,7 @@ $grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
   angleX -1.745
   angleY -88.565
   angleZ -1.833
+  m_sAttachmentGroupName "FIA_RS1"
  }
  M1025_armed_M2HB2 {
   components {
@@ -163,6 +190,9 @@ $grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
      MultiSlotConfiguration "{5A60CECB549327C1}" {
       NumSlots 5
      }
+     MultiSlotConfiguration "{5B1070686F48F485}" {
+      NumSlots 6
+     }
      MultiSlotConfiguration "{5A60CECAE4FAF13E}" {
       NumSlots 0
      }
@@ -172,9 +202,6 @@ $grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
      MultiSlotConfiguration "{5A60CECA3D786B16}" {
       NumSlots 0
      }
-     MultiSlotConfiguration "{5B1070686F48F485}" {
-      NumSlots 6
-     }
     }
    }
   }
@@ -182,7 +209,23 @@ $grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB
   angleX -1.789
   angleY -88.565
   angleZ -0.045
+  m_sAttachmentGroupName "FIA_RS2"
  }
+}
+Vehicle UAZ452_transport_CIV_blue1 : "{A2C4DBCDDE967600}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport_CIV_blue.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5D7E924E84B181BC}" {
+   MultiSlots {
+    MultiSlotConfiguration "{65AE91135F94355C}" {
+     SlotTemplate InventoryStorageSlot NSVT_BOX {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     NumSlots 10
+    }
+   }
+  }
+ }
+ coords 4537.7 14.602 9467.157
 }
 Vehicle UAZ469_covered_CIV_VAK1 : "{B2CC137FE424B129}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_VAK.et" {
  components {
@@ -206,8 +249,30 @@ Vehicle UAZ469_covered_CIV_VAK1 : "{B2CC137FE424B129}Prefabs/Vehicles/Wheeled/UA
  angleY 90.84
  angleZ 0.908
 }
+Vehicle BTR70_FIA1 : "{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA.et" {
+ coords 4510.151 13.68 9459.224
+ angleX -1.811
+ angleY -91.39
+ angleZ -0.851
+ m_sAttachmentGroupName "FIA_RS6"
+}
+Vehicle UAZ452_transport_FIA1 : "{BDE16A6AE9942D44}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport_FIA.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5D7E924E84B181BC}" {
+   MultiSlots {
+    MultiSlotConfiguration "{65AE911370880EED}" {
+     SlotTemplate InventoryStorageSlot NSVT_BOX {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+     NumSlots 10
+    }
+   }
+  }
+ }
+ coords 4537.797 14.634 9459.149
+}
 $grp SCR_AIGroup : "{C5D8F4AAE0D8989A}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_Platoon.et" {
- {
+ FIA_PL1 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
@@ -221,7 +286,7 @@ $grp SCR_AIGroup : "{C5D8F4AAE0D8989A}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_
    "{DDBD954A31B83CE0}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_PL.et" "{BE841DEF6B906CF2}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_Medic.et" "{521F9ED13F41E190}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_Sniper.et"
   }
  }
- {
+ FIA_PL2 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
@@ -235,71 +300,5 @@ $grp SCR_AIGroup : "{C5D8F4AAE0D8989A}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_
   m_aUnitPrefabSlots {
    "{DDBD954A31B83CE0}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_PL.et" "{BE841DEF6B906CF2}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_Medic.et" "{8F1061933E20BEC3}Prefabs/Characters/Tynec/Factions/INDFOR/Terrorists/Tyn_Character_FIA_Sniper_US.et"
   }
- }
-}
-$grp Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
- M1025_armed_M2HB_MERDC1 {
-  components {
-   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
-    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
-     m_sFaction "FIA"
-    }
-   }
-   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5A60CECB549327C1}" {
-      NumSlots 5
-     }
-     MultiSlotConfiguration "{5A60CECAE4FAF13E}" {
-      NumSlots 0
-     }
-     MultiSlotConfiguration "{5A60CECAC8B21989}" {
-      NumSlots 0
-     }
-     MultiSlotConfiguration "{5A60CECA3D786B16}" {
-      NumSlots 0
-     }
-     MultiSlotConfiguration "{5B1070686F48F485}" {
-      NumSlots 6
-     }
-    }
-   }
-  }
-  coords 4510.142 13.689 9459.475
-  angleX -0.895
-  angleY -88.943
-  angleZ -0.016
- }
- M1025_armed_M2HB_MERDC2 {
-  components {
-   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
-    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
-     m_sFaction "FIA"
-    }
-   }
-   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
-    MultiSlots {
-     MultiSlotConfiguration "{5A60CECB549327C1}" {
-      NumSlots 5
-     }
-     MultiSlotConfiguration "{5A60CECAE4FAF13E}" {
-      NumSlots 0
-     }
-     MultiSlotConfiguration "{5A60CECAC8B21989}" {
-      NumSlots 0
-     }
-     MultiSlotConfiguration "{5A60CECA3D786B16}" {
-      NumSlots 0
-     }
-     MultiSlotConfiguration "{5B1070686F48F485}" {
-      NumSlots 6
-     }
-    }
-   }
-  }
-  coords 4520.278 14.016 9459.244
-  angleX -1.799
-  angleY -90.302
-  angleZ -1.78
  }
 }

@@ -1,0 +1,25 @@
+GenericEntity UK_flag : "{A80E80B60FEAE52D}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_UK.et" {
+ components {
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_aObjectiveNames {
+    "ObserveFlag" "DefendFlag"
+   }
+   m_aFlagData {
+    PS_FlagData "{65F4CAD93222D676}" {
+     m_sFactionKey "UK"
+    }
+    PS_FlagData "{65F6B9FBF4B003CF}" {
+     m_sFactionKey "USSR"
+     m_iCaptureCounter 1
+    }
+   }
+   m_sFactionKey "UK"
+   m_bUseAdvanceGameState 1
+   m_sUseNotification 1
+   m_sNotificationText "Советское ДРГ захватило замок"
+  }
+ }
+ coords 9322.196 229.583 1163.606
+ angleX 31.604
+ angleY -91.223
+}

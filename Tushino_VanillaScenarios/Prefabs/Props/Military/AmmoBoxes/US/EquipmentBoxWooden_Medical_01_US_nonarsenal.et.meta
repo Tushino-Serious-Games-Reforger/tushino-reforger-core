@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5F9F7B4C487911A2}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Medical_01_US_nonarsenal.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

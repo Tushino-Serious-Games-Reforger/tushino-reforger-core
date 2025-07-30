@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{B2340E49FB79F95F}Prefabs/Characters/Factions/OPFOR/USSR_Army/mTSG_Character_USSR_Armored.et" {
+SCR_ChimeraCharacter : "{B2340E49FB79F95F}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Armored.et" {
  ID "520EC961A090BE1E"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -18,6 +18,9 @@ SCR_ChimeraCharacter : "{B2340E49FB79F95F}Prefabs/Characters/Factions/OPFOR/USSR
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{22963D69CA50EB9E}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_net.et"
+    }
     LoadoutSlotInfo Back {
      Prefab "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
     }

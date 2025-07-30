@@ -1,180 +1,22 @@
-$grp TSG_FactionLossesConstraint {
- US_losses {
-  components {
-   SCR_EditableEntityComponent "{6456CDDB86690D6D}" {
-    m_UIInfo SCR_EditableEntityUIInfo "{6456CDDB8A40B166}" {
-     Name "Проигрыш США по потерям"
-    }
-    m_bAutoRegister ALWAYS
-   }
-   RplComponent "{632542625EC4E27B}" {
-   }
-  }
-  coords 4766.984 28.593 11615.006
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ Heli_Destroy {
+  coords 4746.047 27.836 11776.713
+  m_sTitle "Уничтожить вертолеты"
   m_sFactionKey "US"
-  m_iMinNumberOfAliveCharacters 7
-  {
-   PS_Objective USSR_victory {
-    components {
-     RplComponent "{632542625AD1C034}" {
-     }
-     Hierarchy "{630467F60FD86A16}" {
-     }
-    }
-    coords 2.782 0 2.949
-    m_sTitle "Победа по потерям"
-    m_iScore 100
-    m_sFactionKey "USSR"
-    m_bAdvanceWhenTriggered 1
-   }
-  }
+ }
+ Heli_Save {
+  coords 4747.681 28.044 11767.9
+  m_sTitle "Сохранить вертолеты"
+  m_sFactionKey "USSR"
+ }
+ US_Losses {
+  coords 4748.078 28.06 11768.299
+  m_sTitle "Победа по потерям"
+  m_sFactionKey "USSR"
  }
  USSR_Losses {
-  components {
-   SCR_EditableEntityComponent "{6456CDDBB2876665}" {
-    m_UIInfo SCR_EditableEntityUIInfo "{6456CDDBB54E9EC8}" {
-     Name "Проигрыш СССР по потерям"
-    }
-    m_bAutoRegister ALWAYS
-   }
-   RplComponent "{6325426244A3D997}" {
-   }
-  }
-  coords 4762.989 28.594 11613.18
-  m_sFactionKey "USSR"
-  m_iMinNumberOfAliveCharacters 4
-  {
-   PS_Objective US_victory {
-    components {
-     RplComponent "{6325426247BFC50A}" {
-     }
-     Hierarchy "{630467F60FD86A16}" {
-     }
-    }
-    coords 2.782 0 2.949
-    m_sTitle "Победа по потерям"
-    m_iScore 100
-    m_sFactionKey "US"
-    m_bAdvanceWhenTriggered 1
-   }
-  }
- }
-}
-PolylineShapeEntity heli_destroy : "{127D357736B0C350}Prefabs/PolyZone/PolyZone_Destroy.et" {
- components {
-  PS_PolyZone "{60E90266F25533F6}" {
-   m_mPolygonTextureBorder ""
-  }
-  RplComponent "{63254262267F2D3D}" {
-  }
- }
- coords 4798.222 28.017 11682.59
- Points {
-  ShapePoint "{60E90266E922A02A}" {
-   Position 0.606 0.038 10.14
-  }
-  ShapePoint "{62F956D8913D64FA}" {
-   Position -0.317 -0.106 -176.646
-  }
-  ShapePoint "{62F956D893E3BBD6}" {
-   Position 57.24 -0.496 -177.364
-  }
-  ShapePoint "{62F956D894A65F7A}" {
-   Position 57.242 0.544 13.723
-  }
-  ShapePoint "{62F956DF6070474D}" {
-   Position 57.501 0.546 14.317
-  }
- }
- {
-  PS_Objective objective_heli {
-   ID "60E9062E6BABF763"
-   m_sTitle "Уничтожить вертолеты"
-   m_sFactionKey "US"
-   m_bAdvanceWhenTriggered 1
-  }
-  PS_PolyZoneObjectiveTriggerDestroy {
-   ID "60E9062E6BABF765"
-   components {
-    SCR_EditableEntityComponent "{6456CDDB64C2EA59}" {
-     m_UIInfo SCR_EditableEntityUIInfo "{6456CDDB677D2C07}" {
-      Name "Триггер на уничтожение вертолетов"
-     }
-     m_bAutoRegister ALWAYS
-    }
-    RplComponent "{6456CDDB618A09B6}" {
-    }
-   }
-   "Polyline Height" 100
-   UpdatePeriod 30
-   ClassesFilter {
-   }
-   PrefabsFilter {
-    PrefabFilter "{6456CDDB464471EF}" {
-     Prefab "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et"
-    }
-   }
-  }
- }
-}
-PolylineShapeEntity heli_save : "{BD11B8FAA469D169}Prefabs/PolyZone/PolyZone.et" {
- components {
-  PS_PolyZone "{60E90266F25533F6}" {
-   m_mPolygonTextureBorder ""
-  }
-  RplComponent "{63254262516ED620}" {
-  }
- }
- coords 4798.222 28.017 11682.59
- Points {
-  ShapePoint "{60E90266E922A02A}" {
-   Position 0.606 0.038 10.14
-  }
-  ShapePoint "{62F956D8913D64FA}" {
-   Position -0.317 -0.106 -176.646
-  }
-  ShapePoint "{62F956D893E3BBD6}" {
-   Position 57.24 -0.496 -177.364
-  }
-  ShapePoint "{62F956D894A65F7A}" {
-   Position 57.242 0.544 13.723
-  }
-  ShapePoint "{62F956DF6070474D}" {
-   Position 57.501 0.546 14.317
-  }
- }
- {
-  PS_PolyZoneObjectiveTriggerSave trigger_heli_save {
-   components {
-    SCR_EditableEntityComponent "{6456CDDB9AF03B3E}" {
-     m_UIInfo SCR_EditableEntityUIInfo "{6456CDDB9C60C6BA}" {
-      Name "Триггер на сохранение вертолетов"
-     }
-     m_bAutoRegister ALWAYS
-    }
-    RplComponent "{6456CDDB95DA9F04}" {
-    }
-    Hierarchy "{630200E83DFA57F1}" {
-    }
-   }
-   coords 28.482 -0.154 -8.824
-   angleX 0.018
-   angleZ -0.086
-   TriggerShapeType Polyline
-   "Polyline Height" 1000
-   TriggerActivationType "All changes"
-   PeriodicQueries 1
-   UpdatePeriod 10
-   PrefabsFilter {
-    PrefabFilter "{62FD73718AC616BA}" {
-     Prefab "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et"
-    }
-   }
-  }
-  PS_Objective objective_heli_save : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
-   coords 0 0 0
-   m_sTitle "Сохранить вертолеты"
-   m_sFactionKey "USSR"
-  }
+  coords 4749.152 28.111 11767.221
+  m_sTitle "Победа по потерям"
+  m_sFactionKey "US"
  }
 }

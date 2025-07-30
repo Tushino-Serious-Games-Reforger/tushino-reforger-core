@@ -1,0 +1,74 @@
+SCR_AIWorld : "{01DC74137CFDDB6A}Prefabs/AI/SCR_AIWorld_Arland.et" {
+ coords 2443.53 141.289 2199.704
+}
+PerceptionManager PerceptionManager2 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 2481.741 141.289 2207.214
+}
+PS_GameModeCoop TSG_GameModeLobby2 : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_GameModeLobby.et" {
+ components {
+  SCR_InitWeatherComponent "{61B68227C35BFE9A}" {
+   m_sInitialStartingWeatherId "Clear"
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 16
+   m_iStartingMinutes 30
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{654E01C38F383067}" {
+     m_sWeatherPresetName "Clear"
+     m_iStartingHour 16
+     m_iStartingMinutes 30
+    }
+   }
+   m_bRandomWeatherChanges 1
+  }
+ }
+ coords 1251.178 141.289 298.579
+ angleZ 0.895
+ m_iFreezeTime 480000
+ m_bDisableVanillaGroupMenu 1
+ m_bFreezeTimeShootingForbiden 1
+}
+GenericEntity : "{2964F001586BD05A}Prefabs/System/TSG_FillPassportData.et" {
+ coords 2520.458 147.163 2277.566
+}
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_aLossLogics {
+    LossLogic "{65FABD1D72EF20ED}" {
+     m_aLosses {
+      FactionLoss "{65FABD1D4FD4FCAD}" {
+       m_iCriticalLossCount 2
+       m_sFactionKey "RHS_USAF"
+      }
+     }
+     m_sObjectiveNames {
+      "LossesAFRF"
+     }
+     m_bAdvanceGameStage 1
+    }
+    LossLogic "{65FB25C65D0A4E4B}" {
+     m_aLosses {
+      FactionLoss "{65FB25C65BB1F7A0}" {
+       m_iCriticalLossCount 3
+       m_sFactionKey "RHS_AFRF"
+      }
+     }
+     m_sObjectiveNames {
+      "LossesUSAF"
+     }
+     m_bAdvanceGameStage 1
+    }
+   }
+  }
+ }
+ coords 2510.147 146.661 2234.4
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2400
+  }
+ }
+ coords 2510.085 146.229 2229.831
+}

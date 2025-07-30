@@ -27,13 +27,13 @@ $grp GenericEntity : "{A8D863B2FD266297}Prefabs/Props/Military/AmmoBoxes/FIA/Equ
      }
      MultiSlotConfiguration "{6314FA0791FE1681}" {
       SlotTemplate InventoryStorageSlot magazinem4 {
-       Prefab "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Ball.et"
+       Prefab "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
       }
       NumSlots 10
      }
      MultiSlotConfiguration "{6314FA0785BAF50E}" {
       SlotTemplate InventoryStorageSlot magazinem4_traccer {
-       Prefab "{A9A385FE1F7BF4BD}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Tracer.et"
+       Prefab "{A9A385FE1F7BF4BD}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M856_Tracer.et"
       }
       NumSlots 10
      }
@@ -156,13 +156,13 @@ $grp GenericEntity : "{A8D863B2FD266297}Prefabs/Props/Military/AmmoBoxes/FIA/Equ
      }
      MultiSlotConfiguration "{6314FA0791FE1681}" {
       SlotTemplate InventoryStorageSlot magazinem4 {
-       Prefab "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Ball.et"
+       Prefab "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
       }
       NumSlots 10
      }
      MultiSlotConfiguration "{6314FA0785BAF50E}" {
       SlotTemplate InventoryStorageSlot magazinem4_traccer {
-       Prefab "{A9A385FE1F7BF4BD}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Tracer.et"
+       Prefab "{A9A385FE1F7BF4BD}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M856_Tracer.et"
       }
       NumSlots 10
      }
@@ -285,13 +285,13 @@ $grp GenericEntity : "{A8D863B2FD266297}Prefabs/Props/Military/AmmoBoxes/FIA/Equ
      }
      MultiSlotConfiguration "{6314FA0791FE1681}" {
       SlotTemplate InventoryStorageSlot magazinem4 {
-       Prefab "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Ball.et"
+       Prefab "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
       }
       NumSlots 10
      }
      MultiSlotConfiguration "{6314FA0785BAF50E}" {
       SlotTemplate InventoryStorageSlot magazinem4_traccer {
-       Prefab "{A9A385FE1F7BF4BD}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Tracer.et"
+       Prefab "{A9A385FE1F7BF4BD}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M856_Tracer.et"
       }
       NumSlots 10
      }
@@ -414,13 +414,13 @@ $grp GenericEntity : "{A8D863B2FD266297}Prefabs/Props/Military/AmmoBoxes/FIA/Equ
      }
      MultiSlotConfiguration "{6314FA0791FE1681}" {
       SlotTemplate InventoryStorageSlot magazinem4 {
-       Prefab "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Ball.et"
+       Prefab "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
       }
       NumSlots 10
      }
      MultiSlotConfiguration "{6314FA0785BAF50E}" {
       SlotTemplate InventoryStorageSlot magazinem4_traccer {
-       Prefab "{A9A385FE1F7BF4BD}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Tracer.et"
+       Prefab "{A9A385FE1F7BF4BD}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M856_Tracer.et"
       }
       NumSlots 10
      }
@@ -543,13 +543,13 @@ $grp GenericEntity : "{A8D863B2FD266297}Prefabs/Props/Military/AmmoBoxes/FIA/Equ
      }
      MultiSlotConfiguration "{6314FA0791FE1681}" {
       SlotTemplate InventoryStorageSlot magazinem4 {
-       Prefab "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Ball.et"
+       Prefab "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
       }
       NumSlots 10
      }
      MultiSlotConfiguration "{6314FA0785BAF50E}" {
       SlotTemplate InventoryStorageSlot magazinem4_traccer {
-       Prefab "{A9A385FE1F7BF4BD}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Tracer.et"
+       Prefab "{A9A385FE1F7BF4BD}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M856_Tracer.et"
       }
       NumSlots 10
      }
@@ -672,13 +672,13 @@ $grp GenericEntity : "{A8D863B2FD266297}Prefabs/Props/Military/AmmoBoxes/FIA/Equ
      }
      MultiSlotConfiguration "{6314FA0791FE1681}" {
       SlotTemplate InventoryStorageSlot magazinem4 {
-       Prefab "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Ball.et"
+       Prefab "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
       }
       NumSlots 10
      }
      MultiSlotConfiguration "{6314FA0785BAF50E}" {
       SlotTemplate InventoryStorageSlot magazinem4_traccer {
-       Prefab "{A9A385FE1F7BF4BD}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Tracer.et"
+       Prefab "{A9A385FE1F7BF4BD}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M856_Tracer.et"
       }
       NumSlots 10
      }

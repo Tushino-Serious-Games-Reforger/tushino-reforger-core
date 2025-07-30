@@ -1,0 +1,156 @@
+$grp SCR_AIGroup : "{360C6407B466DFE8}Prefabs/Groups/Drongo/BLUFOR/drg_Group_US_RifleSquad.et" {
+ A12 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Flank"
+   }
+   PS_GroupCallsignAssigner "{62BCC98F72FEE891}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 9417.184 189.994 1176.762
+  angleX -0.001
+  angleY 83.091
+  angleZ -0.068
+  m_faction "UK"
+  m_aUnitPrefabSlots {
+   "{67A08629CEA745F0}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_Engineer_SL.et" "{9FC2EC85DD66D7A9}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_Engineer.et"
+  }
+ }
+ A14 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Flank"
+   }
+   PS_GroupCallsignAssigner "{62BCC98F72FEE891}" {
+    m_iSquadCallsign 3
+   }
+  }
+  coords 9273.712 196.428 1142.932
+  angleY -86.15
+  m_faction "UK"
+  m_aUnitPrefabSlots {
+   "{E3AD191C3ED5B5BF}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_Sniper_SL.et" "{45E6A5DBE5DEEE27}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_Spotter.et"
+  }
+ }
+ A11 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Flank"
+   }
+  }
+  coords 9318.424 213.964 1164.722
+  angleY 176.526
+  m_faction "UK"
+  m_aUnitPrefabSlots {
+   "{55BC0D60CFADE543}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_FOBHead.et"
+  }
+  m_bSnapToTerrain 0
+ }
+ B21 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Flank"
+   }
+   PS_GroupCallsignAssigner "{62BCC98F72FEE891}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 9318.506 218.825 1164.287
+  angleY -92.996
+  m_faction "UK"
+  m_aUnitPrefabSlots {
+   "{A09E347407EB137A}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_PL.et" "{2915692715B0A0DC}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_Deputy.et"
+  }
+  m_bSnapToTerrain 0
+ }
+ B22 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Flank"
+   }
+   PS_GroupCallsignAssigner "{62BCC98F72FEE891}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 9326.989 208.947 1159.631
+  angleY -91.968
+  m_faction "UK"
+  m_aUnitPrefabSlots {
+   "{39808DED1A0C22EA}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_SL.et" "{3E4777BC7C8A9829}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_TL.et" "{061FA2E846C7941A}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_MG.et" "{6CAC847F940AB5AD}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_aMG.et" "{9664525ECE1FC03F}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_LAT_LAW80.et" "{5D41B0E2A0EDEFC5}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_Rifleman.et" "{45E6A5DBE5DEEE27}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_Spotter.et"
+  }
+  m_bSnapToTerrain 0
+ }
+ B23 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Flank"
+   }
+   PS_GroupCallsignAssigner "{62BCC98F72FEE891}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 9375.762 204.366 1164.043
+  angleY -127.688
+  m_faction "UK"
+  m_aUnitPrefabSlots {
+   "{39808DED1A0C22EA}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_SL.et" "{3E4777BC7C8A9829}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_TL.et" "{061FA2E846C7941A}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_MG.et" "{6CAC847F940AB5AD}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_aMG.et" "{9664525ECE1FC03F}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_LAT_LAW80.et" "{5D41B0E2A0EDEFC5}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_Rifleman.et" "{5D41B0E2A0EDEFC5}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_Rifleman.et"
+  }
+ }
+ A13 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Flank"
+   }
+   PS_GroupCallsignAssigner "{62BCC98F72FEE891}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 9335.555 198.514 1159.396
+  angleX -0.068
+  angleY 0.888
+  angleZ -0.008
+  m_faction "UK"
+  m_aUnitPrefabSlots {
+   "{67F4FF8084F22D12}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_Medic_SL.et" "{635BA4A1ED5C8986}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_Medic.et"
+  }
+ }
+ B24 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Flank"
+   }
+   PS_GroupCallsignAssigner "{62BCC98F72FEE891}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 9357.284 196.65 1183.875
+  angleY 178.244
+  m_faction "UK"
+  m_aUnitPrefabSlots {
+   "{39808DED1A0C22EA}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_SL.et" "{3E4777BC7C8A9829}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_TL.et" "{061FA2E846C7941A}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_MG.et" "{6CAC847F940AB5AD}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_aMG.et" "{9664525ECE1FC03F}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_LAT_LAW80.et" "{5D41B0E2A0EDEFC5}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_Rifleman.et" "{5D41B0E2A0EDEFC5}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_Rifleman.et"
+  }
+ }
+ C31 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Flank"
+   }
+   PS_GroupCallsignAssigner "{62BCC98F72FEE891}" {
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 9322.224 208.937 1158.636
+  angleX 0.009
+  angleY 91.652
+  angleZ -0.068
+  m_faction "UK"
+  m_aUnitPrefabSlots {
+   "{39808DED1A0C22EA}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_SL.et" "{42FEBC82E646F43E}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_AT_MAW.et" "{E61333A483CCBF12}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_aAT.et" "{42FEBC82E646F43E}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_AT_MAW.et" "{E61333A483CCBF12}Prefabs/Characters/Tynec/Factions/BLUFOR/UK_army/1989/Tyn_Character_UK_1989_aAT.et"
+  }
+  m_bSnapToTerrain 0
+ }
+}

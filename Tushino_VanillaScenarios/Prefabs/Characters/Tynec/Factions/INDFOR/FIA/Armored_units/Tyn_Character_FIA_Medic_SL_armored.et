@@ -1,0 +1,12 @@
+SCR_ChimeraCharacter : "{B6CF8DAD906D7D73}Prefabs/Characters/Tynec/Factions/INDFOR/FIA/Tyn_Character_FIA_Medic_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{ADE19B33DCBB9005}Prefabs/Characters/Vests/Vest_6B2/Vest_6B2.et"
+    }
+   }
+  }
+ }
+}

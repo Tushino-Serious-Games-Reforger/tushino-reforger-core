@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{82040C2F7734F9B3}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_Sapper.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65F55A64EE0D39BC}" {
+     TargetStorage "Jacket/Suit_KLMK.et"
+     PrefabsToSpawn {
+      "{9FE958D81961DA46}Prefabs/Items/Tynec/Equipment/Radios/RU/Tyn_Radio_R148.et"
+     }
+    }
+   }
+  }
+ }
+}

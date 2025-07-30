@@ -1,0 +1,116 @@
+$grp SCR_AIGroup : "{8C9DF519F9649420}Prefabs/Groups/OPFOR/drg_Group_USSR_RifleSquad.et" {
+ A1_1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Flank"
+   }
+  }
+  coords 8195.551 220.814 2215.983
+  angleY 109.738
+  m_faction "USSR"
+  m_aUnitPrefabSlots {
+   "{DF61F18B5107B876}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/Spec_units/drg_Character_USSR_Recon_OperationCommander.et" "{072F75BB5AA0200E}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_SeniorScout.et"
+  }
+ }
+ K1_1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Flank"
+   }
+   PS_GroupCallsignAssigner "{62BCC98D785260C7}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 8194.745 220.895 2213.607
+  angleY 109.738
+  m_faction "USSR"
+  m_aUnitPrefabSlots {
+   "{3812CB7400F82B6D}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_CL.et" "{EC89944E401BB659}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_Sniper.et" "{ACD9575EDC2C034D}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_Medic.et"
+  }
+ }
+ K1_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Flank"
+   }
+   PS_GroupCallsignAssigner "{62BCC98D785260C7}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 8193.68 221.029 2210.367
+  angleY 109.738
+  m_faction "USSR"
+  m_aUnitPrefabSlots {
+   "{C6960782BEAA6B07}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_SL.et" "{072F75BB5AA0200E}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_SeniorScout.et" "{E8824305A4CC28A9}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/Radio_units/drg_Character_USSR_Recon_AT_radio.et" "{6962014EC8F52C27}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/Radio_units/drg_Character_USSR_Recon_AR_radio.et" "{2B69648D607D80D0}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/Radio_units/drg_Character_USSR_Recon_Sapper_radio.et" "{B3F0CC145F72A59D}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/Radio_units/drg_Character_USSR_Recon_Rifleman_sup_radio.et" "{B3F0CC145F72A59D}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/Radio_units/drg_Character_USSR_Recon_Rifleman_sup_radio.et" "{78EA5CC4F1C527F3}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Crew_Commander.et" "{93653A42750C27AD}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Crew_Driver.et"
+  }
+ }
+ K1_3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Flank"
+   }
+   PS_GroupCallsignAssigner "{62BCC98D785260C7}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 8190.517 221.357 2201.803
+  angleY 124.394
+  m_faction "USSR"
+  m_aUnitPrefabSlots {
+   "{C6960782BEAA6B07}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_SL.et" "{072F75BB5AA0200E}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_SeniorScout.et" "{E8824305A4CC28A9}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/Radio_units/drg_Character_USSR_Recon_AT_radio.et" "{6962014EC8F52C27}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/Radio_units/drg_Character_USSR_Recon_AR_radio.et" "{2B69648D607D80D0}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/Radio_units/drg_Character_USSR_Recon_Sapper_radio.et" "{B3F0CC145F72A59D}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/Radio_units/drg_Character_USSR_Recon_Rifleman_sup_radio.et" "{B3F0CC145F72A59D}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/Radio_units/drg_Character_USSR_Recon_Rifleman_sup_radio.et" "{78EA5CC4F1C527F3}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Crew_Commander.et" "{93653A42750C27AD}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Crew_Driver.et"
+  }
+ }
+ K1_4 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Flank"
+   }
+   PS_GroupCallsignAssigner "{62BCC98D785260C7}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 8185.17 221.608 2194.102
+  angleY 130.154
+  m_faction "USSR"
+  m_aUnitPrefabSlots {
+   "{C6960782BEAA6B07}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_SL.et" "{072F75BB5AA0200E}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_SeniorScout.et" "{E8824305A4CC28A9}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/Radio_units/drg_Character_USSR_Recon_AT_radio.et" "{6962014EC8F52C27}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/Radio_units/drg_Character_USSR_Recon_AR_radio.et" "{2B69648D607D80D0}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/Radio_units/drg_Character_USSR_Recon_Sapper_radio.et" "{B3F0CC145F72A59D}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/Radio_units/drg_Character_USSR_Recon_Rifleman_sup_radio.et" "{B3F0CC145F72A59D}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/Radio_units/drg_Character_USSR_Recon_Rifleman_sup_radio.et"
+  }
+ }
+ K1_5 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Flank"
+   }
+   PS_GroupCallsignAssigner "{62BCC98D785260C7}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 4
+   }
+  }
+  coords 8180.168 221.62 2188.606
+  angleY 142.422
+  m_faction "USSR"
+  m_aUnitPrefabSlots {
+   "{C6960782BEAA6B07}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_SL.et" "{FCA2700374B69846}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/Radio_units/drg_Character_USSR_Recon_MG_radio.et" "{2DCB4E3014579C52}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/Radio_units/drg_Character_USSR_Recon_aMG_radio_sup.et" "{FCA2700374B69846}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/Radio_units/drg_Character_USSR_Recon_MG_radio.et" "{2DCB4E3014579C52}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/Radio_units/drg_Character_USSR_Recon_aMG_radio_sup.et" "{FCA2700374B69846}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/Radio_units/drg_Character_USSR_Recon_MG_radio.et" "{2DCB4E3014579C52}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/Radio_units/drg_Character_USSR_Recon_aMG_radio_sup.et"
+  }
+ }
+ K1_6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Flank"
+   }
+   PS_GroupCallsignAssigner "{62BCC98D785260C7}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 5
+   }
+  }
+  coords 8180.729 221.618 2180.54
+  angleY -38.671
+  m_faction "USSR"
+  m_aUnitPrefabSlots {
+   "{C6960782BEAA6B07}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/drg_Character_USSR_Recon_SL.et" "{A8E39F0812E7EECD}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/Radio_units/drg_Character_USSR_Recon_Medic_radio.et" "{A8E39F0812E7EECD}Prefabs/Characters/drongo/OPFOR/USSR_Army/Recon/Radio_units/drg_Character_USSR_Recon_Medic_radio.et"
+  }
+ }
+}

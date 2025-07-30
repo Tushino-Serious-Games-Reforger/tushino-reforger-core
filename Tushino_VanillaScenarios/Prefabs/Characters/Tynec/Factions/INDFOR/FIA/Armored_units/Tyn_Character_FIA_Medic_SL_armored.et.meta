@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{035CA8F0CE36E92A}Prefabs/Characters/Tynec/Factions/INDFOR/FIA/Tyn_Character_FIA_Medic_SL_armored.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

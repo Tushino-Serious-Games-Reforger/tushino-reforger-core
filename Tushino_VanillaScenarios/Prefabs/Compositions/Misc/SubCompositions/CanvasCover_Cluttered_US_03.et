@@ -1,0 +1,174 @@
+GenericEntity : "{FA9066DE33E8E67D}Prefabs/Structures/Military/Camps/Canvas_Covers/US/CanvasCover_Large_US.et" {
+ ID "52F0B4ADDCC2C24E"
+ components {
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "HugeDestructible"
+  }
+  SCR_SlotCompositionComponent "{5706EA5A9D40D2A4}" : "{F27DCA13BB9C3F3B}Prefabs/Editor/Components/SlotCompositionComponent.ct" {
+   m_bOrientChildrenToTerrain 0
+  }
+  Hierarchy "{65F1578B90446B19}" {
+   Enabled 1
+  }
+ }
+ coords 72.052 0.1 70.764
+ angleY -88.205
+ {
+  GenericEntity : "{026714237FB820CB}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_07.et" {
+   ID "65F1578B904EAFB4"
+   components {
+    Hierarchy "{65F1578B90446B0A}" {
+    }
+   }
+   coords -0.594 0.955 0.225
+   angleY 25.401
+   scale 0.5
+  }
+  GenericEntity : "{20902DC3C035E9F2}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/US/EquipmentBoxStack_US_01_V3_covered.et" {
+   ID "65F1578B9043294A"
+   coords 2.653 0.061 3.762
+   angleY 180
+  }
+  GenericEntity : "{248CBAD8E0E6FC6E}Prefabs/Compositions/Misc/SubCompositions/Barrel_Filled_02.et" {
+   ID "65F1578B90432957"
+   coords 0.549 0.061 3.756
+   angleY 22.594
+  }
+  GenericEntity : "{4BAC1B025834E407}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/US/EquipmentBoxStack_US_01_V1_covered.et" {
+   ID "65F1578B90432954"
+   coords 1.484 0.061 3.817
+   angleY -90
+  }
+  GameEntity : "{50E6A3845C9F20FD}Prefabs/Props/Military/Camps/LanternMilitary_US_01.et" {
+   ID "65F1578B90432948"
+   components {
+    Hierarchy "{65F1578B90446B8F}" {
+    }
+   }
+   coords 1.703 0.964 3.334
+   angleY -133.179
+  }
+  $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+   {
+    ID "65F1578B904012E5"
+    components {
+     Hierarchy "{65F1578B90446BEC}" {
+      Enabled 1
+     }
+    }
+    coords -1.972 -0.039 -2.237
+    angleY 89.429
+   }
+   {
+    ID "65F1578B904012EA"
+    components {
+     Hierarchy "{65F1578B90446BE8}" {
+      Enabled 1
+     }
+    }
+    coords -2.133 -0.039 -0.593
+    angleY 86.628
+   }
+   {
+    ID "65F1578B90404ACC"
+    components {
+     Hierarchy "{65F1578B90446BE2}" {
+      Enabled 1
+     }
+    }
+    coords -1.986 -0.039 -3.625
+    angleY -91.224
+   }
+   {
+    ID "65F1578B90404ACD"
+    components {
+     Hierarchy "{65F1578B90446BE6}" {
+      Enabled 1
+     }
+    }
+    coords 1.849 -0.039 -3.65
+    angleY -90.162
+   }
+   {
+    ID "65F1578B90408E0A"
+    components {
+     Hierarchy "{65F1578B90446BF1}" {
+      Enabled 1
+     }
+    }
+    coords -1.961 -0.039 2.352
+    angleY 89.429
+   }
+   {
+    ID "65F1578B90408E0B"
+    components {
+     Hierarchy "{65F1578B90446BF2}" {
+      Enabled 1
+     }
+    }
+    coords -2.024 -0.039 3.647
+    angleY 86.628
+   }
+   {
+    ID "65F1578B9040D266"
+    components {
+     Hierarchy "{65F1578B90446BF4}" {
+      Enabled 1
+     }
+    }
+    coords -2.006 -0.039 0.941
+    angleY -90.542
+   }
+   {
+    ID "65F1578B9043294F"
+    components {
+     Hierarchy "{65F1578B90446B89}" {
+      Enabled 1
+     }
+    }
+    coords 1.733 -0.039 3.683
+    angleY 90.654
+   }
+   {
+    ID "65F1578B90439499"
+    components {
+     Hierarchy "{65F1578B90446B90}" {
+      Enabled 1
+     }
+    }
+    coords 1.839 -0.039 0.88
+    angleY -89.214
+   }
+   {
+    ID "65F1578B9043949A"
+    components {
+     Hierarchy "{65F1578B90446B9C}" {
+      Enabled 1
+     }
+    }
+    coords 1.736 -0.039 -0.632
+    angleY 90.654
+   }
+   {
+    ID "65F1578B9043BE5F"
+    components {
+     Hierarchy "{65F1578B90446B9B}" {
+      Enabled 1
+     }
+    }
+    coords 1.841 -0.039 -2.249
+    angleY -88.907
+   }
+   {
+    ID "65F1578B9043F926"
+    components {
+     Hierarchy "{65F1578B90446B95}" {
+      Enabled 1
+     }
+    }
+    coords 1.898 -0.039 2.35
+    angleY -86.564
+   }
+  }
+ }
+}

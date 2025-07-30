@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{D3F34B7C550A3F9E}Prefabs/Characters/Factions/INDFOR/FIA/mTSG_Character_FIA_RPK_armored.et"
+ Name "{BB60B5C027E99A54}Prefabs/Characters/Tynec/Factions/INDFOR/FIA/Tyn_Character_FIA_RPK_armored.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }

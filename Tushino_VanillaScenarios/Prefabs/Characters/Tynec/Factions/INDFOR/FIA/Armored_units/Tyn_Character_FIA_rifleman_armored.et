@@ -1,0 +1,12 @@
+SCR_ChimeraCharacter : "{8A99E3443BAC29A2}Prefabs/Characters/Tynec/Factions/INDFOR/FIA/Tyn_Character_FIA_rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{ADE19B33DCBB9005}Prefabs/Characters/Vests/Vest_6B2/Vest_6B2.et"
+    }
+   }
+  }
+ }
+}

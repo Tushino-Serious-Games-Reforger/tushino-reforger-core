@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F5C29223AEC41AA4}Prefabs/Items/Tynec/Equipment/Radios/UK/Tyn_Radio_PRC349_UK_SL.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -3,8 +3,9 @@ Vehicle M923A1_tanker1 : "{2BE1F8B9299B67C1}Prefabs/Vehicles/Wheeled/M923A1/M923
  angleX 2.802
  angleY -26.298
  angleZ -0.387
+ m_sAttachmentGroupName "US_5_0_0_T"
 }
-$grp SCR_AIGroup : "{360C6407B466DFE8}Prefabs/Groups/BLUFOR/drg_Group_US_RifleSquad.et" {
+$grp SCR_AIGroup : "{360C6407B466DFE8}Prefabs/Groups/Drongo/BLUFOR/drg_Group_US_RifleSquad.et" {
  US_0_0_2 {
   components {
    PS_GroupCallsignAssigner "{62BCC98F72FEE891}" {
@@ -31,7 +32,7 @@ $grp SCR_AIGroup : "{360C6407B466DFE8}Prefabs/Groups/BLUFOR/drg_Group_US_RifleSq
  }
  US_0_0_0 {
   coords 11061.739 35.407 11587.137
-  angleY -36.529
+  angleY -130.638
   m_aUnitPrefabSlots {
    "{9F809A16C8265C6C}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_PL.et" "{D129F2A4986026E5}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Sniper.et" "{ED7C02DBC8B7FECA}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Medic.et"
   }
@@ -150,23 +151,27 @@ $grp Vehicle : "{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.e
   angleX 9.172
   angleY 51.82
   angleZ -2.682
+  m_sAttachmentGroupName "US_4_0_0_T"
  }
  UH1H_armed2 {
   coords 11025.791 30.169 11495.934
   angleX 5.622
   angleY 57.381
   angleZ 3.806
+  m_sAttachmentGroupName "US_4_0_1_T2"
  }
  UH1H_armed3 {
   coords 11064.032 32.233 11518.701
   angleX 3.392
   angleY 57.188
   angleZ 5.243
+  m_sAttachmentGroupName "US_4_0_2_T3"
  }
  UH1H_armed4 {
   coords 11045.608 33.435 11540.511
   angleX 3.921
   angleY 57.246
   angleZ 2.787
+  m_sAttachmentGroupName "US_4_0_3_T2"
  }
 }

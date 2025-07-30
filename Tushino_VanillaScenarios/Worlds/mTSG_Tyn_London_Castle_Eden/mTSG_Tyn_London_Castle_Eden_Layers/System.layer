@@ -1,0 +1,124 @@
+SCR_AIWorld : "{01DC74137CFDDB6A}Prefabs/AI/SCR_AIWorld_Arland.et" {
+ coords 9309.584 230.665 1164.105
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 9347.795 230.665 1171.615
+}
+PS_GameModeCoop TSG_GameModeLobby : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_GameModeLobby.et" {
+ components {
+  SCR_InitWeatherComponent "{61B68227C35BFE9A}" {
+   m_sInitialStartingWeatherId "Cloudy"
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 17
+   m_iStartingMinutes 20
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{654E01C38F383067}" {
+     m_sWeatherPresetName "Cloudy"
+     m_iStartingHour 17
+     m_iStartingMinutes 20
+    }
+   }
+   m_bRandomWeatherChanges 1
+  }
+ }
+ coords 8117.232 230.665 -737.02
+ angleZ 0.895
+ m_bDisableVanillaGroupMenu 1
+ m_bDisablePlayablesStreaming 1
+ m_bFreezeTimeShootingForbiden 1
+ {
+  SCR_FactionManager FactionManager {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{623962205CE2B89C}" {
+     m_CallsignInfo SCR_FactionCallsignInfo "{5CC8BB97E017CDBC}" {
+      m_aCompanyNames {
+       SCR_CallsignInfo "{55CCB792CD021D5C}" {
+        m_sCallsign "#TYN-Callsign_Alpha"
+       }
+       SCR_CallsignInfo "{55CCB792CCD598D3}" {
+        m_sCallsign "#TYN-Callsign_Bravo"
+       }
+       SCR_CallsignInfo "{55CCB792CC9C7AD6}" {
+        m_sCallsign "#TYN-Callsign_Charlie"
+       }
+       SCR_CallsignInfo "{55CCB792CCB4D441}" {
+        m_sCallsign "#TYN-Callsign_Golf"
+       }
+       SCR_CallsignInfo "{55CCB792CC5F08F3}" {
+       }
+      }
+      m_aPlatoonNames {
+       SCR_CallsignInfo "{55CCB792CE6E998D}" {
+        m_sCallsign "1"
+       }
+       SCR_CallsignInfo "{55CCB792CE18FB44}" {
+        m_sCallsign "2"
+       }
+       SCR_CallsignInfo "{55CCB792CE02ECFA}" {
+        m_sCallsign "3"
+       }
+       SCR_CallsignInfo "{55CCB792CE2A44BD}" {
+        m_sCallsign "4"
+       }
+       SCR_CallsignInfo "{6578EDAC250AF281}" {
+        m_sCallsign "5"
+       }
+       SCR_CallsignInfo "{6578EDAC24CA0598}" {
+        m_sCallsign "6"
+       }
+      }
+      m_aSquadNames {
+       SCR_CallsignInfo "{6578EDAC3ACE09B4}" {
+        m_sCallsign "5"
+       }
+       SCR_CallsignInfo "{6578EDAC3A929BE4}" {
+        m_sCallsign "6"
+       }
+      }
+      m_sCallsignGroupFormat "%1 %2-%3"
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{2964F001586BD05A}Prefabs/System/TSG_FillPassportData.et" {
+ coords 9290.926 190.113 1133.795
+}
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_aLossLogics {
+    LossLogic "{65F6B9FBDA78DF5E}" {
+     m_aLosses {
+      FactionLoss "{65F6B9FBD8DA7D5B}" {
+       m_iCriticalLossCount 0
+       m_sFactionKey "UK"
+      }
+     }
+     m_sObjectiveNames {
+      "DestroyUK"
+     }
+     m_bAdvanceGameStage 1
+    }
+    LossLogic "{65F6B9FA3E50B523}" {
+     m_aLosses {
+      FactionLoss "{65F6B9FA3D0736BF}" {
+       m_iCriticalLossCount 3
+      }
+     }
+     m_sObjectiveNames {
+      "DestroyUSSR"
+     }
+     m_bAdvanceGameStage 1
+    }
+   }
+  }
+ }
+ coords 9290.842 190.795 1190.264
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ coords 9293.061 192.064 1178.734
+}

@@ -29,6 +29,9 @@ SCR_ChimeraCharacter : "{B2340E49FB79F95F}Prefabs/Characters/Tynec/Factions/OPFO
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{D4028ED16DEE99EE}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_camonet.et"
+    }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{ADE19B33DCBB9005}Prefabs/Characters/Vests/Vest_6B2/Vest_6B2.et"
     }

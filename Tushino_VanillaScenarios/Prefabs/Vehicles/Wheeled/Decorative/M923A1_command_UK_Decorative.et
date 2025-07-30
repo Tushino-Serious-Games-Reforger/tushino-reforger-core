@@ -1,0 +1,146 @@
+Vehicle : "{9A0D72816DFFDB7F}Prefabs/Vehicles/Wheeled/M923A1/M923A1.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_VehicleSoundComponent "{55C2E66AD4EF2CA6}" {
+   SoundPoints {
+    SoundPointInfo MHQ_Deployment {
+     Offset 0 2.2181 -3.26
+    }
+   }
+  }
+  BaseRadioComponent "{51EAE034CD7B7A2C}" {
+   Transceivers {
+    RelayTransceiver "{65F74789AAA54814}" {
+     "Transmitting Range" 2000
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#AR-Vehicle_M934A1_Name"
+    Icon "{69691B5E759C0362}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Truck_Command.edds"
+    IconSetName ""
+    m_Image "{ADF5342179CB2029}UI/Textures/EditorPreviews/Vehicles/Wheeled/M923A1/M923A1_command.edds"
+    m_sFaction "UK"
+    m_aAuthoredLabels + {
+     35 280 210
+    }
+    m_aAutoLabels {
+     7000 122 54
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 420
+     }
+     SCR_EntityBudgetValue "{65F74789AAA54821}" {
+      m_BudgetType RANK_SERGEANT
+      m_Value 3
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{5916C580F04BA310}" {
+    CustomAttributes {
+     PreviewRenderAttributes "{5938C606F80AF9E2}" {
+      CameraOffset -1 -1.75 0
+     }
+    }
+   }
+   MaxCumulativeVolume 100000
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "UK"
+  }
+  SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
+   m_fVehicleDestroyDamage 11360.7
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Exhaust {
+     Prefab "{F6CC3B71325604A9}Prefabs/Vehicles/Wheeled/M923A1/VehParts/Exhaust/M923A1_exhaust_short.et"
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Radio {
+     MergePhysics 1
+     Prefab "{DCE16D92C350D64F}Prefabs/Vehicles/Wheeled/M923A1/M923A1_combox.et"
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterCompartments 1
+     RegisterLights 1
+    }
+    RegisteringComponentSlotInfo Arsenal {
+     Prefab "{8A239DEA19509B1B}Prefabs/Vehicles/Core/VirtualSlots/Radio_VirtualArsenalSlot.et"
+     DisablePhysicsInteraction 1
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   Enabled 0
+   ActionContexts {
+    UserActionContext "{60D889C6E33B775B}" {
+     Radius 6
+    }
+   }
+   additionalActions {
+    SCR_RefuelAtSupportStationAction "{5B02B547EDCF6F99}" {
+    }
+    SCR_ResourceEntityRefundAction "{5D5EC6128E6342C0}" {
+     ParentContextList {
+     }
+    }
+    SCR_RepairAtSupportStationAction "{5B02B547E8F16AF2}" {
+     ParentContextList {
+     }
+    }
+    SCR_RepairAtSupportStationAction "{5E20D2E3B055B082}" {
+     ParentContextList {
+     }
+    }
+    SCR_RepairAtSupportStationAction "{5E1CB6DF63753AD9}" {
+     ParentContextList {
+     }
+    }
+    SCR_RepairAtSupportStationAction "{5E3ACC1CF6F95044}" {
+     ParentContextList {
+     }
+    }
+    SCR_UnflipVehicleAction "{5C96333D28423C46}" {
+     ParentContextList {
+     }
+    }
+    SCR_UnflipVehicleAction "{5D5F64CA576C1D07}" {
+     ParentContextList {
+     }
+    }
+    SCR_PushVehicleAction "{60DA85DB5FFC6E4F}" {
+     ParentContextList {
+     }
+    }
+    SCR_ToggleHandbrakeAction "{60DC8885D52C4097}" {
+     ParentContextList {
+     }
+    }
+    SCR_ToggleHandbrakeAction "{60DE778F7045386D}" {
+     ParentContextList {
+     }
+    }
+    SCR_EngineAction "{56B3068A876F0AF9}" {
+     ParentContextList {
+     }
+    }
+    SCR_EngineAction "{56B3068A86E219BD}" {
+     ParentContextList {
+     }
+    }
+    SCR_OpenVehicleStorageAction "{5E58A8A3F402DDF4}" {
+     ParentContextList {
+     }
+    }
+   }
+  }
+ }
+ coords 64 0 64
+ m_eVehicleType COMM_TRUCK
+}

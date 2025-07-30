@@ -2,19 +2,27 @@ Vehicle M997_maxi_ambulance1 : "{00C9BBE426F7D459}Prefabs/Vehicles/Wheeled/M998/
  coords 4956.552 2.156 3904.095
  angleY -144.446
 }
-$grp SCR_AIGroup : "{360C6407B466DFE8}Prefabs/Groups/BLUFOR/drg_Group_US_RifleSquad.et" {
+$grp SCR_AIGroup : "{360C6407B466DFE8}Prefabs/Groups/Drongo/BLUFOR/drg_Group_US_RifleSquad.et" {
  US_0_0_1 {
   components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Flank"
+   }
    PS_GroupCallsignAssigner "{62BCC98F72FEE891}" {
     m_iSquadCallsign 1
    }
   }
   coords 5290.993 63.929 5378.808
-  angleY -152.282
+  angleY -56.285
  }
  US_0_0_0_T {
-  coords 5282.856 64.114 5372.074
-  angleY 23.855
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Flank"
+   }
+  }
+  coords 5282.855 64.114 5372.073
+  angleY -39.711
   m_aUnitPrefabSlots {
    "{9F809A16C8265C6C}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_PL.et" "{D129F2A4986026E5}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Sniper.et" "{ED7C02DBC8B7FECA}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Medic.et"
   }

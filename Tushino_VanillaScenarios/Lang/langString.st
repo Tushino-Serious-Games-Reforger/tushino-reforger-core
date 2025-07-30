@@ -1780,11 +1780,27 @@ StringTable {
    Author "p1vas"
    LastChanged "p1vas"
   }
+  CustomStringTableItem "{65EEC40E3DD650C8}" {
+   Id "Tyn-Role_FOBHead"
+   Target_en_us "Head of the Forward Operating Base"
+   Target_ru_ru "Начальник передовой базы"
+   Modified 1710172034
+   Author "p1vas"
+   LastChanged "p1vas"
+  }
   CustomStringTableItem "{64928661A5964387}" {
    Id "TYN-Role_MercCommander"
    Target_en_us "Merc commander"
    Target_ru_ru "Командир наёмников"
    Modified 1687331945
+   Author "p1vas"
+   LastChanged "p1vas"
+  }
+  CustomStringTableItem "{65F55A68E2DFBDF4}" {
+   Id "TYN-Role_OperationCommander"
+   Target_en_us "Operation Commander"
+   Target_ru_ru "Командир операции"
+   Modified 1710582138
    Author "p1vas"
    LastChanged "p1vas"
   }

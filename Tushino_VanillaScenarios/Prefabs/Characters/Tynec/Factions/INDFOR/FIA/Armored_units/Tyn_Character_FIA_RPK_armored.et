@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{D4C2EC9443DB650B}Prefabs/Characters/Factions/INDFOR/FIA/mTSG_Character_FIA_RPK.et" {
+SCR_ChimeraCharacter : "{D4C2EC9443DB650B}Prefabs/Characters/Tynec/Factions/INDFOR/FIA/Tyn_Character_FIA_RPK.et" {
  ID "520EC961A090B1EE"
  components {
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
