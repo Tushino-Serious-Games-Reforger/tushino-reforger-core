@@ -84,6 +84,9 @@ PS_GameModeCoop TSG_GameModeLobby : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_Game
   }
  }
 }
+GenericEntity : "{2964F001586BD05A}Prefabs/System/TSG_FillPassportData.et" {
+ coords 9290.926 190.113 1133.795
+}
 GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
  components {
   DRG_CriticalLossComponent "{65213D368F1BD792}" {

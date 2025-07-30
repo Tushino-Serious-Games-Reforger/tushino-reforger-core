@@ -28,6 +28,9 @@ PS_GameModeCoop TSG_GameModeLobby2 : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_Gam
  m_bDisableVanillaGroupMenu 1
  m_bFreezeTimeShootingForbiden 1
 }
+GenericEntity : "{2964F001586BD05A}Prefabs/System/TSG_FillPassportData.et" {
+ coords 2520.458 147.163 2277.566
+}
 GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
  components {
   DRG_CriticalLossComponent "{65213D368F1BD792}" {
