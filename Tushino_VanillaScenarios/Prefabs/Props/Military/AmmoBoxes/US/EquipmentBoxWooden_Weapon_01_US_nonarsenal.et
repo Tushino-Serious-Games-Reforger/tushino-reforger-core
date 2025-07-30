@@ -12,6 +12,7 @@ GenericEntity : "{9C4642487946A666}Prefabs/Props/Military/AmmoBoxes/EquipmentBox
   }
   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
    Enabled 1
+   UseCapacityCoefficient 0
   }
   ActionsManagerComponent "{5476B36C403D4CC0}" {
    Enabled 1

@@ -1,0 +1,18 @@
+GenericEntity : "{1A8791C2BC2B8B75}Prefabs/Structures/Military/Flags/FlagPole_01/FlagPole_01_empty.et" {
+ ID "50C6D20663830070"
+ components {
+  SCR_FlagComponent "{5E3C95A1F6DA459D}" {
+   m_sDefaultMaterial "{8836147501038F55}Assets/Props/Fabric/Flags/Data/Flag_1_2_USArmy.emat"
+   m_sFactionKey "US"
+  }
+  SlotManagerComponent "{65F931DAF146A64E}" {
+   Slots {
+    EntitySlotInfo Flag {
+     Offset -0.0007 5.2812 -0.1736
+     Prefab "{CE51B1CD905B8DE0}Prefabs/Props/Fabric/Flags/Flag_1_2_USArmy_01.et"
+    }
+   }
+  }
+ }
+ coords 2535.005 143.667 2256.455
+}

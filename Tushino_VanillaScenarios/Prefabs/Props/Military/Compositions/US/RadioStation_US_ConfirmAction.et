@@ -1,0 +1,63 @@
+GenericEntity : "{12DFA1CC555DFEF4}Prefabs/Props/Military/Compositions/RadioStation_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{0F55504A35401163}Assets/Props/Military/Radios/RadioStation_ANPRC77_01.xob"
+  }
+  SCR_FactionAffiliationComponent "{5CB6D5B110622424}" {
+   "faction affiliation" "RHS_USAF"
+  }
+  ActionsManagerComponent "{5CB6D5B110622410}" {
+   ActionContexts {
+    UserActionContext "{65F96266A36AE191}" {
+     ContextName "Base"
+     Position PointInfo "{65F9626695634086}" {
+      Offset 0.0001 0.0762 0.1563
+     }
+    }
+   }
+   additionalActions {
+    TSG_ConfirmAction "{65F962663CD37E34}" {
+     ParentContextList {
+      "Base"
+     }
+     UIInfo UIInfo "{65F962660DEF8404}" {
+      Name "Включить радиостанцию"
+     }
+     ActionTitle "TSG_ConfirmActionUSAF"
+     Duration 15
+     m_vGameAdvance 0
+     m_aObjectivesToDone {
+      "Radio_USAF"
+     }
+     m_aObjectivesToFail {
+      "Radio_AFRF"
+     }
+     m_vFactionKey "RHS_USAF"
+     m_vActionEnd 0
+    }
+    TSG_ConfirmAction "{65F968E5168A6A2C}" {
+     ParentContextList {
+      "Base"
+     }
+     UIInfo UIInfo "{65F962660DEF8404}" {
+      Name "Выключить радиостанцию"
+     }
+     ActionTitle "TSG_ConfirmActionAFRF"
+     Duration 15
+     m_vGameAdvance 0
+     m_aObjectivesToDone {
+      "Radio_AFRF"
+     }
+     m_aObjectivesToFail {
+      "Radio_USAF"
+     }
+     m_vFactionKey "RHS_AFRF"
+     m_vActionEnd 0
+    }
+   }
+  }
+ }
+ coords -0.104 0.9 -0.162
+ angleY 4.26
+}
