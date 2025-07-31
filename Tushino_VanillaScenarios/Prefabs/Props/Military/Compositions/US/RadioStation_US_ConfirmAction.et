@@ -17,14 +17,14 @@ GenericEntity : "{12DFA1CC555DFEF4}Prefabs/Props/Military/Compositions/RadioStat
     }
    }
    additionalActions {
-    TSG_ConfirmAction "{65F962663CD37E34}" {
+    TSG_RadioAction "{65FEF21C13E8C193}" {
      ParentContextList {
       "Base"
      }
-     UIInfo UIInfo "{65F962660DEF8404}" {
-      Name "Включить радиостанцию"
+     UIInfo UIInfo "{65FEF21C6D745105}" {
+      Name "Включить радио"
      }
-     ActionTitle "TSG_ConfirmActionUSAF"
+     ActionTitle "TSG_RadioActionUSAF"
      Duration 15
      m_vGameAdvance 0
      m_aObjectivesToDone {
@@ -34,16 +34,15 @@ GenericEntity : "{12DFA1CC555DFEF4}Prefabs/Props/Military/Compositions/RadioStat
       "Radio_AFRF"
      }
      m_vFactionKey "RHS_USAF"
-     m_vActionEnd 0
     }
-    TSG_ConfirmAction "{65F968E5168A6A2C}" {
+    TSG_RadioAction "{65FEF21C11CB73C8}" {
      ParentContextList {
       "Base"
      }
-     UIInfo UIInfo "{65F962660DEF8404}" {
-      Name "Выключить радиостанцию"
+     UIInfo UIInfo "{65FEF21C89E8B66C}" {
+      Name "Выключить радио"
      }
-     ActionTitle "TSG_ConfirmActionAFRF"
+     ActionTitle "TSG_RadioActonAFRF"
      Duration 15
      m_vGameAdvance 0
      m_aObjectivesToDone {
@@ -53,7 +52,6 @@ GenericEntity : "{12DFA1CC555DFEF4}Prefabs/Props/Military/Compositions/RadioStat
       "Radio_USAF"
      }
      m_vFactionKey "RHS_AFRF"
-     m_vActionEnd 0
     }
    }
   }

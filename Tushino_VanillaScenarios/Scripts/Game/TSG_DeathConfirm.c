@@ -60,5 +60,10 @@ class TSG_DeathConfirm : ScriptedUserAction
 	{
 		return m_aObjectivesToDone;
 	}
+	
+	array<string> GetFailObjectives()
+	{
+		return m_aObjectivesToFail;
+	}
 }
 
