@@ -24,6 +24,7 @@ PS_GameModeCoop TSG_GameModeLobby2 : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_Gam
  angleZ 0.895
  m_bDisableVanillaGroupMenu 1
  m_bDisablePlayablesStreaming 1
+ m_bFriendliesSpectatorOnly 0
  m_bFreezeTimeShootingForbiden 1
 }
 GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {

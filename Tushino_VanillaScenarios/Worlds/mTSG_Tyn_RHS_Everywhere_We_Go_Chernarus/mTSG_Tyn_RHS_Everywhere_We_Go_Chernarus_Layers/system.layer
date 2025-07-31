@@ -25,6 +25,7 @@ PS_GameModeCoop TSG_GameModeLobby2 : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_Gam
  angleZ 0.895
  m_bDisableVanillaGroupMenu 1
  m_bDisablePlayablesStreaming 1
+ m_bFriendliesSpectatorOnly 0
  m_bFreezeTimeShootingForbiden 1
  {
   SCR_FactionManager "655450DD46F8B832" {
