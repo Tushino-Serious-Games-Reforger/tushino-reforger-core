@@ -1,4 +1,4 @@
-class TSG_ConfirmAction : TSG_DeathConfirm
+class TSG_RadioAction : TSG_DeathConfirm
 {
 	[Attribute(defvalue: "USSR", desc: "Which faction can see action")]
 	FactionKey m_vFactionKey;
@@ -31,11 +31,19 @@ class TSG_ConfirmAction : TSG_DeathConfirm
 		
 		if (m_vActionEnd == true)
 		{
-			foreach(string ObjectiveName : GetDoneObjectives())
+			foreach(string DObjectiveName : GetDoneObjectives())
 			{
-				PS_Objective Objective = PS_Objective.Cast(GetGame().GetWorld().FindEntityByName(ObjectiveName));
-				if (Objective.GetCompleted() == true)
-					return false;
+				foreach(string FObjectiveName : GetFailObjectives())
+				{
+					PS_Objective DObjective = PS_Objective.Cast(GetGame().GetWorld().FindEntityByName(DObjectiveName));
+					if(!DObjective)
+						continue;
+					PS_Objective FObjective = PS_Objective.Cast(GetGame().GetWorld().FindEntityByName(FObjectiveName));
+					if(!FObjective)
+						continue;
+					if(DObjective.GetCompleted() == true && FObjective.GetCompleted() == false)
+						return false;
+				}
 			}
 		}
 		
