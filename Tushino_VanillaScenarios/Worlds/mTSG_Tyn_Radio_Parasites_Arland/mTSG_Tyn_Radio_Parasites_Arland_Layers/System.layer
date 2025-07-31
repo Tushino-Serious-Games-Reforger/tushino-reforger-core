@@ -26,6 +26,7 @@ PS_GameModeCoop TSG_GameModeLobby2 : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_Gam
  angleZ 0.895
  m_iFreezeTime 480000
  m_bDisableVanillaGroupMenu 1
+ m_bFriendliesSpectatorOnly 0
  m_bFreezeTimeShootingForbiden 1
 }
 GenericEntity : "{2964F001586BD05A}Prefabs/System/TSG_FillPassportData.et" {

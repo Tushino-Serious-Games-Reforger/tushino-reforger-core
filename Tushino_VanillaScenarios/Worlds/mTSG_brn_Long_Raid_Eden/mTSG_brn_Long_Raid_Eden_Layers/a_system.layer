@@ -23,6 +23,7 @@ PS_GameModeCoop "62F956D81A25B236" : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_Gam
  m_iFreezeTime 300000
  m_bDisableChat 1
  m_bReserveSlots 1
+ m_bFriendliesSpectatorOnly 0
 }
 GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
  components {

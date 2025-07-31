@@ -21,6 +21,7 @@ PS_GameModeCoop "62D1737781F21CC7" : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_Gam
  m_bRemoveSquadMarkers 1
  m_bDisableChat 1
  m_bReserveSlots 1
+ m_bFriendliesSpectatorOnly 0
  {
   TSG_MissionTime {
    components {

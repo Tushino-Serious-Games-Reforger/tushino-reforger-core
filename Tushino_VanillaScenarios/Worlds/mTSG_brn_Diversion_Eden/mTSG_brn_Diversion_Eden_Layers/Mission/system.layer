@@ -16,9 +16,9 @@ PS_GameModeCoop TSG_GameModeLobby1 : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_Gam
   }
  }
  coords 9292.923 241.28 3412.684
+ m_bFriendliesSpectatorOnly 0
  {
   TSG_MissionTime {
-   ID "633B6E4969D543B5"
    components {
     SCR_EditableEntityComponent "{6456CDDAAD21FF8C}" {
      m_UIInfo SCR_EditableEntityUIInfo "{6456CDDAD1F0DFB0}" {

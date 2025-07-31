@@ -21,6 +21,7 @@ PS_GameModeCoop TSG_GameModeLobby1 : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_Gam
  }
  coords 1252.593 0 1563.58
  angleZ 0.895
+ m_bFriendliesSpectatorOnly 0
 }
 GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
  components {
