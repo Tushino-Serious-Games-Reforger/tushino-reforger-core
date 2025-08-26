@@ -1,0 +1,33 @@
+GameEntity : "{D60E6F2F6CFB01A7}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_v1/Balaclava_v1_base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{52C8D601873E6784}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB13C575E2AFE37}" {
+     Name "#RHS-Headgear_LShZ_Balaclava_Name - #RHS-Color_OD"
+    }
+   }
+  }
+  MeshObject "{5112706CD4157AE0}" {
+   Materials {
+    MaterialAssignClass "{630CF329E9F05120}" {
+     SourceMaterial "lshz_balaclava_item"
+     AssignedMaterial "{1495D2B788FC7661}Assets/Characters/HeadGear/Balaclavas/LShZ_Balaclava/Data/lshz_balaclava_item.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo HeadPhones {
+     Prefab "{85D618A51C013F7A}Prefabs/Characters/HeadGear/Headphones_Peltor/Headphones_Peltor_yellow.et"
+    }
+   }
+   WornMaterialsOverride {
+    "{ECD922FADEEEAF1C}Assets/Characters/HeadGear/Balaclavas/LShZ_Balaclava/Data/lshz_balaclava_wear.emat"
+   }
+   ItemMaterialsOverride {
+    "{1495D2B788FC7661}Assets/Characters/HeadGear/Balaclavas/LShZ_Balaclava/Data/lshz_balaclava_item.emat"
+   }
+  }
+ }
+}

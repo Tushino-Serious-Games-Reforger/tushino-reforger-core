@@ -1756,6 +1756,14 @@ StringTable {
    Author "p1vas"
    LastChanged "p1vas"
   }
+  CustomStringTableItem "{66292A4B9EF07759}" {
+   Id "TYN-Faction_RNRF"
+   Target_en_us "Rebels"
+   Target_ru_ru "Боевики"
+   Modified 1713975407
+   Author "p1vas"
+   LastChanged "p1vas"
+  }
   CustomStringTableItem "{64928668311A027C}" {
    Id "TYN-Role_AsTmCmd"
    Target_en_us "Assault team commander"
@@ -1804,11 +1812,27 @@ StringTable {
    Author "p1vas"
    LastChanged "p1vas"
   }
+  CustomStringTableItem "{662CBAD635BBAF5E}" {
+   Id "TYN-Role_PlatoonRebel"
+   Target_en_us "Senior rebel"
+   Target_ru_ru "Старший боевик"
+   Modified 1714208457
+   Author "p1vas"
+   LastChanged "p1vas"
+  }
   CustomStringTableItem "{64D0BCE95EDDF0A0}" {
    Id "TYN-Role_ReconDriver"
    Target_en_us "Scout Driver"
    Target_ru_ru "Разведчик-водитель"
    Modified 1691403828
+   Author "p1vas"
+   LastChanged "p1vas"
+  }
+  CustomStringTableItem "{662C9DF80C7C529C}" {
+   Id "TYN-Role_RNRFLeader"
+   Target_en_us "Rebel leader"
+   Target_ru_ru "Командир боевиков"
+   Modified 1714201387
    Author "p1vas"
    LastChanged "p1vas"
   }

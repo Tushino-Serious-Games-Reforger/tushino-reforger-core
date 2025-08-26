@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C929FE418B706F7C}UI/Textures/GroupManagement/FlagIcons/GroupFlagsRNRF.imageset"
+ Configurations {
+  ImageSetResourceClass PC {
+  }
+  ImageSetResourceClass XBOX_ONE : PC {
+  }
+  ImageSetResourceClass XBOX_SERIES : PC {
+  }
+  ImageSetResourceClass PS4 : PC {
+  }
+  ImageSetResourceClass PS5 : PC {
+  }
+  ImageSetResourceClass HEADLESS : PC {
+  }
+ }
+}

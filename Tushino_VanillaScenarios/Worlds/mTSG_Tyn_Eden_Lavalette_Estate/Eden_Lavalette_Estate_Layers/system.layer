@@ -39,6 +39,9 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
   }
  }
 }
+GenericEntity : "{2964F001586BD05A}Prefabs/System/TSG_FillPassportData.et" {
+ coords 7645.309 126.325 4865.243
+}
 $grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
  {
   coords 7231.358 125.976 4914.251

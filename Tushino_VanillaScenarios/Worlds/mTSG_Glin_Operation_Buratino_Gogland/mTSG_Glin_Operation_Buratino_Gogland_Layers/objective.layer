@@ -1,0 +1,22 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ AFRF_Victory {
+  coords 4553.275 11.466 8722.909
+  m_sTitle "ВС РФ захватили базу!"
+  m_sFactionKey "RHS_AFRF"
+ }
+ CDF_Victory {
+  coords 4559.678 11.003 8720.661
+  m_sTitle "ЧСО удержали базу!"
+  m_sFactionKey "Ses_CDF"
+ }
+ AFRF_Defeat {
+  coords 4545.376 11.994 8724.59
+  m_sTitle "ВС РФ разгромлены!"
+  m_sFactionKey "Ses_CDF"
+ }
+ CDF_Defeat {
+  coords 4538.764 13.076 8724.061
+  m_sTitle "ЧСО разгромлены!"
+  m_sFactionKey "RHS_AFRF"
+ }
+}

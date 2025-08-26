@@ -13,4 +13,15 @@ PS_GameModeCoop : "{0F307326459A1395}Prefabs/MP/Modes/GameMode_Base.et" {
  m_bDisableVanillaGroupMenu 1
  m_bFreezeTimeShootingForbiden 1
  m_bDisableBuildingModeAfterFreezeTime 1
+ {
+  SCR_FactionManager "662B078800C8D759" {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{662946122715BFFF}" : "{E99C394008776E47}Configs/Factions/Tyn_RNRF.conf" {
+     m_iOrder 1755721977
+     m_bIsPlayable 0
+    }
+   }
+  }
+ }
 }

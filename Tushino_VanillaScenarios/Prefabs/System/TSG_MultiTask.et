@@ -1,0 +1,10 @@
+GenericEntity {
+ ID "662F7B9EF09DD68F"
+ components {
+  TSG_MultiTaskComponent "{662F7B9F16EE1C7D}" {
+   ObjectvesName {
+   }
+  }
+ }
+ coords 6863.028 138.546 2456.503
+}

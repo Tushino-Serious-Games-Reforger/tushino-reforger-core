@@ -1,0 +1,119 @@
+SCR_AIWorld : "{1A22C9F8BF6E88AB}Prefabs/AI/SCR_AIWorld_Gogland.et" {
+ coords 6834.724 138.546 2460.918
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 6839.22 138.546 2465.7
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ components {
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   Enabled 0
+  }
+ }
+ coords 6864.658 91.375 2062.494
+ m_iFreezeTime 420000
+ m_bDisableGarbageSystem 1
+}
+GenericEntity {
+ components {
+  ActionsPerformerComponent "{662F58614053C474}" {
+  }
+  ActionsManagerComponent "{662F5860EC18B47B}" {
+   ActionContexts {
+    UserActionContext "{662F5860EAD414BE}" {
+     ContextName "default"
+     Position PointInfo "{662F5860E12ADC5E}" {
+     }
+    }
+   }
+   additionalActions {
+    TSG_ObjectCOnfirmAction "{662F586EBB7449E2}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{662F586EB7AB5F07}" {
+      Name "Отменить запуск"
+     }
+     Duration 20
+     m_vGameAdvance 0
+     m_aObjectivesToDone {
+      "LauchCancel"
+     }
+     m_aObjectivesToFail {
+      "LaunchComance"
+     }
+     m_vFactionKey "RHS_AFRF"
+    }
+   }
+  }
+  RplComponent "{662F586118FD6ED1}" {
+  }
+ }
+ coords 6872.869 105.533 2470.612
+}
+GenericEntity : "{04B5CC36F933A2D4}Prefabs/System/DRG_DateTimeInjectorPrefab.et" {
+ components {
+  DRG_DateTimeInjectorComponent "{658E74C94A2C74AE}" {
+   m_iYear 2012
+   m_iMonth 9
+   m_iDay 13
+  }
+ }
+ coords 6857.012 138.546 2452.397
+}
+GenericEntity : "{1B6DD6ADDC417561}Prefabs/System/TSG_MultiTask.et" {
+ components {
+  TSG_MultiTaskComponent "{662F7B9F16EE1C7D}" {
+   ObjectvesName {
+    "LauchCancel" "LeaderDead"
+   }
+  }
+ }
+ coords 6855.838 138.546 2454.837
+}
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_aLossLogics {
+    LossLogic "{66330A6F64FD6273}" {
+     m_aLosses {
+      FactionLoss "{66330A6F6067143D}" {
+       m_iCriticalLossCount 3
+       m_sFactionKey "RHS_AFRF"
+      }
+     }
+     m_sObjectiveNames {
+      "AFRF_Losses"
+     }
+     m_sFailedObjectiveNames {
+      "LaunchCancel" "LeaderDead"
+     }
+     m_bAdvanceGameStage 1
+    }
+    LossLogic "{66334C6FC467940C}" {
+     m_aLosses {
+      FactionLoss "{66334C6FC2E2C95A}" {
+       m_iCriticalLossCount 0
+       m_sFactionKey "Tyn_RNRF"
+      }
+     }
+     m_sObjectiveNames {
+      "RNRF_Losses"
+     }
+     m_sFailedObjectiveNames {
+      "LaunchComance" "LeaderSurvived"
+     }
+    }
+   }
+  }
+ }
+ coords 6870.039 138.546 2463.828
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_iMissionTime 2400
+  }
+ }
+ coords 6853.958 138.815 2451.952
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{30C924BF5419B8F8}Worlds/mTSG_Tyn_Half_of_War_Gogland/mTSG_Tyn_Half_of_War_Gogland.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

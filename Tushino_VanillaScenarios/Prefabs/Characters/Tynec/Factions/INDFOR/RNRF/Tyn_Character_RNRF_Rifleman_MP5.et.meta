@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1CADECEF867E37E2}Prefabs/Characters/Tynec/Factions/INDFOR/RNRF/Tyn_Character_RNRF_Rifleman_M4.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

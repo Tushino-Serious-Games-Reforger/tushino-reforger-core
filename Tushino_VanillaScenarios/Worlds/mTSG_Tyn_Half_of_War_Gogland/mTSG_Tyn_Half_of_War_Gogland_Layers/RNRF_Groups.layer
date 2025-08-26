@@ -1,0 +1,87 @@
+$grp SCR_AIGroup : "{121F4A7DB996AE83}Prefabs/Groups/Tynec/OPFOR/Tyn_Group_USSR_HQ.et" {
+ B14 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Flank"
+   }
+   PS_GroupCallsignAssigner "{62B47CFC0DC7FE5A}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 6851.469 138.546 2461.854
+  angleY 178.39
+  m_faction "Tyn_RNRF"
+  m_aUnitPrefabSlots {
+   "{A32BA636119C4047}Prefabs/Characters/Tynec/Factions/INDFOR/RNRF/Tyn_Character_RNRF_SL.et" "{9CB489334D57F6B7}Prefabs/Characters/Tynec/Factions/INDFOR/RNRF/Tyn_Character_RNRF_MG.et" "{40C7CD16A6EA5D17}Prefabs/Characters/Tynec/Factions/INDFOR/RNRF/Tyn_Character_RNRF_aMG.et" "{0F9B951259FE7CD4}Prefabs/Characters/Tynec/Factions/INDFOR/RNRF/Tyn_Character_RNRF_Rifleman.et" "{504F91499828202E}Prefabs/Characters/Tynec/Factions/INDFOR/RNRF/Tyn_Character_RNRF_SR3.et" "{5F3D8DB4C0D39B73}Prefabs/Characters/Tynec/Factions/INDFOR/RNRF/Tyn_Character_RNRF_Rifleman_L1A1.et"
+  }
+  m_bSnapToTerrain 0
+ }
+ B13 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Flank"
+   }
+   PS_GroupCallsignAssigner "{62B47CFC0DC7FE5A}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 6845.345 138.546 2461.661
+  angleY 178.39
+  m_faction "Tyn_RNRF"
+  m_aUnitPrefabSlots {
+   "{A32BA636119C4047}Prefabs/Characters/Tynec/Factions/INDFOR/RNRF/Tyn_Character_RNRF_SL.et" "{37A6BDE9011DAFA2}Prefabs/Characters/Tynec/Factions/INDFOR/RNRF/Tyn_Character_RNRF_GP.et" "{9CB489334D57F6B7}Prefabs/Characters/Tynec/Factions/INDFOR/RNRF/Tyn_Character_RNRF_MG.et" "{40C7CD16A6EA5D17}Prefabs/Characters/Tynec/Factions/INDFOR/RNRF/Tyn_Character_RNRF_aMG.et" "{1CADECEF867E37E2}Prefabs/Characters/Tynec/Factions/INDFOR/RNRF/Tyn_Character_RNRF_Rifleman_MP5.et" "{5F3D8DB4C0D39B73}Prefabs/Characters/Tynec/Factions/INDFOR/RNRF/Tyn_Character_RNRF_Rifleman_L1A1.et"
+  }
+  m_bSnapToTerrain 0
+ }
+ A11 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Flank"
+   }
+  }
+  coords 6862.748 138.72 2462.167
+  angleY 178.39
+  m_faction "Tyn_RNRF"
+  m_aUnitPrefabSlots {
+   "{A9AEF527CC2C6699}Prefabs/Characters/Tynec/Factions/INDFOR/RNRF/HoW_units/Tyn_Character_RNRF_HQ_scripted.et" "{AC846CC55E240F05}Prefabs/Characters/Tynec/Factions/INDFOR/RNRF/Tyn_Character_RNRF_Spotter.et"
+  }
+  m_bSnapToTerrain 0
+ }
+ B11 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Flank"
+   }
+   PS_GroupCallsignAssigner "{62B47CFC0DC7FE5A}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 6860.59 138.603 2462.091
+  angleY 178.39
+  m_faction "Tyn_RNRF"
+  m_aUnitPrefabSlots {
+   "{3A351FAF0C7B71D7}Prefabs/Characters/Tynec/Factions/INDFOR/RNRF/Tyn_Character_RNRF_PL.et" "{B9469E21A5435C53}Prefabs/Characters/Tynec/Factions/INDFOR/RNRF/Tyn_Character_RNRF_Deputy.et" "{CEB8A10D6E606F7F}Prefabs/Characters/Tynec/Factions/INDFOR/RNRF/Tyn_Character_RNRF_Sniper.et"
+  }
+  m_bSnapToTerrain 0
+ }
+ B12 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Flank"
+   }
+   PS_GroupCallsignAssigner "{62B47CFC0DC7FE5A}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 6857.45 138.546 2461.982
+  angleY 178.39
+  m_faction "Tyn_RNRF"
+  m_aUnitPrefabSlots {
+   "{A32BA636119C4047}Prefabs/Characters/Tynec/Factions/INDFOR/RNRF/Tyn_Character_RNRF_SL.et" "{37A6BDE9011DAFA2}Prefabs/Characters/Tynec/Factions/INDFOR/RNRF/Tyn_Character_RNRF_GP.et" "{0F9B951259FE7CD4}Prefabs/Characters/Tynec/Factions/INDFOR/RNRF/Tyn_Character_RNRF_Rifleman.et" "{1CADECEF867E37E2}Prefabs/Characters/Tynec/Factions/INDFOR/RNRF/Tyn_Character_RNRF_Rifleman_MP5.et" "{5F3D8DB4C0D39B73}Prefabs/Characters/Tynec/Factions/INDFOR/RNRF/Tyn_Character_RNRF_Rifleman_L1A1.et" "{504F91499828202E}Prefabs/Characters/Tynec/Factions/INDFOR/RNRF/Tyn_Character_RNRF_SR3.et"
+  }
+  m_bSnapToTerrain 0
+ }
+}
