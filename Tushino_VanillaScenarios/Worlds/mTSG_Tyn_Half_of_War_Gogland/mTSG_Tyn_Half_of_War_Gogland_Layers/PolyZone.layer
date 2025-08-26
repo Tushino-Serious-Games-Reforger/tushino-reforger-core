@@ -1,4 +1,4 @@
-PolylineShapeEntity {
+PolylineShapeEntity RNRF_Border {
  components {
   PS_PolyZone "{66314A0492ADA9C9}" {
    m_mPolygonTexture ""
@@ -87,18 +87,18 @@ PolylineShapeEntity {
  }
  IsClosed 1
  {
-  PS_PolyZoneTrigger {
+  PS_PolyZoneTrigger RNRF_annahilation_zone {
    components {
     Hierarchy "{614548BDF998E12B}" {
     }
    }
-   coords 253.845 6.603 -56.905
+   coords 311.544 -61.707 -2584.604
    TriggerShapeType Polyline
    "Polyline Height" 500
    ShapeColor 1 0 0 0
    TriggerActivationType "All changes"
    PeriodicQueries 1
-   UpdatePeriod 1
+   UpdatePeriod 3
    ClassesFilter {
     "SCR_ChimeraCharacter"
    }

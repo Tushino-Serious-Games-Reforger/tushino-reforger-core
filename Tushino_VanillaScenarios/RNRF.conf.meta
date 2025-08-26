@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{0B20C81420906165}Configs/Workbench/EditablePrefabs/EditablePrefabsComponent_EditableEntity.conf"
+ Name "{E99C394008776E47}Configs/Factions/Tyn_RNRF.conf"
  Configurations {
   CONFResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   CONFResourceClass PS5 : PC {
   }
   CONFResourceClass HEADLESS : PC {
+  }
+  CONFResourceClass Xbox : PC {
   }
  }
 }
