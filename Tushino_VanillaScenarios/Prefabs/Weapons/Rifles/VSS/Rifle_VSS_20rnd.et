@@ -1,0 +1,245 @@
+GenericEntity : "{565EBE59164E74F3}Prefabs/Weapons/Rifles/VSS/Rifle_VSS_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames +{
+   }
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{BE666616D057F0B7}Assets/Weapons/Rifles/VSS/VSS_Vintorez.xob"
+  }
+  RigidBody "{65D910245F845CED}" {
+   SimState None
+   ModelGeometry 1
+  }
+  SCR_MeleeWeaponProperties "{65D910244A5C7BE7}" {
+   m_fDamage 20
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "#TF-Weapon_VSS_Name"
+     Description "#TF-Weapon_VSS_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{65DA915FEA8A6D7A}" {
+     Weight 3.5
+     SizeSetupStrategy Manual
+     ItemDimensions 25 25 25
+     ItemVolume 1500
+     DimensionScaler 1
+     RestingUP Left
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0 0
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{65DA915FED339C07}" {
+     IkSettings {
+      ItemIKSettings "{5284960E1C7C18A7}" {
+       MovementSpeedRange 0 1
+       IkSettingsStand 7
+       IkSettingsCrouch 7
+       IkSettingsProne 7
+      }
+      ItemIKSettings "{5D48CC48D8A46AE0}" {
+       MovementSpeedRange 0 0
+       IkSettingsStand 0
+       IkSettingsCrouch 0
+       IkSettingsProne 0
+      }
+      ItemIKSettings "{5284960E1C9F0E31}" {
+       MovementSpeedRange 1 2.5
+       IkSettingsStand 7
+       IkSettingsCrouch 7
+       IkSettingsProne 6
+      }
+      ItemIKSettings "{5284960E131A980A}" {
+       ProneTurn 1
+       MovementSpeedRange 2.5 3
+       IkSettingsStand 7
+       IkSettingsCrouch 6
+       IkSettingsProne 6
+      }
+     }
+     AnimationInstance "{0350283642830782}anims/workspaces/player/player_main_rifle.asi"
+     AnimInstanceBlendDuration 0.3
+     ExcludeBonesBlend {
+     }
+     AnimationIKPose "{4E1BE7FB1EB38746}Assets/Weapons/Rifles/VSS/anims/p_vss_ik.anm"
+     AnimIKPoseStandOverride ""
+     AnimIkposeBlendDuration 0.025
+     AnimInjectionPriority 0
+     AnimRecoilLimit 0.1
+     AllowInspection 1
+    }
+    CustomAttributes {
+     AimingModifierAttributes "{566C7D15A071B88E}" {
+      DeploymentAimSpeedMultiplier 1 1
+      DeploymentHorizontalAimSensitivityMax 120
+      DeploymentPoints {
+       PivotPointInfoItem "{60993CDFD79EE361}" {
+        "Point info" DeploymentPointInfo deploy {
+         Offset 0 0.0693 0.4299
+        }
+        StabilizationSize 0.05 0.1 0.35
+       }
+      }
+     }
+     ItemMovementSwayAttributes "{58B9009CD03086A9}" {
+      BobDamper 0.95 0.95 1
+      BobSpeed 16
+      MaxMagnitude 1
+      DefaultMagnitudeLinear 0 0.04 0
+      DefaultMagnitudeAngular 35 3 -40
+      LoweredMagnitudeLinear 0 0.125 0
+      LoweredMagnitudeAngular 90 7.5 -45
+      OneHandMagnitudeLinear 0 0.065 0
+      OneHandMagnitudeAngular 35 5 -40
+      ADSMagnitudeLinear -0.023 0 0
+      ADSMagnitudeAngular 8.84 10.6 20
+      InjuredMagnitudeLinear 0 0.065 0
+      InjuredMagnitudeAngular 35 5 -40
+      MaxVelocity 2
+     }
+     SCR_RecoilCameraShakeParams "{58DEF2AB0413E346}" {
+      m_fRecoilTarget 0.038
+      m_vTranslationMin 0.002 0.002 0
+      m_vTranslationMax 0.003 0.003 0
+      m_vRotationImpulseMin 0 0 7
+      m_vRotationImpulseMax 0 0 8
+     }
+     PreviewRenderAttributes "{52BAB5E48C906DB8}" {
+      CameraPreset Right
+      CameraDistanceToItem 1
+      FOV 30
+      AspectRatio 3
+      PreviewWornModel 1
+      AnimationInstance "{5E862EB6989F8833}anims/workspaces/player/player_inventory_rifle.asi"
+     }
+     CharacterModifierAttributes "{563E0E51FE60CD4D}" {
+      ADSSpeedLimit 1.9
+      SpeedLimitHighready 1.9
+      Supress1hShooting 0
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{65D96648AA0F185B}" {
+   Slots {
+    EntitySlotInfo Dovetail {
+     PivotID "slot_dovetail"
+    }
+    EntitySlotInfo Dustcover {
+     PivotID "slot_dustcover"
+     Prefab "{005080B953496333}Prefabs/Weapons/Attachments/Receivers/VSS_Platform/VSS_Dustcover_STD.et"
+    }
+    EntitySlotInfo Buttstock {
+     PivotID "slot_buttstock"
+     Prefab "{A0178C995AF6E728}Prefabs/Weapons/Attachments/Buttstocks/VSS_Platform/VSS_Buttstock_Std.et"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{65D91024FF77536C}" {
+     AttachmentSlot InventoryStorageSlot "{65D9102500CC7849}" {
+      PivotID "slot_optics"
+      Offset -0.0063 0.0129 0.0293
+      ChildPivotID "snap_weapon"
+      Prefab "{1C8E506A6CAD1D5B}Prefabs/Weapons/Attachments/Optics/Optic_PSO1/PSO-1M2-01.et"
+      InspectionWidgetOffset 0 0 0.247
+     }
+     AttachmentType AttachmentOpticsDovetailAKSVD "{65D91025035E86ED}" {
+     }
+    }
+    MuzzleComponent "{65D96648CF6F1B74}" {
+     components {
+      CaseEjectingEffectComponent "{65D966490818FD72}" {
+       ParticleEffect "{A89D3276591C9F57}Particles/Weapon/Casing_762x39_PS.ptc"
+       EffectPosition EntitySlotInfo CaseEjecting {
+        PivotID "barrel_chamber"
+        Offset 0.0199 0.0054 -0.0557
+        Angles 9.79 101.7537 0
+       }
+       HasSound 0
+      }
+      SCR_MuzzleEffectComponent "{65D96649571AB17C}" {
+       ParticleEffect "{2062FCAF09834699}Particles/Weapon/Smoke_M203.ptc"
+       EffectPosition EntitySlotInfo Muzzle_Position {
+        PivotID "barrel_muzzle"
+        Offset 0 0 -0.2013
+       }
+       ResetOnFire 0
+       OverrideByAttachment 1
+      }
+     }
+     MagazineTemplate "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et"
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     AnimGraph "{D73B268884164770}Assets/Weapons/Rifles/workspaces/vss.agr"
+     AnimInstance "{7C5FBB8B9D38EBA3}Assets/Weapons/Rifles/workspaces/vss_weapon.asi"
+     AnimInjection AnimationAttachmentInfo "{65D91024CD452D6D}" {
+      AnimGraph "{D73B268884164770}Assets/Weapons/Rifles/workspaces/vss.agr"
+      AnimInstance "{87012ABA05398F4F}Assets/Weapons/Rifles/workspaces/vss_player.asi"
+      BindingName "Weapon"
+     }
+     BindWithInjection 1
+    }
+   }
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   ActionContexts {
+    UserActionContext "{5956E32BAAADE657}" {
+     Position PointInfo "{5956E329E6B11261}" {
+      PivotID "w_bipod"
+     }
+     Height 0
+    }
+    UserActionContext "{5A1E58F7B04F9BE5}" {
+     Position PointInfo "{5A1E5C47BC74199D}" {
+      PivotID "slot_magazine"
+      Offset 0 -0.0601 -0.0215
+     }
+     Radius 0.075
+     Height 0
+    }
+    UserActionContext "{5A1E58F7AED270D4}" {
+     Position PointInfo "{65D9664E080FBA94}" {
+      PivotID "w_firemode"
+      Offset 0.0223 0 -0.0152
+      Angles 0 90 0
+     }
+     Omnidirectional 0
+    }
+    UserActionContext "{65D9664E633D4E8D}" {
+     UIInfo SCR_ActionContextUIInfo "{65D9664E9B473B2C}" {
+     }
+     ContextName "muzzle"
+     Position PointInfo "{618A842792A66B70}" {
+      PivotID "slot_suppressor"
+     }
+     Radius 0.075
+     Height 0
+    }
+    UserActionContext "{65D9664E76E8B313}" {
+     ContextName "optic"
+     Position PointInfo "{61FECC7C11845F16}" {
+      PivotID "slot_optics"
+      Offset -0.01 0 0
+     }
+     Radius 0.075
+     Height 0
+    }
+    UserActionContext "{65D9664E860A4623}" {
+     UIInfo SCR_ActionContextUIInfo "{65D9664E8F832782}" {
+     }
+     ContextName "ugl"
+     Position PointInfo "{65D9664E8CBEF2D9}" {
+      PivotID "slot_underbarrel"
+      Offset 0 -0.0118 -0.2058
+     }
+     Radius 0.075
+     Height 0
+    }
+   }
+  }
+ }
+}

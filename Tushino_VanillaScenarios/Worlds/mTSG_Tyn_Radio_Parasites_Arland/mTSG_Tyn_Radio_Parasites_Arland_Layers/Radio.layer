@@ -1,4 +1,36 @@
 GenericEntity Gachi_radio : "{373D3191FB602897}Prefabs/Props/Military/Compositions/US/RadioStation_US_ConfirmAction.et" {
+ components {
+  ActionsManagerComponent "{5CB6D5B110622410}" {
+   additionalActions {
+    TSG_ObjectCOnfirmAction "{66334C6875E930DA}" {
+     UIInfo UIInfo "{66334C6859F9338F}" {
+      Name "Отключить радио"
+     }
+     m_vGameAdvance 0
+     m_aObjectivesToDone {
+      "Radio_AFRF"
+     }
+     m_aObjectivesToFail {
+      "Radio_USAF"
+     }
+     m_vFactionKey "RHS_AFRF"
+    }
+    TSG_ObjectCOnfirmAction "{66334C68A897F619}" {
+     UIInfo UIInfo "{66334C68A6656640}" {
+      Name "Включить радио"
+     }
+     m_vGameAdvance 0
+     m_aObjectivesToDone {
+      "Radio_USAF"
+     }
+     m_aObjectivesToFail {
+      "Radio_AFRF"
+     }
+     m_vFactionKey "RHS_USAF"
+    }
+   }
+  }
+ }
  coords 2507.783 148.885 2268.057
  angleY -51.951
 }

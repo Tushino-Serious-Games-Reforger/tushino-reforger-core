@@ -1,0 +1,26 @@
+SCR_ChimeraCharacter : "{AABF6D3A3457A23F}Prefabs/Characters/Tynec/Factions/INDFOR/RNRF/Tyn_Character_RNRF_HQ.et" {
+ ID "520EC961A090B1EE"
+ components {
+  ActionsManagerComponent "{520EA1D2F659CE02}" {
+   additionalActions {
+    TSG_DeathConfirmAction "{662CBAD4C4FEEB7E}" {
+     ParentContextList {
+      "LowerTorso"
+     }
+     UIInfo UIInfo "{662CBAD4D24211A0}" {
+      Name "Подтвердить смерть"
+     }
+     Duration 10
+     m_vGameAdvance 0
+     m_aObjectivesToDone {
+      "LeaderDead"
+     }
+     m_aObjectivesToFail {
+      "LeaderSurvived"
+     }
+     m_vFactionKey "RHS_AFRF"
+    }
+   }
+  }
+ }
+}

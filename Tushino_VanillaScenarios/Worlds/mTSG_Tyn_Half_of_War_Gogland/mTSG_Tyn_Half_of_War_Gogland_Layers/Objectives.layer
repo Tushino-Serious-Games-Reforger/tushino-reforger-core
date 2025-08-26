@@ -1,0 +1,34 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ LauchCancel {
+  coords 6846.843 138.546 2452.809
+  m_sTitle "Запуск был отменён"
+  m_iScore 50
+  m_sFactionKey "RHS_AFRF"
+ }
+ LeaderDead {
+  coords 6851.083 138.546 2454.525
+  m_sTitle "Установлена смерть лидера боевиков"
+  m_iScore 50
+  m_sFactionKey "RHS_AFRF"
+ }
+ LeaderSurvived {
+  coords 6855.725 138.546 2456.661
+  m_sTitle "Лидер боевиков выжил"
+  m_sFactionKey "Tyn_RNRF"
+ }
+ LaunchComance {
+  coords 6856.112 138.546 2453.037
+  m_sTitle "Запуск небыл отменён"
+  m_sFactionKey "Tyn_RNRF"
+ }
+ AFRF_Losses {
+  coords 6852.411 138.648 2453.419
+  m_sTitle "ВС РФ разгромлены"
+  m_sFactionKey "Tyn_RNRF"
+ }
+ RNRF_Losses {
+  coords 6854.245 138.628 2456.914
+  m_sTitle "Боевики разгромлены"
+  m_sFactionKey "RHS_AFRF"
+ }
+}

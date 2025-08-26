@@ -1,0 +1,25 @@
+$grp GenericEntity : "{2A5E5BD2EF404977}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagRoundHighPlastic_S_US_01.et" {
+ {
+  coords 6865.104 104.592 2470.593
+  angleY -88.295
+ }
+ {
+  coords 6864.616 104.592 2492.746
+  angleY 146.45
+ }
+}
+GenericEntity : "{76B6C9C7C7821470}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_RNRF.et" {
+ components {
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   Enabled 0
+  }
+  BaseActionsManagerComponent "{6202D4E6F133BF4A}" {
+   Enabled 0
+  }
+  RplComponent "{5EF0BDF2D0AD3B0C}" {
+   Enabled 0
+  }
+ }
+ coords 6863.786 142.373 2468.742
+ angleY -72.424
+}

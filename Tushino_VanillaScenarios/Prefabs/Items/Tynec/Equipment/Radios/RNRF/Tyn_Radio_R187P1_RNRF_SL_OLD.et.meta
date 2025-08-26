@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{2C5F4C0B61F16D62}Prefabs/Items/Tynec/Equipment/Radios/RNRF/Tyn_Radio_R187P1_RNRF_SL_OLD.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

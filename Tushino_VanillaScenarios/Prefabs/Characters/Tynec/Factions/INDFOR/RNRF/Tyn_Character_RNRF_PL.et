@@ -1,0 +1,25 @@
+SCR_ChimeraCharacter : "{A32BA636119C4047}Prefabs/Characters/Tynec/Factions/INDFOR/RNRF/Tyn_Character_RNRF_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TYN-Role_PlatoonRebel"
+    Icon "{208FDC0A49380FD7}UI/Icons/platoon_leader.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{FEEC97AEB32EFB9B}Prefabs/Characters/Uniforms/Shirt_CottonShirt_01/Shirt_CottonShirt_01_V2_Dirty.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{662AD2A390A51463}" {
+     TargetStorage "Jacket/Shirt_CottonShirt_01_V2_Dirty.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,48 @@
+GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  AICombatPropertiesComponent "{59CE86D96C332DDF}" {
+   Priority 50
+   IndirectlyUsedAgainst 3
+  }
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "#RHS-Magazine_AGS-30_HE_Name"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{662B141464E8494B}" {
+     Weight 0
+     SizeSetupStrategy Manual
+     ItemDimensions 30 30 30
+     ItemVolume 10000
+     DimensionScaler 1
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0 0
+    }
+    m_Size SLOT_2x2
+   }
+   WeightPerAmmo 0.01
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell MagazineWellAGS "{662B141464E8495E}" {
+   }
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "#RHS-Magazine_AGS-30_HE_Name"
+    Description ""
+    m_sAmmoCaliber "30mm"
+    m_sAmmoType "ВОГ30"
+    m_bShowAmmoTypeText 1
+    m_eAmmoTypeFlags 10
+   }
+   ItemModel "{AA09BC38129632C4}Assets/Weapons/Magazines/sr3m_mag/magazine_rhs_sr3m_6l25.xob"
+   MaxAmmo 150
+   AmmoConfig "{AF9841D4C5509002}Configs/Weapons/Ammo/Ammo_30mm_Vehicle_Grenade.conf"
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{AA09BC38129632C4}Assets/Weapons/Magazines/sr3m_mag/magazine_rhs_sr3m_6l25.xob"
+  }
+  RigidBody "{571B0382401B1385}" {
+   Mass 20
+  }
+ }
+}

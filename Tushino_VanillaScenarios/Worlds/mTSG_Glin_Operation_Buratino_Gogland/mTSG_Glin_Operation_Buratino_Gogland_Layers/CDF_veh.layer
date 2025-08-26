@@ -1,0 +1,56 @@
+Vehicle BTR70 : "{52441D784D145D52}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_CDF.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5A60D38E3C6A4E2F}" {
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{5A60D38E3C46CBE8}" {
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{60E55E1361A6658C}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{60E55E1361A665B6}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{60E55E1361A665B4}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{60E55E1361A665BB}" {
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{60E55E1361A665BA}" {
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{6622DB921A63B829}" {
+     SlotTemplate InventoryStorageSlot PKM_balls {
+      Prefab "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+     }
+     NumSlots 3
+    }
+    MultiSlotConfiguration "{6622DB928075970A}" {
+     SlotTemplate InventoryStorageSlot AK_balls {
+      Prefab "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{6622DB93B5C0D60C}" {
+     SlotTemplate InventoryStorageSlot RPG_VL {
+      Prefab "{FBBF84E3B447D822}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VL.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{6622DB9C6F8916CD}" {
+     SlotTemplate InventoryStorageSlot RPG_OG {
+      Prefab "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et"
+     }
+     NumSlots 3
+    }
+   }
+  }
+ }
+ coords 4530.127 11.156 8815.155
+ angleY -90.912
+ m_sAttachmentGroupName "AR5"
+}

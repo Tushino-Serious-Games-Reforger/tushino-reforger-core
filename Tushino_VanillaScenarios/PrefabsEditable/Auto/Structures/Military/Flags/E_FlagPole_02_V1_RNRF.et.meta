@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{76B6C9C7C7821470}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_RNRF.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

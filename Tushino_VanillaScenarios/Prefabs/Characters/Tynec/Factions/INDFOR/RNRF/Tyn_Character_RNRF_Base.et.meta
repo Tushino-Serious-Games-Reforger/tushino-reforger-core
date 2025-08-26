@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1ADD32559E2D27A2}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/Tyn_Character_RNRF_Base.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

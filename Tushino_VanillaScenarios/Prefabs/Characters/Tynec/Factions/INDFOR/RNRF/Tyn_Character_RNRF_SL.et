@@ -1,0 +1,57 @@
+SCR_ChimeraCharacter : "{5F3D8DB4C0D39B73}Prefabs/Characters/Tynec/Factions/INDFOR/RNRF/Tyn_Character_RNRF_Rifleman_L1A1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{243948B23D90BECB}Prefabs/Items/Equipment/Binoculars/Binoculars_B8/Binoculars_B8.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_SquadLeader"
+    Icon "{61B33057F7F0A4AE}UI/Icons/squad_leader.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{438B348503B2950D}Prefabs/Weapons/Rifles/L1A1_SLR/Rifle_L1A1_SLR_Plastic_SUIT.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{F4B075722D275962}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47_no_cover_balaclava.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{07624457729126C3}Prefabs/Characters/Uniforms/Jacket_M88_Flora_rolledup.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{78F581E06303E870}Prefabs/Characters/Vests/Vest_Taktika/Vest_Taktika_groin_neck_protection_black.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DA9F58F75CE6E234}Prefabs/Characters/Uniforms/ACU_pants/ACU_pants_UCP.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{662AD2A3096406EC}" {
+     TargetStorage "Pants/ACU_pants_UCP.et"
+    }
+    ItemsInitConfigurationItem "{662AD2A383EA569A}" {
+     TargetStorage "Pants/ACU_pants_UCP.et"
+     PrefabsToSpawn {
+      "{2C5F4C0B61F16D62}Prefabs/Items/Tynec/Equipment/Radios/RNRF/Tyn_Radio_R187P1_RNRF_SL_OLD.et"
+     }
+    }
+    ItemsInitConfigurationItem "{662AD2A390A51463}" {
+     TargetStorage "Jacket/Jacket_M88_Flora_rolledup.et"
+    }
+   }
+  }
+ }
+}

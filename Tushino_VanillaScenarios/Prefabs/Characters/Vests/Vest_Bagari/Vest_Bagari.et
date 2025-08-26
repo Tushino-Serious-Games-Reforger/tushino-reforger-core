@@ -1,0 +1,83 @@
+GenericEntity : "{E34E9F101C7ECB4B}Prefabs/Characters/Core/RHS_Vest_Base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{B64C7BF40F31BD9E}Assets/Characters/Vests/Vest_Ratnik_6B45/rhs_ratnik_base_6b45_item.xob"
+  }
+  RHS_ClothNodeStorageComponent "{5E8ECC6318C07954}" {
+   Attributes SCR_ItemAttributeCollection "{5E8ECC63152ECC55}" {
+    ItemDisplayName UIInfo "{5E8ECC6310D5F5D3}" {
+     Name "#RHS-Vest_Bagari_Name"
+     Description "#RHS-Vest_Bagari_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5E8ECC6306802439}" {
+     Weight 2.5
+     SizeSetupStrategy Volume
+     ItemVolume 5000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5E8ECC63F441A0DB}" {
+      CameraDistanceToItem 2
+      CameraOffset 0 0.34 0
+      FOV 22
+      PreviewWornModel 1
+     }
+    }
+   }
+  }
+  SCR_ItemOutfitFactionComponent "{64D170D31B27039B}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{64D170D31ACC5389}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{64D170D315AEE057}" {
+      m_AffiliatedFactionKey "RHS_AFRF"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   AreaType LoadoutArmoredVestSlotArea "{5D537134CE2FE280}" {
+   }
+   Slots {
+    LoadoutSlotInfo ArmorPlate_Front {
+     Prefab "{FF692FD5AFD43076}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Plates/DestructibleArmorPlate_6B45_Granit_Front.et"
+     AreaType RHS_Loadout6B45FrontPlateSlotArea "{662AD2A49CA22E62}" {
+     }
+    }
+    LoadoutSlotInfo ArmorPlate_Back {
+     Prefab "{1486E991C03BE661}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Plates/DestructibleArmorPlate_6B45_Granit_Back.et"
+     AreaType RHS_Loadout6B45BackPlateSlotArea "{662AD2A49CA22E72}" {
+     }
+    }
+    LoadoutSlotInfo ArmorPlate_Left {
+     Enabled 1
+     Prefab "{A5C382FA198BE68A}Prefabs/Characters/Vests/Vest_Taktika/Plates/DestructibleArmorPlate_Taktika_br4_side_LEFT.et"
+    }
+    LoadoutSlotInfo ArmorPlate_Right {
+     Enabled 1
+     Prefab "{F59ADAE6AF1A0AE3}Prefabs/Characters/Vests/Vest_Taktika/Plates/DestructibleArmorPlate_Taktika_br4_side_RIGHT.et"
+    }
+    LoadoutSlotInfo VelcorBack {
+     PivotID "Spine5"
+     Offset 0.0065 0.1886 -0.1915
+     Angles -0.2139 180 0
+     InspectionWidgetOffset 0 1.438 0.0943
+     AreaType RHS_LoadoutMediumVelcroSlotArea "{662AD2A49CA22E7B}" {
+     }
+    }
+   }
+   WornModel "{C632BA4E82CEA546}Assets/Characters/Vests/Vest_Bagariy/Bagari.xob"
+   ItemModel "{AE31DF9CB5332C29}Assets/Characters/Vests/Vest_Bagariy/Bagari_ground.xob"
+   DebugWornModel 0
+   DepthBack 0.04
+  }
+  ActionsManagerComponent "{53153A1F9AB97FF6}" {
+   ActionContexts {
+    UserActionContext "{5315328F7AEDED0B}" {
+     Position PointInfo "{5315328F7AEDED30}" {
+      Offset 0 0.0354 0
+     }
+    }
+   }
+  }
+ }
+}

@@ -26,7 +26,6 @@ PS_GameModeCoop TSG_GameModeLobby : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_Game
  angleZ 0.895
  m_bDisableVanillaGroupMenu 1
  m_bDisablePlayablesStreaming 1
- m_bFriendliesSpectatorOnly 0
  m_bFreezeTimeShootingForbiden 1
  {
   SCR_FactionManager FactionManager {
@@ -86,11 +85,12 @@ PS_GameModeCoop TSG_GameModeLobby : "{337F240B38A8F341}Prefabs/MP/Modes/TSG_Game
  }
 }
 GenericEntity : "{2964F001586BD05A}Prefabs/System/TSG_FillPassportData.et" {
- coords 9290.926 190.113 1133.795
+ coords 9343.634 188.659 1099.831
 }
 GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
  components {
   DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_bUseTestingMode 0
    m_aLossLogics {
     LossLogic "{65F6B9FBDA78DF5E}" {
      m_aLosses {
@@ -102,6 +102,9 @@ GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
      m_sObjectiveNames {
       "DestroyUK"
      }
+     m_sFailedObjectiveNames {
+      "DefendFlag"
+     }
      m_bAdvanceGameStage 1
     }
     LossLogic "{65F6B9FA3E50B523}" {
@@ -112,6 +115,9 @@ GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
      }
      m_sObjectiveNames {
       "DestroyUSSR"
+     }
+     m_sFailedObjectiveNames {
+      "ObserveFlag"
      }
      m_bAdvanceGameStage 1
     }

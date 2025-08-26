@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{13DDB681A12EDE8B}mTSG_Glin_Operation_Zulus_Gogland/mTSG_Glin_Operation_Zulus_Gogland.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

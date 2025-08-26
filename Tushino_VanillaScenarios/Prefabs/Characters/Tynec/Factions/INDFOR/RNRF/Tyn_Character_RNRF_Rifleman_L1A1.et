@@ -1,0 +1,39 @@
+SCR_ChimeraCharacter : "{0F9B951259FE7CD4}Prefabs/Characters/Tynec/Factions/INDFOR/RNRF/Tyn_Character_RNRF_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{C5FE01160007C6B4}Prefabs/Weapons/Rifles/L1A1_SLR/Rifle_L1A1_SLR_Laminate.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{D78000A3AAAC12AC}Prefabs/Characters/Uniforms/Shirt_CottonShirt_01/Shirt_CottonShirt_01_V6.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{E12C44760E666D38}Prefabs/Characters/Vests/Vest_Bagari/Vest_Bagari.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{BE914FC4F38641CD}Prefabs/Characters/Uniforms/BDU_Pants/BDU_PANTS_CoyoteBrown.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{662AD2A3096406EC}" {
+     TargetStorage "Pants/BDU_PANTS_CoyoteBrown.et"
+    }
+    ItemsInitConfigurationItem "{662AD2A383EA569A}" {
+     TargetStorage "Pants/BDU_PANTS_CoyoteBrown.et"
+    }
+    ItemsInitConfigurationItem "{662AD2A390A51463}" {
+     TargetStorage "Jacket/Shirt_CottonShirt_01_V6.et"
+    }
+    ItemsInitConfigurationItem "{662AD2A27B1891D0}" {
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et" "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et" "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et" "{C2C08518F551C205}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_BattleMix.et" "{1F32D9DE309EF634}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Tracer.et" "{1F32D9DE309EF634}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}

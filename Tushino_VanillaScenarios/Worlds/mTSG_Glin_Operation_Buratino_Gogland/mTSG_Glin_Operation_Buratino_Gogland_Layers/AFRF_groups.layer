@@ -1,0 +1,101 @@
+$grp SCR_AIGroup : "{EA171C5CAE750B96}Prefabs/Groups/Tynec/INDFOR/Tyn_Group_FIA_CIV.et" {
+ A11 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Flank"
+   }
+   PS_GroupCallsignAssigner "{661D05E744AA6D13}" {
+   }
+  }
+  coords 5547.416 3.848 9022.387
+  angleY -178.508
+  m_faction "RHS_AFRF"
+  m_aUnitPrefabSlots {
+   "{BCB76A0A12CB9504}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_HQ.et" "{C8693623439BC3B5}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_MEDsl.et"
+  }
+ }
+ K11 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Flank"
+   }
+   PS_GroupCallsignAssigner "{661D05E744AA6D13}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 5545.064 2.781 9022.604
+  angleY -178.508
+  m_faction "RHS_AFRF"
+  m_aUnitPrefabSlots {
+   "{1CE1F404B659DD1E}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_PL.et" "{4A367841164567C4}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_Sniper.et"
+  }
+ }
+ K12 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Flank"
+   }
+   PS_GroupCallsignAssigner "{661D05E744AA6D13}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 5542.836 2.812 9022.472
+  angleY -178.508
+  m_faction "RHS_AFRF"
+  m_aUnitPrefabSlots {
+   "{B523A1063700777C}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_SL.et" "{67A4FB35C1DDC126}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_TM.et" "{8ABC8E036BCBC18C}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_MG.et" "{E22F205DF7AA6201}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_aMG.et" "{ED40C7A01A17999D}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_RPGpgo.et" "{9FA5185CA5397FA9}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_aRPG.et" "{21AEBAD927819899}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_GP.et" "{F7E300AF3915D676}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_Rifleman.et"
+  }
+ }
+ K13 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Flank"
+   }
+   PS_GroupCallsignAssigner "{661D05E744AA6D13}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 5533.593 2.929 9022.536
+  angleY 177.84
+  m_faction "RHS_AFRF"
+  m_aUnitPrefabSlots {
+   "{B523A1063700777C}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_SL.et" "{67A4FB35C1DDC126}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_TM.et" "{8ABC8E036BCBC18C}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_MG.et" "{E22F205DF7AA6201}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_aMG.et" "{ED40C7A01A17999D}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_RPGpgo.et" "{9FA5185CA5397FA9}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_aRPG.et" "{7BB24BC949480BCD}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_RPK.et" "{F7E300AF3915D676}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_Rifleman.et"
+  }
+ }
+ SPN {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Flank"
+   }
+   PS_GroupCallsignAssigner "{661D05E744AA6D13}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 4
+   }
+  }
+  coords 5515.034 3.081 9021.664
+  angleY 177.84
+  m_faction "RHS_AFRF"
+  m_aUnitPrefabSlots {
+   "{60EBDB5144E6DB34}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Speznaz/Tyn_Character_RHS_AFRF_VPKO_speznaz_SL.et" "{672C2100226061F7}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Speznaz/Tyn_Character_RHS_AFRF_VPKO_speznaz_TL.et" "{25657D2ECE357438}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Speznaz/Tyn_Character_RHS_AFRF_VPKO_speznaz_Rifleman.et" "{5F74F454182D6DC4}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Speznaz/Tyn_Character_RHS_AFRF_VPKO_speznaz_MG.et" "{2432600D3194D43D}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Speznaz/Tyn_Character_RHS_AFRF_VPKO_speznaz_sniper.et"
+  }
+ }
+ K14 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Flank"
+   }
+   PS_GroupCallsignAssigner "{661D05E744AA6D13}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 5524.34 3.325 9021.909
+  angleY 177.84
+  m_faction "RHS_AFRF"
+  m_aUnitPrefabSlots {
+   "{B523A1063700777C}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_SL.et" "{67A4FB35C1DDC126}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_TM.et" "{8ABC8E036BCBC18C}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_MG.et" "{E22F205DF7AA6201}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_aMG.et" "{ED40C7A01A17999D}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_RPGpgo.et" "{9FA5185CA5397FA9}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_aRPG.et" "{30E5727442EEF62A}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_Gunner.et" "{D7CED5946A19FF87}Prefabs/Characters/Tynec/Factions/OPFOR/RHS_AFRF/VPKO/Tyn_Character_RHS_AFRF_VPKO_Driver.et"
+  }
+ }
+}

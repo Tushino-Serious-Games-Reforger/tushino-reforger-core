@@ -1,0 +1,92 @@
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ Tyn_RNRF_G_000_M {
+  coords 6862.748 138.72 2462.167
+  m_sImageSet "{C929FE418B706F7C}UI/Textures/GroupManagement/FlagIcons/GroupFlagsRNRF.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry"
+  m_fWorldSize 40
+  m_sDescription "Актив-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF" "Tyn_RNRF"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ Tyn_RNRF_G_100_M {
+  coords 6860.59 138.603 2462.091
+  m_sImageSet "{C929FE418B706F7C}UI/Textures/GroupManagement/FlagIcons/GroupFlagsRNRF.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry"
+  m_fWorldSize 40
+  m_sDescription "Буран-11"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF" "Tyn_RNRF"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ Tyn_RNRF_G_101_M {
+  coords 6857.45 138.546 2461.982
+  m_sImageSet "{C929FE418B706F7C}UI/Textures/GroupManagement/FlagIcons/GroupFlagsRNRF.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry"
+  m_fWorldSize 40
+  m_sDescription "Буран-12"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF" "Tyn_RNRF"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ Tyn_RNRF_G_103_M {
+  coords 6845.345 138.546 2461.661
+  m_sImageSet "{C929FE418B706F7C}UI/Textures/GroupManagement/FlagIcons/GroupFlagsRNRF.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry"
+  m_fWorldSize 40
+  m_sDescription "Буран-14"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF" "Tyn_RNRF"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+ Tyn_RNRF_G_102_M {
+  coords 6851.469 138.546 2461.854
+  m_sImageSet "{C929FE418B706F7C}UI/Textures/GroupManagement/FlagIcons/GroupFlagsRNRF.imageset"
+  m_sImageSetGlow ""
+  m_MarkerColor 1 1 1 1
+  m_sQuadName "infantry"
+  m_fWorldSize 40
+  m_sDescription "Буран-13"
+  m_bUseWorldScale 0
+  m_aVisibleForFactions {
+   "RHS_AFRF" "Tyn_RNRF"
+  }
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+   1
+  }
+  m_iZOrder 0
+ }
+}
