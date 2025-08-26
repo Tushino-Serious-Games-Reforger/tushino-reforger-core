@@ -1,0 +1,8 @@
+SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionManager_Base.et" {
+ ID "56B2B4776E6E4499"
+ Factions {
+  SCR_Faction "{663515AD0D956812}" : "{E99C394008776E48}Configs/Factions/Tyn_RNRF.conf" {
+   m_bIsPlayable 0
+  }
+ }
+}
