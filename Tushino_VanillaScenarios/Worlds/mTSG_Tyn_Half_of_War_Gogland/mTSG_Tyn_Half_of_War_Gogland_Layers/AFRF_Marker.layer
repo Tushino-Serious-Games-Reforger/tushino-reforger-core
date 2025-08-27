@@ -206,4 +206,28 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   }
   m_iZOrder 0
  }
+ Photo_KSa {
+  coords 10069.294 0 1638.655
+  angleY 104.879
+  m_sImageSet "{ECFF68D26C5BEDE8}UI/Photos/Tovarish_KS.edds"
+  m_sImageSetGlow ""
+  m_sQuadName ""
+  m_fWorldSize 2000
+  m_sDescription "#TYN-Desc_TargetPhoto"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
+ Buton_photo {
+  coords 9972.151 0 4856.564
+  angleY 97.048
+  m_sImageSet "{766B5E9B98008B9D}UI/Photos/Galya_y_nas_atmena.edds"
+  m_sImageSetGlow ""
+  m_sQuadName ""
+  m_fWorldSize 2000
+  m_sDescription "Куда нужно нажимать"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+ }
 }
