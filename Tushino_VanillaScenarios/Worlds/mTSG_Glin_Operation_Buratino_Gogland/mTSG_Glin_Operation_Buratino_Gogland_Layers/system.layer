@@ -18,9 +18,15 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
   }
  }
  coords 6130.249 66.73 6187.841
+ m_bMarkersOnlyOnBriefing 1
+ m_bRemoveRedundantUnits 1
+ m_bRemoveSquadMarkers 1
  m_iFreezeTime 300000
+ m_bDisableVanillaGroupMenu 1
  m_bDisablePlayablesStreaming 1
  m_bDisableGarbageSystem 1
+ m_bFreezeTimeShootingForbiden 1
+ m_bDisableBuildingModeAfterFreezeTime 1
 }
 GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
  components {

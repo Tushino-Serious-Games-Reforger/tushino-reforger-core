@@ -34,7 +34,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
-  m_iOrder 2
+  m_iOrder 3
  }
  RNRF_TASK {
   coords 6863.668 138.394 2457.563
@@ -44,6 +44,19 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "Наша задача: не дать отменить запуск баллистической ракеты, а также сохранить жизнь нашего лидера."
   m_aVisibleForFactions {
    "Tyn_RNRF"
+  }
+  m_iOrder 2
+ }
+ Manual {
+  coords 6921.338 138.345 2441.441
+  m_sTitle "Справка"
+  m_sTextData "Вам предоставлена фото информациях о целях, а также коды для деактивации ракеты."\
+  ""\
+  "P.S. Коды - это лорная хрень системно игроку нужно просто нажать и удерживать кнопку пока она не пропадёт."\
+  ""\
+  "P.S.S. Фото цели взято с профиля ВКонтакте."
+  m_aVisibleForFactions {
+   "RHS_AFRF"
   }
   m_iOrder 2
  }
