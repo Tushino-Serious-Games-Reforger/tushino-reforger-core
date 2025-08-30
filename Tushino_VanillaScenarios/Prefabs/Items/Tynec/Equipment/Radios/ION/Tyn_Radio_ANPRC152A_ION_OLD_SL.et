@@ -5,11 +5,11 @@ GenericEntity : "{28F32B1BED534EA9}Prefabs/Items/Tynec/Equipment/Radios/US/Tyn_R
    "Encryption key" "baguette"
    Transceivers {
     RadioTransceiver "{6462895EA003CE7B}" {
-     "Transmitting Range" 600
+     "Transmitting Range" 7000
     }
     RadioTransceiver "{6490D0C7C8DF6818}" {
      ChannelFrequency 48000
-     "Transmitting Range" 600
+     "Transmitting Range" 7000
      "Min tunable frequency" 32000
      "Max tunable frequency" 68000
      "Frequency resolution" 100
