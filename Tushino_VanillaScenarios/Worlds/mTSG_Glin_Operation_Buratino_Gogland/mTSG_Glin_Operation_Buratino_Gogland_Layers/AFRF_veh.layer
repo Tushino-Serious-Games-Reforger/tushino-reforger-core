@@ -372,5 +372,5 @@ Vehicle BTR2 : "{52441D784D145D52}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_CDF.e
  }
  coords 5520.262 3.149 9016.485
  angleY -90.912
- m_sAttachmentGroupName "AR5"
+ m_sAttachmentGroupName "K14"
 }
