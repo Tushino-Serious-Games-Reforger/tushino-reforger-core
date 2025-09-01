@@ -5,11 +5,11 @@ GenericEntity : "{CB69B3B7C91CC55D}Prefabs/Items/Tynec/Equipment/Radios/RNRF/Tyn
    "Encryption key" "Pelmeshki"
    Transceivers {
     RadioTransceiver "{662AD2A09F497F96}" {
-     "Transmitting Range" 600
+     "Transmitting Range" 7000
     }
     RadioTransceiver "{662AD2A324B62CAE}" {
      ChannelFrequency 40000
-     "Transmitting Range" 600
+     "Transmitting Range" 7000
     }
    }
   }
