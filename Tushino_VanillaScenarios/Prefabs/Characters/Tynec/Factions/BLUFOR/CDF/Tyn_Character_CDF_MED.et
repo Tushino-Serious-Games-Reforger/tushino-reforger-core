@@ -19,7 +19,7 @@ SCR_ChimeraCharacter : "{D93CF1ABCC74CBA3}Prefabs/Characters/Tynec/Factions/BLUF
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{9723923821F574EA}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_ses.et"
+     Prefab "{C3AA8FC03F7AC34E}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Tyn_Helmet_PASGT_01_1_brownbalaclava.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{4CBDC206FEF9897C}Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et"
