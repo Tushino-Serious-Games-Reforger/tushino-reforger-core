@@ -7,6 +7,9 @@ SCR_ChimeraCharacter : "{2940AA84B1B66F05}Prefabs/Characters/Tynec/Factions/OPFO
     Icon "{916C4E2CE39A8915}UI/Icons/crew.edds"
    }
   }
+  TSG_CrewComponent "{66ECF8A96CBA37AB}" {
+   m_sCrewKey "BTR"
+  }
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
    WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
   }
