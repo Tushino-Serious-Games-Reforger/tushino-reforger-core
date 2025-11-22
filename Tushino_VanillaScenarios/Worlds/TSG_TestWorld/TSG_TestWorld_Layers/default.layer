@@ -1,0 +1,23 @@
+Vehicle LAV1 : "{0FBF8F010F81A4E5}Prefabs/Vehicles/Wheeled/LAV25/LAV25.et" {
+ coords 27.078 1 241.039
+}
+SCR_AIGroup : "{121F4A7DB996AE83}Prefabs/Groups/Tynec/OPFOR/Tyn_Group_USSR_HQ.et" {
+ coords 31.325 1 250.327
+}
+Vehicle BRDM1 : "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et" {
+ components {
+  TSG_CrewComponent "{66ECF8A94E92C791}" {
+   m_sCrewKey "BTR"
+  }
+ }
+ coords 36.847 1 248.152
+}
+Vehicle BTR1 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ components {
+  TSG_CrewComponent "{66ECF8A94E92C791}" {
+   m_sCrewKey "BTR"
+   m_bBlockTurret 0
+  }
+ }
+ coords 25.513 1 250.639
+}

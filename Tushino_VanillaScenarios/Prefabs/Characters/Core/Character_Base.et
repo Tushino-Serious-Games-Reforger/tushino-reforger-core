@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter {
+ ID "520EC961A090B1EE"
+ components {
+  TSG_CrewComponent "{66ECF8A96CBA37AB}" {
+   m_bBlockTurret 0
+  }
+ }
+}
