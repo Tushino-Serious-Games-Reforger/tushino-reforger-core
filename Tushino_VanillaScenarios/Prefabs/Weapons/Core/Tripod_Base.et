@@ -1,0 +1,8 @@
+Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
+ ID "52D30EFBEBC74642"
+ components {
+  TSG_CrewComponent "{66ED0AC309272B0D}" {
+   m_bIsVehiclePart 0
+  }
+ }
+}
