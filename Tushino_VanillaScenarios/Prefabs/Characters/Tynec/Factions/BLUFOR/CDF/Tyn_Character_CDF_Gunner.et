@@ -19,13 +19,16 @@ SCR_ChimeraCharacter : "{D93CF1ABCC74CBA3}Prefabs/Characters/Tynec/Factions/BLUF
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{367BEEE3BE61C597}Prefabs/Characters/HeadGear/Headgear_TSh4/Helmet_tsh4.et"
+     Prefab "{D6B1ACA46036E9CE}Prefabs/Characters/HeadGear/Helmet_TSh4_01/Helmet_TSh4_01_open.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{ADE19B33DCBB9005}Prefabs/Characters/Vests/Vest_6B2/Vest_6B2.et"
+     Prefab "{F9ACDDE62D906D61}Prefabs/Characters/Vests/Vest_M69/Vest_M69_olive.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{3DE0155EC9767B98}Prefabs/Items/Equipment/Backpacks/Backpack_Veshmeshok.et"
+     Prefab "{AC298BA8A7D27007}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{336AE3CB49E19608}Prefabs/Characters/Handwear/Gloves_Wool_01/Gloves_Wool_Black_01.et"
     }
    }
   }
@@ -33,19 +36,13 @@ SCR_ChimeraCharacter : "{D93CF1ABCC74CBA3}Prefabs/Characters/Tynec/Factions/BLUF
    InitialInventoryItems {
     ItemsInitConfigurationItem "{64CE25D1110E1A45}" {
      PrefabsToSpawn {
-      "{4421A403A72806C7}Prefabs/Items/Tynec/Equipment/Radios/Tyn_Radio_ANPRC152A_OLD_SL.et"
+      "{4421A403A72806C7}Prefabs/Items/Tynec/Equipment/Radios/US/Tyn_Radio_ANPRC152A_OLD_SL.et"
      }
     }
     ItemsInitConfigurationItem "{64CE5C8CB883159B}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Pants_Pilot_USSR_01/Pants_Pilot_USSR_01_tucked.et"
+     TargetStorage "Back/Backpack_Medical_Soviet_NoCross_01.et"
      PrefabsToSpawn {
-      "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et"
-     }
-    }
-    ItemsInitConfigurationItem "{64D09E0B639F01F3}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Jacket_Pilot_USSR_01/Jacket_Pilot_USSR_01.et"
-     PrefabsToSpawn {
-      "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et"
+      "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et" "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et" "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et" "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et"
      }
     }
    }

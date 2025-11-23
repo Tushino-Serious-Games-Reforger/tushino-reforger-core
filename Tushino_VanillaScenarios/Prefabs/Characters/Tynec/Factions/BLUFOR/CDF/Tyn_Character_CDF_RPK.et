@@ -19,7 +19,7 @@ SCR_ChimeraCharacter : "{D93CF1ABCC74CBA3}Prefabs/Characters/Tynec/Factions/BLUF
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{4F2C9DC153DD16AC}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_Googles_CDF.et"
+     Prefab "{C3AA8FC03F7AC34E}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Tyn_Helmet_PASGT_01_1_brownbalaclava.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{4CBDC206FEF9897C}Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et"
@@ -27,7 +27,6 @@ SCR_ChimeraCharacter : "{D93CF1ABCC74CBA3}Prefabs/Characters/Tynec/Factions/BLUF
     LoadoutSlotInfo Back {
      PivotID "scene_root"
      Prefab "{3DE0155EC9767B98}Prefabs/Items/Equipment/Backpacks/Backpack_Veshmeshok.et"
-     Name "Backpack"
      AreaType LoadoutBackpackArea "{5A68E3332875E6B7}" {
      }
     }

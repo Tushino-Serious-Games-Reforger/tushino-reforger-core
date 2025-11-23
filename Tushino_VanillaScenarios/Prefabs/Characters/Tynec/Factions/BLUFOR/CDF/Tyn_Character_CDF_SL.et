@@ -33,7 +33,7 @@ SCR_ChimeraCharacter : "{D93CF1ABCC74CBA3}Prefabs/Characters/Tynec/Factions/BLUF
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{B96830B1D2EC36AF}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_Googles_Balaclava_Tan_CDF.et"
+     Prefab "{B74A4FF0DD8BB116}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{4CBDC206FEF9897C}Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et"
@@ -41,7 +41,6 @@ SCR_ChimeraCharacter : "{D93CF1ABCC74CBA3}Prefabs/Characters/Tynec/Factions/BLUF
     LoadoutSlotInfo Back {
      PivotID "scene_root"
      Prefab "{3DE0155EC9767B98}Prefabs/Items/Equipment/Backpacks/Backpack_Veshmeshok.et"
-     Name "Backpack"
      AreaType LoadoutBackpackArea "{5A68E3332875E6B7}" {
      }
     }
@@ -51,7 +50,7 @@ SCR_ChimeraCharacter : "{D93CF1ABCC74CBA3}Prefabs/Characters/Tynec/Factions/BLUF
    InitialInventoryItems {
     ItemsInitConfigurationItem "{64CE25D1110E1A45}" {
      PrefabsToSpawn {
-      "{4421A403A72806C7}Prefabs/Items/Tynec/Equipment/Radios/Tyn_Radio_ANPRC152A_OLD_SL.et"
+      "{4421A403A72806C7}Prefabs/Items/Tynec/Equipment/Radios/US/Tyn_Radio_ANPRC152A_OLD_SL.et"
      }
     }
     ItemsInitConfigurationItem "{64CE59DE77C8A1EA}" {

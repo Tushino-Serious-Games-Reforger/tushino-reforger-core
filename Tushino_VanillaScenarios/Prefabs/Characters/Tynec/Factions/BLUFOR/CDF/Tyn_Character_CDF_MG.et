@@ -19,7 +19,7 @@ SCR_ChimeraCharacter : "{D93CF1ABCC74CBA3}Prefabs/Characters/Tynec/Factions/BLUF
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{B96830B1D2EC36AF}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_Googles_Balaclava_Tan_CDF.et"
+     Prefab "{C3AA8FC03F7AC34E}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Tyn_Helmet_PASGT_01_1_brownbalaclava.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{F9ACDDE62D906D61}Prefabs/Characters/Vests/Vest_M69/Vest_M69_olive.et"
@@ -28,7 +28,7 @@ SCR_ChimeraCharacter : "{D93CF1ABCC74CBA3}Prefabs/Characters/Tynec/Factions/BLUF
      Prefab "{3DE0155EC9767B98}Prefabs/Items/Equipment/Backpacks/Backpack_Veshmeshok.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{15067AD09803580D}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_MG.et"
+     Prefab "{9344E8C1A7CABF8D}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_MG_Black.et"
     }
     LoadoutSlotInfo HandWear {
      Prefab "{4F71E7468E78DDD2}Prefabs/Characters/Handwear/Gloves_Leather_01/Gloves_Leather_01.et"

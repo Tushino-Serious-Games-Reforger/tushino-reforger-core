@@ -8,8 +8,8 @@ SCR_ChimeraCharacter : "{6E7064C8F1963788}Prefabs/Characters/Tynec/Factions/BLUF
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
-    LoadoutSlotInfo Back {
-     Prefab "{3DE0155EC9767B98}Prefabs/Items/Equipment/Backpacks/Backpack_Veshmeshok.et"
+    LoadoutSlotInfo Hat {
+     Prefab "{EB2F05A3751B905A}Prefabs/Characters/HeadGear/Helmet_TSh4_01/Helmet_TSh4_01.et"
     }
    }
   }
