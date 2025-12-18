@@ -1,12 +1,10 @@
-Vehicle BTR1 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
- components {
-  TSG_CrewComponent "{66ECF8A94E92C791}" {
-   m_sCrewKey "BTR"
-  }
- }
- coords 34.521 1 249.986
+Vehicle Vehicle_Base1 : "{4085446E2B406849}Prefabs/Vehicles/Core/Vehicle_Base.et" {
+ coords 24.546 1 247.426
 }
-SCR_AIGroup : "{E4051E06CC119361}Prefabs/Groups/TSG_Group_Base.et" {
+Vehicle BTR1 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ coords 33.351 1 250.333
+}
+SCR_AIGroup aa1 : "{E4051E06CC119361}Prefabs/Groups/TSG_Group_Base.et" {
  coords 29.885 1 251.869
  angles 0 89.863 0
  m_faction "USSR"

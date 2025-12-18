@@ -4,12 +4,8 @@ class TSG_CrewComponentClass : ScriptComponentClass
 
 class TSG_CrewComponent : ScriptComponent
 {
-	[Attribute(desc: "Crew key to define access control vehicle")]
-	string m_sCrewKey;
-	[Attribute(defvalue: "true", desc: "Should the turret be closed? Check only on vehicle entity")]
-	bool m_bBlockTurret;
-	[Attribute(desc: "Is that entity Vehicle's part?")]
-	bool m_bIsVehiclePart;
+	[RplProp(), Attribute(desc: "Crew key to define access control vehicle")]
+	protected string m_sCrewKey;
 	
 	string GetCrewKey()
 	{
@@ -19,15 +15,11 @@ class TSG_CrewComponent : ScriptComponent
 	void SetCrewKey(string NewKey)
 	{
 		m_sCrewKey = NewKey;
+		Replication.BumpMe();
 	}
 	
-	bool IsVehiclePart()
+	void OnCrewKeyUpdated()
 	{
-		return m_bIsVehiclePart;
-	}
-	
-	bool IsTurretBlocked()
-	{
-		return m_bBlockTurret;
+		SetCrewKey(m_sCrewKey);
 	}
 }

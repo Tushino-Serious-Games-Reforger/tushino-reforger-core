@@ -1,32 +1,31 @@
-modded class SCR_GetInUserAction
+/*modded class SCR_GetInUserAction
 {
 	string VehCrewKey;
 	
 	override void Init(IEntity pOwnerEntity, GenericComponent pManagerComponent)
 	{	
-		TSG_CrewComponent comp = TSG_CrewComponent.Cast(pOwnerEntity.FindComponent(TSG_CrewComponent));
-		if (!comp)
+		TSG_VehicleCrewComponent VehUIInfo = TSG_VehicleCrewComponent.Cast(pOwnerEntity.FindComponent(TSG_VehicleCrewComponent));
+		if (!VehUIInfo)
 			return;
 		
-		
-		if (comp.IsVehiclePart() == true)
+		if (VehUIInfo.IsVehiclePart() == true)
 		{
-			comp = TSG_CrewComponent.Cast(pOwnerEntity.GetParent().FindComponent(TSG_CrewComponent));
-			if (!comp)
+			VehUIInfo = TSG_VehicleCrewComponent.Cast(pOwnerEntity.GetParent().FindComponent(TSG_VehicleCrewComponent));
+			if (!VehUIInfo)
 				return;
-			if (comp.IsTurretBlocked() == false)
+			if (VehUIInfo.IsTurretBlocked() == false)
 			{
-				comp = TSG_CrewComponent.Cast(pOwnerEntity.FindComponent(TSG_CrewComponent));
+				VehUIInfo = TSG_VehicleCrewComponent.Cast(pOwnerEntity.FindComponent(TSG_VehicleCrewComponent));
 			}
 		}
 		
-		VehCrewKey = comp.GetCrewKey();
+		VehCrewKey = VehUIInfo.GetCrewKey();
 	}
 	
 	override bool CanBePerformedScript(IEntity user)
 	{
 		string UsCrewKey = TSG_CrewComponent.Cast(user.FindComponent(TSG_CrewComponent)).GetCrewKey();
-		if (super.GetCompartmentSlot().GetType() != ECompartmentType.CARGO)
+		if (this.GetCompartmentSlot().GetType() != ECompartmentType.CARGO)
 		{
 			if (VehCrewKey != "" && VehCrewKey != UsCrewKey)
 			{
@@ -34,6 +33,46 @@ modded class SCR_GetInUserAction
 				return false;
 			}
 		}
+		return true;
+	}
+}*/
+
+modded class SCR_GetInUserAction
+{
+	override bool CanBePerformedScript(IEntity user)
+	{
+		SCR_EditableEntityComponent UserComp = SCR_EditableEntityComponent.Cast(user.FindComponent(SCR_EditableEntityComponent));
+		if(!UserComp)
+			return false;
+		
+		SCR_EditableEntityComponent VehComp = SCR_EditableEntityComponent.Cast(this.GetCompartmentSlot().GetVehicle().FindComponent(SCR_EditableEntityComponent));
+		if(!VehComp)
+			return false;
+		
+		SCR_EditableEntityUIInfo VehUIInfo = SCR_EditableEntityUIInfo.Cast(VehComp.GetInfo());;
+		SCR_EditableEntityUIInfo UserUIInfo = SCR_EditableEntityUIInfo.Cast(UserComp.GetInfo());;
+		
+		if(this.GetCompartmentSlot().GetType() != ECompartmentType.CARGO)
+		{
+			if(VehUIInfo.HasEntityLabel(53) == true)
+			{
+				if(UserUIInfo.HasEntityLabel(271) == false)
+				{
+					SetCannotPerformReason("#TYN-UserAction_OnlyCrewAccess");
+					return false;
+				}
+			}
+		
+			if(VehUIInfo.HasEntityLabel(51) == true)
+			{
+				if(UserUIInfo.HasEntityLabel(270) == false)
+				{
+					SetCannotPerformReason("#TYN-UserAction_OnlyCrewAccess");
+					return false;
+				}
+			}
+		}
+		
 		return true;
 	}
 }

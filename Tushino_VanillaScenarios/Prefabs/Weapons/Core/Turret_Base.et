@@ -1,9 +1,0 @@
-Turret {
- ID "51ACD0965653D003"
- components {
-  TSG_CrewComponent "{66ED0AC309272B0D}" {
-   m_bBlockTurret 0
-   m_bIsVehiclePart 1
-  }
- }
-}
