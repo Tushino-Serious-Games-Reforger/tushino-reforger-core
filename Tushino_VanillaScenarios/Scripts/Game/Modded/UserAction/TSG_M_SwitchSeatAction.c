@@ -1,42 +1,3 @@
-/*modded class SCR_SwitchSeatAction
-{
-	string VehCrewKey;
-	
-	override void Init(IEntity pOwnerEntity, GenericComponent pManagerComponent)
-	{	
-		TSG_VehicleCrewComponent comp = TSG_VehicleCrewComponent.Cast(pOwnerEntity.FindComponent(TSG_VehicleCrewComponent));
-		if (!comp)
-			return;
-		
-		if (comp.IsVehiclePart() == true)
-		{
-			comp = TSG_VehicleCrewComponent.Cast(pOwnerEntity.GetParent().FindComponent(TSG_VehicleCrewComponent));
-			if (!comp)
-				return;
-			if (comp.IsTurretBlocked() == false)
-			{
-				comp = TSG_VehicleCrewComponent.Cast(pOwnerEntity.FindComponent(TSG_VehicleCrewComponent));
-			}
-		}
-		
-		VehCrewKey = comp.GetCrewKey();
-	}
-	
-	override bool CanBePerformedScript(IEntity user)
-	{
-		string UsCrewKey = TSG_CrewComponent.Cast(user.FindComponent(TSG_CrewComponent)).GetCrewKey();
-		if (GetCompartmentSlot().GetType() != ECompartmentType.CARGO)
-		{
-			if (VehCrewKey != "" && VehCrewKey != UsCrewKey)
-			{
-				SetCannotPerformReason("#TYN-UserAction_OnlyCrewAccess");
-				return false;
-			}
-		}
-		return true;
-	}
-}*/
-
 modded class SCR_SwitchSeatAction
 {
 	override bool CanBePerformedScript(IEntity user)
@@ -76,3 +37,42 @@ modded class SCR_SwitchSeatAction
 		return true;
 	}
 }
+
+/*modded class SCR_SwitchSeatAction
+{
+	string VehCrewKey;
+	
+	override void Init(IEntity pOwnerEntity, GenericComponent pManagerComponent)
+	{	
+		TSG_VehicleCrewComponent comp = TSG_VehicleCrewComponent.Cast(pOwnerEntity.FindComponent(TSG_VehicleCrewComponent));
+		if (!comp)
+			return;
+		
+		if (comp.IsVehiclePart() == true)
+		{
+			comp = TSG_VehicleCrewComponent.Cast(pOwnerEntity.GetParent().FindComponent(TSG_VehicleCrewComponent));
+			if (!comp)
+				return;
+			if (comp.IsTurretBlocked() == false)
+			{
+				comp = TSG_VehicleCrewComponent.Cast(pOwnerEntity.FindComponent(TSG_VehicleCrewComponent));
+			}
+		}
+		
+		VehCrewKey = comp.GetCrewKey();
+	}
+	
+	override bool CanBePerformedScript(IEntity user)
+	{
+		string UsCrewKey = TSG_CrewComponent.Cast(user.FindComponent(TSG_CrewComponent)).GetCrewKey();
+		if (GetCompartmentSlot().GetType() != ECompartmentType.CARGO)
+		{
+			if (VehCrewKey != "" && VehCrewKey != UsCrewKey)
+			{
+				SetCannotPerformReason("#TYN-UserAction_OnlyCrewAccess");
+				return false;
+			}
+		}
+		return true;
+	}
+}*/

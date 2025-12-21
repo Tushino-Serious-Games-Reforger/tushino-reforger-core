@@ -1859,5 +1859,13 @@ StringTable {
    Author "p1vas"
    LastChanged "p1vas"
   }
+  CustomStringTableItem "{672AA710CFC57531}" {
+   Id "TYN-UserAction_OnlyCrewAccess"
+   Target_en_us "Only Crew Access"
+   Target_ru_ru "Только у экипажа есть доступ"
+   Modified 1730848945
+   Author "p1vas"
+   LastChanged "p1vas"
+  }
  }
 }

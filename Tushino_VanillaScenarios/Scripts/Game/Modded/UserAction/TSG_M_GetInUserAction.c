@@ -1,42 +1,3 @@
-/*modded class SCR_GetInUserAction
-{
-	string VehCrewKey;
-	
-	override void Init(IEntity pOwnerEntity, GenericComponent pManagerComponent)
-	{	
-		TSG_VehicleCrewComponent VehUIInfo = TSG_VehicleCrewComponent.Cast(pOwnerEntity.FindComponent(TSG_VehicleCrewComponent));
-		if (!VehUIInfo)
-			return;
-		
-		if (VehUIInfo.IsVehiclePart() == true)
-		{
-			VehUIInfo = TSG_VehicleCrewComponent.Cast(pOwnerEntity.GetParent().FindComponent(TSG_VehicleCrewComponent));
-			if (!VehUIInfo)
-				return;
-			if (VehUIInfo.IsTurretBlocked() == false)
-			{
-				VehUIInfo = TSG_VehicleCrewComponent.Cast(pOwnerEntity.FindComponent(TSG_VehicleCrewComponent));
-			}
-		}
-		
-		VehCrewKey = VehUIInfo.GetCrewKey();
-	}
-	
-	override bool CanBePerformedScript(IEntity user)
-	{
-		string UsCrewKey = TSG_CrewComponent.Cast(user.FindComponent(TSG_CrewComponent)).GetCrewKey();
-		if (this.GetCompartmentSlot().GetType() != ECompartmentType.CARGO)
-		{
-			if (VehCrewKey != "" && VehCrewKey != UsCrewKey)
-			{
-				SetCannotPerformReason("#TYN-UserAction_OnlyCrewAccess");
-				return false;
-			}
-		}
-		return true;
-	}
-}*/
-
 modded class SCR_GetInUserAction
 {
 	override bool CanBePerformedScript(IEntity user)
@@ -76,3 +37,42 @@ modded class SCR_GetInUserAction
 		return true;
 	}
 }
+
+/*modded class SCR_GetInUserAction
+{
+	string VehCrewKey;
+	
+	override void Init(IEntity pOwnerEntity, GenericComponent pManagerComponent)
+	{	
+		TSG_VehicleCrewComponent VehUIInfo = TSG_VehicleCrewComponent.Cast(pOwnerEntity.FindComponent(TSG_VehicleCrewComponent));
+		if (!VehUIInfo)
+			return;
+		
+		if (VehUIInfo.IsVehiclePart() == true)
+		{
+			VehUIInfo = TSG_VehicleCrewComponent.Cast(pOwnerEntity.GetParent().FindComponent(TSG_VehicleCrewComponent));
+			if (!VehUIInfo)
+				return;
+			if (VehUIInfo.IsTurretBlocked() == false)
+			{
+				VehUIInfo = TSG_VehicleCrewComponent.Cast(pOwnerEntity.FindComponent(TSG_VehicleCrewComponent));
+			}
+		}
+		
+		VehCrewKey = VehUIInfo.GetCrewKey();
+	}
+	
+	override bool CanBePerformedScript(IEntity user)
+	{
+		string UsCrewKey = TSG_CrewComponent.Cast(user.FindComponent(TSG_CrewComponent)).GetCrewKey();
+		if (this.GetCompartmentSlot().GetType() != ECompartmentType.CARGO)
+		{
+			if (VehCrewKey != "" && VehCrewKey != UsCrewKey)
+			{
+				SetCannotPerformReason("#TYN-UserAction_OnlyCrewAccess");
+				return false;
+			}
+		}
+		return true;
+	}
+}*/
