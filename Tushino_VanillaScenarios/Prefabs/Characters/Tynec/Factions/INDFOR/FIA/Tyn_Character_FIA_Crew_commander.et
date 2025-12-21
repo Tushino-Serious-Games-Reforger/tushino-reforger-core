@@ -5,6 +5,9 @@ SCR_ChimeraCharacter : "{7ADE36D180AF0F71}Prefabs/Characters/Tynec/Factions/INDF
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#DRG-Role_CrewCommanderV"
     Icon "{916C4E2CE39A8915}UI/Icons/crew.edds"
+    m_aAuthoredLabels + {
+     TRAIT_VEHICLE_CREW
+    }
    }
   }
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
@@ -49,7 +52,7 @@ SCR_ChimeraCharacter : "{7ADE36D180AF0F71}Prefabs/Characters/Tynec/Factions/INDF
     ItemsInitConfigurationItem "{62F312D9DB991312}" {
      TargetStorage "Pants/Pants_TAZ83_01.et"
      PrefabsToSpawn {
-      "{272AFE7E14B20969}Prefabs/Items/Tynec/Equipment/Radios/Tyn_Radio_ANPRC68_FIA_SL.et"
+      "{272AFE7E14B20969}Prefabs/Items/Tynec/Equipment/Radios/FIA/Tyn_Radio_ANPRC68_FIA_SL.et"
      }
     }
     ItemsInitConfigurationItem "{65A0E48D8A31A6F7}" {

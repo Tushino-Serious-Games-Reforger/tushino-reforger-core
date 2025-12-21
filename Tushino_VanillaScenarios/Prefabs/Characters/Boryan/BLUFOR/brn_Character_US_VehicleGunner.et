@@ -5,10 +5,11 @@ SCR_ChimeraCharacter : "{64AD55FF89C97DF9}Prefabs/Characters/Factions/BLUFOR/US_
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#BRN-Role_VehicleGunner"
     Icon "{916C4E2CE39A8915}UI/Icons/crew.edds"
+    m_aAuthoredLabels + {
+     TRAIT_VEHICLE_CREW
+    }
     m_aAutoLabels {
     }
-   }
-   m_VariantData {
    }
   }
  }

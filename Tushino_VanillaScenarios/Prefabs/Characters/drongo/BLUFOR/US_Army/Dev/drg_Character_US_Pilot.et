@@ -1,10 +1,13 @@
-SCR_ChimeraCharacter : "{749CC8EDA102C70E}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Unarmed.et" {
+SCR_ChimeraCharacter : "{749CC8EDA102C70E}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/drg_Character_US_Unarmed.et" {
  ID "520EC961A090BBD5"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_HelicopterPilot"
     Icon "{C8D22D6EC2B5DD0A}UI/Icons/sso_pilot.edds"
+    m_aAuthoredLabels + {
+     TRAIT_HELI_CREW
+    }
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
