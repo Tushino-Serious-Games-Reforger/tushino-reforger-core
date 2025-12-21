@@ -5,6 +5,9 @@ SCR_ChimeraCharacter : "{4811E545CF73B14C}Prefabs/Characters/Tynec/Factions/BLUF
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#DRG-Role_CrewGunner"
     Icon "{916C4E2CE39A8915}UI/Icons/crew.edds"
+    m_aAuthoredLabels + {
+     TRAIT_VEHICLE_CREW
+    }
    }
   }
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
@@ -40,7 +43,7 @@ SCR_ChimeraCharacter : "{4811E545CF73B14C}Prefabs/Characters/Tynec/Factions/BLUF
      TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_Coy.et"
      TargetPurpose 64
      PrefabsToSpawn {
-      "{4421A403A72806C7}Prefabs/Items/Tynec/Equipment/Radios/Tyn_Radio_ANPRC152A_OLD_SL.et"
+      "{4421A403A72806C7}Prefabs/Items/Tynec/Equipment/Radios/US/Tyn_Radio_ANPRC152A_OLD_SL.et"
      }
     }
     ItemsInitConfigurationItem "{654B2D52F77898FA}" {

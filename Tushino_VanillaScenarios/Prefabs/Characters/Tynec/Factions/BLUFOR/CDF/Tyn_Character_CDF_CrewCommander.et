@@ -3,8 +3,11 @@ SCR_ChimeraCharacter : "{D93CF1ABCC74CBA3}Prefabs/Characters/Tynec/Factions/BLUF
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#BRN-Role_VehicleGunner"
+    Name "#DRG-Role_CrewCommanderV"
     Icon "{916C4E2CE39A8915}UI/Icons/crew.edds"
+    m_aAuthoredLabels + {
+     TRAIT_VEHICLE_CREW
+    }
    }
   }
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
