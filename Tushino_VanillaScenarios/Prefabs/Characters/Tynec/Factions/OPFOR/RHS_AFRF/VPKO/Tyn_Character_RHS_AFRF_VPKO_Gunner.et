@@ -5,6 +5,9 @@ SCR_ChimeraCharacter : "{6DB3B5CB37E7F6DF}Prefabs/Characters/Tynec/Factions/OPFO
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#DRG-Role_CrewGunner"
     Icon "{916C4E2CE39A8915}UI/Icons/crew.edds"
+    m_aAuthoredLabels + {
+     TRAIT_VEHICLE_CREW
+    }
    }
   }
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
@@ -34,7 +37,7 @@ SCR_ChimeraCharacter : "{6DB3B5CB37E7F6DF}Prefabs/Characters/Tynec/Factions/OPFO
     ItemsInitConfigurationItem "{6461423D5057CC55}" {
      TargetStorage "Prefabs/Characters/Uniforms/VKPO/Field_Pants_VKPO.et"
      PrefabsToSpawn {
-      "{1F29EC0D6D22BAE8}Prefabs/Items/Tynec/Equipment/Radios/Tyn_Radio_R187P1_OLD_SL.et"
+      "{1F29EC0D6D22BAE8}Prefabs/Items/Tynec/Equipment/Radios/RU/Tyn_Radio_R187P1_OLD_SL.et"
      }
     }
     ItemsInitConfigurationItem "{6461423D8EEEB619}" {

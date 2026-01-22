@@ -1,0 +1,14 @@
+Vehicle BTR1 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ coords 33.385 1 250.647
+}
+SCR_AIGroup : "{E4051E06CC119361}Prefabs/Groups/TSG_Group_Base.et" {
+ coords 27.37 1 252.732
+ angles 0 91.856 0
+ m_faction "USSR"
+ m_aUnitPrefabSlots {
+  "{78EA5CC4F1C527F3}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Crew_Commander.et"
+  "{CB309C0AE3B5B8F3}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Crew_Gunner.et"
+  "{93653A42750C27AD}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Crew_Driver.et"
+  "{69CFCF282DA134D1}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Rifleman.et"
+ }
+}

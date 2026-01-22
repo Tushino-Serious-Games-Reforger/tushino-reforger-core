@@ -1,10 +1,13 @@
-SCR_ChimeraCharacter : "{4438AEFF45A8CE9E}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Rifleman.et" {
+SCR_ChimeraCharacter : "{4438AEFF45A8CE9E}Prefabs/Characters/drongo/BLUFOR/US_Army/Dev/Recon/drg_Character_US_Recon_Rifleman.et" {
  ID "520EC961A090BBD5"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#DRG-Role_CrewDriver"
     Icon "{FC10C2531B4A5AFF}UI/Icons/sso_meh.edds"
+    m_aAuthoredLabels + {
+     TRAIT_VEHICLE_CREW
+    }
    }
   }
   SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {

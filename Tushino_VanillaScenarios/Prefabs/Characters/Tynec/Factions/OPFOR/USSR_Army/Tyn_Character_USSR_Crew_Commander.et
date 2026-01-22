@@ -5,6 +5,9 @@ SCR_ChimeraCharacter : "{2940AA84B1B66F05}Prefabs/Characters/Tynec/Factions/OPFO
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#DRG-Role_CrewCommanderV"
     Icon "{916C4E2CE39A8915}UI/Icons/crew.edds"
+    m_aAuthoredLabels + {
+     TRAIT_VEHICLE_CREW
+    }
    }
   }
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
