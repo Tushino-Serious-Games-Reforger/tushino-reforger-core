@@ -1,0 +1,506 @@
+FrameWidgetClass {
+ Name "WeaponInfoLayout"
+ Slot FrameWidgetSlot "{5D6273E63280A57B}" {
+  Anchor 1 1 1 1
+  PositionX -8
+  OffsetLeft -8
+  PositionY -10
+  OffsetTop -10
+  SizeX 1920
+  OffsetRight -1912
+  SizeY 1080
+  OffsetBottom -1070
+  Alignment 1 1
+ }
+ components {
+  SCR_WidgetExportRuleRoot "{56E0F18796B0C334}" {
+   DestinationPath "{3E4ACC71B58867A5}Scripts/Game/UI/HUD/WeaponInfo"
+   GenerateFullWidgetPath 0
+  }
+ }
+ {
+  VerticalLayoutWidgetClass "{6885278A050B5DAC}" {
+   Name "m_WeaponInfoPanel"
+   Slot FrameWidgetSlot "{5D6273E74C8055C7}" {
+    Anchor 1 1 1 1
+    OffsetLeft 0
+    OffsetTop 0
+    OffsetRight -100
+    OffsetBottom -30
+    Alignment 1 1
+    SizeToContent 1
+   }
+   {
+    HorizontalLayoutWidgetClass "{6885278A050B5DAB}" {
+     Name "m_Optics"
+     Slot LayoutSlot "{5870C1D380D38B81}" {
+      HorizontalAlign 2
+      Padding 0 2 0 0
+     }
+     {
+      RichTextWidgetClass "{6885278A050B5DA8}" {
+       Name "m_OpticsText"
+       Slot LayoutSlot "{56E0F189AA8E9CDB}" {
+        HorizontalAlign 2
+        VerticalAlign 1
+        Padding 0 0 10 0
+       }
+       Clipping False
+       Color 1 1 1 1
+       Text "2 x"
+       "Font Size" 18
+       "Min Font Size" 18
+       "Horizontal Alignment" Right
+       "Vertical Alignment" Center
+       FontProperties FontProperties "{55F8C56F794D79A5}" {
+        Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+        ShadowSize 10
+        ShadowColor 0 0 0 0.7
+        ShadowOffset 0 0
+       }
+      }
+      OverlayWidgetClass "{6885278A050B5DA9}" {
+       Name "Overlay0"
+       Slot LayoutSlot "{5870C1DB5D8184E2}" {
+       }
+       {
+        ImageWidgetClass "{6885278A050B5DB6}" {
+         Name "Image1"
+         Slot OverlayWidgetSlot "{5870C1DB5D983F77}" {
+         }
+         Color 0 0 0 0.392
+         Texture "{C58A75ADB0F471D3}UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow.imageset"
+         Image "xtra-zoom"
+         Size 38 38
+        }
+        ImageWidgetClass "{6885278A050B6EBF}" {
+         Name "Image0"
+         Slot OverlayWidgetSlot "{5870C1DB501CFA1D}" {
+         }
+         Texture "{A37CF52DBA874559}UI/Imagesets/WeaponInfo/WeaponInfo_Ammo.imageset"
+         Image "xtra-zoom"
+         Size 38 38
+        }
+       }
+      }
+     }
+    }
+    HorizontalLayoutWidgetClass "{6885278A050B6EBD}" {
+     Name "m_Zeroing"
+     Slot LayoutSlot "{5870C1D380D38B81}" {
+      HorizontalAlign 2
+      Padding 0 2 0 0
+     }
+     "Inherit Color" 1
+     {
+      RichTextWidgetClass "{6885278A050BFDB4}" {
+       Name "m_ZeroingText"
+       Slot LayoutSlot "{56E0F189AA8E9CDB}" {
+        HorizontalAlign 2
+        VerticalAlign 1
+        Padding 0 0 10 0
+       }
+       Clipping False
+       Color 1 1 1 1
+       Text "200 m"
+       "Font Size" 18
+       "Min Font Size" 18
+       "Horizontal Alignment" Right
+       "Vertical Alignment" Center
+       FontProperties FontProperties "{55F8C56F794D79A5}" {
+        Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+        ShadowSize 10
+        ShadowColor 0 0 0 0.7
+        ShadowOffset 0 0
+       }
+      }
+      OverlayWidgetClass "{6885278A050BFDB5}" {
+       Name "Overlay0"
+       Slot LayoutSlot "{5870C1DB5D8184E2}" {
+       }
+       {
+        ImageWidgetClass "{6885278A050B8D4B}" {
+         Name "Image2"
+         Slot OverlayWidgetSlot "{5870C1DB5D983F77}" {
+         }
+         Color 0 0 0 0.392
+         Texture "{C58A75ADB0F471D3}UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow.imageset"
+         Image "xtra-zeroing"
+         Size 38 38
+        }
+        ImageWidgetClass "{6885278A050B8D4C}" {
+         Name "Image3"
+         Slot OverlayWidgetSlot "{5870C1DB501CFA1D}" {
+         }
+         Texture "{A37CF52DBA874559}UI/Imagesets/WeaponInfo/WeaponInfo_Ammo.imageset"
+         Image "xtra-zeroing"
+         Size 38 38
+        }
+       }
+      }
+     }
+    }
+    HorizontalLayoutWidgetClass "{6885278A05047F63}" {
+     Name "m_AmmoType"
+     Slot LayoutSlot "{5870C1D380D38B81}" {
+      HorizontalAlign 2
+      Padding 0 2 0 0
+     }
+     "Inherit Color" 1
+     {
+      RichTextWidgetClass "{6885278A05047F62}" {
+       Name "m_AmmoTypeText"
+       Slot LayoutSlot "{56E0F189AA8E9CDB}" {
+        HorizontalAlign 2
+        VerticalAlign 1
+        Padding 0 0 10 0
+       }
+       Clipping False
+       Color 1 1 1 1
+       Text "#AR-AmmunitionType_HEAT"
+       "Font Size" 18
+       "Min Font Size" 18
+       "Horizontal Alignment" Right
+       "Vertical Alignment" Center
+       FontProperties FontProperties "{55F8C56F794D79A5}" {
+        Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+        ShadowSize 10
+        ShadowColor 0 0 0 0.7
+        ShadowOffset 0 0
+       }
+      }
+      OverlayWidgetClass "{6885278A05047F61}" {
+       Name "m_AmmoType_Sniper"
+       Slot LayoutSlot "{5870C1DB5D8184E2}" {
+       }
+       {
+        ImageWidgetClass "{6885278A05042174}" {
+         Name "Image2"
+         Slot OverlayWidgetSlot "{5870C1DB5D983F77}" {
+         }
+         Color 0 0 0 0.392
+         Texture "{C58A75ADB0F471D3}UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow.imageset"
+         Image "ammotype-sniper"
+         Size 38 38
+        }
+        ImageWidgetClass "{6885278A05042175}" {
+         Name "Image3"
+         Slot OverlayWidgetSlot "{5870C1DB501CFA1D}" {
+         }
+         Texture "{A37CF52DBA874559}UI/Imagesets/WeaponInfo/WeaponInfo_Ammo.imageset"
+         Image "ammotype-sniper"
+         Size 38 38
+        }
+       }
+      }
+      OverlayWidgetClass "{6885278A0504200A}" {
+       Name "m_AmmoType_Incendiary"
+       Slot LayoutSlot "{5870C1DB5D8184E2}" {
+       }
+       {
+        ImageWidgetClass "{6885278A05042005}" {
+         Name "Image2"
+         Slot OverlayWidgetSlot "{5870C1DB5D983F77}" {
+         }
+         Color 0 0 0 0.392
+         Texture "{C58A75ADB0F471D3}UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow.imageset"
+         Image "ammotype-incendiary"
+         Size 38 38
+        }
+        ImageWidgetClass "{6885278A05048966}" {
+         Name "Image3"
+         Slot OverlayWidgetSlot "{5870C1DB501CFA1D}" {
+         }
+         Texture "{A37CF52DBA874559}UI/Imagesets/WeaponInfo/WeaponInfo_Ammo.imageset"
+         Image "ammotype-incendiary"
+         Size 38 38
+        }
+       }
+      }
+      OverlayWidgetClass "{6885278A05048967}" {
+       Name "m_AmmoType_Smoke"
+       Slot LayoutSlot "{5870C1DB5D8184E2}" {
+       }
+       {
+        ImageWidgetClass "{6885278A05048964}" {
+         Name "Image2"
+         Slot OverlayWidgetSlot "{5870C1DB5D983F77}" {
+         }
+         Color 0 0 0 0.392
+         Texture "{C58A75ADB0F471D3}UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow.imageset"
+         Image "ammotype-smoke"
+         Size 38 38
+        }
+        ImageWidgetClass "{6885278A0504A507}" {
+         Name "Image3"
+         Slot OverlayWidgetSlot "{5870C1DB501CFA1D}" {
+         }
+         Texture "{A37CF52DBA874559}UI/Imagesets/WeaponInfo/WeaponInfo_Ammo.imageset"
+         Image "ammotype-smoke"
+         Size 38 38
+        }
+       }
+      }
+      OverlayWidgetClass "{6885278A0504A506}" {
+       Name "m_AmmoType_Frag"
+       Slot LayoutSlot "{5870C1DB5D8184E2}" {
+       }
+       {
+        ImageWidgetClass "{6885278A050514FE}" {
+         Name "Image2"
+         Slot OverlayWidgetSlot "{5870C1DB5D983F77}" {
+         }
+         Color 0 0 0 0.392
+         Texture "{C58A75ADB0F471D3}UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow.imageset"
+         Image "ammotype-frag"
+         Size 38 38
+        }
+        ImageWidgetClass "{6885278A050514F9}" {
+         Name "Image3"
+         Slot OverlayWidgetSlot "{5870C1DB501CFA1D}" {
+         }
+         Texture "{A37CF52DBA874559}UI/Imagesets/WeaponInfo/WeaponInfo_Ammo.imageset"
+         Image "ammotype-frag"
+         Size 38 38
+        }
+       }
+      }
+      OverlayWidgetClass "{6885278A0505D467}" {
+       Name "m_AmmoType_HEAT"
+       Slot LayoutSlot "{5870C1DB5D8184E2}" {
+       }
+       {
+        ImageWidgetClass "{6885278A0505D466}" {
+         Name "Image2"
+         Slot OverlayWidgetSlot "{5870C1DB5D983F77}" {
+         }
+         Color 0 0 0 0.392
+         Texture "{C58A75ADB0F471D3}UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow.imageset"
+         Image "ammotype-HEAT"
+         Size 38 38
+        }
+        ImageWidgetClass "{6885278A050589AB}" {
+         Name "Image3"
+         Slot OverlayWidgetSlot "{5870C1DB501CFA1D}" {
+         }
+         Texture "{A37CF52DBA874559}UI/Imagesets/WeaponInfo/WeaponInfo_Ammo.imageset"
+         Image "ammotype-HEAT"
+         Size 38 38
+        }
+       }
+      }
+      OverlayWidgetClass "{6885278A050589A8}" {
+       Name "m_AmmoType_HE"
+       Slot LayoutSlot "{5870C1DB5D8184E2}" {
+       }
+       {
+        ImageWidgetClass "{6885278A05064DA1}" {
+         Name "Image2"
+         Slot OverlayWidgetSlot "{5870C1DB5D983F77}" {
+         }
+         Color 0 0 0 0.392
+         Texture "{C58A75ADB0F471D3}UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow.imageset"
+         Image "ammotype-HE"
+         Size 38 38
+        }
+        ImageWidgetClass "{6885278A05064DA0}" {
+         Name "Image3"
+         Slot OverlayWidgetSlot "{5870C1DB501CFA1D}" {
+         }
+         Texture "{A37CF52DBA874559}UI/Imagesets/WeaponInfo/WeaponInfo_Ammo.imageset"
+         Image "ammotype-HE"
+         Size 38 38
+        }
+       }
+      }
+      OverlayWidgetClass "{6885278A0506D044}" {
+       Name "m_AmmoType_AP"
+       Slot LayoutSlot "{5870C1DB5D8184E2}" {
+       }
+       {
+        ImageWidgetClass "{6885278A0506FFE5}" {
+         Name "Image2"
+         Slot OverlayWidgetSlot "{5870C1DB5D983F77}" {
+         }
+         Color 0 0 0 0.392
+         Texture "{C58A75ADB0F471D3}UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow.imageset"
+         Image "ammotype-AP"
+         Size 38 38
+        }
+        ImageWidgetClass "{6885278A0506FF9A}" {
+         Name "Image3"
+         Slot OverlayWidgetSlot "{5870C1DB501CFA1D}" {
+         }
+         Texture "{A37CF52DBA874559}UI/Imagesets/WeaponInfo/WeaponInfo_Ammo.imageset"
+         Image "ammotype-AP"
+         Size 38 38
+        }
+       }
+      }
+      OverlayWidgetClass "{6885278A0506FF9B}" {
+       Name "m_AmmoType_FMJ"
+       Slot LayoutSlot "{5870C1DB5D8184E2}" {
+        Padding 0 0 0 0
+       }
+       {
+        ImageWidgetClass "{6885278A05068FEB}" {
+         Name "Image2"
+         Slot OverlayWidgetSlot "{5870C1DB5D983F77}" {
+         }
+         Color 0 0 0 0.392
+         Texture "{C58A75ADB0F471D3}UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow.imageset"
+         Image "ammotype-fmj"
+         Size 38 38
+        }
+        ImageWidgetClass "{6885278A05068FE8}" {
+         Name "Image3"
+         Slot OverlayWidgetSlot "{5870C1DB501CFA1D}" {
+         }
+         Texture "{A37CF52DBA874559}UI/Imagesets/WeaponInfo/WeaponInfo_Ammo.imageset"
+         Image "ammotype-fmj"
+         Size 38 38
+        }
+       }
+      }
+      OverlayWidgetClass "{6885278A05075028}" {
+       Name "m_AmmoType_Tracer"
+       Slot LayoutSlot "{5870C1DB5D8184E2}" {
+        Padding 0 0 0 0
+       }
+       {
+        ImageWidgetClass "{6885278A050744BE}" {
+         Name "Image2"
+         Slot OverlayWidgetSlot "{5870C1DB5D983F77}" {
+         }
+         Color 0 0 0 0.392
+         Texture "{C58A75ADB0F471D3}UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow.imageset"
+         Image "ammotype-tracer"
+         Size 38 38
+        }
+        ImageWidgetClass "{6885278A050744BF}" {
+         Name "Image3"
+         Slot OverlayWidgetSlot "{5870C1DB501CFA1D}" {
+         }
+         Texture "{A37CF52DBA874559}UI/Imagesets/WeaponInfo/WeaponInfo_Ammo.imageset"
+         Image "ammotype-tracer"
+         Size 38 38
+        }
+       }
+      }
+      OverlayWidgetClass "{6885278A050732A7}" {
+       Name "m_AmmoType_Illumination"
+       Slot LayoutSlot "{5870C1DB5D8184E2}" {
+       }
+       {
+        ImageWidgetClass "{6885278A050732A0}" {
+         Name "Image2"
+         Slot OverlayWidgetSlot "{5870C1DB5D983F77}" {
+         }
+         Color 0 0 0 0.392
+         Texture "{C58A75ADB0F471D3}UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow.imageset"
+         Image "ammotype-flare_1"
+         Size 38 38
+        }
+        ImageWidgetClass "{6885278A0507DF1D}" {
+         Name "Image3"
+         Slot OverlayWidgetSlot "{5870C1DB501CFA1D}" {
+         }
+         Texture "{A37CF52DBA874559}UI/Imagesets/WeaponInfo/WeaponInfo_Ammo.imageset"
+         Image "ammotype-flare_1"
+         Size 38 38
+        }
+       }
+      }
+     }
+    }
+    HorizontalLayoutWidgetClass "{6885278A0507DF1C}" {
+     Name "m_Main"
+     Slot LayoutSlot "{56E0F18571A67517}" {
+      HorizontalAlign 2
+      Padding 0 8 0 0
+     }
+     "Inherit Color" 1
+     {
+      OverlayWidgetClass "{6885278A0507C3F5}" {
+       Name "m_Firemode"
+       Slot LayoutSlot "{56E0F1855A7AE75E}" {
+       }
+       Clipping False
+       {
+        ImageWidgetClass "{6885278A0507C3F6}" {
+         Name "m_FiremodeGlow"
+         Slot OverlayWidgetSlot "{564EFE8F0A92BB59}" {
+         }
+         Color 0 0 0 0.392
+         Texture "{C6D15495F684E841}UI/Imagesets/WeaponInfo/WeaponInfo_Glow.imageset"
+         Image "firemode-rifle-auto"
+         Size 96 128
+         "Shadow Color" 0 0 0 0.498
+        }
+        ImageWidgetClass "{6885278A05078474}" {
+         Name "m_FiremodeIcon"
+         Slot OverlayWidgetSlot "{564EFE8F0A92BB59}" {
+         }
+         Texture "{CDA6C73DFD789999}UI/Imagesets/WeaponInfo/WeaponInfo.imageset"
+         Image "firemode-rifle-auto"
+         Size 96 128
+         "Shadow Color" 0 0 0 0.498
+        }
+       }
+      }
+     }
+    }
+    HorizontalLayoutWidgetClass "{6885278A05002D20}" {
+     Name "m_WeaponNameAndCaliber"
+     Slot LayoutSlot "{59628161513F5F3E}" {
+      HorizontalAlign 2
+      Padding 0 2 0 0
+     }
+     {
+      RichTextWidgetClass "{6885278A050086AA}" {
+       Name "m_Caliber"
+       Slot LayoutSlot "{56E0F189AA8E9CDB}" {
+        HorizontalAlign 2
+        VerticalAlign 1
+        Padding 0 0 10 0
+       }
+       Clipping False
+       Color 1 1 1 1
+       Text "#AR-AmmunitionID_127x99mm"
+       "Font Size" 20
+       "Min Font Size" 20
+       "Horizontal Alignment" Right
+       "Vertical Alignment" Center
+       FontProperties FontProperties "{55F8C56F794D79A5}" {
+        Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+        ShadowSize 10
+        ShadowColor 0 0 0 0.7
+        ShadowOffset 0 0
+       }
+      }
+      RichTextWidgetClass "{6885278A050086A9}" {
+       Name "m_WeaponName"
+       Slot LayoutSlot "{56E0F189AA8E9CDB}" {
+        HorizontalAlign 2
+        VerticalAlign 1
+       }
+       Clipping False
+       Color 1 1 1 1
+       Text "#AR-Weapon_M2HB_Name"
+       "Font Size" 20
+       "Min Font Size" 20
+       "Horizontal Alignment" Right
+       "Vertical Alignment" Center
+       FontProperties FontProperties "{55F8C56F794D79A5}" {
+        Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+        ShadowSize 10
+        ShadowColor 0 0 0 0.7
+        ShadowOffset 0 0
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,14 +1,87 @@
+SCR_ChimeraCharacter : "{137268B4342A794E}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/GreenBerets/Campaign_US_Player_SF_Rifleman.et" {
+ coords 34.912 1 255.092
+}
+SCR_ChimeraCharacter : "{1AB10EE587737957}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_MG.et" {
+ coords 25.57 1 252.807
+}
+SCR_ChimeraCharacter : "{23B5C17A77B6B1A3}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_Rifleman_AT.et" {
+ coords 23.705 1 250.029
+}
+Vehicle M1151_armed_M2HB_Tan1 : "{533820E8979A44A9}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_Tan.et" {
+ coords 19.866 1 250.716
+}
+GenericEntity : "{597378E657C7290A}Prefabs/Weapons/Rifles/SR25/Rifle_M110_base.et" {
+ coords 29.976 1.628 248.946
+}
+SCR_ChimeraCharacter : "{681A9206534DC2C2}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Tyn_Character_RHS_USAF_MARPAT_Rifleman-AT.et" {
+ coords 23.398 1 247.646
+}
+GenericEntity : "{6D4780D5233AD3DD}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_Kolguyev.et" {
+ coords 23.816 1 251.459
+}
+SCR_ChimeraCharacter : "{7ABB3B98B0DAC19D}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_Rifleman.et" {
+ coords 24.618 1 249.135
+}
+Vehicle BM_21_1_3M1 : "{8291D80F4C633078}Prefabs/Vehicles/Wheeled/Ural_4320_Grad/BM 21-1_3M16.et" {
+ coords 26.277 1 235.717
+ angles 0 89.291 0
+}
+SCR_ChimeraCharacter : "{85A7600FFD5A052D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF_D/Character_RHS_USAF_USMC_D_AAR.et" {
+ coords 26.808 1 247.672
+}
+SCR_ChimeraCharacter : "{8D4C2544A30B233B}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_Medic.et" {
+ coords 23.39 1 252.875
+}
+GenericEntity : "{9943E0B974A19C73}Prefabs/Weapons/Attachments/Optics/RT6/Optic_RT6.et" {
+ coords 30.067 1 247.845
+}
+SCR_ChimeraCharacter : "{9B2426F8AEA20610}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_Unarmed.et" {
+ components {
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 1
+   Identity Identity "{5584CBC6363C648B}" {
+    Name "Negro"
+    Alias "Ochen'"
+    Surname "Cherni"
+   }
+  }
+ }
+ coords 25.424 1 248.733
+}
+GenericEntity : "{AE578EEA4244D41F}Prefabs/Items/Equipment/Kits/MedicalKit_01/MedicalKit_01_US.et" {
+ coords 21.725 1 255.106
+}
+GenericEntity : "{AF08089361A677BB}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_USflag.et" {
+ coords 23.675 1 249.026
+}
 Vehicle BTR1 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
  coords 33.385 1 250.647
 }
+GameEntity : "{CA29B2E50A87C9D5}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH_SHROUD_Cov_Marpat.et" {
+ coords 23.119 1 248.405
+}
+GenericEntity : "{D5EA1447F51DC458}Prefabs/Weapons/Rifles/SR25/Rifle_M110_Leupold.et" {
+ coords 29.722 1.603 250.866
+}
 SCR_AIGroup : "{E4051E06CC119361}Prefabs/Groups/TSG_Group_Base.et" {
- coords 27.37 1 252.732
- angles 0 91.856 0
- m_faction "USSR"
+ coords 37.681 1 248.006
+ angles 0 3.255 0
+ m_faction "RHS_USAF"
  m_aUnitPrefabSlots {
-  "{78EA5CC4F1C527F3}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Crew_Commander.et"
-  "{CB309C0AE3B5B8F3}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Crew_Gunner.et"
-  "{93653A42750C27AD}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Crew_Driver.et"
-  "{69CFCF282DA134D1}Prefabs/Characters/Tynec/Factions/OPFOR/USSR_Army/Tyn_Character_USSR_Rifleman.et"
+  "{9B2426F8AEA20610}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_Unarmed.et"
+  "{7ABB3B98B0DAC19D}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_Rifleman.et"
+  "{23B5C17A77B6B1A3}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_Rifleman_AT.et"
+  "{1AB10EE587737957}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_MG.et"
+  "{7F685B8EA2C14823}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_aMG.et"
+  "{8D4C2544A30B233B}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_Medic.et"
+  "{400E74FA94C5034A}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_Medic_SL.et"
+  "{22E9DBB1BD3E7564}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_TL.et"
+  "{252E21E0DBB8CFA7}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_SL.et"
+  "{99FC0644D83DB2FE}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_Sapper.et"
+  "{2800C6CB385A0C8A}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_Marksman.et"
+  "{F0ABCE4C203C1B04}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_Grenaider.et"
  }
+}
+GameEntity : "{E68F5811BC80B8D4}Prefabs/Characters/HeadGear/Helmet_ECH/variants/Helmet_ECH_lc_coverd_p_crossbow.et" {
+ coords 29.72 1 246.717
 }

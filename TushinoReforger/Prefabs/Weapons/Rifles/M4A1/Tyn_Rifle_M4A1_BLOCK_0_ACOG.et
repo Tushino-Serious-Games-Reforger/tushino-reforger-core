@@ -15,11 +15,10 @@ GenericEntity : "{CFDEA9657EAB6269}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_CQBR_b
     }
     AttachmentSlotComponent "{5EA2BE949ECF03E3}" {
      AttachmentSlot RHS_SlidingInventoryStorageSlot "{5EA2BE9573F14F0C}" {
-      Prefab "{5AE8F3A22BDB534F}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_black.et"
      }
     }
     MuzzleComponent "{CA6BE4D6B867541F}" {
-     MagazineTemplate "{00F0B1FA28EF672B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M995.et"
+     MagazineTemplate "{7ECA478D7C80ACC0}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M193_M196_Last_5Tracer.et"
     }
    }
   }
