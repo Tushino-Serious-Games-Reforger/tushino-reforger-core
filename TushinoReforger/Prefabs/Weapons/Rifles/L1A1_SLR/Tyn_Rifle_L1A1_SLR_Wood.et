@@ -1,0 +1,14 @@
+GenericEntity : "{6CD975D10D275821}Prefabs/Weapons/Rifles/L1A1_SLR/Rifle_L1A1_SLR_Wood_Base.et" {
+ ID "5260C45AAAA407F4"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{60BDD3CEAFE417B2}Prefabs/Weapons/Magazines/Tyn_Magazine_762x51_FAL_Commonwealth_20rnd_Ball_Last3Traccer.et"
+    }
+   }
+  }
+ }
+ coords -0.388 1.005 -3.251
+ angles 0 0 0
+}

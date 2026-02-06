@@ -1,0 +1,13 @@
+GameEntity : "{862BAB1E020D6C3F}Prefabs/Characters/HeadGear/Hat_FlatCap_01/TurbanC02.et" {
+ ID "5112706CD4157AC7"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Beard {
+     Prefab "{B24281041DAE30BC}Prefabs/Characters/HeadGear/Beard/Beard01.et"
+    }
+   }
+  }
+ }
+ coords 33.586 1 241.326
+}

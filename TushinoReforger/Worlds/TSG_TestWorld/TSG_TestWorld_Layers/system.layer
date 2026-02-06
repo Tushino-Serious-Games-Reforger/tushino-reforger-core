@@ -8,4 +8,15 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
  coords 43.987 1 244.352
  m_bRemoveRedundantUnits 0
  m_iFreezeTime 4000
+ {
+  SCR_FactionManager {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{64E51887ABD12B07}" {
+     m_aFriendlyFactionsIds {
+     }
+    }
+   }
+  }
+ }
 }

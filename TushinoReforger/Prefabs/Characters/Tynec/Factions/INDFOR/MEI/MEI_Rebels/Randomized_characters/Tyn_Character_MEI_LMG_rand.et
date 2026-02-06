@@ -1,0 +1,35 @@
+SCR_ChimeraCharacter : "{E4BFFCE5935F50A9}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Tyn_Character_MEI_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{6889686E0984EFD9}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{6889686E088EC8A7}" {
+      m_sVariantPrefab "{A8833CEAED643858}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Random_variants/Tyn_Character_MEI_MG_RPD_v1.et"
+     }
+     SCR_EditableEntityVariant "{6889686E0850BBF1}" {
+      m_sVariantPrefab "{9A5F257E1E242152}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Random_variants/Tyn_Character_MEI_MG_RPD_v2.et"
+      m_iRandomizerWeight 1
+     }
+     SCR_EditableEntityVariant "{6889686E083C4215}" {
+      m_sVariantPrefab "{7FC3698712C1B639}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Random_variants/Tyn_Character_MEI_MG_RPD_v3.et"
+      m_iRandomizerWeight 1
+     }
+     SCR_EditableEntityVariant "{6889686E128BEAFF}" {
+      m_sVariantPrefab "{3B0BFA4DD82845C0}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Random_variants/Tyn_Character_MEI_Rifleman_RPK_v1.et"
+      m_iRandomizerWeight 2
+     }
+     SCR_EditableEntityVariant "{6889686EFCC6E7A3}" {
+      m_sVariantPrefab "{558EBA8F1CB826CE}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Random_variants/Tyn_Character_MEI_Rifleman_RPK_v2.et"
+      m_iRandomizerWeight 2
+     }
+     SCR_EditableEntityVariant "{688968680071317F}" {
+      m_sVariantPrefab "{B012F676105DB1A5}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Random_variants/Tyn_Character_MEI_Rifleman_RPK_v3.et"
+      m_iRandomizerWeight 2
+     }
+    }
+   }
+  }
+ }
+}

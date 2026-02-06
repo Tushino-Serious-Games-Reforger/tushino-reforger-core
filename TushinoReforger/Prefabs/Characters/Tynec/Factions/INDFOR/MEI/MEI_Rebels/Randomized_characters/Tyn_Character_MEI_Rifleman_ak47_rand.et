@@ -1,0 +1,32 @@
+SCR_ChimeraCharacter : "{E4BFFCE5935F50A9}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Tyn_Character_MEI_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Rifleman"
+    Icon "{29DF9BB937ACDCDE}UI/Icons/rifleman.edds"
+    m_sFaction "MEI"
+    m_aAuthoredLabels {
+     ROLE_RIFLEMAN FACTION_MEI TRAIT_RANDOMIZED
+    }
+   }
+   m_VariantData SCR_EditableEntityVariantData "{68871A324DC38951}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{68871A324C76DA74}" {
+      m_sVariantPrefab "{D74BDC6EFF62B40F}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Random_variants/Tyn_Character_MEI_Rifleman_ak47_v1.et"
+     }
+     SCR_EditableEntityVariant "{68871A33647649E4}" {
+      m_sVariantPrefab "{D1F1BEA385269E8A}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Random_variants/Tyn_Character_MEI_Rifleman_ak47_v2.et"
+     }
+     SCR_EditableEntityVariant "{68871A3020683B5A}" {
+      m_sVariantPrefab "{AF3F7520D0EC53CB}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Random_variants/Tyn_Character_MEI_Rifleman_ak47_v3.et"
+     }
+    }
+   }
+  }
+ }
+}
