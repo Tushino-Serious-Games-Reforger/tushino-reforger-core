@@ -9,6 +9,9 @@ $grp GenericEntity : "{81D29AA839006171}Prefabs/Props/Military/AmmoBoxes/MEI/Tyn
      MultiSlotConfiguration "{689A430982903759}" {
       NumSlots 1
      }
+     MultiSlotConfiguration "{689A4309F86FAFC9}" {
+      NumSlots 3
+     }
     }
    }
   }
@@ -54,6 +57,21 @@ $grp GenericEntity : "{81D29AA839006171}Prefabs/Props/Military/AmmoBoxes/MEI/Tyn
   angles 0 119.567 0
  }
  A14_boxes {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    MultiSlots {
+     MultiSlotConfiguration "{689A4308DA18D5CA}" {
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{689A430982903759}" {
+      NumSlots 1
+     }
+     MultiSlotConfiguration "{689A4309F86FAFC9}" {
+      NumSlots 3
+     }
+    }
+   }
+  }
   coords 6249.576 86.322 11286.919
   angles 0 123.342 0
  }
