@@ -1,0 +1,61 @@
+SCR_ChimeraCharacter : "{9B2426F8AEA20610}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_MachineGunner"
+    Icon "{0284ABAAB8CCDEF1}UI/Icons/automatic_rifleman.edds"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_RHS_USAF ROLE_MACHINEGUNNER
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D2B48DEBEF38D7D7}Prefabs/Weapons/MachineGuns/M249/MG_M249.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{739063AE2E70E5D9}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_cd.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{AF08089361A677BB}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_USflag.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{48602F57998AB597}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{8CCD7C0728F3BD3D}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_nobelt_MG.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{687CC79FF626D5C2}" {
+     TargetStorage "Vest/Vest_PCGen_III_nobelt_MG.et/saw/Pouch_PCGEN3_MG.et"
+     PrefabsToSpawn {
+      "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{687CC79A38A19DFE}" {
+     TargetStorage "Vest/Vest_PCGen_III_nobelt_MG.et/saw2/Pouch_PCGEN3_MG.et"
+     PrefabsToSpawn {
+      "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{687CC79A105BDEE6}" {
+     TargetStorage "Back/FILBE_Backpack.et"
+     PrefabsToSpawn {
+      "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et" "{4EEDDB27C023B8B9}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{687CC79A7C0995E7}" {
+     TargetStorage "Vest/Vest_PCGen_III_nobelt_MG.et/ifak/Pouch_PCGEN3_ifak.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{694C91AB5529F5D9}Prefabs/Items/Equipment/Radios/mTSG_Radio_R107M_FIA.et"
+ Name "{23EEC3946A8E8A9F}Prefabs/Items/Equipment/Radios/TSG_Radio_R107M_FIA.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }

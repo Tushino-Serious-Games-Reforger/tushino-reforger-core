@@ -1,0 +1,27 @@
+SCR_ChimeraCharacter : "{252E21E0DBB8CFA7}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#TYN-Role_OperationCommander"
+    Icon "{B0B3E06A17B8AC6D}UI/Icons/officer.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{B724B666760FB9A1}Prefabs/Items/Tynec/Equipment/Radios/US/Tyn_Radio_ANPRC77.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6878B42B4E0F31A3}" {
+     PrefabsToSpawn {
+      "{5FDAD8676491D3D4}Prefabs/Items/Tynec/Equipment/Radios/US/Tyn_Radio_ANPRC68.et"
+     }
+    }
+   }
+  }
+ }
+}

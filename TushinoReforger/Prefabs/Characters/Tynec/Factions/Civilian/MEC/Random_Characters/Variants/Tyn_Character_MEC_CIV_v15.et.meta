@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{9A14643A24EE8C7A}Prefabs/Characters/Factions/IND/MEC/Random_Characters/Variants/Tyn_Character_MEC_CIV_v15.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,57 @@
+GenericEntity : "{12EB211A330C2999}Prefabs/Weapons/Rifles/SR25/Rifle_SR25_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{36F699E7D82575C5}Assets/Weapons/Rifles/M110/M110.xob"
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "M110"
+     Description "#TF-Weapon_M110_Description"
+    }
+   }
+  }
+  SlotManagerComponent "{658290F948576C49}" {
+   Slots {
+    EntitySlotInfo PistolGrip {
+     Prefab "{AE92DF590844BF5B}Prefabs/Weapons/Attachments/PistolGrips/AR_Platform/ColtA2/PistolGrip_AR_M110_ColtA2_FDE.et"
+    }
+    EntitySlotInfo Buttstockk {
+     Enabled 0
+    }
+    EntitySlotInfo Handguard {
+     Prefab "{2D8C35B9C322E48B}Prefabs/Weapons/Attachments/Handguards/AR10_Platform/URX2/Handguard_AR10_URX2.et"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{658290F958FB0E5D}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Prefab "{ACC9B43941CE5EA6}Prefabs/Weapons/Attachments/Optics/Optic_leupoldMK4/Optic_leupoldMK4.et"
+      DisablePhysicsInteraction 1
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{658290F958F45BAC}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Offset 0 0 -0.0032
+        Prefab "{2F65F497A1DDD0E0}Prefabs/Weapons/Attachments/Muzzle/FlashHider_M110/FlashHider_AR10_M110.et"
+       }
+      }
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       EffectPosition EntitySlotInfo "{C9B3271BB85B5D32}" {
+        Offset 0 0 -0.0422
+       }
+      }
+     }
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      DisablePhysicsInteraction 1
+     }
+    }
+   }
+  }
+ }
+}

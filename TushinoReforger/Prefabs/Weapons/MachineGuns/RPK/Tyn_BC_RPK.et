@@ -1,0 +1,370 @@
+GenericEntity : "{F54F6C453A8CB478}Prefabs/Weapons/Core/MachineGun_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{3E8D052C3E39A0B4}Sounds/Weapons/Rifles/RPK/BC_Weapons_Rifles_RPK_Shot.acp" "{BB08F4A65999C2F7}Sounds/Weapons/Machineguns/RPK74/Weapons_Machineguns_RPK74_Handling.acp" "{A84D9F22F2C0D9CE}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_WoodMetal.acp" "{214445E9606EFCD0}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_LMG.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{5DB34B1BB17CA63B}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_LMG.acp" "{10C1421961C34D26}Sounds/Weapons/_SharedData/Weapons_Deployment.acp"
+   }
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{C97D8201FC0E2EB3}Assets/Weapons/Rifles/RPK/BC_RPK.xob"
+  }
+  RigidBody "{68896868576A4C4C}" {
+   SimState None
+   ModelGeometry 1
+  }
+  SCR_MeleeWeaponProperties "{68896868576A4C5B}" {
+   m_fDamage 45
+   m_fRange 1
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07E1D123E9}" {
+     Name "RPK"
+     Description "7.62x39mm light machine gun."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{68896868576A4C60}" {
+     Weight 4.8
+     SizeSetupStrategy Manual
+     ItemDimensions 30 30 30
+     ItemVolume 1750
+     RestingUP Right
+     RestingAdditiveRotationLS 0 0 0
+     PivotBoneName "barrel_muzzle"
+     RestingAdditiveOffsetLS 0.5 0 0
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{5284960E60421307}" {
+     AnimationInstance "{0350283642830782}anims/workspaces/player/player_main_rifle.asi"
+     AnimationIKPose "{429B9FD660E72265}Assets/Weapons/MachineGuns/RPK74/anims/anm/p_rpk74_ik.anm"
+    }
+    CustomAttributes {
+     AimingModifierAttributes "{566C7D15A071B88E}" {
+      DeploymentPoints {
+       PivotPointInfoItem "{68896868576A4C69}" {
+        "Point info" DeploymentPointInfo dp {
+         PivotID "Scene_Root"
+         Offset 0 0.0688 0.5464
+        }
+        StabilizationSize 0.05 0.18 0.5
+       }
+       PivotPointInfoItem "{68896868576A4C75}" {
+        "Point info" DeploymentPointInfo dp {
+         PivotID "Scene_Root"
+         Offset 0 0.0452 0.6863
+        }
+        SystemIdentifier 2
+        StabilizationPoints {
+         DeploymentPointInfo BipodLeft {
+          PivotID "w_bipodleg_left"
+          Offset -0.151 -0.2712 0.005
+         }
+         DeploymentPointInfo BipodRight {
+          PivotID "w_bipodleg_right"
+          Offset 0.1477 -0.2699 0
+         }
+        }
+       }
+      }
+     }
+     SCR_RecoilCameraShakeParams "{58DEF2AB0413E346}" {
+      m_vTranslationMin 0.002 0.002 0
+      m_vTranslationMax 0.003 0.003 0
+     }
+     PreviewRenderAttributes "{5534BB9B9A3E369E}" {
+      CameraPreset Right
+      CameraDistanceToItem 1.2
+      LodModel 0
+     }
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    SightsComponent "{BB23A637957CFFF8}" {
+     SightsPosition PointInfo "{BB23A63796688E69}" {
+      PivotID "eye"
+     }
+     SightsRanges {
+      SightRangeInfo "{68896868576A4C84}" {
+       Range 0 330
+       WeaponPosition PointInfo "{68896868576A4C85}" {
+        Offset 0 -0.0034 0
+        Angles 0.2503 0 0
+       }
+      }
+      SightRangeInfo "{68896868576A4C83}" {
+       Range 0.1 100
+       WeaponPosition PointInfo "{68896868576A4C81}" {
+        Offset 0 -0.00127 0
+        Angles 0.093 0 0
+       }
+      }
+      SightRangeInfo "{68896868576A4C8E}" {
+       Range 0.2 200
+       WeaponPosition PointInfo "{68896868576A4C8F}" {
+        Offset 0 -0.00198 0
+        Angles 0.147 0 0
+       }
+      }
+      SightRangeInfo "{68896868576A4C8A}" {
+       Range 0.3 300
+       WeaponPosition PointInfo "{68896868576A4C8B}" {
+        Offset 0 -0.00307 0
+        Angles 0.227 0 0
+       }
+      }
+      SightRangeInfo "{68896868576A4D24}" {
+       Range 0.4 400
+       WeaponPosition PointInfo "{68896868576A4D22}" {
+        Offset 0 -0.00439 0
+        Angles 0.324 0 0
+       }
+      }
+      SightRangeInfo "{68896868576A4D20}" {
+       Range 0.5 500
+       WeaponPosition PointInfo "{68896868576A4D2E}" {
+        Offset 0 -0.006 0
+        Angles 0.443 0 0
+       }
+      }
+      SightRangeInfo "{68896868576A4D2B}" {
+       Range 0.6 600
+       WeaponPosition PointInfo "{68896868576A4D29}" {
+        Offset 0 -0.00802 0
+        Angles 0.592 0 0
+       }
+      }
+      SightRangeInfo "{68896868576A4D37}" {
+       Range 0.7 700
+       WeaponPosition PointInfo "{68896868576A4D35}" {
+        Offset 0 -0.01043 0
+        Angles 0.77 0 0
+       }
+      }
+      SightRangeInfo "{68896868576A4D33}" {
+       Range 0.8 800
+       WeaponPosition PointInfo "{68896868576A4D30}" {
+        Offset 0 -0.01338 0
+        Angles 0.987 0 0
+       }
+      }
+      SightRangeInfo "{68896868576A4D31}" {
+       Range 0.9 900
+       WeaponPosition PointInfo "{68896868576A4D4F}" {
+        Offset 0 -0.01713 0
+        Angles 1.263 0 0
+       }
+      }
+      SightRangeInfo "{68896868576A4D4C}" {
+       Range 1 1000
+       WeaponPosition PointInfo "{68896868576A4D4D}" {
+        Offset 0 -0.02168 0
+        Angles 1.597 0 0
+       }
+      }
+     }
+     SightsRangesDefaultIndex 1
+     SightsPointFront PointInfo "{68896868576A4D48}" {
+      PivotID "barrel_chamber"
+      Offset 0.0015 0.0482 0.5263
+     }
+     SightsPointRear PointInfo "{68896868576A4D57}" {
+      PivotID "w_sight"
+      Offset 0.0015 0.0043 -0.0489
+     }
+     ADSTime 0.425
+     m_iOpticDOFDistanceScale -1
+     m_bForceSimpleDOF 0
+    }
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     components {
+      AttachmentSlotComponent "{68896868576A4D51}" {
+       AttachmentSlot InventoryStorageSlot "{656528CB80C51B9C}" {
+        PivotID "slot_barrel_muzzle"
+        ChildPivotID "snap_barrel_muzzle"
+        Prefab "{86C2071614977155}Prefabs/Weapons/Attachments/Muzzle/Flash Hider RPK/BC_RPK_Flash_Hider.et"
+        InspectionWidgetOffset 0 0 0
+       }
+       AttachmentType AttachmentMuzzle762_39 "{68896868576A4D5B}" {
+       }
+      }
+      CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
+       ParticleEffect "{A89D3276591C9F57}Particles/Weapon/Casing_762x39_PS.ptc"
+       EffectPosition EntitySlotInfo "{513A938439231378}" {
+        PivotID "barrel_chamber"
+        Offset 0.0186 0 -0.0642
+        Angles -5.2984 90 0
+       }
+      }
+      CaseEjectingEffectComponent "{68896868576A4D65}" {
+       ParticleEffect "{40C8AD1204EC2629}Particles/Weapon/Smoke_PKM.ptc"
+       EffectPosition EntitySlotInfo "{52DAEB64DF5F156E}" {
+        PivotID "barrel_muzzle"
+       }
+       HasSound 0
+      }
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       ParticleEffect "{57A509D9293B172D}Particles/Weapon/Muzzle_PKM_flashHider.ptc"
+      }
+     }
+     FireModes {
+      BaseFireMode "{506B20D1476BA99E}" : "{687B3DA431730CFA}Prefabs/Weapons/Core/Configs/FireModes/FireMode_Safe.conf" {
+       "Gamepad Trigger effect" GamepadTriggerEffect "{619AA72C28DF32C1}" : "{E63ADC0ED1431B24}Prefabs/Weapons/Core/Configs/TriggerEffects/Safety/TriggerEffect_SafetyMedium.conf" {
+       }
+       "Empty Trigger effect" GamepadTriggerEffect "{61C354AD4F73FF39}" : "{E63ADC0ED1431B24}Prefabs/Weapons/Core/Configs/TriggerEffects/Safety/TriggerEffect_SafetyMedium.conf" {
+       }
+      }
+      BaseFireMode "{B80A64F4A8EF8333}" : "{A512F292D96BCB9F}Prefabs/Weapons/Core/Configs/FireModes/FireMode_Auto.conf" {
+       RoundsPerMinute 600
+      }
+      BaseFireMode "{619AB45CD680DAA7}" : "{D5D52E848DBCAA53}Prefabs/Weapons/Core/Configs/FireModes/FireMode_Single.conf" {
+       RoundsPerMinute 600
+      }
+     }
+     MagazineWell MagazineWellBC_AK762 "{68896868576A4D76}" {
+     }
+     BulletInitSpeedCoef 1.037
+     DispersionDiameter 0.4
+     DispersionRange 380
+     WeaponAimModifiers {
+      RecoilWeaponAimModifier "{68896868576A4D72}" {
+       LinearData RecoilData "{68896868576A4D70}" {
+        "Curve X" {
+         0 0.5 0.001 1 0.203 0.641 0.301 0.518 1 0.5
+        }
+        "Curve Y" {
+         0 0.5 0.032 0.55 0.045 0.75 0.071 0.65 0.095 0.5 0.125 0.5 0.261 0.5 1 0.5
+        }
+        "Curve Z" {
+         0 0.5 0.008 0.809 0.026 0.997 0.032 0.944 0.046 0.948 0.081 0.62 0.177 0.512 0.436 0.5 1 0.5
+        }
+        "Curve Time Scale" 1
+        "Curve Magnitudes" 0.7 0.8 0.8
+        "Curve Mins" -0.001 -0.002 -0.026
+        "Curve Maxs" 0.001 0.003 -0.022
+        "Base Recoil Scale" 3
+        "OneHand Scale" 2
+       }
+       AngularData RecoilData "{68896868576A4D7B}" {
+        "Curve X" {
+         0 0.5 0.019 0.411 0.055 0.539 0.11 0.474 0.216 0.497 1 0.5
+        }
+        "Curve Y" {
+         0 0.5 0.038 0.796 0.093 1 0.222 0.765 0.349 0.571 0.529 0.508 1 0.5
+        }
+        "Curve Z" {
+         0 0.5 0.033 0.641 0.049 0.892 0.095 0.7 0.238 0.487 0.443 0.5 0.7 0.5 1 0.5
+        }
+        "Curve Time Scale" 1.25
+        "Curve Magnitudes" 0.7 0.8 0.9
+        "Curve Mins" -1 1.5 1
+        "Curve Maxs" 1 1.75 1
+        "Base Recoil Scale" 3
+        "OneHand Scale" 2
+       }
+       TurnOffsetData RecoilData "{68896868576A4D86}" {
+        "Curve X" {
+         0 0.5 0.025 0.75 0.06 1 0.094 0.75 0.116 0.539 0.148 0.502 1 0.5
+        }
+        "Curve Y" {
+         0.031 0.998 0.105 0.576 0.236 0.5 1 0.5
+        }
+        "Curve Z" {
+        }
+        "Curve Time Scale" 1
+        "Curve Magnitudes" 0.7 0.8 0
+        "Curve Mins" -1.5 5.5 0
+        "Curve Maxs" 1.5 7 0
+        "Base Recoil Scale" 3
+        "OneHand Scale" 2
+       }
+      }
+      ZeroingWeaponAimModifier "{68896868576A4D85}" {
+      }
+     }
+     UIInfo MuzzleUIInfo "{2FBBA72C906C627E}" {
+      Name "RPK"
+      Description "7.62x39mm light machine gun."
+      m_MagIndicator SCR_MagazineIndicatorConfiguration "{565EE54A6B3FF619}" : "{1AA788302FE3C53A}Configs/WeaponInfo/MagazineIndicators/ak74_30.conf" {
+      }
+     }
+     "LEFT HAND TARGET" DeploymentPointInfo lht {
+      PivotID "snap_hand_left"
+      Offset 0 -0.0109 -0.1309
+     }
+     RIGHT_HAND_TARGET DeploymentPointInfo rht {
+      PivotID "snap_hand_right"
+     }
+     BUTSTOCK_TRANSFORMATION DeploymentPointInfo bt {
+      PivotID "Scene_Root"
+      Offset 0 0.0089 -0.3025
+     }
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      InspectionWidgetOffset 0 -0.0595 0.1011
+     }
+     MagazineTemplate "{50083D7DF1F318CA}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Last_5Tracer.et"
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     AnimGraph "{7C62DAC568886275}Assets/Weapons/MachineGuns/workspaces/BC_RPK74.agr"
+     AnimInstance "{7A5CEBC3353CDD0C}Assets/Weapons/MachineGuns/workspaces/BC_RPK74_weapon.asi"
+     AnimInjection AnimationAttachmentInfo "{68896868576A4D95}" {
+      AnimGraph "{7C62DAC568886275}Assets/Weapons/MachineGuns/workspaces/BC_RPK74.agr"
+      AnimInstance "{81027AF2AD3DB9E0}Assets/Weapons/MachineGuns/workspaces/BC_RPK74_player.asi"
+      BindingName "Weapon"
+     }
+     BindWithInjection 1
+    }
+   }
+   SoundInt 1020100
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "RPK"
+    Description "7.62x39mm light machine gun."
+    Icon ""
+   }
+   WeaponOffset 0 0 0.03
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   ActionContexts {
+    UserActionContext "{5086F9ADF588DCA4}" {
+     Position PointInfo "{5086F9ADE97650DF}" {
+      Offset 0 -0.0048 -0.0501
+     }
+    }
+    UserActionContext "{5956E32BAAADE657}" {
+     Position PointInfo "{5956E329E6B11261}" {
+      PivotID "slot_barrel_muzzle"
+      Offset 0 -0.0274 -0.2155
+     }
+     Radius 0.18
+    }
+    UserActionContext "{5A1E58F7B04F9BE5}" {
+     Position PointInfo "{68896868576A4D99}" {
+      PivotID "magazine"
+      Offset 0 -0.0942 -0.0093
+     }
+    }
+    UserActionContext "{5A1E58F7AED270D4}" {
+     Position PointInfo "{68896868576A4DA7}" {
+      PivotID "w_fire_mode"
+      Angles 0 90 0
+     }
+     Radius 0.05
+     Omnidirectional 0
+    }
+   }
+   additionalActions {
+    SCR_DetachMagazineUserAction "{5A1E58F790AF821D}" {
+     UIInfo SCR_ActionUIInfo "{5A1E58F788F40D95}" {
+      Name "Detach: "
+     }
+    }
+   }
+  }
+  WeaponGamepadEffectsManagerComponent "{61A2E5C3F4458F86}" {
+   "Default Chambered Trigger effect" GamepadTriggerEffect "{61D30BF7F0381163}" : "{4C187800824D6794}Prefabs/Weapons/Core/Configs/TriggerEffects/Charged/TriggerEffect_ChargedMedium.conf" {
+   }
+   "Default Firing Trigger effect" GamepadTriggerEffect "{61D30BF7F81F8C61}" : "{5CC7F3281D67289E}Prefabs/Weapons/Core/Configs/TriggerEffects/Fire/TriggerEffect_FireLight.conf" {
+   }
+  }
+ }
+}

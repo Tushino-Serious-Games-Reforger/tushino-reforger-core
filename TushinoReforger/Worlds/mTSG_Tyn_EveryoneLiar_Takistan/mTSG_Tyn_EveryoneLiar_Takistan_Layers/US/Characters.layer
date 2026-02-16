@@ -1,0 +1,105 @@
+$grp SCR_AIGroup : "{E4051E06CC119361}Prefabs/Groups/TSG_Group_Base.et" {
+ AW2 {
+  components {
+   PS_GroupCallsignAssigner "{663F2823BED21F7A}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 7100.979 71.467 12544.019
+  angles 0 129.395 0
+  m_faction "RHS_USAF"
+  m_aUnitPrefabSlots {
+   "{252E21E0DBB8CFA7}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_SL.et"
+   "{F0ABCE4C203C1B04}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_Grenaider.et"
+   "{1AB10EE587737957}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_MG.et"
+   "{7F685B8EA2C14823}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_aMG.et"
+   "{23B5C17A77B6B1A3}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_Rifleman_AT.et"
+   "{7ABB3B98B0DAC19D}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_Rifleman.et"
+   "{99FC0644D83DB2FE}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_Sapper.et"
+  }
+ }
+ AR1 {
+  coords 7094.14 71.555 12535.713
+  angles 0 129.395 0
+  m_faction "RHS_USAF"
+  m_aUnitPrefabSlots {
+   "{2CBAEAECFE732DDF}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_HQ.et"
+   "{BF43202F5CBE1344}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_sHQ.et"
+   "{400E74FA94C5034A}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_Medic_SL.et"
+  }
+ }
+ AW4 {
+  components {
+   PS_GroupCallsignAssigner "{663F2823BED21F7A}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 3
+   }
+  }
+  coords 7110.159 70.945 12554.617
+  angles 0 131.981 0
+  m_faction "RHS_USAF"
+  m_aUnitPrefabSlots {
+   "{252E21E0DBB8CFA7}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_SL.et"
+   "{F0ABCE4C203C1B04}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_Grenaider.et"
+   "{1AB10EE587737957}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_MG.et"
+   "{7F685B8EA2C14823}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_aMG.et"
+   "{23B5C17A77B6B1A3}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_Rifleman_AT.et"
+   "{7ABB3B98B0DAC19D}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_Rifleman.et"
+   "{99FC0644D83DB2FE}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_Sapper.et"
+  }
+ }
+ AW1 {
+  components {
+   PS_GroupCallsignAssigner "{663F2823BED21F7A}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 7096.233 71.7 12538.341
+  angles 0 129.395 0
+  m_faction "RHS_USAF"
+  m_aUnitPrefabSlots {
+   "{BC309879C65FFE37}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_PL.et"
+   "{BF43202F5CBE1344}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_sHQ.et"
+   "{400E74FA94C5034A}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_Medic_SL.et"
+  }
+ }
+ AW3 {
+  components {
+   PS_GroupCallsignAssigner "{663F2823BED21F7A}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 7105.501 71.012 12549.412
+  angles 0 129.395 0
+  m_faction "RHS_USAF"
+  m_aUnitPrefabSlots {
+   "{252E21E0DBB8CFA7}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_SL.et"
+   "{F0ABCE4C203C1B04}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_Grenaider.et"
+   "{1AB10EE587737957}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_MG.et"
+   "{7F685B8EA2C14823}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_aMG.et"
+   "{23B5C17A77B6B1A3}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_Rifleman_AT.et"
+   "{7ABB3B98B0DAC19D}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_Rifleman.et"
+   "{2800C6CB385A0C8A}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_Marksman.et"
+  }
+ }
+ AW5 {
+  components {
+   PS_GroupCallsignAssigner "{663F2823BED21F7A}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 4
+   }
+  }
+  coords 7113.729 70.952 12558.421
+  angles 0 132.862 0
+  m_faction "RHS_USAF"
+  m_aUnitPrefabSlots {
+   "{252E21E0DBB8CFA7}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_SL.et"
+   "{A50064AF358BD49D}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_HMG.et"
+   "{61E97BCEEBBD5020}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_aHMG.et"
+   "{A50064AF358BD49D}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_HMG.et"
+   "{61E97BCEEBBD5020}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_aHMG.et"
+  }
+ }
+}

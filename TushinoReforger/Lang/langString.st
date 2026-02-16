@@ -1796,6 +1796,14 @@ StringTable {
    Author "p1vas"
    LastChanged "p1vas"
   }
+  CustomStringTableItem "{688516065F6F3CDC}" {
+   Id "TYN-Role_Marksman"
+   Target_en_us "Marksman"
+   Target_ru_ru "Пехотный снайпер"
+   Modified 1753553519
+   Author "p1vas"
+   LastChanged "p1vas"
+  }
   CustomStringTableItem "{64928661A5964387}" {
    Id "TYN-Role_MercCommander"
    Target_en_us "Merc commander"

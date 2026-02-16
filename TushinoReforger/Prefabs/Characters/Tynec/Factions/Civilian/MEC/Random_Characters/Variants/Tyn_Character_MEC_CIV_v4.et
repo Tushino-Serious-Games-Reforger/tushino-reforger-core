@@ -1,0 +1,31 @@
+SCR_ChimeraCharacter : "{20A64A597DF762D1}Prefabs/Characters/Factions/IND/MEC/Tyn_Character_MEC_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_aAuthoredLabels + {
+     TRAIT_RANDOMIZED
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{EB82ED199A01B210}Prefabs/Characters/HeadGear/Hat_FlatCap_01/TakHat01_b.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{74B26A45200556BA}Prefabs/Characters/Uniforms/TakShirts/TakShirt05.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{3BE911B96A0AF131}Prefabs/Characters/Uniforms/TakPants/TakPant05.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{1A2A76538DE82111}Prefabs/Characters/Footwear/TakShoes04.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{AC298BA8A7D27007}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et"
+    }
+   }
+  }
+ }
+}

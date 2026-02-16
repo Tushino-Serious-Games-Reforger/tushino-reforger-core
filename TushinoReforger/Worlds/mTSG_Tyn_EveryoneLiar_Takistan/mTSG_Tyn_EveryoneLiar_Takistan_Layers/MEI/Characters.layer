@@ -1,0 +1,66 @@
+$grp SCR_AIGroup : "{E4051E06CC119361}Prefabs/Groups/TSG_Group_Base.et" {
+ A11 {
+  coords 6206.516 86.994 11226.26
+  angles 0 27.327 0
+  m_faction "MEI"
+  m_aUnitPrefabSlots {
+   "{0D3E3CEADBB04E2F}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Tyn_Character_MEI_SL_rand.et"
+   "{025D6D7176ED3F7A}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Tyn_Character_MEI_Marksman_rand.et"
+   "{FF2F022F76322FAD}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Tyn_Character_MEI_Rifleman_rand.et"
+  }
+ }
+ A12 {
+  components {
+   PS_GroupCallsignAssigner "{663F2823BED21F7A}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 6259.011 86.862 11222.364
+  angles 0 -58.544 0
+  m_faction "MEI"
+  m_aUnitPrefabSlots {
+   "{0D3E3CEADBB04E2F}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Tyn_Character_MEI_SL_rand.et"
+   "{FF2F022F76322FAD}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Tyn_Character_MEI_Rifleman_rand.et"
+   "{FF2F022F76322FAD}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Tyn_Character_MEI_Rifleman_rand.et"
+   "{FF2F022F76322FAD}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Tyn_Character_MEI_Rifleman_rand.et"
+   "{FD851DAC2A4D443F}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Tyn_Character_MEI_MG_RPD_rand.et"
+   "{025D6D7176ED3F7A}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Tyn_Character_MEI_Marksman_rand.et"
+  }
+ }
+ A13 {
+  components {
+   PS_GroupCallsignAssigner "{663F2823BED21F7A}" {
+    m_iSquadCallsign 2
+   }
+  }
+  coords 6284.462 86.374 11258.874
+  angles 0 -58.544 0
+  m_faction "MEI"
+  m_aUnitPrefabSlots {
+   "{0D3E3CEADBB04E2F}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Tyn_Character_MEI_SL_rand.et"
+   "{FF2F022F76322FAD}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Tyn_Character_MEI_Rifleman_rand.et"
+   "{FF2F022F76322FAD}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Tyn_Character_MEI_Rifleman_rand.et"
+   "{FF2F022F76322FAD}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Tyn_Character_MEI_Rifleman_rand.et"
+   "{FD851DAC2A4D443F}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Tyn_Character_MEI_MG_RPD_rand.et"
+   "{025D6D7176ED3F7A}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Tyn_Character_MEI_Marksman_rand.et"
+  }
+ }
+ A14 {
+  components {
+   PS_GroupCallsignAssigner "{663F2823BED21F7A}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 6250.33 86.314 11286.37
+  angles 0 -54.153 0
+  m_faction "MEI"
+  m_aUnitPrefabSlots {
+   "{0D3E3CEADBB04E2F}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Tyn_Character_MEI_SL_rand.et"
+   "{FF2F022F76322FAD}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Tyn_Character_MEI_Rifleman_rand.et"
+   "{FF2F022F76322FAD}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Tyn_Character_MEI_Rifleman_rand.et"
+   "{FF2F022F76322FAD}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Tyn_Character_MEI_Rifleman_rand.et"
+   "{FD851DAC2A4D443F}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Tyn_Character_MEI_MG_RPD_rand.et"
+   "{025D6D7176ED3F7A}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Tyn_Character_MEI_Marksman_rand.et"
+  }
+ }
+}

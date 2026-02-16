@@ -1,0 +1,22 @@
+$grp PS_Objective : "{A4F0B4846EF850C4}Prefabs/Objective/Objective.et" {
+ CaptureFlag_MEI {
+  coords 6214.304 93.591 11234.863
+  m_sTitle "Удержать флаг"
+  m_sFactionKey "MEI"
+ }
+ CaptureFlag_USAF {
+  coords 6213.03 93.598 11232.701
+  m_sTitle "Удержать флаг"
+  m_sFactionKey "RHS_USAF"
+ }
+ MEI_Losses {
+  coords 6216.021 93.595 11232.325
+  m_sTitle "Боевики понесли серьёзные потери"
+  m_sFactionKey "RHS_USAF"
+ }
+ USAF_Losses {
+  coords 6214.511 93.59 11235.893
+  m_sTitle "ВС США понесли серьёзные потери"
+  m_sFactionKey "MEI"
+ }
+}

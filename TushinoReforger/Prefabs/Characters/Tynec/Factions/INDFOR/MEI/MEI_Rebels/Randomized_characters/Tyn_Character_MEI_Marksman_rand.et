@@ -1,0 +1,23 @@
+SCR_ChimeraCharacter : "{E4BFFCE5935F50A9}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Tyn_Character_MEI_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{6889686A0127AA75}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{6889686A007F3F44}" {
+      m_sVariantPrefab "{5B9178D99095BBFB}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Random_variants/Tyn_Character_MEI_Marksman_v1.et"
+      m_iRandomizerWeight 2
+     }
+     SCR_EditableEntityVariant "{68896864CAADD301}" {
+      m_sVariantPrefab "{975A0D31A0772DBC}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Random_variants/Tyn_Character_MEI_Marksman_v2.et"
+      m_iRandomizerWeight 3
+     }
+     SCR_EditableEntityVariant "{68896866013DA9ED}" {
+      m_sVariantPrefab "{72C641C8AC92BAD7}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Random_variants/Tyn_Character_MEI_Marksman_v3.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,41 @@
+GameEntity : "{9F3A7D7943C278D1}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{6887043F884DE39D}" {
+    ItemDisplayName UIInfo "{6887043F884DE3A0}" {
+     Name "Long Turban"
+     Description ""
+    }
+   }
+  }
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{7AAB32ED903031F7}Assets/Head/turbanC01/TurbanC01_item.xob"
+  }
+  SCR_ItemOutfitFactionComponent "{6887043F884DE3AA}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{6887043F884DE3B4}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{6887043F884DE3B2}" {
+      m_AffiliatedFactionKey "MEC"
+      m_iOutfitFactionValue 30
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Beard {
+     Prefab "{B24281041DAE30BC}Prefabs/Characters/HeadGear/Beard/Beard01.et"
+    }
+   }
+   WornModel "{38495479CE568FAA}Assets/Head/turbanC01/TurbanC01.xob"
+   WornMaterialsOverride {
+    "{EE9927640ACF7BAF}Assets/Head/turbanC01/Data/TurbanC02_2.emat"
+   }
+   ItemModel "{7AAB32ED903031F7}Assets/Head/turbanC01/TurbanC01_item.xob"
+   ItemMaterialsOverride {
+    "{EE9927640ACF7BAF}Assets/Head/turbanC01/Data/TurbanC02_2.emat"
+   }
+  }
+ }
+}

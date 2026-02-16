@@ -1,0 +1,59 @@
+SCR_ChimeraCharacter : "{E4BFFCE5935F50A9}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Tyn_Character_MEI_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Rifleman"
+    Icon "{29DF9BB937ACDCDE}UI/Icons/rifleman.edds"
+    m_sFaction "MEI"
+    m_aAuthoredLabels {
+     ROLE_RIFLEMAN FACTION_MEI TRAIT_RANDOMIZED
+    }
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{8476C81500685B9E}Prefabs/Weapons/Rifles/L1A1_SLR/Tyn_Rifle_L1A1_SLR_Wood.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{B7561CD8E60CB4FA}Prefabs/Characters/HeadGear/Hat_FlatCap_01/TurbanC02_b.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{296EFDD750A7B7CB}Prefabs/Characters/Uniforms/TakShirts/ChilabaFull05.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab ""
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{C2821F92F4613F4D}Prefabs/Characters/Footwear/TakShoes02.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{AC298BA8A7D27007}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6887043818B169B7}" {
+     TargetStorage "Jacket/ChilabaFull05.et"
+    }
+    ItemsInitConfigurationItem "{6887043861C916AA}" {
+     TargetStorage "Jacket/ChilabaFull05.et"
+    }
+    ItemsInitConfigurationItem "{68870438493F5A13}" {
+     TargetStorage "Jacket/ChilabaFull05.et"
+    }
+    ItemsInitConfigurationItem "{688B67A4D1855179}" {
+     TargetStorage "Back/Backpack_Medical_Soviet_NoCross_01.et"
+     PrefabsToSpawn {
+      "{60BDD3CEAFE417B2}Prefabs/Weapons/Magazines/Tyn_Magazine_762x51_FAL_Commonwealth_20rnd_Ball_Last3Traccer.et" "{60BDD3CEAFE417B2}Prefabs/Weapons/Magazines/Tyn_Magazine_762x51_FAL_Commonwealth_20rnd_Ball_Last3Traccer.et" "{60BDD3CEAFE417B2}Prefabs/Weapons/Magazines/Tyn_Magazine_762x51_FAL_Commonwealth_20rnd_Ball_Last3Traccer.et" "{60BDD3CEAFE417B2}Prefabs/Weapons/Magazines/Tyn_Magazine_762x51_FAL_Commonwealth_20rnd_Ball_Last3Traccer.et" "{1F32D9DE309EF634}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Tracer.et" "{1F32D9DE309EF634}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Tracer.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+   }
+  }
+ }
+}

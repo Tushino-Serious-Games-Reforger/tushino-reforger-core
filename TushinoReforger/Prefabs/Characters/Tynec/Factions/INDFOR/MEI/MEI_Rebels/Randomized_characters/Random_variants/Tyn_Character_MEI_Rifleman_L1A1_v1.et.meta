@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{3B23A369DD85C578}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/MEI_Rebels/Randomized_characters/Random_variants/Tyn_Character_MEI_Rifleman_L1A1_v1.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

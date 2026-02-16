@@ -1,0 +1,26 @@
+GenericEntity : "{FF333CDF80EAE252}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo ArmorPlate_Left {
+     Enabled 1
+     Prefab "{9ADA1F5B703C1980}Prefabs/Characters/Vests/Vest_PCGen_III/Plates/DestructibleArmorPlate_PCGenIII_ESAPIrevJ_Left.et"
+     InheritParentSkeleton 1
+     AreaType RHS_LoadoutSAPILeftPlateSlotArea "{687CC79BD0D109E3}" {
+     }
+    }
+    LoadoutSlotInfo ArmorPlate_Right {
+     Enabled 1
+     Prefab "{5A047A7C413EE006}Prefabs/Characters/Vests/Vest_PCGen_III/Plates/DestructibleArmorPlate_PCGenIII_ESAPIrevJ_Right.et"
+     InheritParentSkeleton 1
+     AreaType RHS_LoadoutSAPIRightPlateSlotArea "{687CC79BD0D11688}" {
+     }
+    }
+    RHS_LoadoutSlotInfo ChestVelcro {
+     Prefab "{0D07F51A271B0065}Prefabs/Items/Equipment/Patches/Patch_USMC_ID_Bernat.et"
+    }
+   }
+  }
+ }
+}

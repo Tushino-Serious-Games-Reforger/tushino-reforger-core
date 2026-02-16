@@ -1,0 +1,71 @@
+SCR_ChimeraCharacter : "{20A64A597DF762D1}Prefabs/Characters/Factions/IND/MEC/Tyn_Character_MEC_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_aAuthoredLabels + {
+     TRAIT_RANDOMIZED
+    }
+   }
+   m_VariantData SCR_EditableEntityVariantData "{68962E7D6052CCB8}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{68962E7D7ED32AE0}" {
+      m_sVariantPrefab "{BB631F48F424B815}Prefabs/Characters/Factions/IND/MEC/Random_Characters/Variants/Tyn_Character_MEC_CIV_v1.et"
+     }
+     SCR_EditableEntityVariant "{68962E7D7A97F2DD}" {
+      m_sVariantPrefab "{2EE8391BE1A31D08}Prefabs/Characters/Factions/IND/MEC/Random_Characters/Variants/Tyn_Character_MEC_CIV_v10.et"
+     }
+     SCR_EditableEntityVariant "{68962E7D7A60C23D}" {
+      m_sVariantPrefab "{CB7475E2ED468A63}Prefabs/Characters/Factions/IND/MEC/Random_Characters/Variants/Tyn_Character_MEC_CIV_v11.et"
+     }
+     SCR_EditableEntityVariant "{68962E7D7A497D8E}" {
+      m_sVariantPrefab "{A72041025182054D}Prefabs/Characters/Factions/IND/MEC/Random_Characters/Variants/Tyn_Character_MEC_CIV_v12.et"
+     }
+     SCR_EditableEntityVariant "{68962E7D7A1D043D}" {
+      m_sVariantPrefab "{42BC0DFB5D679226}Prefabs/Characters/Factions/IND/MEC/Random_Characters/Variants/Tyn_Character_MEC_CIV_v13.et"
+     }
+     SCR_EditableEntityVariant "{68962E7D79E5EEBE}" {
+      m_sVariantPrefab "{7F8828C3280B1B11}Prefabs/Characters/Factions/IND/MEC/Random_Characters/Variants/Tyn_Character_MEC_CIV_v14.et"
+     }
+     SCR_EditableEntityVariant "{68962E7D79C8AEF6}" {
+      m_sVariantPrefab "{9A14643A24EE8C7A}Prefabs/Characters/Factions/IND/MEC/Random_Characters/Variants/Tyn_Character_MEC_CIV_v15.et"
+     }
+     SCR_EditableEntityVariant "{68962E7D7987902D}" {
+      m_sVariantPrefab "{F64050DA982A0354}Prefabs/Characters/Factions/IND/MEC/Random_Characters/Variants/Tyn_Character_MEC_CIV_v16.et"
+     }
+     SCR_EditableEntityVariant "{68962E7D795735A1}" {
+      m_sVariantPrefab "{13DC1C2394CF943F}Prefabs/Characters/Factions/IND/MEC/Random_Characters/Variants/Tyn_Character_MEC_CIV_v17.et"
+     }
+     SCR_EditableEntityVariant "{68962E7D792324FA}" {
+      m_sVariantPrefab "{8C281AAA72F3113A}Prefabs/Characters/Factions/IND/MEC/Random_Characters/Variants/Tyn_Character_MEC_CIV_v18.et"
+     }
+     SCR_EditableEntityVariant "{68962E7D790AC181}" {
+      m_sVariantPrefab "{6358253FF3FBF7C2}Prefabs/Characters/Factions/IND/MEC/Random_Characters/Variants/Tyn_Character_MEC_CIV_v2.et"
+     }
+     SCR_EditableEntityVariant "{68962E7D78DE11D1}" {
+      m_sVariantPrefab "{86C469C6FF1E60A9}Prefabs/Characters/Factions/IND/MEC/Random_Characters/Variants/Tyn_Character_MEC_CIV_v3.et"
+     }
+     SCR_EditableEntityVariant "{68962E7D78BBBEB1}" {
+      m_sVariantPrefab "{BBF04CFE8A72E99E}Prefabs/Characters/Factions/IND/MEC/Random_Characters/Variants/Tyn_Character_MEC_CIV_v4.et"
+     }
+     SCR_EditableEntityVariant "{68962E7D78986C0F}" {
+      m_sVariantPrefab "{5E6C000786977EF5}Prefabs/Characters/Factions/IND/MEC/Random_Characters/Variants/Tyn_Character_MEC_CIV_v5.et"
+     }
+     SCR_EditableEntityVariant "{68962E7D78618548}" {
+      m_sVariantPrefab "{323834E73A53F1DB}Prefabs/Characters/Factions/IND/MEC/Random_Characters/Variants/Tyn_Character_MEC_CIV_v6.et"
+     }
+     SCR_EditableEntityVariant "{68962E7D784CB8CD}" {
+      m_sVariantPrefab "{D7A4781E36B666B0}Prefabs/Characters/Factions/IND/MEC/Random_Characters/Variants/Tyn_Character_MEC_CIV_v7.et"
+     }
+     SCR_EditableEntityVariant "{68962E7D77F42B86}" {
+      m_sVariantPrefab "{48507E97D08AE3B5}Prefabs/Characters/Factions/IND/MEC/Random_Characters/Variants/Tyn_Character_MEC_CIV_v8.et"
+     }
+     SCR_EditableEntityVariant "{68962E7D77DDB58D}" {
+      m_sVariantPrefab "{ADCC326EDC6F74DE}Prefabs/Characters/Factions/IND/MEC/Random_Characters/Variants/Tyn_Character_MEC_CIV_v9.et"
+     }
+    }
+   }
+  }
+ }
+}

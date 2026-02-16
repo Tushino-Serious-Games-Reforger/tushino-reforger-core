@@ -1,0 +1,64 @@
+SCR_ChimeraCharacter : "{23BAD2CA2D890BF9}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/Tyn_Character_MEI_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{6FD6C96121905202}Prefabs/Items/Equipment/Watches/Watch_Vostok.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Unarmed"
+    Icon "{D7F5BF1ECF66FB8F}UI/Icons/unarmed.edds"
+    m_aAuthoredLabels {
+     TRAIT_UNARMED FACTION_MEI ENTITYTYPE_CHARACTER
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E9BE359B59813AF5}Prefabs/Characters/HeadGear/Hat_FlatCap_01/TurbanC01_b.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{628E14D57618CBFA}Prefabs/Characters/Uniforms/TakShirts/TakShirt08.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{57BD2559D6CE7E1F}Prefabs/Characters/Uniforms/TakPants/TakPant06.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{1A2A76538DE82111}Prefabs/Characters/Footwear/TakShoes04.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6887043818B169B7}" {
+     TargetStorage "Jacket/TakShirt08.et"
+     PrefabsToSpawn {
+      "{983B57B8E95C1F52}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_FIA.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6887043861C916AA}" {
+     TargetStorage "Pants/TakPant06.et"
+     PrefabsToSpawn {
+      "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68870438493F5A13}" {
+     TargetStorage "Jacket/TakShirt08.et"
+     TargetPurpose 64
+     PrefabsToSpawn {
+      "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,4 +1,4 @@
-GenericEntity : "{4181B1C8B5E56392}Prefabs/Items/Equipment/Radios/Radio_R107M_FIA.et" {
+GenericEntity : "{5879D8E9C56E358E}Prefabs/Items/Equipment/Radios/Radio_Deployable_Base.et" {
  ID "508AB2013EEE1E00"
  components {
   BaseRadioComponent "{5A30BAE7673C63CA}" {
@@ -7,15 +7,10 @@ GenericEntity : "{4181B1C8B5E56392}Prefabs/Items/Equipment/Radios/Radio_R107M_FI
    Transceivers {
     RadioTransceiver "{5EA4A89F0D06E18F}" {
      ChannelFrequency 52000
-     "Transmitting Range" 15000
-     "Frequency resolution" 100
-    }
-    RadioTransceiver "{5E06C824E007EA8F}" {
-     ChannelFrequency 0
-     "Transmitting Range" 1
-     "Min tunable frequency" 0
-     "Max tunable frequency" 0
-     "Frequency resolution" 0
+     "Transmitting Range" 11000
+     "Min tunable frequency" 20000
+     "Max tunable frequency" 52000
+     "Frequency resolution" 200
     }
    }
   }
@@ -61,15 +56,11 @@ GenericEntity : "{4181B1C8B5E56392}Prefabs/Items/Equipment/Radios/Radio_R107M_FI
    m_iRadioType R107M
   }
   SCR_RestrictedDeployableSpawnPointComponent "{5EA4A89F0D06E1A8}" {
-   Enabled 1
    m_sReplacementPrefab "{04F7BB1A1EA8BA23}Prefabs/Systems/DeployableRadios/DeployableItemRadioReplacementUSSR.et"
-   m_FactionKey ""
-  }
-  SCR_SoundDataComponent "{5B18D20ED0099A17}" {
-   Enabled 1
+   m_FactionKey "USSR"
   }
   BaseLoadoutClothComponent "{5EA4A89F0D06E1DE}" {
-   AreaType LoadoutBackpackArea "{62AEFA22C0649F68}" {
+   AreaType LoadoutBackpackArea "{68A064C295951210}" {
    }
    WornModel "{518A95342557BC80}Assets/Items/Equipment/Radios/Radio_R107M/Radio_R107M_01.xob"
    ItemModel "{77C9FCF3FB1246E9}Assets/Items/Equipment/Radios/Radio_R107M/Radio_R107M_01_item.xob"

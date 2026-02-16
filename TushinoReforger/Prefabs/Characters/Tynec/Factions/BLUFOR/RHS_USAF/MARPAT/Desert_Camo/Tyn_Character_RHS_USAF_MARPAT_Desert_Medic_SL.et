@@ -1,0 +1,14 @@
+SCR_ChimeraCharacter : "{8D4C2544A30B233B}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_Medic.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6878B42B4E0F31A3}" {
+     PrefabsToSpawn {
+      "{4421A403A72806C7}Prefabs/Items/Tynec/Equipment/Radios/US/Tyn_Radio_ANPRC152A_OLD_SL.et"
+     }
+    }
+   }
+  }
+ }
+}

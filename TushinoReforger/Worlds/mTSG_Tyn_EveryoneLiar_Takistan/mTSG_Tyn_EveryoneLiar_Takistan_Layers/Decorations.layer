@@ -1,0 +1,145 @@
+$grp GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_01_long_burlap.et" {
+ {
+  coords 6217.216 93.598 11229.758
+  angles 0 -57.094 0
+ }
+ {
+  coords 6209.528 93.601 11232.112
+  angles 0 33.131 0
+ }
+ {
+  coords 6219.825 93.58 11237.447
+  angles 0 33.131 0
+ }
+ {
+  coords 6214.967 93.603 11228.604
+  angles 0 33.131 0
+ }
+ {
+  coords 6219.007 93.591 11232.518
+  angles 0 -57.094 0
+ }
+ {
+  coords 6211.691 93.59 11237.379
+  angles 0 -57.094 0
+ }
+ {
+  coords 6209.82 93.6 11234.581
+  angles 0 -57.094 0
+ }
+ {
+  coords 6212.224 93.604 11230.354
+  angles 0 33.131 0
+ }
+ {
+  coords 6217.509 93.58 11239.037
+  angles 0 33.131 0
+ }
+ {
+  coords 6220.916 93.582 11235.24
+  angles 0 -57.094 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{398959D7019AD4D2}Prefabs/Structures/Bulding/HouseC/Tyn_House_C_4_Gover.et" {
+ components {
+  SCR_DestructibleBuildingComponent "{68962E6478AD5EF6}" {
+   EnableDamage 0
+  }
+ }
+ coords 6213.986 86.774 11237.589
+ angles 0 33.698 0
+ {
+  GenericEntity {
+   ID "68962E6478AD5110"
+   coords 4.554 3.683 -5.289
+  }
+  GenericEntity {
+   ID "68962E6478AD5113"
+   coords 1.142 3.683 -5.234
+  }
+  GenericEntity {
+   ID "68962E6478AEE588"
+   coords 2.998 3.687 -5.267
+  }
+  GenericEntity : "{07848CA53FAD246B}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_R_INT_COV_B.et" {
+   coords -0.487 0.648 -1.354
+   angles 0 -89.616 0
+  }
+  GenericEntity : "{34F74A7DBAD46974}Prefabs/Props/Furniture/LightWall_01.et" {
+   coords -0.698 3.138 -1.24
+   angles 0 -93.339 0
+  }
+  GenericEntity : "{716F88F928ACC3EB}Prefabs/Props/Furniture/Toilet_01/Toilet_01_golden.et" {
+   coords -4.111 0.565 0.451
+   angles 0 179.966 0
+  }
+ }
+}
+$grp GenericEntity : "{D8ABE2DE630F577E}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_01.et" {
+ {
+  coords 6212.296 90.514 11230.064
+  angles 0 -57.558 0
+  {
+   GenericEntity {
+    ID "5528CD7A6CD9646B"
+    components {
+     SCR_DestructionMultiPhaseComponent "{6684B114DDC8D314}" {
+      EnableDamage 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5528CD7A6CD9646D"
+    components {
+     SCR_DestructionMultiPhaseComponent "{6684B114DDC8D314}" {
+      EnableDamage 0
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6214.428 90.514 11228.645
+  angles 0 -57.558 0
+  {
+   GenericEntity {
+    ID "5528CD7A6CD9646B"
+    components {
+     SCR_DestructionMultiPhaseComponent "{6684B114DDC8D314}" {
+      EnableDamage 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5528CD7A6CD9646D"
+    components {
+     SCR_DestructionMultiPhaseComponent "{6684B114DDC8D314}" {
+      EnableDamage 0
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6210.195 90.514 11231.558
+  angles 0 -57.558 0
+  {
+   GenericEntity {
+    ID "5528CD7A6CD9646B"
+    components {
+     SCR_DestructionMultiPhaseComponent "{6684B114DDC8D314}" {
+      EnableDamage 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5528CD7A6CD9646D"
+    components {
+     SCR_DestructionMultiPhaseComponent "{6684B114DDC8D314}" {
+      EnableDamage 0
+     }
+    }
+   }
+  }
+ }
+}

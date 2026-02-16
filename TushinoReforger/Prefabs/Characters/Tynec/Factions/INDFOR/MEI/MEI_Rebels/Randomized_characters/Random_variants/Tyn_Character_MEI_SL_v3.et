@@ -1,0 +1,85 @@
+SCR_ChimeraCharacter : "{23BAD2CA2D890BF9}Prefabs/Characters/Tynec/Factions/INDFOR/MEI/Tyn_Character_MEI_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{6FD6C96121905202}Prefabs/Items/Equipment/Watches/Watch_Vostok.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_SquadLeader"
+    Icon "{61B33057F7F0A4AE}UI/Icons/squad_leader.edds"
+    m_aAuthoredLabels {
+     ROLE_LEADER FACTION_MEI ENTITYTYPE_CHARACTER
+    }
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{41AD4E19A9BDBDCE}Prefabs/Weapons/Rifles/AK47/BC_Rifle_AK47.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{B74C685529F97B0A}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Turban02_b.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{CE84C069BF4C85D3}Prefabs/Characters/Uniforms/TakShirts/TakShirt01.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{E34178781383EF6D}Prefabs/Characters/Uniforms/TakPants/TakPant03.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{1A2A76538DE82111}Prefabs/Characters/Footwear/TakShoes04.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{AC298BA8A7D27007}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_NoCross_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{688B67A0EED310E8}" {
+     TargetStorage "Jacket/TakShirt01.et"
+     PrefabsToSpawn {
+      "{983B57B8E95C1F52}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_FIA.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et"
+     }
+    }
+    ItemsInitConfigurationItem "{688B67A0EED310F9}" {
+     TargetStorage "Pants/TakPant03.et"
+     PrefabsToSpawn {
+      "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{688B67A0EED31107}" {
+     TargetStorage "Jacket/TakShirt01.et"
+     TargetPurpose 64
+     PrefabsToSpawn {
+      "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{688B67A0EED31105}" {
+     TargetStorage "Back/Backpack_Medical_Soviet_NoCross_01.et"
+     PrefabsToSpawn {
+      "{D66B57C62D7D503C}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Last_5Tracer.et" "{D66B57C62D7D503C}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Last_5Tracer.et" "{D66B57C62D7D503C}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Last_5Tracer.et" "{D66B57C62D7D503C}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Last_5Tracer.et" "{D7D38B4E269417F8}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Tracer.et" "{D7D38B4E269417F8}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Tracer.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{688B67A0EED31103}" {
+     TargetStorage "Jacket/TakShirt01.et"
+     PrefabsToSpawn {
+      "{AEB5FAECB4A84403}Prefabs/Items/Tynec/Equipment/Radios/FIA/Tyn_Radio_R148_FIA.et"
+     }
+    }
+   }
+  }
+ }
+}

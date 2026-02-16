@@ -1,0 +1,13 @@
+GameEntity : "{2D0CE2B3DA321E76}Prefabs/Characters/HeadGear/Hat_FlatCap_01/TakHat03.et" {
+ ID "5112706CD4157AC7"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Beard {
+     Prefab "{B24281041DAE30BC}Prefabs/Characters/HeadGear/Beard/Beard01.et"
+    }
+   }
+  }
+ }
+ coords 34.003 1 241.082
+}

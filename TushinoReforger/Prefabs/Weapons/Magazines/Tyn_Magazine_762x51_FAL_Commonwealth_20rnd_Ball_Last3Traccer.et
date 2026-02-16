@@ -1,0 +1,23 @@
+GenericEntity : "{EC747F3B392A19CC}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "#BF-Magazine_FAL_BALL_Name"
+     Description "#BF-Magazine_FAL_BALL_Description"
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "#BF-Magazine_FAL_BALL_Name"
+    Description "#BF-Magazine_FAL_BALL_Description"
+    m_eAmmoTypeFlags 3
+   }
+   AmmoMapping {
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1
+   }
+  }
+ }
+}

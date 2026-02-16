@@ -1,0 +1,2418 @@
+GenericEntity Nadzorshik {
+ components {
+  TSG_CivilianKilled "{689E9B0536D6F44F}" {
+   FactionsToInspect {
+    "RHS_USAF"
+   }
+   MaxNumsOfKills 13
+   NamesOfObjectives {
+    "CaptureFlag_USAF"
+    "CaptureFlag_MEI"
+   }
+  }
+ }
+ coords 6209.357 87.067 11222.511
+}
+GenericEntity : "{04B5CC36F933A2D4}Prefabs/System/DRG_DateTimeInjectorPrefab.et" {
+ components {
+  DRG_DateTimeInjectorComponent "{658E74C94A2C74AE}" {
+   m_iYear 2007
+   m_iMonth 8
+   m_iDay 6
+   m_iHours 14
+  }
+ }
+ coords 6212.173 87.144 11217.51
+}
+GenericEntity : "{6A3CDCFB475BF1B2}Prefabs/System/DRG_CriticalLossPrefab.et" {
+ components {
+  DRG_CriticalLossComponent "{65213D368F1BD792}" {
+   m_aLossLogics {
+    LossLogic "{689E89DC6E67F5D1}" {
+     m_aLosses {
+      FactionLoss "{689E89DC6B79F16C}" {
+       m_iCriticalLossCount 4
+       m_sFactionKey "RHS_USAF"
+      }
+     }
+     m_sObjectiveNames {
+      "USAF_Losses"
+     }
+     m_sFailedObjectiveNames {
+      "CaptureFlag_USAF"
+     }
+    }
+    LossLogic "{689E89DC619D6A88}" {
+     m_aLosses {
+      FactionLoss "{689E89DC608D9801}" {
+       m_iCriticalLossCount 0
+       m_sFactionKey "MEI"
+      }
+     }
+     m_sObjectiveNames {
+      "MEI_Losses"
+     }
+     m_sFailedObjectiveNames {
+      "CaptureFlag_MEI"
+     }
+    }
+   }
+  }
+ }
+ coords 6207.222 87.114 11212.693
+}
+GenericEntity Scenario_Logic : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Components/Area.et" {
+ coords 6263.984 96.472 11219.925
+ {
+  $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+   NPC_Layer {
+    coords 0 0 0
+    {
+     $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+      NPCs {
+       components {
+        SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+         m_SpawnChildren RANDOM_MULTIPLE
+         m_iRandomPercent 28
+        }
+       }
+       coords 0 0 0
+       {
+        $grp GenericEntity : "{8D43830F02C3F114}Prefabs/Systems/ScenarioFramework/Components/SlotAI.et" {
+         SlotAI1 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -13.807 -9.712 33.423
+          angles 0 125.559 0
+         }
+         SlotAI3 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -17.052 -9.761 27.016
+          angles 0 125.559 0
+         }
+         SlotAI4 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -25.123 -9.686 13.907
+          angles 0 125.559 0
+         }
+         SlotAI5 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -25.968 -9.672 10.292
+          angles 0 32.507 0
+         }
+         SlotAI6 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -21.606 -9.652 10.47
+          angles 0 28.398 0
+         }
+         SlotAI7 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -11.051 -9.586 3.866
+          angles 0 35.183 0
+         }
+         SlotAI8 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -6.071 -9.576 0.357
+          angles 0 28.787 0
+         }
+         SlotAI9 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -0.597 -9.644 7.622
+          angles 0 -65.535 0
+         }
+         SlotAI10 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 4.403 -9.732 17.242
+          angles 0 -65.535 0
+         }
+         SlotAI11 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 14.391 -9.653 10.781
+          angles 0 117.751 0
+         }
+         SlotAI12 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 11.323 -9.605 5.607
+          angles 0 117.751 0
+         }
+         SlotAI13 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 7.071 -9.481 -1.407
+          angles 0 117.751 0
+         }
+         SlotAI14 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 0.636 -9.303 -12.063
+          angles 0 117.751 0
+         }
+         SlotAI15 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -11.974 -8.717 -9.091
+          angles 0 -146.779 0
+         }
+         SlotAI16 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -24.827 -8.861 -2.631
+          angles 0 -146.779 0
+         }
+         SlotAI17 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -36.019 -9.185 2.36
+          angles 0 -146.779 0
+         }
+         SlotAI18 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -52.078 -9.504 9.535
+          angles 0 -146.779 0
+         }
+         SlotAI19 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -66.297 -9.819 21.461
+          angles 0 -146.779 0
+         }
+         SlotAI20 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -38.67 -9.838 24.684
+          angles 0 -146.779 0
+         }
+         SlotAI21 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -41.336 -9.913 33.154
+          angles 0 -146.779 0
+         }
+         SlotAI22 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -30.974 -9.905 36.883
+          angles 0 -146.779 0
+         }
+         SlotAI23 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -32.488 -10.003 45.268
+          angles 0 -146.779 0
+         }
+         SlotAI24 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -22.027 -9.987 51.606
+          angles 0 -146.779 0
+         }
+         SlotAI25 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -29.673 -10.441 81.256
+          angles 0 -146.779 0
+         }
+         SlotAI26 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -15.994 -10.121 64.172
+          angles 0 -146.779 0
+         }
+         SlotAI27 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 22.317 -9.952 21.537
+          angles 0 -146.779 0
+         }
+         SlotAI28 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 33.21 -10.182 36.958
+          angles 0 -146.779 0
+         }
+         SlotAI29 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 38.515 -10.322 47.064
+          angles 0 -146.779 0
+         }
+         SlotAI30 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 37.917 -10.357 54.7
+          angles 0 -146.779 0
+         }
+         SlotAI31 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 39.204 -10.353 55.848
+          angles 0 -146.779 0
+         }
+         SlotAI32 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -34.048 -10.179 92.868
+          angles 0 -146.779 0
+         }
+         SlotAI33 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -19.037 -10.457 97.177
+          angles 0 -146.779 0
+         }
+         SlotAI34 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 2.497 -10.605 128.868
+          angles 0 -146.779 0
+         }
+         SlotAI35 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 17.112 -10.816 120.705
+          angles 0 -146.779 0
+         }
+         SlotAI36 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -16.695 -10.425 110.134
+          angles 0 -146.779 0
+         }
+         SlotAI37 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -7.964 -10.536 111.135
+          angles 0 -146.779 0
+         }
+         SlotAI38 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 1.41 -10.635 105.553
+          angles 0 -146.779 0
+         }
+         SlotAI39 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -1.37 -10.591 99.78
+          angles 0 -146.779 0
+         }
+         SlotAI40 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 6.823 -10.559 93.568
+          angles 0 -146.779 0
+         }
+         SlotAI41 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 12.925 -10.606 97.859
+          angles 0 -146.779 0
+         }
+         SlotAI42 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 22.69 -10.506 82.8
+          angles 0 -146.779 0
+         }
+         SlotAI43 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 34.384 -10.539 83.073
+          angles 0 -146.779 0
+         }
+         SlotAI44 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 49.127 -10.382 71.913
+          angles 0 -146.779 0
+         }
+         SlotAI45 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 38.583 -10.5 75.646
+          angles 0 -146.779 0
+         }
+         SlotAI46 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 50.067 -10.646 94.187
+          angles 0 -146.779 0
+         }
+         SlotAI47 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 46.827 -10.796 109.703
+          angles 0 -146.779 0
+         }
+         SlotAI48 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 56.51 -10.747 115.691
+          angles 0 -146.779 0
+         }
+         SlotAI49 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 70.88 -10.64 123.456
+          angles 0 -146.779 0
+         }
+         SlotAI50 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 79.679 -10.332 136.794
+          angles 0 -146.779 0
+         }
+         SlotAI51 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 70.042 -10.032 149.908
+          angles 0 -146.779 0
+         }
+         SlotAI52 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 56.624 -9.866 154.8
+          angles 0 -146.779 0
+         }
+         SlotAI53 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 34.457 -9.632 -25.613
+          angles 0 -146.779 0
+         }
+         SlotAI54 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 44.144 -9.621 -32.473
+          angles 0 -146.779 0
+         }
+         SlotAI55 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 55.661 -9.409 -16.11
+          angles 0 -146.779 0
+         }
+         SlotAI56 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 42.32 -9.843 -10.85
+          angles 0 -146.779 0
+         }
+         SlotAI57 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 89.933 -9.295 -89.905
+          angles 0 -146.779 0
+         }
+         SlotAI58 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 94.863 -9.129 -103.361
+          angles 0 -146.779 0
+         }
+         SlotAI59 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 81.248 -9.019 -97.832
+          angles 0 -146.779 0
+         }
+         SlotAI60 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 77.253 -10.525 9.57
+          angles 0 -146.779 0
+         }
+         SlotAI61 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 81.852 -10.306 3.942
+          angles 0 -146.779 0
+         }
+         SlotAI62 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 72.101 -10.102 -2.874
+          angles 0 -146.779 0
+         }
+         SlotAI63 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 68.937 -10.599 37.216
+          angles 0 -146.779 0
+         }
+         SlotAI64 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 75.579 -10.686 26.939
+          angles 0 -146.779 0
+         }
+         SlotAI65 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 81.344 -10.447 54.574
+          angles 0 -146.779 0
+         }
+         SlotAI66 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 87.92 -10.486 46.956
+          angles 0 -146.779 0
+         }
+         SlotAI67 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 79.565 -10.543 42.687
+          angles 0 -146.779 0
+         }
+         SlotAI68 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 121.781 -10.26 68.245
+          angles 0 -146.779 0
+         }
+         SlotAI69 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 112.549 -10.269 68.05
+          angles 0 -146.779 0
+         }
+         SlotAI70 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 81.564 -10.332 71.147
+          angles 0 -146.779 0
+         }
+         SlotAI71 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 66.052 -10.295 89.437
+          angles 0 -146.779 0
+         }
+         SlotAI72 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 77.125 -10.217 105.15
+          angles 0 -146.779 0
+         }
+         SlotAI73 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 86.233 -10.122 116.771
+          angles 0 -146.779 0
+         }
+         SlotAI74 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 96.733 -9.958 131.427
+          angles 0 -146.779 0
+         }
+         SlotAI75 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 102.704 -9.876 140.502
+          angles 0 -146.779 0
+         }
+         SlotAI76 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 115.481 -9.837 137.06
+          angles 0 -146.779 0
+         }
+         SlotAI77 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 102.573 -10.032 117.059
+          angles 0 -146.779 0
+         }
+         SlotAI78 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 99.576 -10.159 99.605
+          angles 0 -146.779 0
+         }
+         SlotAI79 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 111.639 -10.182 80.071
+          angles 0 -146.779 0
+         }
+         SlotAI80 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 120.845 -10.125 81.483
+          angles 0 -146.779 0
+         }
+         SlotAI81 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 110.899 -9.976 116.531
+          angles 0 -146.779 0
+         }
+         SlotAI82 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 124.12 -9.964 109.09
+          angles 0 -146.779 0
+         }
+         SlotAI83 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 141.559 -9.915 112.61
+          angles 0 -146.779 0
+         }
+         SlotAI84 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 147.532 -9.726 138.009
+          angles 0 -146.779 0
+         }
+         SlotAI85 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 136.29 -9.734 141.182
+          angles 0 -146.779 0
+         }
+         SlotAI86 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 123.837 -9.898 122.316
+          angles 0 -146.779 0
+         }
+         SlotAI87 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 143.55 -9.795 130.128
+          angles 0 -146.779 0
+         }
+         SlotAI88 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 108.315 -9.548 180.38
+          angles 0 -146.779 0
+         }
+         SlotAI89 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 118.01 -9.495 184.783
+          angles 0 -146.779 0
+         }
+         SlotAI90 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 121.757 -9.534 176.99
+          angles 0 -146.779 0
+         }
+         SlotAI91 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 186.257 -9.18 204.892
+          angles 0 -146.779 0
+         }
+         SlotAI92 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 180.283 -9.431 171.759
+          angles 0 -146.779 0
+         }
+         SlotAI93 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 171.355 -9.35 185.719
+          angles 0 -146.779 0
+         }
+         SlotAI94 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 164.331 -8.848 264.794
+          angles 0 -146.779 0
+         }
+         SlotAI95 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 161.721 -8.736 281.401
+          angles 0 -146.779 0
+         }
+         SlotAI96 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 139.238 -8.944 266.804
+          angles 0 -146.779 0
+         }
+         SlotAI97 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 116.744 -8.973 264.771
+          angles 0 -146.779 0
+         }
+         SlotAI98 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 125.505 -8.694 302.137
+          angles 0 -146.779 0
+         }
+         SlotAI99 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 110.224 -8.689 309.441
+          angles 0 -146.779 0
+         }
+         SlotAI100 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 127.513 -8.628 313.945
+          angles 0 -146.779 0
+         }
+         SlotAI101 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 53.123 -9.486 211.694
+          angles 0 -146.779 0
+         }
+         SlotAI102 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 56.644 -9.492 208.861
+          angles 0 -146.779 0
+         }
+         SlotAI103 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 162.966 -10.035 80.185
+          angles 0 -14.784 0
+         }
+         SlotAI104 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 149.09 -9.872 115.318
+          angles 0 -146.779 0
+         }
+         SlotAI105 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 161.995 -9.826 117.946
+          angles 0 -146.779 0
+         }
+         SlotAI106 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 93.157 -10.159 85.32
+          angles 0 -146.779 0
+         }
+         SlotAI107 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 99.863 -10.284 72.499
+          angles 0 -146.779 0
+         }
+         SlotAI108 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 97.5 -10.358 61.042
+          angles 0 -146.779 0
+         }
+         SlotAI109 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -3.002 -10.084 59.57
+          angles 0 -146.779 0
+         }
+         SlotAI110 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -7.278 -10.112 64.11
+          angles 0 -146.779 0
+         }
+         SlotAI111 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -0.66 -10.327 74.732
+          angles 0 -146.779 0
+         }
+         SlotAI112 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 4.989 -10.252 69.264
+          angles 0 -146.779 0
+         }
+         SlotAI113 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 8.918 -10.377 73.6
+          angles 0 -146.779 0
+         }
+         SlotAI114 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 4.9 -10.389 76.904
+          angles 0 -146.779 0
+         }
+         SlotAI115 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -4.84 -9.656 9.988
+          angles 0 -146.779 0
+         }
+         SlotAI116 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -19.892 -9.685 19.073
+          angles 0 -146.779 0
+         }
+         SlotAI117 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -3.907 -9.785 26.646
+          angles 0 -146.779 0
+         }
+         SlotAI118 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -1.977 -9.692 14.385
+          angles 0 -146.779 0
+         }
+         SlotAI119 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -14.8 -9.73 24.24
+          angles 0 -146.779 0
+         }
+         SlotAI120 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -0.25 -9.846 33.375
+          angles 0 -146.779 0
+         }
+         SlotAI121 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 17.734 -10.093 43.118
+          angles 0 -146.779 0
+         }
+         SlotAI122 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 23.929 -10.259 51.88
+          angles 0 -146.779 0
+         }
+         SlotAI123 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 14.019 -10.244 60.808
+          angles 0 -146.779 0
+         }
+         SlotAI124 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 7.697 -10.002 45.947
+          angles 0 -146.779 0
+         }
+         SlotAI125 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 58.375 -10.736 14.441
+          angles 0 -146.779 0
+         }
+         SlotAI126 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 59.132 -10.528 7.56
+          angles 0 -146.779 0
+         }
+         SlotAI127 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 66.687 -10.717 18.825
+          angles 0 -146.779 0
+         }
+         SlotAI128 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 61.684 -10.663 11.353
+          angles 0 -146.779 0
+         }
+         SlotAI129 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 51.378 -10.324 40.787
+          angles 0 -146.779 0
+         }
+         SlotAI130 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 57.713 -10.363 50.113
+          angles 0 -146.779 0
+         }
+         SlotAI131 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 31.648 -9.921 9.367
+          angles 0 -146.779 0
+         }
+         SlotAI132 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 20.948 -9.668 -8
+          angles 0 -146.779 0
+         }
+         SlotAI133 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -74.33 -9.262 -4.195
+          angles 0 -146.779 0
+         }
+         SlotAI134 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -93.25 -8.286 -13.008
+          angles 0 -146.779 0
+         }
+         SlotAI135 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -91.99 -9.268 -8.18
+          angles 0 -146.779 0
+         }
+         SlotAI136 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -70.808 -6.797 -11.475
+          angles 0 -146.779 0
+         }
+         SlotAI137 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -53.723 -6.879 -16.821
+          angles 0 -146.779 0
+         }
+         SlotAI138 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -49.41 -7.202 -17.041
+          angles 0 -146.779 0
+         }
+         SlotAI139 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -17.557 -8.453 -25.309
+          angles 0 -146.779 0
+         }
+         SlotAI140 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -22.723 -8.692 -23.647
+          angles 0 -146.779 0
+         }
+         SlotAI141 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -62.878 -10.222 57.509
+          angles 0 -146.779 0
+         }
+         SlotAI142 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -65.871 -10.223 52.146
+          angles 0 -146.779 0
+         }
+         SlotAI143 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords -69.24 -10.22 48.631
+          angles 0 -146.779 0
+         }
+         SlotAI144 {
+          components {
+           SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+            m_sObjectToSpawn "{FF50DBF070412529}Prefabs/Groups/Tynec/Civilian/MEC/Tyn_Group_MEC_Randomized.et"
+           }
+          }
+          coords 5.667 -6.296 -50.355
+          angles 0 -146.779 0
+         }
+        }
+       }
+      }
+      WayPoints {
+       coords 0 0 0
+      }
+     }
+    }
+   }
+   Equipment {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_MULTIPLE
+      m_iRandomPercent 62
+     }
+    }
+    coords 0 0 0
+    {
+     $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+      HouseA {
+       components {
+        SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+         m_SpawnChildren RANDOM_ONE
+        }
+       }
+       coords 0 0 0
+       {
+        $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+         HouseA_var1 {
+          coords 0 0 0
+          {
+           $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+            Slot1 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{995B334262EDDA95}Prefabs/Weapons/Rifles/AKM/BC_Rifle_AKM.et"
+              }
+             }
+             coords 9.056 -5.12 11.451
+             angles 0.099 -146.49 -91.925
+            }
+            Slot2 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{D66B57C62D7D503C}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Last_5Tracer.et"
+              }
+             }
+             coords 9.292 -5.122 11.905
+             angles -0.36 -47.25 89.667
+            }
+            Slot4 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{D66B57C62D7D503C}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Last_5Tracer.et"
+              }
+             }
+             coords 8.722 -5.128 12.037
+             angles 0.449 66.448 89.804
+            }
+           }
+          }
+         }
+         HouseA_var2 {
+          coords 0 0 0
+          {
+           $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+            Slot6 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{B9006AD5B5EDF4C1}Prefabs/Weapons/Magazines/BC_Drum_762x39_RPD_100rnd_Mixed.et"
+              }
+             }
+             coords 7.119 -5.572 3.212
+             angles 82.055 115.176 13.538
+            }
+            Slot8 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{102AC2A328B1229E}Prefabs/Weapons/MachineGuns/RPD/BC_RPD.et"
+              }
+             }
+             coords 7.242 -5.516 2.781
+             angles 10.735 29.485 9.262
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      HouseB {
+       components {
+        SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+         m_SpawnChildren RANDOM_MULTIPLE
+         m_iRandomPercent 67
+        }
+       }
+       coords 0 0 0
+       {
+        $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+         HouseB_var1 {
+          coords 0 0 0
+          {
+           $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+            Slot10 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et"
+              }
+             }
+             coords -19.913 -2.242 -1.321
+             angles -4.727 -147.905 89.454
+            }
+            Slot11 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et"
+              }
+             }
+             coords -20.232 -2.24 -1.75
+             angles -4.946 22.412 90.456
+            }
+            Slot12 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et"
+              }
+             }
+             coords -20.108 -2.24 -1.516
+             angles -5.33 115.872 89.963
+            }
+            Slot13 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et"
+              }
+             }
+             coords -19.874 -2.241 -1.671
+             angles -3.172 -47.461 89.762
+            }
+            Slot3 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{C1B4F7B87B720EE8}Prefabs/Weapons/Rifles/Mosin/BC_Rifle_Mosin_Nagant_9130.et"
+              }
+             }
+             coords -20.782 -2.563 -2.241
+             angles 73.409 -165.892 71.218
+            }
+           }
+          }
+         }
+         HouseB_var2 {
+          coords 0 0 0
+          {
+           $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+            Slot16 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{60BDD3CEAFE417B2}Prefabs/Weapons/Magazines/Tyn_Magazine_762x51_FAL_Commonwealth_20rnd_Ball_Last3Traccer.et"
+              }
+             }
+             coords -20.498 -8.408 5.439
+             angles 0 0 90
+            }
+            Slot17 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{60BDD3CEAFE417B2}Prefabs/Weapons/Magazines/Tyn_Magazine_762x51_FAL_Commonwealth_20rnd_Ball_Last3Traccer.et"
+              }
+             }
+             coords -20.935 -8.409 5.652
+             angles 0 102.971 90
+            }
+            Slot9 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{8476C81500685B9E}Prefabs/Weapons/Rifles/L1A1_SLR/Tyn_Rifle_L1A1_SLR_Wood.et"
+              }
+             }
+             coords -20.842 -7.894 5.597
+             angles -0.64 -20.508 -84.745
+            }
+           }
+          }
+         }
+         HouseB_var3 {
+          coords 0 0 0
+          {
+           $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+            Slot15 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{41AD4E19A9BDBDCE}Prefabs/Weapons/Rifles/AK47/BC_Rifle_AK47.et"
+              }
+             }
+             coords -14.779 -8.398 -3.388
+             angles 46.099 63.119 48.671
+            }
+            Slot20 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{D66B57C62D7D503C}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Last_5Tracer.et"
+              }
+             }
+             coords -14.634 -8.642 -3.236
+             angles 0 -130.712 90
+            }
+            Slot22 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{D66B57C62D7D503C}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Last_5Tracer.et"
+              }
+             }
+             coords -14.838 -8.646 -3.262
+             angles 0 105.14 90
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      HouseC {
+       components {
+        SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+         m_SpawnChildren RANDOM_ONE
+        }
+       }
+       coords 0 0 0
+       {
+        $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+         HouseC_var1 {
+          coords 0 0 0
+          {
+           $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+            Slot19 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{41AD4E19A9BDBDCE}Prefabs/Weapons/Rifles/AK47/BC_Rifle_AK47.et"
+              }
+             }
+             coords -33.155 -5.125 87.535
+             angles 0 -45.786 -90
+            }
+            Slot24 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{D66B57C62D7D503C}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Last_5Tracer.et"
+              }
+             }
+             coords -32.651 -5.119 87.521
+             angles 0 -88.354 -90
+            }
+            Slot25 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{D66B57C62D7D503C}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Last_5Tracer.et"
+              }
+             }
+             coords -33.15 -5.127 87.882
+             angles 0 -88.354 -90.857
+            }
+            Slot40 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+              }
+             }
+             coords -34.346 -2.944 83.097
+             angles 0 -128.669 -90
+            }
+            Slot41 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+              }
+             }
+             coords -34.113 -2.944 83.315
+             angles 0 -19.205 -90
+            }
+            Slot36 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+              }
+             }
+             coords -34.231 -2.938 83.216
+             angles 0 0 -90
+            }
+           }
+          }
+         }
+         HouseC_var2 {
+          coords 0 0 0
+          {
+           $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+            Slot14 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{8476C81500685B9E}Prefabs/Weapons/Rifles/L1A1_SLR/Tyn_Rifle_L1A1_SLR_Wood.et"
+              }
+             }
+             coords -34.374 -5.944 73.581
+             angles -90 0.03 -103.189
+            }
+            Slot34 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{60BDD3CEAFE417B2}Prefabs/Weapons/Magazines/Tyn_Magazine_762x51_FAL_Commonwealth_20rnd_Ball_Last3Traccer.et"
+              }
+             }
+             coords -34.636 -6.184 74.554
+             angles 4.423 0 87.768
+            }
+            Slot35 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{60BDD3CEAFE417B2}Prefabs/Weapons/Magazines/Tyn_Magazine_762x51_FAL_Commonwealth_20rnd_Ball_Last3Traccer.et"
+              }
+             }
+             coords -34.542 -6.185 74.342
+             angles -4.208 -121.293 87.385
+            }
+            Slot31 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{D9889FC9DB8C06C0}Prefabs/Weapons/Handguns/HiPower/Handgun_HiPower.et"
+              }
+             }
+             coords -31.502 -3.741 84.438
+             angles 0 0 88.072
+            }
+            Slot37 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{1E7D876C06089E21}Prefabs/Weapons/Magazines/Magazine_9x19_HiPower_13rnd_Ball.et"
+              }
+             }
+             coords -31.409 -3.749 84.217
+             angles 0 0 90
+            }
+            Slot38 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{1E7D876C06089E21}Prefabs/Weapons/Magazines/Magazine_9x19_HiPower_13rnd_Ball.et"
+              }
+             }
+             coords -31.365 -3.747 84.351
+             angles 0 -165.247 90
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      HouseD {
+       components {
+        SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+         m_SpawnChildren RANDOM_ONE
+        }
+       }
+       coords 0 0 0
+       {
+        $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+         HouseD_var1 {
+          coords 0 0 0
+          {
+           $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+            Slot23 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{BFEA719491610A45}Prefabs/Weapons/Rifles/AKS74U/Rifle_AKS74U.et"
+              }
+             }
+             coords 31.712 -9.37 61.573
+             angles 0 39.074 -86.059
+            }
+            Slot28 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et"
+              }
+             }
+             coords 32.076 -9.378 62.021
+             angles 0 78.919 -90
+            }
+            Slot29 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et"
+              }
+             }
+             coords 32.073 -9.376 61.597
+             angles 0 -32.559 -90
+            }
+            Slot47 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+              }
+             }
+             coords 36.464 -9.109 60.861
+             angles 0 0 -85.242
+            }
+            Slot51 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+              }
+             }
+             coords 36.622 -9.118 60.777
+             angles 0 0 -90
+            }
+            Slot52 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+              }
+             }
+             coords 36.566 -9.119 60.889
+             angles 0 -116.781 -90
+            }
+           }
+          }
+         }
+         HouseD_var2 {
+          coords 0 0 0
+          {
+           $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+            Slot39 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{8F5A4A44DD1D84D6}Prefabs/Weapons/Rifles/M1 Garand/BC_Rifle_M1_Garand.et"
+              }
+             }
+             coords 32.726 -6.873 58.279
+             angles 0 174.792 90
+            }
+            Slot43 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{6224DDAB578E96C0}Prefabs/Weapons/Magazines/M1 Garand/BC_Clip_8rnd_M1_Garand.et"
+              }
+             }
+             coords 32.973 -6.911 57.978
+            }
+            Slot44 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{6224DDAB578E96C0}Prefabs/Weapons/Magazines/M1 Garand/BC_Clip_8rnd_M1_Garand.et"
+              }
+             }
+             coords 32.865 -6.897 58.116
+             angles 0 0 90
+            }
+            Slot45 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{6224DDAB578E96C0}Prefabs/Weapons/Magazines/M1 Garand/BC_Clip_8rnd_M1_Garand.et"
+              }
+             }
+             coords 33.046 -6.898 58.15
+             angles 0 -125.205 90
+            }
+            Slot46 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{6224DDAB578E96C0}Prefabs/Weapons/Magazines/M1 Garand/BC_Clip_8rnd_M1_Garand.et"
+              }
+             }
+             coords 33.079 -6.895 58.034
+             angles 0 -64.537 90
+            }
+            Slot42 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{D9889FC9DB8C06C0}Prefabs/Weapons/Handguns/HiPower/Handgun_HiPower.et"
+              }
+             }
+             coords 34.195 -6.13 60.045
+             angles 0 -166.002 -90
+            }
+            Slot48 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{1E7D876C06089E21}Prefabs/Weapons/Magazines/Magazine_9x19_HiPower_13rnd_Ball.et"
+              }
+             }
+             coords 34.229 -6.132 60.14
+             angles 0 61.491 -90
+            }
+            Slot49 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{1E7D876C06089E21}Prefabs/Weapons/Magazines/Magazine_9x19_HiPower_13rnd_Ball.et"
+              }
+             }
+             coords 34.3 -6.131 60.328
+             angles 0 -145.017 -90
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      HouseE {
+       components {
+        SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+         m_SpawnChildren RANDOM_ONE
+        }
+       }
+       coords 0 0 0
+       {
+        $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+         HouseE_var1 {
+          coords 0 0 0
+          {
+           $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+            Slot27 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{7ECA478D7C80ACC0}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M193_M196_Last_5Tracer.et"
+              }
+             }
+             coords 118.442 -6.218 125.462
+             angles 0 0 -90
+            }
+            Slot32 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{7ECA478D7C80ACC0}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M193_M196_Last_5Tracer.et"
+              }
+             }
+             coords 118.355 -6.22 125.63
+             angles 0 -173.83 -90
+            }
+            Slot33 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{F1290C76103E99E6}Prefabs/Weapons/Rifles/M16A1/BC_Rifle_M16A1.et"
+              }
+             }
+             coords 118.704 -5.897 125.403
+             angles 78.962 85.4 45.921
+            }
+            Slot53 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{1353C6EAD1DCFE43}Prefabs/Weapons/Handguns/M9/Handgun_M9.et"
+              }
+             }
+             coords 114.028 -5.565 122.304
+             angles 0 -164.295 90.213
+            }
+            Slot57 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
+              }
+             }
+             coords 113.956 -5.567 122.157
+             angles 0.178 138.777 90.116
+            }
+            Slot58 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
+              }
+             }
+             coords 113.808 -5.573 122.092
+             angles -0.074 -4.556 89.801
+            }
+           }
+          }
+         }
+         HouseE_var2 {
+          coords 0 0 0
+          {
+           $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+            Slot50 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{067C721F30C8CB92}Prefabs/Weapons/Rifles/Type 56/BC_Rifle_Type56.et"
+              }
+             }
+             coords 121.585 -5.634 138.569
+             angles -82.677 34.95 180
+            }
+            Slot54 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{D66B57C62D7D503C}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Last_5Tracer.et"
+              }
+             }
+             coords 121.914 -5.727 138.186
+             angles 0 -78.546 90
+            }
+            Slot55 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{D66B57C62D7D503C}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Last_5Tracer.et"
+              }
+             }
+             coords 122.033 -5.723 138.634
+             angles 0 0 90
+            }
+            Slot56 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+              }
+             }
+             coords 116.358 -4.925 132.539
+             angles 0 151.766 90
+            }
+            Slot60 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+              }
+             }
+             coords 116.114 -4.927 132.61
+             angles 0 151.766 90
+            }
+            Slot61 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+              }
+             }
+             coords 116.168 -4.927 132.4
+             angles 0 -61.067 90
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      HouseF {
+       components {
+        SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+         m_SpawnChildren RANDOM_MULTIPLE
+         m_iRandomPercent 67
+        }
+       }
+       coords 0 0 0
+       {
+        $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+         HouseF_var1 {
+          coords 0 0 0
+          {
+           $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+            Slot18 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et"
+              }
+             }
+             coords 98.057 -5.634 146.264
+             angles 0 -53.044 -90
+            }
+            Slot21 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et"
+              }
+             }
+             coords 98.164 -5.633 146.339
+             angles 0 -136.943 -90
+            }
+            Slot26 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et"
+              }
+             }
+             coords 98.162 -5.636 146.029
+             angles 0 -53.044 -90
+            }
+            Slot30 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{08DB30914359361E}Prefabs/Weapons/Magazines/BC_Magazine_762x54_Stripper_5rnd_Mosin_Nagant.et"
+              }
+             }
+             coords 98.068 -5.631 146.149
+             angles 0 91.903 -90
+            }
+            Slot7 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{C1B4F7B87B720EE8}Prefabs/Weapons/Rifles/Mosin/BC_Rifle_Mosin_Nagant_9130.et"
+              }
+             }
+             coords 98.747 -5.847 146.702
+             angles 76.723 77.416 -32.512
+            }
+           }
+          }
+         }
+         HouseE_ver2 {
+          coords 0 0 0
+          {
+           $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+            Slot59 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{BFE79C383ABDE6D2}Prefabs/Weapons/Rifles/MP40/BC_MP40.et"
+              }
+             }
+             coords 90.918 -5.796 137.488
+             angles 77.802 -48.984 -85.591
+            }
+            Slot63 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{EA76BE12E7C97CF1}Prefabs/Weapons/Magazines/MP40/BC_Magazine_9x19_MP40_32rnd_Ball.et"
+              }
+             }
+             coords 90.781 -5.439 137.769
+             angles 0 33.967 22.417
+            }
+            Slot64 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{EA76BE12E7C97CF1}Prefabs/Weapons/Magazines/MP40/BC_Magazine_9x19_MP40_32rnd_Ball.et"
+              }
+             }
+             coords 90.612 -5.612 137.614
+             angles 66.233 144.447 110.444
+            }
+           }
+          }
+         }
+        }
+        GenericEntity Slot5 : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+          }
+         }
+         coords 92.712 -5.523 149.599
+        }
+       }
+      }
+      HouseG {
+       components {
+        SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+         m_SpawnChildren RANDOM_ONE
+        }
+       }
+       coords 0 0 0
+       {
+        $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+         HouseG_var1 {
+          coords 87.861 -6.221 82.351
+          {
+           $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+            Slot65 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{BFEA719491610A45}Prefabs/Weapons/Rifles/AKS74U/Rifle_AKS74U.et"
+              }
+             }
+             coords -5.272 -3.077 0.498
+             angles 0.918 -107.897 -90.018
+            }
+            Slot66 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et"
+              }
+             }
+             coords -5.578 -3.082 0.095
+             angles 0 78.919 -90
+            }
+            Slot67 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et"
+              }
+             }
+             coords -5.504 -3.083 0.205
+             angles 0 26.385 -90
+            }
+            Slot68 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+              }
+             }
+             coords 2.771 0.437 -1.262
+             angles 0 0 -91.494
+            }
+            Slot69 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+              }
+             }
+             coords 3.197 0.245 -1.033
+             angles 0 0 -90
+            }
+            Slot70 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+              }
+             }
+             coords 3.343 0.248 -0.817
+             angles 0 -116.781 -90
+            }
+           }
+          }
+         }
+         HouseG_var2 {
+          coords 84.474 -3.666 77.18
+          {
+           $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+            Slot71 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{8F5A4A44DD1D84D6}Prefabs/Weapons/Rifles/M1 Garand/BC_Rifle_M1_Garand.et"
+              }
+             }
+             coords -2.237 0.258 2.831
+             angles 76.245 -145.191 -92.918
+            }
+            Slot72 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{6224DDAB578E96C0}Prefabs/Weapons/Magazines/M1 Garand/BC_Clip_8rnd_M1_Garand.et"
+              }
+             }
+             coords -1.49 0.896 3.243
+            }
+            Slot73 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{6224DDAB578E96C0}Prefabs/Weapons/Magazines/M1 Garand/BC_Clip_8rnd_M1_Garand.et"
+              }
+             }
+             coords -1.6 0.91 3.414
+             angles 0 0 90
+            }
+            Slot74 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{6224DDAB578E96C0}Prefabs/Weapons/Magazines/M1 Garand/BC_Clip_8rnd_M1_Garand.et"
+              }
+             }
+             coords -1.624 0.911 3.337
+             angles 0 -125.205 90
+            }
+            Slot75 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{6224DDAB578E96C0}Prefabs/Weapons/Magazines/M1 Garand/BC_Clip_8rnd_M1_Garand.et"
+              }
+             }
+             coords -1.557 0.911 3.203
+             angles 0 -64.537 90
+            }
+            Slot76 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{D9889FC9DB8C06C0}Prefabs/Weapons/Handguns/HiPower/Handgun_HiPower.et"
+              }
+             }
+             coords 7.001 0.064 5.639
+             angles 0 -155.451 10.266
+            }
+            Slot77 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{1E7D876C06089E21}Prefabs/Weapons/Magazines/Magazine_9x19_HiPower_13rnd_Ball.et"
+              }
+             }
+             coords 6.975 0.007 5.753
+             angles 0 61.491 -90
+            }
+            Slot78 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{1E7D876C06089E21}Prefabs/Weapons/Magazines/Magazine_9x19_HiPower_13rnd_Ball.et"
+              }
+             }
+             coords 7.106 0 5.769
+             angles 0 -145.017 -90
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      HouseH {
+       components {
+        SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+         m_SpawnChildren RANDOM_ONE
+        }
+       }
+       coords -1.538 -6.686 128.865
+       {
+        $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+         HouseH_var1 {
+          coords -0.152 0.002 -0.175
+          {
+           $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+            Slot79 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{995B334262EDDA95}Prefabs/Weapons/Rifles/AKM/BC_Rifle_AKM.et"
+              }
+             }
+             coords -4.584 0.754 0.869
+             angles -2.362 -123.911 90.173
+            }
+            Slot80 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{D66B57C62D7D503C}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Last_5Tracer.et"
+              }
+             }
+             coords -4.76 0.737 0.504
+             angles -0.36 -47.25 89.667
+            }
+            Slot81 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{D66B57C62D7D503C}Prefabs/Weapons/Magazines/AK/BC_Magazine_762x39_AK_30rnd_Last_5Tracer.et"
+              }
+             }
+             coords -4.898 0.741 1.031
+             angles 0.449 66.448 89.804
+            }
+           }
+          }
+         }
+         HouseH_var2 {
+          coords -1.389 -0.003 0.072
+          {
+           $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+            Slot83 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+              }
+             }
+             coords 2.393 0.873 0.449
+             angles 0 0 -90
+            }
+            Slot84 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+              }
+             }
+             coords 2.276 0.867 0.33
+             angles 0 -128.669 -90
+            }
+            Slot82 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+              }
+             }
+             coords 2.511 0.867 0.549
+             angles 0 -19.205 -90
+            }
+            Slot85 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{1353C6EAD1DCFE43}Prefabs/Weapons/Handguns/M9/Handgun_M9.et"
+              }
+             }
+             coords 3.61 0.886 -6.095
+             angles 0 -164.295 90.213
+            }
+            Slot86 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
+              }
+             }
+             coords 3.54 0.884 -6.241
+             angles 0.178 138.777 90.116
+            }
+            Slot87 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
+              }
+             }
+             coords 3.392 0.878 -6.307
+             angles -0.074 -4.556 89.801
+            }
+            Slot88 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{1E7D876C06089E21}Prefabs/Weapons/Magazines/Magazine_9x19_HiPower_13rnd_Ball.et"
+              }
+             }
+             coords -4.479 -2.63 -1.21
+             angles 0 0 90
+            }
+            Slot89 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{D9889FC9DB8C06C0}Prefabs/Weapons/Handguns/HiPower/Handgun_HiPower.et"
+              }
+             }
+             coords -4.573 -2.622 -0.987
+             angles 0 0 88.072
+            }
+            Slot90 {
+             components {
+              SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+               m_sObjectToSpawn "{1E7D876C06089E21}Prefabs/Weapons/Magazines/Magazine_9x19_HiPower_13rnd_Ball.et"
+              }
+             }
+             coords -4.435 -2.628 -1.076
+             angles 0 -165.247 90
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{E6FC6DD69FA3479F}Prefabs/System/DRG_MissionEndTimerPrefab.et" {
+ components {
+  DRG_MissionEndTimerComponent "{651B0839B21B3BBF}" {
+   m_bUseDescriptionGenerator 0
+   m_iMissionTime 2100
+   m_sMessage ""
+  }
+ }
+ coords 6214.142 87.777 11206.436
+}

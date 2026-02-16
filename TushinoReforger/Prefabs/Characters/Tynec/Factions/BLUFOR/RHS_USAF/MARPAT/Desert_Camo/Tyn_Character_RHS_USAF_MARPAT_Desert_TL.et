@@ -1,0 +1,43 @@
+SCR_ChimeraCharacter : "{7ABB3B98B0DAC19D}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_TeamLeader"
+    Icon "{44B846FB4F46E36A}UI/Icons/team_leader.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{4864CD1CB7F350E0}Prefabs/Weapons/Rifles/M4A1/Tyn_Rifle_M4A1_BLOCK_0_ACOG.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{1353C6EAD1DCFE43}Prefabs/Weapons/Handguns/M9/Handgun_M9.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6878B42B4E0F31A3}" {
+     PrefabsToSpawn {
+      "{4421A403A72806C7}Prefabs/Items/Tynec/Equipment/Radios/US/Tyn_Radio_ANPRC152A_OLD_SL.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6885160CA2E38143}" {
+     TargetStorage "Pants/Pants_FROG_Trousers_Arid.et"
+     PrefabsToSpawn {
+      "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+}
