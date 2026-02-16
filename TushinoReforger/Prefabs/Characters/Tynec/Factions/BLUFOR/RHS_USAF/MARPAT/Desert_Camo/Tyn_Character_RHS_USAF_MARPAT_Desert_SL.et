@@ -13,7 +13,6 @@ SCR_ChimeraCharacter : "{22E9DBB1BD3E7564}Prefabs/Characters/Tynec/Factions/BLUF
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Back {
-     Prefab "{B724B666760FB9A1}Prefabs/Items/Tynec/Equipment/Radios/US/Tyn_Radio_ANPRC77.et"
     }
    }
   }

@@ -7,5 +7,21 @@ SCR_ChimeraCharacter : "{252E21E0DBB8CFA7}Prefabs/Characters/Tynec/Factions/BLUF
     Icon "{B0B3E06A17B8AC6D}UI/Icons/officer.edds"
    }
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{B724B666760FB9A1}Prefabs/Items/Tynec/Equipment/Radios/US/Tyn_Radio_ANPRC77.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6878B42B4E0F31A3}" {
+     PrefabsToSpawn {
+      "{5FDAD8676491D3D4}Prefabs/Items/Tynec/Equipment/Radios/US/Tyn_Radio_ANPRC68.et"
+     }
+    }
+   }
+  }
  }
 }
