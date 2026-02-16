@@ -1,0 +1,32 @@
+SCR_ChimeraCharacter : "{1AB10EE587737957}Prefabs/Characters/Tynec/Factions/BLUFOR/RHS_USAF/MARPAT/Desert_Camo/Tyn_Character_RHS_USAF_MARPAT_Desert_MG.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{F98CF71C0B32DEF4}UI/Icons/heave_machine_gunner.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D182DCDD72BF7E34}Prefabs/Weapons/MachineGuns/M60/MG_M60.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{687CC79FF626D5C2}" {
+     PrefabsToSpawn {
+      "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{687CC79A38A19DFE}" {
+     PrefabsToSpawn {
+      "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{687CC79A105BDEE6}" {
+     PrefabsToSpawn {
+      "{AD8AB93729348C3E}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_Tracer.et" "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}
