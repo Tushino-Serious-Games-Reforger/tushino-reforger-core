@@ -1,0 +1,139 @@
+PolylineShapeEntity MEI_zone {
+ components {
+  PS_PolyZone "{68A064DAD05758AA}" {
+   m_cPolygonColor 1 1 1 0
+   m_cPolygonBorderColor 0.561 0.071 0.071 1
+   m_fPolygonBorderWidth 8.9
+   m_aVisibleForFactions {
+    "RHS_USAF"
+    "MEI"
+    ""
+   }
+  }
+ }
+ coords 6333.387 97.726 11600.028
+ Points {
+  ShapePoint "{68A064DAE8A30103}" {
+   Position 0 -0 0
+  }
+  ShapePoint "{68A064DAE8A4E90A}" {
+   Position -115.864 -0.626 -123.874
+  }
+  ShapePoint "{68A064DAE438166A}" {
+   Position -248.41 4.492 -270.279
+  }
+  ShapePoint "{68A064DAFEC0861F}" {
+   Position -392.599 -1.411 -398.442
+  }
+  ShapePoint "{68A064DAFE00C38E}" {
+   Position -304.317 -2.581 -469.691
+  }
+  ShapePoint "{68A064DAFCAA1A0C}" {
+   Position -236.593 -5.698 -524.924
+  }
+  ShapePoint "{68A064DAFC5DCFB2}" {
+   Position -189.454 -5.489 -538.72
+  }
+  ShapePoint "{68A064DAF9E57C4D}" {
+   Position -105.374 -4.538 -563.852
+  }
+  ShapePoint "{68A064DAF97FE4DC}" {
+   Position -101.086 -4.538 -556.36
+  }
+  ShapePoint "{68A064DAF7AB1A23}" {
+   Position -82.203 -4.539 -566.046
+  }
+  ShapePoint "{68A064DAF2F73C98}" {
+   Position -17.898 -4.538 -607.285
+  }
+  ShapePoint "{68A064DAF0F1AFB6}" {
+   Position 3.272 -4.538 -628.061
+  }
+  ShapePoint "{68A064DAF08B766B}" {
+   Position 35.399 -4.538 -605.712
+  }
+  ShapePoint "{68A064DAF013E6F8}" {
+   Position 38.196 -4.538 -583.988
+  }
+  ShapePoint "{68A064DACCE867A5}" {
+   Position 54.391 -8.687 -529.579
+  }
+  ShapePoint "{68A064DACC1B5310}" {
+   Position 54.164 -10.387 -506.404
+  }
+  ShapePoint "{68A064DAC99AD590}" {
+   Position 60.777 -11.071 -420.346
+  }
+  ShapePoint "{68A064DAC92DC902}" {
+   Position 62.949 -11.11 -413.849
+  }
+  ShapePoint "{68A064DAC8B373BA}" {
+   Position 70.42 -11.213 -398.416
+  }
+  ShapePoint "{68A064DAC2A2A981}" {
+   Position 94.665 -12.797 -348.585
+  }
+  ShapePoint "{68A064DAC24DF307}" {
+   Position 120.906 -11.637 -331.033
+  }
+  ShapePoint "{68A064DAC1181E7D}" {
+   Position 148.962 -10.59 -317.033
+  }
+  ShapePoint "{68A064DAC030BCF1}" {
+   Position 176.628 -6.656 -306.379
+  }
+  ShapePoint "{68A064DADDC6E111}" {
+   Position 216.204 -10.25 -253.787
+  }
+  ShapePoint "{68A064DADCB592B4}" {
+   Position 245.226 -10.156 -220.79
+  }
+  ShapePoint "{68A064DADBFDDD48}" {
+   Position 146.072 -10.007 -127.701
+  }
+  ShapePoint "{68A064DAD6AD24C9}" {
+   Position 124.544 -9.822 -104.072
+  }
+  ShapePoint "{68A064DAD658022A}" {
+   Position 113.002 -9.789 -94.711
+  }
+  ShapePoint "{68A064DAD553335F}" {
+   Position 43.747 -9.944 -39.856
+  }
+ }
+ IsClosed 1
+ {
+  PS_PolyZoneTrigger MEI_Annaliahtion : "{36881BE9C87B9048}Prefabs/Trigger/TSG_Annahilation_zone.et" {
+   coords -124.93 -6.14 -199.413
+   m_polyZoneEffect PS_PolyZoneEffectRestricted "{614548BC046ADB65}" {
+    m_fKillTime 15
+   }
+   m_sFactionKey "MEI"
+  }
+ }
+}
+SCR_EditorRestrictionZoneEntity Freeze : "{EF72FA7CD87618D5}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneSmall.et" {
+ components {
+  SCR_ZoneRestrictionAreaMeshComponent "{56D8A3C5A31496A1}" {
+   m_fHeight 2
+   m_vResolution 60
+   m_bFollowTerrain 1
+  }
+ }
+ coords 7106.654 72.109 12542.061
+ m_fWarnRadius 25.1
+ m_fZoneRadius 52.9
+ m_fZoneTeleportedRadius 211.6
+ {
+  GenericEntity {
+   ID "59D673B36B893D84"
+   components {
+    SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+     m_fHeight 3
+     m_bFollowTerrain 1
+     m_fRadius 25.1
+    }
+   }
+  }
+ }
+}

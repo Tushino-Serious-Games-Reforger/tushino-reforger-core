@@ -1,0 +1,41 @@
+Vehicle : "{4E3A86638BFF9FC6}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance_USAF.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{689E743FDEEEF524}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
+     AssignedMaterial "{C4AB365990070417}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_USAF_D.emat"
+    }
+    MaterialAssignClass "{689E743FDEED05DF}" {
+     SourceMaterial "HMMWV_Body_Int_1C7B4ACE653D9BD1"
+     AssignedMaterial "{2CC2BB6BF01F3499}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Int_USAF_D.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{4A47A264E62EF4AE}UI/Textures/EditorPreviews/Vehicles/m998/M997_maxi_ambulance_USAF_D.edds"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Tailgate {
+     Prefab "{043F0CF18FDEB7B7}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_tailgate_USAF_D.et"
+    }
+    RegisteringComponentSlotInfo Mirrors {
+     Prefab "{F7760445AFF2B2F4}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_mirrors_01_USAF_D.et"
+    }
+    RegisteringComponentSlotInfo MaxiAmbuBox {
+     Prefab "{7F98C1671C50BBD1}Prefabs/Vehicles/Wheeled/M998/VehParts/M997_maxi_ambulance_box_USAF_D.et"
+    }
+    RegisteringComponentSlotInfo Doors_front {
+     Prefab "{3ADC8B7273D85DBE}Prefabs/Vehicles/Wheeled/M998/VehParts/M997_doors_front_USAF_D.et"
+    }
+    RegisteringComponentSlotInfo Arsenal {
+     Prefab ""
+    }
+   }
+  }
+ }
+}

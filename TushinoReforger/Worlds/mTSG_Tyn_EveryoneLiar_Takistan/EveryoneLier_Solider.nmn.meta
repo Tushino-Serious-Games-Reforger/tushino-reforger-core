@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{EDA89B9BD8ACF9B1}Worlds/mTSG_Tyn_EveryoneLiar_Takistan/EveryoneLier_Solider.nmn"
+ Configurations {
+  NavMeshResourceClass PC {
+  }
+  NavMeshResourceClass XBOX_ONE : PC {
+  }
+  NavMeshResourceClass XBOX_SERIES : PC {
+  }
+  NavMeshResourceClass PS4 : PC {
+  }
+  NavMeshResourceClass PS5 : PC {
+  }
+  NavMeshResourceClass HEADLESS : PC {
+  }
+  NavMeshResourceClass Xbox : PC {
+  }
+ }
+}

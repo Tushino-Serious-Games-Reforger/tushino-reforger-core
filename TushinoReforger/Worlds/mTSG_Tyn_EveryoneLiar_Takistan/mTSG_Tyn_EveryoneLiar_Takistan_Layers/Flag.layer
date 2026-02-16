@@ -1,0 +1,21 @@
+GenericEntity MEI_Flag : "{37FF769500E5C13C}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V2_FIA.et" {
+ components {
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_sDefaultMaterial "{19CFEC4F05FD38C9}Assets/Props/Fabric/Flags/Data/Flag_1_2_MiddleEastInsurgents.emat"
+   m_aObjectiveNames {
+    "CaptureFlag_MEI"
+    "CaptureFlag_USAF"
+   }
+   m_sFactionKey "MEI"
+  }
+  BaseActionsManagerComponent "{6202D4E6F133BF4A}" {
+   additionalActions {
+    PS_FlagChangeAction "{6202D4E6A53D4B3C}" {
+     Duration 15
+    }
+   }
+  }
+ }
+ coords 6208.548 93.933 11233.571
+ angles 23.219 84.96 -4.855
+}

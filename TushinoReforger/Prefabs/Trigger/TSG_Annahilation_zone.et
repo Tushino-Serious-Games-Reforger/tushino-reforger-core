@@ -1,0 +1,22 @@
+PS_PolyZoneTrigger {
+ ID "68A064DA455BEAA4"
+ components {
+  Hierarchy "{614548BDF998E12B}" {
+  }
+ }
+ coords 41.895 -15.519 -254.623
+ TriggerShapeType Polyline
+ "Polyline Height" 500
+ ShapeColor 1 0 0 0
+ TriggerActivationType "All changes"
+ PeriodicQueries 1
+ UpdatePeriod 3
+ ClassesFilter {
+  "SCR_ChimeraCharacter"
+ }
+ m_polyZoneEffect PS_PolyZoneEffectRestricted "{614548BC046ADB65}" {
+  m_fKillTime 60
+ }
+ m_bReversed 1
+ m_bAliveOnly 1
+}

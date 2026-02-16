@@ -1,0 +1,18 @@
+PS_ManualMarker Marker_task : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 6208.548 93.933 11233.571
+ m_sImageSet "{F7E8D4834A3AFF2F}UI/Imagesets/Conflict/conflict-icons-bw.imageset"
+ m_sImageSetGlow ""
+ m_MarkerColor 1 1 1 1
+ m_sQuadName "Icon_Move"
+ m_fWorldSize 50
+ m_sDescription "Здание Администрации"
+ m_bUseWorldScale 0
+ m_aVisibleForFactions {
+  "RHS_USAF"
+  "MEI"
+ }
+ m_bVisibleForEmptyFaction 1
+ m_aHideOnGameModeStates {
+ }
+ m_iZOrder 1
+}

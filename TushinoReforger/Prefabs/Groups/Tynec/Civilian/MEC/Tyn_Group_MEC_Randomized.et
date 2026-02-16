@@ -1,0 +1,9 @@
+SCR_AIGroup : "{E4051E06CC119361}Prefabs/Groups/TSG_Group_Base.et" {
+ ID "663F28234C72DB2C"
+ coords 6250.577 86.712 11246.795
+ angles 0 111.948 0
+ m_faction "MEC"
+ m_aUnitPrefabSlots {
+  "{26E50D08BDA35D18}Prefabs/Characters/Tynec/Factions/Civilian/MEC/Random_Characters/Tyn_Character_MEC_Random.et"
+ }
+}
