@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{8AF49E9B364B2559}Prefabs/Items/Tynec/Equipment/Radios/Tyn_Radio_ANPRC152A_ION_OLD_SL.et"
+ Name "{D8D610CC3AB6D138}Prefabs/Items/Tynec/Equipment/Radios/ION/Tyn_Radio_ANPRC152A_ION_OLD_SL.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }
